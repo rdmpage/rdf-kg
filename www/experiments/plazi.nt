@@ -1,0 +1,74 @@
+<http://identifiers.org/doi/10.1111/syen.12181> <http://purl.org/dc/terms/identifier> <http://identifiers.org/doi/10.1111/syen.12181> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/publisher> "Wiley-Blackwell" .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/issueNumber> "3" .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/license> <http://doi.wiley.com/10.1002/tdm_license_1> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/license> <http://onlinelibrary.wiley.com/termsAndConditions> .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organisation> .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_1> <http://schema.org/name> "NSF" .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_1/award0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_1/award0> <http://schema.org/roleName> "DEB-1354996" .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_1/award0> <http://schema.org/funder> <http://identifiers.org/doi/10.1111/syen.12181#funder_1> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/funder> <http://identifiers.org/doi/10.1111/syen.12181#funder_1/award0> .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organisation> .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_2> <http://schema.org/name> "Brazilian Council of Research and Scientific Development" .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_2/award0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_2/award0> <http://schema.org/roleName> "CNPq 457407/2012-3" .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_2/award0> <http://schema.org/funder> <http://identifiers.org/doi/10.1111/syen.12181#funder_2> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/funder> <http://identifiers.org/doi/10.1111/syen.12181#funder_2/award0> .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organisation> .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_3> <http://schema.org/name> "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior in the form of a grant (CAPES)" .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_3/award> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://identifiers.org/doi/10.1111/syen.12181#funder_3/award> <http://schema.org/funder> <http://identifiers.org/doi/10.1111/syen.12181#funder_3> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/funder> <http://identifiers.org/doi/10.1111/syen.12181#funder_3/award> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/name> "Out of the Neotropics: newly discovered relictual species sheds light on the biogeographical history of spider ants (Leptomyrmex, Dolichoderinae, Formicidae)" .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/volumeNumber> "41" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/author> <http://identifiers.org/doi/10.1111/syen.12181#author_1> .
+<http://identifiers.org/doi/10.1111/syen.12181#author_1> <http://schema.org/givenName> "BRENDON E." .
+<http://identifiers.org/doi/10.1111/syen.12181#author_1> <http://schema.org/familyName> "BOUDINOT" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_1> <http://schema.org/name> "BRENDON E. BOUDINOT" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_1> <http://schema.org/affiliation> "Department of Entomology and Nematology; University of California; Davis CA U.S.A." .
+<http://identifiers.org/doi/10.1111/syen.12181#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/author> <http://identifiers.org/doi/10.1111/syen.12181#author_2> .
+<http://identifiers.org/doi/10.1111/syen.12181#author_2> <http://schema.org/givenName> "RODOLFO S." .
+<http://identifiers.org/doi/10.1111/syen.12181#author_2> <http://schema.org/familyName> "PROBST" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_2> <http://schema.org/name> "RODOLFO S. PROBST" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_2> <http://schema.org/affiliation> "Laboratório de Hymenoptera, Museu de Zoologia da Universidade de São Paulo; São Paulo Brazil" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/author> <http://identifiers.org/doi/10.1111/syen.12181#author_3> .
+<http://identifiers.org/doi/10.1111/syen.12181#author_3> <http://schema.org/givenName> "CARLOS ROBERTO F." .
+<http://identifiers.org/doi/10.1111/syen.12181#author_3> <http://schema.org/familyName> "BRANDÃO" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_3> <http://schema.org/name> "CARLOS ROBERTO F. BRANDÃO" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_3> <http://schema.org/affiliation> "Laboratório de Hymenoptera, Museu de Zoologia da Universidade de São Paulo; São Paulo Brazil" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/author> <http://identifiers.org/doi/10.1111/syen.12181#author_4> .
+<http://identifiers.org/doi/10.1111/syen.12181#author_4> <http://schema.org/givenName> "RODRIGO M." .
+<http://identifiers.org/doi/10.1111/syen.12181#author_4> <http://schema.org/familyName> "FEITOSA" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_4> <http://schema.org/name> "RODRIGO M. FEITOSA" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_4> <http://schema.org/affiliation> "Departamento de Zoologia; Universidade Federal do Paraná; Curitiba Brazil" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/author> <http://identifiers.org/doi/10.1111/syen.12181#author_5> .
+<http://identifiers.org/doi/10.1111/syen.12181#author_5> <http://schema.org/givenName> "PHILIP S." .
+<http://identifiers.org/doi/10.1111/syen.12181#author_5> <http://schema.org/familyName> "WARD" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_5> <http://schema.org/name> "PHILIP S. WARD" .
+<http://identifiers.org/doi/10.1111/syen.12181#author_5> <http://schema.org/affiliation> "Department of Entomology and Nematology; University of California; Davis CA U.S.A." .
+<http://identifiers.org/doi/10.1111/syen.12181#link_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://identifiers.org/doi/10.1111/syen.12181#link_1> <http://schema.org/url> <http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fsyen.12181> .
+<http://identifiers.org/doi/10.1111/syen.12181#link_1> <http://schema.org/fileFormat> "application/pdf" .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/workExample> <http://identifiers.org/doi/10.1111/syen.12181#link_1> .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/isPartOf> <http://www.worldcat.org/issn/0307-6970> .
+<http://www.worldcat.org/issn/0307-6970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.worldcat.org/issn/0307-6970> <http://schema.org/issn> "0307-6970" .
+<http://www.worldcat.org/issn/0307-6970> <http://schema.org/name> "Syst Entomol" .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/about> "Insect Science" .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://schema.org/about> "Ecology, Evolution, Behavior and Systematics" .
+<http://identifiers.org/doi/10.1111/syen.12181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<urn:uuid:1740c55d-ed56-42a4-9935-d6cf993d97f8> <http://purl.org/dc/terms/identifier> <http://identifiers.org/doi/10.1111/syen.12181> .
+<urn:uuid:1740c55d-ed56-42a4-9935-d6cf993d97f8> <http://schema.org/name> "Out of the Neotropics: newly discovered relictual species sheds light on the biogeographical history of spider ants (Leptomyrmex, Dolichoderinae, Formicidae)" .
+<urn:uuid:1740c55d-ed56-42a4-9935-d6cf993d97f8> <http://schema.org/description> "This dataset contains the digitized treatments in Plazi based on the original journal article Brendone Boudinot, Rodolfos Probst, Carlos Roberto F. Brandão, Rodrigo Feitosas, Philip S. Ward (2016): Out of the Neotropics: newly discovered relictual species sheds light on the biogeographical history of spider ants (Leptomyrmex, Dolichoderinae, Formicidae). Systematic Entomology 41: 658-671, DOI: 10.1111/syen.12181" .
+<urn:uuid:1740c55d-ed56-42a4-9935-d6cf993d97f8> <http://purl.org/dc/terms/identifier> <http://identifiers.org/doi/10.15468/p85v1f> .
+<urn:uuid:1740c55d-ed56-42a4-9935-d6cf993d97f8> <http://purl.org/dc/terms/identifier> <urn:uuid:6e9e6617-6e53-40b8-82c7-67f89a83c553> .
+<urn:uuid:1740c55d-ed56-42a4-9935-d6cf993d97f8> <http://purl.org/dc/terms/identifier> <urn:uuid:9e0fc029-0773-bb22-ffddff-bcde4fffd2> .
+<urn:uuid:1740c55d-ed56-42a4-9935-d6cf993d97f8> <http://schema.org/license> "unspecified" .
+<urn:uuid:1740c55d-ed56-42a4-9935-d6cf993d97f8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .

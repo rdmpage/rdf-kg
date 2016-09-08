@@ -1,0 +1,187 @@
+{
+    "indexed": {
+        "date-parts": [
+            [
+                2015,
+                12,
+                25
+            ]
+        ],
+        "date-time": "2015-12-25T23:19:19Z",
+        "timestamp": 1451085559768
+    },
+    "reference-count": 89,
+    "publisher": "Wiley-Blackwell",
+    "issue": "3",
+    "content-domains": {
+        "domains": [],
+        "crossmark-restriction": false
+    },
+    "license": [
+        {
+            "content-version": "tdm",
+            "delay-in-days": 337,
+            "start": {
+                "date-parts": [
+                    [
+                        2015,
+                        9,
+                        1
+                    ]
+                ],
+                "date-time": "2015-09-01T00:00:00Z",
+                "timestamp": 1441065600000
+            },
+            "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+        }
+    ],
+    "funder": [
+        {
+            "award": [
+                "Buck Postdoctoral Fellowship"
+            ],
+            "doi-asserted-by": "publisher",
+            "name": "Smithsonian Institution",
+            "DOI": "10.13039/100000014"
+        },
+        {
+            "award": [
+                "EF-0431330",
+                "DEB-1354739",
+                "DEB-1242260",
+                "DEB-1354996"
+            ],
+            "doi-asserted-by": "publisher",
+            "name": "National Science Foundation",
+            "DOI": "10.13039/100000001"
+        },
+        {
+            "award": [
+                "Grand Challenges"
+            ],
+            "doi-asserted-by": "publisher",
+            "name": "National Museum of Natural History",
+            "DOI": "10.13039/100006271"
+        }
+    ],
+    "published-print": {
+        "date-parts": [
+            [
+                2015,
+                5
+            ]
+        ]
+    },
+    "DOI": "10.1111/1755-0998.12328",
+    "type": "journal-article",
+    "created": {
+        "date-parts": [
+            [
+                2014,
+                9,
+                10
+            ]
+        ],
+        "date-time": "2014-09-10T13:43:58Z",
+        "timestamp": 1410356638000
+    },
+    "page": "489-501",
+    "source": "CrossRef",
+    "title": "Target enrichment of ultraconserved elements from arthropods provides a genomic perspective on relationships among Hymenoptera",
+    "prefix": "http://id.crossref.org/prefix/10.1111",
+    "volume": "15",
+    "author": [
+        {
+            "affiliation": [
+                {
+                    "name": "Department of Ecology and Evolutionary Biology; University of California; Los Angeles CA 90095 USA"
+                },
+                {
+                    "name": "Department of Biological Sciences; Louisiana State University; Baton Rouge LA 70803 USA"
+                }
+            ],
+            "family": "Faircloth",
+            "given": "Brant C."
+        },
+        {
+            "affiliation": [
+                {
+                    "name": "Department of Entomology; National Museum of Natural History; Smithsonian Institution; Washington DC 20560 USA"
+                }
+            ],
+            "family": "Branstetter",
+            "given": "Michael G."
+        },
+        {
+            "affiliation": [
+                {
+                    "name": "Department of Biology; University of Maryland; College Park MD 20742 USA"
+                },
+                {
+                    "name": "Department of Vertebrate Zoology; National Museum of Natural History; Smithsonian Institution; Washington DC 20560 USA"
+                }
+            ],
+            "family": "White",
+            "given": "Noor D."
+        },
+        {
+            "affiliation": [
+                {
+                    "name": "Department of Entomology; National Museum of Natural History; Smithsonian Institution; Washington DC 20560 USA"
+                }
+            ],
+            "family": "Brady",
+            "given": "Seán G."
+        }
+    ],
+    "member": "http://id.crossref.org/member/311",
+    "published-online": {
+        "date-parts": [
+            [
+                2014,
+                9,
+                29
+            ]
+        ]
+    },
+    "container-title": "Molecular Ecology Resources",
+    "link": [
+        {
+            "intended-application": "text-mining",
+            "content-version": "vor",
+            "content-type": "unspecified",
+            "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1755-0998.12328"
+        }
+    ],
+    "deposited": {
+        "date-parts": [
+            [
+                2015,
+                10,
+                20
+            ]
+        ],
+        "date-time": "2015-10-20T07:15:29Z",
+        "timestamp": 1445325329000
+    },
+    "score": 1,
+    "subtitle": [],
+    "issued": {
+        "date-parts": [
+            [
+                2014,
+                9,
+                29
+            ]
+        ]
+    },
+    "URL": "http://dx.doi.org/10.1111/1755-0998.12328",
+    "ISSN": [
+        "1755-098X"
+    ],
+    "subject": [
+        "Biotechnology",
+        "Genetics",
+        "Ecology, Evolution, Behavior and Systematics"
+    ]
+}

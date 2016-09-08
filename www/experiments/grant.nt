@@ -1,0 +1,75 @@
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://purl.org/dc/terms/identifier> <http://identifiers.org/doi/10.1111/1755-0998.12328> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/publisher> "Wiley-Blackwell" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/issueNumber> "3" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/license> <http://doi.wiley.com/10.1002/tdm_license_1> .
+<http://identifiers.org/doi/10.13039/100000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organisation> .
+<http://identifiers.org/doi/10.13039/100000014> <http://schema.org/name> "Smithsonian Institution" .
+<http://identifiers.org/doi/10.13039/100000014/award0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://identifiers.org/doi/10.13039/100000014/award0> <http://schema.org/roleName> "Buck Postdoctoral Fellowship" .
+<http://identifiers.org/doi/10.13039/100000014/award0> <http://schema.org/funder> <http://identifiers.org/doi/10.13039/100000014> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/funder> <http://identifiers.org/doi/10.13039/100000014/award0> .
+<http://identifiers.org/doi/10.13039/100000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organisation> .
+<http://identifiers.org/doi/10.13039/100000001> <http://schema.org/name> "National Science Foundation" .
+<http://identifiers.org/doi/10.13039/100000001/award0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://identifiers.org/doi/10.13039/100000001/award0> <http://schema.org/roleName> "EF-0431330" .
+<http://identifiers.org/doi/10.13039/100000001/award0> <http://schema.org/funder> <http://identifiers.org/doi/10.13039/100000001> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/funder> <http://identifiers.org/doi/10.13039/100000001/award0> .
+<http://identifiers.org/doi/10.13039/100000001/award1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://identifiers.org/doi/10.13039/100000001/award1> <http://schema.org/roleName> "DEB-1354739" .
+<http://identifiers.org/doi/10.13039/100000001/award1> <http://schema.org/funder> <http://identifiers.org/doi/10.13039/100000001> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/funder> <http://identifiers.org/doi/10.13039/100000001/award1> .
+<http://identifiers.org/doi/10.13039/100000001/award2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://identifiers.org/doi/10.13039/100000001/award2> <http://schema.org/roleName> "DEB-1242260" .
+<http://identifiers.org/doi/10.13039/100000001/award2> <http://schema.org/funder> <http://identifiers.org/doi/10.13039/100000001> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/funder> <http://identifiers.org/doi/10.13039/100000001/award2> .
+<http://identifiers.org/doi/10.13039/100000001/award3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://identifiers.org/doi/10.13039/100000001/award3> <http://schema.org/roleName> "DEB-1354996" .
+<http://identifiers.org/doi/10.13039/100000001/award3> <http://schema.org/funder> <http://identifiers.org/doi/10.13039/100000001> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/funder> <http://identifiers.org/doi/10.13039/100000001/award3> .
+<http://identifiers.org/doi/10.13039/100006271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organisation> .
+<http://identifiers.org/doi/10.13039/100006271> <http://schema.org/name> "National Museum of Natural History" .
+<http://identifiers.org/doi/10.13039/100006271/award0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> .
+<http://identifiers.org/doi/10.13039/100006271/award0> <http://schema.org/roleName> "Grand Challenges" .
+<http://identifiers.org/doi/10.13039/100006271/award0> <http://schema.org/funder> <http://identifiers.org/doi/10.13039/100006271> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/funder> <http://identifiers.org/doi/10.13039/100006271/award0> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/name> "Target enrichment of ultraconserved elements from arthropods provides a genomic perspective on relationships among Hymenoptera" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/volumeNumber> "15" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/author> <http://identifiers.org/doi/10.1111/1755-0998.12328#author_1> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_1> <http://schema.org/givenName> "Brant C." .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_1> <http://schema.org/familyName> "Faircloth" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_1> <http://schema.org/name> "Brant C. Faircloth" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_1> <http://schema.org/affiliation> "Department of Ecology and Evolutionary Biology; University of California; Los Angeles CA 90095 USA" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_1> <http://schema.org/affiliation> "Department of Biological Sciences; Louisiana State University; Baton Rouge LA 70803 USA" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/author> <http://identifiers.org/doi/10.1111/1755-0998.12328#author_2> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_2> <http://schema.org/givenName> "Michael G." .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_2> <http://schema.org/familyName> "Branstetter" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_2> <http://schema.org/name> "Michael G. Branstetter" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_2> <http://schema.org/affiliation> "Department of Entomology; National Museum of Natural History; Smithsonian Institution; Washington DC 20560 USA" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/author> <http://identifiers.org/doi/10.1111/1755-0998.12328#author_3> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_3> <http://schema.org/givenName> "Noor D." .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_3> <http://schema.org/familyName> "White" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_3> <http://schema.org/name> "Noor D. White" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_3> <http://schema.org/affiliation> "Department of Biology; University of Maryland; College Park MD 20742 USA" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_3> <http://schema.org/affiliation> "Department of Vertebrate Zoology; National Museum of Natural History; Smithsonian Institution; Washington DC 20560 USA" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/author> <http://identifiers.org/doi/10.1111/1755-0998.12328#author_4> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_4> <http://schema.org/givenName> "Seán G." .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_4> <http://schema.org/familyName> "Brady" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_4> <http://schema.org/name> "Seán G. Brady" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#author_4> <http://schema.org/affiliation> "Department of Entomology; National Museum of Natural History; Smithsonian Institution; Washington DC 20560 USA" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#link_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#link_1> <http://schema.org/url> <http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1755-0998.12328> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328#link_1> <http://schema.org/fileFormat> "unspecified" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/workExample> <http://identifiers.org/doi/10.1111/1755-0998.12328#link_1> .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/isPartOf> <http://www.worldcat.org/issn/1755-098X> .
+<http://www.worldcat.org/issn/1755-098X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://www.worldcat.org/issn/1755-098X> <http://schema.org/issn> "1755-098X" .
+<http://www.worldcat.org/issn/1755-098X> <http://schema.org/name> "Molecular Ecology Resources" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/about> "Biotechnology" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/about> "Genetics" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://schema.org/about> "Ecology, Evolution, Behavior and Systematics" .
+<http://identifiers.org/doi/10.1111/1755-0998.12328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork>

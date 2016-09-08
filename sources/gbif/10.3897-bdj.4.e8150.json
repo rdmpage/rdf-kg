@@ -1,0 +1,128 @@
+{
+    "indexed": {
+        "date-parts": [
+            [
+                2016,
+                7,
+                7
+            ]
+        ],
+        "date-time": "2016-07-07T09:40:59Z",
+        "timestamp": 1467884459654
+    },
+    "reference-count": 84,
+    "publisher": "Pensoft Publishers",
+    "license": [
+        {
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "start": {
+                "date-parts": [
+                    [
+                        2016,
+                        7,
+                        8
+                    ]
+                ],
+                "date-time": "2016-07-08T00:00:00Z",
+                "timestamp": 1467936000000
+            },
+            "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+    ],
+    "funder": [
+        {
+            "award": [],
+            "doi-asserted-by": "publisher",
+            "name": "National Science Foundation",
+            "DOI": "10.13039/100000001"
+        }
+    ],
+    "DOI": "10.3897/bdj.4.e8150",
+    "type": "journal-article",
+    "created": {
+        "date-parts": [
+            [
+                2016,
+                7,
+                7
+            ]
+        ],
+        "date-time": "2016-07-07T08:23:02Z",
+        "timestamp": 1467879782000
+    },
+    "page": "e8150",
+    "source": "CrossRef",
+    "title": "A taxonomic monograph of the assassin bug genus Zelus Fabricius (Hemiptera: Reduviidae): 71 species based on 10,000 specimens",
+    "prefix": "http://id.crossref.org/prefix/10.3897",
+    "volume": "4",
+    "author": [
+        {
+            "affiliation": [],
+            "family": "Zhang",
+            "given": "Guanyang"
+        },
+        {
+            "affiliation": [],
+            "family": "Hart",
+            "given": "Elwood"
+        },
+        {
+            "affiliation": [],
+            "family": "Weirauch",
+            "given": "Christiane"
+        }
+    ],
+    "member": "http://id.crossref.org/member/2258",
+    "published-online": {
+        "date-parts": [
+            [
+                2016,
+                7,
+                8
+            ]
+        ]
+    },
+    "container-title": "BDJ",
+    "link": [
+        {
+            "intended-application": "text-mining",
+            "content-version": "vor",
+            "content-type": "application/pdf",
+            "URL": "http://bdj.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=8150"
+        },
+        {
+            "intended-application": "text-mining",
+            "content-version": "vor",
+            "content-type": "application/xml",
+            "URL": "http://bdj.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=8150"
+        }
+    ],
+    "deposited": {
+        "date-parts": [
+            [
+                2016,
+                7,
+                7
+            ]
+        ],
+        "date-time": "2016-07-07T08:23:05Z",
+        "timestamp": 1467879785000
+    },
+    "score": 1,
+    "subtitle": [],
+    "issued": {
+        "date-parts": [
+            [
+                2016,
+                7,
+                8
+            ]
+        ]
+    },
+    "URL": "http://dx.doi.org/10.3897/bdj.4.e8150",
+    "ISSN": [
+        "1314-2828",
+        "1314-2836"
+    ]
+}

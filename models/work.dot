@@ -1,0 +1,13 @@
+digraph G {
+"work" -> "title of work" [label="name"];
+
+"work" -> "role" [label="funder"];
+"role" -> "funding agency" [label="funder"];
+"role" -> "award";
+
+
+
+
+
+
+}

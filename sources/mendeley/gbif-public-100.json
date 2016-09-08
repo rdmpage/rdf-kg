@@ -1,0 +1,3259 @@
+[
+    {
+        "title": "Taxonomy As A Team Sport",
+        "type": "book_section",
+        "authors": [
+            {
+                "first_name": "Sandra",
+                "last_name": "Knapp"
+            }
+        ],
+        "year": 2008,
+        "source": "The New Taxonomy",
+        "identifiers": {
+            "doi": "10.1201/9781420008562.ch3",
+            "isbn": "978-0-8493-9088-3"
+        },
+        "id": "c297902b-809d-3ad1-8d95-efd25a081ca7",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:18.000Z",
+        "tags": [
+            "2008",
+            "book"
+        ]
+    },
+    {
+        "title": "A Sustainable Future for Europe; the European Strategy for Plant Conservation 2008-2014.",
+        "type": "report",
+        "authors": [
+            {
+                "last_name": "Planta Europa"
+            }
+        ],
+        "year": 2008,
+        "id": "321a5953-afd8-35d6-a070-b1cd829fec23",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2015-01-19T09:10:13.000Z",
+        "tags": [
+            "2008",
+            "IUCN_red_list",
+            "report"
+        ]
+    },
+    {
+        "title": "El banc de dades de biodiversitat de Catalunya",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Xavier",
+                "last_name": "Font"
+            }
+        ],
+        "year": 2004,
+        "source": "Omnis Cellula",
+        "id": "29930eb8-d1b7-3b39-bca4-1d21bb3ad2a6",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:58.000Z",
+        "tags": [
+            "2004",
+            "GBIF_discussed",
+            "Spanish",
+            "review"
+        ]
+    },
+    {
+        "title": "Estimation of spatial sampling effort based on presence-only data over a class of species",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Miguel",
+                "last_name": "Nakamura"
+            },
+            {
+                "first_name": "Daniel",
+                "last_name": "Fernández"
+            },
+            {
+                "first_name": "Jorge",
+                "last_name": "Soberón"
+            }
+        ],
+        "year": 2008,
+        "source": "Comunicación del CIMAT",
+        "id": "4a6bc4f1-b4cf-369c-bb1a-2b3b4172664a",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:28.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ]
+    },
+    {
+        "title": "Digital Research Data Curation: Overview of Issues, Current Activities, and Opportunities for the Cornell University Library",
+        "type": "report",
+        "authors": [
+            {
+                "last_name": "CUL Data Working Group"
+            }
+        ],
+        "year": 2008,
+        "id": "576073ef-1cc9-3600-b808-89967791350f",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:29.000Z",
+        "tags": [
+            "2008",
+            "report"
+        ]
+    },
+    {
+        "title": "Conservation of neotropical herpetofauna: research trends and challenges",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "J. Nicolás",
+                "last_name": "Urbina-Cardona"
+            }
+        ],
+        "year": 2008,
+        "source": "Tropical Conservation Science",
+        "id": "13dfaff5-a29c-3260-9e50-1a01ac79b012",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:31.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "MX",
+            "Mexico",
+            "conservation",
+            "informatics"
+        ]
+    },
+    {
+        "title": "Threatened Species and the Potential Loss of Phylogenetic Diversity: Conservation Scenarios Based on Estimated Extinction Probabilities and Phylogenetic Risk Analysis",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Daniel P.",
+                "last_name": "Faith"
+            }
+        ],
+        "year": 2008,
+        "source": "Conservation Biology",
+        "identifiers": {
+            "doi": "10.1111/j.1523-1739.2008.01068.x",
+            "isbn": "1523-1739"
+        },
+        "keywords": [
+            "EDGE of Existence",
+            "PD",
+            "análisis de riesgo",
+            "diversidad esperada",
+            "diversidad filogenética",
+            "especies amenazadas",
+            "expected diversity",
+            "lista roja",
+            "phylogenetic diversity",
+            "probabilidad de extinción",
+            "probability of extinction",
+            "red list",
+            "risk analysis",
+            "threatened species"
+        ],
+        "id": "6277496b-566f-3c47-bbcb-811b5df0c21b",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2015-01-19T09:10:14.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "IUCN_red_list",
+            "review"
+        ],
+        "abstract": "Abstract:New species conservation strategies, including the EDGE of Existence (EDGE) program, have expanded threatened species assessments by integrating information about species' phylogenetic distinctiveness. Distinctiveness has been measured through simple scores that assign shared credit among species for evolutionary heritage represented by the deeper phylogenetic branches. A species with a high score combined with a high extinction probability receives high priority for conservation efforts. Simple hypothetical scenarios for phylogenetic trees and extinction probabilities demonstrate how such scoring approaches can provide inefficient priorities for conservation. An existing probabilistic framework derived from the phylogenetic diversity measure (PD) properly captures the idea of shared responsibility for the persistence of evolutionary history. It avoids static scores, takes into account the status of close relatives through their extinction probabilities, and allows for the necessary updating of priorities in light of changes in species threat status. A hypothetical phylogenetic tree illustrates how changes in extinction probabilities of one or more species translate into changes in expected PD. The probabilistic PD framework provided a range of strategies that moved beyond expected PD to better consider worst-case PD losses. In another example, risk aversion gave higher priority to a conservation program that provided a smaller, but less risky, gain in expected PD. The EDGE program could continue to promote a list of top species conservation priorities through application of probabilistic PD and simple estimates of current extinction probability. The list might be a dynamic one, with all the priority scores updated as extinction probabilities change. Results of recent studies suggest that estimation of extinction probabilities derived from the red list criteria linked to changes in species range sizes may provide estimated probabilities for many different species. Probabilistic PD provides a framework for single-species assessment that is well-integrated with a broader measurement of impacts on PD owing to climate change and other factors. Resumen:Las nuevas estrategias de conservación, incluyendo el programa EDGE of Existence (EDGE), han expandido las evaluaciones de especies amenazadas mediante la integración de información sobre la unicidad filogenética de las especies. La unicidad se ha medido por medio de calificaciones simples que asignan crédito compartido entre especies por herencia evolutiva representada por las ramas filogenéticas más profundas. Una especie con una calificación alta combinada con una alta probabilidad de extinción recibe prioridad alta para los esfuerzos de conservación. Los escenarios hipotéticos simples para árboles filogenéticos y probabilidades de extinción demuestran que esos métodos de calificación pueden proporcionar prioridades de conservación ineficientes. Un marco de referencia probabilístico existente derivado de la medida de diversidad filogenética (PD) captura apropiadamente la idea de responsabilidad compartida para la persistencia de la historia evolutiva. Evita calificaciones estáticas, y permite la actualización de prioridades necesaria a la luz de cambios en el estatus de amenaza de la especie. Un árbol filogenético hipotético ilustra cómo los cambios en las probabilidades de extinción de una o más especies se traducen en cambios en la PD esperada. El marco de referencia probabilístico de la PD proporcionó una gama de estrategias que se movió más allá de la PD esperada para considerar los peores casos de pérdidas de PD. En otro ejemplo, la aversión de riesgo dio mayor prioridad a un programa de conservación que proporcionó una ganancia pequeña, pero menos riesgosa, en la PD esperada. El programa EDGE podría seguir promoviendo una lista de prioridades de conservación de especies mediante la aplicación de PD probabilística y estimaciones sencillas de la probabilidad de extinción actual. Sin embargo, la lista podría ser dinámica, con calificaciones de prioridad actualizadas como cambios en las probabilidades de extinción. Los resultados de estudios recientes sugieren que la estimación de probabilidades de extinción derivadas de los criterios de la lista roja relacionados con cambios en los rangos de distribución de especies puede proporcionar probabilidades estimadas para muchas especies diferentes. La PD probabilística proporciona un marco de referencia para la evaluación de especies individuales que está bien integrada con una medida más amplia de impactos sobre la PD debido al cambio climático y otros factores."
+    },
+    {
+        "title": "Briger Persson from Umgransele in Vasterbotten and his beetle collection",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Per",
+                "last_name": "Loefgren"
+            }
+        ],
+        "year": 2008,
+        "source": "Entomologisk Tidskrift",
+        "identifiers": {
+            "isbn": "0013-886X"
+        },
+        "id": "d0818c63-06fb-39e5-868c-7d9b64276b23",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:39.000Z",
+        "tags": [
+            "2008",
+            "review"
+        ],
+        "abstract": "Birger Persson collected beetles in the inner parts of Norrland, and his beetle collection was his life's interest. The collection is very valuable, first of all because Birger Persson is one of the few who has gathered beetles in the inland of northern part of Sweden, secondly because he collected small species which often are difficult to determine. He was also very accurate in making notes on locality, collection circumstances etc. I am working on a project consisting of two main tasks, partly to guarantee the collections of beetles, partly to documend the collection and make it available both for the Swedish Species Gateway, and the GBIF (Darwin core project)."
+    },
+    {
+        "title": "Do flatland- and mountain-dwelling species show different structuring of their experienced environment over latitude? A western vs. central-eastern North America rodent multispecies comparison",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Robert P.",
+                "last_name": "Guralnick"
+            }
+        ],
+        "year": 2006,
+        "source": "Diversity and Distributions",
+        "identifiers": {
+            "doi": "10.1111/j.1366-9516.2006.00269.x",
+            "issn": "1366-9516"
+        },
+        "keywords": [
+            "climate change",
+            "climate conservation",
+            "climate variability",
+            "latitudinal gradients",
+            "mammalian biogeography",
+            "orbitally forced range dynamics",
+            "random distributions",
+            "species distributions",
+            "species occurrence data"
+        ],
+        "id": "3b903871-8813-3b2c-a939-41c40016e90c",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:41.000Z",
+        "tags": [
+            "2006",
+            "GBIF_acknowledged",
+            "GBIF_used"
+        ],
+        "abstract": "Species occurrence databases and climate databases were used to examine differ- ences in patterns of species experienced climate across latitude for wide-ranging rodents in the central-eastern and western North America. The accumulated data were used to address three questions: (1) Do rodent species in the central and eastern region of North America select habitat at range edges to remain closer to climate conditions at the range core? (2) Is there a trend toward species having greater ex- perienced climate variation consistent with smaller effects of orbitally controlled climate oscillations in the south vs. north? (3) How do species experienced temperature, precipitation, and elevation means and variation in this region compare to rodent species in the adjacent but more heterogeneous western North America? Results showed that central-eastern North American species occur in as wide a range of environmental conditions as available throughout their ranges. These patterns are different from previous findings for rodents in the adjacent western USA and high- light major differences in current structure of species experienced environmental means and variation over latitude for species in spatially heterogeneous, mountainous areas vs. those that occupy flatter lands. The differences are likely important for determining differential response to climate changes."
+    },
+    {
+        "title": "Rapport D'activite 2007",
+        "type": "report",
+        "authors": [
+            {
+                "last_name": "CSCF & Karch"
+            }
+        ],
+        "year": 2008,
+        "id": "eabef5ce-951b-3e76-b697-6f65f5bc4724",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:31.000Z",
+        "tags": [
+            "2008",
+            "CH",
+            "Switzerland",
+            "report"
+        ]
+    },
+    {
+        "title": "Trends in Taxonomy today: an overview about the main topics in Taxonomy",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "J. M.",
+                "last_name": "Guerra-García"
+            },
+            {
+                "first_name": "F.",
+                "last_name": "Espinosa"
+            },
+            {
+                "first_name": "J. C.",
+                "last_name": "García-Gómez"
+            }
+        ],
+        "year": 2008,
+        "source": "Zoologica baetica",
+        "id": "16c1801d-27a3-38b8-afd6-d670a5e6c914",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:58.000Z",
+        "tags": [
+            "2008",
+            "ES",
+            "GBIF_mentioned",
+            "Spain"
+        ]
+    },
+    {
+        "title": "The Type Material of Hydrozoa described by Eberhard Stechow in the Zoologische Staatssammlung München",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Bernhard",
+                "last_name": "Ruthensteiner"
+            },
+            {
+                "first_name": "Götz-Bodo",
+                "last_name": "Reinicke"
+            },
+            {
+                "first_name": "Nicolas",
+                "last_name": "Straube"
+            }
+        ],
+        "year": 2008,
+        "source": "Spixiana",
+        "id": "b11b4908-d3ef-3509-bd06-742f286626eb",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:50.000Z",
+        "tags": [
+            "2008",
+            "DE",
+            "GBIF_used",
+            "Germany"
+        ]
+    },
+    {
+        "title": "How Earth Science can contribute to and Benefit from the Spatial Information Infrastructure",
+        "type": "book_section",
+        "authors": [
+            {
+                "first_name": "Andrew",
+                "last_name": "Woolf"
+            },
+            {
+                "first_name": "Stefano",
+                "last_name": "Nativi"
+            }
+        ],
+        "year": 2008,
+        "source": "Creating Spatial Information Infrastructures",
+        "identifiers": {
+            "isbn": "978-1-4200-7068-2"
+        },
+        "id": "a087742a-9033-37eb-83b8-2a514182c18c",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2016-03-21T10:00:02.000Z",
+        "tags": [
+            "2008",
+            "book"
+        ]
+    },
+    {
+        "title": "PlutoF – cloud database and computing services supporting biological research",
+        "type": "thesis",
+        "authors": [
+            {
+                "first_name": "Kessy",
+                "last_name": "Abarenkov"
+            }
+        ],
+        "year": 2006,
+        "id": "c04076d3-36ec-37d0-85fe-a766d3fe0640",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:27.000Z",
+        "tags": [
+            "2006",
+            "EE",
+            "Estonia",
+            "informatics",
+            "thesis"
+        ]
+    },
+    {
+        "title": "Recent literature on bryophytes",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "William R.",
+                "last_name": "Buck"
+            },
+            {
+                "first_name": "Bruce",
+                "last_name": "Allen"
+            },
+            {
+                "first_name": "Ronald A.",
+                "last_name": "Pursell"
+            }
+        ],
+        "year": 2008,
+        "source": "The Bryologist",
+        "identifiers": {
+            "doi": "10.1639/0007-2745(2008)111[140:rlob]2.0.co;2",
+            "isbn": "0007-2745"
+        },
+        "id": "cdfb748b-5e00-3612-b485-86f5e58f4783",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:30.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "A digital library environment for integrating, disseminating and exploring ecological data",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Evandrino G.",
+                "last_name": "Barros"
+            },
+            {
+                "first_name": "Alberto H. F.",
+                "last_name": "Laender"
+            },
+            {
+                "first_name": "Marcos André",
+                "last_name": "Gonçalves"
+            },
+            {
+                "first_name": "Francisco A. R.",
+                "last_name": "Barbosa"
+            }
+        ],
+        "year": 2008,
+        "source": "Ecological Informatics",
+        "identifiers": {
+            "doi": "DOI: 10.1016/j.ecoinf.2008.09.006",
+            "isbn": "1574-9541"
+        },
+        "keywords": [
+            "Data integration",
+            "Digital libraries",
+            "Ecological data management",
+            "User evaluation"
+        ],
+        "id": "55d338de-241e-3914-8036-7bb08fa8e97e",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:50.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned"
+        ],
+        "abstract": "Managing environmental changes has become a very important issue for effective environmental management and ecosystem balance. For a decade, Brazil has been running PELD1, a long-term ecological research program that has collected a huge volume of data from a network of dispersed and unstructured ecological sites. Most of these sites, however, have no specialized system to store the data and no support for specialized analyses or data sharing. This article presents a digital-library-based environment that has been developed to support the integration, dissemination and exploration of ecological data collected by these sites. This environment is centered on a georeferenced digital library, named BDiG-PELD that integrates this network of ecological sites using OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) and the ODL (Open Digital Library) framework. The BDiG-PELD architecture incorporates simple, yet effective, decentralized input interfaces for handling heterogeneous data from these unstructured sources. With BDiG-PELD, researchers fill in mandatory and controlled fields in textual spreadsheets that are processed by a local input interface and transformed into EML (Ecological Metadata Language) metadata repositories, which are then made available for being harvested and integrated into the central BDiG-PELD repository. BDiG-PELD provides exploratory searching and browsing services, combined with georeferencing facilities supported by a spatial locator system. Besides addressing these architectural issues, we also describe an experimental evaluation of the proposed solution in terms of usability data and quality aspects that has been conducted with real users. This evaluation comprises two parts: the first involves the input data process and the second considers the user services. Results show that the spreadsheet-based input interface provided by BDiG-PELD offers an effective way for inputting sampling data and that its user services provide adequate facilities for data exploration and discovery. Thus, this evaluation demonstrate that BDiG-PELD is a practical, effective, and economical solution for integrating, disseminating, and exploring data within the Brazilian long-term ecological research program, and that might be adopted by similar programs worldwide."
+    },
+    {
+        "title": "Fact sheet of the MÉTA database 1.2",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "F.",
+                "last_name": "Horváth"
+            },
+            {
+                "first_name": "Zs.",
+                "last_name": "Molnár"
+            },
+            {
+                "first_name": "J.",
+                "last_name": "Bölöni"
+            },
+            {
+                "first_name": "Zs.",
+                "last_name": "Pataki"
+            },
+            {
+                "first_name": "L.",
+                "last_name": "Polgár"
+            },
+            {
+                "first_name": "A.",
+                "last_name": "Révész"
+            },
+            {
+                "first_name": "K.",
+                "last_name": "Oláh"
+            },
+            {
+                "first_name": "D.",
+                "last_name": "Krasser"
+            },
+            {
+                "first_name": "E.",
+                "last_name": "Illyés"
+            }
+        ],
+        "year": 2008,
+        "source": "Acta Botanica Hungarica",
+        "id": "a92d2b5f-a7b1-3d35-aa9b-5f840fdfef24",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:51.000Z",
+        "tags": [
+            "2008",
+            "GBIF_discussed",
+            "review"
+        ],
+        "abstract": "The survey results of the MÉTA program are managed with centralised relational database management system (MS SQL 2000) developed and set up in a local area network. Besides the MÉTA database server, a publishing server, an archiving server and a GIS workstation were applied. The core information entities of the MÉTA database are: information subproject, MÉTA quadrate, MÉTA hexagon, (semi-)natural habitat, potential vegetation with numerous habitats, landscape ecology and land use attributes, and surveyor. This information is coded in the nine main tables of the normalised database. In the recent state there are almost 1,500,000 records in the main tables that are managed in 241 independent fields. The published version of the MÉTA database supports the query service, and handles this information in 7 denormalised main tables. This much more redundant version is 11 GB in size. The 20.6% (179 man-month) of the human resources in the MÉTA program were devoted to the information tasks (set up and preparation, MÉTA database and information system development, replenishment and quality assessment, MÉTA query, GIS and printing services) between 2002 and 2007. The basic structure of the MÉTA database version 1.2 is finalised and the main functions regarding data processing have been developed. The accomplishment is higher than 90%, quality assessment is under way, while scientific verification and data harmonisation are started. The area of (semi-)natural and degraded vegetation of Hungary is estimated to 1,800,000 hectares (19.4% of the country) of which the natural, semi-natural is about 1,200,000 hectares (12.9% of the country). All of these are highly fragmented and unevenly distributed over the country. It is shown by several basic figures, professional content and quality measure facts of the database. There is also a fact sheet of surveyors that shapes the important characters of their field experience profile, too."
+    },
+    {
+        "title": "Availability of Genotypic Data for USDA-ARS National Plant Germplasm System Accessions Using the Genetic Resources Information Network (GRIN) Database",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Gayle M.",
+                "last_name": "Volk"
+            },
+            {
+                "first_name": "Christopher M.",
+                "last_name": "Richards"
+            }
+        ],
+        "year": 2008,
+        "source": "HortScience",
+        "id": "5412327a-ed4b-3dce-ae8d-33b020cbc230",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:40.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "The avian knowledge network: a partnership to organize, analyze, and visualize bird observation data for education, conservation, research, and land management",
+        "type": "conference_proceedings",
+        "authors": [
+            {
+                "first_name": "Marshall J.",
+                "last_name": "Iliff"
+            },
+            {
+                "first_name": "Leo",
+                "last_name": "Salas"
+            },
+            {
+                "first_name": "Ernesto Ruelas",
+                "last_name": "Inzunza"
+            },
+            {
+                "first_name": "Grant",
+                "last_name": "Ballard"
+            },
+            {
+                "first_name": "Denis",
+                "last_name": "Lepage"
+            },
+            {
+                "first_name": "Steve",
+                "last_name": "Kelling"
+            }
+        ],
+        "year": 2008,
+        "source": "Proceedings of the Fourth International Partners in Flight Conference: Tundra to Tropics",
+        "id": "8dea33f7-aa1b-3120-813a-095db784bdbc",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:19.000Z",
+        "tags": [
+            "2008",
+            "CA",
+            "Canada",
+            "US",
+            "conference_proceedings"
+        ]
+    },
+    {
+        "title": "Present status and future prospects of Protist Image Database",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Yuuji",
+                "last_name": "Tsukii"
+            }
+        ],
+        "year": 2008,
+        "source": "Jpn. J. Protozool.",
+        "id": "324258cd-4d0e-35da-9285-f46da8dd9f81",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:18.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "CWRML: representing crop wild relative conservation and use data in XML",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Jonathan",
+                "last_name": "Moore"
+            },
+            {
+                "first_name": "Shelagh",
+                "last_name": "Kell"
+            },
+            {
+                "first_name": "Jose Maria",
+                "last_name": "Iriondo"
+            },
+            {
+                "first_name": "Brian",
+                "last_name": "Ford-Lloyd"
+            },
+            {
+                "first_name": "Nigel",
+                "last_name": "Maxted"
+            }
+        ],
+        "year": 2008,
+        "source": "BMC Bioinformatics",
+        "identifiers": {
+            "isbn": "1471-2105"
+        },
+        "id": "7bb5122b-f233-3a6a-a4b3-5705295eaed7",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-16T21:32:19.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ],
+        "abstract": "BACKGROUND:Crop wild relatives are wild species that are closely related to crops. They are valuable as potential gene donors for crop improvement and may help to ensure food security for the future. However, they are becoming increasingly threatened in the wild and are inadequately conserved, both in situ and ex situ. Information about the conservation status and utilisation potential of crop wild relatives is diverse and dispersed, and no single agreed standard exists for representing such information; yet, this information is vital to ensure these species are effectively conserved and utilised. The European Community-funded project, European Crop Wild Relative Diversity Assessment and Conservation Forum, determined the minimum information requirements for the conservation and utilisation of crop wild relatives and created the Crop Wild Relative Information System, incorporating an eXtensible Markup Language (XML) schema to aid data sharing and exchange.RESULTS:Crop Wild Relative Markup Language (CWRML) was developed to represent the data necessary for crop wild relative conservation and ensure that they can be effectively utilised for crop improvement. The schema partitions data into taxon-, site-, and population-specific elements, to allow for integration with other more general conservation biology schemata which may emerge as accepted standards in the future. These elements are composed of sub-elements, which are structured in order to facilitate the use of the schema in a variety of crop wild relative conservation and use contexts. Pre-existing standards for data representation in conservation biology were reviewed and incorporated into the schema as restrictions on element data contents, where appropriate.CONCLUSION:CWRML provides a flexible data communication format for representing in situ and ex situ conservation status of individual taxa as well as their utilisation potential. The development of the schema highlights a number of instances where additional standards-development may be valuable, particularly with regard to the representation of population-specific data and utilisation potential. As crop wild relatives are intrinsically no different to other wild plant species there is potential for the inclusion of CWRML data elements in the emerging standards for representation of biodiversity data."
+    },
+    {
+        "title": "Beyond the Silos of the LAMs: Collaboration Among Libraries, Archives and Museums",
+        "type": "report",
+        "authors": [
+            {
+                "first_name": "Diane M",
+                "last_name": "Zorich"
+            },
+            {
+                "first_name": "Günter",
+                "last_name": "Waibel"
+            },
+            {
+                "first_name": "Ricky",
+                "last_name": "Erway"
+            }
+        ],
+        "year": 2008,
+        "id": "dad08400-b017-31ba-8c00-bc47eedea86d",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:48.000Z",
+        "tags": [
+            "2008",
+            "report"
+        ]
+    },
+    {
+        "title": "A new Argocoffeopsis (Coffeeae, Rubiaceae) from southern Cameroon: Argocoffeopsis spathulata",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Aaron P.",
+                "last_name": "Davis"
+            },
+            {
+                "first_name": "Bonaventure",
+                "last_name": "Sonké"
+            }
+        ],
+        "year": 2008,
+        "source": "Blumea - Journal of Plant Taxonomy and Plant Geography",
+        "keywords": [
+            "Argocoffeopsis",
+            "Cameroon",
+            "Coffeeae",
+            "IUCN",
+            "plant conservation"
+        ],
+        "id": "02e67749-240d-304e-b420-72ab0c3bd46a",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:37.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ],
+        "abstract": "A new species of Argocoffeopsis, A. spathulata, is described as new to science. A description, line drawing, distribution map and conservation assessment are provided."
+    },
+    {
+        "title": "Breeding habitat preferences of 15 bird species on south-western Finnish archipelago coast: Applicability of digital spatial data archives to habitat assessment",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Mia",
+                "last_name": "Rönkä"
+            },
+            {
+                "first_name": "Harri",
+                "last_name": "Tolvanen"
+            },
+            {
+                "first_name": "Esa",
+                "last_name": "Lehikoinen"
+            },
+            {
+                "first_name": "Mikael von",
+                "last_name": "Numers"
+            },
+            {
+                "first_name": "Mauri",
+                "last_name": "Rautkari"
+            }
+        ],
+        "year": 2008,
+        "source": "Biological Conservation",
+        "identifiers": {
+            "doi": "DOI: 10.1016/j.biocon.2007.10.010",
+            "isbn": "0006-3207"
+        },
+        "keywords": [
+            "Baltic Sea",
+            "Distribution",
+            "GIS",
+            "Habitat",
+            "Island",
+            "Sea birds"
+        ],
+        "id": "dbc89996-26de-3e38-a416-145e6f6a5e9b",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:48.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ],
+        "abstract": "Knowledge about the importance of physical habitat characteristics to the breeding site selection of birds is a prerequisite for understanding their breeding habitat ecology and distribution, as well as managing their habitats. Geographical information systems (GIS) and existing digital data archives provide new possibilities for the quantitative and cost-effective assessment of coastal breeding habitats of birds. We tested the applicability of GIS and digital data archives for the analysis of coastal bird habitats by conducting a multivariate analysis on the relationship between physical island characteristics and the breeding site selection of 15 species of ducks, waders, larids and alcids in 2001-2005 in the fragmented archipelago coast of south-western Finland. We used GIS and environmental databases containing shoreline, bathymetry and elevation data to calculate five physical parameters for 71 small islands and their vicinity. Island area was generally the most important factor determining the presence of the species, but also water depth, shore openness, and island elevation were important for some species. The differences and similarities in habitat preferences within and between species groups seem to reflect the breeding habitat ecology of the species. GIS and spatial data archives are becoming increasingly valuable for research and development, as well as administrative tasks. Our results indicate that physical island characteristics affect the breeding site selection and the distribution of our target species, and that GIS and digital data archives provide applicable information on the breeding habitats of coastal birds and thus function as a tool for conservation and management."
+    },
+    {
+        "title": "Initiating a Natural History Collection Digitisation Project",
+        "type": "generic",
+        "authors": [
+            {
+                "first_name": "Christopher K.",
+                "last_name": "Frazier"
+            },
+            {
+                "first_name": "John",
+                "last_name": "Wall"
+            },
+            {
+                "first_name": "Sharon",
+                "last_name": "Grant"
+            },
+            {
+                "last_name": "Global Biodiversity Information Facility"
+            }
+        ],
+        "year": 2008,
+        "id": "14bb4b07-808d-31db-a837-adce89639d2a",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2015-01-19T09:10:12.000Z",
+        "tags": [
+            "2008",
+            "GBIF_publications"
+        ]
+    },
+    {
+        "title": "International Efforts on Global Change Research",
+        "type": "book_section",
+        "authors": [
+            {
+                "first_name": "Beatriz",
+                "last_name": "Alonso"
+            },
+            {
+                "first_name": "Fernando",
+                "last_name": "Valladares"
+            }
+        ],
+        "year": 2008,
+        "identifiers": {
+            "doi": "10.1007/978-1-4020-6358-9_1",
+            "isbn": "978-1-4020-6358-9"
+        },
+        "keywords": [
+            "Geosciences"
+        ],
+        "id": "1722c5dd-53bd-3e78-93bb-17db698f17ad",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:48.000Z",
+        "tags": [
+            "2008",
+            "review"
+        ]
+    },
+    {
+        "title": "Análise da vulnerabilidade da biodiversidade brasileira frente às mudanças climáticas globais",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Vanderlei Perez",
+                "last_name": "Canhos"
+            },
+            {
+                "first_name": "Marinez Ferreira de",
+                "last_name": "Siqueira"
+            },
+            {
+                "first_name": "Alexandre",
+                "last_name": "Marino"
+            },
+            {
+                "first_name": "Dora Ann Lange",
+                "last_name": "Canhos"
+            }
+        ],
+        "year": 2008,
+        "source": "Parcerias Estratégicas",
+        "id": "5d70ba60-fa13-3517-9d63-bf03a2795780",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2015-02-12T08:23:04.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "SDM",
+            "niche_modeling",
+            "review"
+        ]
+    },
+    {
+        "title": "The influence of sampling intensity on the perception of the spatial distribution of tropical diversity and endemism: a case study of ferns from Bolivia",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Rodrigo W.",
+                "last_name": "Soria-Auza"
+            },
+            {
+                "first_name": "Michael",
+                "last_name": "Kessler"
+            }
+        ],
+        "year": 2008,
+        "source": "Diversity and Distributions",
+        "identifiers": {
+            "doi": "10.1111/j.1472-4642.2007.00433.x",
+            "isbn": "1472-4642"
+        },
+        "keywords": [
+            "Bolivia",
+            "Pteridophyta",
+            "collecting activity",
+            "conservation",
+            "pattern of endemism",
+            "pattern of species richness"
+        ],
+        "id": "a0446489-b17b-3d0f-8860-7e4b86c35f65",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:58.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ],
+        "abstract": "ABSTRACT The distribution of tropical plant and animal diversity is still poorly documented, especially at spatial resolutions of practical use for conservation. In the present study, we evaluated the level to which geographical incomplete data availability of species occurrence affects the perception of biodiversity patterns (species richness and endemism) among pteridophytes in Bolivia. We used a data base of Bolivian pteridophytes (27,501 records), divided it into three time periods (1900–70, up to 1990 and up to 2006), and created grid-files at 15′-resolution for species richness and endemism. For each of these biodiversity properties we estimated the species richness (Chao 2) and the index of sampling completeness (C index) per grid, and then all these variables at both species richness and endemism were correlated. Patterns of richness were fairly consistent along all periods; the richest areas were placed along the humid-montane forest, even though they were strongly influenced by collecting intensity. Endemism had a lower degree of correlation with collecting intensity, but varied much more strongly through time than species richness. According to the C index, which gives the ratio between estimated (by Chao 2) and recorded values of species richness and endemism, both biodiversity properties tended to be undersampled in the richest grid cells. Inter-temporal correlations showed sharper differences of correlations for endemism than species richness. Consequently, already in 1970, botanists had a correct idea of the spatial distribution of pteridophyte richness in Bolivia (even though the magnitude was grossly underestimated). In contrast, patterns of endemism, which are of high conservation importance, may not even today be reliably known."
+    },
+    {
+        "title": "Systematics and reproductive biology of the genus Morus L. (Moraceae)",
+        "type": "thesis",
+        "authors": [
+            {
+                "first_name": "Madhav P.",
+                "last_name": "Nepal"
+            }
+        ],
+        "year": 2008,
+        "id": "209a0489-44bc-3809-ab99-21c16db33fe3",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:57.000Z",
+        "tags": [
+            "2008",
+            "US",
+            "thesis"
+        ]
+    },
+    {
+        "title": "The Freshwater Animal Diversity Assessment: an overview of the results",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "E.",
+                "last_name": "Balian"
+            },
+            {
+                "first_name": "H.",
+                "last_name": "Segers"
+            },
+            {
+                "first_name": "C.",
+                "last_name": "Lévèque"
+            },
+            {
+                "first_name": "Koen",
+                "last_name": "Martens"
+            }
+        ],
+        "year": 2008,
+        "source": "Hydrobiologia",
+        "identifiers": {
+            "doi": "10.1007/s10750-007-9246-3",
+            "isbn": "0018-8158"
+        },
+        "keywords": [
+            "Biomedical and Life Sciences"
+        ],
+        "id": "adcf09ac-fa71-33db-a87a-96228ce0c036",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:18.000Z",
+        "tags": [
+            "2008",
+            "BE",
+            "Belgium",
+            "FR",
+            "France",
+            "GBIF_mentioned"
+        ],
+        "abstract": "We present a summary of the results included in the different treatments in this volume. The diversity and distribution of vertebrates, insects, crustaceans, molluscs and a suite of minor phyla is compared and commented upon. Whereas the available data on vertebrates and some emblematic invertebrate groups such as Odonata (dragonflies and damselflies) allow for a credible assessment, data are deficient for many other groups. This is owing to knowledge gaps, both in geographical coverage of available data and/or lack of taxonomic information. These gaps need to be addressed urgently, either by liberating date from inaccessible repositories or by fostering taxonomic research. A similar effort is required to compile environmental and ecological information in order to enable cross-linking and analysis of these complementary data sets. Only in this way will it be possible to analyse information on freshwater biodiversity for sustainable management and conservation of the world’s freshwater resources."
+    },
+    {
+        "title": "Biological characterisation of the Orange-Fish River Basin, Namibia",
+        "type": "report",
+        "authors": [
+            {
+                "first_name": "John",
+                "last_name": "Irish"
+            }
+        ],
+        "year": 2008,
+        "id": "cda105c0-3d57-3576-b98a-75e45a0adc0c",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:11.000Z",
+        "tags": [
+            "2008",
+            "NA",
+            "Namibia",
+            "report"
+        ]
+    },
+    {
+        "title": "Spatial Patterns of Terrestrial Vertebrate Species Richness in the Brazilian Cerrado",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "José Alexandre Felizola",
+                "last_name": "Diniz-Filho"
+            },
+            {
+                "first_name": "Luis Mauricio",
+                "last_name": "Bini"
+            },
+            {
+                "first_name": "Cleiber Marques",
+                "last_name": "Vieira"
+            },
+            {
+                "first_name": "Daniel",
+                "last_name": "Blamires"
+            },
+            {
+                "first_name": "Levi Carina",
+                "last_name": "Terribile"
+            },
+            {
+                "first_name": "Rogério Pereira",
+                "last_name": "Bastos"
+            },
+            {
+                "first_name": "Guilherme de",
+                "last_name": "Oliveira"
+            },
+            {
+                "first_name": "Bruno de Souza",
+                "last_name": "Barreto"
+            }
+        ],
+        "year": 2008,
+        "source": "Zoological Studies",
+        "id": "677bc8ce-6f30-37d7-b32b-0e1326bf1482",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:58.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ]
+    },
+    {
+        "title": "Components of uncertainty in species distribution analysis: a case study of the great Grey Shrike",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Carsten F.",
+                "last_name": "Dormann"
+            },
+            {
+                "first_name": "Oliver",
+                "last_name": "Purschke"
+            },
+            {
+                "first_name": "Jaime R García",
+                "last_name": "Márquez"
+            },
+            {
+                "first_name": "Sven",
+                "last_name": "Lautenbach"
+            },
+            {
+                "first_name": "Boris",
+                "last_name": "Schröder"
+            }
+        ],
+        "year": 2008,
+        "source": "Ecology",
+        "identifiers": {
+            "doi": "doi:10.1890/07-1772.1"
+        },
+        "id": "e195d3ef-641b-3738-b65c-bee0883d42a0",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:11.000Z",
+        "tags": [
+            "2008",
+            "GBIF_discussed"
+        ]
+    },
+    {
+        "title": "Internet",
+        "type": "book_section",
+        "authors": [
+            {
+                "first_name": "Cynthia S.",
+                "last_name": "Parr"
+            }
+        ],
+        "year": 2008,
+        "source": "Encyclopedia of Ecology",
+        "identifiers": {
+            "doi": "10.1016/B978-008045405-4.00155-5",
+            "isbn": "978-0-08-045405-4"
+        },
+        "keywords": [
+            "Citizen science",
+            "Computers",
+            "Data sharing",
+            "Grid computing",
+            "Informatics",
+            "Internet",
+            "Metadata",
+            "Ontology",
+            "Search",
+            "Semantic web",
+            "Sociology",
+            "Visualization",
+            "Web services",
+            "World Wide Web"
+        ],
+        "id": "cf801399-c828-3dc1-a0d7-f11ee7cffb1d",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:28.000Z",
+        "tags": [
+            "2008",
+            "US",
+            "book"
+        ],
+        "abstract": "Shaping Internet technologies for ecology in the next century is an important focus in ecological informatics. The Internet, and in particular the World Wide Web, makes data sharing and collaboration among ecologists far easier than ever before, but significant challenges remain. The author provides brief histories and explanations of core Internet and web concepts, including protocols and languages, and relevant database and digital library concepts. Examples are drawn from the ecological community where possible. Particularly active areas of current research seek to increase the scale of ecological studies, both in terms of the amount and geographic and temporal scale of data, and in the number of people involved and reached. The semantic web aims to facilitate discovery and intelligent integration of distributed data. Grid computing enables large computational analyses across widely distributed computers. Social computing technologies allow distant members of communities to interact and collaborate. These range from traditional electronic mail applications and citizen science websites, to more modern technology such as wikis and weblogs. The Internet is changing the way ecologists and other scientists conduct and disseminate their work. Finally, ecological concepts are being applied to the study of the Internet which in turn provides ideas for the study of ecology."
+    },
+    {
+        "title": "Révision du genre africain Rhabdophyllum Tiegh. (Ochnaceae), avec sa distribution au Cameroun et au Gabon",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Marc S. M.",
+                "last_name": "Sosef"
+            }
+        ],
+        "year": 2008,
+        "source": "Adansonia sér. 3",
+        "id": "f24fd41b-495e-3f0c-a395-c698339d1d5d",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:29.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ]
+    },
+    {
+        "title": "Taxonomic revision of the Pternopetalum delavayi (Apiaceae)",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Li-Song",
+                "last_name": "Wang"
+            }
+        ],
+        "year": 2008,
+        "source": "Ann. Bot. Fennici",
+        "id": "72b1ce0f-e467-3229-92ec-86fc3b113349",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:28.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ]
+    },
+    {
+        "title": "Guide to Best Practices for Generalising Primary Species-Occurrence Data, version 1.0",
+        "type": "generic",
+        "authors": [
+            {
+                "first_name": "Arthur D.",
+                "last_name": "Chapman"
+            },
+            {
+                "first_name": "Oliver",
+                "last_name": "Grafton"
+            }
+        ],
+        "year": 2008,
+        "id": "7f18d2a7-ac16-3a65-a00e-0f564b222253",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2015-01-19T09:10:06.000Z",
+        "tags": [
+            "2008",
+            "GBIF_publications"
+        ]
+    },
+    {
+        "title": "Challenges of In Situ Conservation of Crop Wild Relatives",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Vernon",
+                "last_name": "Heywood"
+            }
+        ],
+        "year": 2008,
+        "source": "Turkish Journal of Botany",
+        "id": "74229c49-235c-3e33-b500-b22d39910d4b",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:19.000Z",
+        "tags": [
+            "2008",
+            "GBIF_discussed",
+            "review"
+        ]
+    },
+    {
+        "title": "The Encyclopedia of Life-Not just another web encyclopedia!",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "David J.",
+                "last_name": "Patterson"
+            }
+        ],
+        "year": 2008,
+        "source": "The Limnology and Oceanography Bulletin",
+        "id": "21b250e5-0128-35d5-8b59-0f5e93319211",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:48.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "Quantitative Data Cleaning for Large Databases",
+        "type": "working_paper",
+        "authors": [
+            {
+                "first_name": "Joseph M.",
+                "last_name": "Hellerstein"
+            }
+        ],
+        "year": 2008,
+        "id": "ec73bcfc-cafd-3bcb-af93-2fdc14b4e61b",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:18.000Z",
+        "tags": [
+            "2008",
+            "US",
+            "report"
+        ],
+        "abstract": "Data collection has become a ubiquitous function of large organizations { not only for record keeping, but to support a variety of data analysis tasks that are critical to the organizational mission. Data analysis typically drives decision-making processes and eciency optimizations, and in an increasing number of settings is the raison d'etre of entire agencies or rms. Despite the importance of data collection and analysis, data quality remains a pervasive and thorny problem in almost every large organization. The presence of incorrect or inconsistent data can signi cantly distort the results of analyses, often negating the potential bene ts of information-driven approaches. As a result, there has been a variety of research over the last decades on various aspects of data cleaning: computational procedures to automatically or semi-automatically identify { and, when possible, correct { errors in large data sets."
+    },
+    {
+        "title": "Toward a Global Biodiversity Observing System",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Robert J.",
+                "last_name": "Scholes"
+            },
+            {
+                "first_name": "Georgina M.",
+                "last_name": "Mace"
+            },
+            {
+                "first_name": "W.",
+                "last_name": "Turner"
+            },
+            {
+                "first_name": "Gary",
+                "last_name": "Geller"
+            },
+            {
+                "first_name": "N.",
+                "last_name": "Jürgens"
+            },
+            {
+                "first_name": "A.",
+                "last_name": "Larigauderie"
+            },
+            {
+                "first_name": "D.",
+                "last_name": "Muchoney"
+            },
+            {
+                "first_name": "Bruno A.",
+                "last_name": "Walther"
+            },
+            {
+                "first_name": "Harold A.",
+                "last_name": "Mooney"
+            }
+        ],
+        "year": 2008,
+        "source": "Science",
+        "identifiers": {
+            "doi": "10.1126/science.1162055"
+        },
+        "id": "c9a16f11-9824-354b-934d-d96898036383",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:29.000Z",
+        "tags": [
+            "2008",
+            "review"
+        ]
+    },
+    {
+        "title": "The Invasive Potential of the Brown Garden Snail (Cantareus aspersus): A Future Invasive Species in Denmark?",
+        "type": "thesis",
+        "authors": [
+            {
+                "first_name": "Peter Søgaard",
+                "last_name": "Jørgensen"
+            },
+            {
+                "first_name": "Nikolaj",
+                "last_name": "Sørensen"
+            }
+        ],
+        "year": 2008,
+        "id": "f7ef4d55-2c2c-3c15-8cd2-47e255980419",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:11.000Z",
+        "tags": [
+            "2008",
+            "DK",
+            "Denmark",
+            "thesis"
+        ]
+    },
+    {
+        "title": "Environmental gradients explaining the prevalence and intensity of infection with the amphibian chytrid fungus: the host's perspective",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Dennis",
+                "last_name": "Rödder"
+            },
+            {
+                "first_name": "M.",
+                "last_name": "Veith"
+            },
+            {
+                "first_name": "Stefan",
+                "last_name": "Lötters"
+            }
+        ],
+        "year": 2008,
+        "source": "Animal Conservation",
+        "identifiers": {
+            "doi": "10.1111/j.1469-1795.2008.00210.x",
+            "isbn": "1469-1795"
+        },
+        "keywords": [
+            "Australia",
+            "Batrachochytrium dendrobatids",
+            "Litoria lesueuri complex",
+            "MaxEnt",
+            "chytridiomycosis",
+            "climatic envelope"
+        ],
+        "id": "53aad30b-f54e-3e57-a0e8-d485dade1b98",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2015-02-12T08:23:03.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "SDM",
+            "niche_modeling",
+            "review"
+        ],
+        "abstract": "Abstract Chydridiomycosis is an infectious emerging disease in amphibians that has been directly linked to mass mortality, drastic population decline and extinction. The understanding of the factors limiting the distribution and the abundance of its biological agent, the amphibian chytrid fungus Batrachochytrium dendrobatidis (Bd ), is still limited. It has been suggested that climate plays a key role. A recent study conducted infection surveys at 31 lowland sites on the Australian East coast and searched for climatic variables explaining Bd prevalence and intensity in Stony creek frogs Litoria lesueuri (complex). A link between the prevalence of infections and latitude was advocated, exclusively focusing on the pathogen. Beyond this, the prevalence and intensity of Bd infection may also depend on the climatic suitability of a given site for the amphibian host. Herein, we extend the previous study using a set of long-term bioclimatic variables and assess climatic suitability for Stony creek frogs at the sites previously studied for Bd. We ran a Climatic Envelope Model for our target amphibian based on those variables with the most explanatory power for prevalence and intensity, thus representing the link between climatic suitability for both the pathogen and the host. Our findings allow the hypothesis that there exists a significant correlation between climatic suitability for Stony creek frogs at the previously studied sites and latitude. At the same time, this was congruent with the latitudinal gradient of the number of zoospores per frog."
+    },
+    {
+        "title": "Global Strategy for the Ex Situ Conservation of Lentil (Lens Miller)",
+        "type": "report",
+        "year": 2008,
+        "keywords": [
+            "Fabaceae"
+        ],
+        "id": "32d307a6-f4c4-311c-9c6f-8a7d777c4257",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-01T04:31:13.000Z",
+        "tags": [
+            "2008",
+            "report"
+        ],
+        "abstract": "The current status of Lens ex situ genetic resources was assessed via a survey sent to the major lentil collections, meetings bringing together researchers and curators of Lens germplasm, database searching, and communications with relevant scientists and experts. Collection composition, facility status, regeneration needs, safety duplication status, information and documentation status, and status of accessibility of germplasm is presented based upon the gat vhered information. Gaps in the world collection of lentil, improved utilization of Lens germplasm, training, partnerships, and networks related to lentil are surveyed. Collection information is currently insufficient for many collections identified in the Strategy, and other collections potentially containing lentil germplasm remain to be verified. From the available information, key collections containing important lentil accessions and meeting international standards for conservation, information, and availability are highlighted. Collections holding priority germplasm and identified as in need of assistance to come to meet full international standards with respect to maintenance, documentation, and/or distribution are also identified. Other collections holding unique germplasm of Lens are also highlighted for further investigation. These collections form the basis for a rational global conservation system for lentil and its wild relatives, and the international community should consider supporting the holding institutions in order to ensure the long-term conservation, information availability, and distribution of these globally important resources. 3"
+    },
+    {
+        "title": "Can AI Techniques be Applied to Forest Science Data Integration Problems?",
+        "type": "report",
+        "authors": [
+            {
+                "first_name": "Steven B.",
+                "last_name": "Dolins"
+            },
+            {
+                "first_name": "Richard",
+                "last_name": "Condit"
+            },
+            {
+                "first_name": "Hua-Ching",
+                "last_name": "Su"
+            },
+            {
+                "first_name": "Suzanne",
+                "last_name": "Lao"
+            }
+        ],
+        "year": 2008,
+        "id": "69473635-15f1-3451-b527-fb7fd049b151",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:18.000Z",
+        "tags": [
+            "2008",
+            "PA",
+            "Panama",
+            "US",
+            "report"
+        ],
+        "abstract": "A workshop meeting was held December 17-18, 2006 at the Center for Tropical Forest Science to discuss database technology and forest science. Approximately twenty botanists participated in the meeting, representing twelve research organizations that collect data from seven plots or surveys from around the world. At the meeting we discussed technical issues, such as how to share existing schemas, how to integrate and share data, and how to represent botanical taxonomies."
+    },
+    {
+        "title": "Biodiversity and Industry",
+        "type": "report",
+        "authors": [
+            {
+                "first_name": "F.",
+                "last_name": "Grant"
+            },
+            {
+                "first_name": "J.",
+                "last_name": "Weber"
+            },
+            {
+                "first_name": "M.",
+                "last_name": "Atramentowicz"
+            },
+            {
+                "first_name": "S.",
+                "last_name": "Hernandez"
+            },
+            {
+                "first_name": "Nathalie",
+                "last_name": "Frascaria-Lacoste"
+            },
+            {
+                "first_name": "J.",
+                "last_name": "Houdet"
+            },
+            {
+                "first_name": "A. D.",
+                "last_name": "Watt"
+            }
+        ],
+        "year": 2008,
+        "id": "e1c9b725-7fe6-396b-b253-c56664d4edd8",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:30.000Z",
+        "tags": [
+            "2008",
+            "report"
+        ]
+    },
+    {
+        "title": "An Integrated Korean Biodiversity and Genetic Information Retrieval System",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Jeongheui",
+                "last_name": "Lim"
+            },
+            {
+                "first_name": "Jong",
+                "last_name": "Bhak"
+            },
+            {
+                "first_name": "Hee-Mock",
+                "last_name": "Oh"
+            },
+            {
+                "first_name": "Chang-Bae",
+                "last_name": "Kim"
+            },
+            {
+                "first_name": "Yong-Ha",
+                "last_name": "Park"
+            },
+            {
+                "first_name": "Woon-Kee",
+                "last_name": "Paek"
+            }
+        ],
+        "year": 2008,
+        "source": "BMC Bioinformatics",
+        "identifiers": {
+            "isbn": "1471-2105"
+        },
+        "id": "5e51d9a4-f25d-3524-a403-5cbfdc1283b9",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:21.000Z",
+        "tags": [
+            "2008",
+            "GBIF_discussed",
+            "review"
+        ],
+        "abstract": "BACKGROUND:On-line biodiversity information databases are growing quickly and being integrated into general bioinformatics systems due to the advances of fast gene sequencing technologies and the Internet. These can reduce the cost and effort of performing biodiversity surveys and genetic searches, which allows scientists to spend more time researching and less time collecting and maintaining data. This will cause an increased rate of knowledge build-up and improve conservations. The biodiversity databases in Korea have been scattered among several institutes and local natural history museums with incompatible data types. Therefore, a comprehensive database and a nation wide web portal for biodiversity information is necessary in order to integrate diverse information resources, including molecular and genomic databases.RESULTS:The Korean Natural History Research Information System (NARIS) was built and serviced as the central biodiversity information system to collect and integrate the biodiversity data of various institutes and natural history museums in Korea. This database aims to be an integrated resource that contains additional biological information, such as genome sequences and molecular level diversity. Currently, twelve institutes and museums in Korea are integrated by the DiGIR (Distributed Generic Information Retrieval) protocol, with Darwin Core2.0 format as its metadata standard for data exchange. Data quality control and statistical analysis functions have been implemented. In particular, integrating molecular and genetic information from the National Center for Biotechnology Information (NCBI) databases with NARIS was recently accomplished. NARIS can also be extended to accommodate other institutes abroad, and the whole system can be exported to establish local biodiversity management servers.CONCLUSION:A Korean data portal, NARIS, has been developed to efficiently manage and utilize biodiversity data, which includes genetic resources. NARIS aims to be integral in maximizing bio-resource utilization for conservation, management, research, education, industrial applications, and integration with other bioinformation data resources. It can be found at http://www.naris.go.kr."
+    },
+    {
+        "title": "Towards a global strategy for the conservation of the biological diversity",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Miguel Jorge",
+                "last_name": "Lobo"
+            }
+        ],
+        "year": 2008,
+        "source": "Boletín Sociedad Entomológica Aragonesa",
+        "id": "9139820c-ba83-3a81-a819-e08668667465",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:49.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "Linking Traits to Energetics and Population Dynamics to Predict Lizard Ranges in Changing Environments",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Lauren B.",
+                "last_name": "Buckley"
+            }
+        ],
+        "year": 2008,
+        "source": "The American Naturalist",
+        "identifiers": {
+            "isbn": "00030147"
+        },
+        "id": "475287dc-9957-3bad-bcec-a3bceb72a524",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:57.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ],
+        "abstract": "Abstract: I present a dynamic bioenergetic model that couples individual energetics and population dynamics to predict current lizard ranges and those following climate warming. The model predictions are uniquely based on first principles of morphology, life history, and thermal physiology. I apply the model to five populations of a widespread North American lizard, Sceloporus undulatus, to examine how geographic variation in traits and life histories influences ranges. This geographic variation reflects the potential for species to adapt to environmental change. I then consider the range dynamics of the closely related Sceloporus graciosus. Comparing predicted ranges and actual current ranges reveals how dispersal limitations, species interactions, and habitat requirements influence the occupied portions of thermally suitable ranges. The dynamic model predicts individualistic responses to a uniform 3°C warming but a northward shift in the northern range boundary for all populations and species. In contrast to standard correlative climate envelope models, the extent of the predicted northward shift depends on organism traits and life histories. The results highlight the limitations of correlative models and the need for more dynamic models of species’ ranges."
+    },
+    {
+        "title": "Patterns of woody plant species richness in the Iberian Peninsula: environmental range and spatial scale",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Ole R",
+                "last_name": "Vetaas"
+            },
+            {
+                "first_name": "Dolores",
+                "last_name": "Ferrer-Castán"
+            }
+        ],
+        "year": 2008,
+        "source": "Journal of Biogeography",
+        "identifiers": {
+            "doi": "10.1111/j.1365-2699.2008.01931.x",
+            "isbn": "1365-2699"
+        },
+        "keywords": [
+            "Diversity",
+            "grain size",
+            "interim general model",
+            "mountains",
+            "topography",
+            "tree species richness",
+            "variation partitioning",
+            "water–energy dynamics",
+            "water–substrate interaction"
+        ],
+        "id": "d3b9a316-4a7a-357e-933d-f0cb53f7bc21",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:20.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ],
+        "abstract": "Abstract Aim Climate-based models often explain most of the variation in species richness along broad-scale geographical gradients. We aim to: (1) test predictions of woody plant species richness on a regional spatial extent deduced from macro-scale models based on water–energy dynamics; (2) test if the length of the climate gradients will determine whether the relationship with woody species richness is monotonic or unimodal; and (3) evaluate the explanatory power of a previously proposed ‘water–energy’ model and regional models at two grain sizes. Location The Iberian Peninsula. Methods We estimated woody plant species richness on grid maps with c. 2500 and 22,500 km2 cell size, using geocoded data for the individual species. Generalized additive models were used to explore the relationships between richness and climatic, topographical and substrate variables. Ordinary least squares regression was used to compare regional and more general water–energy models in relation to grain size. Variation partitioning by partial regression was applied to find how much of the variation in richness was related to spatial variables, explanatory variables and the overlap between these two. Results Water–energy dynamics generate important underlying gradients that determine the woody species richness even over a short spatial extent. The relationships between richness and the energy variables were linear to curvilinear, whereas those with precipitation were nonlinear and non-monotonic. Only a small fraction of the spatially structured variation in woody species richness cannot be accounted for by the fitted variables related to climate, substrate and topography. The regional models accounted for higher variation in species richness than the water–energy models, although the water–energy model including topography performed well at the larger grain size. Elevation range was the most important predictor at all scales, probably because it corrects for ‘climatic error’ due to the unrealistic assumption that mean climate values are evenly distributed in the large grid cells. Minimum monthly potential evapotranspiration was the best climatic predictor at the larger grain size, but actual evapotranspiration was best at the smaller grain size. Energy variables were more important than precipitation individually. Precipitation was not a significant variable at the larger grain size when examined on its own, but was highly significant when an interaction term between itself and substrate was included in the model. Main conclusions The significance of range in elevation is probably because it corresponds to several aspects that may influence species diversity, such as climatic variability within grid cells, enhanced surface area, and location for refugia. The relative explanatory power of energy and water variables was high, and was influenced by the length of the climate gradient, substrate and grain size of the analysis. Energy appeared to have more influence than precipitation, but water availability is also determined by energy, substrate and topographic relief."
+    },
+    {
+        "title": "Historical bias in biodiversity inventories affects the observed environmental niche of the species",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Joaquín",
+                "last_name": "Hortal"
+            },
+            {
+                "first_name": "Alberto",
+                "last_name": "Jiménez-Valverde"
+            },
+            {
+                "first_name": "José F.",
+                "last_name": "Gómez"
+            },
+            {
+                "first_name": "Miguel Jorge",
+                "last_name": "Lobo"
+            },
+            {
+                "first_name": "Andrés",
+                "last_name": "Baselga"
+            }
+        ],
+        "year": 2008,
+        "source": "Oikos",
+        "identifiers": {
+            "doi": "10.1111/j.0030-1299.2008.16434.x",
+            "isbn": "1600-0706"
+        },
+        "id": "6836ca97-811a-3943-9df6-6b49524a4d76",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-22T11:00:26.000Z",
+        "tags": [
+            "2008",
+            "GBIF_VIP",
+            "GBIF_used",
+            "review"
+        ],
+        "abstract": "It is well known that biodiversity data from historical inventories presents important geographic and taxonomic biases. Due to this, current knowledge on the distribution of most species could be incomplete and biased. We assess how the biases in historical biodiversity data might affect the description of the environmental niche of the species, using exhaustive data on the distribution of dung beetles in Madrid as a case study. We describe the historical process of survey and compare such historical data with the results of an exhaustive survey, identifying the environmental biases in the historical surveys during different periods, and assessing the completeness of the environmental niche of the species provided by historical data through time. Events like the Spanish Civil War affect the tempo and spread of surveys, but the exhaustive work since 1970 provides a good, though incomplete, coverage of the region by 1998. In spite of this, the biases in historical data result in a limited knowledge about the niche of an important number of species. Although nearly a half of the species had the 100% of their niche covered by data in 1998, roughly a third had less than 75%, nearly a fourth less than 50%, and 18 species had to be excluded from the analyses due to the lack of data. Our results point out that data from non-standardized inventories often provide an incomplete description of the environmental responses of most species. Due to this, we highlight that currently predictive models of species distributions present some limitations, since the results of models based in partial information about the environmental niche of the species will be compromised. Therefore, the biases in the available data must be evaluated before constructing predictive maps of species distributions, and taken into account when drawing conclusions or conservation strategies from these maps."
+    },
+    {
+        "title": "Making way for molecular biology: institutionalizing and managing reform of biological science in a UK university during the 1980s and 1990s",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Duncan",
+                "last_name": "Wilson"
+            },
+            {
+                "first_name": "Gaël",
+                "last_name": "Lancelot"
+            }
+        ],
+        "year": 2008,
+        "source": "Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences",
+        "identifiers": {
+            "doi": "DOI: 10.1016/j.shpsc.2007.12.011",
+            "isbn": "1369-8486"
+        },
+        "keywords": [
+            "Manchester",
+            "Mode-2",
+            "Molecular biology",
+            "Reorganization",
+            "Research management"
+        ],
+        "id": "6d4c80cd-a071-30d9-a1b8-a8cce3c29bb7",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:38.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ],
+        "abstract": "Historians agree that the second half of the twentieth century saw widespread changes in the structure of biological science in universities. This shift was, and continues to be, characterized by the de-differentiation of nineteenth and early twentieth century disciplines, with increasing emphasis on the methods and authority of molecular fields. Yet we currently lack appreciation of the dynamics that underpinned these changes, and of their tangible effects on the working practices of those involved. In this article we examine the wholesale reform of biological science at the University of Manchester, England, that occurred in two successive steps in 1986 and 1993. We examine how reform was enabled by economic and political factors, as staff seized upon national pressures; in so doing, we emphasize how this reform was shaped by a generational view of the biological sciences as a one field, unified by molecular techniques. We assess how the success of these reforms was tied to new management policies that rewarded research activity in molecular fields, and refigured teaching as a punishment for research inactivity. We close by showing how our analysis fits amongst, and can contribute to, [`]big picture' debates in the history and sociology of knowledge."
+    },
+    {
+        "title": "A revision of the New Zealand landsnails referred to Allodiscus Pilsbry, 1892 and Pseudallodiscus Climo, 1971, with the introduction of three new genera (Mollusca: Gastropoda: Charopidae)",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Bruce A.",
+                "last_name": "Marshall"
+            },
+            {
+                "first_name": "Gary M.",
+                "last_name": "Barker"
+            }
+        ],
+        "year": 2008,
+        "source": "Tuhinga",
+        "id": "9070f4a3-0a84-375c-bf13-eb47be46c1a1",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:20.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ]
+    },
+    {
+        "title": "Database records as a surrogate for sampling effort provide higher species richness estimations",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Miguel Jorge",
+                "last_name": "Lobo"
+            }
+        ],
+        "year": 2008,
+        "source": "Biodiversity and Conservation",
+        "identifiers": {
+            "doi": "10.1007/s10531-008-9333-4",
+            "isbn": "0960-3115"
+        },
+        "keywords": [
+            "Biomedical and Life Sciences"
+        ],
+        "id": "a1eff5cc-654b-3ecf-846d-9194701f0204",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:38.000Z",
+        "tags": [
+            "2008",
+            "GBIF_VIP",
+            "GBIF_used",
+            "review"
+        ],
+        "abstract": "The compilation of all the available taxonomic and distributional information on the species present in a territory frequently generates a biased picture of the distribution of biodiversity due to the uneven distribution of the sampling effort performed. Thus, quality protocol assessments such as those proposed by Hortal et al. (Conservation Biology 21:853–863, 2007) must be done before using this kind of information for basic and applied purposes. The discrimination of localities that can be considered relatively well-surveyed from those not surveyed enough is a key first step in this protocol and can be attained by the previous definition of a sampling effort surrogate and the calculation of survey completeness using different estimators. Recently it has been suggested that records from exhaustive databases can be used as a sampling-effort surrogate to recognize probable well-surveyed localities. In this paper, we use an Iberian dung beetle database to identify the 50 × 50 km UTM cells that appear to be reliably inventoried, using both data derived from standardized sampling protocols and database records as a surrogate for sampling effort. Observed and predicted species richness values in the shared cells defined as well-surveyed by both methods suggest that the use of database records provides higher species richness values, which are proportionally greater in the richest localities by the inclusion of rare species."
+    },
+    {
+        "title": "International collaboration in Antarctica: the International Polar Years, the International Geophysical Year, and the Scientific Committee on Antarctic Research",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Colin P",
+                "last_name": "Summerhayes"
+            }
+        ],
+        "year": 2008,
+        "source": "Polar Record",
+        "id": "2f3f3c90-ca4b-3ce2-80b1-4de74d24ec88",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2015-01-19T09:10:02.000Z",
+        "tags": [
+            "2008",
+            "GB",
+            "GBIF_mentioned",
+            "United_Kingdom"
+        ]
+    },
+    {
+        "title": "Standard identifier could mobilize data and free time",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "David",
+                "last_name": "Roberts"
+            },
+            {
+                "first_name": "Vishwas C.",
+                "last_name": "Chavan"
+            }
+        ],
+        "year": 2008,
+        "source": "Nature",
+        "identifiers": {
+            "isbn": "0028-0836"
+        },
+        "id": "df7190c9-93fe-32d7-8334-9efa4509b37c",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:39.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "Some additional breeding records for birds in Angola",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "W. Richard J.",
+                "last_name": "Dean"
+            },
+            {
+                "first_name": "Suzanne J.",
+                "last_name": "Milton"
+            }
+        ],
+        "year": 2007,
+        "source": "Ostrich",
+        "identifiers": {
+            "doi": "10.2989/OSTRICH.2007.78.3.13.324",
+            "issn": "0030-6525"
+        },
+        "id": "621ce243-ba39-3227-9842-34bd05d0f9a5",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2015-01-19T09:10:03.000Z",
+        "tags": [
+            "2007",
+            "GBIF_acknowledged",
+            "GBIF_funded",
+            "South_Africa",
+            "ZA",
+            "university"
+        ]
+    },
+    {
+        "title": "A new Wagnerinus (Coleoptera: Curculionidae) from northern Japan: Description including a DNA barcode",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Hiraku",
+                "last_name": "Yoshitake"
+            },
+            {
+                "first_name": "Toshihide",
+                "last_name": "Kato"
+            },
+            {
+                "first_name": "Utsugi",
+                "last_name": "Jinbo"
+            },
+            {
+                "first_name": "Motomi",
+                "last_name": "Ito"
+            }
+        ],
+        "year": 2008,
+        "source": "Zootaxa",
+        "id": "73710963-9b46-3524-bdb0-ac75136eaa6a",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:19.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ]
+    },
+    {
+        "title": "Infection by powdery mildew Erysiphe cruciferarum (Erysiphaceae) strongly affects growth and fitness of Alliaria petiolata (Brassicaceae)",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Stephanie M.",
+                "last_name": "Enright"
+            },
+            {
+                "first_name": "Don",
+                "last_name": "Cipollini"
+            }
+        ],
+        "year": 2007,
+        "source": "American Journal of Botany",
+        "identifiers": {
+            "doi": "10.3732/ajb.94.11.1813",
+            "pmid": "21636376",
+            "issn": "0002-9122"
+        },
+        "keywords": [
+            "Alliaria petiolata",
+            "Erysiphe cruciferarum",
+            "biocontrol",
+            "infection",
+            "invasive species",
+            "plant fitness",
+            "plant growth"
+        ],
+        "id": "8e019938-dadb-3a9c-aa71-24cc8dd16f4f",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2015-01-19T09:10:07.000Z",
+        "tags": [
+            "2007",
+            "Aichi_B",
+            "GBIF_used",
+            "Target_9",
+            "US",
+            "invasives",
+            "university"
+        ],
+        "abstract": "Garlic mustard (Alliaria petiolata) is an invasive biennial that negatively impacts plant and animal communities throughout North America and lacks significant herbivory in its invasive range. Throughout Ohio, many garlic mustard populations support the powdery mildew fungus Erysiphe cruciferarum, although disease incidence varies among populations and environments. Effects of infection on plant growth, as well as both plant and fungal responses to drought and light conditions, were examined on greenhouse-grown, first-year garlic mustard plants. Also, the effects of the fungus on plant growth and fitness were studied in a naturally growing population of second-year plants in the field. Powdery mildew significantly reduced growth of first-year plants in the greenhouse, eventually causing complete mortality. Simulated drought slowed both plant growth and disease development, independent of light conditions. In the field, plants with little incidence of disease after their first year grew taller during their second year, producing significantly more siliques and twice as many seeds as heavily diseased plants did. Seed germination rates did not differ between plants with different levels of disease severity. Consistent reductions in survival, growth, and fitness caused by fungal infection may reduce populations of garlic mustard. These effects may be more evident in moist sites that favor fungal development."
+    },
+    {
+        "title": "Arrhenia peltigerina, un basidiomycète lichénicole nouveau pour la mycoflore luxembourgeoise (Basidiomycota, Agaricales, Tricholomataceae)",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Marie",
+                "last_name": "Garnier-Delcourt"
+            }
+        ],
+        "year": 2008,
+        "source": "Bull. Soc. Nat. luxemb.",
+        "id": "89b1201a-8e74-33fb-acf8-9f0084605699",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:18.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ]
+    },
+    {
+        "title": "Paleobotany",
+        "type": "book",
+        "authors": [
+            {
+                "first_name": "Thomas N.",
+                "last_name": "Taylor"
+            },
+            {
+                "first_name": "Edith L.",
+                "last_name": "Taylor"
+            },
+            {
+                "first_name": "Michael",
+                "last_name": "Krings"
+            }
+        ],
+        "year": 2008,
+        "identifiers": {
+            "isbn": "978-0-12-373972-8"
+        },
+        "id": "a3b66231-ab86-355d-956f-cd45df0fc8b6",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:30.000Z",
+        "tags": [
+            "2008",
+            "DE",
+            "GBIF_acknowledged",
+            "Germany",
+            "US",
+            "need_copy",
+            "paleobiogeography",
+            "university"
+        ]
+    },
+    {
+        "title": "Automated extraction of data from text using an XML parser: An earth science example using fossil descriptions",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Gordon B.",
+                "last_name": "Curry"
+            },
+            {
+                "first_name": "Richard C. H.",
+                "last_name": "Connor"
+            }
+        ],
+        "year": 2008,
+        "source": "Geosphere",
+        "identifiers": {
+            "doi": "10.1130/ges00140.1"
+        },
+        "id": "9be38413-1b20-3fcf-b57b-af0fde037633",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:48.000Z",
+        "tags": [
+            "2008",
+            "GBIF_discussed",
+            "review"
+        ],
+        "abstract": "Many valuable earth science data are not available in a digital format. Manual entry of such information into databases is time consuming, unrewarding, and prone to introducing errors. Taxonomic descriptions of fossils are a good example of valuable data that are overwhelming and available only in printed volumes and journals, some of which are increasingly rare and inaccessible. The highly structured nature of taxonomic procedures and nomenclature means that many previously published data remain equally valid to the present day, and contain information that is currently not available on the World Wide Web; these data would be of great use to a wide variety of scientists and other end users in government, industry, academia and the general public. This paper describes an XML (extensible markup language) parsing technique that allows taxonomic descriptions to be fully digitized much more rapidly than would be possible by manual entry of the data into a database. The technique exploits the high degree of structure in taxonomic descriptions, which are written in a standardized format, to automate the processing of tagging separate sections of the text. Once tagged using XML, the data can be subjected to complex searches using queries written in any of the XML query standards. The XML-tagged data can potentially be imported into existing databases, in effect removing the necessity to manually enter the information, and hence overcoming the main bottleneck in generating digital data from printed material. Individual parsers can be tailored precisely to the nature of the text being analyzed, and once the underlying concepts and procedures are understood, those interested in acquiring and using digital data will be able to generate XML parsers dedicated to text with different styles of standardized formatting."
+    },
+    {
+        "title": "Review: Encyclopedia of Life – Online-Datenbank aller Arten der Welt",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Dr. Sonja",
+                "last_name": "Wipf"
+            }
+        ],
+        "year": 2008,
+        "source": "Botanica Helvetica",
+        "id": "5d9be3e1-88e4-3afb-bf78-98009b68cf59",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:18.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "A web resource for the UK's long-term individual-based time-series (LITS) data",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Owen R.",
+                "last_name": "Jones"
+            },
+            {
+                "first_name": "Tim",
+                "last_name": "Clutton-Brock"
+            },
+            {
+                "first_name": "Tim",
+                "last_name": "Coulson"
+            },
+            {
+                "first_name": "H. Charles J.",
+                "last_name": "Godfray"
+            }
+        ],
+        "year": 2008,
+        "source": "Journal of Animal Ecology",
+        "identifiers": {
+            "doi": "10.1111/j.1365-2656.2008.01382.x",
+            "isbn": "1365-2656"
+        },
+        "id": "29208c48-7a33-3b75-841e-b5ea03055062",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:49.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "Plankton taxonomy in the computer age",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Fabien",
+                "last_name": "Jouenne"
+            },
+            {
+                "first_name": "Ian",
+                "last_name": "Probert"
+            },
+            {
+                "first_name": "Daniel",
+                "last_name": "Vaulot"
+            }
+        ],
+        "year": 2008,
+        "source": "Cahiers de biologie marine",
+        "id": "b66519dc-a955-3ca1-8259-ae594a69386b",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:27.000Z",
+        "tags": [
+            "2008",
+            "review"
+        ]
+    },
+    {
+        "title": "Towards a Data Quality Management Framework for Digital Soil Mapping with Limited Data",
+        "type": "book_section",
+        "authors": [
+            {
+                "first_name": "B. G. C. M.",
+                "last_name": "Krol"
+            }
+        ],
+        "year": 2008,
+        "identifiers": {
+            "doi": "10.1007/978-1-4020-8592-5_11",
+            "isbn": "978-1-4020-8592-5"
+        },
+        "keywords": [
+            "Environment"
+        ],
+        "id": "5a49cb1d-8b69-3818-afe6-e0100e7b225d",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:49.000Z",
+        "tags": [
+            "2008",
+            "review"
+        ],
+        "abstract": "The re-use of legacy soil data together with increasing numbers of environmental co-variables becomes increasingly more interesting in digital soil mapping at intermediate scales, in areas with limited data. This poses important issues regarding the reliability of these data as well as of the final product of mapping. It also requires that the data and the manner in which they are (re-)used do not have a negative influence on the quality of the mapping product. Existing quality management approaches in soil mapping emphasise the producer perspective. In addition, rather than being preventive in nature they mainly rely on detection of defects in end-product testing. A shift is required from a focus on the quality of the end-product of mapping to quality control of the mapping process itself. The development of a framework for soil data quality management is proposed in this chapter."
+    },
+    {
+        "title": "Dispersed leaf cuticle from the early Miocene of southern New Zealand",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Mike",
+                "last_name": "Pole"
+            }
+        ],
+        "year": 2008,
+        "source": "Palaeontologia Electronica",
+        "id": "ab9958fd-ea90-308b-9b57-19f8c085b852",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:38.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ]
+    },
+    {
+        "title": "Linking Biodiversity Research and Policy in Europe",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Carsten",
+                "last_name": "Nesshöver"
+            },
+            {
+                "first_name": "Rainer",
+                "last_name": "Müssner"
+            },
+            {
+                "first_name": "Klaus",
+                "last_name": "Henle"
+            },
+            {
+                "first_name": "Isabel",
+                "last_name": "Sousa-Pinto"
+            }
+        ],
+        "year": 2008,
+        "source": "AMBIO: A Journal of the Human Environment",
+        "identifiers": {
+            "doi": "10.1579/0044-7447(2008)37[138:lbrapi]2.0.co;2",
+            "isbn": "0044-7447"
+        },
+        "id": "03c5c661-4c13-3730-9f26-53c6d71c1fff",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:30.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "Climate change and the origin of migratory pathways in the Swainson's thrush, Catharus ustulatus",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Kristen C.",
+                "last_name": "Ruegg"
+            },
+            {
+                "first_name": "Robert J.",
+                "last_name": "Hijmans"
+            },
+            {
+                "first_name": "Craig",
+                "last_name": "Moritz"
+            }
+        ],
+        "year": 2006,
+        "source": "Journal of Biogeography",
+        "identifiers": {
+            "doi": "10.1111/j.1365-2699.2006.01517.x",
+            "issn": "0305-0270"
+        },
+        "keywords": [
+            "North America",
+            "Pleistocene",
+            "Swainson’s thrush",
+            "bioclimatic modelling",
+            "catharus ustulatus",
+            "migration",
+            "migratory pathway",
+            "mtDNA",
+            "phylogeography",
+            "population expansion"
+        ],
+        "id": "e9722b34-c551-365a-8ec3-1b4a13bcbad4",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:50.000Z",
+        "tags": [
+            "2006",
+            "GBIF_used"
+        ],
+        "abstract": "Aim To provide a spatially explicit model of how geographic distributions at the last glacial maximum (LGM) and post-glacial colonization routes shaped current migratory pathways in the Swainson’s thrush, Catharus ustulatus, a long-distance migratory bird. Location The Swainson’s thrush breeds in boreal forest regions of the United States and Canada as well as in riparian woodlands along the Pacific coast of North America. Methods Palaeodistribution modelling is combined with mtDNA phylogeography to predict the breeding range of the Swainson’s thrush at the LGM. Quantitative environmental analysis and bioclimatic modelling are used to reconstruct the most likely post-glacial colonization pathways. A maximum likelihood method for estimating growth rates is used to approximate the relative change in population size since the LGM. Main conclusions The palaeodistribution models are concordant with the Swainson’s thrush mtDNA phylogeography, suggesting that the inland and coastal groups were geographically isolated in eastern (inland) and western (coastal) regions at the LGM. Estimates of change in population size based on genetic data are remarkably consistent with estimates of change in range size, suggesting that the coastal group has undergone a 2- to 3-fold demographic and range expansion, while the inland group has undergone a 6- to 12-fold demographic and range expansion since the LGM. Bioclimatic analyses strongly support the hypothesis that populations expanding out of the east into previously glaciated areas in the west were undergoing a natural extension of their range by tracking the changes in climatic conditions. The combination of bioclimatic and molecular analyses is consistent with the idea that coastal and inland groups expanded from separate eastern and western regions after the LGM and that the current migratory pathway of the inland group retraces its post-glacial colonization route."
+    },
+    {
+        "title": "An overview of general features of risk assessments of genetically modified crops",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Wendy",
+                "last_name": "Craig"
+            },
+            {
+                "first_name": "Mark",
+                "last_name": "Tepfer"
+            },
+            {
+                "first_name": "Giuliano",
+                "last_name": "Degrassi"
+            },
+            {
+                "first_name": "Decio",
+                "last_name": "Ripandelli"
+            }
+        ],
+        "year": 2008,
+        "source": "Euphytica",
+        "identifiers": {
+            "doi": "10.1007/s10681-007-9643-8",
+            "isbn": "0014-2336"
+        },
+        "keywords": [
+            "Biomedical and Life Sciences"
+        ],
+        "id": "d069261f-8bc5-304b-8dee-affa4fcf9d29",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:49.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ],
+        "abstract": "The intentional introduction into the environment or market of genetically modified organisms (GMOs) is nearly always governed by a framework of science-based risk assessment and risk management measures. This is usually implemented through the integration of hazard identification and characterisation of all of the elements of risk associated with a new GM crop or derived product. Typical categories of hazards arising from the introduction of transgenic crops include: possible unintended negative health effects in a susceptible subgroup of the consumer (target) population; the evolution of resistance in the targeted pest/pathogen populations when the transgene confers resistance to a pest or pathogen; non-target hazards associated directly or indirectly with the transgenic plant or transgene product outside the plant; and those associated with the integration and subsequent expression of the transgene in a different organism or species following gene flow. The consequences of likely exposure to these and other hazards are considered in this introduction to the main issues raised when evaluating the possible risks arising from the importation or cultivation of genetically modified crops."
+    },
+    {
+        "title": "Contribució de les varietats locals a la conservació de l'agrobiodiversitat: cas d'estudi en horts d'alta muntanya al Pallars Jussà, Pirineu català",
+        "type": "thesis",
+        "authors": [
+            {
+                "first_name": "Laura",
+                "last_name": "Vaqué i Núñez"
+            }
+        ],
+        "year": 2008,
+        "id": "4ede75ff-ff6f-3fa8-8ae1-d81a8b286c6a",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:38.000Z",
+        "tags": [
+            "2008",
+            "ES",
+            "Spain",
+            "thesis"
+        ]
+    },
+    {
+        "title": "Assessing Sensitiveness to Transport",
+        "type": "report",
+        "authors": [
+            {
+                "first_name": "Bernd",
+                "last_name": "Münier"
+            }
+        ],
+        "year": 2008,
+        "id": "ea21ce11-e4f5-3d1a-a508-b755cd8f9420",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:20.000Z",
+        "tags": [
+            "2008",
+            "report"
+        ],
+        "abstract": "WP3: Mapping of transport sensitive areas Task 3.1: Review on spatial approaches, mapping examples and available data sets at EU level"
+    },
+    {
+        "title": "The NIFSTD and BIRNLex Vocabularies: Building Comprehensive Ontologies for Neuroscience",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "William",
+                "last_name": "Bug"
+            },
+            {
+                "first_name": "Giorgio",
+                "last_name": "Ascoli"
+            },
+            {
+                "first_name": "Jeffrey",
+                "last_name": "Grethe"
+            },
+            {
+                "first_name": "Amarnath",
+                "last_name": "Gupta"
+            },
+            {
+                "first_name": "Christine",
+                "last_name": "Fennema-Notestine"
+            },
+            {
+                "first_name": "Angela",
+                "last_name": "Laird"
+            },
+            {
+                "first_name": "Stephen",
+                "last_name": "Larson"
+            },
+            {
+                "first_name": "Daniel",
+                "last_name": "Rubin"
+            },
+            {
+                "first_name": "Gordon",
+                "last_name": "Shepherd"
+            },
+            {
+                "first_name": "Jessica",
+                "last_name": "Turner"
+            },
+            {
+                "first_name": "Maryann",
+                "last_name": "Martone"
+            }
+        ],
+        "year": 2008,
+        "source": "Neuroinformatics",
+        "identifiers": {
+            "doi": "10.1007/s12021-008-9032-z",
+            "isbn": "1539-2791"
+        },
+        "keywords": [
+            "Biomedical and Life Sciences"
+        ],
+        "id": "e9ac3bce-0562-3343-b11c-9bedbd04b6e0",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:19.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ],
+        "abstract": "A critical component of the Neuroscience Information Framework (NIF) project is a consistent, flexible terminology for describing and retrieving neuroscience-relevant resources. Although the original NIF specification called for a loosely structured controlled vocabulary for describing neuroscience resources, as the NIF system evolved, the requirement for a formally structured ontology for neuroscience with sufficient granularity to describe and access a diverse collection of information became obvious. This requirement led to the NIF standardized (NIFSTD) ontology, a comprehensive collection of common neuroscience domain terminologies woven into an ontologically consistent, unified representation of the biomedical domains typically used to describe neuroscience data (e.g., anatomy, cell types, techniques), as well as digital resources (tools, databases) being created throughout the neuroscience community. NIFSTD builds upon a structure established by the BIRNLex, a lexicon of concepts covering clinical neuroimaging research developed by the Biomedical Informatics Research Network (BIRN) project. Each distinct domain module is represented using the Web Ontology Language (OWL). As much as has been practical, NIFSTD reuses existing community ontologies that cover the required biomedical domains, building the more specific concepts required to annotate NIF resources. By following this principle, an extensive vocabulary was assembled in a relatively short period of time for NIF information annotation, organization, and retrieval, in a form that promotes easy extension and modification. We report here on the structure of the NIFSTD, and its predecessor BIRNLex, the principles followed in its construction and provide examples of its use within NIF."
+    },
+    {
+        "title": "Introduction of Korea national research resource center",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Chunsun",
+                "last_name": "Ryu"
+            },
+            {
+                "first_name": "Yeonhee",
+                "last_name": "Lee"
+            }
+        ],
+        "year": 2008,
+        "source": "Microbiol. Cult. Coll.",
+        "id": "278ca6cd-cdcd-3396-98c7-d2ed5716ed8d",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:12.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "Collection and morphological characterization of Lagenaria siceraria germplasm from the Mediterranean region of Turkey",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "H.",
+                "last_name": "Yetişir"
+            },
+            {
+                "first_name": "M.",
+                "last_name": "Şakar"
+            },
+            {
+                "first_name": "S.",
+                "last_name": "Serçe"
+            }
+        ],
+        "year": 2008,
+        "source": "Genetic Resources and Crop Evolution",
+        "identifiers": {
+            "doi": "10.1007/s10722-008-9325-y",
+            "isbn": "0925-9864"
+        },
+        "keywords": [
+            "Biomedical and Life Sciences"
+        ],
+        "id": "63760648-7bb0-3c28-bfe8-dcae2f45f1b4",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:20.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ],
+        "abstract": "The landraces of Lagenaria siceraria in Turkey show great diversity for morphologic traits, particularly in fruit size and shape even though Turkey is not centre of genetic diversity for L. siceraria. In Turkey, L. siceraria is used as food, musical instruments and containers, according to the type and shape of their fruits. Its diversity has been gradually declining over the last 25 years. With the aim of assessing variations in plant, fruit and seed morphology among the L. siceraria landraces, 15 field trips for collection of germplasm to southern parts of Turkey (Mediterranean region) were carried out in the period of 2003–2004. The study also aimed at developing a representative core collection of the material to guide future studies and uses concerning its existing genetic diversity in Turkey. A total of 182 accessions (fruits and/or seeds) were collected. The seeds from all the sample material were sown in green house conditions at the experimental station of the Faculty of Agriculture of the Mustafa Kemal University in Hatay (Antakya), (36° 18′ 22′′ N, 36° 13′ 33′′ E, 82 m). In the spring of 2004, 162 out of the 182 sown seeds germinated and developed into viable seedlings. These were further transplanted in the field in 10 replicates. The morpho-agronomic characterization was carried out following the international standards for crop descriptors set by Bioversity International. The data were subject to both descriptive statistics and multivariate analysis by Principle Component Analysis. The descriptive statistics revealed that the whole collection exhibits a great deal of morphological diversity and that the subset core collection represents most of the variability. The first three principle components, calculated by using six quantitative traits, explained 26%, 21% and 17% (a total of 64%) of the total variation. Among the studied accessions, no apparently distinct patterns such as geographical origin were detected. This may suggest that the accessions have been introduced to Turkey from multiple locations and/or their diversity had been distributed almost evenly across the Mediterranean region of this country. Based on our results from the morphological characterization, 30 genotypes were selected to develop a subgroup (core) collection in order to represent most of the genetic diversity of all accessions. The work presented here is the first report about morphological characterization of Turkish L. siceraria germplasm."
+    },
+    {
+        "title": "Simple Biodiversity Mashups for Non-Tech-Savvy Biologists: A Demonstration Using The Liana Flora of Pennsylvania, USA1",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Christopher R.",
+                "last_name": "Hardy"
+            },
+            {
+                "first_name": "Nazli W.",
+                "last_name": "Hardy"
+            }
+        ],
+        "year": 2008,
+        "source": "The Journal of the Torrey Botanical Society",
+        "identifiers": {
+            "doi": "10.3159/08-ra-047r.1",
+            "isbn": "1095-5674"
+        },
+        "id": "6f940005-a0f3-38ae-aae3-2d1626732b84",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:19.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ]
+    },
+    {
+        "title": "Herpetofaunal survey of Cerro Guanacaure, Montaña La Botija and Isla Del Tigre protected areas in southern Honduras",
+        "type": "report",
+        "authors": [
+            {
+                "first_name": "R.E.",
+                "last_name": "Lovich"
+            },
+            {
+                "first_name": "T.S.",
+                "last_name": "Akre"
+            },
+            {
+                "first_name": "Mason J.",
+                "last_name": "Ryan"
+            },
+            {
+                "first_name": "N.J.",
+                "last_name": "Scott"
+            },
+            {
+                "last_name": "R.E. Ford"
+            }
+        ],
+        "year": 2006,
+        "id": "b5d1adfe-1a65-33ff-a48c-08ce335ff5b2",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:12.000Z",
+        "tags": [
+            "2006",
+            "review"
+        ],
+        "abstract": "Rapid ecological assessment inventory surveys of the herpetofauna at Cerro Guanacaure, Montaña La Botija, and Isla del Tigre Multiple Use Areas were conducted in January and June of 2006 as part of the the larger biodiversity inventory of Honduran protected areas inititiated and supported by by USAID/MIRA. The inventory surveys resulted in a considerable increase in knowledge of the resident herpetofauna in these three areas, and in the tropical dry forests of southern Honduras at large. Forty-two species of amphibians and reptiles were collected at the three areas combined, many of which are poorly known to science or of conservation concern. In addition, the capacity for the use of biodiversity and natural resource data in conservation management was enhanced through the establishment of collaborative partnerships with Honduran Universities, NGO’s, and local organizations. Current methods in field collection, data procurement management and analyses, the use of GPS and GIS, long-term specimen preparation and storage, and a host of other techniques were shared among team U.S. and Honduran members, and all collected specimens were placed at the National Museum of Natural History, UNAH, Tegucigalpa, Honduras."
+    },
+    {
+        "title": "Research between natural and cultural history information",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Karl-Heinz",
+                "last_name": "Lampe"
+            },
+            {
+                "first_name": "Klaus",
+                "last_name": "Riede"
+            },
+            {
+                "first_name": "Martin",
+                "last_name": "Doerr"
+            }
+        ],
+        "year": 2008,
+        "source": "Journal on Computing and Cultural Heritage",
+        "identifiers": {
+            "doi": "10.1145/1367080.1367084",
+            "isbn": "1556-4673",
+            "issn": "15564673"
+        },
+        "id": "670e09b7-a21a-38f9-9e22-a36ac75dff7e",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:19.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "An Information Systems Strategy for the Environmental Conservation Community",
+        "type": "thesis",
+        "authors": [
+            {
+                "first_name": "Kristin",
+                "last_name": "Barker"
+            }
+        ],
+        "year": 2008,
+        "id": "72349fb6-6b6a-3b3e-87f2-ddb39eac1e2f",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:28.000Z",
+        "tags": [
+            "2008",
+            "US",
+            "thesis"
+        ],
+        "abstract": "As the cause of environmental conservation emerges as a global priority, the need for a practical information systems strategy shared among conservation organizations becomes imperative. Historically, researchers and practitioners in conservation have met their own information management and analysis needs with inevitable variation in methodology, semantics, data formats and quality. Consequently, conservation organizations have been unable to systematically assess conditions and set informed priorities at various scales, measure performance of their projects and improve practices through adaptive management. Moreover, the demands on conservation are changing such that the bottom-up approach to information systems will become an increasing constraint to effective environmental problem solving. Where we have historically focused on the protection of “important” places and species and more recently “biodiversity,” conservation is moving to a systems view, specifically ecosystem-based management, where relationships and process are as important as the individual elements. In parallel, awareness of the human dependency on functioning natural systems is on the rise and with it the need to explicitly value ecosystem services and inform tradeoffs. Climate change requires conservation to develop dynamic adaptation scenarios at multiple spatial and temporal scales. Credible assessments and effective conservation action increasingly rely on collaboration from multiple organizations and disciplines. Finally, the business of conservation is under increased pressure to account for its spending and objectively measure outcomes of its strategies. All of these changes translate to growing, not shrinking, demands on information and information systems."
+    },
+    {
+        "title": "Interoperability of Biodiversity Databases: Biodiversity Information on Every Desktop",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "J. L.",
+                "last_name": "Edwards"
+            }
+        ],
+        "year": 2000,
+        "source": "Science",
+        "identifiers": {
+            "doi": "10.1126/science.289.5488.2312",
+            "issn": "00368075"
+        },
+        "id": "261a6bb7-1ea7-362b-aea5-c8caccc107c3",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:20.000Z",
+        "abstract": "Data about biodiversity are either scattered in many databases or reside on paper or other media not amenable to interactive searching. The Global Biodiversity Information Facility (GBIF) is a framework for facilitating the digitization of biodiversity data and for making interoperable an as-yet-unknown number of biodiversity databases that are distributed around the globe. In concert with other existing efforts, GBIF will catalyze the completion of a Catalog of the Names of Known Organisms and will develop search engines to mine the vast quantities of biodiversity data. It will be an outstanding tool for scientists, natural resource managers, and policy-makers."
+    },
+    {
+        "title": "Taxonomy: time – and chance – for a change",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Hannelore",
+                "last_name": "Hoch"
+            }
+        ],
+        "year": 2008,
+        "source": "Deutsche Entomologische Zeitschrift",
+        "identifiers": {
+            "doi": "10.1002/mmnd.200800019",
+            "isbn": "1860-1324"
+        },
+        "id": "8f18f39c-bfad-3723-9e09-9bc3e9b2d32f",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:58.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "The state of plant population modelling in light of environmental change",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Florian",
+                "last_name": "Jeltsch"
+            },
+            {
+                "first_name": "Kirk A.",
+                "last_name": "Moloney"
+            },
+            {
+                "first_name": "Frank M.",
+                "last_name": "Schurr"
+            },
+            {
+                "first_name": "Martin",
+                "last_name": "Köchy"
+            },
+            {
+                "first_name": "Monika",
+                "last_name": "Schwager"
+            }
+        ],
+        "year": 2008,
+        "source": "Perspectives in Plant Ecology, Evolution and Systematics",
+        "identifiers": {
+            "doi": "DOI: 10.1016/j.ppees.2007.11.004",
+            "isbn": "1433-8319"
+        },
+        "keywords": [
+            "Forecasting",
+            "Mechanistic",
+            "Plant functional types",
+            "Process-based modelling",
+            "Scaling up"
+        ],
+        "id": "4c1ca92b-4961-3a50-8c4e-c83d6c7df83c",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:20.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ],
+        "abstract": "Plant population modelling has been around since the 1970s, providing a valuable approach to understanding plant ecology from a mechanistic standpoint. It is surprising then that this area of research has not grown in prominence with respect to other approaches employed in modelling plant systems. In this review, we provide an analysis of the development and role of modelling in the field of plant population biology through an exploration of where it has been, where it is now and, in our opinion, where it should be headed. We focus, in particular, on the role plant population modelling could play in ecological forecasting, an urgent need given current rates of regional and global environmental change. We suggest that a critical element limiting the current application of plant population modelling in environmental research is the trade-off between the necessary resolution and detail required to accurately characterize ecological dynamics pitted against the goal of generality, particularly at broad spatial scales. In addition to suggestions how to overcome the current shortcoming of data on the process-level we discuss two emerging strategies that may offer a way to overcome the described limitation: (1) application of a modern approach to spatial scaling from local processes to broader levels of interaction and (2) plant functional-type modelling. Finally we outline what we believe to be needed in developing these approaches towards a [`]science of forecasting'."
+    },
+    {
+        "title": "The tropical biodiversity data gap: addressing disparity in global monitoring",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Ben",
+                "last_name": "Collen"
+            },
+            {
+                "first_name": "Mala",
+                "last_name": "Ram"
+            },
+            {
+                "first_name": "Tara",
+                "last_name": "Zamin"
+            },
+            {
+                "first_name": "Louise",
+                "last_name": "McRae"
+            }
+        ],
+        "year": 2008,
+        "source": "Tropical Conservation Science",
+        "id": "bc3aef05-c536-3cd6-9e05-bc43a6375b76",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:51.000Z",
+        "tags": [
+            "2008",
+            "GBIF_VIP",
+            "GBIF_used",
+            "review"
+        ]
+    },
+    {
+        "title": "Biodiversity Informatics: Challenges and Opportunities for Applying Biodiversity Information to Management and Conservation",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "James S.",
+                "last_name": "Kagan"
+            }
+        ],
+        "year": 2006,
+        "source": "Northwestern Naturalist",
+        "identifiers": {
+            "doi": "10.1898/1051-1733(2006)87[80:BICAOF]2.0.CO;2",
+            "issn": "1051-1733"
+        },
+        "keywords": [
+            "GBIF",
+            "biodiversity",
+            "botanic taxonomy",
+            "informatics",
+            "web portals"
+        ],
+        "id": "0b17b263-8535-35eb-9e2e-b2507d8e40ab",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:28.000Z",
+        "tags": [
+            "2006",
+            "GBIF_VIP",
+            "GBIF_used",
+            "US",
+            "conservation",
+            "informatics"
+        ],
+        "abstract": "Researchers, land managers, and the public currently often are unable to obtain useful biodiversity information because the subject represents such a large component of biology and ecology, and systems to compile and organize this information do not exist. Information on vascular plant taxonomy, as addressed by the Global Biodiversity Information Facility and key partners, serves as an example of current efforts to integrate information. Current areas of informatics research related to online systems are focused on improving searches and intelligent systems, but are limited by available information. I recommend 5 steps to improve access to biodiversity information. For even a small portion of the world's information on biodiversity to become available online, sites need to be able to integrate information from multiple sources and search capacity needs to be improved and focused. In addition, incentives or public policy need to promote the use of standards, the long-term maintenance of data sets, the maintenance of institutions for maintaining and distributing information, and more careful use of limited resources."
+    },
+    {
+        "title": "Historical invasion and expansion process of Alternanthera philoxeroides and its potential spread in China",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Lili",
+                "last_name": "Chen"
+            },
+            {
+                "first_name": "Yan",
+                "last_name": "Yu"
+            },
+            {
+                "first_name": "Xingjin",
+                "last_name": "He"
+            }
+        ],
+        "year": 2008,
+        "source": "Biodiversity Science",
+        "identifiers": {
+            "doi": "10.3724/SP.J.1003.2008.08195"
+        },
+        "id": "7610cb33-babd-3a9d-8f10-bd5a8cf13928",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:21.000Z",
+        "tags": [
+            "2008",
+            "review"
+        ]
+    },
+    {
+        "title": "Cyprinids",
+        "type": "book_section",
+        "authors": [
+            {
+                "first_name": "Laszlo",
+                "last_name": "Orban"
+            },
+            {
+                "first_name": "Qingjiang",
+                "last_name": "Wu"
+            }
+        ],
+        "year": 2008,
+        "source": "Genome Mapping and Genomics in Fishes and Aquatic Animals",
+        "identifiers": {
+            "doi": "10.1007/978-3-540-73837-4_2",
+            "isbn": "978-3-540-73837-4"
+        },
+        "keywords": [
+            "Life Sciences"
+        ],
+        "id": "245dd32c-e28f-3521-b7a7-a3ab54ca494a",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:39.000Z",
+        "tags": [
+            "2008",
+            "CN",
+            "China",
+            "SG",
+            "Singapore",
+            "book"
+        ],
+        "abstract": "In this chapter, we review the history and current status of cyprinid genetic and genomic research. Cyprinids are arguably the most important group of freshwater teleosts. The chapter starts with the history of cyprinid aquaculture, followed by the overview of the evolution and manipulation of cyprinid genomes. The third part describes the genetic and genomic resources available for cyprinid research, while the fourth provides suggestions on cyprinid genome sequencing. The last section recommends ways to improve the comparative analysis of cyprinid genomes. Throughout the whole chapter, we focus on common carp and zebra fish, the two most widely studied members of the family. However, we use every opportunity to introduce comparative aspects by including information about other cyprinids and teleosts that are important for research or aquaculture."
+    },
+    {
+        "title": "Ação inibitória de extratos de plantas do cerrado sobre α-amilases com ênfase em Kielmeyera coriacea",
+        "type": "thesis",
+        "authors": [
+            {
+                "first_name": "Everton Macêdo",
+                "last_name": "Silva"
+            }
+        ],
+        "year": 2008,
+        "id": "23270c9c-5fbb-3ff9-93a7-ae9c1c6bc707",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:12.000Z",
+        "tags": [
+            "2008",
+            "BR",
+            "Brazil",
+            "thesis"
+        ],
+        "abstract": "α-amylases are digestive enzymes widely distributed in microrganims, plants and animals, that catalyze hidrolysis of α-1,4 glicosidic bonds and act in carbohydrate metabolism. The inhibition of α-amylases can be applied on control of insect pests that depends on starch-rich diet to energy production, reducing the amount of nutrients to avoid its development. This action allow the use of these inhibitors like bio-insecticides. The inhibition of carbohydrate uptake in human health could be an alternative therapeutic on glicemic control, reducing post-prandial glucose peaks in chronic diseases treatment, such as diabetes, obesity an hyperlipidaemia. This project purposes the prospection of active molecules. In this context, plants are rich sources of compounds that could be studied. Then, the biologic potential of Cerrado Biome Plant Extract Bank, of University of Brasilia Pharmacognosy Laboratory, was evaluated on Acanthoscelides obtectus α-amylases, Zabrotes subfasciatus α-amylases and human saliva α-amylase. One hundred eighty-five hexanic, dichlorometanic, ethanolic and hidro-ethanolic extracts belonging to twenty-four species from ten families. The hidro- ethanolic bark stem extract of Kielmeyera coriacea was selected to chemical-biological study because of its strong inhibitory profile, with IC50 110,00 µg.mL-1 and 272,12 µg.mL-1 towards Z. subfasciatus and A. obtectus α-amylases, respectively. The extract presented 97,09% of inhibition of human isoform at 125 µg.mL-1. The liquid-liquid partition yielded two phases with a great inhibitory potential, phase 1, methanol/hexan precipitated, that inhibited 96,35%, and phase 5, methanol/water, that presented 99,35% of inhibition at 125 µg.mL-1. The chemical frationation of fase 1 in open chromatographic sephadex LH-20 column alowed the separation of 11 groups. Among them, the most active on human α-amylase were group 10 (95,24%) and group 11 (99,00%). The content of total phenols and tannins was analysed to crude extract, phases and active groups. Phase 1 demonstrated a high teor of phenolic compounds, with 1 mg.mL-1, including 53,56% of tannins and phase 5 showed 0,95 mg.mL-1 of polyphenols content, in wich 35,96% are tannins. Group 11 showed 81,03% of tannins content which inhibited 82% of human saliva α-amylase at only 50 µg.mL-1. The evaluation of extracts and tannins on α-amylases demonstrated a promising activity in carbohydrate uptake inhibition, representing a alternative to control diabetes and obesity, as well as a really interesting potential to insects α-amylases inhibition."
+    },
+    {
+        "title": "Studies on Eschatogonia ( Ramalinaceae) in Peru",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Einar",
+                "last_name": "Timdal"
+            }
+        ],
+        "year": 2008,
+        "source": "The Lichenologist",
+        "identifiers": {
+            "doi": "doi:10.1017/S0024282908007457",
+            "isbn": "0024-2829"
+        },
+        "id": "538634e9-2c1c-36d8-8c41-3b347b279788",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:50.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ],
+        "abstract": ":Four species of Eschatogonia are recognized in Peru: E. angustiloba Timdal sp. nov., E. dissecta Timdal &amp; R. Sant. sp. nov., E. minuta Timdal &amp; R. Sant. sp. nov., and E. prolifera (Mont.) R. Sant. African and South American material of E. prolifera are shown to belong in two different chemical strains. Eschatogonia prolifera is new to Guinea, Peru and Suriname. A key to all six known species of the genus is given."
+    },
+    {
+        "title": "Stabilité évolutive d’un mutualisme plante/fourmis obligatoire et spécifique",
+        "type": "thesis",
+        "authors": [
+            {
+                "first_name": "Julien",
+                "last_name": "Grangier"
+            }
+        ],
+        "year": 2008,
+        "id": "e8a86c00-4df6-3087-ba68-4ff3086dc314",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:19.000Z",
+        "tags": [
+            "2008",
+            "FR",
+            "France",
+            "thesis"
+        ]
+    },
+    {
+        "title": "Converting taxonomic descriptions to new digital formats",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Hong",
+                "last_name": "Cui"
+            }
+        ],
+        "year": 2008,
+        "source": "Biodiversity Informatics",
+        "id": "614a604b-518f-3002-82de-18604f063b5c",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:38.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "Replacement of Species Along Altitude Gradients: The Role of Branch Architecture",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Rubén",
+                "last_name": "Milla"
+            },
+            {
+                "first_name": "Luis",
+                "last_name": "Giménez-Benavides"
+            },
+            {
+                "first_name": "Gabriel",
+                "last_name": "Montserrat-Martí"
+            }
+        ],
+        "year": 2008,
+        "source": "Annals of Botany",
+        "identifiers": {
+            "doi": "10.1093/aob/mcn187"
+        },
+        "id": "2a647bc0-d202-3e63-bc07-504d82bf8870",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:31.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ],
+        "abstract": "Background and aims Plant species typical of cold and warm habitats differ in a suite of morpho-physio-phenological traits, although their evolutionary routes have been poorly explored. Here, it is advocated that traits typical of different climate regimes can be largely driven by contrasting branch architectures. This is explored within Saxifraga. First, an investigation was carried out to determine whether series Ceratophyllae (lateral inflorescences) is segregated to lowlands compared with Pentadactylis (terminal inflorescences). Then, two altitudinal vicariants, S. trifurcata (lowland, with lateral inflorescences) and S. canaliculata (highland, with apical inflorescences), were selected. It was hypothesized that apical flowering of S. canaliculata constrains its growth period, bringing with it traits typical of short growth season plants, and conversely for S. trifurcata.Methods The hypothesis was tested by measuring plant compactness and organ pre-formation in seven populations of these species along an altitude gradient.Key Results Most variables differed among species. Morphological variables at all scales support that the architecture of S. canaliculata generates a more compact habit. A higher number of primordia and earlier inflorescence pre-formation in S. canaliculata indicate that it begins organogenesis earlier. Data on organogenesis suggest that the different timing of inflorescence initiation may be the origin of the contrasting architectures. Within species, shoot compactness increased, and the length of lateral primordia decreased, as altitude increased. All other metrics were similar among locations of the same species at contrasting altitudes.Conclusions The hypotheses linking elevational segregation of species, architecture and pheno-morphological traits were validated at broad (gen. Saxifraga) and local (altitudinal vicariants) scales. This supports the initial idea that shoot architecture may to a large extent condition high altitude adaptive syndrome."
+    },
+    {
+        "title": "Shedding Light on the Dark Data in the Long Tail of Science",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "P. Bryan",
+                "last_name": "Heidorn"
+            }
+        ],
+        "year": 2008,
+        "source": "Library Trends",
+        "id": "52214a66-2375-3130-bdee-3e27dab14279",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:58.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "Predicting the spread of an invasive plant: combining experiments and ecological niche model",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Susan K.",
+                "last_name": "Ebeling"
+            },
+            {
+                "first_name": "Erik",
+                "last_name": "Welk"
+            },
+            {
+                "first_name": "Harald",
+                "last_name": "Auge"
+            },
+            {
+                "first_name": "Helge",
+                "last_name": "Bruelheide"
+            }
+        ],
+        "year": 2008,
+        "source": "Ecography",
+        "identifiers": {
+            "doi": "10.1111/j.1600-0587.2008.05470.x",
+            "isbn": "1600-0587"
+        },
+        "id": "73e687c0-9d0e-39b9-972c-3472c87dab90",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:41.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ],
+        "abstract": "Rapid evolutionary adjustments to novel environments may contribute to the successful spread of invasive species, and can lead to niche shifts making range dynamics unpredictable. These effects might be intensified by artificial selection in the course of breeding efforts, since many successful plant invaders were deliberately introduced and cultivated as ornamentals. We hypothesized that the invasion success of Buddleja davidii, the ornamental butterfly bush, is facilitated by local adaptation to minimum temperatures and thus, exhibits unpredictable range dynamics. To assess the potential effects of adaptive evolution and artificial selection on the spread of B. davidii, we combined a common garden experiment investigating local adaptation to frost, with ecological niche modelling of the species’ native and invasive ranges. We expected that populations naturalized in sub-continental climate are less susceptible to frost than populations from oceanic climate, and that the invasive range does not match predictions based on climatic data from the native range. Indeed, we revealed significant variation among invasive B. davidii populations in frost resistance. However, frost hardiness was not related to geographic location or climatic variables of the populations’ home site, suggesting that invasive B. davidii populations are not locally adapted to minimum temperatures. This is in line with results of our ecological niche model that did not detect a niche shift between the species’ native range in China, and its invasive range in Europe and North America. Furthermore, our niche model showed that the potential invasive range of B. davidii is still not completely occupied. Together with the frost resistance data obtained in our experiment, the results indicate that climatic conditions are currently not limiting the further spread of the species in Europe and North America."
+    },
+    {
+        "title": "Feasibility Analysis for an Environment Outlook for Canada",
+        "type": "report",
+        "authors": [
+            {
+                "first_name": "Dale S.",
+                "last_name": "Rothman"
+            }
+        ],
+        "year": 2008,
+        "id": "45e576cd-8382-377a-a971-f2a3e839f709",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:49.000Z",
+        "tags": [
+            "2008",
+            "CA",
+            "Canada",
+            "report"
+        ],
+        "abstract": "The International Institute for Sustainable Development contributes to sustainable development by advancing policy recommendations on international trade and investment, economic policy, climate change, measurement and assessment, and natural resources management. Through the Internet, we report on international negotiations and share knowledge gained through collaborative projects with global partners, resulting in more rigorous research, capacity building in developing countries and better dialogue between North and South."
+    },
+    {
+        "title": "Autumn Migration Dynamics and Biometrical Differentiation of the Dunnock (Prunella modularis) Passing the Southern Baltic Coast",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Grzegorz",
+                "last_name": "Zaniewicz"
+            },
+            {
+                "first_name": "Przemysław",
+                "last_name": "Busse"
+            }
+        ],
+        "year": 2008,
+        "source": "Ring",
+        "id": "4187d8eb-8892-3700-b810-6b5fac09f6f8",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:39.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ],
+        "abstract": "The aim of this study is to determine biometrical differentiation among Dunnocks caught at the two ringing sites (Bukowo-Kopań and Mierzeja Wiślana) located on the southern Baltic coast. The distance between those two stations covers 190 km. The material was collected during autumn fieldwork of the Operation Baltic in 1961-2003. The material used for biometrical analysis comprises only immature birds from the period of the most intensive migration, when the numbers of caught individuals allowed to compare the results for both stations. The seasonal dynamics at both sites was pooled for 43 years of catching. Medians of autumn migration for the stations were significantly different. A shift of the median for the eastern site (Mierzeja Wiślana) by 6 days after the median for the western site (Bukowo-Kopań) suggested different origins of birds migrating through the stations. The analysis of standard deviations for the studied biometrical parameters confirms an intra-seasonal change in proportions of birds probably originating from different areas in Europe."
+    },
+    {
+        "title": "Agro-biodiversity informatics with special reference to spices",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Santhosh J.",
+                "last_name": "Eapen"
+            },
+            {
+                "last_name": "Riju A."
+            }
+        ],
+        "year": 2008,
+        "source": "Biobytes",
+        "id": "2b8c57c5-07a9-3026-927f-6986e3057c02",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:37.000Z",
+        "tags": [
+            "2008",
+            "GBIF_mentioned",
+            "review"
+        ]
+    },
+    {
+        "title": "Regional assessment of plant invasions across different habitat types",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Vilà",
+                "last_name": "Montserrat"
+            },
+            {
+                "first_name": "Pino",
+                "last_name": "Joan"
+            },
+            {
+                "first_name": "Font",
+                "last_name": "Xavier"
+            }
+        ],
+        "year": 2007,
+        "source": "Journal of Vegetation Science",
+        "identifiers": {
+            "doi": "10.1658/1100-9233(2007)18[35:RAOPIA]2.0.CO;2",
+            "issn": "1100-9233"
+        },
+        "keywords": [
+            "Alien plant",
+            "EUNIS",
+            "Mediterranean community",
+            "Relevé",
+            "Species richness",
+            "Vegetation type"
+        ],
+        "id": "f99d498e-3541-3767-afb6-052b69a93c2c",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2015-01-19T09:10:10.000Z",
+        "tags": [
+            "2007",
+            "Aichi_B",
+            "ES",
+            "GBIF_used",
+            "Spain",
+            "Spain_biodiversity",
+            "Target_9",
+            "invasives",
+            "university"
+        ],
+        "abstract": "Questions: 1. Which habitats have the highest degree of invasion? 2. Do native species-rich communities have also a high degree of invasion? 3. Do the patterns of association between native and alien species richness vary between habitats. Location: Catalonia region (NE Spain). Methods: We conducted a large regional analysis of 15 655 phytosociological relevés to detect differences in the degree of invasion between European Nature Information System (EUNIS) habitats representative of temperate and Mediterranean European areas. Results: Alien species were present in less than 17 % of the relevés and represented less than 2% of the total number of species per habitat. The EUNIS habitats with the highest alien species richness were arable land and gardens followed by anthropogenic forb-rich habitats, riverine and lakeshore scrubs, southern riparian galleries and thickets and trampled areas. In contrast, the following habitats had never any alien species: surface running waters, raised and blanket bogs, valley mires, poor fens and transition mires, base-rich fens, alpine and sub-alpine grasslands, sub-alpine moist or wet tall-herb and fern habitats, alpine and sub-alpine scrub habitats and spiny Mediterranean heaths. There was a unimodal relationship between the mean native and mean alien species richness per EUNIS habitat with a high number of aliens in habitats with intermediate number of native species and a low number of aliens at both extremes of the native species gradient. Within EUNIS habitats, the relationship was positive, negative or non-significant depending on the habitat type without any clear pattern related to the number of native species. Alien species richness was not related to plot size, neither between habitats nor within habitats. Conclusions: The analysis emphasised that the habitats with a higher degree of invasion were the most disturbed ones and that in general habitats rich in native species did not harbour less invaders than habitats poor in native species."
+    },
+    {
+        "title": "Projecting the Impact of Climate Change on Bitou Bush and Boneseed Distributions in Australia",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Rachael V.",
+                "last_name": "Gallagher"
+            },
+            {
+                "first_name": "Linda J.",
+                "last_name": "Beaumont"
+            },
+            {
+                "first_name": "Paul O.",
+                "last_name": "Downey"
+            },
+            {
+                "first_name": "Lesley",
+                "last_name": "Hughes"
+            },
+            {
+                "first_name": "Michelle R.",
+                "last_name": "Leishman"
+            }
+        ],
+        "year": 2008,
+        "source": "Plant Protection Quarterly",
+        "id": "20ce5332-5024-38c7-b7fa-1abb9424f5e1",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:20.000Z",
+        "tags": [
+            "2008",
+            "review"
+        ]
+    },
+    {
+        "title": "Towards a collaborative, global infrastructure for biodiversity assessment",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "Robert P.",
+                "last_name": "Guralnick"
+            },
+            {
+                "first_name": "Andrew",
+                "last_name": "Hill"
+            },
+            {
+                "first_name": "Meredith",
+                "last_name": "Lane"
+            }
+        ],
+        "year": 2007,
+        "source": "Ecology letters",
+        "identifiers": {
+            "doi": "10.1111/j.1461-0248.2007.01063.x",
+            "pmid": "17594421",
+            "issn": "1461-0248"
+        },
+        "keywords": [
+            "Biodiversity",
+            "Conservation of Natural Resources",
+            "Conservation of Natural Resources: methods",
+            "Databases",
+            "Ecology",
+            "Ecology: methods",
+            "Factual",
+            "Informatics",
+            "Informatics: methods",
+            "Interdisciplinary Communication",
+            "Internet",
+            "Research Design"
+        ],
+        "id": "b5e33364-e6f4-3295-b004-197a06008857",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2015-07-13T09:54:17.000Z",
+        "tags": [
+            "2007",
+            "GBIF_VIP",
+            "GBIF_author",
+            "GBIF_discussed",
+            "standards"
+        ],
+        "abstract": "Biodiversity data are rapidly becoming available over the Internet in common formats that promote sharing and exchange. Currently, these data are somewhat problematic, primarily with regard to geographic and taxonomic accuracy, for use in ecological research, natural resources management and conservation decision-making. However, web-based georeferencing tools that utilize best practices and gazetteer databases can be employed to improve geographic data. Taxonomic data quality can be improved through web-enabled valid taxon names databases and services, as well as more efficient mechanisms to return systematic research results and taxonomic misidentification rates back to the biodiversity community. Both of these are under construction. A separate but related challenge will be developing web-based visualization and analysis tools for tracking biodiversity change. Our aim was to discuss how such tools, combined with data of enhanced quality, will help transform today's portals to raw biodiversity data into nexuses of collaborative creation and sharing of biodiversity knowledge."
+    },
+    {
+        "title": "Reconstructing ecological niches and geographic distributions of caribou (Rangifer tarandus) and red deer (Cervus elaphus) during the Last Glacial Maximum",
+        "type": "journal",
+        "authors": [
+            {
+                "first_name": "William E.",
+                "last_name": "Banks"
+            },
+            {
+                "first_name": "Francesco",
+                "last_name": "D'Errico"
+            },
+            {
+                "first_name": "A.Townsend",
+                "last_name": "Peterson"
+            },
+            {
+                "first_name": "Masa",
+                "last_name": "Kageyama"
+            },
+            {
+                "first_name": "Guillaume",
+                "last_name": "Colombeau"
+            }
+        ],
+        "year": 2008,
+        "source": "Quaternary Science Reviews",
+        "identifiers": {
+            "doi": "DOI: 10.1016/j.quascirev.2008.09.013",
+            "isbn": "0277-3791"
+        },
+        "id": "174ac8a4-70f3-3860-adac-96b256202213",
+        "created": "2014-12-01T04:30:07.000Z",
+        "profile_id": "9f94630a-5585-3ec3-980d-65173c916aaf",
+        "group_id": "dcb8ff61-dbc0-3519-af76-2072f22bc22f",
+        "last_modified": "2014-12-12T17:43:48.000Z",
+        "tags": [
+            "2008",
+            "GBIF_used",
+            "review"
+        ],
+        "abstract": "A variety of approaches have been used to reconstruct glacial distributions of species, identify their environmental characteristics, and understand their influence on subsequent population expansions. Traditional methods, however, provide only rough estimates of past distributions, and are often unable to identify the ecological and geographic processes that shaped them. Recently, ecological niche modeling (ENM) methodologies have been applied to these questions in an effort to overcome such limitations. We apply ENM to the European faunal record of the Last Glacial Maximum (LGM) to reconstruct ecological niches and potential ranges for caribou (Rangifer tarandus) and red deer (Cervus elaphus), and evaluate whether their LGM distributions resulted from tracking the geographic footprint of their ecological niches (niche conservatism) or if ecological niche shifts between the LGM and present might be implicated. Results indicate that the LGM geographic ranges of both species represent distributions characterized by niche conservatism, expressed through geographic contraction of the geographic footprints of their respective ecological niches."
+    }
+]

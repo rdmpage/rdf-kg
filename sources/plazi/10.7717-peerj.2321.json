@@ -1,0 +1,149 @@
+{
+    "indexed": {
+        "date-parts": [
+            [
+                2016,
+                8,
+                16
+            ]
+        ],
+        "date-time": "2016-08-16T12:40:18Z",
+        "timestamp": 1471351218058
+    },
+    "reference-count": 74,
+    "publisher": "PeerJ",
+    "license": [
+        {
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "start": {
+                "date-parts": [
+                    [
+                        2016,
+                        8,
+                        16
+                    ]
+                ],
+                "date-time": "2016-08-16T00:00:00Z",
+                "timestamp": 1471305600000
+            },
+            "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+    ],
+    "funder": [
+        {
+            "award": [],
+            "name": "The Smithsonian Institution"
+        }
+    ],
+    "DOI": "10.7717/peerj.2321",
+    "type": "journal-article",
+    "created": {
+        "date-parts": [
+            [
+                2016,
+                8,
+                16
+            ]
+        ],
+        "date-time": "2016-08-16T11:06:09Z",
+        "timestamp": 1471345569000
+    },
+    "page": "e2321",
+    "source": "CrossRef",
+    "title": "Arktocara yakataga, a new fossil odontocete (Mammalia, Cetacea) from the Oligocene of Alaska and the antiquity of Platanistoidea",
+    "prefix": "http://id.crossref.org/prefix/10.7717",
+    "volume": "4",
+    "author": [
+        {
+            "affiliation": [
+                {
+                    "name": "Department of Paleobiology, National Museum of Natural History, Smithsonian Institution, Washington, D.C., United States of America"
+                },
+                {
+                    "name": "College of Extended Education, California State University, Monterey Bay, Seaside, CA, United States of America"
+                }
+            ],
+            "family": "Boersma",
+            "given": "Alexandra T."
+        },
+        {
+            "affiliation": [
+                {
+                    "name": "Department of Paleobiology, National Museum of Natural History, Smithsonian Institution, Washington, D.C., United States of America"
+                },
+                {
+                    "name": "Departments of Mammology and Paleontology, Burke Museum of Natural History and Culture, Seattle, WA, United States of America"
+                }
+            ],
+            "family": "Pyenson",
+            "given": "Nicholas D."
+        }
+    ],
+    "member": "http://id.crossref.org/member/4443",
+    "published-online": {
+        "date-parts": [
+            [
+                2016,
+                8,
+                16
+            ]
+        ]
+    },
+    "container-title": "PeerJ",
+    "link": [
+        {
+            "intended-application": "text-mining",
+            "content-version": "vor",
+            "content-type": "application/pdf",
+            "URL": "https://peerj.com/articles/2321.pdf"
+        },
+        {
+            "intended-application": "text-mining",
+            "content-version": "vor",
+            "content-type": "application/xml",
+            "URL": "https://peerj.com/articles/2321.xml"
+        },
+        {
+            "intended-application": "text-mining",
+            "content-version": "vor",
+            "content-type": "text/html",
+            "URL": "https://peerj.com/articles/2321.html"
+        }
+    ],
+    "deposited": {
+        "date-parts": [
+            [
+                2016,
+                8,
+                16
+            ]
+        ],
+        "date-time": "2016-08-16T11:06:12Z",
+        "timestamp": 1471345572000
+    },
+    "score": 1,
+    "subtitle": [],
+    "issued": {
+        "date-parts": [
+            [
+                2016,
+                8,
+                16
+            ]
+        ]
+    },
+    "alternative-id": [
+        "10.7717/peerj.2321"
+    ],
+    "URL": "http://dx.doi.org/10.7717/peerj.2321",
+    "archive": [
+        "CLOCKSS",
+        "LOCKSS",
+        "Portico"
+    ],
+    "ISSN": [
+        "2167-8359"
+    ],
+    "article-number": "e2321"
+}

@@ -1,0 +1,171 @@
+{
+	"status": "ok",
+	"message-type": "work",
+	"message-version": "1.0.0",
+	"message": {
+		"indexed": {
+			"date-parts": [
+				[2016, 7, 28]
+			],
+			"date-time": "2016-07-28T04:41:16Z",
+			"timestamp": 1469680876192
+		},
+		"reference-count": 52,
+		"publisher": "Elsevier BV",
+		"license": [{
+			"content-version": "tdm",
+			"delay-in-days": 0,
+			"start": {
+				"date-parts": [
+					[2016, 7, 1]
+				],
+				"date-time": "2016-07-01T00:00:00Z",
+				"timestamp": 1467331200000
+			},
+			"URL": "http:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"
+		}, {
+			"content-version": "vor",
+			"delay-in-days": 20,
+			"start": {
+				"date-parts": [
+					[2016, 7, 21]
+				],
+				"date-time": "2016-07-21T00:00:00Z",
+				"timestamp": 1469059200000
+			},
+			"URL": "http:\/\/creativecommons.org\/licenses\/by\/4.0\/"
+		}],
+		"funder": [{
+			"award": [],
+			"doi-asserted-by": "publisher",
+			"name": "Rufford Foundation",
+			"DOI": "10.13039\/100007463"
+		}, {
+			"award": ["SFRH\/BPD\/80726\/2011"],
+			"name": "FCT - the Foundation for Science and Technology"
+		}, {
+			"award": ["1329750"],
+			"name": "National Science Foundation Dissertation Improvement Grant"
+		}, {
+			"award": ["308454"],
+			"name": "European Union"
+		}, {
+			"award": [],
+			"name": "US Geological Survey Ecosystem"
+		}],
+		"published-print": {
+			"date-parts": [
+				[2016, 7]
+			]
+		},
+		"DOI": "10.1016\/j.biocon.2016.07.014",
+		"type": "journal-article",
+		"created": {
+			"date-parts": [
+				[2016, 7, 28]
+			],
+			"date-time": "2016-07-28T03:26:08Z",
+			"timestamp": 1469676368000
+		},
+		"source": "CrossRef",
+		"title": ["Global biodiversity monitoring: From data sources to Essential Biodiversity Variables"],
+		"prefix": "http:\/\/id.crossref.org\/prefix\/10.1016",
+		"author": [{
+			"affiliation": [],
+			"family": "Proen\u00e7a",
+			"given": "V\u00e2nia",
+			"ORCID": "http:\/\/orcid.org\/0000-0001-8245-357X"
+		}, {
+			"affiliation": [],
+			"family": "Martin",
+			"given": "Laura Jane"
+		}, {
+			"affiliation": [],
+			"family": "Pereira",
+			"given": "Henrique Miguel"
+		}, {
+			"affiliation": [],
+			"family": "Fernandez",
+			"given": "Miguel"
+		}, {
+			"affiliation": [],
+			"family": "McRae",
+			"given": "Louise"
+		}, {
+			"affiliation": [],
+			"family": "Belnap",
+			"given": "Jayne"
+		}, {
+			"affiliation": [],
+			"family": "B\u00f6hm",
+			"given": "Monika"
+		}, {
+			"affiliation": [],
+			"family": "Brummitt",
+			"given": "Neil"
+		}, {
+			"affiliation": [],
+			"family": "Garc\u00eda-Moreno",
+			"given": "Jaime"
+		}, {
+			"affiliation": [],
+			"family": "Gregory",
+			"given": "Richard D."
+		}, {
+			"affiliation": [],
+			"family": "Honrado",
+			"given": "Jo\u00e3o Pradinho"
+		}, {
+			"affiliation": [],
+			"family": "J\u00fcrgens",
+			"given": "Norbert"
+		}, {
+			"affiliation": [],
+			"family": "Opige",
+			"given": "Michael"
+		}, {
+			"affiliation": [],
+			"family": "Schmeller",
+			"given": "Dirk S."
+		}, {
+			"affiliation": [],
+			"family": "Tiago",
+			"given": "Patr\u00edcia"
+		}, {
+			"affiliation": [],
+			"family": "van Swaay",
+			"given": "Chris A.M."
+		}],
+		"member": "http:\/\/id.crossref.org\/member\/78",
+		"container-title": ["Biological Conservation"],
+		"link": [{
+			"intended-application": "text-mining",
+			"content-version": "vor",
+			"content-type": "text\/xml",
+			"URL": "http:\/\/api.elsevier.com\/content\/article\/PII:S0006320716302786?httpAccept=text\/xml"
+		}, {
+			"intended-application": "text-mining",
+			"content-version": "vor",
+			"content-type": "text\/plain",
+			"URL": "http:\/\/api.elsevier.com\/content\/article\/PII:S0006320716302786?httpAccept=text\/plain"
+		}],
+		"deposited": {
+			"date-parts": [
+				[2016, 7, 28]
+			],
+			"date-time": "2016-07-28T03:26:12Z",
+			"timestamp": 1469676372000
+		},
+		"score": 1.0,
+		"subtitle": [],
+		"issued": {
+			"date-parts": [
+				[2016, 7]
+			]
+		},
+		"alternative-id": ["S0006320716302786"],
+		"URL": "http:\/\/dx.doi.org\/10.1016\/j.biocon.2016.07.014",
+		"ISSN": ["0006-3207"],
+		"subject": ["Ecology, Evolution, Behavior and Systematics", "Nature and Landscape Conservation"]
+	}
+}			

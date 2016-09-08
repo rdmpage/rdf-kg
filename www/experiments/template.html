@@ -1,0 +1,245 @@
+<html>
+	<head>
+		<title>JSON to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>JSON to n-triples</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>JSON</h2>
+
+<!-- JSON for data object goes below -->
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+			</textarea>
+			<br />
+			<button onclick="convert()">Convert</button>
+		
+	
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;color:#222;"></div>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;"></div>
+	</div>
+
+</div>
+
+		<script>
+		
+		
+
+		
+// potentially shared code
+function triple($subject, $predicate, $object) {
+  var triple = [];
+  triple[0] = $subject;
+  triple[1] = $predicate;
+  triple[2] = $object;
+  
+  return triple;
+}
+
+function quad($subject, $predicate, $object, $context) {
+  var triple = [];
+  triple[0] = $subject;
+  triple[1] = $predicate;
+  triple[2] = $object;
+  triple[3] = $context;
+  
+  return triple;
+}
+
+
+function wrap(s, html) {
+  if (s.match(/^(http|urn|_:)/)) {
+    if (html) {
+      s = '&lt;' + s + '&gt;';
+    } else {
+      s = '<' + s + '>';
+    }
+  } else {
+    s = '"' + s.replace(/"/, '\"') + '"';
+  }
+  return s;
+}
+
+// https://css-tricks.com/snippets/javascript/htmlentities-for-javascript/
+function htmlEntities(str) {
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function output(doc, triples) {
+  if (1) {
+	  // Output triples
+	  
+	  var nquads = '';
+	  
+	  var html = '<table width="100%">';
+	  for (var i in triples) {
+		var s = 0;
+		var p = 1;
+		var o = 2;
+		// SPO
+		//console.log(JSON.stringify(triples[i]));
+	
+	
+	
+		//html += '<tr><td>' + wrap(triples[i][s], true) + '</td><td>' + wrap(triples[i][p], true) + '</td><td>' + wrap(triples[i][o], true) + ' .</td></tr>';
+	
+	    nquads += wrap(triples[i][s], false) + ' ' + wrap(triples[i][p], false) + ' ' + wrap(triples[i][o], false) + ' .' + "\n";
+	
+	
+	  }
+	  html += '</table>';
+	  
+	  html += '<pre>' + htmlEntities(nquads) + '</pre>';
+	  
+	  $('#output').html(html);
+	  
+	   // convert RDF to JSON-LD
+jsonld.fromRDF(nquads, {format: 'application/nquads'}, function(err, j) {
+
+//  $('#jsonld').html(JSON.stringify(j, null, 2));
+
+// make nice
+ var context = {
+  "@vocab" : "http://schema.org/",
+  
+  "identifier" :"http://purl.org/dc/terms/identifier",
+
+
+  // article
+  "volume" : "http://purl.org/ontology/bibo/volume",
+  "issue" : "http://purl.org/ontology/bibo/issue",
+  "pages" : "http://purl.org/ontology/bibo/pages",
+
+  // identifiers
+  
+  "DOI" : "http://identifiers.org/doi/",
+  "ISSN": "http://www.worldcat.org/issn/",
+  "ORCID": "http://orcid.org/",
+  "PMID" : "http://identifiers.org/pmid/",
+  
+  // rdf
+  
+   "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+};
+
+jsonld.compact(j, context, function(err, compacted) {
+  $('#jsonld').html('<pre>' + JSON.stringify(compacted, null, 2) + '</pre>');
+  });
+  
+  
+}); 
+  
+  
+  } else {
+      // CouchDB
+	  for (var i in triples) {
+		var s = 0;
+		var p = 1;
+		var o = 2;
+		//emit([wrap(triples[i][s], false), wrap(triples[i][p], false), wrap(triples[i][o], false)], 1);
+	  }
+    
+    
+  }
+}
+
+		
+function convert(doc) {
+  var triples = [];
+
+  var cluster_id = '';
+
+  var identifiers = [];
+
+
+  // get identifiers
+  for (var i in doc) {
+    switch (i) {
+
+      case 'DOI':
+        var cluster_id = 'http://identifiers.org/doi/' + doc[i];
+
+        triples.push(triple(cluster_id,
+          'http://purl.org/dc/terms/identifier',
+          'http://identifiers.org/doi/' + doc[i]));
+        break;
+ 
+    /*
+        // any alternative ids
+      case 'alternative-id':
+        for (var j in doc[i]) {
+          triples.push(triple(cluster_id,
+            'http://purl.org/dc/terms/identifier',
+            doc[i][j]));
+        }
+        break;
+    */
+
+      default:
+        break;
+    }
+  }
+
+
+  // fields
+  for (var i in doc) {
+    switch (i) {
+
+
+        // title can be string or array
+      case 'title':
+        if (Array.isArray(doc[i])) {
+          for (var j in citeproc[i]) {
+            triples.push(triple(cluster_id,
+              'http://schema.org/name',
+              doc[i][j]));
+          }
+        } else {
+          triples.push(triple(cluster_id,
+            'http://schema.org/name',
+            doc[i]));
+        }
+        break;
+
+ 
+
+      default:
+        break;
+    }
+  }
+
+
+  // defaults
+  triples.push(triple(cluster_id,
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+    'http://schema.org/CreativeWork'));
+
+  output(doc, triples);
+
+}
+		
+			function convert() {
+				var jsonld = $('#json').val();
+				var doc = JSON.parse(jsonld);
+				citeproc(doc);
+				
+			
+			}
+		</script>
+
+
+</body>
+</html>

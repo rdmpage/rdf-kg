@@ -1,0 +1,146 @@
+<rdf:RDF
+    
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    
+    xmlns:j.0="http://purl.org/ontology/bibo/"
+    
+    xmlns:j.1="http://xmlns.com/foaf/0.1/"
+    
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    
+    xmlns:j.2="http://purl.org/dc/terms/"
+    
+    xmlns:j.3="http://prismstandard.org/namespaces/basic/2.1/">
+    <rdf:Description rdf:about="http://dx.doi.org/10.1016/j.biocon.2016.07.014">
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/chris-a-m-van-swaay-2gbz6hj7hhx7s">
+                <j.1:name>Chris A.M. van Swaay</j.1:name>
+                <j.1:familyName>van Swaay</j.1:familyName>
+                <j.1:givenName>Chris A.M.</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <owl:sameAs rdf:resource="doi:10.1016/j.biocon.2016.07.014"/>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/norbert-jurgens-2gbz6hj7hhx7s">
+                <j.1:name>Norbert Jürgens</j.1:name>
+                <j.1:familyName>Jürgens</j.1:familyName>
+                <j.1:givenName>Norbert</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:isPartOf>
+            <j.0:Journal rdf:about="http://id.crossref.org/issn/0006-3207">
+                <owl:sameAs>urn:issn:0006-3207</owl:sameAs>
+                <j.2:title>Biological Conservation</j.2:title>
+                <j.3:issn>0006-3207</j.3:issn>
+                <j.0:issn>0006-3207</j.0:issn>
+            </j.0:Journal>
+        </j.2:isPartOf>
+        <j.0:doi>10.1016/j.biocon.2016.07.014</j.0:doi>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/henrique-miguel-pereira-2gbz6hj7hhx7s">
+                <j.1:name>Henrique Miguel Pereira</j.1:name>
+                <j.1:familyName>Pereira</j.1:familyName>
+                <j.1:givenName>Henrique Miguel</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/monika-bohm-2gbz6hj7hhx7s">
+                <j.1:name>Monika Böhm</j.1:name>
+                <j.1:familyName>Böhm</j.1:familyName>
+                <j.1:givenName>Monika</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/jaime-garcia-moreno-2gbz6hj7hhx7s">
+                <j.1:name>Jaime García-Moreno</j.1:name>
+                <j.1:familyName>García-Moreno</j.1:familyName>
+                <j.1:givenName>Jaime</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/louise-mcrae-2gbz6hj7hhx7s">
+                <j.1:name>Louise McRae</j.1:name>
+                <j.1:familyName>McRae</j.1:familyName>
+                <j.1:givenName>Louise</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/jayne-belnap-2gbz6hj7hhx7s">
+                <j.1:name>Jayne Belnap</j.1:name>
+                <j.1:familyName>Belnap</j.1:familyName>
+                <j.1:givenName>Jayne</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/neil-brummitt-2gbz6hj7hhx7s">
+                <j.1:name>Neil Brummitt</j.1:name>
+                <j.1:familyName>Brummitt</j.1:familyName>
+                <j.1:givenName>Neil</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:publisher>Elsevier BV</j.2:publisher>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/miguel-fernandez-2gbz6hj7hhx7s">
+                <j.1:name>Miguel Fernandez</j.1:name>
+                <j.1:familyName>Fernandez</j.1:familyName>
+                <j.1:givenName>Miguel</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <owl:sameAs rdf:resource="info:doi/10.1016/j.biocon.2016.07.014"/>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/vania-proenca-2gbz6hj7hhx7s">
+                <j.1:name>Vânia Proença</j.1:name>
+                <j.1:familyName>Proença</j.1:familyName>
+                <j.1:givenName>Vânia</j.1:givenName>
+                <owl:sameAs rdf:resource="http://orcid.org/0000-0001-8245-357X"/>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:title>Global biodiversity monitoring: From data sources to Essential Biodiversity Variables</j.2:title>
+        <j.2:identifier>10.1016/j.biocon.2016.07.014</j.2:identifier>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/joao-pradinho-honrado-2gbz6hj7hhx7s">
+                <j.1:name>João Pradinho Honrado</j.1:name>
+                <j.1:familyName>Honrado</j.1:familyName>
+                <j.1:givenName>João Pradinho</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/dirk-s-schmeller-2gbz6hj7hhx7s">
+                <j.1:name>Dirk S. Schmeller</j.1:name>
+                <j.1:familyName>Schmeller</j.1:familyName>
+                <j.1:givenName>Dirk S.</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/richard-d-gregory-2gbz6hj7hhx7s">
+                <j.1:name>Richard D. Gregory</j.1:name>
+                <j.1:familyName>Gregory</j.1:familyName>
+                <j.1:givenName>Richard D.</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth"
+    >2016-07</j.2:date>
+        <j.3:doi>10.1016/j.biocon.2016.07.014</j.3:doi>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/patricia-tiago-2gbz6hj7hhx7s">
+                <j.1:name>Patrícia Tiago</j.1:name>
+                <j.1:familyName>Tiago</j.1:familyName>
+                <j.1:givenName>Patrícia</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/michael-opige-2gbz6hj7hhx7s">
+                <j.1:name>Michael Opige</j.1:name>
+                <j.1:familyName>Opige</j.1:familyName>
+                <j.1:givenName>Michael</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+        <j.2:creator>
+            <j.1:Person rdf:about="http://id.crossref.org/contributor/laura-jane-martin-2gbz6hj7hhx7s">
+                <j.1:name>Laura Jane Martin</j.1:name>
+                <j.1:familyName>Martin</j.1:familyName>
+                <j.1:givenName>Laura Jane</j.1:givenName>
+            </j.1:Person>
+        </j.2:creator>
+    </rdf:Description>
+</rdf:RDF>
