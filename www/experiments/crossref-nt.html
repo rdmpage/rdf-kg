@@ -719,10 +719,7 @@ function citeproc(doc) {
                  triples.push(triple(affiliation_id,
                    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
                   'http://schema.org/Organisation'));
-                  
-             
-
-
+ 
                }
                affiliation_count++;
              }
@@ -786,7 +783,7 @@ function citeproc(doc) {
           } else {
             // we have one or more awards
             for (var a = 0; a < m; a++) {
-              var award_id = funder_id + '/award' + a;
+              var award_id = funder_id + '/award_' + a;
 
               triples.push(triple(award_id,
                 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
