@@ -1,0 +1,933 @@
+<html>
+	<head>
+		<title>CrossRef to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>CrossRef to n-triples</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>Mendeley</h2>
+		
+<!-- {
+	"status": "ok",
+	"message-type": "work",
+	"message-version": "1.0.0",
+	"message": {
+		"indexed": {
+			"date-parts": [
+				[2016, 7, 28]
+			],
+			"date-time": "2016-07-28T04:41:16Z",
+			"timestamp": 1469680876192
+		},
+		"reference-count": 52,
+		"publisher": "Elsevier BV",
+		"license": [{
+			"content-version": "tdm",
+			"delay-in-days": 0,
+			"start": {
+				"date-parts": [
+					[2016, 7, 1]
+				],
+				"date-time": "2016-07-01T00:00:00Z",
+				"timestamp": 1467331200000
+			},
+			"URL": "http:\/\/www.elsevier.com\/tdm\/userlicense\/1.0\/"
+		}, {
+			"content-version": "vor",
+			"delay-in-days": 20,
+			"start": {
+				"date-parts": [
+					[2016, 7, 21]
+				],
+				"date-time": "2016-07-21T00:00:00Z",
+				"timestamp": 1469059200000
+			},
+			"URL": "http:\/\/creativecommons.org\/licenses\/by\/4.0\/"
+		}],
+		"funder": [{
+			"award": [],
+			"doi-asserted-by": "publisher",
+			"name": "Rufford Foundation",
+			"DOI": "10.13039\/100007463"
+		}, {
+			"award": ["SFRH\/BPD\/80726\/2011"],
+			"name": "FCT - the Foundation for Science and Technology"
+		}, {
+			"award": ["1329750"],
+			"name": "National Science Foundation Dissertation Improvement Grant"
+		}, {
+			"award": ["308454"],
+			"name": "European Union"
+		}, {
+			"award": [],
+			"name": "US Geological Survey Ecosystem"
+		}],
+		"published-print": {
+			"date-parts": [
+				[2016, 7]
+			]
+		},
+		"DOI": "10.1016\/j.biocon.2016.07.014",
+		"type": "journal-article",
+		"created": {
+			"date-parts": [
+				[2016, 7, 28]
+			],
+			"date-time": "2016-07-28T03:26:08Z",
+			"timestamp": 1469676368000
+		},
+		"source": "CrossRef",
+		"title": ["Global biodiversity monitoring: From data sources to Essential Biodiversity Variables"],
+		"prefix": "http:\/\/id.crossref.org\/prefix\/10.1016",
+		"author": [{
+			"affiliation": [],
+			"family": "Proen\u00e7a",
+			"given": "V\u00e2nia",
+			"ORCID": "http:\/\/orcid.org\/0000-0001-8245-357X"
+		}, {
+			"affiliation": [],
+			"family": "Martin",
+			"given": "Laura Jane"
+		}, {
+			"affiliation": [],
+			"family": "Pereira",
+			"given": "Henrique Miguel"
+		}, {
+			"affiliation": [],
+			"family": "Fernandez",
+			"given": "Miguel"
+		}, {
+			"affiliation": [],
+			"family": "McRae",
+			"given": "Louise"
+		}, {
+			"affiliation": [],
+			"family": "Belnap",
+			"given": "Jayne"
+		}, {
+			"affiliation": [],
+			"family": "B\u00f6hm",
+			"given": "Monika"
+		}, {
+			"affiliation": [],
+			"family": "Brummitt",
+			"given": "Neil"
+		}, {
+			"affiliation": [],
+			"family": "Garc\u00eda-Moreno",
+			"given": "Jaime"
+		}, {
+			"affiliation": [],
+			"family": "Gregory",
+			"given": "Richard D."
+		}, {
+			"affiliation": [],
+			"family": "Honrado",
+			"given": "Jo\u00e3o Pradinho"
+		}, {
+			"affiliation": [],
+			"family": "J\u00fcrgens",
+			"given": "Norbert"
+		}, {
+			"affiliation": [],
+			"family": "Opige",
+			"given": "Michael"
+		}, {
+			"affiliation": [],
+			"family": "Schmeller",
+			"given": "Dirk S."
+		}, {
+			"affiliation": [],
+			"family": "Tiago",
+			"given": "Patr\u00edcia"
+		}, {
+			"affiliation": [],
+			"family": "van Swaay",
+			"given": "Chris A.M."
+		}],
+		"member": "http:\/\/id.crossref.org\/member\/78",
+		"container-title": ["Biological Conservation"],
+		"link": [{
+			"intended-application": "text-mining",
+			"content-version": "vor",
+			"content-type": "text\/xml",
+			"URL": "http:\/\/api.elsevier.com\/content\/article\/PII:S0006320716302786?httpAccept=text\/xml"
+		}, {
+			"intended-application": "text-mining",
+			"content-version": "vor",
+			"content-type": "text\/plain",
+			"URL": "http:\/\/api.elsevier.com\/content\/article\/PII:S0006320716302786?httpAccept=text\/plain"
+		}],
+		"deposited": {
+			"date-parts": [
+				[2016, 7, 28]
+			],
+			"date-time": "2016-07-28T03:26:12Z",
+			"timestamp": 1469676372000
+		},
+		"score": 1.0,
+		"subtitle": [],
+		"issued": {
+			"date-parts": [
+				[2016, 7]
+			]
+		},
+		"alternative-id": ["S0006320716302786"],
+		"URL": "http:\/\/dx.doi.org\/10.1016\/j.biocon.2016.07.014",
+		"ISSN": ["0006-3207"],
+		"subject": ["Ecology, Evolution, Behavior and Systematics", "Nature and Landscape Conservation"]
+	}
+}	-->
+		
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">{
+    "indexed": {
+        "date-parts": [
+            [
+                2015,
+                12,
+                25
+            ]
+        ],
+        "date-time": "2015-12-25T23:19:19Z",
+        "timestamp": 1451085559768
+    },
+    "reference-count": 89,
+    "publisher": "Wiley-Blackwell",
+    "issue": "3",
+    "content-domains": {
+        "domains": [],
+        "crossmark-restriction": false
+    },
+    "license": [
+        {
+            "content-version": "tdm",
+            "delay-in-days": 337,
+            "start": {
+                "date-parts": [
+                    [
+                        2015,
+                        9,
+                        1
+                    ]
+                ],
+                "date-time": "2015-09-01T00:00:00Z",
+                "timestamp": 1441065600000
+            },
+            "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+        }
+    ],
+    "funder": [
+        {
+            "award": [
+                "Buck Postdoctoral Fellowship"
+            ],
+            "doi-asserted-by": "publisher",
+            "name": "Smithsonian Institution",
+            "DOI": "10.13039/100000014"
+        },
+        {
+            "award": [
+                "EF-0431330",
+                "DEB-1354739",
+                "DEB-1242260",
+                "DEB-1354996"
+            ],
+            "doi-asserted-by": "publisher",
+            "name": "National Science Foundation",
+            "DOI": "10.13039/100000001"
+        },
+        {
+            "award": [
+                "Grand Challenges"
+            ],
+            "doi-asserted-by": "publisher",
+            "name": "National Museum of Natural History",
+            "DOI": "10.13039/100006271"
+        }
+    ],
+    "published-print": {
+        "date-parts": [
+            [
+                2015,
+                5
+            ]
+        ]
+    },
+    "DOI": "10.1111/1755-0998.12328",
+    "type": "journal-article",
+    "created": {
+        "date-parts": [
+            [
+                2014,
+                9,
+                10
+            ]
+        ],
+        "date-time": "2014-09-10T13:43:58Z",
+        "timestamp": 1410356638000
+    },
+    "page": "489-501",
+    "source": "CrossRef",
+    "title": "Target enrichment of ultraconserved elements from arthropods provides a genomic perspective on relationships among Hymenoptera",
+    "prefix": "http://id.crossref.org/prefix/10.1111",
+    "volume": "15",
+    "author": [
+        {
+            "affiliation": [
+                {
+                    "name": "Department of Ecology and Evolutionary Biology; University of California; Los Angeles CA 90095 USA"
+                },
+                {
+                    "name": "Department of Biological Sciences; Louisiana State University; Baton Rouge LA 70803 USA"
+                }
+            ],
+            "family": "Faircloth",
+            "given": "Brant C."
+        },
+        {
+            "affiliation": [
+                {
+                    "name": "Department of Entomology; National Museum of Natural History; Smithsonian Institution; Washington DC 20560 USA"
+                }
+            ],
+            "family": "Branstetter",
+            "given": "Michael G."
+        },
+        {
+            "affiliation": [
+                {
+                    "name": "Department of Biology; University of Maryland; College Park MD 20742 USA"
+                },
+                {
+                    "name": "Department of Vertebrate Zoology; National Museum of Natural History; Smithsonian Institution; Washington DC 20560 USA"
+                }
+            ],
+            "family": "White",
+            "given": "Noor D."
+        },
+        {
+            "affiliation": [
+                {
+                    "name": "Department of Entomology; National Museum of Natural History; Smithsonian Institution; Washington DC 20560 USA"
+                }
+            ],
+            "family": "Brady",
+            "given": "Seán G."
+        }
+    ],
+    "member": "http://id.crossref.org/member/311",
+    "published-online": {
+        "date-parts": [
+            [
+                2014,
+                9,
+                29
+            ]
+        ]
+    },
+    "container-title": "Molecular Ecology Resources",
+    "link": [
+        {
+            "intended-application": "text-mining",
+            "content-version": "vor",
+            "content-type": "unspecified",
+            "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1755-0998.12328"
+        }
+    ],
+    "deposited": {
+        "date-parts": [
+            [
+                2015,
+                10,
+                20
+            ]
+        ],
+        "date-time": "2015-10-20T07:15:29Z",
+        "timestamp": 1445325329000
+    },
+    "score": 1,
+    "subtitle": [],
+    "issued": {
+        "date-parts": [
+            [
+                2014,
+                9,
+                29
+            ]
+        ]
+    },
+    "URL": "http://dx.doi.org/10.1111/1755-0998.12328",
+    "ISSN": [
+        "1755-098X"
+    ],
+    "subject": [
+        "Biotechnology",
+        "Genetics",
+        "Ecology, Evolution, Behavior and Systematics"
+    ]
+}</textarea>
+			<br />
+			<button onclick="convert()">Convert</button>
+		
+	
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;color:#222;"></div>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;"></div>
+		<div id="extra" style="width:100%;"></div>
+
+	
+	</div>
+
+</div>
+
+		<script>
+		
+		
+
+		
+// potentially shared code
+function triple($subject, $predicate, $object) {
+  var triple = [];
+  triple[0] = $subject;
+  triple[1] = $predicate;
+  triple[2] = $object;
+  
+  return triple;
+}
+
+function quad($subject, $predicate, $object, $context) {
+  var triple = [];
+  triple[0] = $subject;
+  triple[1] = $predicate;
+  triple[2] = $object;
+  triple[3] = $context;
+  
+  return triple;
+}
+
+
+function wrap(s, html) {
+  if (s.match(/^(http|urn|_:)/)) {
+    if (html) {
+      s = '&lt;' + s + '&gt;';
+    } else {
+      s = '<' + s + '>';
+    }
+  } else {
+    s = '"' + s.replace(/"/, '\"') + '"';
+  }
+  return s;
+}
+
+// https://css-tricks.com/snippets/javascript/htmlentities-for-javascript/
+function htmlEntities(str) {
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function output(doc, triples) {
+  if (1) {
+	  // Output triples
+	  
+	  var nquads = '';
+	  
+	  var html = '<table width="100%">';
+	  for (var i in triples) {
+		var s = 0;
+		var p = 1;
+		var o = 2;
+		// SPO
+		//console.log(JSON.stringify(triples[i]));
+	
+	
+	
+		//html += '<tr><td>' + wrap(triples[i][s], true) + '</td><td>' + wrap(triples[i][p], true) + '</td><td>' + wrap(triples[i][o], true) + ' .</td></tr>';
+	
+	    nquads += wrap(triples[i][s], false) + ' ' + wrap(triples[i][p], false) + ' ' + wrap(triples[i][o], false) + ' .' + "\n";
+	
+	
+	  }
+	  html += '</table>';
+	  
+	  html += '<pre>' + htmlEntities(nquads) + '</pre>';
+	  
+	  $('#output').html(html);
+	  
+	   // convert RDF to JSON-LD
+jsonld.fromRDF(nquads, {format: 'application/nquads'}, function(err, j) {
+
+//  $('#jsonld').html(JSON.stringify(j, null, 2));
+
+// make nice
+ var context = {
+  "@vocab" : "http://schema.org/",
+  
+  "identifier" :"http://purl.org/dc/terms/identifier",
+//  "title" : "http://purl.org/dc/terms/title",
+
+
+  "volume" : "http://purl.org/ontology/bibo/volume",
+  "issue" : "http://purl.org/ontology/bibo/issue",
+  "pages" : "http://purl.org/ontology/bibo/pages",
+
+  
+  "DOI" : "http://identifiers.org/doi/",
+  "ISSN": "http://www.worldcat.org/issn/",
+  "ORCID": "http://orcid.org/",
+  "PMID" : "http://identifiers.org/pmid/",
+  
+  
+  
+   "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+};
+
+jsonld.compact(j, context, function(err, compacted) {
+  $('#jsonld').html('<pre>' + JSON.stringify(compacted, null, 2) + '</pre>');
+  });
+  
+  
+}); 
+  
+  
+  } else {
+      // CouchDB
+	  for (var i in triples) {
+		var s = 0;
+		var p = 1;
+		var o = 2;
+		//emit([wrap(triples[i][s], false), wrap(triples[i][p], false), wrap(triples[i][o], false)], 1);
+	  }
+    
+    
+  }
+}
+
+		
+function citeproc(doc) {
+  var triples = [];
+
+  var cluster_id = '';
+
+  var identifiers = [];
+
+  // CiteProc format data 
+  var citeproc = doc;
+
+  // If via CrossRef API then it's wrapped in a message
+  if (doc.message) {
+    citeproc = doc.message;
+  }
+
+  // get identifiers
+  for (var i in citeproc) {
+    switch (i) {
+
+      case 'DOI':
+        var cluster_id = 'http://identifiers.org/doi/' + citeproc[i];
+
+        triples.push(triple(cluster_id,
+          'http://purl.org/dc/terms/identifier',
+          'http://identifiers.org/doi/' + citeproc[i]));
+        break;
+
+        // any alternative ids
+      case 'alternative-id':
+        for (var j in citeproc[i]) {
+          triples.push(triple(cluster_id,
+            'http://purl.org/dc/terms/identifier',
+            citeproc[i][j]));
+        }
+        break;
+
+      default:
+        break;
+    }
+  }
+
+
+  // fields
+  for (var i in citeproc) {
+    switch (i) {
+
+      case 'type':
+        switch (citeproc[i]) {
+          case 'journal-article':
+            triples.push(triple(cluster_id,
+              'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+              'http://schema.org/ScholarlyArticle'));
+            break;
+          default:
+            break;
+        }
+        break;
+
+        // title can be string or array
+      case 'title':
+        if (Array.isArray(citeproc[i])) {
+          for (var j in citeproc[i]) {
+            triples.push(triple(cluster_id,
+              'http://schema.org/name',
+              citeproc[i][j]));
+          }
+        } else {
+          triples.push(triple(cluster_id,
+            'http://schema.org/name',
+            citeproc[i]));
+        }
+        break;
+
+        // article metadata
+      case 'issue':
+        triples.push(triple(cluster_id,
+          'http://schema.org/issueNumber',
+          citeproc[i]));
+        break;
+
+      case 'pages':
+        triples.push(triple(cluster_id,
+          'http://schema.org/pagination',
+          citeproc[i]));
+        break;
+
+      case 'volume':
+        triples.push(triple(cluster_id,
+          'http://schema.org/volumeNumber',
+          citeproc[i]));
+        break;
+
+        // journal
+      case 'ISSN':
+        for (var j in citeproc[i]) {
+          var journal_id = 'http://www.worldcat.org/issn/' + citeproc[i][j];
+          triples.push(triple(cluster_id,
+            'http://schema.org/isPartOf',
+            journal_id
+          ));
+
+          // type
+          triples.push(triple(journal_id,
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+            'http://schema.org/Periodical'));
+
+          // issn
+          triples.push(triple(journal_id,
+            'http://schema.org/issn',
+            citeproc[i][j]));
+
+          // journal name can be string or array
+          if (Array.isArray(citeproc['container-title'])) {
+            for (var j in citeproc['container-title']) {
+              triples.push(triple(journal_id,
+                'http://schema.org/name',
+                citeproc['container-title'][j]));
+            }
+          } else {
+            triples.push(triple(journal_id,
+              'http://schema.org/name',
+              citeproc['container-title']));
+          }
+
+        }
+        break;
+
+        // authors (may include ORCIDs)
+        // if no ORCID then we have a bnode, so create an identifier to make this addressable
+      case 'author':
+        var n = citeproc[i].length;
+        for (var j = 0; j < n; j++) {
+          var author_id = '';
+
+          // create identifier
+          if (citeproc[i][j].ORCID) {
+            author_id = citeproc[i][j].ORCID;
+          } else {
+            // #hash identifier 
+            author_id = cluster_id + '#author_' + (j + 1);
+          }
+         
+          // author has role, if we do tis we could handle clustering authors
+          // so we can handle after the fact mapping to person with identifiers
+		 var author_role_id = author_id + '/role';
+		 
+		 
+		 // name
+         // name
+          var name = '';
+          var given = '';
+          var family = '';
+          if (citeproc[i][j].given) {
+            given = citeproc[i][j].given;
+            name += given;
+          }
+          if (citeproc[i][j].family) {
+            family = citeproc[i][j].family;
+            name += ' ' + family;
+          }
+          
+		 // author to role
+		 triples.push(triple(cluster_id,
+		  'http://schema.org/author', 
+		  author_role_id));
+		  
+		 triples.push(triple(author_role_id,
+		   'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+			'http://schema.org/Role'));
+			
+		// store name of author with role	(?)
+		/*
+          if (given != '') {
+            triples.push(triple(author_role_id,
+              'http://schema.org/givenName', // ?
+              given));
+          }
+          if (family != '') {
+            triples.push(triple(author_role_id,
+              'http://schema.org/familyName', // ?
+              family));
+          }
+
+          if (name != '') {
+            triples.push(triple(author_role_id,
+              'http://schema.org/name', // ?
+              name));
+          }
+          */
+		
+		 // author role to author
+		 triples.push(triple(author_role_id,
+		  'http://schema.org/author', 
+		  author_id));
+
+          // type, need to handle organisations as authors
+          triples.push(triple(author_id,
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+            'http://schema.org/Person'));
+
+
+          // name
+           if (given != '') {
+            triples.push(triple(author_id,
+              'http://schema.org/givenName', // ?
+              given));
+          }
+          if (family != '') {
+            triples.push(triple(author_id,
+              'http://schema.org/familyName', // ?
+              family));
+          }
+
+          if (name != '') {
+            triples.push(triple(author_id,
+              'http://schema.org/name', // ?
+              name));
+          }
+         
+          // affiliation
+          // make into a role
+         if (citeproc[i][j].affiliation) {     
+            var affiliation_count = 1;       
+            for (var k in citeproc[i][j].affiliation) {
+               if (citeproc[i][j].affiliation[k].name) {
+                 var affiliation_id = author_id + '/affiliation_' + affiliation_count;
+                 var affiliation_role_id = author_id + '/affiliation_' + affiliation_count + '/role';
+               
+                 // author to role
+                 triples.push(triple(author_id,
+                  'http://schema.org/affiliation', 
+                  affiliation_role_id));
+                  
+                 triples.push(triple(affiliation_role_id,
+                   'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                    'http://schema.org/OrganizationRole'));
+                    
+                 // role to affiliation
+                 triples.push(triple(affiliation_role_id,
+                  'http://schema.org/affiliation', 
+                  affiliation_id));
+                 
+                 triples.push(triple(affiliation_id,
+                  'http://schema.org/name', 
+                  citeproc[i][j].affiliation[k].name));
+ 
+                 triples.push(triple(affiliation_id,
+                   'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://schema.org/Organisation'));
+ 
+               }
+               affiliation_count++;
+             }
+          }
+         
+
+        }
+        break;
+
+        // publisher
+        // should this be linked to journal rather than article?
+      case 'publisher':
+        triples.push(triple(cluster_id,
+          'http://schema.org/publisher',
+          citeproc[i]));
+        break;
+
+        // funding
+      case 'funder':
+        var n = citeproc[i].length;
+        for (var j = 0; j < n; j++) {
+          var funder_id = '';
+
+          // create identifier for funder
+          if (citeproc[i][j].DOI) {
+            funder_id = 'http://identifiers.org/doi/' + citeproc[i][j].DOI;
+          } else {
+            // #hash identifier 
+            funder_id = cluster_id + '#funder_' + (j + 1);
+          }
+
+          // create funder 
+          triples.push(triple(funder_id,
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+            'http://schema.org/Organisation'));
+
+          triples.push(triple(funder_id,
+            'http://schema.org/name',
+            citeproc[i][j].name));
+
+          // role
+          var m = citeproc[i][j].award.length;
+
+          if (m == 0) {
+            // funder but award not known
+            var award_id = funder_id + '/award';
+
+            triples.push(triple(award_id,
+              'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+              'http://schema.org/Role'));
+
+            // link to funder 
+            triples.push(triple(award_id,
+              'http://schema.org/funder',
+              funder_id));
+
+            // link role to work         
+            triples.push(triple(cluster_id,
+              'http://schema.org/funder',
+              award_id));
+          } else {
+            // we have one or more awards
+            for (var a = 0; a < m; a++) {
+              var award_id = funder_id + '/award_' + (a+1);
+
+              triples.push(triple(award_id,
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                'http://schema.org/Role'));
+
+              triples.push(triple(award_id,
+                'http://schema.org/roleName',
+                citeproc[i][j].award[a]
+              ));
+
+              // link to funder 
+              triples.push(triple(award_id,
+                'http://schema.org/funder',
+                funder_id));
+
+              // link role to work         
+              triples.push(triple(cluster_id,
+                'http://schema.org/funder',
+                award_id));
+            }
+          }
+        }
+        break;
+
+        // license
+      case 'license':
+        for (var j in citeproc[i]) {
+          if (citeproc[i][j].URL) {
+            triples.push(triple(cluster_id,
+              'http://schema.org/license',
+              citeproc[i][j].URL));
+          }
+        }
+        break;
+
+        // links to representions such as PDFs, XML, HTML, etc.
+        // may be links to text mining sources
+      case 'link':
+        var n = citeproc[i].length;
+        for (var j = 0; j < n; j++) {
+          var link_id = cluster_id + '#link_' + (j + 1);
+
+          // type
+          triples.push(triple(link_id,
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+            'http://schema.org/CreativeWork'));
+
+          if (citeproc[i][j].URL) {
+            triples.push(triple(link_id,
+              'http://schema.org/url',
+              citeproc[i][j].URL));
+
+            if (citeproc[i][j]['content-type']) {
+              triples.push(triple(link_id,
+                'http://schema.org/fileFormat',
+                citeproc[i][j]['content-type']));
+            }
+
+            // link to work
+            triples.push(triple(cluster_id,
+              'http://schema.org/workExample',
+              link_id));
+          }
+        }
+        break;
+
+        // tags
+      case 'subject':
+        for (var j in citeproc[i]) {
+          triples.push(triple(cluster_id,
+            'http://schema.org/about',
+            citeproc[i][j]));
+        }
+        break;
+
+      default:
+        break;
+    }
+  }
+
+
+  // defaults
+  triples.push(triple(cluster_id,
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+    'http://schema.org/CreativeWork'));
+
+  output(doc, triples);
+
+}
+		
+			function convert() {
+				var jsonld = $('#json').val();
+				var doc = JSON.parse(jsonld);
+				citeproc(doc);
+				
+			
+			}
+		</script>
+
+
+</body>
+</html>
