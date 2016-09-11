@@ -692,7 +692,7 @@ function citeproc(doc) {
           // affiliation
           // make into a role
          if (citeproc[i][j].affiliation) {     
-            var affiliation_count = 0;       
+            var affiliation_count = 1;       
             for (var k in citeproc[i][j].affiliation) {
                if (citeproc[i][j].affiliation[k].name) {
                  var affiliation_id = author_id + '/affiliation_' + affiliation_count;
@@ -783,7 +783,7 @@ function citeproc(doc) {
           } else {
             // we have one or more awards
             for (var a = 0; a < m; a++) {
-              var award_id = funder_id + '/award_' + a;
+              var award_id = funder_id + '/award_' + (a+1);
 
               triples.push(triple(award_id,
                 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
