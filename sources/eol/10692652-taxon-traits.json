@@ -1,18 +1,3 @@
-# EOL colelctions and taxa
-
-## Birds, Sangster and Luksenburg
-
-http://eol.org/collections/116394
-
-Note that EOL collection JSON doesn't have URL or id for collection (!)
-
-## JSON-LD for taxon
-
-For taxon http://eol.org/pages/10692652 JSON-LD (traitbank) is:
-
-http://eol.org/api/traits/10692652
-
-```
 {
   "@context": {
     "@vocab": "http://schema.org/",
@@ -299,7 +284,3 @@ http://eol.org/api/traits/10692652
     ]
   }
 }
-```
-
-
-
