@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<style>
+	body { font-family:sans-serif; }
+	h1 { font-family: Helvetica; font-weight:normal; }
+	 
+	</style>
+	<script src="jquery.js"></script>
+	
+	<title>Viewer</title>
+	
+	<script>
+	
+	var doc = {
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "identifier": "http://purl.org/dc/terms/identifier",
+    "volume": "http://purl.org/ontology/bibo/volume",
+    "issue": "http://purl.org/ontology/bibo/issue",
+    "pages": "http://purl.org/ontology/bibo/pages",
+    "DOI": "http://identifiers.org/doi/",
+    "ISSN": "http://www.worldcat.org/issn/",
+    "ORCID": "http://orcid.org/",
+    "PMID": "http://identifiers.org/pmid/",
+    "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  "@graph": [
+    {
+      "@id": "DOI:10.1111/1755-0998.12328",
+      "@type": [
+        "ScholarlyArticle",
+        "CreativeWork"
+      ],
+      "identifier": {
+        "@id": "DOI:10.1111/1755-0998.12328"
+      },
+      "about": [
+        "Biotechnology",
+        "Genetics",
+        "Ecology, Evolution, Behavior and Systematics"
+      ],
+      "author": [
+        {
+          "@id": "DOI:10.1111/1755-0998.12328#author_1"
+        },
+        {
+          "@id": "DOI:10.1111/1755-0998.12328#author_2"
+        },
+        {
+          "@id": "DOI:10.1111/1755-0998.12328#author_3"
+        },
+        {
+          "@id": "DOI:10.1111/1755-0998.12328#author_4"
+        }
+      ],
+      "funder": [
+        {
+          "@id": "DOI:10.13039/100000014/award_1"
+        },
+        {
+          "@id": "DOI:10.13039/100000001/award_1"
+        },
+        {
+          "@id": "DOI:10.13039/100000001/award_2"
+        },
+        {
+          "@id": "DOI:10.13039/100000001/award_3"
+        },
+        {
+          "@id": "DOI:10.13039/100000001/award_4"
+        },
+        {
+          "@id": "DOI:10.13039/100006271/award_1"
+        }
+      ],
+      "isPartOf": {
+        "@id": "ISSN:1755-098X"
+      },
+      "issueNumber": "3",
+      "license": {
+        "@id": "http://doi.wiley.com/10.1002/tdm_license_1"
+      },
+      "name": "Target enrichment of ultraconserved elements from arthropods provides a genomic perspective on relationships among Hymenoptera",
+      "publisher": "Wiley-Blackwell",
+      "volumeNumber": "15",
+      "workExample": {
+        "@id": "DOI:10.1111/1755-0998.12328#link_1"
+      }
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_1",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "DOI:10.1111/1755-0998.12328#author_1/affiliation_1/role"
+        },
+        {
+          "@id": "DOI:10.1111/1755-0998.12328#author_1/affiliation_2/role"
+        }
+      ],
+      "familyName": "Faircloth",
+      "givenName": "Brant C.",
+      "name": "Brant C. Faircloth"
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_1/affiliation_1",
+      "@type": "Organisation",
+      "name": "Department of Ecology and Evolutionary Biology; University of California; Los Angeles CA 90095 USA"
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_1/affiliation_1/role",
+      "@type": "OrganizationRole",
+      "affiliation": {
+        "@id": "DOI:10.1111/1755-0998.12328#author_1/affiliation_1"
+      }
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_1/affiliation_2",
+      "@type": "Organisation",
+      "name": "Department of Biological Sciences; Louisiana State University; Baton Rouge LA 70803 USA"
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_1/affiliation_2/role",
+      "@type": "OrganizationRole",
+      "affiliation": {
+        "@id": "DOI:10.1111/1755-0998.12328#author_1/affiliation_2"
+      }
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_2",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "DOI:10.1111/1755-0998.12328#author_2/affiliation_1/role"
+      },
+      "familyName": "Branstetter",
+      "givenName": "Michael G.",
+      "name": "Michael G. Branstetter"
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_2/affiliation_1",
+      "@type": "Organisation",
+      "name": "Department of Entomology; National Museum of Natural History; Smithsonian Institution; Washington DC 20560 USA"
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_2/affiliation_1/role",
+      "@type": "OrganizationRole",
+      "affiliation": {
+        "@id": "DOI:10.1111/1755-0998.12328#author_2/affiliation_1"
+      }
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_3",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "DOI:10.1111/1755-0998.12328#author_3/affiliation_1/role"
+        },
+        {
+          "@id": "DOI:10.1111/1755-0998.12328#author_3/affiliation_2/role"
+        }
+      ],
+      "familyName": "White",
+      "givenName": "Noor D.",
+      "name": "Noor D. White"
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_3/affiliation_1",
+      "@type": "Organisation",
+      "name": "Department of Biology; University of Maryland; College Park MD 20742 USA"
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_3/affiliation_1/role",
+      "@type": "OrganizationRole",
+      "affiliation": {
+        "@id": "DOI:10.1111/1755-0998.12328#author_3/affiliation_1"
+      }
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_3/affiliation_2",
+      "@type": "Organisation",
+      "name": "Department of Vertebrate Zoology; National Museum of Natural History; Smithsonian Institution; Washington DC 20560 USA"
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_3/affiliation_2/role",
+      "@type": "OrganizationRole",
+      "affiliation": {
+        "@id": "DOI:10.1111/1755-0998.12328#author_3/affiliation_2"
+      }
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_4",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "DOI:10.1111/1755-0998.12328#author_4/affiliation_1/role"
+      },
+      "familyName": "Brady",
+      "givenName": "Seán G.",
+      "name": "Seán G. Brady"
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_4/affiliation_1",
+      "@type": "Organisation",
+      "name": "Department of Entomology; National Museum of Natural History; Smithsonian Institution; Washington DC 20560 USA"
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#author_4/affiliation_1/role",
+      "@type": "OrganizationRole",
+      "affiliation": {
+        "@id": "DOI:10.1111/1755-0998.12328#author_4/affiliation_1"
+      }
+    },
+    {
+      "@id": "DOI:10.1111/1755-0998.12328#link_1",
+      "@type": "CreativeWork",
+      "fileFormat": "unspecified",
+      "url": {
+        "@id": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1755-0998.12328"
+      }
+    },
+    {
+      "@id": "DOI:10.13039/100000001",
+      "@type": "Organisation",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "DOI:10.13039/100000001/award_1",
+      "@type": "Role",
+      "funder": {
+        "@id": "DOI:10.13039/100000001"
+      },
+      "roleName": "EF-0431330"
+    },
+    {
+      "@id": "DOI:10.13039/100000001/award_2",
+      "@type": "Role",
+      "funder": {
+        "@id": "DOI:10.13039/100000001"
+      },
+      "roleName": "DEB-1354739"
+    },
+    {
+      "@id": "DOI:10.13039/100000001/award_3",
+      "@type": "Role",
+      "funder": {
+        "@id": "DOI:10.13039/100000001"
+      },
+      "roleName": "DEB-1242260"
+    },
+    {
+      "@id": "DOI:10.13039/100000001/award_4",
+      "@type": "Role",
+      "funder": {
+        "@id": "DOI:10.13039/100000001"
+      },
+      "roleName": "DEB-1354996"
+    },
+    {
+      "@id": "DOI:10.13039/100000014",
+      "@type": "Organisation",
+      "name": "Smithsonian Institution"
+    },
+    {
+      "@id": "DOI:10.13039/100000014/award_1",
+      "@type": "Role",
+      "funder": {
+        "@id": "DOI:10.13039/100000014"
+      },
+      "roleName": "Buck Postdoctoral Fellowship"
+    },
+    {
+      "@id": "DOI:10.13039/100006271",
+      "@type": "Organisation",
+      "name": "National Museum of Natural History"
+    },
+    {
+      "@id": "DOI:10.13039/100006271/award_1",
+      "@type": "Role",
+      "funder": {
+        "@id": "DOI:10.13039/100006271"
+      },
+      "roleName": "Grand Challenges"
+    },
+    {
+      "@id": "ISSN:1755-098X",
+      "@type": "Periodical",
+      "identifier": {
+        "@id": "ISSN:1755-098X"
+      },
+      "issn": "1755-098X",
+      "name": "Molecular Ecology Resources"
+    }
+  ]
+};
+
+doc = {
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "identifier": "http://purl.org/dc/terms/identifier",
+    "volume": "http://purl.org/ontology/bibo/volume",
+    "issue": "http://purl.org/ontology/bibo/issue",
+    "pages": "http://purl.org/ontology/bibo/pages",
+    "DOI": "http://identifiers.org/doi/",
+    "ISSN": "http://www.worldcat.org/issn/",
+    "ORCID": "http://orcid.org/",
+    "PMID": "http://identifiers.org/pmid/",
+    "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  "@graph": [
+    {
+      "@id": "DOI:10.13039/100000001",
+      "@type": "Organisation",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "DOI:10.13039/100000001/award",
+      "@type": "Role",
+      "funder": {
+        "@id": "DOI:10.13039/100000001"
+      }
+    },
+    {
+      "@id": "DOI:10.3897/bdj.4.e8150",
+      "@type": [
+        "ScholarlyArticle",
+        "CreativeWork"
+      ],
+      "identifier": {
+        "@id": "DOI:10.3897/bdj.4.e8150"
+      },
+      "author": [
+        {
+          "@id": "DOI:10.3897/bdj.4.e8150#author_1"
+        },
+        {
+          "@id": "DOI:10.3897/bdj.4.e8150#author_2"
+        },
+        {
+          "@id": "DOI:10.3897/bdj.4.e8150#author_3"
+        }
+      ],
+      "funder": {
+        "@id": "DOI:10.13039/100000001/award"
+      },
+      "isPartOf": {
+        "@id": "ISSN:1314-2828"
+      },
+      "license": {
+        "@id": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "name": "A taxonomic monograph of the assassin bug genus Zelus Fabricius (Hemiptera: Reduviidae): 71 species based on 10,000 specimens",
+      "publisher": "Pensoft Publishers",
+      "volumeNumber": "4",
+      "workExample": [
+        {
+          "@id": "DOI:10.3897/bdj.4.e8150#link_1"
+        },
+        {
+          "@id": "DOI:10.3897/bdj.4.e8150#link_2"
+        }
+      ]
+    },
+    {
+      "@id": "DOI:10.3897/bdj.4.e8150#author_1",
+      "@type": "Person",
+      "familyName": "Zhang",
+      "givenName": "Guanyang",
+      "name": "Guanyang Zhang"
+    },
+    {
+      "@id": "DOI:10.3897/bdj.4.e8150#author_2",
+      "@type": "Person",
+      "familyName": "Hart",
+      "givenName": "Elwood",
+      "name": "Elwood Hart"
+    },
+    {
+      "@id": "DOI:10.3897/bdj.4.e8150#author_3",
+      "@type": "Person",
+      "familyName": "Weirauch",
+      "givenName": "Christiane",
+      "name": "Christiane Weirauch"
+    },
+    {
+      "@id": "DOI:10.3897/bdj.4.e8150#link_1",
+      "@type": "CreativeWork",
+      "fileFormat": "application/pdf",
+      "url": {
+        "@id": "http://bdj.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=8150"
+      }
+    },
+    {
+      "@id": "DOI:10.3897/bdj.4.e8150#link_2",
+      "@type": "CreativeWork",
+      "fileFormat": "application/xml",
+      "url": {
+        "@id": "http://bdj.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=8150"
+      }
+    },
+    {
+      "@id": "ISSN:1314-2828",
+      "@type": "Periodical",
+      "identifier": [
+        {
+          "@id": "ISSN:1314-2828"
+        },
+        {
+          "@id": "ISSN:1314-2836"
+        }
+      ],
+      "issn": [
+        "1314-2828",
+        "1314-2836"
+      ],
+      "name": "BDJ"
+    }
+  ]
+};
+
+/*
+doc = {
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "identifier": "http://purl.org/dc/terms/identifier",
+    "volume": "http://purl.org/ontology/bibo/volume",
+    "issue": "http://purl.org/ontology/bibo/issue",
+    "pages": "http://purl.org/ontology/bibo/pages",
+    "DOI": "http://identifiers.org/doi/",
+    "ISSN": "http://www.worldcat.org/issn/",
+    "ORCID": "http://orcid.org/",
+    "PMID": "http://identifiers.org/pmid/",
+    "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  "@graph": [
+    {
+      "@id": "DOI:10.3767/000651913x672307",
+      "@type": [
+        "ScholarlyArticle",
+        "CreativeWork"
+      ],
+      "identifier": [
+        {
+          "@id": "DOI:10.3767/000651913x672307"
+        },
+        "0006-5196(20130925)58:1L.77;1-"
+      ],
+      "author": [
+        {
+          "@id": "DOI:10.3767/000651913x672307#author_1"
+        },
+        {
+          "@id": "DOI:10.3767/000651913x672307#author_2"
+        },
+        {
+          "@id": "DOI:10.3767/000651913x672307#author_3"
+        },
+        {
+          "@id": "DOI:10.3767/000651913x672307#author_4"
+        }
+      ],
+      "isPartOf": {
+        "@id": "ISSN:0006-5196"
+      },
+      "issueNumber": "1",
+      "name": "Paepalanthus aleurophyllus, a new species of Eriocaulaceae from Minas Gerais, Brazil",
+      "publisher": "Naturalis Biodiversity Center",
+      "volumeNumber": "58"
+    },
+    {
+      "@id": "DOI:10.3767/000651913x672307#author_1",
+      "@type": "Person",
+      "familyName": "Trovó",
+      "givenName": "M.",
+      "name": "M. Trovó"
+    },
+    {
+      "@id": "DOI:10.3767/000651913x672307#author_2",
+      "@type": "Person",
+      "familyName": "Echternacht",
+      "givenName": "L.",
+      "name": "L. Echternacht"
+    },
+    {
+      "@id": "DOI:10.3767/000651913x672307#author_3",
+      "@type": "Person",
+      "familyName": "Sano",
+      "givenName": "P.T.",
+      "name": "P.T. Sano"
+    },
+    {
+      "@id": "DOI:10.3767/000651913x672307#author_4",
+      "@type": "Person",
+      "familyName": "Costa",
+      "givenName": "F.N.",
+      "name": "F.N. Costa"
+    },
+    {
+      "@id": "ISSN:0006-5196",
+      "@type": "Periodical",
+      "identifier": {
+        "@id": "ISSN:0006-5196"
+      },
+      "issn": "0006-5196",
+      "name": [
+        "Blum - J Plant Tax and Plant Geog",
+        "Blumea - Biodiversity, Evolution and Biogeography of Plants"
+      ]
+    }
+  ]
+};
+*/
+/*
+doc = {
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "identifier": "http://purl.org/dc/terms/identifier",
+    "volume": "http://purl.org/ontology/bibo/volume",
+    "issue": "http://purl.org/ontology/bibo/issue",
+    "pages": "http://purl.org/ontology/bibo/pages",
+    "DOI": "http://identifiers.org/doi/",
+    "ISSN": "http://www.worldcat.org/issn/",
+    "ORCID": "http://orcid.org/",
+    "PMID": "http://identifiers.org/pmid/",
+    "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  "@graph": [
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014",
+      "@type": [
+        "ScholarlyArticle",
+        "CreativeWork"
+      ],
+      "identifier": [
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014"
+        },
+        "S0006320716302786"
+      ],
+      "about": [
+        "Ecology, Evolution, Behavior and Systematics",
+        "Nature and Landscape Conservation"
+      ],
+      "author": [
+        {
+          "@id": "ORCID:0000-0001-8245-357X"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_2"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_3"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_4"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_5"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_6"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_7"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_8"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_9"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_10"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_11"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_12"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_13"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_14"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_15"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#author_16"
+        }
+      ],
+      "funder": [
+        {
+          "@id": "DOI:10.13039/100007463/award"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_2/award_1"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_3/award_1"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_4/award_1"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_5/award"
+        }
+      ],
+      "isPartOf": {
+        "@id": "ISSN:0006-3207"
+      },
+      "license": [
+        {
+          "@id": "http://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "@id": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "name": "Global biodiversity monitoring: From data sources to Essential Biodiversity Variables",
+      "publisher": "Elsevier BV",
+      "workExample": [
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#link_1"
+        },
+        {
+          "@id": "DOI:10.1016/j.biocon.2016.07.014#link_2"
+        }
+      ]
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_10",
+      "@type": "Person",
+      "familyName": "Gregory",
+      "givenName": "Richard D.",
+      "name": "Richard D. Gregory"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_11",
+      "@type": "Person",
+      "familyName": "Honrado",
+      "givenName": "João Pradinho",
+      "name": "João Pradinho Honrado"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_12",
+      "@type": "Person",
+      "familyName": "Jürgens",
+      "givenName": "Norbert",
+      "name": "Norbert Jürgens"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_13",
+      "@type": "Person",
+      "familyName": "Opige",
+      "givenName": "Michael",
+      "name": "Michael Opige"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_14",
+      "@type": "Person",
+      "familyName": "Schmeller",
+      "givenName": "Dirk S.",
+      "name": "Dirk S. Schmeller"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_15",
+      "@type": "Person",
+      "familyName": "Tiago",
+      "givenName": "Patrícia",
+      "name": "Patrícia Tiago"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_16",
+      "@type": "Person",
+      "familyName": "van Swaay",
+      "givenName": "Chris A.M.",
+      "name": "Chris A.M. van Swaay"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_2",
+      "@type": "Person",
+      "familyName": "Martin",
+      "givenName": "Laura Jane",
+      "name": "Laura Jane Martin"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_3",
+      "@type": "Person",
+      "familyName": "Pereira",
+      "givenName": "Henrique Miguel",
+      "name": "Henrique Miguel Pereira"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_4",
+      "@type": "Person",
+      "familyName": "Fernandez",
+      "givenName": "Miguel",
+      "name": "Miguel Fernandez"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_5",
+      "@type": "Person",
+      "familyName": "McRae",
+      "givenName": "Louise",
+      "name": "Louise McRae"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_6",
+      "@type": "Person",
+      "familyName": "Belnap",
+      "givenName": "Jayne",
+      "name": "Jayne Belnap"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_7",
+      "@type": "Person",
+      "familyName": "Böhm",
+      "givenName": "Monika",
+      "name": "Monika Böhm"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_8",
+      "@type": "Person",
+      "familyName": "Brummitt",
+      "givenName": "Neil",
+      "name": "Neil Brummitt"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#author_9",
+      "@type": "Person",
+      "familyName": "García-Moreno",
+      "givenName": "Jaime",
+      "name": "Jaime García-Moreno"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_2",
+      "@type": "Organisation",
+      "name": "FCT - the Foundation for Science and Technology"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_2/award_1",
+      "@type": "Role",
+      "funder": {
+        "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_2"
+      },
+      "roleName": "SFRH/BPD/80726/2011"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_3",
+      "@type": "Organisation",
+      "name": "National Science Foundation Dissertation Improvement Grant"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_3/award_1",
+      "@type": "Role",
+      "funder": {
+        "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_3"
+      },
+      "roleName": "1329750"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_4",
+      "@type": "Organisation",
+      "name": "European Union"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_4/award_1",
+      "@type": "Role",
+      "funder": {
+        "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_4"
+      },
+      "roleName": "308454"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_5",
+      "@type": "Organisation",
+      "name": "US Geological Survey Ecosystem"
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_5/award",
+      "@type": "Role",
+      "funder": {
+        "@id": "DOI:10.1016/j.biocon.2016.07.014#funder_5"
+      }
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#link_1",
+      "@type": "CreativeWork",
+      "fileFormat": "text/xml",
+      "url": {
+        "@id": "http://api.elsevier.com/content/article/PII:S0006320716302786?httpAccept=text/xml"
+      }
+    },
+    {
+      "@id": "DOI:10.1016/j.biocon.2016.07.014#link_2",
+      "@type": "CreativeWork",
+      "fileFormat": "text/plain",
+      "url": {
+        "@id": "http://api.elsevier.com/content/article/PII:S0006320716302786?httpAccept=text/plain"
+      }
+    },
+    {
+      "@id": "DOI:10.13039/100007463",
+      "@type": "Organisation",
+      "name": "Rufford Foundation"
+    },
+    {
+      "@id": "DOI:10.13039/100007463/award",
+      "@type": "Role",
+      "funder": {
+        "@id": "DOI:10.13039/100007463"
+      }
+    },
+    {
+      "@id": "ORCID:0000-0001-8245-357X",
+      "@type": "Person",
+      "familyName": "Proença",
+      "givenName": "Vânia",
+      "name": "Vânia Proença"
+    },
+    {
+      "@id": "ISSN:0006-3207",
+      "@type": "Periodical",
+      "identifier": {
+        "@id": "ISSN:0006-3207"
+      },
+      "issn": "0006-3207",
+      "name": "Biological Conservation"
+    }
+  ]
+};
+*/
+/*
+doc = {
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "identifier": "http://purl.org/dc/terms/identifier",
+    "volume": "http://purl.org/ontology/bibo/volume",
+    "issue": "http://purl.org/ontology/bibo/issue",
+    "pages": "http://purl.org/ontology/bibo/pages",
+    "DOI": "http://identifiers.org/doi/",
+    "ISSN": "http://www.worldcat.org/issn/",
+    "ORCID": "http://orcid.org/",
+    "PMID": "http://identifiers.org/pmid/",
+    "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  "@graph": [
+    {
+      "@id": "DOI:10.3897/phytokeys.48.6713",
+      "@type": [
+        "ScholarlyArticle",
+        "CreativeWork"
+      ],
+      "identifier": {
+        "@id": "DOI:10.3897/phytokeys.48.6713"
+      },
+      "author": [
+        {
+          "@id": "DOI:10.3897/phytokeys.48.6713#author_1"
+        },
+        {
+          "@id": "DOI:10.3897/phytokeys.48.6713#author_2"
+        }
+      ],
+      "isPartOf": {
+        "@id": "ISSN:1314-2003"
+      },
+      "license": {
+        "@id": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "name": "Paepalanthus serpens, a new microendemic species of Eriocaulaceae from the Espinhaço Range, Minas Gerais, Brazil",
+      "publisher": "Pensoft Publishers",
+      "volumeNumber": "48",
+      "workExample": [
+        {
+          "@id": "DOI:10.3897/phytokeys.48.6713#link_1"
+        },
+        {
+          "@id": "DOI:10.3897/phytokeys.48.6713#link_2"
+        }
+      ]
+    },
+    {
+      "@id": "DOI:10.3897/phytokeys.48.6713#author_1",
+      "@type": "Person",
+      "familyName": "Echternacht",
+      "givenName": "Livia",
+      "name": "Livia Echternacht"
+    },
+    {
+      "@id": "DOI:10.3897/phytokeys.48.6713#author_2",
+      "@type": "Person",
+      "familyName": "Trovó",
+      "givenName": "Marcelo",
+      "name": "Marcelo Trovó"
+    },
+    {
+      "@id": "DOI:10.3897/phytokeys.48.6713#link_1",
+      "@type": "CreativeWork",
+      "fileFormat": "application/pdf",
+      "url": {
+        "@id": "http://phytokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=5070"
+      }
+    },
+    {
+      "@id": "DOI:10.3897/phytokeys.48.6713#link_2",
+      "@type": "CreativeWork",
+      "fileFormat": "application/xml",
+      "url": {
+        "@id": "http://phytokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=5070"
+      }
+    },
+    {
+      "@id": "ISSN:1314-2003",
+      "@type": "Periodical",
+      "identifier": [
+        {
+          "@id": "ISSN:1314-2003"
+        },
+        {
+          "@id": "ISSN:1314-2011"
+        }
+      ],
+      "issn": [
+        "1314-2003",
+        "1314-2011"
+      ],
+      "name": [
+        "PK",
+        "PhytoKeys"
+      ]
+    }
+  ]
+};*/
+
+doc = {
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "identifier": "http://purl.org/dc/terms/identifier",
+    "volume": "http://purl.org/ontology/bibo/volume",
+    "issue": "http://purl.org/ontology/bibo/issue",
+    "pages": "http://purl.org/ontology/bibo/pages",
+    "DOI": "http://identifiers.org/doi/",
+    "ISSN": "http://www.worldcat.org/issn/",
+    "ORCID": "http://orcid.org/",
+    "PMID": "http://identifiers.org/pmid/",
+    "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  "@graph": [
+    {
+      "@id": "DOI:10.7525/j.issn.1673-5102.2006.03.021",
+      "@type": [
+        "ScholarlyArticle",
+        "CreativeWork"
+      ],
+      "identifier": {
+        "@id": "DOI:10.7525/j.issn.1673-5102.2006.03.021"
+      },
+      "author": [
+        {
+          "@id": "DOI:10.7525/j.issn.1673-5102.2006.03.021#author_1"
+        },
+        {
+          "@id": "DOI:10.7525/j.issn.1673-5102.2006.03.021#author_2"
+        },
+        {
+          "@id": "DOI:10.7525/j.issn.1673-5102.2006.03.021#author_3"
+        },
+        {
+          "@id": "DOI:10.7525/j.issn.1673-5102.2006.03.021#author_4"
+        },
+        {
+          "@id": "DOI:10.7525/j.issn.1673-5102.2006.03.021#author_5"
+        }
+      ],
+      "isPartOf": {
+        "@id": "ISSN:1673-5102"
+      },
+      "issueNumber": "3",
+      "name": "入侵物种飞机草和紫茎泽兰的核型研究",
+      "volumeNumber": "26"
+    },
+    {
+      "@id": "DOI:10.7525/j.issn.1673-5102.2006.03.021#author_1",
+      "@type": "Person",
+      "familyName": "冯玉龙",
+      "name": " 冯玉龙"
+    },
+    {
+      "@id": "DOI:10.7525/j.issn.1673-5102.2006.03.021#author_2",
+      "@type": "Person",
+      "familyName": "王跃华",
+      "name": " 王跃华"
+    },
+    {
+      "@id": "DOI:10.7525/j.issn.1673-5102.2006.03.021#author_3",
+      "@type": "Person",
+      "familyName": "刘元元",
+      "name": " 刘元元"
+    },
+    {
+      "@id": "DOI:10.7525/j.issn.1673-5102.2006.03.021#author_4",
+      "@type": "Person",
+      "familyName": "丁开宇",
+      "name": " 丁开宇"
+    },
+    {
+      "@id": "ISSN:1673-5102",
+      "@type": "Periodical",
+      "identifier": {
+        "@id": "ISSN:1673-5102"
+      },
+      "issn": "1673-5102",
+      "name": "植物研究"
+    }
+  ]
+};
+
+doc= {
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "identifier": "http://purl.org/dc/terms/identifier",
+    "volume": "http://purl.org/ontology/bibo/volume",
+    "issue": "http://purl.org/ontology/bibo/issue",
+    "pages": "http://purl.org/ontology/bibo/pages",
+    "DOI": "http://identifiers.org/doi/",
+    "ISSN": "http://www.worldcat.org/issn/",
+    "ORCID": "http://orcid.org/",
+    "PMID": "http://identifiers.org/pmid/",
+    "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  },
+  "@graph": [
+    {
+      "@id": "DOI:10.1111/j.1474-919x.1881.tb06025.x",
+      "@type": [
+        "ScholarlyArticle",
+        "CreativeWork"
+      ],
+      "identifier": {
+        "@id": "DOI:10.1111/j.1474-919x.1881.tb06025.x"
+      },
+      "about": [
+        "Ecology, Evolution, Behavior and Systematics",
+        "Nature and Landscape Conservation"
+      ],
+      "author": [
+        {
+          "@id": "DOI:10.1111/j.1474-919x.1881.tb06025.x#author_1"
+        },
+        {
+          "@id": "DOI:10.1111/j.1474-919x.1881.tb06025.x#author_2"
+        }
+      ],
+      "isPartOf": {
+        "@id": "ISSN:0019-1019"
+      },
+      "issueNumber": "2",
+      "license": {
+        "@id": "http://doi.wiley.com/10.1002/tdm_license_1"
+      },
+      "name": "Descriptions of some new Species of South-American Birds of the families Tyrannidse and Formicariidse",
+      "publisher": "Wiley-Blackwell",
+      "volumeNumber": "23",
+      "workExample": {
+        "@id": "DOI:10.1111/j.1474-919x.1881.tb06025.x#link_1"
+      }
+    },
+    {
+      "@id": "DOI:10.1111/j.1474-919x.1881.tb06025.x#author_1",
+      "@type": "Person",
+      "familyName": "Sclater",
+      "givenName": "P. L.",
+      "name": "P. L. Sclater"
+    },
+    {
+      "@id": "DOI:10.1111/j.1474-919x.1881.tb06025.x#author_2",
+      "@type": "Person",
+      "familyName": "Salvin.",
+      "givenName": "Osbert",
+      "name": "Osbert Salvin."
+    },
+    {
+      "@id": "DOI:10.1111/j.1474-919x.1881.tb06025.x#link_1",
+      "@type": "CreativeWork",
+      "fileFormat": "unspecified",
+      "url": {
+        "@id": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1474-919X.1881.tb06025.x"
+      }
+    },
+    {
+      "@id": "ISSN:0019-1019",
+      "@type": "Periodical",
+      "identifier": {
+        "@id": "ISSN:0019-1019"
+      },
+      "issn": "0019-1019",
+      "name": "Ibis"
+    }
+  ]
+};
+
+	//------------------------------------------------------------------------------------
+	function thing(doc, id) {
+	  var thing = null;
+	  
+	  if (doc['@graph']) {
+		for (var i in doc['@graph']) {
+		  if (doc['@graph'][i]['@id']) { 
+		     if (doc['@graph'][i]['@id'] == id) {
+		       thing = doc['@graph'][i];
+		     }
+		  }
+		}
+	  }
+	  
+	  return thing;
+	
+	
+	}
+	
+	//------------------------------------------------------------------------------------
+	function html_stub_person(doc, id) {
+	    var html = '';
+		var person = thing(doc, id);
+		if (person) {
+		   html = person.name;
+		}
+		return html;
+	}
+	
+	//------------------------------------------------------------------------------------
+	function html_stub_workExample(doc, id) {
+	    var html = '';
+		var workExample = thing(doc, id);
+		if (workExample) {
+		   if (workExample.fileFormat) {
+		     html += workExample.fileFormat + ' ';
+		    }
+		    if (workExample.url) {
+		     html += '<a href="' + workExample.url['@id'] + '">' + workExample.url['@id'] + '</a>';
+		    }
+		}
+		return html;
+	}
+	
+	//------------------------------------------------------------------------------------
+	function display_identifier(identifier) {
+		var html = '';
+		if (typeof identifier === 'object') {
+			html += identifier['@id'];
+		} else {
+			html += identifier;
+		}
+	
+		return html;
+	}	
+
+	
+
+	//------------------------------------------------------------------------------------
+	function display_scholarlyarticle(doc, id) {
+	  var article = thing(doc, id);
+	  
+	  if (thing) {
+	    // name
+	    $('h1').html(article.name);
+	    
+	    // identifiers
+	    if (article.identifier) {
+	        var html = '';
+   	    	for (var i in article.identifier) {
+   	    	  //console.log(article.identifier[i]);
+   	    	  html += '<li>' + display_identifier(article.identifier[i]) + '</li>';
+   	    	}
+   	    	 $('#identifier').html(html);
+   	    }
+	    
+	    // authors
+	    if (article.author) {
+	        var html = '';
+   	    	for (var i in article.author) {
+   	    	  html += '<li style="display:inline;padding:5px;">' + html_stub_person(doc, article.author[i]['@id']) + '</li>';
+   	    	}
+   	    	 $('#author').html(html);
+   	    }
+   	    
+   	    // license
+	    if (article.license) {
+	        var html = '';
+	        html = article.license['@id'];
+   	    	 $('#license').html(html);
+   	    }
+   	    
+	    
+	    // funder (role)
+	    if (article.funder) {
+	        var html = '';
+   	    	for (var i in article.funder) {
+   	    		html += '<li>';
+
+   	    		var role_id;
+				if (typeof article.funder[i] === 'object') {
+					role_id = article.funder[i]['@id'];
+				} else {
+					role_id = article.funder[i];
+				}
+				
+   	    		var role = thing(doc, role_id);
+   	    		
+   	    		if (role.roleName) {
+   	    		  html += role.roleName + ' ';
+   	    		}
+
+   	    		if (role.funder) {
+   	    			var funder = thing(doc, role.funder['@id']);
+   	    			html += funder.name;
+   	    		}
+   	    		
+   	    		html += '</li>';
+   	    	}
+   	    	 $('#funder').html(html);
+   	    }
+	    
+	    
+	    // links to PDF, XML, HTML, etc.
+	    // workExample
+	    if (article.workExample) {
+	        var html = '';
+	        if (Array.isArray(article.workExample)) {
+     	    	for (var i in article.workExample) {
+     	    	  html += '<li>' + html_stub_workExample(doc, article.workExample[i]['@id']) + '</li>';
+     	    	}
+     	    } else {
+     	    console.log(JSON.stringify(article.workExample));
+     	    	  html += '<li>' + html_stub_workExample(doc, article.workExample['@id']) + '</li>';
+   	    	}
+   	    	$('#workExample').html(html);
+   	    }
+	    
+	    
+	    
+	  
+	  }
+	
+	  
+	  
+	}
+		
+	//------------------------------------------------------------------------------------
+	function display(doc, type_to_display) {
+		if (doc['@graph']) {
+			for (var i in doc['@graph']) {
+			  if (doc['@graph'][i]['@id']) { 
+			  	//console.log(JSON.stringify(doc['@graph'][i]));
+			  
+			    if (doc['@graph'][i]['@type']) {
+			      var types = [];
+			      if (Array.isArray(doc['@graph'][i]['@type'])) {
+			       	   types = doc['@graph'][i]['@type'];
+			      } else {
+			       	   types.push(doc['@graph'][i]['@type']);
+			      }
+			      //console.log(types.join(" "));
+			      
+			      for (var j in types) {
+			        //console.log(types[j]);
+			        if (types[j] == type_to_display) {
+			          switch (type_to_display) {
+			          
+			            case 'ScholarlyArticle':
+			              display_scholarlyarticle(doc, doc['@graph'][i]['@id']);
+			              break;
+			            
+			            default:
+			              break;
+			          }
+			        
+			        }
+			        
+			      }
+			      
+			      
+			    }
+			  }
+			}
+		}
+	}
+	
+	
+	
+	</script>
+</head>
+<body>
+	<h1>name</h1>
+	<ul id="identifier"></ul>
+	<h2>Authors</h2>
+	<ul id="author"></ul>
+	<h2>Funding</h2>
+	<ul id="funder"></ul>
+	<h2>License</h2>
+	<ul id="license"></ul>
+	<h2>Content</h2>
+	<ul id="workExample"></ul>
+	<h2>Container</h2>
+	<ul id="container"></ul>
+
+	<script>
+		display(doc, 'ScholarlyArticle');
+	</script>
+</body>
+</html>
