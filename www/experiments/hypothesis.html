@@ -1,0 +1,203 @@
+<html>
+	<head>
+		<title>Hypothes.is to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<script src="shared.js"></script>		
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>Hypothes.is to n-triples</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>JSON</h2>
+
+<!-- 
+			{
+	"updated": "2016-09-16T10:47:00.332851+00:00",
+	"group": "__world__",
+	"target": [{
+		"source": "http://biostor.org/reference/184749/page/1",
+		"selector": [{
+			"conformsTo": "https://tools.ietf.org/html/rfc3236",
+			"type": "FragmentSelector",
+			"value": "page"
+		}, {
+			"endContainer": "/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[326]",
+			"startContainer": "/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[323]",
+			"type": "RangeSelector",
+			"startOffset": 0,
+			"endOffset": 0
+		}, {
+			"type": "TextPositionSelector",
+			"end": 2675,
+			"start": 2649
+		}, {
+			"exact": "Caligo\neurilochus\nsulanus\n",
+			"prefix": "iert.\nPatria:\nObidos,\nAmazonas.\n",
+			"type": "TextQuoteSelector",
+			"suffix": "nov.\nsubspec.\np\ndifferiert\nvon\nC"
+		}]
+	}],
+	"links": {
+		"json": "https://hypothes.is/api/annotations/5XdpOnv6EeaWrqMT0UxkMg",
+		"html": "https://hypothes.is/a/5XdpOnv6EeaWrqMT0UxkMg",
+		"incontext": "https://hyp.is/5XdpOnv6EeaWrqMT0UxkMg/biostor.org/reference/184749/page/1"
+	},
+	"tags": ["new name", "nov. subspec."],
+	"text": "",
+	"created": "2016-09-16T10:47:00.332844+00:00",
+	"uri": "http://biostor.org/reference/184749/page/1",
+	"user": "acct:rdmpage@hypothes.is",
+	"document": {
+		"title": ["Neue Caligo-Formen"]
+	},
+	"id": "5XdpOnv6EeaWrqMT0UxkMg",
+	"permissions": {
+		"read": ["group:__world__"],
+		"admin": ["acct:rdmpage@hypothes.is"],
+		"update": ["acct:rdmpage@hypothes.is"],
+		"delete": ["acct:rdmpage@hypothes.is"]
+	}
+} -->
+		
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+{
+	"updated": "2016-06-23T11:39:34.655050+00:00",
+	"group": "__world__",
+	"target": [{
+		"source": "urn:x-pdf:9b5fe37ca0f4ba0a6c25a8cf57790cbc",
+		"selector": [{
+			"type": "TextPositionSelector",
+			"end": 15286,
+			"start": 14055
+		}, {
+			"exact": "Caulobothrium  anacolum sp. n.(Figs. 12-13, 19)DESCRIPTION (n = number of measurementsused): Strobila acraspedote, apolytic, 6.8-15.4mm long, composed of 13-32 (n = 30) pro-glottids. Scolex with four pedicellated, quad-rate bothridia; pedicels 50-150 long, wider atbothridium than at trunk; bothridia 648-804long by 324-700 wide, with 22-23 transversesepta forming 23\u201424 total loculi; median longi-tudinal septum absent. Cephalic peduncle120-360 long. Immature proglotticls widerthan long; mature ones 1.14-2.54 mm long by0.38 mm wide. Testes in anterior % of pro-glottid, 34-45 (x = 41, 11 = 20) in number,54-138 in diameter; 10-14 (12) postporally,5-7 (6) preporally, 18-27 (23) antiporally.Cirrus sac in anterior % of proglottid, 144-216long  by 108-178 wide, containing spined ever-sible cirrus. Genital atrium inconspicuous.Genital pore 19-29% of proglottid length fromanterior end, irregularly alternating. Vaginaanterior to cirrus sac; vaginal sphincter present;posterior portion expanded to form seminalreceptacle. Ovary bilobed in frontal  view, X-shaped in cross-section, follicular, 144-312 longby 96\u2014300 \\vide at isthmus in   tci'minal pro-glottids. Vitelline follicles extending length ofproglottid, 12-60 in diameter.",
+			"prefix": "of  Rhinebothrium  magniphallum.",
+			"type": "TextQuoteSelector",
+			"suffix": "HOST:   Himantura  schmardae.SIT"
+		}]
+	}],
+	"links": {
+		"json": "https://hypothes.is/api/annotations/KHqupjk3EeazfqO-eQB-HA",
+		"html": "https://hypothes.is/a/KHqupjk3EeazfqO-eQB-HA",
+		"incontext": "https://hyp.is/KHqupjk3EeazfqO-eQB-HA/bionames.org/bionames-archive/issn/0018-0130/44/51.pdf"
+	},
+	"tags": ["description"],
+	"text": "",
+	"created": "2016-06-23T11:39:34.655043+00:00",
+	"uri": "urn:x-pdf:9b5fe37ca0f4ba0a6c25a8cf57790cbc",
+	"user": "acct:rdmpage@hypothes.is",
+	"document": {
+		"title": ["51.pdf"]
+	},
+	"id": "KHqupjk3EeazfqO-eQB-HA",
+	"permissions": {
+		"read": ["group:__world__"],
+		"admin": ["acct:rdmpage@hypothes.is"],
+		"update": ["acct:rdmpage@hypothes.is"],
+		"delete": ["acct:rdmpage@hypothes.is"]
+	}
+}			
+			
+			</textarea>
+			<br />
+			<button onclick="convert()">Convert</button>
+		
+	
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;color:#222;"></div>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;"></div>
+		<div id="extra" style="width:100%;"></div>
+
+	
+	</div>
+
+</div>
+
+		<script>
+
+		
+function hypothesis(doc) {
+  var triples = [];
+
+  var cluster_id = 'https://hypothes.is/a/' + doc.id;
+
+  var identifiers = [];
+
+  
+
+  // fields
+  for (var i in doc) {
+    switch (i) {
+
+      case 'target':
+		var target_id = cluster_id + '/target';      
+		triples.push(triple(cluster_id,
+            'http://www.w3.org/ns/oa#hasTarget',
+            target_id));  
+              
+        for (var j in doc['target']) {
+          for (var k in doc['target'][j]) {
+              console.log(k);
+			  switch (k) {
+				case 'source':
+					triples.push(triple(target_id,
+						'http://www.w3.org/ns/oa#hasSource',
+						doc['target'][j][k]));  
+				  break;
+			  
+				default:
+				  break;
+			  }
+			}
+        }
+        break;  
+        
+        // tags
+      case 'tags':
+        for (var j in doc[i]) {
+          triples.push(triple(cluster_id,
+            'http://schema.org/about',
+            doc[i][j]));
+        }
+        break;
+            
+      
+ 
+      default:
+        break;
+    }
+  }
+
+
+  // defaults
+  triples.push(triple(cluster_id,
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+    'http://www.w3.org/ns/oa#Annotation'));
+
+  output(doc, triples);
+
+}
+		
+			function convert() {
+				var jsonld = $('#json').val();
+				var doc = JSON.parse(jsonld);
+				hypothesis(doc);
+				
+			
+			}
+		</script>
+
+
+</body>
+</html>
