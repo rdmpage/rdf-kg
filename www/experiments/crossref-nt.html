@@ -4,6 +4,7 @@
 		<meta charset="UTF-8"/>
 		<script src="jquery.js"></script>
 		<script src="jsonld.js"></script>
+		<script src="shared.js"></script>
 		<style>
 		td { border: 1px solid red; }
 		</style>
@@ -187,8 +188,10 @@
 		"subject": ["Ecology, Evolution, Behavior and Systematics", "Nature and Landscape Conservation"]
 	}
 }	-->
-		
-			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">{
+
+<!--
+
+			{
     "indexed": {
         "date-parts": [
             [
@@ -374,7 +377,13 @@
         "Genetics",
         "Ecology, Evolution, Behavior and Systematics"
     ]
-}</textarea>
+}
+-->
+		
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+			{"id":"ITEM-1","title":"Notes on Gesneriaceae from Guangdong Province","multi":{"_keys":{"title":{"en":"Notes on Gesneriaceae from Guangdong Province","zh":"\u5e7f\u4e1c\u82e6\u82e3\u82d4\u79d1\u690d\u7269\u65b0\u8d44\u6599"}}},"type":"article-journal","issued":{"date-parts":[["2002"]]},"author":[],"container-title":"Journal of Tropical and Subtropical Botany","volume":"10","issue":"1","page":"33-34","ISSN":["1005-3395"],"DOI":"10.3969\/j.issn.1005-3395.2002.1.006","URL":"http:\/\/jtsb.scib.ac.cn\/jtsb_en\/ch\/reader\/view_abstract.aspx?flag=1&file_no=200201006&journal_id=jtsb_cn"}
+			
+			</textarea>
 			<br />
 			<button onclick="convert()">Convert</button>
 		
@@ -396,123 +405,6 @@
 		<script>
 		
 		
-
-		
-// potentially shared code
-function triple($subject, $predicate, $object) {
-  var triple = [];
-  triple[0] = $subject;
-  triple[1] = $predicate;
-  triple[2] = $object;
-  
-  return triple;
-}
-
-function quad($subject, $predicate, $object, $context) {
-  var triple = [];
-  triple[0] = $subject;
-  triple[1] = $predicate;
-  triple[2] = $object;
-  triple[3] = $context;
-  
-  return triple;
-}
-
-
-function wrap(s, html) {
-  if (s.match(/^(http|urn|_:)/)) {
-    if (html) {
-      s = '&lt;' + s + '&gt;';
-    } else {
-      s = '<' + s + '>';
-    }
-  } else {
-    s = '"' + s.replace(/"/, '\"') + '"';
-  }
-  return s;
-}
-
-// https://css-tricks.com/snippets/javascript/htmlentities-for-javascript/
-function htmlEntities(str) {
-    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-}
-
-function output(doc, triples) {
-  if (1) {
-	  // Output triples
-	  
-	  var nquads = '';
-	  
-	  var html = '<table width="100%">';
-	  for (var i in triples) {
-		var s = 0;
-		var p = 1;
-		var o = 2;
-		// SPO
-		//console.log(JSON.stringify(triples[i]));
-	
-	
-	
-		//html += '<tr><td>' + wrap(triples[i][s], true) + '</td><td>' + wrap(triples[i][p], true) + '</td><td>' + wrap(triples[i][o], true) + ' .</td></tr>';
-	
-	    nquads += wrap(triples[i][s], false) + ' ' + wrap(triples[i][p], false) + ' ' + wrap(triples[i][o], false) + ' .' + "\n";
-	
-	
-	  }
-	  html += '</table>';
-	  
-	  html += '<pre>' + htmlEntities(nquads) + '</pre>';
-	  
-	  $('#output').html(html);
-	  
-	   // convert RDF to JSON-LD
-jsonld.fromRDF(nquads, {format: 'application/nquads'}, function(err, j) {
-
-//  $('#jsonld').html(JSON.stringify(j, null, 2));
-
-// make nice
- var context = {
-  "@vocab" : "http://schema.org/",
-  
-  "identifier" :"http://purl.org/dc/terms/identifier",
-//  "title" : "http://purl.org/dc/terms/title",
-
-
-  "volume" : "http://purl.org/ontology/bibo/volume",
-  "issue" : "http://purl.org/ontology/bibo/issue",
-  "pages" : "http://purl.org/ontology/bibo/pages",
-
-  
-  "DOI" : "http://identifiers.org/doi/",
-  "ISSN": "http://www.worldcat.org/issn/",
-  "ORCID": "http://orcid.org/",
-  "PMID" : "http://identifiers.org/pmid/",
-  
-  
-  
-   "type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-};
-
-jsonld.compact(j, context, function(err, compacted) {
-  $('#jsonld').html('<pre>' + JSON.stringify(compacted, null, 2) + '</pre>');
-  });
-  
-  
-}); 
-  
-  
-  } else {
-      // CouchDB
-	  for (var i in triples) {
-		var s = 0;
-		var p = 1;
-		var o = 2;
-		//emit([wrap(triples[i][s], false), wrap(triples[i][p], false), wrap(triples[i][o], false)], 1);
-	  }
-    
-    
-  }
-}
 
 		
 function citeproc(doc) {
@@ -563,6 +455,7 @@ function citeproc(doc) {
 
       case 'type':
         switch (citeproc[i]) {
+          case 'article-journal':
           case 'journal-article':
             triples.push(triple(cluster_id,
               'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
@@ -586,7 +479,8 @@ function citeproc(doc) {
             'http://schema.org/name',
             citeproc[i]));
         }
-        break;
+         break;
+        
 
         // article metadata
       case 'issue':
@@ -609,22 +503,19 @@ function citeproc(doc) {
 
         // journal
       case 'ISSN':
-        for (var j in citeproc[i]) {
-          var journal_id = 'http://www.worldcat.org/issn/' + citeproc[i][j];
+        // one journal, but can have 1-2 ISSNs
+        // pick one for cluster_id
+         var journal_id = 'http://www.worldcat.org/issn/' + citeproc[i][0];
+         
           triples.push(triple(cluster_id,
             'http://schema.org/isPartOf',
             journal_id
           ));
-
+         
           // type
           triples.push(triple(journal_id,
             'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
             'http://schema.org/Periodical'));
-
-          // issn
-          triples.push(triple(journal_id,
-            'http://schema.org/issn',
-            citeproc[i][j]));
 
           // journal name can be string or array
           if (Array.isArray(citeproc['container-title'])) {
@@ -638,6 +529,33 @@ function citeproc(doc) {
               'http://schema.org/name',
               citeproc['container-title']));
           }
+          
+			// multi?
+			if (citeproc['multi']) {
+			  if (citeproc['multi']._keys['container-title']) {
+				for (var j in citeproc['multi']._keys['container-title']) {
+				  triples.push(triple(journal_id,
+					'http://schema.org/name',
+					citeproc['multi']._keys['container-title'][j], j));  
+				}
+			  }
+			} 
+          
+          
+          // ISSNs
+        for (var j in citeproc[i]) {
+
+          // issn
+          triples.push(triple(journal_id,
+            'http://schema.org/issn',
+            citeproc[i][j]));
+            
+          // identifiers
+        triples.push(triple(journal_id,
+          'http://purl.org/dc/terms/identifier',
+          'http://www.worldcat.org/issn/' + citeproc[i][j]));
+          
+          
 
         }
         break;
@@ -858,6 +776,37 @@ function citeproc(doc) {
             citeproc[i][j]));
         }
         break;
+        
+        // abstract
+      case 'abstract':
+        triples.push(triple(cluster_id,
+              'http://schema.org/description',
+              citeproc[i]));
+        break;
+        
+      // work level multi
+      // do this because there may be fields that only exist in multi keys
+      case 'multi':
+        for (var j in citeproc['multi']._keys) {
+          for (var k in citeproc['multi']._keys[j]) {
+            switch (j) {
+              case 'title':
+				triples.push(triple(cluster_id,
+          			'http://schema.org/name',
+          			citeproc['multi']._keys[j][k], k));
+          		break;
+              case 'abstract':
+				triples.push(triple(cluster_id,
+          			'http://schema.org/description',
+          			citeproc['multi']._keys[j][k], k));
+          		break;
+          	   default:
+          	     break;
+          	  }
+          	}
+        }               
+        break; 
+        
 
       default:
         break;
