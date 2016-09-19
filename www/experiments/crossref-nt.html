@@ -381,7 +381,7 @@
 -->
 		
 			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
-			{"id":"ITEM-1","title":"Notes on Gesneriaceae from Guangdong Province","multi":{"_keys":{"title":{"en":"Notes on Gesneriaceae from Guangdong Province","zh":"\u5e7f\u4e1c\u82e6\u82e3\u82d4\u79d1\u690d\u7269\u65b0\u8d44\u6599"}}},"type":"article-journal","issued":{"date-parts":[["2002"]]},"author":[],"container-title":"Journal of Tropical and Subtropical Botany","volume":"10","issue":"1","page":"33-34","ISSN":["1005-3395"],"DOI":"10.3969\/j.issn.1005-3395.2002.1.006","URL":"http:\/\/jtsb.scib.ac.cn\/jtsb_en\/ch\/reader\/view_abstract.aspx?flag=1&file_no=200201006&journal_id=jtsb_cn"}
+			{"id":"ITEM-1","title":"Notes on Gesneriaceae from Guangdong Province","multi":{"_key":{"title":{"en":"Notes on Gesneriaceae from Guangdong Province","zh":"\u5e7f\u4e1c\u82e6\u82e3\u82d4\u79d1\u690d\u7269\u65b0\u8d44\u6599"}}},"type":"article-journal","issued":{"date-parts":[["2002"]]},"author":[],"container-title":"Journal of Tropical and Subtropical Botany","volume":"10","issue":"1","page":"33-34","ISSN":["1005-3395"],"DOI":"10.3969\/j.issn.1005-3395.2002.1.006","URL":"http:\/\/jtsb.scib.ac.cn\/jtsb_en\/ch\/reader\/view_abstract.aspx?flag=1&file_no=200201006&journal_id=jtsb_cn"}
 			
 			</textarea>
 			<br />
@@ -427,12 +427,23 @@ function citeproc(doc) {
     switch (i) {
 
       case 'DOI':
-        var cluster_id = 'http://identifiers.org/doi/' + citeproc[i];
+        cluster_id = 'http://identifiers.org/doi/' + citeproc[i];
 
         triples.push(triple(cluster_id,
           'http://purl.org/dc/terms/identifier',
           'http://identifiers.org/doi/' + citeproc[i]));
         break;
+
+      case 'URL':
+        if (cluster_id == '') {
+          cluster_id = citeproc[i];
+        }
+
+         triples.push(triple(cluster_id,
+          'http://purl.org/dc/terms/identifier',
+          citeproc[i]));      
+        break;
+        
 
         // any alternative ids
       case 'alternative-id':
@@ -500,6 +511,22 @@ function citeproc(doc) {
           'http://schema.org/volumeNumber',
           citeproc[i]));
         break;
+        
+      case 'page':
+        var parts = citeproc[i].match(/^(.*)\-(.*)$/);
+        if (parts) {
+          triples.push(triple(cluster_id,
+            'http://schema.org/pageStart',
+            parts[1]));
+          triples.push(triple(cluster_id,
+            'http://schema.org/pageEnd',
+            parts[2]));
+        } else {
+          triples.push(triple(cluster_id,
+            'http://schema.org/pagination',
+            citeproc[i]));
+        }
+        break;
 
         // journal
       case 'ISSN':
@@ -532,11 +559,11 @@ function citeproc(doc) {
           
 			// multi?
 			if (citeproc['multi']) {
-			  if (citeproc['multi']._keys['container-title']) {
-				for (var j in citeproc['multi']._keys['container-title']) {
+			  if (citeproc['multi']._key['container-title']) {
+				for (var j in citeproc['multi']._key['container-title']) {
 				  triples.push(triple(journal_id,
 					'http://schema.org/name',
-					citeproc['multi']._keys['container-title'][j], j));  
+					citeproc['multi']._key['container-title'][j], j));  
 				}
 			  }
 			} 
@@ -787,18 +814,18 @@ function citeproc(doc) {
       // work level multi
       // do this because there may be fields that only exist in multi keys
       case 'multi':
-        for (var j in citeproc['multi']._keys) {
-          for (var k in citeproc['multi']._keys[j]) {
+        for (var j in citeproc['multi']._key) {
+          for (var k in citeproc['multi']._key[j]) {
             switch (j) {
               case 'title':
 				triples.push(triple(cluster_id,
           			'http://schema.org/name',
-          			citeproc['multi']._keys[j][k], k));
+          			citeproc['multi']._key[j][k], k));
           		break;
               case 'abstract':
 				triples.push(triple(cluster_id,
           			'http://schema.org/description',
-          			citeproc['multi']._keys[j][k], k));
+          			citeproc['multi']._key[j][k], k));
           		break;
           	   default:
           	     break;
