@@ -1,0 +1,2193 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">Stud Mycol</journal-id><journal-id journal-id-type="publisher-id">simycol</journal-id><journal-title-group><journal-title>Studies in Mycology</journal-title></journal-title-group><issn pub-type="ppub">0166-0616</issn><issn pub-type="epub">1872-9797</issn><publisher><publisher-name>CBS Fungal Biodiversity Centre</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">21523191</article-id><article-id pub-id-type="pmc">3065987</article-id><article-id pub-id-type="publisher-id">0115</article-id><article-id pub-id-type="doi">10.3114/sim.2011.68.05</article-id><article-categories><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title>A revision of <italic>Cyanonectria</italic> and <italic>Geejayessia</italic> gen. nov.,
+ and related species with <italic>Fusarium</italic>-like anamorphs</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Schroers</surname><given-names>H.-J.</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="corresp" rid="cor1">*</xref></contrib><contrib contrib-type="author"><name><surname>Gr&#x000e4;fenhan</surname><given-names>T.</given-names></name><xref ref-type="aff" rid="aff2">2</xref><xref ref-type="aff" rid="aff4">4</xref></contrib><contrib contrib-type="author"><name><surname>Nirenberg</surname><given-names>H.I.</given-names></name><xref ref-type="aff" rid="aff3">3</xref></contrib><contrib contrib-type="author"><name><surname>Seifert</surname><given-names>K.A.</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib></contrib-group><aff id="aff1"><label>1</label> <italic>Agricultural Institute of Slovenia, Hacquetova 17, 1000 Ljubljana,
+ Slovenia</italic></aff><aff id="aff2"><label>2</label> <italic>Eastern Cereal and Oilseed Research Centre, Biodiversity (Mycology and
+ Botany), 960 Carling Ave., Ottawa, Ontario, K1A 0C6, Canada</italic></aff><aff id="aff3"><label>3</label> <italic>Julius-K&#x000fc;hn-Institute, Institute for Epidemiology and Pathogen
+ Diagnostics, K&#x000f6;nigin-Luise-Str. 19, 14195 Berlin, Germany</italic></aff><aff id="aff4"><label>4</label> <italic>Current address</italic>: <italic>Grain Research Laboratory, Canadian Grain
+ Commission, 1404-303 Main Street, Winnipeg, Manitoba, R3C 3G8,
+ Canada</italic></aff><author-notes><corresp id="cor1"><label>*</label><italic>Correspondence</italic>: H.-J. Schroers,
+ <email>hans.schroers@kis.si</email></corresp></author-notes><pub-date pub-type="ppub"><year>2011</year></pub-date><volume>68</volume><issue-title>Phylogenetic revision of taxonomic concepts in the
+ <italic>Hypocreales</italic> and other <italic>Ascomycota</italic> - A tribute to Gary J.
+ Samuels -</issue-title><fpage>115</fpage><lpage>138</lpage><permissions><copyright-statement>Copyright &#x000a9; Copyright 2011 CBS-KNAW Fungal Biodiversity
+ Centre</copyright-statement><copyright-year>2011</copyright-year><license><license-p>You are free to share - to copy, distribute and transmit the work, under
+ the following conditions:</license-p><license-p><bold>Attribution:</bold>&#x000a0; You must attribute
+ the work in the manner specified by the author or licensor (but not in any way
+ that suggests that they endorse you or your use of the
+ work).</license-p><license-p><bold>Non-commercial:</bold>&#x000a0; You may not use this work for
+ commercial purposes.</license-p><license-p><bold>No derivative works:</bold>&#x000a0; You may not
+ alter, transform, or build upon this work.</license-p><license-p>For any reuse or
+ distribution, you must make clear to others the license terms of this work,
+ which can be found at
+ <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/3.0/legalcode">http://creativecommons.org/licenses/by-nc-nd/3.0/legalcode.</ext-link> Any of the above
+ conditions can be waived if you get permission from the copyright holder.
+ Nothing in this license impairs or restricts the author's moral rights.</license-p></license></permissions><self-uri xlink:title="pdf" xlink:href="115.pdf"/><abstract><p>A revision of <italic>Fusarium</italic>-like species associated with the plant
+ genus <italic>Buxus</italic> led to a reconsideration of generic concepts in the
+ <italic>Fusarium</italic> clade of the <italic>Nectriaceae.</italic> Phylogenetic analyses of
+ the partial second largest subunit of the RNA polymerase II (<italic>rpb2</italic>)
+ and the larger subunit of the ATP citrate lyase (<italic>acl1</italic>) gene exons
+ confirm the existence of a clade, here called the terminal <italic>Fusarium</italic>
+ clade, that includes genera such as <italic>Fusarium</italic> <italic>sensu stricto</italic>
+ (including its <italic>Gibberella</italic> teleomorphs), <italic>Albonectria</italic>,
+ <italic>Cyanonectria,</italic> &#x0201c;<italic>Haematonectria</italic>&#x0201d;, the newly
+ described genus <italic>Geejayessia,</italic> and &#x0201c;<italic>Nectria</italic>&#x0201d;
+ <italic>albida</italic>. <italic>Geejayessia</italic> accommodates five species. Four were
+ previously classified in <italic>Nectria sensu lato</italic>, namely the black
+ perithecial, KOH&#x02013;species <italic>G. atrofusca</italic> and the orange or
+ reddish, KOH+ <italic>G. cicatricum</italic>, <italic>G. desmazieri</italic> and <italic>G.
+ zealandica.</italic> <italic>Geejayessia celtidicola</italic> is newly described.
+ Following our phylogenetic analyses showing its close relationship with
+ <italic>Cyanonectria cyanostoma</italic>, the former <italic>Gibbera buxi</italic> is
+ recombined as the second species of <italic>Cyanonectria</italic>. A three gene
+ phylogenetic analysis of multiple strains of each morphological species using
+ translation elongation factor 1 &#x003b1; (<italic>tef-1</italic>), <italic>rpb2</italic> and
+ <italic>acl1</italic> gene exons and introns confirms their status as distinct
+ phylogenetic species. Internal transcribed spacer of the ribosomal RNA gene
+ cluster and nuclear large ribosomal subunit sequences were generated as
+ additional DNA barcodes for selected strains. The connection of <italic>Fusarium
+ buxicola</italic>, often erroneously reported as the anamorph of <italic>G.
+ desmazieri</italic>, with the bluish black and KOH+ perithecial species <italic>C.
+ buxi</italic> is reinstated. Most <italic>Cyanonectria</italic> and <italic>Geejayessia</italic>
+ species exhibit restricted host ranges on branches or twigs of <italic>Buxus</italic>
+ species, <italic>Celtis</italic> <italic>occidentalis,</italic> or <italic>Staphylea</italic>
+ <italic>trifolia</italic>. Their perithecia form caespitose clusters on
+ well-developed, mostly erumpent stromata on the bark or outer cortex of the
+ host and are relatively thin-walled, mostly smooth, and therefore reminiscent
+ of the more or less astromatous, singly occurring perithecia of
+ <italic>Cosmospora, Dialonectria,</italic> and <italic>Microcera</italic>. The cell walls in
+ outer- and inner layers of the perithecial walls of <italic>Cyanonectria</italic> and
+ <italic>Geejayessia</italic> have inconspicuous pore-like structures, as do
+ representative species of <italic>Albonectria, Fusarium sensu stricto</italic>,
+ &#x0201c;<italic>Haematonectria</italic>&#x0201d;, and &#x0201c;<italic>Nectria</italic>&#x0201d;
+ <italic>albida</italic>. The taxonomic significance of these structures, which we call
+ Samuels' pores, is discussed.</p></abstract><kwd-group><kwd>Holomorph concept</kwd><kwd>nomenclature</kwd><kwd>peridial pores</kwd><kwd>taxonomy</kwd></kwd-group></article-meta><notes><fn-group><fn><p><bold>Taxonomic novelties:</bold> <italic>Geejayessia</italic> Schroers, Gr&#x000e4;fenhan
+ &#x00026; Seifert, gen. nov., <italic>Geejayessia</italic> <italic>celtidicola</italic>
+ Gr&#x000e4;fenhan &#x00026; Schroers, sp. nov<italic>., Cyanonectria buxi</italic> (Fuckel)
+ Schroers, Gr&#x000e4;fenhan &#x00026; Seifert, comb. nov., <italic>Geejayessia</italic>
+ <italic>atrofusca</italic> (Schw.) Schroers &#x00026; Gr&#x000e4;fenhan, comb. nov.,
+ <italic>Geejayessia cicatricum</italic> (Berk.) Schroers, comb. nov.,
+ <italic>Geejayessia</italic> <italic>desmazieri</italic> (Becc. &#x00026; De Not.) Schroers,
+ Gr&#x000e4;fenhan &#x00026; Seifert, comb. nov., <italic>Geejayessia</italic>
+ <italic>zealandica</italic> (Cooke) Schroers, comb. nov.</p></fn></fn-group></notes></front><body><sec><title>INTRODUCTION</title><p>Species of <italic>Fusarium</italic> are of major agricultural, economic, and
+ health importance because of their mycotoxin production and roles as crop and
+ opportunistic human pathogens (<xref ref-type="bibr" rid="ref26">Marasas
+ <italic>et al.</italic> 1984</xref>,
+ <xref ref-type="bibr" rid="ref59">Summerbell 2003</xref>) or saprobes
+ isolated from soil or decaying plant substrates
+ (<xref ref-type="bibr" rid="ref8">Domsch <italic>et al.</italic> 2007</xref>).
+ Some <italic>Fusarium</italic>-like species inhabit lichens, other fungi, and insects,
+ but many of these species are phylogenetically distantly related to <italic>F.
+ sambucinum</italic>, the type species of <italic>Fusarium</italic>. Some of these were
+ classified in <italic>Cosmospora</italic> by Rossman <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref39">1999</xref>), and now placed in
+ re-circumscribed genera such as <italic>Dialonectria, Fusicolla, Macroconia,
+ Microcera,</italic> and <italic>Stylonectria</italic> in this volume, Gr&#x000e4;fenhan
+ <italic>et al.</italic> (<xref ref-type="bibr" rid="ref17">2011</xref>).</p><p><italic>Fusarium</italic> species typically sporulate readily and grow moderately
+ fast in culture. Perithecia are formed <italic>in vitro</italic> by a few species,
+ often only after crossing of compatible mating types using special media and
+ incubation conditions (<xref ref-type="bibr" rid="ref23">Leslie
+ 1991</xref>). Accordingly, the main <italic>Fusarium</italic> monographers of the
+ 20<sup>th</sup> and 21<sup>st</sup> centuries were predominantly
+ teleomorphically challenged and anamorph names are widely used
+ (<xref ref-type="bibr" rid="ref65">Wollenweber &#x00026; Reinking
+ 1935</xref>, <xref ref-type="bibr" rid="ref16">Gerlach &#x00026; Nirenberg
+ 1982</xref>, <xref ref-type="bibr" rid="ref28">Nelson <italic>et al.</italic>
+ 1983</xref>, <xref ref-type="bibr" rid="ref15">Gams <italic>et al.</italic>
+ 1997</xref>, <xref ref-type="bibr" rid="ref24">Leslie &#x00026; Summerell
+ 2006</xref>, <xref ref-type="bibr" rid="ref8">Domsch <italic>et al.</italic>
+ 2007</xref>). However, a parallel holomorphic system was initiated by
+ other taxonomists, sometimes with less exposure to plant pathology and the
+ <italic>Fusarium</italic> literature, and numerous <italic>Fusarium</italic> holomorphs were
+ integrated taxonomically into the <italic>Nectriaceae, Hypocreales,</italic> under a
+ variety of teleomorphic names, most notably <italic>Gibberella</italic>
+ (<xref ref-type="bibr" rid="ref1">Booth 1959</xref>,
+ <xref ref-type="bibr" rid="ref45">Samuels 1976</xref>, Samuels <italic>et
+ al.</italic> <xref ref-type="bibr" rid="ref51">1990</xref>,
+ <xref ref-type="bibr" rid="ref53">1991</xref>,
+ <xref ref-type="bibr" rid="ref48">Samuels &#x00026; Brayford 1994</xref>,
+ <xref ref-type="bibr" rid="ref39">Rossman <italic>et al.</italic> 1999</xref>).
+ The taxonomic segregation of species included in the broad concept of
+ <italic>Nectria sensu</italic> Booth
+ (<xref ref-type="bibr" rid="ref1">1959</xref>) into distinct genera
+ (<xref ref-type="bibr" rid="ref39">Rossman <italic>et al.</italic>
+ 1999</xref>), crystallised with the recognition or resurrection of
+ holomorphic genera such as <italic>Albonectria, Cosmospora, Cyanonectria,
+ Gibberella, Haematonectria,</italic> and <italic>Neocosmospora</italic>
+ (<xref ref-type="bibr" rid="ref39">Rossman <italic>et al.</italic> 1999</xref>,
+ <xref ref-type="bibr" rid="ref49">Samuels <italic>et al.</italic> 2009</xref>),
+ all with the exception of the latter at least with some <italic>Fusarium</italic>-like
+ anamorphs. This holomorphic system implied that the generic concept of
+ <italic>Fusarium</italic> might not be monophyletic or that additional genera might be
+ necessary to delimit monophyletic, morphologically homogenous, or natural
+ species groups. Samuels <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref49">2009</xref>) and the accompanying
+ paper by Gr&#x000e4;fenhan <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref17">2011</xref>) provide evidence for a
+ monophyletic <italic>Fusarium</italic> clade, once the species related to the revised
+ concepts of <italic>Cosmospora, Dialonectria, Fusicolla, Macroconia,
+ Microcera,</italic> and <italic>Stylonectria</italic> are removed; for convenience, we
+ refer to this as the terminal <italic>Fusarium</italic> clade based on its position in
+ the <italic>Nectriaceae</italic> in the phylogenetic analysis of Gr&#x000e4;fenhan <italic>et
+ al.</italic> (<xref ref-type="bibr" rid="ref17">2011</xref>). In that
+ study, this terminal <italic>Fusarium</italic> clade received low support in
+ phylogenetic analyses and included several strongly supported phylogenetic
+ lineages within it. Typically, the statistically supported phylogenetic clades
+ corresponded in a nearly 1:1 fashion with taxonomic groupings earlier
+ established on the basis of teleomorph
+ (<xref ref-type="bibr" rid="ref45">Samuels 1976</xref>,
+ <xref ref-type="bibr" rid="ref50">Samuels <italic>et al.</italic> 2001</xref>)
+ and/or anamorph characters (<xref ref-type="bibr" rid="ref16">Gerlach &#x00026;
+ Nirenberg 1982</xref>).</p><p>The taxonomic placements of some species formerly included in <italic>Nectria
+ sensu</italic> Booth, including the black perithecial <italic>N. atrofusca</italic>, the
+ orange <italic>N. desmazieri,</italic> and the red <italic>N. zealandica</italic> (the latter
+ also included in <italic>Cosmospora sensu</italic>
+ <xref ref-type="bibr" rid="ref39">Rossman <italic>et al.</italic> 1999</xref>)
+ are particularly puzzling. &#x0201c;<italic>Nectria</italic>&#x0201d; <italic>atrofusca</italic>,
+ which has a macroconidial, <italic>Fusarium</italic>-like anamorph, cannot
+ convincingly be placed phylogenetically among other species with darkly
+ pigmented perithecia, in particular the large and well-known genus
+ <italic>Gibberella</italic> (<xref ref-type="bibr" rid="ref52">Samuels &#x00026;
+ Rogerson 1984</xref>, <xref ref-type="bibr" rid="ref31">O'Donnell
+ 1993</xref>, <xref ref-type="bibr" rid="ref49">Samuels <italic>et al.</italic>
+ 2009</xref>). Therefore, it remained classified in Booth's broadly
+ delimited concept of &#x0201c;<italic>Nectria</italic>&#x0201d;, although its perithecia
+ and macroconidial <italic>Fusarium</italic> anamorph are morphologically dissimilar to
+ species of <italic>Nectria sensu stricto</italic>
+ (<xref ref-type="bibr" rid="ref20">Hirooka <italic>et al.</italic>
+ 2011</xref>). The second species, &#x0201c;<italic>N.</italic>&#x0201d;
+ <italic>desmazieri,</italic> was placed in the <italic>N. episphaeria</italic> species group
+ by Booth (<xref ref-type="bibr" rid="ref1">1959</xref>), but was not
+ accepted as a species of <italic>Nectria</italic> subgenus <italic>Dialonectria</italic> by
+ Samuels <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref53">1991</xref>), nor was it transferred
+ to <italic>Cosmospora</italic> by Rossman <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref39">1999</xref>). Nirenberg &#x00026;
+ Samuels (<xref ref-type="bibr" rid="ref30">2000</xref>) compared the
+ third species, the plant-associated &#x0201c;<italic>N.</italic>&#x0201d;
+ <italic>zealandica,</italic> with the scale insect pathogens now classified by
+ Gr&#x000e4;fenhan <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref17">2011</xref>) as <italic>Microcera
+ diploa</italic> and <italic>M. flammea.</italic> This might have suggested
+ reclassification in <italic>Cosmospora sensu</italic> Rossman <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref39">1999</xref>), but it has perithecia
+ in caespitose clusters on well-developed stromata, atypical for
+ <italic>Cosmospora</italic>.</p><p>The anamorphs of these three species are <italic>Fusarium</italic>-like and some
+ anamorphic names have been proposed for them. Deviating descriptions and
+ concepts exist for <italic>Fusarium buxicola</italic>, considered the anamorph of
+ &#x0201c;<italic>N.</italic>&#x0201d; <italic>desmazieri</italic> by Wollenweber &#x00026; Reinking
+ (<xref ref-type="bibr" rid="ref65">1935</xref>), Booth
+ (<xref ref-type="bibr" rid="ref1">1959</xref>,
+ <xref ref-type="bibr" rid="ref2">1971</xref>), and Gerlach &#x00026;
+ Nirenberg (<xref ref-type="bibr" rid="ref16">1982</xref>). Saccardo
+ (<xref ref-type="bibr" rid="ref42">1883</xref>) had proposed <italic>F.
+ buxicola</italic> as the anamorph of an additional bluish-black perithecial
+ species, `<italic>Gibbera</italic>' <italic>buxi</italic>, and the subsequent association with
+ the orange or brownish orange perithecial species &#x0201c;<italic>N.&#x0201d;.
+ desmazieri</italic> is mysterious. Wollenweber &#x00026; Reinking
+ (<xref ref-type="bibr" rid="ref65">1935</xref>) classified <italic>F.
+ buxicola</italic> and &#x0201c;<italic>N.</italic>&#x0201d; <italic>desmazieri</italic> in
+ <italic>Nectria</italic> section <italic>Macroconia</italic>, which Wollenweber
+ (<xref ref-type="bibr" rid="ref64">1926</xref>) erected for
+ &#x0201c;<italic>Nectria&#x0201d; stilbosporae</italic>, &#x0201c;<italic>N.&#x0201d;
+ leptosphaeriae</italic> and &#x0201c;<italic>N.&#x0201d; aurantiicola,</italic> currently
+ classified as &#x0201c;<italic>Fusarium</italic>&#x0201d; <italic>expansum, Macroconia
+ leptosphaeriae</italic> and <italic>Microcera larvarum</italic> by Gr&#x000e4;fenhan <italic>et
+ al.</italic> (<xref ref-type="bibr" rid="ref17">2011</xref>).</p><p>Our study began with newly obtained collections of nectrioid fungi on
+ species of <italic>Buxus</italic> and <italic>Celtis</italic> in Europe and North America.
+ This led us to revise the taxonomy of the &#x0201c;<italic>N.</italic>&#x0201d;
+ <italic>desmazieri</italic> species group, a monophyletic clade within the terminal
+ <italic>Fusarium</italic> clade according to phylogenetic analyses
+ (<xref ref-type="bibr" rid="ref49">Samuels <italic>et al.</italic> 2009</xref>,
+ <xref ref-type="bibr" rid="ref17">Gr&#x000e4;fenhan <italic>et al.</italic>
+ 2011</xref>). We describe this clade as a new genus <italic>Geejayessia,</italic>
+ with the former <italic>N. cicatricum</italic> as its type species, and including the
+ former &#x0201c;<italic>N.</italic>&#x0201d; <italic>atrofusca</italic>, &#x0201c;<italic>N.</italic>&#x0201d;
+ <italic>desmazieri</italic>, &#x0201c;<italic>N.</italic>&#x0201d; <italic>zealandica,</italic> and a new
+ species collected on <italic>Celtis occidentalis, G. celtidicola</italic>; henceforth
+ in this paper the <italic>Geejayessia</italic> names are used. The morphological and
+ anatomical characters of the teleomorphs are compared with those of other
+ teleomorphs in the terminal <italic>Fusarium</italic> clade. Specifically, perithecial
+ wall layers and surface roughening are analysed, characters that were used,
+ for example, when Booth (<xref ref-type="bibr" rid="ref1">1959</xref>)
+ placed <italic>G. desmazieri</italic> in the <italic>N. episphaeria</italic> species
+ group.</p><p>Following the arguments of Gr&#x000e4;fenhan <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref17">2011</xref>) and similar opinions of
+ others (<xref ref-type="bibr" rid="ref57">Seifert &#x00026; Samuels
+ 2000</xref>, <xref ref-type="bibr" rid="ref3">Cannon &#x00026; Kirk
+ 2000</xref>, <xref ref-type="bibr" rid="ref40">Rossman &#x00026; Samuels
+ 2005</xref>), we have adopted a single name nomenclatural system in this
+ paper. None of the species recognised here are solely anamorphic, and the
+ oldest available species epithets are all teleomorphic. Therefore, all of the
+ binomials adopted for species in this paper are valid, legitimate, and
+ nomenclaturally correct according to the present International Code of
+ Botanical Nomenclature (<xref ref-type="bibr" rid="ref27">McNeill <italic>et
+ al.</italic> 2006</xref>). We consider the available <italic>Fusarium</italic>
+ binominals as synonyms of the names in <italic>Cyanonectria</italic> and the newly
+ described genus <italic>Geejayessia</italic> and its anamorphs as
+ <italic>Fusarium</italic>-like, and not part of our taxonomic concept of <italic>Fusarium
+ sensu stricto.</italic></p></sec><sec sec-type="materials|methods"><title>MATERIALS AND METHODS</title><sec><title>Specimens and strains</title><p>Dried reference specimens were obtained from the herbaria BPI, DAOM, G, K,
+ M, and W. Herbarium abbreviations are from Holmgren <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref21">1990</xref>). Cultures were obtained
+ from the culure collections at the CBS Fungal Biodiversity Centre (CBS,
+ Utrecht, the Netherlands), Eastern Cereal and Oilseed Research Centre (DAOM,
+ Ottawa, Canada), and the Julius K&#x000fc;hn-Institute, Institute for
+ Epidemiology and Pathogen Diagnostics (BBA, Berlin &#x00026; Braunschweig,
+ Germany).</p><p>Dead or decaying twigs attached to healthy <italic>Celtis occidentalis</italic>
+ trees, <italic>Buxus sempervirens</italic> bushes, or detached twigs found below these
+ trees, were examined for nectriaceous teleomorphs. Perithecia and supporting
+ substrate were removed from specimens, rehydrated in water, embedded in Tissue
+ Tek 4583 O.C.T.&#x02122;, sectioned at &#x02013;20 &#x000b0;C and 6&#x02013;16 &#x003bc;m
+ thickness using a Leica Cryotome CM 1850, and mounted in Shear's fluid
+ (<xref ref-type="bibr" rid="ref14">Gams <italic>et al.</italic> 1998</xref>).
+ Microscopic structures such as conidia, phialides, asci, ascospores, details
+ of stromata and walls of perithecia, etc. were studied with a Zeiss Imager
+ microscope using differential interference contrast and luminance coded with
+ 0.45 or, rarely, 1.0 gamma correction in the Zeiss AxioVision software v. 4.6,
+ or an Olympus BX50 compound microscope. Anamorphic structures were studied in
+ water, and teleomorphic structures in water, Shear's, 2 % KOH or 85&#x02013;90 %
+ lactic acid. Other methods for the study of micro- or macroscopical characters
+ of strains including morphometrical analyses are described elsewhere
+ (<xref ref-type="bibr" rid="ref56">Schroers <italic>et al.</italic>
+ 2009</xref>).</p><p>For ascospore isolates, single perithecia were squashed in a drop of
+ sterile water. The resulting ascospore suspension was collected either with a
+ 1 mL propipettor or a glass pasteur pipette with its tip sterilised and
+ extended using an alcohol flame; the suspension was spread by moving the
+ pipette over the surface of synthetic nutrient-poor agar (SNA;
+ <xref ref-type="bibr" rid="ref29">Nirenberg 1976</xref>) with
+ penicillin and streptomycin (<xref ref-type="bibr" rid="ref14">Gams <italic>et
+ al.</italic> 1998</xref>). The next day isolated germinating ascospores were
+ located under a compound microscope at low magnification or a dissecting
+ microscope at high magnification and transferred to fresh media. For mycelial
+ or conidial specimens, cultures were isolated by plating a piece of
+ <italic>Buxus</italic> root surface sterilised with 70 % ethanol onto potato dextrose
+ agar (PDA, Biolife, Italy) with penicillin and streptomycin or by streaking
+ out macroconidia obtained from sporodochia on decaying <italic>Buxus</italic>
+ branches.</p><p>For taxonomic studies, cultures were studied on agar media in 9 cm vented,
+ plastic Petri dishes. Strains were grown on SNA with small pieces of sterile
+ carnation leaves (CL) or <italic>Buxus</italic> leaves or twigs on the surface (SNA/CL
+ or SNA/B). Growth rates were determined after 7 d on PDA (Difco, USA)
+ incubated at 15, 20, 25, 30, and 35 &#x000b0;C. Colony colours were scored on the
+ same medium after 14 d or later using Kornerup &#x00026; Wanscher
+ (<xref ref-type="bibr" rid="ref22">1978</xref>). For the preparation of
+ voucher material, cultures were first dried in a Christ LMC-2 lyophiliser and
+ then killed with formalin as described by Gams <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref14">1998</xref>).</p><p><fig position="float" id="fig1"><label>Fig. 1.</label><caption><p>Phylogrammes showing generic relationships in the terminal
+ <italic>Fusarium</italic> clade inferred from partial sequences of the second largest
+ subunit of the RNA polymerase II and the larger subunit of ATP citrate lyase
+ gene exons using <italic>Nectria</italic> cf. <italic>cinnabarina</italic> as outgroup. A.
+ Majority rule consensus tree of a Bayesian Markov chain Monte Carlo sampling.
+ B. One of 145 equally parsimonious trees. Numbers above branches are Bayesian
+ posterior probabilities multiplied by 100 (p.p. &#x0003e; 90 are shown); those
+ below lines are parsimony bootstrap proportions (&#x0003e; 70 % are shown).
+ <italic>Fusarium</italic> <italic>sensu stricto</italic> is demarcated by a red frame,
+ <italic>Geejayessia</italic> by green, <italic>Cyanonectria</italic> by blue, and the terminal
+ <italic>Fusarium</italic> clade by yellow. Scale bars: A 0.05 substitutions per site,
+ B 50 steps.</p></caption><graphic xlink:href="115fig1"/></fig></p><p>The species included in the genus-level phylogenetic evaluation of the
+ terminal <italic>Fusarium</italic> clade (<xref ref-type="fig" rid="fig1">Fig.
+ 1</xref>) were <italic>Nectria</italic> cf. <italic>cinnabarina</italic>, <bold>USA</bold>,
+ Pennsylvania, Salt Springs State Park, on <italic>Fagus grandifolia</italic>, T.
+ Gr&#x000e4;fenhan, May 2007, TG 2007-62, DAOM [HQ728160 (<italic>rpb2</italic>), HQ728179
+ (<italic>acl1</italic>)] (outgroup); <italic>Nalanthamala diospyri</italic>, <bold>USA</bold>,
+ Tennessee, Readyville, wood of <italic>Diospyros virginiana</italic>, M.J. Wingfield,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=560.89&#x00026;link_type=cbs">CBS 560.89</ext-link>
+ [HQ728156 (<italic>rpb2</italic>), HQ728175 (<italic>acl1</italic>)]; <italic>Fusarium
+ avenaceum</italic>, <bold>Germany</bold>, north Germany, <italic>Solanum tuberosum</italic>,
+ tuber, E. Langerfeld, August 1980, BBA 64151 [DNA barcodes: HQ728167
+ (<italic>rpb2</italic>), HQ728186 (<italic>acl1</italic>)]; <italic>Fusarium babinda</italic>,
+ <bold>Spain</bold>, Morga, <italic>Pinus radiata</italic>/<italic>Hylurgops palliates</italic>, P.
+ Rom&#x000f2;n, <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=122156&#x00026;link_type=cbs">CBS
+ 122156</ext-link> [HQ728168 (<italic>rpb2</italic>), HQ728187 (<italic>acl1</italic>)];
+ <italic>Fusarium compactum</italic>, <bold>Sudan</bold>, seed of <italic>Gossypium
+ barbadense</italic>, G. Ibrahim, June 1989, BBA 65671 [HQ728165 (<italic>rpb2</italic>),
+ HQ728184 (<italic>acl1</italic>)]; <italic>Fusarium graminum</italic>, <bold>Iran</bold>, Prov.
+ Mazandaran, near Babol, <italic>Claviceps</italic>, on ear of <italic>Paspalum
+ dilatatum</italic>, W. Gerlach &#x00026; D. Ershad, October 1968, BBA 62226 [HQ728166
+ (<italic>rpb2</italic>), HQ728185 (<italic>acl1</italic>)]; <italic>Microcera larvarum</italic>,
+ <bold>Iran</bold>, Prov. Guilan, near Rasht, <italic>Quadraspidiotus perniciosus</italic>,
+ on living on branch of <italic>Prunus</italic>, W. Gerlach &#x00026; D. Ershad, October
+ 1968, BBA 62239 [HQ728163 (<italic>rpb2</italic>), HQ728182 (<italic>acl1</italic>)];
+ <italic>Microcera coccophila</italic>, <bold>New Zealand</bold>, Croesus Track, tree bark,
+ H.I. Nirenberg, June 1991, BBA 65849 [HQ728158 (<italic>rpb2</italic>), HQ728177
+ (<italic>acl1</italic>)]; <italic>Macroconia leptosphaeriae</italic>, <bold>Netherlands</bold>,
+ Tilburg, on <italic>Leptosphaeria</italic> sp./dead stem of <italic>Urtica dioica</italic>, L.
+ Rommelaars, as &#x0201c;<italic>Fusarium sphaeriae</italic>`,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=100001&#x00026;link_type=cbs">CBS 100001</ext-link>
+ [HQ728164 (<italic>rpb2</italic>), HQ728183 (<italic>acl1</italic>)];
+ &#x0201c;<italic>Fusarium</italic>&#x0201d; <italic>melanochlorum</italic>, <bold>Austria</bold>, on
+ branch canker of <italic>Fagus sylvatica</italic>, W. Gerlach,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=202.65&#x00026;link_type=cbs">CBS 202.65</ext-link> (= ATCC
+ 16069, BBA 9831, DSM 62248) [HQ728162 (<italic>rpb2</italic>), HQ728181
+ (<italic>acl1</italic>)]; <italic>Cosmospora coccinea</italic>, <bold>Germany</bold>,
+ Neubrandenburg, Kleppelshager Forst near Friedland, on <italic>Inonotus
+ radiatus</italic>, P. H&#x000fc;bsch, 22 Oct 1978,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=704.79&#x00026;link_type=cbs">CBS 704.79</ext-link>
+ [HQ728161 (<italic>rpb2</italic>), HQ728180 (<italic>acl1</italic>)]; <italic>Neonectria
+ coccinea</italic>, <bold>Germany</bold>, Brandenburg, Stolpe, <italic>Fagus sylvatica</italic>,
+ T. Gr&#x000e4;fenhan, March 2007, TG 2007-24, DAOM [HQ728159 (<italic>rpb2</italic>),
+ HQ728178 (<italic>acl1</italic>)]; <italic>Neonectria fuckeliana</italic>, <bold>Switzerland</bold>,
+ KT. Graubunden, vic. Zuoz, along Ova d`Arpiglia, on branches of <italic>Picea</italic>
+ sp., 6 Sep 1990, <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=112466&#x00026;link_type=cbs">CBS
+ 112466</ext-link> (= IMI 342667) [HQ728157 (<italic>rpb2</italic>), HQ728176
+ (<italic>acl1</italic>)]; <italic>Volutella consors</italic>, <bold>India</bold>, Karnataka, Agumbe,
+ on <italic>Agave americana</italic>, V. Rao, Oct 1985,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=130.86&#x00026;link_type=cbs">CBS 130.86</ext-link>
+ [HQ728155 (<italic>rpb2</italic>), HQ728174 (<italic>acl1</italic>)]; <italic>Volutella
+ consors</italic>, Brazil; Par&#x000e1;, 200 km SE from Bel&#x000e9;m, Capit&#x000e3;o
+ Po&#x000e7;o, soil, L. Pfenning,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=549.89&#x00026;link_type=cbs">CBS 549.89</ext-link>
+ [HQ728154 (<italic>rpb2</italic>), HQ728173 (<italic>acl1</italic>)]. Gr&#x000e4;fenhan <italic>et
+ al.</italic> (<xref ref-type="bibr" rid="ref17">2011</xref>) list strain
+ data and GenBank accession numbers for &#x0201c;<italic>Haematonectria</italic>&#x0201d;
+ <italic>illudens</italic> (BBA 67606), <italic>Albonectria albosuccinea</italic> (BBA 64502),
+ <italic>A. rigidiuscula</italic> (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=122570&#x00026;link_type=cbs">CBS
+ 122570</ext-link>), <italic>Fusarium sambucinum</italic> (BBA 70569), <italic>F.
+ sublunatum</italic> (BBA 62431), &#x0201c;<italic>Nectria</italic>&#x0201d; <italic>albida</italic>
+ (BBA 67603), &#x0201c;<italic>Fusarium</italic>&#x0201d; <italic>ventricosum</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=748.79&#x00026;link_type=cbs">CBS 748.79</ext-link>),
+ <italic>Thelonectria discophora</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125487&#x00026;link_type=cbs">CBS 125487</ext-link>), and
+ <italic>Atractium crassum</italic> (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=180.31&#x00026;link_type=cbs">CBS
+ 180.31</ext-link>)].</p><p><fig position="float" id="fig2"><label>Fig. 2.</label><caption><p>Phylogrammes showing individual gene phylogenies and combined phylogeny of
+ species of <italic>Geejayessia</italic> and <italic>Cyanonectria.</italic> Majority rule
+ consensus trees of Bayesian Markov chain Monte Carlo sampling inferred from
+ introns and exons of the ATP citrate lyase (<italic>acl1</italic>, A), translation
+ elongation factor 1 alpha (<italic>tef-1</italic>&#x003b1;, B), and the second largest
+ subunit of the RNA polymerase II (<italic>rpb2</italic>, C). D. Phylogramme based on
+ the combined data sets of the three genes. Numbers above branches are Bayesian
+ posterior probabilities multiplied by 100 (p.p. &#x0003e; 90 are shown). Numbers
+ below the branches are parsimony bootstrap proportions (&#x0003e; 70 % are shown).
+ Scale bars: 0.04 substitutions per site.</p></caption><graphic xlink:href="115fig2"/></fig></p><p>The sequences HM068357 (<italic>rpb2</italic>, NRRL 36148, O'Donnell <italic>et
+ al.</italic>, unpubl. data, as &#x0201c;<italic>Nectria desmazieri</italic>&#x0201d;),
+ EU329502 (<italic>rpb2</italic>, NRRL 22316,
+ <xref ref-type="bibr" rid="ref34">O`Donnell <italic>et al.</italic>
+ 2008</xref>), and AF178361 (<italic>tef-1&#x003b1;</italic>, NRRL 22316, O'Donnell
+ <italic>et al.</italic>, unpubl. data) were included in the three gene analysis for
+ testing phylogenetic species boundaries
+ (<xref ref-type="fig" rid="fig2">Fig. 2B, C</xref>).</p></sec><sec><title>DNA sequencing</title><p>Following the methods of Gr&#x000e4;fenhan <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref17">2011</xref>), partial sequences of
+ the second largest subunit of the RNA polymerase II (<italic>rpb2</italic>) flanked by
+ the primers 5F2/7cR (<xref ref-type="bibr" rid="ref33">O'Donnell <italic>et
+ al.</italic> 2007</xref>) and the larger subunit of ATP citrate lyase
+ (<italic>acl1</italic>) were generated for strains not included in that study. In
+ addition, sequences of the internal transcribed spacer regions 1 and 2 and the
+ 5.8S nuclear ribosomal DNA (ITS rDNA), partial nuclear ribosomal large subunit
+ DNA (LSU rDNA), and the partial nuclear translation elongation factor 1-alpha
+ (<italic>tef-1&#x003b1;</italic>), were sequenced following published protocols
+ (Schroers <italic>et al.</italic>
+ <xref ref-type="bibr" rid="ref55">2005</xref>,
+ <xref ref-type="bibr" rid="ref56">2009</xref>). For
+ <italic>tef-1&#x003b1;</italic>, we used an initial denaturation step at 94 &#x000b0;C for 3
+ min, 35 cycles of 94 &#x000b0;C for 60 s, 54 &#x000b0;C for 60 s, 72 &#x000b0;C for 90 s
+ and a final extension at 72 &#x000b0;C for 6 min. Sequencing reactions were
+ performed at the Macrogen sequencing facility (Seoul, Korea). Newly generated
+ sequences were deposited at GenBank under accession numbers
+ HM626622&#x02013;HM626690 and HQ728144&#x02013;HQ728187.</p></sec><sec><title>Phylogenetic analyses</title><p>Two data sets were assembled. The first data set combined sequences of
+ <italic>rpb2</italic> (948 bp alignment) and the exon regions of the <italic>acl1</italic>
+ (477 bp alignment) to address the generic relationships of the terminal
+ <italic>Fusarium</italic> clade (<xref ref-type="fig" rid="fig1">Fig. 1A,
+ B</xref>). The second analysis included <italic>rpb2, acl1,</italic> and
+ <italic>tef-1&#x003b1;</italic> gene exons and introns of multiple strains of each
+ species to evalute species boundaries by geneological concordance.</p><p>Bayesian phylogeny (BP) inferences with MrBayes v. 3.1.2
+ (<xref ref-type="bibr" rid="ref38">Ronquist &#x00026; Huelsenbeck
+ 2003</xref>) implemented substitution models selected according to the
+ akaike information criterion calculated with the software jmodeltest based on
+ 24 models (<xref ref-type="bibr" rid="ref18">Guindon &#x00026; Gascuel
+ 2003</xref>, <xref ref-type="bibr" rid="ref37">Posada
+ 2008</xref>). The software MrBayes v. 3.1.2 was run for 10 M generations
+ with four Markov chains sampled every 100 generations starting from a randomly
+ selected tree. A 50 % majority rule consensus tree and posterior probabilities
+ for each split was calculated after excluding the first 25000 sampled trees.
+ In analyses of combined data (Figs
+ <xref ref-type="fig" rid="fig1">1A</xref>,
+ <xref ref-type="fig" rid="fig2">2D</xref>), stationary nucleotide
+ frequencies, relative rates of substitution, alpha shape parameter of the
+ gamma distribution, and the proportion of invariable sites was estimated in
+ MrBayes independently for each of the partitions, and the site specific rates
+ were set variable. Trees illustrating the relationships of the species
+ (<xref ref-type="fig" rid="fig2">Fig. 2A&#x02013;D</xref>) were rooted
+ at the longest split using the tools provided in the software MEGA
+ (<xref ref-type="bibr" rid="ref61">Tamura <italic>et al.</italic> 2007</xref>)
+ after they were inspected unrooted using the software TreeView
+ (<xref ref-type="bibr" rid="ref36">Page 1996</xref>).</p><p>Heuristic searches for shortest trees in parsimony analyses (PA) generated
+ with PAUP v. 4.0b10 (<xref ref-type="bibr" rid="ref60">Swofford
+ 2003</xref>) were based on parsimony informative, unordered, and equally
+ weighted characters; gaps were treated as missing data. Starting trees were
+ obtained with 1 000 (<xref ref-type="fig" rid="fig1">Fig. 1B</xref>
+ analyses) or 1 0000 (<xref ref-type="fig" rid="fig2">Fig. 2</xref>
+ analyses) stepwise, random addition sequences. Other settings included the
+ treebisection-reconnection branch-swapping algorithm and the MULTREES option.
+ Branch robustness was assessed by 1000 heuristic bootstrap replicates using
+ the same settings, but with 10 stepwise, random addition sequences. A MAXTREE
+ setting of 1 000 was effective for bootstrap analyses of the combined data
+ sets summarised in <xref ref-type="fig" rid="fig1">Fig. 1B</xref> and
+ <xref ref-type="fig" rid="fig2">Fig. 2D</xref> and the analyses of the
+ <italic>rpb2</italic> gene (<xref ref-type="fig" rid="fig2">Fig. 2C</xref>).
+ Either fewer than 1000 trees were collected or an automatically increased
+ MAXTREE setting was adopted for the other parsimony analyses.</p><p>For the second set of analyses, the phylogenetic relationships of strains
+ identified as <italic>Cyanonectria cyanostoma</italic>, `<italic>Fusarium buxicola</italic>',
+ <italic>F. staphyleae, G. atrofusca, G. desmazieri, G. zealandica</italic>, and others
+ isolated from <italic>Buxus sempervirens</italic> or <italic>Celtis occidentalis</italic> were
+ estimated from the aligned DNA sequences of the individual genes
+ (<xref ref-type="fig" rid="fig2">Fig. 2A&#x02013;C</xref>). The combined
+ data sets (<xref ref-type="fig" rid="fig2">Fig. 2D</xref>) comprised
+ the <italic>acl1</italic> (915 bp alignment) and <italic>tef-1&#x003b1;</italic> (751 bp) gene
+ exons and introns and the <italic>rpb2</italic> gene fragment (1033 bp alignment).
+ Strain data and sequence accession numbers are listed in the Taxonomy section
+ below. Sequences of the ITS and LSU rDNA were generated only for
+ representatives of the ingroup taxa and are cited in the taxonomic part below
+ as DNA barcodes. Phylogenetic analyses based on these sequences (not shown)
+ were consistent with the inferences summarised in
+ <xref ref-type="fig" rid="fig2">Fig. 2</xref>. They also included
+ AF178423 and AF178392 (ITS and LSU, NRRL 22316; O'Donnell <italic>et al.</italic>,
+ unpublished), U88116 (LSU, NRRL 20428;
+ <xref ref-type="bibr" rid="ref31">O'Donnell 1993</xref>) and U88125
+ (LSU, NRRL 20474; <xref ref-type="bibr" rid="ref31">O'Donnell
+ 1993</xref>).</p></sec></sec><sec><title>RESULTS</title><p>A General Time Reversible plus Gamma model and gamma distribution of rate
+ variation with a proportion of invariable sites (GTR+G+I) was selected for
+ each of the individual data sets of the 48 taxon analyses
+ (<xref ref-type="fig" rid="fig1">Fig. 1A</xref>). The proportion of
+ invariable sites was 0.4170 in the <italic>rpb2</italic> gene (<italic>acl1</italic>: 0.5510).
+ The shape parameter of the gamma distribution was 0.9300 (<italic>rpb2</italic>) and
+ 1.4020 (<italic>acl1</italic>) across sites. In modeltest analyses, basefrequencies
+ were calculated as 0.2456, 0.2658, 0.2599, 0.2288 for A, C, G, T, respectively
+ (<italic>rpb2</italic>) and 0.2098, 0.3162, 0.2601, 0.2139 (<italic>acl1</italic>);
+ substitution rates were AC = 1.3301, AG = 3.6324, AT = 1.2458, CG = 0.6151, CT
+ = 7.6227, GT = 1.000 (<italic>rpb2</italic>) and 1.1272, 2.6353, 0.4595, 1.1210,
+ 10.9535, 1.0000 (<italic>acl1</italic>). The most negative likelihood (&#x02013;lnL)
+ score was &#x02013;15.758.620 for the combined analysis. The overall topologies
+ of the 48 equally most parsimonious trees did not differ significantly from
+ each other. Based on 590 parsimony-informative characters (PIC), they were 3
+ 330 steps in length and had a consistency index (CI) of 0.305 and a retention
+ index (RI) of 0.620.</p><p>Based on the partial <italic>rpb2</italic> and <italic>acl1</italic> loci, phylogenetic
+ analyses identified a statistically moderately or strongly supported clade
+ [Bayesian posterior probability (B-PP), 1.00; maximum parsimony bootstrap
+ proportion (P-BP), 76 %], here called the terminal <italic>Fusarium</italic> clade.
+ This included various subclades, most corresponding with previously identified
+ holomorph genera or other taxonomic groups with <italic>Fusarium</italic>-like
+ anamorphs (<xref ref-type="fig" rid="fig1">Fig. 1A, B</xref>). The
+ parallel analyses by Gr&#x000e4;fenhan <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref17">2011</xref>) obtained no significant
+ statistical support for the terminal <italic>Fusarium</italic> clade, but showed that
+ taxa with <italic>Fusarium</italic>-like macroconidia cannot be regarded monophyletic.
+ In all analyses, the terminal <italic>Fusarium</italic> clade excludes
+ phylogenetically distantly related <italic>Fusarium-</italic>like species, most of
+ which are currently classified in <italic>Dialonectria, Fusicolla, Macroconia,
+ Microcera</italic>, or <italic>Stylonectria</italic>
+ (<xref ref-type="bibr" rid="ref17">Gr&#x000e4;fenhan <italic>et al.</italic>
+ 2011</xref>) or as &#x0201c;<italic>Nectria</italic>&#x0201d; <italic>diminuta</italic>
+ (<xref ref-type="bibr" rid="ref19">Hirooka <italic>et al.</italic>
+ 2008</xref>). Equivocally strong statistical support B-PP, 1.00 and P-BP,
+ 100 % (<xref ref-type="fig" rid="fig1">Fig. 1A, B</xref>) or maximum
+ likelihood bootstrap proportions &#x02265; 75 %, B-PP &#x02265; 0.95, and P-BP &#x02265; 75 %
+ (<xref ref-type="bibr" rid="ref17">Gr&#x000e4;fenhan <italic>et al.</italic>
+ 2011</xref>: fig. 1), was obtained for the subclades nested within the
+ terminal <italic>Fusarium</italic> clade. These include (i) <italic>Fusarium sensu
+ stricto</italic> including but not restricted to species with teleomorphs often
+ classified in <italic>Gibberella</italic> and various species groups
+ (<xref ref-type="bibr" rid="ref58">Summerbell &#x00026; Schroers
+ 2002</xref>, <xref ref-type="bibr" rid="ref33">O'Donnell <italic>et
+ al.</italic> 2007</xref>, <xref ref-type="bibr" rid="ref56">Schroers <italic>et
+ al.</italic> 2009</xref>, <xref ref-type="bibr" rid="ref35">O'Donnell
+ <italic>et al.</italic> 2010</xref>), (ii) &#x0201c;<italic>Haematonectria</italic>&#x0201d;
+ mostly with <italic>Fusarium solani</italic> like anamorphs
+ (<xref ref-type="bibr" rid="ref39">Rossman <italic>et al.</italic> 1999</xref>,
+ <xref ref-type="bibr" rid="ref32">O'Donnell 2000</xref>,
+ <xref ref-type="bibr" rid="ref34">O'Donnell <italic>et al.</italic>
+ 2008</xref>), (iii) <italic>Albonectria</italic>
+ (<xref ref-type="bibr" rid="ref39">Rossman <italic>et al.</italic>
+ 1999</xref>), (vi) the &#x0201c;<italic>Fusarium</italic>&#x0201d; <italic>dimerum</italic>
+ species group (<xref ref-type="bibr" rid="ref56">Schroers <italic>et al.</italic>
+ 2009</xref>) and &#x0201c;<italic>Fusarium</italic>&#x0201d; <italic>domesticum</italic>
+ (anamorphic <italic>Rodentomyces</italic> <xref ref-type="bibr" rid="ref9">Doveri
+ <italic>et al.</italic> 2010</xref>), (vii) <italic>Cyanonectria</italic>
+ (<xref ref-type="bibr" rid="ref49">Samuels <italic>et al.</italic> 2009</xref>,
+ this paper), and (viii) <italic>Geejayessia</italic>, described below for
+ &#x0201c;<italic>N.</italic>&#x0201d; <italic>desmazieri</italic> and its allies.</p><p>The genus-level analysis confirmed that several holomorphs in the terminal
+ <italic>Fusarium</italic> clade previously classified in <italic>Nectria</italic>
+ (&#x0201c;<italic>N.</italic>&#x0201d; <italic>atrofusca</italic>, &#x0201c;<italic>N.</italic>&#x0201d;
+ <italic>cicatricum</italic>, &#x0201c;<italic>N.</italic>&#x0201d; <italic>desmazieri</italic> and
+ &#x0201c;<italic>N.</italic>&#x0201d; <italic>ventricosa</italic>) are distantly related to
+ <italic>Nectria sensu stricto</italic>. The species of the <italic>Fusarium</italic> section
+ <italic>Macroconia sensu</italic> Wollenweber &#x00026; Reinking
+ (<xref ref-type="bibr" rid="ref65">1935</xref>) or Gerlach &#x00026;
+ Nirenberg (<xref ref-type="bibr" rid="ref16">1982</xref>) belong either
+ to <italic>Cyanonectria</italic> (as &#x0201c;<italic>Fusarium buxicola</italic>&#x0201d;) and
+ <italic>Geejayessia</italic> or to the distantly related genera <italic>Microcera</italic>
+ (<italic>M. coccophila</italic>) or <italic>Macroconia</italic> (<italic>M. leptosphaeriae</italic>
+ and <italic>M. gigas</italic>).</p><p>The species-level phylogenetic analyses based on introns and exons of the
+ individual (<xref ref-type="fig" rid="fig2">Fig. 2A&#x02013;C</xref>)
+ and combined (<xref ref-type="fig" rid="fig2">Fig. 2D</xref>)
+ <italic>acl1, tef1</italic> and <italic>rpb2</italic> genes were based on a
+ Hasegawa-Kishino-Yano plus Gamma (HKY+G) (<italic>acl1</italic>) or a General Time
+ Reversible plus Gamma substitution model (GTR+G) (<italic>tef1, rpb2</italic>) with a
+ proportion of invariable sides set to 0 for all. The shape parameter of the
+ gamma distribution was 0.6150 (<italic>acl1</italic>), 0.4030 (<italic>tef1</italic>) and
+ 0.2390 (<italic>rpb2</italic>) across sites. In modeltest analyses, basefrequencies
+ were calculated as 0.2054, 0.2795, 0.2527, 0.2624 for A, C, G, T,
+ respectively, (<italic>acl1</italic>), 0.2251, 0.3004, 0.2293, 0.2452 (<italic>tef1</italic>)
+ and 0.2521, 0.2637, 0.2630, 0.2213 (<italic>rpb2</italic>); for <italic>acl1</italic> a kappa
+ = 5.0494 (ti/tv = 2.5475) was calculated; substitution rates were AC = 0.9777,
+ AG = 1.8456, AT = 1.0869, CG = 0.5516, CT = 3.6992, GT = 1.0000
+ (<italic>tef1</italic>) and 0.9601, 3.2151, 0.8718, 0.4166, 7.8738, 1.0000
+ (<italic>rpb2</italic>). The most negative likelihood (&#x02013;lnL) score was
+ &#x02013;9239.02 for the combined analysis and &#x02013;3138.52, &#x02013;2.957.743
+ and &#x02013;3.140.872 for the individual data sets of the <italic>acl1, tef1</italic>
+ and <italic>rpb2</italic>, respectively. Parsimony analyses yielded 18240 equally most
+ parsimonious trees 1 083 steps long with a CI of 0.814 and a RI of 0.943 and
+ were based on 711 PIC (<xref ref-type="fig" rid="fig2">Fig.
+ 2D</xref>). The following tree scores were retrieved when <italic>acl1</italic>
+ (256 PIC), <italic>tef1</italic> (223 PIC) and <italic>rpb2</italic> (232 PIC) sequences were
+ analysed individually: CI, 0.861, 0.773, 0.822; (RI) 0.965, 0.911, 0.959;
+ number of steps, 353, 388, 338; number of equally parsimonious trees, 156, 28,
+ 28 098. The inferences provided evidence for close relationships among
+ <italic>Geejayessia desmazieri, G. cicatricum, G. celtidicola,</italic> and <italic>G.
+ atrofusca</italic> with <italic>G. zealandica</italic> forming the root of the genus
+ <italic>Geejayessia</italic>. The strain NRRL 36148 was re-identified as
+ <italic>Cyanonectria buxi</italic> (<xref ref-type="fig" rid="fig2">Fig.
+ 2C</xref>, based on <italic>rpb2</italic> sequences).</p><p>Analyses of aligned LSU- and ITS rDNA sequences obtained in our study
+ (results not shown) confirmed the equally rDNA based conclusions of Samuels
+ <italic>et al.</italic> (<xref ref-type="bibr" rid="ref49">2009</xref>), which
+ showed <italic>Geejayessia</italic> and <italic>Cyanonectria</italic> as distinct phylogenetic
+ lineages within the terminal <italic>Fusarium</italic> clade. The phylogenetic
+ analyses by Samuels <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref49">2009</xref>) placed <italic>Cyanonectria
+ cyanostoma</italic> in a moderately supported sister group relationship with
+ <italic>Fusarium sensu stricto</italic>. According to rDNA based comparisons, we
+ confirm the identity of NRRL 20474 (GenBank U88125) as <italic>G. desmazieri</italic>,
+ and NRRL 22316 (AF178392), used in phylogenetic analyses by O'Donnell
+ (<xref ref-type="bibr" rid="ref31">1993</xref>) and Samuels <italic>et
+ al.</italic> (<xref ref-type="bibr" rid="ref49">2009</xref>), as <italic>G.
+ atrofusca</italic>.</p><p>Ten to 15 nucleotide substitutions or indels in the ITS rDNA distinguish
+ the new species <italic>G. celtidicola</italic> from <italic>G. zealandica</italic>, and the
+ species pair <italic>G. desmazieri</italic> and <italic>G. cicatricum</italic> from each
+ other. <italic>Geejayessia desmazieri</italic> differs from <italic>G. cicatricum</italic> by
+ 2 substitutions in the ITS rDNA. The ITS rDNA of <italic>G. atrofusa</italic> differs
+ from that of the other species by 29&#x02013;33 substitutions or indels.</p></sec><sec><title>TAXONOMY</title><p><italic><bold>Cyanonectria</bold></italic> Samuels &#x00026; Chaverri, Mycol. Progress 8: 56.
+ 2009.</p><p><italic>Anamorph</italic>: <italic>Fusarium</italic>-like</p><p><italic>Type species</italic>: <italic>Cyanonectria cyanostoma</italic> (Sacc. &#x00026;
+ Flageolet) Samuels &#x00026; Chaverri, Mycol Progress 8: 56.
+ 2009.&#x0000a;<italic>Basionym</italic>: <italic>Nectria cyanostoma</italic> Sacc. &#x00026; Flageolet,
+ Rendi Congr. Bot. Palermo 1902: 53. 1902.</p><p><italic>Stromata</italic> reduced, minute or more or less well developed,
+ prosenchymatous, typically consisting of hypha-like cells. <italic>Perithecia</italic>
+ gregarious or caespitose, smooth, thin-walled, unevenly coloured, apex darkly
+ pigmented, dark bluish purple or bluish black, main body less intensely dark
+ bluish or red to reddish brown; colours in KOH becoming darker, in lactic acid
+ changing from bluish black to red or from red or reddish brown to yellow.
+ <italic>Ascospores</italic> 1-septate, ellipsoidal with gently tapering ends, more or
+ less hyaline or pale yellow brown, smooth. <italic>Macroconidia</italic>
+ (1&#x02013;)5&#x02013;7(&#x02013;8)-septate, gently curved throughout or with a
+ subcylindrical central middle part, pedicellate, with a hooked apical cell;
+ formed in off-white, cream slimy masses, sometimes on sporodochia on branched
+ conidiophores, terminating in whorls of monophialides. <italic>Microconidia</italic>
+ not observed. <italic>Chlamydospores</italic> absent or rarely formed in cells of
+ aging macroconidia. Cultures on PDA in <italic>C. cyanostoma</italic> pale coloured,
+ cream, or somewhat yellowish but at 30 &#x000b0;C with somewhat greyish blue
+ surface or, in <italic>C. buxi</italic>, dark brown, reddish brown, greenish grey,
+ with a greyish blue, pastel violet or light blue surface.</p><p><italic>Notes</italic>: When describing the monotypic genus, Samuels <italic>et
+ al.</italic> (<xref ref-type="bibr" rid="ref49">2009</xref>) restricted
+ <italic>Cyanonectria</italic> for a species with spectacularly bicoloured perithecia
+ characterised by a bluish purple papilla and a red perithecial body. The
+ anamorphic characters were narrowly defined in their genus concept. For
+ example, unpigmented, white colonies on SNA and PDA were described. With
+ <italic>Gibbera buxi</italic> and its <italic>Fusarium buxicola</italic> anamorph a
+ unicoloured, bluish black or bluish purple perithecial species forming
+ surprisingly dark colonies on PDA is added to the genus necessitating an
+ emended generic concept for <italic>Cyanonectria</italic>.</p><p><italic><bold>Cyanonectria buxi</bold></italic> (Fuckel) Schroers, Gr&#x000e4;fenhan &#x00026;
+ Seifert, <bold>comb. nov.</bold> MycoBank
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=MB519485&#x00026;link_type=mb">MB519485</ext-link>. Figs
+ <xref ref-type="fig" rid="fig3">3</xref>,
+ <xref ref-type="fig" rid="fig4">4</xref>.&#x0000a;<italic>Basionym</italic>:
+ <italic>Gibbera buxi</italic> Fuckel, Jahrb. Nassauischen Vereins Naturk. 27&#x02013;28:
+ 32. 1873.</p><p><list list-type="simple"><list-item><p>&#x02261; <italic>Gibberella buxi</italic> (Fuckel) G. Winter, Rabenh. Krypt.-Fl. 2:
+ 103. 1887.</p></list-item><list-item><p>&#x02261; <italic>Lisea buxi</italic> (Fuckel) Sacc., Syll. Fung. 2: 518. 1883.</p></list-item><list-item><p>= <italic>Fusarium buxicola</italic> Sacc., Syll. Fung. 2: 518. 1883.</p></list-item></list>
+ </p><p><italic>Stromata</italic> prosenchymatous, cells 3&#x02013;5 &#x003bc;m wide, with at
+ least some hypha-like cells, arranged in an irregular <italic>textura porrecta.
+ Perithecia</italic> solitary or in groups of 20 or more seated on a stroma formed
+ on bark of small twigs, leaf or terminal twig axils; smooth; broadly
+ ampulliform to obpyriform, with a short neck or broadly ellipsoidal; dark
+ bluish purple or bluish black, main body less intensely dark, not red,
+ somewhat darker blue in 2 % KOH, purplish red in lactic acid; in longitudinal
+ section 200&#x02013;250 &#x003bc;m high, 130&#x02013;150 &#x003bc;m wide. Hyphae continuous
+ with cells of stroma continous with wall of lower part of perithecia,
+ 4&#x02013;6(&#x02013;8) &#x003bc;m wide, with walls to 2 &#x003bc;m thick. <italic>Perithecial
+ wall</italic> of a single region, 15&#x02013;20 &#x003bc;m wide or subapically
+ 20&#x02013;35 &#x003bc;m, consisting of <italic>ca.</italic> 3 layers of cells; in face view,
+ cell walls of outer and inner layers with pores, 1&#x02013;1.5 &#x003bc;m wide in
+ outer layers, 0.5 &#x003bc;m thick or less in inner layers; cells in outer layers
+ angular, (8&#x02013;)11(&#x02013;14) &#x000d7; (6.5&#x02013;)8(&#x02013;9.5) &#x003bc;m,
+ arranged in a <italic>textura angularis</italic>, in inner layers subglobose to
+ angular, (10&#x02013;) 14(&#x02013;22) &#x000d7; (5.5&#x02013;)10.5(&#x02013;14.5)
+ &#x003bc;m, arranged in a <italic>textura angularis</italic>; cells in longitudinal
+ sections subglobose to angular, flatter towards centrum. <italic>Asci</italic>
+ cylindrical or narrowly clavate, with rounded or flattened apex, with or
+ without visible refractive ring, eight-spored, with mostly overlapping
+ uniseriate or somewhat biseriate above and uniseriate ascospores below,
+ 80&#x02013;100 &#x000d7; 9&#x02013;12 &#x003bc;m. <italic>Ascospores</italic> equally 2-celled,
+ rarely 2-septate, ellipsoidal with somewhat tapering ends, smooth,
+ unpigmented, (12&#x02013;)13&#x02013;14&#x02013;14.5(&#x02013;17) &#x000d7;
+ (4&#x02013;)5&#x02013;5&#x02013;5.5(&#x02013;6.5) &#x003bc;m.</p><p><fig position="float" id="fig3"><label>Fig. 3.</label><caption><p><italic>Cyanonectria buxi</italic>, perithecia on the natural substrate. A&#x02013;C.
+ Habit on <italic>Buxus</italic> twigs. D&#x02013;F. Colour change in perithecium in
+ water (D), replaced with 2 % KOH (E) and then lactic acid (F), showing the
+ reduced reaction towards the base of perithecium (E, F). G, H, J, K. Median
+ longitudinal section through perithecia (G, H), ostiolar (J) and lateral
+ perithecial walls (K). I. Longitudinal section through hyphal stroma
+ supporting perithecia. L&#x02013;O. Face view of perithecial wall. L. Hyphae
+ covering perithecia reacting to lactic acid in a similar manner as the
+ perithecium. M. Hypha-like cells on the surface of perithecia. N. Outermost
+ cells of the main perithecial wall region with Samuels pores. O. Innermost
+ cells of the perithecial wall. G&#x02013;K in Shears; L in 2 % KOH; M&#x02013;O in
+ water. A, D&#x02013;F, L&#x02013;O
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20380&#x00026;link_type=cbs">CBS H-20380</ext-link>; B, C,
+ G&#x02013;K <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20379&#x00026;link_type=cbs">CBS
+ H-20379</ext-link>. Scale bars: A&#x02013;C = 500 &#x003bc;m; D (also applies to E,
+ F), G = 100 &#x003bc;m; H = 50 &#x003bc;m; I&#x02013;L 20 = &#x003bc;m; O (M, N) 10 =
+ &#x003bc;m.</p></caption><graphic xlink:href="115fig3"/></fig></p><p><fig position="float" id="fig4"><label>Fig. 4.</label><caption><p><italic>Cyanonectria buxi</italic>, spores and spore forming cells. A&#x02013;D. Asci
+ with a somewhat flattened apex, with or without a visible refractive ring. E,
+ G, I&#x02013;P. Ascospores. F, H. Ascospore surface. Q&#x02013;S. Monophialides
+ formed by immersed mycelium. T. Sporodochium. U&#x02013;Y. Macroconidia. Z.
+ Chlamydospores derived from macroconidium. AA&#x02013;AC. Surface of PDA
+ colonies after 14 d at 20, 25 and 30 &#x000b0;C. AD. Reverse of colony illustrated
+ in AB. A&#x02013;P <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20379&#x00026;link_type=cbs">CBS
+ H-20379</ext-link>; Q&#x02013;S.
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=130.97&#x00026;link_type=cbs">CBS 130.97</ext-link>; T, Y
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=109638&#x00026;link_type=cbs">CBS 109638</ext-link>; U
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125554&#x00026;link_type=cbs">CBS 125554</ext-link>; V
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125551&#x00026;link_type=cbs">CBS 125551</ext-link>; W
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=30.97&#x00026;link_type=cbs">CBS 30.97</ext-link>; X,
+ AA&#x02013;AD BBA 64985; Z <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125547&#x00026;link_type=cbs">CBS
+ 125547</ext-link>. A&#x02013;P, from natural substrate. Q&#x02013;Z, from SNA/B.
+ Scale bars: B (also applies to A), X (W, Y) 50 = &#x003bc;m; C (D), Q (R, S), T 20
+ = &#x003bc;m; G (E, F, H), I (J&#x02013;P), Z 10 = &#x003bc;m; U (V) = 50 and 10 &#x003bc;m;
+ AA&#x02013;AD = 10 mm.</p></caption><graphic xlink:href="115fig4"/></fig></p><p><italic>Colonies on PDA</italic> after 7 d around 12&#x02013;16 mm diam (20 &#x000b0;C)
+ or 15&#x02013;20 mm (25 &#x000b0;C); optimum 20&#x02013;25 &#x000b0;C, maximum between 30
+ and 34 &#x000b0;C, no growth observed at 35 &#x000b0;C. Colony reverse at 15 &#x000b0;C,
+ 14&#x02013;21 d on PDA reddish brown to somewhat dark brown (8E7&#x02013;8F7) or
+ brownish to greenish grey (8F2, 30F2) with or without a reddish brown (8E7)
+ pigment visible outside margin, at 20&#x02013;25 &#x000b0;C dark green or greyish
+ green (25F4) to brownish black (8F6) or brownish to greenish grey (8F2, 30F2),
+ typically without pigment visible outside margin. Colony surface on PDA with
+ felt-like to cottony mycelium, greyish green to greyish blue or pastel violet
+ (19A4) to light blue (20A5), with or without small or large watery droplets of
+ exudates, with or without off-white sporodochial masses of conidia; on SNA
+ unpigmented or, in older colonies, greenish grey (25B2&#x02013;25C2), surface
+ smooth or with fine cottony mycelium, greyish blue in centre of colony, with
+ concentrically arranged pale yellow, off-white or somewhat greyish blue, to 5
+ mm diam conidial masses. Aerial and submersed mycelium and hyphae of
+ sporodochia becoming purplish red in lactic acid. Conidiation on SNA along
+ submersed hyphae or from sporodochia forming within 14 d or later on surface
+ of SNA or on pieces of carnation leaves or <italic>Buxus</italic> twigs placed on SNA;
+ submersed sporulation by solitary monophialides or on sparsely branched
+ conidiophores. <italic>Monophialides</italic> cylindrical, 14&#x02013;21 &#x003bc;m long,
+ 2.5&#x02013;3.5 &#x003bc;m wide at base, <italic>ca.</italic> 2.5 &#x003bc;m near aperture;
+ <italic>sporodochia</italic> of branched conidiophores with solitary or whorls of
+ 2&#x02013;3 terminal monophialides; base of older sporodochia bluish; phialides
+ of sporodochia cylindrical or bottle-shaped,
+ (9&#x02013;)15.5&#x02013;17.5&#x02013;19.5(&#x02013;23) &#x003bc;m long,
+ (2.5&#x02013;)3&#x02013;3&#x02013;3.5(&#x02013;4) &#x003bc;m wide at base,
+ (3&#x02013;)3.5&#x02013;4&#x02013;4(&#x02013;4.5) &#x003bc;m in middle,
+ (2&#x02013;)2&#x02013;2.5&#x02013;2.5(&#x02013;3) &#x003bc;m wide near conidiogenous
+ aperture. <italic>Microconidia</italic> not observed. <italic>Macroconidia</italic> formed in
+ off-white or pale yellow or somewhat greyish blue slimy masses, typically with
+ central and basal part nearly straight, rarely gently curved throughout, with
+ a more or less pronounced pedicellate foot cell and an inequilateral fusoid or
+ hooked apical cell, (1&#x02013;4)5&#x02013;7(&#x02013;8) septate: 5-septate
+ (46&#x02013;) 77.5&#x02013;82&#x02013;87(&#x02013;99.5) &#x000d7;
+ (5.5&#x02013;)6.5&#x02013;7&#x02013;7(&#x02013;8) &#x003bc;m, 6-septate
+ (77.5&#x02013;)83&#x02013;87&#x02013;90.5(&#x02013;100) &#x000d7;
+ (6&#x02013;)7&#x02013;7&#x02013;7.5(&#x02013;8) &#x003bc;m, 7-septate 86.5&#x02013;101
+ &#x000d7; 6.5&#x02013;8 &#x003bc;m. <italic>Chlamydospores</italic> formed from cells of
+ macroconidia, subglobose, 6&#x02013;11 &#x000d7; 6&#x02013;8 &#x003bc;m; mycelial
+ chlamydospores not observed.</p><p>Characters of holotype, G 00111019, and isotype, G 00111020, of <italic>G.
+ buxi,</italic> identical to details reported above except as follows:
+ <italic>Perithecia</italic> turning brownish in KOH, only weakly reddish brown or
+ reddish in lactic acid. Immature ascal ascospores 1-septate.
+ <italic>Macroconidia</italic> associated with perithecial clusters, 5-septate
+ 70&#x02013;76.6 &#x000d7; 6.5 &#x003bc;m, 6-septate 75 &#x000d7; 6.5 &#x003bc;m.</p><p><italic>Habitat</italic>: On decaying or dead terminal twigs still attached to
+ living <italic>Buxus sempervirens</italic> trees; perithecia sometimes co-occurring
+ with those of <italic>G. cicatricum</italic> (Figs
+ <xref ref-type="fig" rid="fig3">3A</xref>,
+ <xref ref-type="fig" rid="fig5">5B</xref>).</p><p><italic>Distribution</italic>: Europe (Belgium, France, Germany, Slovenia).</p><p><italic>Typification</italic>: Lectotype of <italic>Gibbera buxi</italic> and <italic>Fusarium
+ buxicola</italic> designated here: <bold>Germany</bold>, Nassau (today, Hesse),
+ Oestrich, K.W.G.L. Fuckel, Herbier Fuckel 1894, G 00111019. <italic>Isotypes</italic>
+ of <italic>Gibbera buxi</italic>: DAOM 126623, G 00111020, G00111021, all Herbier
+ Fuckel 1894, Herbier Barbey-Boissier 886. Specimens have sporodochia and
+ clustered, solitary perithecia on a minutely developed stroma; asci of the
+ sampled material are immature and free ascospores were not seen.
+ <italic>Epitype</italic> for <italic>Gibbera buxi</italic> designated here: <bold>Slovenia</bold>,
+ between Dom&#x0017e;ale and Kamnik, Arboretum Vol&#x0010d;ji Potok, prealpine
+ zone, on decaying terminal twig still attached to a living <italic>Buxus
+ sempervirens</italic> var. <italic>elegantissima</italic> tree, July 2009, H.-J. Schroers
+ 1398 &#x00026; M. &#x0017d;erjav,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20379&#x00026;link_type=cbs">CBS H-20379</ext-link>, filed
+ with dried SNA/B culture of <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125551&#x00026;link_type=cbs">CBS
+ 125551</ext-link>, ex-epitype strain, isolated from ascospore of
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20379&#x00026;link_type=cbs">CBS H-20379</ext-link>.</p><p><italic>Additional specimen and strains examined</italic>: <bold>Belgium</bold>, C.
+ Crepel, <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=109638&#x00026;link_type=cbs">CBS 109638</ext-link>.
+ <bold>France</bold>, D&#x000e9;pt. Jura, Bois de la Rochette near Nogna, on leaf
+ litter, 24 Sep 1996, H.-J. Schroers,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=130.97&#x00026;link_type=cbs">CBS 130.97</ext-link>.
+ <bold>Netherlands</bold>, on <italic>Buxus sempervirens</italic>, 1987, M.E. Noordeloos, BBA
+ 64985. <bold>Slovenia</bold>, between Dom&#x0017e;ale and Kamnik, Arboretum
+ Vol&#x0010d;ji Potok, prealpine zone, on decaying terminal twig with bluish
+ black perithecia still attached to <italic>ca.</italic> 80 year-old, living <italic>Buxus
+ sempervirens</italic> tree, July 2009, H.-J. Schroers 1400 &#x00026; M. &#x0017d;erjav,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20380&#x00026;link_type=cbs">CBS H-20380</ext-link>,
+ derived ascospore culture <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125554&#x00026;link_type=cbs">CBS
+ 125554</ext-link>; Ljubljana, nursery, isolated from roots of potted, small
+ bush of <italic>Buxus sempervirens</italic>, April/March 2009, M. &#x0017d;erjav 15574,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125548&#x00026;link_type=cbs">CBS 125548</ext-link>;
+ decaying branch still attached to wilting, small bush of <italic>Buxus
+ sempervirens</italic>, 2007, H.-J. Schroers,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125547&#x00026;link_type=cbs">CBS 125547</ext-link>.</p><p><italic>DNA sequences generated</italic>: ITS rDNA
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125554&#x00026;link_type=cbs">CBS 125554</ext-link>:
+ HM626660, 125551: HM626661, 125548: HQ728144). LSU rDNA
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125554&#x00026;link_type=cbs">CBS 125554</ext-link>:
+ HM626672, 125551: HM626673). <italic>acl1</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=130.97&#x00026;link_type=cbs">CBS 130.97</ext-link>:
+ HM626622, 125548: HM626623, 125554: HM626629, 125551: HM626630, 125547:
+ HQ728172). <italic>tef-1&#x003b1;</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125554&#x00026;link_type=cbs">CBS 125554</ext-link>:
+ HM626649, 125551: HM626648, 125547: HQ728152, 130.97: HQ728150, BBA 64985:
+ HQ728151). <italic>rpb2</italic> (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=130.97&#x00026;link_type=cbs">CBS
+ 130.97</ext-link>: HM626690, 125548: HM626687, 125554: HM626688, 125551:
+ HM626689, 125547: HQ728169). See Gr&#x000e4;fenhan <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref17">2011</xref>) for others included in
+ <xref ref-type="fig" rid="fig1">Fig. 1</xref>.</p><p><italic>Notes</italic>: <italic>Cyanonectria buxi</italic> is characterised by bluish black
+ perithecia that turn somewhat brown in KOH and reddish in lactic acid,
+ 1-septate ascospores, and relatively long, wide macroconidia. Ex-ascospore
+ isolates and several conidial isolates form dark, greyish-blue cultures on
+ PDA. Measurements of macroconidia of <italic>C. buxi</italic> overlap with those of
+ <italic>Geejayessia cicatricum</italic>, the latter of which forms pale colonies. The
+ macroconidia are longer than those of <italic>G. desmazieri</italic> and members of
+ the <italic>F. lateritium</italic> complex.</p><p>Fuckel (<xref ref-type="bibr" rid="ref13">1873</xref>) described
+ <italic>Gibbera buxi</italic> as a bluish or violaceous black perithecial fungus with
+ 1-septate ascospores. He considered its anamorph similar and related to that
+ of <italic>Nectria gibbera</italic> but did not propose anamorph names for either
+ species. Saccardo (<xref ref-type="bibr" rid="ref42">1883</xref>)
+ accepted <italic>G. buxi</italic> as distinct and suggested its combination in
+ <italic>Lisea</italic> in which he placed <italic>Gibberella</italic>-like species with
+ 1-septate ascospores (see also <xref ref-type="bibr" rid="ref39">Rossman
+ <italic>et al.</italic> 1999</xref>). He also described the anamorph of <italic>Lisea
+ buxi</italic> as <italic>Fusarium buxicola,</italic> for which he literally copied
+ Fuckel's description of the anamorph of <italic>N. gibbera,</italic> an act he
+ repeated later for <italic>F. fuckelii</italic>
+ (<xref ref-type="bibr" rid="ref43">Saccardo 1886</xref>). Saccardo
+ (<xref ref-type="bibr" rid="ref42">1883</xref>) clearly attributed the
+ name <italic>F. buxicola</italic> to Fuckel's bluish black perithecial fungus and
+ referred to the location where Fuckel collected <italic>G. buxi</italic>. Apparently
+ in error, <italic>F. buxicola</italic> was later used instead for the anamorph of the
+ orange perithecial <italic>G. desmazieri</italic> and its synonym <italic>Nectria
+ gibbera</italic> (<xref ref-type="bibr" rid="ref65">Wollenweber &#x00026; Reinking
+ 1935</xref>, Booth <xref ref-type="bibr" rid="ref1">1959</xref>,
+ <xref ref-type="bibr" rid="ref2">1971</xref>,
+ <xref ref-type="bibr" rid="ref16">Gerlach &#x00026; Nirenberg 1982</xref>).
+ Booth (<xref ref-type="bibr" rid="ref2">1971</xref>) listed
+ <italic>Fusarium lateritium</italic> var. <italic>buxi</italic> as the anamorph of the
+ incorrectly cited &#x0201c;<italic>Gibberella buxi</italic> Fuckel, Symb. Mycol., Nacht.
+ 2: 32, 1873&#x0201d; (apparently confusing <italic>Gibberella</italic> and
+ <italic>Gibbera</italic>) but the ascospores of <italic>F. lateritium</italic> var.
+ <italic>buxi</italic> reportedly have three septa
+ (<xref ref-type="bibr" rid="ref2">Booth 1971</xref>).</p><p>The genetic and nomenclatural connection between <italic>Fusarium buxicola</italic>
+ and <italic>Gibbera buxi</italic> is re-established here, based on recent collections
+ of bluish black, smooth perithecia forming mature asci and 1-septate
+ ascospores (Figs <xref ref-type="fig" rid="fig3">3A&#x02013;D</xref>,
+ <xref ref-type="fig" rid="fig4">4A&#x02013;P</xref>). These new
+ specimens exhibit similar characters to those observed on the lectotype and
+ isotypes of <italic>G. buxi</italic>. The few macroconidia observed associated with
+ the perithecia or stromata in the authentic material are identical to
+ macroconidia formed in cultures of the epitype. Perithecia of <italic>G. buxi</italic>
+ have an intensely pigmented ostiolar region but their lower parts appear less
+ intensely pigmented (<xref ref-type="fig" rid="fig3">Fig. 3C,
+ D</xref>) probably because of relatively thin lateral perithecia walls
+ (<xref ref-type="fig" rid="fig3">Fig. 3G, H, K</xref>). Its original
+ material, however, turns somewhat brownish in KOH and only weakly reddish or
+ brownish reddish in lactic acid while our recent gatherings become more
+ intensely bluish black in KOH (<xref ref-type="fig" rid="fig3">Fig.
+ 3E</xref>) and bright red in lactic acid
+ (<xref ref-type="fig" rid="fig3">Fig. 3F, L</xref>). Perhaps this
+ reflects immaturity of the perithecia on the type specimens of <italic>G.
+ buxi</italic>, a thought further supported by the fact that no discharged
+ ascospores were visible.</p><p><italic>Cyanonectria buxi</italic> is well characterised by its greyish blue
+ colonies on PDA, which we observed in all strains. Gerlach &#x00026; Nirenberg
+ (<xref ref-type="bibr" rid="ref16">1982</xref>) observed only cream,
+ amber, or fawn to brown and noted blue or verdigris, spotted pigmentation as
+ seldom occurring. It is therefore possible that their concept of <italic>F.
+ buxicola</italic> was based on a heterogeneous selection of strains, probably
+ including <italic>G. cicatricum</italic> and <italic>G. desmazieri</italic>, or that some
+ degeneration had occurred. <italic>Cyanonectria buxi</italic> forms longer and wider
+ and partly more-septate macroconidia than <italic>G. celtidicola</italic> and <italic>G.
+ desmazieri.</italic> Macroconidia of <italic>C. buxi</italic> and <italic>G. cicatricum</italic>
+ are similar in size and number of septa.</p><p><italic>Cyanonectria buxi</italic> has been reported rarely. We collected its
+ teleomorph in July; Fuckel
+ (<xref ref-type="bibr" rid="ref13">1873</xref>) reported it as very
+ rare and also found perithecia in the summer. Several isolations from conidia
+ or mycelium and one from surface sterilised roots indicate that it is commonly
+ associated with <italic>Buxus sempervirens</italic>. A surprising observation in our
+ study is that perithecia of <italic>C. buxi</italic> can apparently co-occur with
+ those of <italic>G. cicatricum</italic> on what appears to be the same perithecial
+ stroma (Figs <xref ref-type="fig" rid="fig3">3A</xref>,
+ <xref ref-type="fig" rid="fig5">5B</xref>).</p><p><italic><bold>Cyanonectria cyanostoma</bold></italic> (Sacc. &#x00026; Flageolet) Samuels
+ &#x00026; Chaverri, Mycol. Progr. 8: 56. 2009.&#x0000a;<italic>Basionym</italic>: <italic>Nectria
+ cyanostoma</italic> Sacc. &#x00026; Flageolet, Atti del Congr. bot. di Palermo: 53.
+ 1902.</p><p><italic>Description and illustrations</italic>: Samuels <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref49">2009</xref>).</p><p><italic>Material studied</italic>:
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=101734&#x00026;link_type=cbs">CBS 101734</ext-link> = BBA
+ 70964, GJS 98-127, ex epitype strain, see Samuels <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref49">2009</xref>).</p><p><italic>DNA sequences generated</italic>: LSU rDNA
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=101734&#x00026;link_type=cbs">CBS 101734</ext-link>:
+ HM626671). <italic>tef-1&#x003b1;</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=101734&#x00026;link_type=cbs">CBS 101734</ext-link>:
+ HM626647). See Gr&#x000e4;fenhan <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref17">2011</xref>) for others included in
+ <xref ref-type="fig" rid="fig1">Fig. 1</xref>.</p><p><italic><bold>Geejayessia</bold></italic> Schroers, Gr&#x000e4;fenhan &#x00026; Seifert, <bold>gen.
+ nov.</bold> MycoBank
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=MB519479&#x00026;link_type=mb">MB519479</ext-link>.</p><p><italic>Anamorph</italic>: <italic>Fusarium</italic>-like</p><p><italic>Etymology</italic>: In honour of Gary J. Samuels, in recognition of his
+ contributions to our knowledge of hypocrealean holomorphs, acknowledging the
+ thousands of specimens and strains he collected and isolated, known
+ universally by their G.J.S. collecting numbers, which he made freely available
+ to his many colleagues.</p><p>Perithecia e stromate in substratis erumpente exorientia, superficialia
+ dense coarctata, subglobosa, ovoidea vel obpyriformia, superficie levia vel
+ minute verrucosa, coccinea, aurantiaca vel atra, KOH&#x02013;vel KOH+. Tunica
+ perithecii ex uno strato composite. Asci 8 spori, cylindrici vel clavate.
+ Ascosporae ellipsoideae, uniseptatae, verruculosae ali leviae, hyalinae vel
+ pallide brunneae. Coloniae fere celeriter crescentes, incoloratae, pallide
+ luteae, pallide aurantiacae veil pallide ochraceae; reversum pigmento rubro
+ carens. Mycelium aerium in agaro parcum, albidum. Sporodochia ad superficiem
+ agari SNA, in foliis Dianthi caryophylli vel foliis et ramis Buxi
+ sempervirentis formata. Monophialides sporodochiales plus minusve cylindricae.
+ Microconidia absentia vel praesentia, 0&#x02013;1 septata, ovoidea vel
+ ellipsoidea, allantoidea vel fusiformia. Macroconidia sporodochialia
+ 3&#x02013;multi septata, modice curvata vel quasi recta et apicales rostrata et
+ curvata. Chlamydosporae absentes.</p><p><italic>Stromata</italic> erumpent, byssoid or densely prosenchymatous, typically
+ of densely packed hyphae, bearing either perithecia or well-developed
+ sporodochia. <italic>Perithecia</italic> caespitose on bark of decaying twigs or dead
+ buds of woody hosts, often on dead twigs still attached to living host, mostly
+ smooth, smooth to warted in one species, thin-walled, uniformly coloured or
+ with a darker ostiolar region when dry, pale orange, brownish to reddish
+ orange, bright red or black, reacting to KOH and lactic acid, unless black,
+ then hardly reacting. <italic>Ascospores</italic> 1-septate, ellipsoidal, with gently
+ tapering or broadly rounded ends, pale brown or yellowish brown, smooth or
+ verruculose at maturity. <italic>Macroconidia</italic> observed in all species, 3- to
+ multi-septate, relatively long when 3-septate, either gently curved throughout
+ with dorsal wall somewhat more curved or with a subcylindrical middle part,
+ always conspicuously pedicellate, with an inequilaterally fusoid and more or
+ less hooked apical cell; formed in slimy yellowish or orange masses on
+ branched, frequently sporodochial conidiophores, terminating in whorls of
+ monophialides. <italic>Microconidia</italic> usually absent; when present, then oblong
+ ellipsoidal, gently curved, rounded at both ends or with an asymmetrical
+ hilum. <italic>Chlamydospores</italic> not seen. Cultures on nutritionally rich media
+ such as PDA about 15&#x02013;20 mm diam after 7 d at 20&#x02013;25 &#x000b0;C, pale
+ coloured, cream, yellowish, orange, brownish orange or with some greyish
+ hues.</p><p><italic>Type species</italic>: <italic>Geejayessia cicatricum</italic> (Berk.) Schroers,
+ Stud Mycol. 68: 124. 2011.</p><p><italic><bold>Geejayessia cicatricum</bold></italic> (Berk.) Schroers, <bold>comb. nov.</bold>
+ MycoBank <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=MB519481&#x00026;link_type=mb">MB519481</ext-link>.
+ Figs <xref ref-type="fig" rid="fig5">5</xref>,
+ <xref ref-type="fig" rid="fig6">6</xref>.&#x0000a;<italic>Basionym</italic>:
+ <italic>Sphaeria sanguinea</italic> var. <italic>cicatricum</italic> Berk., Mag. Zool. Bot. 1:
+ 48. 1837.</p><p><list list-type="simple"><list-item><p>&#x02261; <italic>Nectria cicatricum</italic> (Berk.) Tul. &#x00026; C. Tul., <italic>Selecta
+ Fungorum Carpologia: Nectriei- Phacidiei- Pezizei</italic> 3: 77. 1865.</p></list-item></list>
+ </p><p><italic>Stromata</italic> formed within bud leaves or erumpent through substrate,
+ prosenchymatous, cells 3&#x02013;5 &#x003bc;m wide, with at least some hypha-like
+ cells, arranged in an irregular <italic>textura porrecta</italic>; hyphae connecting
+ cells of stroma and wall of lower part of perithecia, 2.5&#x02013;7 &#x003bc;m wide,
+ with walls less than 1 &#x003bc;m thick. <italic>Perithecia</italic> crowded in groups of 5
+ to &#x0003e; 50, smooth, broadly ampulliform with a short neck or broadly
+ ellipsoidal, bright red with concolourous ostiolar region, deep violet in 2 %
+ KOH, yellowish orange in lactic acid; in longitudinal section 160&#x02013;260
+ &#x003bc;m high, 125&#x02013;250 &#x003bc;m wide. <italic>Perithecial wall</italic> with a single
+ region, (12&#x02013;)13.5&#x02013;18(&#x02013;21) &#x003bc;m wide or, subapically
+ 20&#x02013;30 &#x003bc;m wide, consisting of 3&#x02013;5 layers of cells; in face view,
+ cell walls 1&#x02013;1.5 &#x003bc;m thick in outer layers, 0.5 &#x003bc;m thick or less in
+ inner layers, with pores in all layers; cells in outer layers angular to
+ lobed, (9&#x02013;) 12.5(&#x02013;18) &#x000d7; (6&#x02013;)9(&#x02013;13.5) &#x003bc;m,
+ arranged in a <italic>textura epidermoidea</italic> or <italic>t. angularis</italic>,
+ subglobose to angular in inner layers, (10&#x02013;)16.5(&#x02013;23.5) &#x000d7;
+ (7.5&#x02013;)10&#x02013;11.5(&#x02013;16) &#x003bc;m, arranged in a <italic>textura
+ angularis</italic>; in longitudinal section, cells subglobose to angular, narrow
+ towards centrum. <italic>Asci</italic> cylindrical or clavate, with a broadly rounded
+ or flattened apex, with a minute refractive ring, eight-spored, mostly
+ overlapping uniseriate or biseriate above and uniseriate below,
+ (65.5&#x02013;)73&#x02013;92.5(&#x02013;103) &#x000d7;
+ (8&#x02013;)10&#x02013;11(&#x02013;13.5) &#x003bc;m. <italic>Ascospores</italic> equally
+ 2-celled, broadly ellipsoidal to ellipsoidal, slightly constricted at septum,
+ verruculose, hyaline or pale brown,
+ (9.5&#x02013;)11.5&#x02013;12&#x02013;13(&#x02013;14.5) &#x000d7;
+ (4.5&#x02013;)5.0&#x02013;5.5&#x02013;6(&#x02013;6.5) &#x003bc;m.</p><p><italic>Colonies on PDA</italic> after 7 d at 20 and 25 &#x000b0;C 15&#x02013;20 mm diam;
+ optimum for growth 25 &#x000b0;C, maximum 30&#x02013;34 &#x000b0;C, no growth at 35
+ &#x000b0;C. Colony reverse lacking red pigments, after 14&#x02013;21 d on PDA at
+ 15&#x02013;25 &#x000b0;C with weak pigment production, pale to light yellow
+ (4A3-4A5), at 30 &#x000b0;C somewhat pale orange. Colony surface on PDA with
+ pustules or cushions of white aerial mycelium to 15 mm diam, with scattered
+ sporodochia covered with pale yellow conidial masses, smooth at margin,
+ wax-like, pale yellow (4A2&#x02013;4A3); on SNA hyaline, typically smooth or
+ occasionally with pustules of white mycelium. Conidiation on SNA
+ inconspicuous, first along submersed hyphae, within 14 d or later from
+ sporodochia formed on the agar surface or on CL or B. <italic>Sporodochia</italic>
+ with a hymenium of branched conidiophores with solitary phialides or whorls of
+ 2&#x02013;3 terminal monophialides; metulae anastomosing; cells of stroma
+ densely packed, arranged in an irregular <italic>textura porrecta. Phialides</italic>
+ more or less cylindrical, tapering towards apex, on SNA
+ (18.5)&#x02013;22&#x02013;26.5(&#x02013;31) &#x003bc;m long, 3&#x02013;4 &#x003bc;m wide at base
+ and in middle, 2&#x02013;2.5 &#x003bc;m wide near the conidiogenous aperture; on PDA
+ to 45 &#x003bc;m long, 3&#x02013;4.5 &#x003bc;m wide at base and 2.5&#x02013;3.5 &#x003bc;m wide
+ near conidiogenous aperture. <italic>Microconidia</italic> not observed.
+ <italic>Macroconidia</italic> formed in pale yellow slimy masses, typically gently
+ curved throughout, less commonly almost straight, with pronounced pedicellate
+ foot cell, and a more or less inequilaterally fusoid, hooked apical cell,
+ (2&#x02013;)5&#x02013;7(&#x02013;8) septate: 5-septate
+ (55&#x02013;)73&#x02013;81&#x02013;92(&#x02013;107) &#x000d7;
+ (6&#x02013;)6.5&#x02013;7&#x02013;7.5(&#x02013;8.5) &#x003bc;m; 6-septate
+ (88&#x02013;)98.5&#x02013;103&#x02013;107(&#x02013;124) &#x000d7;
+ (7&#x02013;)7.5&#x02013;7.5&#x02013;8(&#x02013;8.5) &#x003bc;m; 7-septate 88&#x02013;125
+ &#x000d7; 6.5&#x02013;9 &#x003bc;m. <italic>Chlamydospores</italic> not observed.</p><p><fig position="float" id="fig5"><label>Fig. 5.</label><caption><p><italic>Geejayessia cicatricum</italic>, perithecia on the natural substrate.
+ A&#x02013;C. Habit on decaying buds of <italic>Buxus sempervirens</italic>. D&#x02013;F.
+ Colour change in perithecium in water (D), replaced with 2 % KOH (E) and then
+ lactic acid (F). G, H. Longitudinal section through decaying bud. I.
+ Longitudinal section through stroma supporting the perithecia, with hypha-like
+ cells. J&#x02013;L. Median longitudinal sections through perithecia (J),
+ ostiolar region (K) and lateral perithecial wall (L). M&#x02013;O. Face views of
+ perithecial wall. M. Cells on the surface of perithecia having hyphal or
+ setose characteristics. N. Outermost cells of the main perithecial wall region
+ with Samuels pores. O. Innermost cells of perithecial wall. C rehydrated in
+ water, G&#x02013;L in Shears, M, O in water, N in 2 % KOH. A, C, G&#x02013;L,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20375&#x00026;link_type=cbs">CBS H-20375</ext-link>; B,
+ D&#x02013;F, <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20376&#x00026;link_type=cbs">CBS
+ H-20376</ext-link>; M&#x02013;O,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20377&#x00026;link_type=cbs">CBS H-20377</ext-link>. Scale
+ bars: A&#x02013;C, G = 500 &#x003bc;m; E (D, F) = 100 &#x003bc;m; H = 200 &#x003bc;m; I&#x02013;L
+ = 20 &#x003bc;m; M&#x02013;O = 10 &#x003bc;m.</p></caption><graphic xlink:href="115fig5"/></fig></p><p><italic>Habitat</italic>: On decaying or dead buds, axils of dead leaves or twigs
+ or sometimes on decaying, subterminal twigs still attached to living <italic>Buxus
+ sempervirens</italic> trees; perithecia sometimes co-occurring with those of
+ <italic>C. buxi</italic> (Figs <xref ref-type="fig" rid="fig3">3A</xref>,
+ <xref ref-type="fig" rid="fig5">5B</xref>).</p><p><italic>Distribution</italic>: Europe (Slovenia, England).</p><p><italic>Typification</italic>: Isotype of <italic>Sphaeria sanguinea</italic> var.
+ <italic>cicatricum</italic>: <bold>Sine loco</bold> but presumably England based on the name
+ of the publication, on stems of?<italic>B. sempervirens</italic>, ex herb. M.J.
+ Berkeley, K(M) 160064. Epitype of <italic>Sphaeria sanguinea</italic> var.
+ <italic>cicatricum</italic> designated here: <bold>Slovenia</bold>, between Dom&#x0017e;ale
+ and Kamnik, Arboretum Vol&#x0010d;ji Potok, prealpine zone, on dead buds or
+ bark of decaying, terminal twig still attached to <italic>ca.</italic> 80 year-old,
+ living <italic>B. sempervirens</italic> tree, July 2009, H.-J. Schroers &#x00026; M.
+ &#x0017d;erjav, <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20374&#x00026;link_type=cbs">CBS
+ H-20374</ext-link>, twig with perithecial stromata filed together with dried
+ SNA culture of ex-epitype ascospore isolate
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125549&#x00026;link_type=cbs">CBS 125549</ext-link>.</p><p><italic>Additional specimen and strains examined</italic>: Same location as the
+ epitype. On dead buds or decaying terminal twig still attached to living
+ <italic>B. sempervirens</italic> tree,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20376&#x00026;link_type=cbs">CBS H-20376</ext-link>,
+ ascospore culture <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125552&#x00026;link_type=cbs">CBS
+ 125552</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20377&#x00026;link_type=cbs">CBS
+ H-20377</ext-link>, ascospore culture
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125553&#x00026;link_type=cbs">CBS 125553</ext-link>;
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-203801&#x00026;link_type=cbs">CBS H-203801</ext-link>,
+ ascospore culture <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125740&#x00026;link_type=cbs">CBS
+ 125740</ext-link>; on <italic>B. sempervirens</italic> var. <italic>elegantissima</italic>,
+ July 2009, H.-J. Schroers &#x00026; M. &#x0017d;erjav,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20375&#x00026;link_type=cbs">CBS H-20375</ext-link>,
+ ascospore culture <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125550&#x00026;link_type=cbs">CBS
+ 125550</ext-link>.</p><p><fig position="float" id="fig6"><label>Fig. 6.</label><caption><p><italic>Geejayessia cicatricum</italic>, spores and spore forming cells. A&#x02013;C.
+ Asci with broadly rounded or slightly flattened apex, with visible refractive
+ ring. D&#x02013;J. Ascospores, with E, G showing surface roughening. K, L.
+ Branched conidiophores and monophialides from sporodochia with anastomosing
+ cells. M&#x02013;Q. Macroconidia. A&#x02013;J, M from natural substrate. K,
+ N&#x02013;Q from SNA, SNA/CL or SNA/B. L from PDA. A&#x02013;J, L,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20374&#x00026;link_type=cbs">CBS H-20374</ext-link>; K, N,
+ P, Q, <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125549&#x00026;link_type=cbs">CBS 125549</ext-link>;
+ M, <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125552&#x00026;link_type=cbs">CBS 125552</ext-link>; O,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125550&#x00026;link_type=cbs">CBS 125550</ext-link>. Scale
+ bars: A, O 50 = &#x003bc;m, B, C, K, L = 20 &#x003bc;m, G (applies also to D&#x02013;F), I
+ (H, J) = 10 &#x003bc;m, P (M, N, Q) = 50 and 10 &#x003bc;m.</p></caption><graphic xlink:href="115fig6"/></fig></p><p><italic>DNA sequences generated</italic>: ITS rDNA
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125553&#x00026;link_type=cbs">CBS 125553</ext-link>:
+ HM626653, 125550: HM626654, 125740: HM626655, 125552: HQ728145). LSU rDNA
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125553&#x00026;link_type=cbs">CBS 125553</ext-link>:
+ HM626665, 125550: HM626666, 125740: HM626667). <italic>acl1</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125740&#x00026;link_type=cbs">CBS 125740</ext-link>:
+ HM626635, 125549: HM626636, 125552: HQ728171, 125553: HQ728170).
+ <italic>tef-1&#x003b1;</italic> (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125553&#x00026;link_type=cbs">CBS
+ 125553</ext-link>: HM626645, 125550: HM626642, 125549: HM626643, 125552:
+ HM626644, 125740: HM626646). <italic>rpb2</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125740&#x00026;link_type=cbs">CBS 125740</ext-link>:
+ HM626680, 125549: HM626679, 125552: HQ728153). See Gr&#x000e4;fenhan <italic>et
+ al.</italic> (<xref ref-type="bibr" rid="ref17">2011</xref>) for other
+ strains included in <xref ref-type="fig" rid="fig1">Fig. 1</xref>.</p><p><italic>Notes</italic>: The morphological distinctions between <italic>G.
+ cicatricum</italic> and <italic>G. desmazieri</italic> are discussed in the notes for
+ <italic>G. desmazieri</italic>. Based on the collections available including the
+ isotype, <italic>G. cicatricum</italic> occurs on dead buds specifically on decaying
+ or dead terminal branches of <italic>Buxus sempervirens</italic>, whereas the majority
+ of <italic>G. desmazieri</italic> specimens suggest a habitat on thicker, subterminal
+ branches, with perithecia forming on bark. Although the niche of these species
+ may overlap, there are no indications that they co-occur. The width of
+ macroconidia from the type specimen of <italic>Sphaeria sanguinea</italic> var.
+ <italic>cicraticum</italic> (K 160064) were wider than macroconidia of <italic>G.
+ desmazieri,</italic> confirming the usefulness of this character for
+ distinguishing the species.</p><p><italic><bold>Geejayessia atrofusca</bold></italic> (Schw.) Schroers &#x00026;
+ Gr&#x000e4;fenhan, <bold>comb. nov.</bold> MycoBank
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=MB519483&#x00026;link_type=mb">MB519483</ext-link>.
+ <xref ref-type="fig" rid="fig7">Fig. 7</xref>.&#x0000a;<italic>Basionym</italic>:
+ <italic>Sphaeria atrofusca</italic> Schw., Trans. Amer. Philos. Soc. ser. 2. 4: 206.
+ 1832.</p><p><list list-type="simple"><list-item><p>&#x02261; <italic>Nectria atrofusca</italic> (Schw.) Ellis &#x00026; Everhart, N. Amer.
+ Pyrenomyc.: 99. 1892.</p></list-item><list-item><p>= <italic>Fusarium staphyleae</italic> Samuels &#x00026; Rogerson, Brittonia 36: 84.
+ 1984.</p></list-item></list>
+ </p><p><italic>Habitat</italic>: On bark of twigs of <italic>Staphylea trifolia</italic>,
+ associated with twig blight (<xref ref-type="bibr" rid="ref52">Samuels &#x00026;
+ Rogerson 1984</xref>).</p><p><italic>Description and illustrations</italic>: Samuels &#x00026; Rogerson
+ (<xref ref-type="bibr" rid="ref52">1984</xref>).</p><p><italic>Material studied</italic>: <bold>Canada</bold>, Ontario, Ottawa, Petrie Island,
+ riverine forest, on twig of <italic>Staphylea trifolia</italic>, Oct. 2006, T.
+ Gr&#x000e4;fenhan T.G. 2006-01, DAOM 238118, ascospore isolate
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125482&#x00026;link_type=cbs">CBS 125482</ext-link>; same as
+ above: T.G. 2006-01A, conidial isolate
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125503&#x00026;link_type=cbs">CBS 125503</ext-link>; Nov.
+ 2008, T.G. 2008-34, ascospore isolate
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125505&#x00026;link_type=cbs">CBS 125505</ext-link>.
+ <bold>USA</bold>, New Jersey, Palisade Interstate Parkway, <italic>Staphylea
+ trifolia</italic>, C.T. Rogerson 81-53, BBA 66968.</p><p><fig position="float" id="fig7"><label>Fig. 7.</label><caption><p><italic>Geejayessia atrofusca</italic>. A, B. Habit of perithecia on twigs of
+ <italic>Staphylea trifolia</italic>. C, G, H. Longitudinal section through perithecial
+ stroma (C), lateral perithecial wall (G), stroma composed of hypha-like cells
+ (H). D&#x02013;F. Colour change in perithecium in water (D), replaced with 2 %
+ KOH (E) and then lactic acid (F). I. Hypha-like cells continuous with cells of
+ the stroma covering base of perithecium. J, K. Face view of outermost cells of
+ perithecial wall with Samuels pores (arrows). L. Ascus. M. Ascospores, the
+ bottom one showing surface. N. Sporodochium. O, P. Mononematious, simple
+ conidiophores, phialides. Q, R. Macroconidia. S, T. Aseptate or 1-septate
+ microconidia. A&#x02013;M, <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20381&#x00026;link_type=cbs">CBS
+ H-20381</ext-link>, from natural substrate; N&#x02013;T,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125505&#x00026;link_type=cbs">CBS 125505</ext-link> ex
+ ascospores of <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20381&#x00026;link_type=cbs">CBS
+ H-20381</ext-link> on SNA/CL. Scale bars: A = 1 mm; B, C = 500 &#x003bc;m;
+ D&#x02013;F = 100 &#x003bc;m; G, J, K, M, O, P, S, T = 10 &#x003bc;m; H, I, L, N = 20
+ &#x003bc;m; Q, R = 50 and 5 &#x003bc;m.</p></caption><graphic xlink:href="115fig7"/></fig></p><p><italic>DNA sequences generated</italic>: ITS rDNA
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125505&#x00026;link_type=cbs">CBS 125505</ext-link>:
+ HM626659). LSU rDNA (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125505&#x00026;link_type=cbs">CBS
+ 125505</ext-link>: HM626674). <italic>acl1</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125503&#x00026;link_type=cbs">CBS 125503</ext-link>:
+ HM626627, 125505: HM626628, BBA 66968: HM626637). <italic>rpb2</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125503&#x00026;link_type=cbs">CBS 125503</ext-link>:
+ HM626683, 125505: HM626682, BBA 66968: HM626681). See Gr&#x000e4;fenhan <italic>et
+ al.</italic> (<xref ref-type="bibr" rid="ref17">2011</xref>) for other
+ strains included in <xref ref-type="fig" rid="fig1">Fig. 1</xref>.</p><p><italic>Notes</italic>: The almost black perithecia and weak reaction of their
+ pigments to KOH are distinctive features of <italic>Geejayessia atrofusca.</italic> As
+ noted in the discussion of phylogeny, this species does not belong to
+ <italic>Gibberella</italic>, despite the similar colouration of perithecia on the
+ natural substratum. <italic>Geejayessia atrofusca</italic> is clearly a member of this
+ new genus based on combined LSU- and ITS analysis
+ (<xref ref-type="bibr" rid="ref49">Samuels <italic>et al.</italic> 2009</xref>)
+ and the combined <italic>rpb2</italic> and <italic>acl1</italic> analysis
+ (<xref ref-type="fig" rid="fig1">Fig. 1</xref>). <italic>Geejayessia
+ atrofusca</italic> forms non-septate or sparsely septate microconidia on SNA. In
+ the other species of <italic>Geejayessia</italic>, no such microconidia were observed.
+ Samuels &#x00026; Rogerson (<xref ref-type="bibr" rid="ref52">1984</xref>)
+ described <italic>F. staphyleae</italic> from cultures grown from ascospores isolated
+ from <italic>G. atrofusca</italic>; thus the genetic connection between the teleomorph
+ and anamorph covered by these two names is clear.</p><p><italic><bold>Geejayessia celtidicola</bold></italic> Gr&#x000e4;fenhan &#x00026; Schroers,
+ <bold>sp. nov.</bold> MycoBank
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=MB519482&#x00026;link_type=mb">MB519482</ext-link>. Figs
+ <xref ref-type="fig" rid="fig8">8</xref>,
+ <xref ref-type="fig" rid="fig9">9</xref>.</p><p><italic>Etymology</italic>: In reference to the substrate of this species,
+ <italic>Celtis occidentalis</italic>.</p><p>Perithecia e stromate in substratis lignosis erumpente exorientia,
+ superficialia vel interdum partim semi-immersa, dense coarctata, ovoidea vel
+ obpyriformia, breviter papillata, levia, intense rubida, <italic>ca.</italic>
+ 200&#x02013;250 &#x003bc;m alta, 120&#x02013;210 &#x003bc;m lata in 2 % KOH purpurascentia,
+ luteo-aurantia in acido lactico. Stromata prosenchymatica cellulae partim
+ hyphales. Tunica perithecii ex uno strato composita, 15&#x02013;25 &#x003bc;m crassa
+ ad latus, cellulae exteriores angulares vel lobatae,
+ (6.5&#x02013;)9.5(&#x02013;14) &#x000d7; (5&#x02013;)6.5(&#x02013;11) &#x003bc;m, interiores
+ subglobosae vel angulares, (9.5&#x02013;)14(&#x02013;18.5) &#x000d7;
+ (6.5&#x02013;)10(&#x02013;13.5) &#x003bc;m; cellulae contiguae pseudoporis connexae.
+ Asci cylindrici vel clavati, apice anulo refringente carentes,
+ 70&#x02013;87.5&#x02013;94 &#x000d7; 6&#x02013;10&#x02013;13.5 &#x003bc;m. Ascosporae
+ ellipsoidea, uniseptatae, leves vel eximie verruculosae, hyalinae vel pallide
+ brunneae, (10.5&#x02013;)12.5&#x02013;13.5&#x02013;14(&#x02013;16.5) &#x000d7;
+ (4.5&#x02013;) 5&#x02013;5.5&#x02013;6(&#x02013;6.5) &#x003bc;m. Coloniae fere celeriter
+ crescentes, in agaro PDA incoloratae vel pallide luteae 15&#x02013;25 &#x000b0;C,
+ pallide brunneoaurantiacae 30 &#x000b0;C, reversum pigmento rubro carens. Mycelium
+ aerium in agaro PDA et SNA parcum vel in parte media pulvinos albos formans.
+ Sporodochia post 14 dies vel postea in foliis Dianthi caryophylli vel ad
+ superficiem agari SNA formata, hemisphaerica. Monophialides sporodochiales
+ plus minusve cylindricae, (12&#x02013;)20&#x02013;22&#x02013;25(&#x02013;34) &#x003bc;m
+ longae, 2&#x02013;3 <italic>&#x003bc;</italic>m latae ad basim, 1.5&#x02013;2 &#x003bc;m latae ad
+ apicem. Microconidia absentia. Massae conidiorum sporodochialium in agaro SNA
+ hemisphaericae, albidae vel pallide aurantiacae. Macroconidia sporodochialia
+ (1&#x02013;)3&#x02013;5(&#x02013;8)-septata, cellulae basilares pediformes,
+ latissimae in medio, cellulae centrales et basilares quasi rectae, apicales
+ rostratae et curvatae vel utrinque modice curvata; conidia 3-septata
+ (34.5&#x02013;)54&#x02013;58&#x02013;62(&#x02013;70) &#x000d7;
+ (3.5&#x02013;)4&#x02013;4.5&#x02013;4.5(&#x02013;5) &#x003bc;m; 4-septata
+ (56&#x02013;)60.5&#x02013;64&#x02013;67.5(&#x02013;75) &#x000d7;
+ (4&#x02013;)4.5&#x02013;4.5&#x02013;4.5(&#x02013;5) &#x003bc;m; 5-septata
+ (55&#x02013;)63&#x02013;67.5&#x02013;74(&#x02013;78.5) &#x000d7;
+ (4&#x02013;)4.5&#x02013;5&#x02013;5(&#x02013;5.5); 6-septata 66&#x02013;82.5 &#x000d7;
+ 4.5&#x02013;5.5; 7-septata 71&#x02013;84 &#x000d7; 5&#x02013;5.5; 8-septata
+ 74.5&#x02013;93 &#x000d7; 5&#x02013;5.5 &#x003bc;m. Chlamydosporae absentes.</p><p><fig position="float" id="fig8"><label>Fig. 8.</label><caption><p><italic>Geejayessia celtidicola</italic>, perithecia on the natural substrate,
+ holotype. A, B. Habit on bark of Celtis occidentalis. C, D. Colour change in
+ perithecium in 2 % KOH (C) then replaced by lactic acid (D). E. Longitudinal
+ section of erumpent stroma and perithecia. F&#x02013;I. Face view of perithecial
+ wall. F. Cells on the surface of perithecia showing hyphal or setose
+ characteristics. G, H. Outermost cells of the main perithecial wall with
+ Samuels pores. I. Intermediate cells of the perithecial wall. J&#x02013;L.
+ Median longitudinal sections of perithecia or perithecial walls. M.
+ Longitudinal section through stroma supporting the perithecia showing
+ hypha-like cells. B. after rehydration in water; E, H, J&#x02013;M in Shears; F,
+ G, I in water. Scale bars: A = 500 &#x003bc;m; B, E = 200 &#x003bc;m; C, D = 100 &#x003bc;m;
+ F&#x02013;I = 10 &#x003bc;m; J&#x02013;M = 20 &#x003bc;m.</p></caption><graphic xlink:href="115fig8"/></fig></p><p><italic>Stromata</italic> erumpent through bark, prosenchymatous, cells 3&#x02013;5
+ &#x003bc;m wide, with at least some hypha-like cells, arranged in an irregular
+ <italic>textura porrecta</italic>; hyphae connecting cells of stroma to wall of lower
+ part of perithecia, either arranged in a network or as terminal hyphae,
+ 18.5&#x02013;45 long, 6&#x02013;7.5 &#x003bc;m wide near base, with walls to 2 &#x003bc;m
+ wide. <italic>Perithecia</italic> crowded in groups of up to 15, seated on surface of
+ or with base partly immersed in stroma, smooth, broadly ampulliform with a
+ short neck or broadly ellipsoidal, dark red with a darker red ostiolar region,
+ dark purple red in 2 % KOH, yellowish orange in lactic acid; in longitudinal
+ sections 200&#x02013;250 &#x003bc;m high, 120&#x02013;210 &#x003bc;m wide. <italic>Perithecial
+ wall</italic> consisting of a single region, 15&#x02013;25 &#x003bc;m thick or,
+ subapically, 30&#x02013;35 &#x003bc;m, of 3&#x02013;5 layers of cells; in face view,
+ cell walls 1&#x02013;1.5 &#x003bc;m thick in outer layers, 0.5 &#x003bc;m thick or less in
+ inner layers, with pores in all layers; cells in outer layers lobed to
+ angular, (6.5&#x02013;)9.5(&#x02013;14) &#x000d7; (5&#x02013;)6.5(&#x02013;11) &#x003bc;m,
+ arranged in a <italic>textura angularis</italic> to <italic>t. epidermoidea</italic>, in inner
+ layers subglobose to angular, (9.5&#x02013;) 14(&#x02013;18.5) &#x000d7;
+ (6.5&#x02013;)10(&#x02013;13.5) &#x003bc;m, arranged in a <italic>textura angularis</italic>;
+ in longitudinal section, cells subglobose to angular, flatter towards centrum.
+ <italic>Asci</italic> cylindrical or clavate, with rounded apex, without a visible
+ refractive ring, eight-spored, overlapping uniseriate or biseriate above and
+ uniseriate below, 70&#x02013;87.5&#x02013;94 &#x000d7; 6&#x02013;10&#x02013;13.5 &#x003bc;m.
+ <italic>Ascospores</italic> equally 2-celled, ellipsoidal, slightly constricted at
+ septum, smooth or finely verruculose, hyaline or pale brown,
+ (10.5&#x02013;)12.5&#x02013;13.5&#x02013;14(&#x02013;16.5) &#x000d7;
+ (4.5&#x02013;)5&#x02013;5.5&#x02013;6(&#x02013;6.5) &#x003bc;m.</p><p><fig position="float" id="fig9"><label>Fig. 9.</label><caption><p><italic>Geejayessia celtidicola</italic>, spores and spore forming cells.
+ A&#x02013;C. Asci with rounded apex, lacking refractive ring. D. Ascospore
+ surface. E, F. Ascospores. G. Longitudinal section of sporodochium. H.
+ Hymenial tissue of base of sporodochial stroma. I&#x02013;K. Monophialides on
+ branched conidiophores from sporodochial hymenium, I, J. With anastomoses.
+ L&#x02013;P. Macroconidia. A&#x02013;F. Holotype
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20378&#x00026;link_type=cbs">CBS H-20378</ext-link>;
+ G&#x02013;K, P <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125502&#x00026;link_type=cbs">CBS
+ 125502</ext-link>; L, M, O,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125504&#x00026;link_type=cbs">CBS 125504</ext-link>; N,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125481&#x00026;link_type=cbs">CBS 125481</ext-link>. Scale
+ bars: A, B (applies also to C), N (L, M, O, P) = 50 &#x003bc;m; D (E, F) = 10
+ &#x003bc;m; G =100 &#x003bc;m; H, J (I, K) = 20 &#x003bc;m.</p></caption><graphic xlink:href="115fig9"/></fig></p><p><italic>Colonies on PDA</italic> after 7 d at 20 and 25 &#x000b0;C 25 mm diam; optimum
+ for growth 20&#x02013;25 &#x000b0;C, maximum 30&#x02013;34 &#x000b0;C, no growth at 35
+ &#x000b0;C. Colony reverse lacking red pigments, after 14&#x02013;21 d on PDA at
+ 15&#x02013;25 &#x000b0;C without obvious pigment production, yellowish white to pale
+ yellow (3&#x02013;4A2&#x02013;3), at 30 &#x000b0;C weakly greyish to brownish orange
+ (5B4, 6C7). Colony surface on PDA smooth, wax-like because of dense spreading
+ mycelium; aerial mycelium sparse, felt-like, produced in central half of
+ colony or restricted to pustules; aerial mycelium on SNA present in central
+ half of colony, white, loosely branched or felt-like, absent towards margin.
+ Conidiation on SNA beginning within 14 d or later, inconspicuous, along
+ submersed hyphae or from sporodochia on CL, later on surface of SNA and from
+ aerial mycelium. Sporodochia on CL consisting of a well-developed stroma
+ covered with dense, <italic>ca.</italic> 100 &#x003bc;m high hymenium of phialides and
+ anastomosing cells of conidiophores; cells of subhymenium densely packed,
+ prosenchymatous. <italic>Conidiogenous cells</italic> monophialidic, 2-level or twice
+ monochasial, more or less cylindrical but tapering towards apex,
+ (12&#x02013;)20&#x02013;22&#x02013;25(&#x02013;34) &#x003bc;m long, 2&#x02013;3 &#x003bc;m wide at
+ base, 1.5&#x02013;2 &#x003bc;m wide near conidiogenous aperture.
+ <italic>Microconidia</italic> not observed. <italic>Macroconidia</italic> formed in off-white
+ or pale yellow slimy masses, with pronounced pedicellate foot cell and almost
+ equilateral fusoid, hooked apical cell, gently and equally curved towards both
+ ends or with central and basal part nearly straight,
+ (1&#x02013;)3&#x02013;5(&#x02013;8) septate: 3-septate
+ (34.5&#x02013;)54&#x02013;58&#x02013;62(&#x02013;70) &#x000d7;
+ (3.5&#x02013;)4&#x02013;4.5&#x02013;4.5(&#x02013;5) &#x003bc;m; 4-septate
+ (56&#x02013;)60.5&#x02013;64&#x02013;67.5(&#x02013;75) &#x000d7;
+ (4&#x02013;)4.5&#x02013;4.5&#x02013;4.5(&#x02013;5) &#x003bc;m; 5-septate
+ (55&#x02013;)63&#x02013;67.5&#x02013;74(&#x02013;78.5) &#x000d7;
+ (4&#x02013;)4.5&#x02013;5&#x02013;5(&#x02013;5.5) &#x003bc;m; 6-septate 66&#x02013;82.5
+ &#x000d7; 4.5&#x02013;5.5; 7-septate 71&#x02013;84 &#x000d7; 5&#x02013;5.5 &#x003bc;m;
+ 8-septate, 74.5&#x02013;93 &#x000d7; 5&#x02013;5.5 &#x003bc;m. <italic>Chlamydospores</italic>
+ not observed.</p><p><italic>Habitat</italic>: On bark of dead twigs and branches in the canopy of
+ living <italic>Celtis occidentalis</italic>.</p><p><italic>Distribution</italic>: North America (Canada: Ontario).</p><p><italic>Typification</italic>: Holotype of <italic>Geejayessia celtidicola</italic>:
+ <bold>Canada</bold>, Ontario, Ottawa, Petrie Island, riverine forest, on dead
+ branches in the canopy of a living <italic>Celtis</italic> <italic>occidentalis</italic> tree,
+ Nov. 2008, T. Gr&#x000e4;fenhan 2008-32,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20378&#x00026;link_type=cbs">CBS H-20378</ext-link>, twig
+ with perithecial stromata; ex-type culture
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125502&#x00026;link_type=cbs">CBS 125502</ext-link>.</p><p><italic>Additional specimens and strains examined</italic>: <bold>Canada</bold>, Ontario,
+ same general location and habit as the holotype, Nov. 2006., T. Gr&#x000e4;fenhan
+ 2006-29, DAOM 238129, ascospore isolate
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125481&#x00026;link_type=cbs">CBS 125481</ext-link>;
+ Ontario, Carleton Place, riverine forest, Nov. 2006, T. Gr&#x000e4;fenhan
+ 2006-35, DAOM 238130, ascospore isolate
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125504&#x00026;link_type=cbs">CBS 125504</ext-link>.</p><p><italic>DNA sequences generated</italic>: ITS rDNA
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125504&#x00026;link_type=cbs">CBS 125504</ext-link>:
+ HM626656, 125502: HM626657). LSU rDNA
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125504&#x00026;link_type=cbs">CBS 125504</ext-link>:
+ HM626668, 125502: HM626669). <italic>acl1</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125504&#x00026;link_type=cbs">CBS 125504</ext-link>:
+ HM626624, 125502: HM626625). <italic>tef-1&#x003b1;</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125504&#x00026;link_type=cbs">CBS 125504</ext-link>:
+ HM626639, 125502: HM626638, 125481: HQ728149). <italic>rpb2</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125504&#x00026;link_type=cbs">CBS 125504</ext-link>:
+ HM626686, 125502: HM626685). See Gr&#x000e4;fenhan <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref17">2011</xref>) for other strains
+ included in <xref ref-type="fig" rid="fig1">Fig. 1</xref>.</p><p><italic>Notes</italic>: In addition to host differences, the dark red perithecia of
+ <italic>Geejayessia celtidicola</italic> distinguish this species from its
+ phylogenetic relatives <italic>G. cicatricum</italic> and <italic>G. desmazieri.</italic> The
+ shape and size of its macroconidia are reminiscent of <italic>G. desmazieri</italic>,
+ but they are longer and more frequently septate. PDA cultures of <italic>G.
+ celtidicola</italic> are relatively darkly pigmented at 30 &#x000b0;C, compared with
+ those of <italic>G. cicatricum</italic> and <italic>G. desmazieri</italic>. On PDA, cultures
+ form comparatively little aerial mycelium. The shapes and sizes of the
+ macroconidia in <italic>G. celtidicola</italic> and <italic>G. zealandica</italic> are
+ similar. The 3-septate macroconidia in <italic>G. zealandica</italic> are mostly less
+ than 4 &#x003bc;m and its 5-septate macroconidia can be up to 5 &#x003bc;m wide
+ (<xref ref-type="bibr" rid="ref30">Nirenberg &#x00026; Samuels
+ 2000</xref>), whereas the 3-septate macroconidia of <italic>G.
+ celtidicola</italic> are mostly 4&#x02013;5 &#x003bc;m wide and have a similar width to
+ the 5-septate macroconidia formed on SNA.</p><p><italic>Fusarium celtidis</italic> produces almost straight macroconidia on fruits
+ of <italic>C. occidentalis</italic> in North America
+ (<xref ref-type="bibr" rid="ref10">Ellis &#x00026; Tracy 1890</xref>),
+ whereas those of <italic>G. celtidicola</italic> are frequently gently curved
+ throughout. The shape and substratum of <italic>F. celtidis</italic> suggest the
+ <italic>F. lateritium</italic> complex as noted by Booth
+ (<xref ref-type="bibr" rid="ref2">1971</xref>) following Wollenweber
+ &#x00026; Reinking (<xref ref-type="bibr" rid="ref65">1935</xref>).
+ <italic>Fusarium sphaeriaeforme</italic>, described from bark of <italic>Celtis
+ australis</italic> in Italy, differs from <italic>G. celtidicola</italic> by its shorter
+ macroconidia (<xref ref-type="bibr" rid="ref44">Saccardo
+ 1892</xref>).</p><p><italic><bold>Geejayessia desmazieri</bold></italic> <bold>(</bold>Becc. &#x00026; De Not.)
+ Schroers, Gr&#x000e4;fenhan &#x00026; Seifert, <bold>comb. nov.</bold> MycoBank
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=MB519480&#x00026;link_type=mb">MB519480</ext-link>. Figs
+ <xref ref-type="fig" rid="fig10">10</xref>,
+ <xref ref-type="fig" rid="fig11">11</xref>.&#x0000a;<italic>Basionym</italic>:
+ <italic>Nectria desmazieri</italic> Becc. &#x00026; De Not., Schem. di Classif. Sferiacei:
+ 10. 1863.</p><p><list list-type="simple"><list-item><p>&#x02261; <italic>Dialonectria desmazieri</italic> (Becc. &#x00026; De Not.) Petch,
+ Naturalist (London): 281. 1937.</p></list-item><list-item><p>= <italic>Nectria coccinea</italic> var. <italic>cicatricum</italic> Desm., Ann. Sci. Nat.,
+ Bot. 10: 351. 1848 <italic>fide</italic>
+ <xref ref-type="bibr" rid="ref65">Wollenweber &#x00026; Reinking
+ 1935</xref>, <xref ref-type="bibr" rid="ref2">Booth 1971</xref>.
+ Type not seen.</p></list-item><list-item><p>= <italic>Nectria gibbera</italic> Fuckel, Jahrb. Nassauischen Vereins Naturk.
+ 23-24: 177. 1870.</p></list-item><list-item><p>= <italic>Fusarium fuckelii</italic> Sacc., Syll. Fung. 4: 695. 1886.</p></list-item></list>
+ </p><p><italic>Stromata</italic> erumpent, prosenchymatous, cells
+ 3.5&#x02013;5.5(&#x02013;6.5) &#x003bc;m wide, with at least some hypha-like cells,
+ arranged in an irregular <italic>textura porrecta</italic>; hyphae continuous with
+ cells of stroma clinging to wall of the perithecial base, either arranged like
+ a network or as terminal hyphae 25&#x02013;55 &#x003bc;m long, 5&#x02013;8 &#x003bc;m wide,
+ with walls 2&#x02013;3 &#x003bc;m wide. <italic>Perithecia</italic> typically crowded in
+ groups of 3 to &#x0003e; 50, sometimes solitary or gregarious, either formed
+ superficially or with base somewhat immersed in stroma, smooth, broadly
+ ampulliform with a short neck or broadly ellipsoidal, pale to brownish orange,
+ reddish brown or brownish to greyish red, less often bright to dark red,
+ frequently with a slightly darker ostiolar region when dry, brownish to deep
+ violet in 2 % KOH, yellowish orange in lactic acid; in longitudinal section
+ 200&#x02013;300 &#x003bc;m high, 150&#x02013;220 &#x003bc;m wide. <italic>Perithecial wall</italic>
+ of a single region, 20&#x02013;30 &#x003bc;m thick or, subapically 30&#x02013;40 &#x003bc;m,
+ consisting of 3&#x02013;5 layers of cells; in face view, cell walls to 1.5 &#x003bc;m
+ in outer layers thick, 0.5 &#x003bc;m thick or less in inner layers, in all layers
+ with pores; cells in outer layers angular to somewhat lobed,
+ (9.5&#x02013;)13(&#x02013;18.5) &#x000d7; (5.5&#x02013;)9(&#x02013;13.5) &#x003bc;m, arranged
+ in a <italic>textura epidermoidea</italic> or <italic>t. angularis</italic>; cells of inner
+ layers subglobose to angular, (10&#x02013;)15(&#x02013;23) &#x000d7;
+ (8.5&#x02013;)11.5(&#x02013;16) &#x003bc;m, arranged in a <italic>textura angularis</italic>;
+ in longitudinal sections, cells subglobose to angular, flatter towards
+ centrum. <italic>Asci</italic> cylindrical or clavate, with a rounded or flattened
+ apex, lacking or with an inconspicuous refractive ring, eight-spored, mostly
+ overlapping uniseriate or biseriate above and uniseriate below,
+ (75.5&#x02013;)85(&#x02013;100) &#x000d7; (8&#x02013;)9(&#x02013;11) &#x003bc;m.
+ <italic>Ascospores</italic> equally 2-celled, broadly ellipsoidal with broadly
+ rounded, rarely somewhat tapering ends, verruculose, hyaline or pale brown,
+ (9.5&#x02013;)11&#x02013;12&#x02013;12.5(&#x02013;15) &#x000d7;
+ (4.5&#x02013;)5.5&#x02013;5.5&#x02013;6(&#x02013;7) &#x003bc;m.</p><p><italic>Colonies on PDA</italic> after 7 d at 20 &#x000b0;C 15 mm diam, 20 mm at 25
+ &#x000b0;C; optimum for growth 20&#x02013;25 &#x000b0;C, maximum 30&#x02013;34 &#x000b0;C, no
+ growth at 35 &#x000b0;C. Colony reverse lacking red pigments, after 14&#x02013;21 d
+ on PDA at 15 &#x000b0;C without obvious pigment production, at 20&#x02013;25 &#x000b0;C
+ pale yellow, light yellow to greyish yellow (4A5&#x02013;4B5), at 30 &#x000b0;C with
+ a pale yellow soluble pigment. Colony surface on PDA with felt-like, white or
+ somewhat greyish green aerial mycelium, smooth towards margin, wax-like or
+ with sparse aerial mycelium; on SNA unpigmented or pale yellow, typically
+ smooth or with scant cottony, white aerial mycelium near inoculum or CL or B
+ plant material. Conidiation on SNA within 14 d or later inconspicuously
+ submersed along hyphae or from sporodochia on surface or on CL or B; on PDA
+ also sporulating in aerial mycelium. <italic>Sporodochia</italic> with a hymenium of
+ branched conidiophores with single phialides, or whorls of 2&#x02013;3 terminal
+ monophialides; cells of stroma densely packed, arranged in an irregular
+ <italic>textura porrecta. Phialides</italic> more or less cylindrical but tapering
+ towards apex, on SNA (11&#x02013;)18&#x02013;21.5&#x02013;24(&#x02013;34) &#x003bc;m long,
+ (2.5&#x02013;)3&#x02013;3&#x02013;3.5(&#x02013;4) &#x003bc;m wide at base,
+ (2.5&#x02013;)3&#x02013;3.5&#x02013;4(&#x02013;4.5) &#x003bc;m in middle,
+ (1.5&#x02013;)2&#x02013;2.5&#x02013;2.5(&#x02013;2.5) &#x003bc;m wide near the
+ conidiogenous aperture. <italic>Microconidia</italic> not observed.
+ <italic>Macroconidia</italic> formed in pale yellow to pale orange, slimy masses to 3
+ mm diam, gently curved throughout or with central part almost straight and
+ cylindrical, with a pronounced pedicellate foot cell and an inequilaterally
+ fusoid, hooked apical cell, (1&#x02013;)3&#x02013;5(&#x02013;7) septate: 3-septate
+ (41.5&#x02013;)50&#x02013;52.5&#x02013;55.5(&#x02013;63.5) &#x000d7;
+ (4.5&#x02013;)5&#x02013;5&#x02013;5(&#x02013;5.5) &#x003bc;m; 4-septate
+ (51&#x02013;)57(&#x02013;64.5) &#x000d7; (4.5&#x02013;)5(&#x02013;5.5) &#x003bc;m; 5-septate
+ (55&#x02013;)62(&#x02013;72.5) &#x000d7; (4.5&#x02013;)5(&#x02013;5.5) &#x003bc;m; 6-septate
+ 63&#x02013;74 &#x000d7; 5.5&#x02013;6 &#x003bc;m. <italic>Chlamydospores</italic> not
+ observed.</p><p><italic>Sporodochia</italic> on G 00110886, lectotype of <italic>N. gibbera</italic>,
+ erumpent through bark, with pale yellow to off-white conidial masses.
+ <italic>Macroconidia</italic> (1&#x02013;)3&#x02013;5 septate, when measured in water:
+ 1-septate macroconidia 59&#x02013;61 &#x000d7; 5&#x02013;6 &#x003bc;m (n = 3); 3-septate
+ 58&#x02013;68.5 &#x000d7; 5&#x02013;6.5 &#x003bc;m (n = 14); 4-septate 60.5 &#x000d7; 6
+ &#x003bc;m (n = 1); 5-septate 58&#x02013;68 &#x000d7; 5.5&#x02013;6.5 &#x003bc;m (n = 10); in
+ lactic acid: 1-septate 61 &#x000d7; 5.5 &#x003bc;m (n = 1); 3-septate 53&#x02013;61
+ &#x000d7; 5&#x02013;6 &#x003bc;m (n = 3); 5-septate 59&#x02013;66 &#x000d7; 5.5&#x02013;6
+ &#x003bc;m (n = 5). <italic>Macroconidia</italic> on BPI 798402, isotype of <italic>N.
+ desmazieri</italic>, measured in lactic acid/cotton blue, 3-septate
+ 36.5&#x02013;43.5 &#x000d7; 4.0&#x02013;4.5 &#x003bc;m (n = 5).</p><p><italic>Habitat</italic>: On decaying or small, dead branches or twigs of <italic>Buxus
+ balearica</italic> and <italic>B. sempervirens</italic>, often on bark near or on scars of
+ subterminal twigs or in axils of leaves and twigs, less frequently on dead
+ buds.</p><p><italic>Distribution</italic>: Europe (Belgium, France, Germany, Italy, Spain).</p><p><italic>Typification</italic>: Lectotype of <italic>Nectria desmazieri</italic> designated
+ here: <bold>Italy</bold>, Pisa, Botanical Gardens, on twig of <italic>Buxus
+ balearica</italic>, 1862, O. Beccari, Erbar. Crittogam. Ital. Cent. X. n. 983, BPI
+ 798402; ex herb. Bot. Gard. Pisa, a specimen from Shear Study Collection Types
+ &#x00026; Rarities where it was noted as an isotype, consisting of a single twig,
+ <italic>ca.</italic> 4.5 cm long and 3&#x02013;5 mm wide comprising several clustered
+ perithecia and sporodochia with macroconidia. <italic>Syntype</italic>: K, a small
+ fragment unsuitable for slide preparation. <italic>Epitype</italic> of
+ <italic>Nectria</italic> <italic>desmazieri</italic> designated here: <bold>Italy</bold>, Latio,
+ Bagnaia, Villa Lante, in park, on twig of <italic>Buxus sempervirens</italic>, Nov.
+ 2007, W. Gams TG2007-87, <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20372&#x00026;link_type=cbs">CBS
+ H-20372</ext-link>, ex-epitype strain, isolated from ascospores,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125507&#x00026;link_type=cbs">CBS 125507</ext-link>; the
+ specimen comprises several clustered perithecia but macroconidia and
+ sporodochia were not seen. <italic>Lectotype</italic> of <italic>Fusarium fuckelii</italic>
+ and <italic>Nectria gibbera</italic> designated here: <bold>Germany</bold>, Nassau (now
+ Hesse), Oestrich, K.W.G.L. Fuckel Fungi rh. 2357, originally labelled
+ &#x0201c;<italic>Nectria desmazieri</italic> + <italic>F. integr</italic>.; I. &#x00026; II.&#x0201d;,
+ G 00110886, Herbier Fuckel 1894, Herbier Boissier. This is the specimen to
+ which Fuckel added drawings showing (i) a <italic>Fusarium</italic> macroconidium 68
+ &#x000d7; 8 &#x003bc;m, (ii) an ascus 72 &#x000d7; 8 &#x003bc;m, (iii) an ascospore 11
+ &#x000d7; 5 &#x003bc;m, (iv) the habitat of a <italic>Fusarium</italic> sporodochium, and (v)
+ the habitat of a &#x0201c;roth durchscheinend&#x0201d; perithecium. The lectotype
+ consists of a twig <italic>ca.</italic> 5.5 cm long and <italic>ca.</italic> 4 mm thick with a
+ few perithecia and sporodochia. <italic>Isolectotypes</italic> for <italic>Nectria
+ gibbera</italic>: all labelled &#x0201c;Fungi rh. 2357&#x0201d; (see also lectotype of
+ <italic>Nectria gibbera</italic>): Fuckel 852, as <italic>Nectria gibbera,</italic> G
+ 00110885, Herbier Fuckel 1894, Herbier Barbey-Boissier; W 10342, Herbier
+ Fuckel 1894, Herbier Barbey-Boissier. As <italic>Nectria gibbera</italic> II, G
+ 00110888, G 00110887. As <italic>Nectria desmazieri</italic> det. Fuckel and <italic>N.
+ gibbera</italic> (non <italic>N. desmazieri</italic>) det. J. Weese, 16 March 1910, W
+ 2009-01115. As &#x0201c;<italic>Nectria desmazieri</italic> + <italic>F. integr</italic>.; I.
+ &#x00026; II.&#x0201d;, M-0155489.</p><p><italic>Additional specimens and strains examined</italic>: All from twigs of
+ <italic>Buxus sempervirens</italic>. <bold>Belgium</bold>, as <italic>Fusarium buxicola,</italic>
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=840.85&#x00026;link_type=cbs">CBS 840.85</ext-link> = BBA
+ 64557. <bold>France</bold>, Jardin Public 64 Eaux Chaudes, 14 June 1992, F.
+ Candoussau 4856-4, as <italic>Nectria desmazieri,</italic> BPI 747855; culture BBA
+ 67515 = GJS 92-65; Cappenberg, G 00110881. <bold>Italy</bold>, Treviso, Selva,
+ Saccardo Mycotheca Veneta 116, Sept. 1874, BPI 551667, annotated by G.J.
+ Samuels, Nov. 1989: &#x0201c;This exsiccata was cited by Booth
+ (<xref ref-type="bibr" rid="ref2">1971</xref>: <italic>Fusarium</italic>) as
+ <italic>Nectria desmazier</italic>(<italic>es</italic>)<italic>i</italic>. The perithecia here are
+ immature and do not contain asci. Perithecia are orange-yellow, cells at the
+ surface of the perithecial wall are angular. This is definitely not a member
+ of the <italic>Nectria episphaeria</italic> group. <italic>Fusarium</italic> present&#x0201d;.
+ <bold>Spain</bold>, Montserrat, near Barcelona, Sept. 2007, W. Gams TG2007-69,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20373&#x00026;link_type=cbs">CBS H-20373</ext-link>,
+ culture <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125506&#x00026;link_type=cbs">CBS 125506</ext-link>.
+ <bold>UK</bold>, England, Norfolk, Overstrand Woods near Norwich, as <italic>Nectria
+ desmazieri,</italic> <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=313.34&#x00026;link_type=cbs">CBS
+ 313.34</ext-link>.</p><p><fig position="float" id="fig10"><label>Fig. 10.</label><caption><p><italic>Geejayessia desmazieri</italic>, perithecia on the natural substrate.
+ A&#x02013;D. Habit on twigs of <italic>Buxus sempervirens</italic>. E&#x02013;G. Colour
+ change in perithecium in water (E), replaced with 2 % KOH (F) and then lactic
+ acid (G). H&#x02013;L. Longitudinal section through perithecial stroma (H),
+ single perithecium (I), lateral perithecial wall (J), stroma with hypha-like
+ cells (K), perithecial wall near ostiole (L). M, N. Hyphal or setose cells on
+ the surface of perithecial wall. O&#x02013;Q. Face view of outermost (O),
+ intermediate (P) and innermost (Q) cell layers of perithecial wall. Arrows in
+ O, P indicate Samuels pores in cell walls. H&#x02013;L in Shears; M&#x02013;Q in
+ water. A, BPI 798402, isotype of <italic>N. desmazieri</italic>; B, M&#x02013;O
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20373&#x00026;link_type=cbs">CBS H-20373</ext-link>; C, Q
+ W-10342, isotype of <italic>N. gibbera</italic>; D&#x02013;L, P,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20372&#x00026;link_type=cbs">CBS H-20372</ext-link>,
+ epitype; Q, &#x0201c;Funghi. rh. 2357, Fuckel 852&#x0201d;. Scale bars: A&#x02013;D
+ = 500 &#x003bc;m; E&#x02013;G = 100 &#x003bc;m; H = 200 &#x003bc;m; I = 50 &#x003bc;m; J&#x02013;L =
+ 20 &#x003bc;m; M&#x02013;Q = 10 &#x003bc;m.</p></caption><graphic xlink:href="115fig10"/></fig></p><p><italic>DNA sequences generated</italic>: ITS rDNA
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125507&#x00026;link_type=cbs">CBS 125507</ext-link>:
+ HM626651, 840.85: HM626650, BBA 67515: HM626652). LSU rDNA
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125507&#x00026;link_type=cbs">CBS 125507</ext-link>:
+ HM626663, 840.85: HM626662, BBA 67515: HM626664). <italic>acl1</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125506&#x00026;link_type=cbs">CBS 125506</ext-link>:
+ HM626632, 125507: HM626633, 840.85: HM626634, BBA 67515: HM626631).
+ <italic>rpb2</italic> (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125506&#x00026;link_type=cbs">CBS
+ 125506</ext-link>: HM626676, 125507: HM626675, 840.85: HM626678, BBA 67515:
+ HM626677). <italic>tef-1&#x003b1;</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125507&#x00026;link_type=cbs">CBS 125507</ext-link>:
+ HQ728146, 840.85: HQ728147, BBA 67515: HM626641). See Gr&#x000e4;fenhan <italic>et
+ al.</italic> (<xref ref-type="bibr" rid="ref17">2011</xref>) for other
+ strains included in <xref ref-type="fig" rid="fig1">Fig. 1</xref>.</p><p><italic>Notes</italic>: The syntype of <italic>N. desmazieri</italic> (K), possibly studied
+ by Booth (<xref ref-type="bibr" rid="ref1">1959</xref>,
+ <xref ref-type="bibr" rid="ref2">1971</xref>), is in poor condition (B.
+ Aguirre-Hudson, pers. comm.) and was unavailable. Booth
+ (<xref ref-type="bibr" rid="ref1">1959</xref>,
+ <xref ref-type="bibr" rid="ref2">1971</xref>) reported perithecia and
+ sporodochia on this specimen but it is unclear whether the microscopic details
+ in his descriptions were based on original or secondary material. The label
+ information on BPI 798402, &#x0201c;Erb. Critt. Ital. n. 983, ex Herb. Bot.
+ Gard. Pisa&#x0201d; identifies this specimen as an isotype of <italic>N.
+ desmazieri</italic> (<xref ref-type="bibr" rid="ref7">De Notaris
+ 1863</xref>).</p><p><fig position="float" id="fig11"><label>Fig. 11.</label><caption><p><italic>Geejayessia desmazieri</italic>, spores and spore forming cells. A&#x02013;C.
+ Asci with broadly rounded or slightly flattened apex, lacking or with
+ inconspicuous refractive rings. D. Ascospore surface. E. Ascospores. F.
+ Branched conidiophores from sporodochia. G, N. Hymenium of monophialides from
+ sporodochia. H&#x02013;M, O&#x02013;V. Macroconidia from sporodochia. A&#x02013;E,
+ N, O&#x02013;V, from natural substrate. F&#x02013;M, from SNA/B or SNA/CL.
+ A&#x02013;C, <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20372&#x00026;link_type=cbs">CBS
+ H-20372</ext-link>, epitype of <italic>G. desmazieri</italic>; D, E,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=H-20373&#x00026;link_type=cbs">CBS H-20373</ext-link>; F, G,
+ L, M, <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=840.85&#x00026;link_type=cbs">CBS 840.85</ext-link>;
+ H&#x02013;J, BBA 67515; K, <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125507&#x00026;link_type=cbs">CBS
+ 125507</ext-link>, ex-epitype strain; N&#x02013;V, G00110886, lectotype of
+ <italic>N. gibbera</italic>. N, S&#x02013;V, mounted in lactic acid, all others in
+ water. Scale bars: B (also applies to A, C), H (I&#x02013;M, O&#x02013;V) = 50
+ &#x003bc;m; D, E = 10 &#x003bc;m; F, G (N) = 20 &#x003bc;m; O (H&#x02013;M, P&#x02013;V) = 5
+ &#x003bc;m.</p></caption><graphic xlink:href="115fig11"/></fig></p><p><italic>Geejayessia desmazieri</italic> is characterised by pale orange to reddish
+ brown, less typically reddish perithecia that turn brownish to deep violet in
+ 2 % KOH. Perithecia on the isotype exhibit these colours, and are clustered in
+ small or large groups, similar to what we observed on authentic material of
+ <italic>N. gibbera</italic>. The perithecia of <italic>G. desmazieri</italic> are typically
+ associated with scars on the bark of twigs or formed on the bark. By means of
+ contrast, the perithecia of <italic>G. cicraticum,</italic> redescribed above, are
+ bright red and associated with decaying buds.</p><p>The morphological characters of the anamorph support the distinction of
+ <italic>G. desmazieri</italic> and <italic>G. cicatricum</italic>. These include sizes and
+ shapes of macroconidia produced in culture and as observed on the lectotype
+ and additional specimens. Macroconidia or fragments of macroconidia
+ encountered on reference specimens were compared with macroconidia from pure
+ cultures of recently collected material. Measurements of the length and width
+ of these macroconidia confirmed the identity of the recently collected
+ specimens and the authentic material of <italic>N. gibbera</italic> as <italic>G.
+ desmazieri</italic>. Sporodochial macroconidia on the lectotype of <italic>N.
+ gibbera</italic> were used to recharacterise and lectotypify <italic>Fusarium
+ fuckelii,</italic> which we consider a synonym of <italic>G. desmazieri</italic>. The
+ macroconidia from these exsiccatae are typically less than 6.5 &#x003bc;m wide; on
+ the isotype of <italic>G. desmazieri</italic>, they are 3-septate, while on the
+ lectotype of <italic>N. gibbera</italic>, they are 3&#x02013;5 septate
+ (<xref ref-type="fig" rid="fig11">Fig. 11O&#x02013;V</xref>) similar to
+ macroconidia in recently isolated cultures
+ (<xref ref-type="fig" rid="fig11">Fig. 11H&#x02013;M</xref>). The few
+ macroconidia encountered on the isotype of <italic>G. cicatricum</italic> were wider
+ than those of <italic>G. desmazieri</italic>, 6.5&#x02013;7.5 &#x003bc;m and at least one had
+ 8 septa; similarly broad and septate macroconidia were produced by freshly
+ collected strains of <italic>G. cicraticum</italic>.</p><p>De Notaris (<xref ref-type="bibr" rid="ref7">1863</xref>) originally
+ described <italic>G. desmazieri</italic> from <italic>Buxus balearica</italic>. The
+ identification of the herbarium specimens noted above as <italic>G.
+ desmazieri</italic>, all originating from <italic>B. sempervirens</italic>, is based on
+ their morphological similarities to the lectotype of <italic>N. desmazieri</italic>
+ designated above, and the concept is formalised by the designation of an
+ ex-epitype strain tied to DNA sequences.</p><p>There has been confusion between <italic>Fusarium fuckelii</italic> (applicable to
+ the anamorph of <italic>G. desmazieri</italic>) and <italic>F. buxicola</italic> (applicable
+ to the anamorph of <italic>Cyanonectria buxi,</italic> see above), but the differences
+ in macroconidial dimensions allow the relevant specimen to be reidentified and
+ the names to be clarified. Saccardo
+ (<xref ref-type="bibr" rid="ref43">1886</xref>) copied Fuckel's
+ description of the anamorph of <italic>N. gibbera</italic> for his diagnosis of <italic>F.
+ fuckelii</italic> and explicitly referred to Fuckel
+ (<xref ref-type="bibr" rid="ref11">1870</xref>: 177) where the anamorph
+ of <italic>N. gibbera</italic> is described. Therefore, <italic>F. fuckelii</italic> was
+ unequivocally established as the anamorph of <italic>N. gibbera,</italic> and,
+ following our concepts, is a synonym of <italic>G. desmazieri</italic>. Fuckel
+ (<xref ref-type="bibr" rid="ref11">1870</xref>) described the
+ macroconidia of <italic>Nectria gibbera</italic>, which he later accepted as a synonym
+ of <italic>N. desmazieri</italic> (<xref ref-type="bibr" rid="ref12">Fuckel
+ 1872</xref>), as &#x0201c;5&#x02013;6-septatis, hyalinis, 68 &#x000d7; 8&#x0201d;
+ &#x003bc;m. Our observations of Fuckel's original material of <italic>N. gibbera</italic>
+ (G 00110886 and isotypes listed above) correct the width to 5&#x02013;6.5 &#x003bc;m,
+ measurements that correspond to macroconidia of <italic>G. desmazieri</italic>. As
+ discussed above, Wollenweber &#x00026; Reinking
+ (<xref ref-type="bibr" rid="ref65">1935</xref>) and Booth
+ (<xref ref-type="bibr" rid="ref1">1959</xref>,
+ <xref ref-type="bibr" rid="ref2">1971</xref>) followed Fuckel's
+ synonymy of <italic>N. gibbera</italic> with <italic>G. desmazieri</italic>, but wrongly
+ adopted Saccardo's <italic>F. buxicola</italic> for the anamorph. Booth
+ (<xref ref-type="bibr" rid="ref1">1959</xref>) reported 5&#x02013;6
+ septate macroconidia measuring 30&#x02013;55 &#x000d7; 4&#x02013;5 &#x003bc;m, but later
+ (<xref ref-type="bibr" rid="ref2">Booth, 1971</xref>) reported
+ 3&#x02013;5 septate macroconidia measuring 56&#x02013;73 &#x000d7; 6&#x02013;7 &#x003bc;m.
+ These macroconidial measurements correlate with our concept of <italic>G.
+ desmazieri</italic>; macroconidia of <italic>Cyanonectria buxi</italic> and <italic>G.
+ cicatricum</italic> are mostly longer, wider, and typically have more than 5
+ septa. His observation of &#x0201c;yellow to orange&#x0201d; perithecia suggests
+ that Booth (<xref ref-type="bibr" rid="ref1">1959</xref>,
+ <xref ref-type="bibr" rid="ref2">1971</xref>) saw only specimens and
+ strains of <italic>G. desmazieri,</italic> and did not see the species redescribed
+ above as <italic>C. buxi</italic>.</p><p><italic><bold>Geejayessia zealandica</bold></italic> (Cooke) Schroers, <bold>comb. nov.</bold>
+ MycoBank
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=MB519484&#x00026;link_type=mb">MB519484</ext-link>.&#x0000a;<italic>Basionym</italic>:
+ <italic>Nectria zealandica</italic> Cooke, Grevillea 8: 65. 1879.</p><p><list list-type="simple"><list-item><p>&#x02261; <italic>Cosmospora zealandica</italic> (Cooke) Samuels &#x00026; Nirenberg,
+ Canad. J. Bot. 78: 1483. 2000.</p></list-item><list-item><p>= <italic>Fusarium zealandicum</italic> Nirenberg &#x00026; Samuels, Canad. J. Bot. 78:
+ 1483. 2000.</p></list-item></list>
+ </p><p><italic>Description and illustrations</italic>: Nirenberg &#x00026; Samuels
+ (<xref ref-type="bibr" rid="ref30">2000</xref>).</p><p><italic>Material studied</italic>: <bold>New Zealand</bold>, North Island, Auckland,
+ Waitemata City, Waitakere Ranges, Cascades, on bark of <italic>Hoheria
+ populnea</italic>, 3 June 1983, J.M. Dingley &#x00026; A.Y. Rossman,
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=111.93&#x00026;link_type=cbs">CBS 111.93</ext-link> = BBA
+ 64792, GJS 83-235, ex holotypus anamorphicus; specimen PDD 46436 = BPI 802574;
+ Canterbury, Christchurch, Riccarton, on bark of <italic>Plagianthus</italic> sp., J.M.
+ Dingley, May 1986, BPI 802575, culture
+ <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=101913&#x00026;link_type=cbs">CBS 101913</ext-link> = BBA
+ 65034, GJS 86-509.</p><p><italic>DNA sequences generated</italic>: ITS rDNA
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=111.93&#x00026;link_type=cbs">CBS 111.93</ext-link>:
+ HM626658). LSU rDNA (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=111.93&#x00026;link_type=cbs">CBS
+ 111.93</ext-link>: HM626670). <italic>acl1</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=111.93&#x00026;link_type=cbs">CBS 111.93</ext-link>:
+ HM626626). <italic>tef-1&#x003b1;</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=111.93&#x00026;link_type=cbs">CBS 111.93</ext-link>:
+ HQ728148, 101913: HM626640). <italic>rpb2</italic>
+ (<ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=111.93&#x00026;link_type=cbs">CBS 111.93</ext-link>:
+ HM626684).</p><p><italic>Notes</italic>: The perithecial wall anatomy, stromata development for
+ perithecia and sporodochia, and overall morphological characters of the
+ anamorph and teleomorph (<xref ref-type="bibr" rid="ref30">Nirenberg &#x00026;
+ Samuels 2000</xref>) justify the classification of <italic>N. zealandica</italic>
+ in <italic>Geejayessia</italic>. It differs from other members of the genus by
+ relatively thick perithecial walls.</p></sec><sec><title>DISCUSSION</title><sec><title>Supraspecific classification</title><p><italic>Fusarium</italic> typified by <italic>F. sambucinum</italic> is firmly linked
+ taxonomically to the teleomorphic genus <italic>Gibberella</italic> typified by <italic>G.
+ pulicaris</italic>. Both names refer to the same genetic and phylogenetic species.
+ <italic>Fusarium sambucinum</italic> is closely related to the <italic>Fusarium fujikuroi,
+ F. graminearum, F. incarnatum-equiseti, F. oxysporum</italic> species groups and
+ some others. Their close relationships are confirmed by studies using
+ ribosomal DNA sequences or protein-encoding genes for phylogenetic analyses
+ suggesting that these taxa form a monophyletic group
+ (<xref ref-type="bibr" rid="ref58">Summerbell &#x00026; Schroers
+ 2002</xref>, <xref ref-type="bibr" rid="ref33">O'Donnell <italic>et
+ al.</italic> 2007</xref>, <xref ref-type="bibr" rid="ref56">Schroers <italic>et
+ al.</italic> 2009</xref>, <xref ref-type="bibr" rid="ref35">O'Donnell
+ <italic>et al.</italic> 2010</xref>). The known teleomorphs of these species
+ groups almost always correspond to the modern concept of <italic>Gibberella;</italic>
+ they form homogeneously bluish black pigmented, KOH+, warted perithecia and
+ mostly multiseptate ascospores (<xref ref-type="bibr" rid="ref39">Rossman
+ <italic>et al.</italic> 1999</xref>, <xref ref-type="bibr" rid="ref50">Samuels
+ <italic>et al.</italic> 2001</xref>). Therefore, the strongly supported
+ phylogenetic clade accommodating <italic>Fusarium sambucinum</italic> and its closely
+ related sister clades has been referred to as the &#x0201c;<italic>Gibberella</italic>
+ clade&#x0201d; (<xref ref-type="bibr" rid="ref35">O'Donnell <italic>et al.</italic>
+ 2010</xref>). Applying the philosophy of Article 59 of the International
+ Code of Botanical Nomenclature (<xref ref-type="bibr" rid="ref27">McNeill
+ 2006</xref>), <italic>Gibberella</italic> is the appropriate name for the
+ holomorphs in this clade. However, following the logic argued in this volume
+ by Gr&#x000e4;fenhan <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref17">2011</xref>) and earlier by Seifert
+ &#x00026; Samuels (<xref ref-type="bibr" rid="ref57">2000</xref>), Cannon
+ &#x00026; Kirk (<xref ref-type="bibr" rid="ref3">2000</xref>), Rossman
+ &#x00026; Samuels (<xref ref-type="bibr" rid="ref40">2005</xref>),
+ <italic>Fusarium</italic> Link (<xref ref-type="bibr" rid="ref25">1809</xref>)
+ has priority over <italic>Gibberella</italic> Sacc.
+ (<xref ref-type="bibr" rid="ref41">1877</xref>) and we prefer to use
+ the earlier name for this clade.</p><p>Samuels <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref49">2009</xref>) assigned the term
+ &#x0201c;<italic>Fusarium</italic> group&#x0201d; to the moderately supported phylogenetic
+ clade encompassing several statistically strongly supported subclades, whose
+ relationships among each other remained unresolved. They accepted the
+ subclades of the <italic>Fusarium</italic> group as genera, for example,
+ <italic>Albonectria, Cyanonectria, Gibberella,
+ Neocosmospora</italic>/<italic>Haematonectria</italic> (the latter to be replaced with an
+ earlier, legitimate genus name), following the underlying principles applied
+ to the generic concepts of nectriaceaous fungi presented by Rossman <italic>et
+ al.</italic> (<xref ref-type="bibr" rid="ref39">1999</xref>). Our
+ phylogenetic studies based on protein-encoding genes
+ (<xref ref-type="fig" rid="fig1">Fig. 1</xref>,
+ <xref ref-type="bibr" rid="ref17">Gr&#x000e4;fenhan <italic>et al.</italic>
+ 2011</xref>) extend the results shown by Samuels <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref49">2009</xref>). They identify up to
+ eight strongly supported clades with <italic>Fusarium</italic>-like anamorphs apart
+ from <italic>Dialonectria, Fusicolla, Macroconia Microcera,</italic> and
+ <italic>Stylonectria</italic> that comprise the distantly related, basal
+ <italic>Fusarium</italic> clade.</p><p>Our recognition of the distinctiveness of <italic>Cyanonectria,
+ Geejayessia,</italic> and other genera of the terminal <italic>Fusarium</italic> clade
+ aims to encapsulate a similar degree of divergence at the generic rank across
+ the <italic>Nectriaceae</italic> (<italic>cf.</italic>
+ <xref ref-type="bibr" rid="ref5">Chaverri <italic>et al.</italic> 2011</xref>,
+ <xref ref-type="bibr" rid="ref20">Hirooka <italic>et al.</italic> 2011</xref>)
+ and in other ascomycetous families or orders (<italic>cf.</italic>
+ <xref ref-type="bibr" rid="ref6">Crous <italic>et al.</italic> 2007</xref>,
+ <xref ref-type="bibr" rid="ref62">Tanaka <italic>et al.</italic> 2009</xref>).
+ These conclusions also affirm the importance of applying monophyletic concepts
+ to fungi at the generic level. As discussed by Gr&#x000e4;fenhan <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref17">2011</xref>), the falcate
+ macroconidia of <italic>Fusarium</italic> and morphologically similar genera cannot be
+ interpreted as a genus delineating structure, but are probably a plesiomorphic
+ character present in unrelated taxa of the <italic>Nectriaceae</italic>. At the
+ generic level, the recent name <italic>Cyanonectria</italic> is accepted here and the
+ new genus <italic>Geejayessia</italic> is proposed because they have apparently
+ evolved within the terminal <italic>Fusarium</italic> clade independently, and no
+ other generic name is available.</p><p><fig position="float" id="fig12"><label>Fig. 12.</label><caption><p>Comparison of teleomorph characters of
+ &#x0201c;<italic>Haematonectria</italic>&#x0201d; <italic>illudens</italic>,
+ &#x0201c;<italic>Haematonectria</italic>&#x0201d; sp. and &#x0201c;<italic>Nectria&#x0201d;
+ albida</italic>. A&#x02013;I. &#x0201c;<italic>Haematonectria</italic>&#x0201d;
+ <italic>illudens</italic> on the natural substrate. A. Habit of perithecia. B&#x02013;D.
+ Longitudinal sections of perithecia, erumpent stroma and lateral perithecial
+ wall. E&#x02013;G. Front view of cell layers of the perithecial wall, E, F
+ showing cells of perithecial warts. H, I. Ascospore, H showing surface
+ striations. J&#x02013;P. &#x0201c;<italic>Haematonectria</italic>&#x0201d; sp. J&#x02013;L.
+ Colour changes in perithecium mounted in water (J), replaced with 2 % KOH (K)
+ and then lactic acid (L). M. Habit of perithecia. N. Cells of perithecial
+ warts. O, P. Intermediate cells of the perithecial wall. Q&#x02013;X.
+ &#x0201c;<italic>Nectria&#x0201d; albida</italic>. Q. Habit of perithecia. R&#x02013;T.
+ Colour changes in perithecium mounted in water (R), replaced with 2 % KOH (S)
+ and then lactic acid (T). U. Ascospore. V. Short seta like cells emerging from
+ perithecial wall. W. Hypha-like cells probably continuous with cells of the
+ stroma covering base of perithecium. X. Outermost cell layer of perithecial
+ wall. Arrows in E&#x02013;G, N&#x02013;P, X indicate Samuels pores in cell-walls.
+ A&#x02013;I BPI 802461; J&#x02013;P BPI 745186; Q&#x02013;X BPI 1108875. Scale bars:
+ A, Q = 500 &#x003bc;m; B, J&#x02013;L, R&#x02013;T = 100 &#x003bc;m; C, D = 50 &#x003bc;m;
+ E&#x02013;I, N&#x02013;P, U&#x02013;X = 10 &#x003bc;m; M = 200 &#x003bc;m.</p></caption><graphic xlink:href="115fig12"/></fig></p><p>Clarification of the concepts and nomenclature of the species of two of
+ these genera, <italic>Cyanonectria</italic> and <italic>Geejayessia</italic>, is the main
+ focus of this paper. Often misidentified as <italic>Fusarium buxicola</italic>,
+ representatives of both genera were previously classified in <italic>Fusarium</italic>
+ section <italic>Macroconia</italic> (<xref ref-type="bibr" rid="ref65">Wollenweber
+ &#x00026; Reinking 1935</xref>, <xref ref-type="bibr" rid="ref16">Gerlach
+ &#x00026; Nirenberg 1982</xref>).</p></sec><sec><title>Analysis of morphological characters</title><p>Delimitation of the genera <italic>Cyanonectria</italic> and <italic>Geejayessia</italic>
+ using morphological characters requires reinterpretation of the shape,
+ disposition, colour, and anatomical features of perithecia, ascal apex,
+ stroma, and anamorphic characters.</p><p>Species of <italic>Geejayessia</italic> and <italic>Cyanonectria buxi</italic> form
+ perithecia on a hyphal or byssoid tissue (Figs
+ <xref ref-type="fig" rid="fig3">3I</xref>;
+ <xref ref-type="fig" rid="fig5">5G&#x02013;I</xref>;
+ <xref ref-type="fig" rid="fig7">7C, H</xref>;
+ <xref ref-type="fig" rid="fig8">8E, M</xref>;
+ <xref ref-type="fig" rid="fig10">10H, K</xref>) as observed in
+ previous studies (<xref ref-type="bibr" rid="ref1">Booth 1959</xref>,
+ <xref ref-type="bibr" rid="ref52">Samuels &#x00026; Rogerson 1984</xref>,
+ Nirenberg &#x00026; Samuels 1990, <xref ref-type="bibr" rid="ref53">Samuels
+ <italic>et al.</italic> 1991</xref>). We interpret these cushions as stromata
+ because they consist of densely aggregated, hypha-like cells that emerge
+ through cracks of woody parts or plant hosts or through leaflets of decaying
+ buds. Similar erumpent stromata were also seen in representatives of
+ &#x0201c;<italic>Haematonectria</italic>&#x0201d;
+ (<xref ref-type="fig" rid="fig12">Fig. 12C</xref>) and <italic>Fusarium
+ sensu stricto</italic>, while well-developed stromatal structures are typically
+ absent in genera such as <italic>Cosmospora, Dialonectria, Macroconia</italic>, and
+ <italic>Microcera</italic> (<xref ref-type="bibr" rid="ref53">Samuels <italic>et
+ al.</italic> 1991</xref>, <xref ref-type="bibr" rid="ref17">Gr&#x000e4;fenhan
+ <italic>et al.</italic> 2011</xref>). Booth
+ (<xref ref-type="bibr" rid="ref2">1971</xref>: 59) concluded that the
+ presence or absence of stromata is &#x0201c;hardly worthy of generic
+ rank&#x0201d;, which explains why he placed <italic>G. desmazieri</italic> in the
+ otherwise astromatic &#x0201c;<italic>N.</italic>&#x0201d; <italic>episphaeria</italic> group
+ (<italic>Dialonectria sensu</italic>
+ <xref ref-type="bibr" rid="ref17">Gr&#x000e4;fenhan <italic>et al.</italic>
+ 2011</xref>). Phylogenetic analyses across the <italic>Nectriaceae</italic> and
+ the phylogenetic distinction of stromata forming and astromatous taxa does not
+ support Booth's view (<xref ref-type="fig" rid="fig1">Fig. 1</xref>,
+ <xref ref-type="bibr" rid="ref49">Samuels <italic>et al.</italic> 2009</xref>,
+ <xref ref-type="bibr" rid="ref17">Gr&#x000e4;fenhan <italic>et al.</italic>
+ 2011</xref>). Stromata erumpent through plant tissue and supporting
+ sporodochia and perithecia occur in diverse groups of the <italic>Hypocreales</italic>
+ (<xref ref-type="bibr" rid="ref45">Samuels 1976</xref>,
+ <xref ref-type="bibr" rid="ref39">Rossman <italic>et al.</italic> 1999</xref>).
+ However, they frequently occur in taxa of the terminal <italic>Fusarium</italic>
+ clade, which is rich in plant parasitic species. In contrast, the nearly
+ astromatous genera <italic>Cosmospora, Dialonectria, Macroconia,</italic> and<italic> Microcera</italic>, distantly related to the terminal <italic>Fusarium</italic> clade
+ (<xref ref-type="fig" rid="fig1">Fig. 1</xref>,
+ <xref ref-type="bibr" rid="ref17">Gr&#x000e4;fenhan <italic>et al.</italic>
+ 2011</xref>), seem to be mostly associated with insects, lichens, and
+ other fungi. In <italic>Geejayessia</italic> species with their frequent occurrence on
+ dead branches of living trees, the stroma may be the interface between an
+ endophytic or endoparasitc lifestyle and the exposed fruiting phase (Figs
+ <xref ref-type="fig" rid="fig7">7C</xref>,
+ <xref ref-type="fig" rid="fig8">8E</xref>,
+ <xref ref-type="fig" rid="fig10">10H</xref> for perithecia;
+ <xref ref-type="bibr" rid="ref30">Nirenberg &#x00026; Samuels 2000</xref>,
+ fig. 3 and <xref ref-type="bibr" rid="ref52">Samuels &#x00026; Rogerson
+ 1984</xref>, fig. 5 for sporodochia). Even in species of the
+ <italic>Fusarium</italic> clade associated with more ephemeral gramineous hosts,
+ perithecia are typically firmly connected to the substrate by weakly developed
+ stromata embedded in the plant tissue.</p><p>Perithecia of <italic>C. buxi</italic> and <italic>Geejayessia</italic> spp. can be at
+ least partly covered by a network of hyphae that emerges from the byssoid
+ stroma (Figs <xref ref-type="fig" rid="fig3">3L, M</xref>;
+ <xref ref-type="fig" rid="fig5">5M</xref>;
+ <xref ref-type="fig" rid="fig7">7I</xref>) and terminal hyphae,
+ apparently originating from this network, may appear as short setae (Figs
+ <xref ref-type="fig" rid="fig8">8F</xref>;
+ <xref ref-type="fig" rid="fig10">10M, N</xref>). A similar situation
+ occurs in &#x0201c;<italic>Nectria&#x0201d; albida,</italic> where bases of the smooth
+ perithecia seem to be covered by a hyphal network
+ (<xref ref-type="fig" rid="fig12">Fig. 12W</xref>) from which some
+ terminal hyphae emerge (<xref ref-type="fig" rid="fig12">Fig.
+ 12V</xref>).</p><p>Perithecia of <italic>Cyanonectria</italic> and <italic>Geejayessia</italic> are obpyriform
+ but those of the former have a somewhat widened, broadly rounded ostiolar
+ neck, described by Samuels <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref49">2009</xref>) as &#x0201c;knobby&#x0201d;
+ for <italic>C. cyanostoma</italic> (<xref ref-type="fig" rid="fig3">Fig.
+ 3B&#x02013;D</xref>). On drying, the perithecia collapse laterally. In
+ contrast, perithecia of <italic>G. atrofusca</italic> and <italic>G. zealandica</italic> are
+ rather globose (<xref ref-type="fig" rid="fig7">Fig.
+ 7B&#x02013;D</xref>, Rogerson &#x00026; Samuels 1984, fig. 1;
+ <xref ref-type="bibr" rid="ref30">Nirenberg &#x00026; Samuels 2000</xref>,
+ fig. 4).</p><p>Perithecial colour characters are often used to delineate teleomorphically
+ typified genera with <italic>Fusarium</italic>-like anamorphs
+ (<xref ref-type="bibr" rid="ref39">Rossman <italic>et al.</italic>
+ 1999</xref>). Although the <italic>Nectriaceae</italic> are reasonably well
+ characterised by red or bluish black perithecia with positive colour changes
+ in KOH and lactic acid, our phylogenetic results suggest independent,
+ apomorphic losses or modifications of pigments. Red pigments have probably
+ been lost independently in &#x0201c;<italic>N.</italic>&#x0201d; <italic>albida</italic>
+ (<xref ref-type="fig" rid="fig12">Fig. 12Q&#x02013;T</xref>), and
+ <italic>Albonectria</italic> (<xref ref-type="fig" rid="fig13">Fig.
+ 13K&#x02013;O</xref>), and bluish black in
+ &#x0201c;<italic>Albonectria</italic>&#x0201d; <italic>verrucosa</italic>, which has pale
+ KOH&#x02013;perithecia but is phylogenetically within <italic>Fusarium sensu
+ stricto</italic> (<xref ref-type="bibr" rid="ref39">Rossman <italic>et al.</italic>
+ 1999</xref>, <xref ref-type="bibr" rid="ref17">Gr&#x000e4;fenhan <italic>et
+ al.</italic> 2011</xref>). Colour changes of perithecia in
+ <italic>Cyanonectria</italic> and <italic>Geejayessia</italic> correlate with the basic
+ phenology of the <italic>Nectriaceae</italic>. However, <italic>C. cyanostoma</italic> has
+ remarkable bicoloured perithecia (<xref ref-type="bibr" rid="ref49">Samuels
+ <italic>et al.</italic> 2009</xref>) having a bluish black apex that reacts in
+ KOH in identical manner to the teleomorph of <italic>F. sambucinum</italic>
+ (<xref ref-type="fig" rid="fig13">Fig. 13A&#x02013;F</xref>) and other
+ species of <italic>Fusarium sensu stricto,</italic> while the main part of the red
+ perithecial body reacts identically to the red perithecia of other genera of
+ the <italic>Nectriaceae</italic>. Although the perithecia of <italic>C. buxi</italic> lack red
+ colours and thus do not obviously correspond to the generic concept of
+ <italic>Cyanonectria</italic>, they are heterogeneously pigmented, intensely in their
+ upper part and faintly in their lower part
+ (<xref ref-type="fig" rid="fig3">Fig. 3C&#x02013;G</xref>). The
+ heterogeneous aspect of perithecial pigmentation supports segregation of
+ <italic>Cyanonectria</italic> from other genera of the terminal <italic>Fusarium</italic>
+ clade.</p><p>The spectrum of perithecial colours exhibited by <italic>G. celtidicola</italic>
+ and <italic>G. cicatricum</italic> is also quite characteristic; their perithecia are
+ bright or dark red on the natural substrate and become darker red or purple in
+ KOH and pale yellowish in lactic acid (Figs
+ <xref ref-type="fig" rid="fig5">5A&#x02013;F</xref>,
+ <xref ref-type="fig" rid="fig8">8A&#x02013;D</xref>). In contrast,
+ perithecia of <italic>G. desmazieri</italic> are mostly orange or brownish orange on
+ the natural substrate (<xref ref-type="fig" rid="fig10">Fig.
+ 10A&#x02013;C</xref>, <xref ref-type="bibr" rid="ref53">Samuels <italic>et
+ al.</italic> 1991</xref>, <xref ref-type="bibr" rid="ref1">Booth
+ 1959</xref>). The perithecia of <italic>G. atrofusca</italic> are somewhat
+ <italic>Gibberella</italic>-like because they appear black on the natural substrate.
+ They seem not to change colour in KOH and only inconspicuously so in lactic
+ acid (<xref ref-type="fig" rid="fig7">Fig. 7D&#x02013;F</xref>;
+ <xref ref-type="bibr" rid="ref52">Samuels &#x00026; Rogerson 1984</xref>).
+ This behaviour differs not only from species of <italic>Fusarium</italic>, but also
+ from its closely related, KOH+ sister species in <italic>Geejayessia</italic>.</p><p>Species of <italic>Geejayessia</italic> have outer perithecial wall layers
+ differing from those of species of <italic>Albonectria, Fusarium</italic>, and
+ &#x0201c;<italic>Haematonectria</italic>&#x0201d;. Perithecial walls of these species are
+ rather narrow, which led Booth
+ (<xref ref-type="bibr" rid="ref1">1959</xref>) to classify <italic>N.
+ desmazieri</italic> in the <italic>N. episphaeria</italic> group. The wall consists of a
+ single region, comprising several layers of morphologically similar cells that
+ gradually change shape and size across the wall, but cannot be recognised as
+ forming distinct regions. This pattern is also shared by species of
+ <italic>Cyanonectria</italic> (<xref ref-type="fig" rid="fig3">Fig. 3H, K,
+ N</xref>), &#x0201c;<italic>N.</italic>&#x0201d; <italic>albida</italic>
+ (<xref ref-type="fig" rid="fig12">Fig. 12X</xref>), and the distantly
+ related species of <italic>Dialonectria, Cosmospora, Microcera,</italic> and
+ <italic>Macroconia.</italic> In contrast, <italic>Albonectria, Fusarium,</italic> and most
+ species of &#x0201c;<italic>Haematonectria</italic>&#x0201d; have rather strongly warted
+ perithecia and thicker perithecial walls.</p><p>In species of <italic>Cyanonectria</italic> and <italic>Geejayessia</italic>, the cell
+ walls in all layers have locally and abruptly thinned areas <italic>ca.</italic> 1
+ &#x003bc;m diam or less, but which do not become complete pores (Figs
+ <xref ref-type="fig" rid="fig3">3N</xref>;
+ <xref ref-type="fig" rid="fig5">5N</xref>;
+ <xref ref-type="fig" rid="fig7">7J, K</xref>;
+ <xref ref-type="fig" rid="fig8">8G, H</xref>;
+ <xref ref-type="fig" rid="fig10">10O&#x02013;P</xref>). We propose the
+ name &#x0201c;Samuels pores&#x0201d; for these structures.They appear to differ
+ from the so-called &#x0201c;Munk pores&#x0201d; in the <italic>Nitschkiaceae</italic> and
+ other related <italic>Sordariomycetes</italic>
+ (<xref ref-type="bibr" rid="ref4">Carroll &#x00026; Munk 1964</xref>),
+ which are typically surrounded by a distinctly thickened and morphologically
+ conspicuous rim (<xref ref-type="bibr" rid="ref47">Samuels <italic>et al.</italic>
+ 1993</xref>, figs <xref ref-type="fig" rid="fig6">6</xref>,
+ <xref ref-type="fig" rid="fig12">12</xref>;
+ <xref ref-type="bibr" rid="ref63">Vasilyeva <italic>et al.</italic>
+ 2010</xref>, fig. 7 j, k). In contrast, the cell wall surrounding Samuels
+ pores in the <italic>Hypocreales</italic> is typically strongly and abruptly
+ attenuated and is probably never completely perforated; no rim surrounds these
+ pores. Samuels pores were seen in species of <italic>Microcera</italic> and, for
+ example, <italic>Cosmospora joca</italic> (<xref ref-type="bibr" rid="ref53">Samuels
+ <italic>et al.</italic> 1991</xref>, fig. 23), <italic>C. lasiodiplodiae</italic>
+ (<italic>ibid</italic>., fig. 25), <italic>C. pseudepisphaeria</italic>
+ (<xref ref-type="bibr" rid="ref39">Rossman <italic>et al.</italic> 1999</xref>,
+ plate 28 i), <italic>Chaetopsinectria chaetopsinae</italic>
+ (<xref ref-type="bibr" rid="ref46">Samuels 1985</xref>, fig. 1B),
+ <italic>Ch. chaetopsinae-penicillatae</italic> (<italic>ibid</italic>., fig. 4D), and <italic>Ch.
+ chaetopsinae-catenulatae</italic> (<italic>ibid</italic>., fig. 5B). At least rarely, they
+ occur in the outermost layers of perithecial cells or in the cells of
+ perithecial warts of representatives also of
+ &#x0201c;<italic>Haematonectria</italic>&#x0201d;
+ (<xref ref-type="fig" rid="fig12">Fig. 12E&#x02013;G, N&#x02013;P</xref>),
+ &#x0201c;<italic>Nectria</italic>&#x0201d; <italic>albida</italic>
+ (<xref ref-type="fig" rid="fig12">Fig. 12X</xref>), <italic>Fusarium
+ sambucinum</italic> (<xref ref-type="fig" rid="fig13">Fig. 13H, I</xref>),
+ and <italic>Albonectria rigidiuscula</italic>
+ (<xref ref-type="fig" rid="fig13">Fig. 13P&#x02013;R</xref>).</p><p>Perithecial walls of species of <italic>Cyanonectria</italic> and
+ <italic>Geejayessia</italic> are also similar to the innermost of the two or three
+ regions observed in species of the distantly related genus <italic>Bionectria</italic>
+ (<italic>Bionectriaceae</italic>). Samuels pores in <italic>Bionectria</italic> were only seen
+ in the innermost anatomical region of perithecial walls
+ (<xref ref-type="bibr" rid="ref54">Schroers 2001</xref>, figs 31i, 42k,
+ 44h, 46k). Samuels pores may occur only in the inner region of perithecial
+ walls that consist of multiple regions or throughout the entire perithecial
+ wall when there is only a single wall region. Accordingly, the presence or
+ absence of Samuels pores could be used as an additional criterion to identify
+ homologous perithecial wall regions among hypocrealean taxa. Their observed
+ presence in the innermost and also in the more or less outermost cell layers
+ in &#x0201c;<italic>Haematonectria</italic>&#x0201d;
+ (<xref ref-type="fig" rid="fig12">Fig. 12E&#x02013;G, N&#x02013;P</xref>),
+ &#x0201c;<italic>N.&#x0201d; albida</italic> (<xref ref-type="fig" rid="fig12">Fig.
+ 12X</xref>) and <italic>Albonectria</italic>
+ (<xref ref-type="fig" rid="fig13">Fig. 13P&#x02013;R</xref>) suggests
+ the perithecial walls may have been originally derived from, or consist of,
+ only one wall region. This wall region may be homologous to the entire wall of
+ <italic>Geejayessia</italic> species, but to the inner wall region only of
+ <italic>Bionectria</italic> species. This interpretation is discordant with the
+ prevailing view. For example, Rossman <italic>et al.</italic>
+ (<xref ref-type="bibr" rid="ref39">1999</xref>) distinguished three
+ distinct perithecial wall regions in <italic>Albonectria</italic> and two in
+ &#x0201c;<italic>Haematonectria</italic>&#x0201d;, emphasising characters seen in
+ longitudinal sections such as shape of cells and thickness and pigmentation of
+ cell-walls.</p><p><fig position="float" id="fig13"><label>Fig. 13.</label><caption><p>Comparison of teleomorph characters of <italic>Fusarium sambucinum</italic> and
+ <italic>Albonectria</italic> <italic>rigidiuscula</italic>. A&#x02013;J. <italic>Fusarium
+ sambucinum</italic> on the natural substrate. A&#x02013;C. Habit of perithecia.
+ D&#x02013;F. Colour changes in perithecium mounted in water (D), replaced with 2
+ % KOH (E) and then with lactic acid (F). G&#x02013;I. Face view of cell layers
+ of the perithecial wall. G. Cells of perithecial warts. I. Innermost cells of
+ the perithecial wall. K&#x02013;U. <italic>Albonectria rigidiuscula</italic>. K&#x02013;M.
+ Colour changes in perithecium mounted in water (K), replaced with 2 % KOH (L)
+ and then with lactic acid (M). N, O. Habit of perithecia. P, Q. Cells of
+ perithecial warts. R. Cells of the main perithecial wall. S&#x02013;U.
+ Ascospores, U showing wall surface. Arrows in H, I, P&#x02013;R indicate Samuels
+ pores in cell walls. A, B, D&#x02013;F HJS 1459; C, G&#x02013;J BPI 1109327;
+ K&#x02013;U HJS 0109. Scale bars: A = 1 mm; B, C, N, O = 500 &#x003bc;m; D&#x02013;F,
+ K&#x02013;M = 100 &#x003bc;m; G = 20 &#x003bc;m; H&#x02013;J, P&#x02013;U = 10 &#x003bc;m.</p></caption><graphic xlink:href="115fig13"/></fig></p><p>The asci of <italic>Geejayessia</italic> species are clavate and either lack or
+ have an inconspicuous refractive ring (Figs
+ <xref ref-type="fig" rid="fig6">6A&#x02013;C</xref>,
+ <xref ref-type="fig" rid="fig7">7L</xref>,
+ <xref ref-type="fig" rid="fig9">9A&#x02013;C</xref>,
+ <xref ref-type="fig" rid="fig11">11A&#x02013;C</xref>). In
+ <italic>Cyanonectria buxi</italic> refractive rings were observed
+ (<xref ref-type="fig" rid="fig11">Fig. 11A&#x02013;D</xref>) comparable
+ to those reported for <italic>C. cyanostoma</italic>
+ (<xref ref-type="bibr" rid="ref49">Samuels <italic>et al.</italic>
+ 2009</xref>). The ascospores of all known <italic>Cyanonectria</italic> and
+ <italic>Geejayessia</italic> species are 1-septate. They are initially more or less
+ smooth, but, perhaps as a function of maturity, are sometimes finely warted in
+ <italic>Cyanonectria, G. atrofusca</italic>, and <italic>G. celtidicola</italic> (Figs
+ <xref ref-type="fig" rid="fig4">4E&#x02013;H</xref>,
+ <xref ref-type="fig" rid="fig7">7M</xref>,
+ <xref ref-type="fig" rid="fig9">9D</xref>,
+ <xref ref-type="bibr" rid="ref49">Samuels <italic>et al.</italic> 2009</xref>,
+ fig. 2j), and clearly warted in <italic>G. cicatricum</italic> and <italic>G.
+ desmazieri</italic> (Figs
+ <xref ref-type="fig" rid="fig6">6D&#x02013;G</xref>;
+ <xref ref-type="fig" rid="fig11">11D, E</xref>). At maturity and when
+ clearly warted, the ascospores were somewhat yellowish brown in
+ <italic>Geejayessia</italic> but hyaline in <italic>Cyanonectria</italic>. Our generic concept
+ emphasises the meaning of ascospore septation as a delimiting character. By
+ means of contrast, &#x0201c;<italic>N.</italic>&#x0201d; <italic>albida, Fusarium sensu
+ stricto</italic>, and <italic>Albonectria</italic> have multi-septate ascospores (Figs
+ <xref ref-type="fig" rid="fig12">12U</xref>;
+ <xref ref-type="fig" rid="fig13">13J, S, T</xref>).</p><p>The macroconidia in <italic>Cyanonectria</italic> and <italic>Geejayessia</italic> species
+ correspond to <italic>Nectria</italic> section <italic>Macroconia,</italic> characterised by
+ an almost cylindrical main body and relatively conspicuous or thick walls and
+ septa (<xref ref-type="bibr" rid="ref65">Wollenweber &#x00026; Reinking
+ 1935</xref>, <xref ref-type="bibr" rid="ref16">Gerlach &#x00026; Nirenberg
+ 1982</xref>). They have moderately or well-developed, pedicellate basal
+ cells and gently curved or clearly hooked and tapering apical cells. Most
+ macroconidia are only gently curved (Figs
+ <xref ref-type="fig" rid="fig4">4U&#x02013;Y</xref>;
+ <xref ref-type="fig" rid="fig7">7Q, R</xref>;
+ <xref ref-type="fig" rid="fig9">9L&#x02013;P</xref>;
+ <xref ref-type="fig" rid="fig11">11H&#x02013;M, O&#x02013;V</xref>;
+ <xref ref-type="bibr" rid="ref30">Nirenberg &#x00026; Samuels 2000</xref>,
+ figs 8&#x02013;10) but more arced macroconidia were seen in <italic>G.
+ cicatricum</italic> (<xref ref-type="fig" rid="fig6">Fig.
+ 6M&#x02013;Q</xref>). Distal and proximal cells of macroconidia are usually
+ longer than intercalary cells. A few macroconidia can be observed in squash
+ mounts of perithecial stromata from herbarium specimens. Erumpent sporodochia
+ sometimes occur, emerging through the outer cortex of the bark. Sporodochia of
+ <italic>C. buxi</italic> were seen on specimens lacking perithecial stromata,
+ <italic>e.g.</italic> <ext-link ext-link-type="uri" xlink:href="http://www.studiesinmycology.org/cgi/external_ref?access_num=125547&#x00026;link_type=cbs">CBS
+ 125547</ext-link>. In culture, macroconidia are formed first on
+ verticillately branched conidiophores that correspond to structures called
+ macroconidial &#x0201c;sporodochia&#x0201d; by Wollenweber &#x00026; Reinking
+ (<xref ref-type="bibr" rid="ref65">1935</xref>) and Gerlach &#x00026;
+ Nirenberg (<xref ref-type="bibr" rid="ref16">1982</xref>) (Figs
+ <xref ref-type="fig" rid="fig6">6K, L</xref>;
+ <xref ref-type="fig" rid="fig9">9I, J</xref>;
+ <xref ref-type="fig" rid="fig11">11F</xref>). Conidiophore cells
+ beneath the phialides in sporodochia of <italic>Geejayessia</italic> frequently have
+ anastomosing bridges between neighbouring cells (Figs
+ <xref ref-type="fig" rid="fig6">6L</xref>;
+ <xref ref-type="fig" rid="fig9">9I, J</xref>). On SNA/CL or SNA/B,
+ sporodochia with a well-developed subhymenium occur in <italic>Cyanonectria</italic>
+ and <italic>Geejayessia</italic> (Figs
+ <xref ref-type="fig" rid="fig4">4T</xref>;
+ <xref ref-type="fig" rid="fig7">7N</xref>;
+ <xref ref-type="fig" rid="fig9">9G, H</xref>;
+ <xref ref-type="fig" rid="fig11">11G</xref>) similar to those observed
+ in nature for <italic>G. zealandica</italic>
+ (<xref ref-type="bibr" rid="ref30">Nirenberg &#x00026; Samuels 2000</xref>,
+ fig. 3). In culture, species of <italic>Cyanonectria</italic> and <italic>Geejayessia</italic>
+ are faster growing than the species originally included in <italic>Nectria</italic>
+ section <italic>Macroconia</italic> (<xref ref-type="bibr" rid="ref64">Wollenweber
+ 1926</xref>), transferred to <italic>Macroconia</italic> or <italic>Microcera</italic>
+ (<xref ref-type="bibr" rid="ref17">Gr&#x000e4;fenhan <italic>et al.</italic>
+ 2011</xref>). The anamorph of <italic>G. cicatricum</italic> may have been
+ confused with <italic>C. buxi</italic> or <italic>G. desmazieri</italic> in the past. It has
+ similarly wide and long macroconidia as <italic>C. buxi</italic> and forms similarly
+ pale colonies on SNA or PDA as <italic>G. desmazieri. Geejayessia celtidicola</italic>
+ forms comparably little aerial mycelium on PDA and, at 30 &#x000b0;C, produces
+ greyish colonies dissimilar to those of <italic>G. atrofusca, G. desmazieri</italic>,
+ and <italic>G. zealandica</italic>. On PDA, <italic>Cyanonectria buxi</italic> forms a dark
+ colony reverse and surface showing bluish hues
+ (<xref ref-type="fig" rid="fig4">Fig. 4AA&#x02013;AD</xref>). This
+ combination of characters is not seen in other fusaria. A dark reverse is not
+ produced in cultures of its closest relative, <italic>C. cyanostoma</italic>; Samuels
+ <italic>et al.</italic> (<xref ref-type="bibr" rid="ref49">2009</xref>)
+ described its PDA cultures as white to cream. When describing <italic>F.
+ buxicola,</italic> Gerlach &#x00026; Nirenberg
+ (<xref ref-type="bibr" rid="ref16">1982</xref>) mentioned fawn to brown
+ colours, rarely blue or verdigris spotted colonies. We encountered no such
+ spotted colouration in <italic>G. cicatricum</italic> or <italic>G. desmazieri</italic>, which
+ suggests that Gerlach &#x00026; Nirenberg
+ (<xref ref-type="bibr" rid="ref16">1982</xref>) may have included
+ <italic>C. buxi</italic> and <italic>G. desmazieri</italic> in their description of <italic>F.
+ buxicola</italic>. No red pigments were observed in <italic>Geejayessia</italic>, while in
+ <italic>Albonectria, Fusarium sensu stricto</italic>, and to some extent also
+ &#x0201c;<italic>Haematonectria</italic>&#x0201d;, red, violet, or purple pigments are
+ commonly seen.</p><p>We did not see microconidia in our study of cultures of <italic>C. buxi</italic>
+ and <italic>G. desmazieri,</italic> but Gerlach &#x00026; Nirenberg
+ (<xref ref-type="bibr" rid="ref16">1982</xref>) reported
+ &#x0201c;ellipsoid, spindle- or comma-shaped (according to
+ <xref ref-type="bibr" rid="ref65">Wollenweber &#x00026; Reinking
+ 1935</xref> and J. Ehrlich, cited by
+ <xref ref-type="bibr" rid="ref1">Booth 1959</xref>)&#x0201d; macroconidia
+ for <italic>C. buxi</italic>. Nirenberg &#x00026; Samuels
+ (<xref ref-type="bibr" rid="ref30">2000</xref>) did not mention
+ microconidia when describing <italic>G. zealandica</italic>. The microconidia we
+ observed in <italic>G. atrofusca</italic> (<xref ref-type="fig" rid="fig7">Fig. 7S,
+ T</xref>) largely confirm the observations made by Samuels &#x00026; Rogerson
+ (<xref ref-type="bibr" rid="ref52">1984</xref>).</p></sec><sec><title>Life style and ecology</title><p><italic>Cyanonectria</italic> and <italic>Geejayessia</italic> are associated only with
+ woody hosts. Remarkably, we are not aware of any <italic>Geejayessia</italic> isolated
+ from bulk soil, while representatives of several other taxa in the terminal
+ <italic>Fusarium</italic> clade are well known as soil inhabitants or soil-borne plant
+ pathogens. With the exception of <italic>G. zealandica,</italic> the species of
+ <italic>Geejayessia</italic> and <italic>Cyanonectria</italic> have never been isolated from
+ substrates other than <italic>Buxus sempervirens, B. balearica</italic> (<italic>Buxales,
+ Buxaceae</italic>), <italic>Celtis occidentalis</italic> (<italic>Rosales, Ulmaceae</italic>), or
+ <italic>Staphylea trifolia</italic> (<italic>Crossosomatales, Staphyleaceae</italic>).</p></sec></sec></body><back><ack><p>We are grateful to the curators of the CBS and DAOM culture collections for
+ providing and preserving cultures for our studies, and the herbaria BPI, DAOM,
+ G, K, M, and W for loans of specimens. H.-J.S. extends his gratitude to Walter
+ Gams (Baarn, the Netherlands) for assistance with the Latin diagnosis and
+ Silvester &#x0017d;gur (University of Ljubljana, Biotechnical Faculty,
+ Institute for Animal Breeding) for kindly providing access to a microtome. We
+ thank Amy Rossman (Systematic Mycology &#x00026; Microbiology Laboratory (SMML),
+ USDA, Beltsville, USA) and Brett Summerell (Royal Botanic Gardens, Sydney,
+ Australia) for providing helpful comments on earlier versions of this text.
+ The illustrations in <xref ref-type="fig" rid="fig12">Fig. 12B, C and
+ D</xref> were made from longitudinal sections prepared by Gary J. Samuels
+ (SMML).</p></ack><ref-list><ref id="ref1"><mixed-citation publication-type="journal">Booth C (<year>1959</year>). Studies of pyrenomycetes: IV.
+ <italic>Nectria</italic> (part I). <source>Mycological Papers</source>
+ <volume>73</volume>:
+ <fpage>1</fpage>&#x02013;115.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="other">Booth C (<year>1971</year>). <source>The genus
+ Fusarium</source>. Commonwealth Mycological Institute, Kew.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal">Cannon PF, Kirk PM (<year>2000</year>). The philosophy and
+ practicalities of amalgamating anamorph and teleomorph concepts.
+ <source>Studies in Mycology</source> <volume>45</volume>:
+ <fpage>19</fpage>&#x02013;25.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal">Carroll G, Munk A (<year>1964</year>). Studies on lignicolous
+ Sordariaceae. <source>Mycologia</source>
+ <volume>56</volume>:
+ <fpage>77</fpage>&#x02013;98.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal">Chaverri P, Salgado C, Hirooka Y, Rossman AY, Samuels GJ
+ (<year>2011</year>). Delimitation of <italic>Neonectria</italic> and
+ <italic>Cylindrocarpon</italic> (<italic>Nectriaceae, Hypocreales, Ascomycota</italic>) and
+ related genera with <italic>Cylindrocarpon</italic>-like anamorphs. <source>Studies
+ in Mycology</source> <volume>68</volume>:
+ <fpage>57</fpage>&#x02013;78 (this issue).</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal">Crous PW, Braun U, Schubert K, Groenewald JZ (<year>2007</year>).
+ Delimiting <italic>Cladosporium</italic> from morphologically similar genera.
+ <source>Studies in Mycology</source> <volume>58</volume>:
+ <fpage>33</fpage>&#x02013;56.<pub-id pub-id-type="pmid">18490995</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="other">Notaris G de (<year>1863</year>). <source>Sferiacei Italici</source>.
+ Genova, Tipi del R.I. de' Sordo-Muti:
+ <fpage>10</fpage>&#x02013;11.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="other">Domsch KH, Gams W, Anderson T (<year>2007</year>).
+ <source>Compendium of soil fungi</source>. 2<sup>nd</sup> ed.
+ IHW-Verlag, Eching, Germany.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal">Doveri F, Pecchia S, Sarrocco S, Minnocci A, Vannacci G
+ (<year>2010</year>). <italic>Rodentomyces</italic>, a new hypocrealean genus from
+ Italy. <source>Fungal Diversity</source>
+ <volume>42</volume>:
+ <fpage>57</fpage>&#x02013;69.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal">Ellis JB, Tracy SM (<year>1890</year>) A few new fungi.
+ <source>Journal of Mycology</source>
+ <volume>6</volume>(2):
+ <fpage>76</fpage>&#x02013;77.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal">Fuckel L (<year>1870</year>). Symbolae mycologicae. Beitr&#x000e4;ge
+ zur Kenntnis der rheinischen Pilze. <source>Jahrb&#x000fc;cher des
+ Nassauischen Vereins f&#x000fc;r Naturkunde</source>
+ <volume>23&#x02013;24</volume>:
+ <fpage>1</fpage>&#x02013;459.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal">Fuckel L (<year>1872</year>). Symbolae mycologicae. Beitr&#x000e4;ge
+ zur Kenntnis der rheinischen Pilze. Erster Nachtrag.
+ <source>Jahrb&#x000fc;cher des Nassauischen Vereins f&#x000fc;r
+ Naturkunde</source> <volume>25&#x02013;26</volume>:
+ <fpage>1</fpage>&#x02013;459.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal">Fuckel L (<year>1873</year>). Symbolae mycologicae. Beitr&#x000e4;ge
+ zur Kenntnis der rheinischen Pilze. <source>Jahrb&#x000fc;cher des
+ Nassauischen Vereins f&#x000fc;r Naturkunde</source>
+ <volume>27&#x02013;28</volume>:
+ <fpage>1</fpage>&#x02013;99.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="other">Gams W, Hoekstra ES, Aptroot A (<year>1998</year>). <source>CBS
+ Course of Mycology,</source> 4<sup>th</sup> edn. Centraalbureau voor
+ Schimmelcultures, Baarn, the Netherlands.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="other">Gams W, Nirenberg HI, Samuels GJ, Seifert KA, Thrane U, Neish GA
+ (1997). Database of <italic>Fusarium</italic> names.
+ <ext-link ext-link-type="uri" xlink:href="http://www.cbs.knaw.nl/databases/fusarium/database.aspx">http://www.cbs.knaw.nl/databases/fusarium/database.aspx</ext-link></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal">Gerlach W, Nirenberg HI (<year>1982</year>). The genus
+ <italic>Fusarium</italic>&#x02014;a pictorial atlas. <source>Mitteilungen aus der
+ Biologischen Bundesanstalt fur Land- und Forstwirtschaft</source>
+ <volume>209</volume>:
+ <fpage>1</fpage>&#x02013;406.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal">Gr&#x000e4;fenhan T, Schroers H-J, Nirenberg HI, Seifert KA
+ (<year>2011</year>). An overview of the taxonomy, phylogeny and typification
+ of some nectriaceous fungi classifed in <italic>Cosmospora, Acremonium, Fusarium,
+ Stilbella</italic> and <italic>Volutella. </italic><source>Studies in Mycology</source>
+ <volume>68</volume>: <fpage>79</fpage>&#x02013;113 (this
+ issue).</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal">Guindon S, Gascuel O (<year>2003</year>). A simple, fast, and
+ accurate algorithm to estimate large phylogenies by maximum likelihood.
+ <source>Systematic Biology</source> <volume>52</volume>:
+ <fpage>696</fpage>&#x02013;704.<pub-id pub-id-type="pmid">14530136</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal">Hirooka Y, Kobayashi T, Samuels GJ (<year>2008</year>). Taxonomic
+ studies of nectrioid fungi in Japan. III. The genus <italic>Cosmospora.
+ </italic><source>Mycoscience</source> <volume>49</volume>:
+ <fpage>281</fpage>&#x02013;290.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal">Hirooka Y, Rossman AY, Chaverri P (<year>2011</year>).
+ Morphological and phylogenetic analyses of the <italic>Nectria cinnabarina</italic>
+ species complex. <source>Studies in Mycology</source>
+ <volume>68</volume>: <fpage>35</fpage>&#x02013;56 (this
+ issue).</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="other">Holmgren, PK, Holmgren NH, Barnett LC (<year>1990</year>)
+ <source>Index herbariorum</source>, 8<sup>th</sup> ed. Regnum
+ vegetabile vol. <volume>120</volume>. Gantner Verlag, Ruggell,
+ Liechtenstein.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="other">Kornerup A, Wanscher JH (<year>1978</year>). <source>Methuen
+ handbook of colour,</source> 3<sup>rd</sup> edition.
+ <fpage>1</fpage>&#x02013;252. Eyre Methuen, London.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal">Leslie JF (<year>1991</year>) Mating populations in <italic>Gibberella
+ fujikuroi</italic> (<italic>Fusarium</italic> Section <italic>Liseola</italic>).
+ <source>Phytopathology</source> <volume>81</volume>:
+ <fpage>1058</fpage>&#x02013;1060.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="other">Leslie JF, Summerell BA (<year>2006</year>). <source>The
+ Fusarium laboratory manual</source>. Blackwell Publishing Professional,
+ Ames, Iowa.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal">Link JHF (<year>1809</year>). Observationes in ordines plantarum
+ naturales. Dissertatio Ime. <source>Gesellschaft Naturforschender Freunde
+ zu Berlin</source> <volume>3</volume>:
+ <fpage>3</fpage>&#x02013;42.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="other">Marasas WFO, Nelson PE, Toussoun TA (<year>1984</year>).
+ <source>Toxigenic Fusarium species: Identity and
+ mycotoxicology.</source> Pennsylvania State University Press, University
+ Park, PA.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="other">McNeill J, Barrie FR, Burdet HM, Demoulin V, Hawksworth DL, Marhold
+ K, Nicolson DH, Prado J, Silva PC, Skog JE, Wiersema JH, Turland NJ
+ (<year>2006</year>). <source>International Code of Botanical Nomenclature
+ (Vienna Code).</source> Regnum Vegetabile, vol.
+ <volume>146</volume>, Gantner Verlag, Ruggell,
+ Liechtenstein.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="other">Nelson PE, Toussoun TA, Marasas WFO (<year>1983</year>).
+ <source>Fusarium species. An illustrated manual for
+ identification.</source> The Pennsylvania State University Press,
+ University Park and London.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal">Nirenberg HI (<year>1976</year>). Untersuchungen &#x000fc;ber die
+ morphologische und biologische Differenzierung in der <italic>Fusarium</italic>
+ Sektion <italic>Liseola. </italic><source>Mitteilungen aus der Biologischen Bundesanstalt
+ fur Land- und Forstwirtschaft</source> <volume>169</volume>:
+ <fpage>1</fpage>&#x02013;117.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal">Nirenberg HI, Samuels GJ (<year>2000</year>). <italic>Nectria</italic> and
+ <italic>Fusarium</italic>. II. <italic>Cosmospora zealandica</italic> comb.nov. and its
+ anamorph, <italic>Fusarium zealandicum</italic> sp. nov. <source>Canadian Journal
+ of Botany</source> <volume>78</volume>:
+ <fpage>1482</fpage>&#x02013;1487.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="other">O'Donnell K (<year>1993</year>). <italic>Fusarium</italic> and its near
+ relatives. In: <source>The fungal holomorph: mitotic, meiotic and
+ pleomorphic speciation in fungal systematics</source> (Reynolds DR, Taylor
+ JW, eds), CAB International, Wallingford, England:
+ <fpage>225</fpage>&#x02013;233.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal">O'Donnell K (<year>2000</year>). Molecular phylogeny of the
+ <italic>Nectria haematococca</italic>-<italic>Fusarium solani</italic> species complex.
+ <source>Mycologia</source> <volume>92</volume>:
+ <fpage>919</fpage>&#x02013;938.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal">O'Donnell K, Sarver BAJ, Brandt M, Chang DC, Noble-Wang J, Park BJ,
+ Sutton DA, Benjamin L, Lindsley M, Padhye A, Geiser DM, Ward TJ
+ (<year>2007</year>). Phylogenetic diversity and microsphere array-based
+ genotyping of human pathogenic fusaria, including isolates from the
+ 2005&#x02013;06 multistate contact lens-associated U.S. keratitis outbreaks.
+ <source>Journal of Clinical Microbiology</source>
+ <volume>45</volume>:
+ <fpage>2235</fpage>&#x02013;2248.<pub-id pub-id-type="pmid">17507522</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal">O'Donnell K, Sutton DA, Fothergill A, McCarthy D, Rinaldi MG,
+ Brandt ME, Zhang N, Geiser DM (<year>2008</year>). Molecular phylogenetic
+ diversity, multilocus haplotype nomenclature, and in vitro antifungal
+ resistance within the <italic>Fusarium solani</italic> species complex.
+ <source>Journal of Clinical Microbiology</source>
+ <volume>46</volume>:
+ <fpage>2477</fpage>&#x02013;2490.<pub-id pub-id-type="pmid">18524963</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal">O'Donnell K, Sutton DA, Rinaldi MG, Sarver BAJ, Balajee SA,
+ Schroers H-J, Summerbell RC, Robert VARG, Crous PW, Zhang N, Aoki T, Jung K,
+ Park J, Lee Y-H, Kang S, Park B, Geiser DM (<year>2010</year>).
+ Internet-accessible DNA sequence database for identifying fusaria from human
+ and animal infections. <source>Journal of Clinical
+ Microbiology</source> <volume>48</volume>:
+ <fpage>3708</fpage>&#x02013;3718.<pub-id pub-id-type="pmid">20686083</pub-id></mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal">Page RDM (<year>1996</year>). TREEVIEW: An application to display
+ phylogenetic trees on personal computers. <source>Computer Applications in
+ the Biosciences</source> <volume>12</volume>:
+ <fpage>357</fpage>&#x02013;358.<pub-id pub-id-type="pmid">8902363</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal">Posada D (<year>2008</year>). jModelTest: Phylogenetic Model
+ Averaging. <source>Molecular Biology and Evolution</source>
+ <volume>25</volume>:
+ <fpage>1253</fpage>&#x02013;1256.<pub-id pub-id-type="pmid">18397919</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal">Ronquist F, Huelsenbeck JP (<year>2003</year>). MrBayes 3: Bayesian
+ phylogenetic inference under mixed models.
+ <source>Bioinformatics</source> <volume>19</volume>:
+ <fpage>1572</fpage>&#x02013;1574.<pub-id pub-id-type="pmid">12912839</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal">Rossman AY, Samuels GJ, Rogerson CT, Lowen R (<year>1999</year>).
+ Genera of <italic>Bionectriaceae, Hypocreaceae</italic> and <italic>Nectriaceae</italic>
+ (<italic>Hypocreales, Ascomycetes</italic>). <source>Studies in
+ Mycology</source> <volume>42</volume>:
+ <fpage>1</fpage>&#x02013;248.</mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal">Rossman AY, Samuels GJ (<year>2005</year>). Towards a single
+ scientific name for species of fungi. <source>Inoculum</source>
+ <volume>56</volume>:
+ <fpage>3</fpage>&#x02013;6.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal">Saccardo PA (<year>1877</year>). Fungi Veneti novi vel critici vel
+ Mycologiae Venetae addendi. Ser. 6. <source>Michelia</source>
+ <volume>1</volume>:
+ <fpage>1</fpage>&#x02013;72.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="other">Saccardo PA (<year>1883</year>). <source>Sylloge Fungorum omnium
+ hucusque cognitorum. Vol. 2. Pyrenomycologiae universae continuation et
+ finis</source>. Padova.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="other">Saccardo PA (<year>1886</year>). <source>Sylloge Fungorum omnium
+ hucusque cognitorum. Vol. 4.</source> Padova.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="other">Saccardo PA (<year>1892</year>). <source>Sylloge Fungorum omnium
+ hucusque cognitorum. Vol. 10. Supplementum universal.</source>
+ Padova.</mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal">Samuels GJ (<year>1976</year>). A revision of the fungi formerly
+ classified as <italic>Nectria</italic> subgenus <italic>Hyphonectria. </italic><source>Memoirs of
+ the New York Botanical Garden</source> <volume>26</volume>:
+ <fpage>1</fpage>&#x02013;126.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal">Samuels GJ (<year>1985</year>). Four new species of
+ <italic>Nectria</italic> and their <italic>Chaetopsina</italic> anamorphs.
+ <source>Mycotaxon</source> <volume>22</volume>:
+ <fpage>13</fpage>&#x02013;32.</mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal">Samuels GJ, Barr ME, Lowen R (<year>1993</year>). Revision of
+ <italic>Schizoparme</italic> (<italic>Diaporthales, Melanconidaceae</italic>).
+ <source>Mycotaxon</source> <volume>46</volume>:
+ <fpage>459</fpage>&#x02013;483.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal">Samuels GJ, Brayford D (<year>1994</year>). Species of
+ <italic>Nectria</italic> (<italic>sensu lato</italic>) with red perithecia and striate
+ ascospores. <source>Sydowia</source> <volume>46</volume>:
+ <fpage>75</fpage>&#x02013;161.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal">Samuels GJ, Lu B-S, Chaverri P, Candoussau F, Fournier J, Rossman
+ AY (<year>2009</year>). <italic>Cyanonectria</italic>, a new genus for <italic>Nectria
+ cyanostoma</italic> and its <italic>Fusarium</italic> anamorph. <source>Mycological
+ Progress</source> <volume>8</volume>:
+ <fpage>49</fpage>&#x02013;58.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="other">Samuels GJ, Nirenberg HI, Seifert KA (<year>2001</year>).
+ Perithecial species of <italic>Fusarium</italic>. In: <source>Fusarium. Paul E.
+ Nelson memorial symposium</source> (Summerell BA, Leslie JF, Backhouse D,
+ Bryden WL, Burgess LW, eds). American Phytopathological Society, St. Paul, MN:
+ <fpage>1</fpage>&#x02013;15.</mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal">Samuels GJ, Doi Y, Rogerson CT (<year>1990</year>).
+ <source>Hypocreales. Memoirs of the New York Botanical Garden</source>
+ <volume>59</volume>:
+ <fpage>6</fpage>&#x02013;108.</mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal">Samuels GJ, Rogerson CT (<year>1984</year>). <italic>Nectria
+ atrofusca</italic> and its anamorph, <italic>Fusarium staphyleae</italic>, a parasite of
+ <italic>Staphylea trifolia</italic> in Eastern North America.
+ <source>Brittonia</source> <volume>36</volume>:
+ <fpage>81</fpage>&#x02013;85.</mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal">Samuels GJ, Rossman AY, Lowen R, Rogerson CT (<year>1991</year>). A
+ synopsis of <italic>Nectria</italic> subgen. <source>Dialonectria. Mycological
+ Papers</source> <volume>164</volume>:
+ <fpage>1</fpage>&#x02013;47.</mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal">Schroers H-J (<year>2001</year>). A monograph of
+ <italic>Bionectria</italic> (<italic>Ascomycota, Hypocreales,</italic>
+ <italic>Bionectriaceae</italic>) and its <italic>Clonostachys</italic> anamorphs.
+ <source>Studies in Mycology</source> <volume>46</volume>:
+ <fpage>1</fpage>&#x02013;214.</mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="journal">Schroers H-J, Geldenhuis MM, Wingfield MJ, Schoeman MH, Yen YF,
+ Shen WC, Wingfield BD (<year>2005</year>). Classification of the guava wilt
+ fungus <italic>Myxosporium psidii</italic>, the palm pathogen <italic>Gliocladium
+ vermoesenii</italic> and the persimmon wilt fungus <italic>Acremonium diospyri</italic> in
+ <italic>Nalanthamala. </italic><source>Mycologia</source>
+ <volume>97</volume>:
+ <fpage>375</fpage>&#x02013;95.<pub-id pub-id-type="pmid">16396346</pub-id></mixed-citation></ref><ref id="ref56"><mixed-citation publication-type="journal">Schroers H-J, O'Donnell K, Lamprecht S, Kammeyer PL, Johnson S,
+ Sutton DA, Rinaldi MG, Geiser DM, Summerbell RC (<year>2009</year>). Taxonomy
+ and phylogeny of the <italic>Fusarium dimerum</italic> species group.
+ <source>Mycologia</source> <volume>101</volume>:
+ <fpage>44</fpage>&#x02013;70.<pub-id pub-id-type="pmid">19271670</pub-id></mixed-citation></ref><ref id="ref57"><mixed-citation publication-type="journal">Seifert KA, Samuels GJ (<year>2000</year>). How should we look at
+ anamorphs? <source>Studies in Mycology</source>
+ <volume>45</volume>:
+ <fpage>5</fpage>&#x02013;18.</mixed-citation></ref><ref id="ref58"><mixed-citation publication-type="journal">Summerbell RC, Schroers H-J (<year>2002</year>). Analysis of
+ phylogenetic relationship of <italic>Cylindrocarpon lichenicola</italic> and
+ <italic>Acremonium falciforme</italic> to the <italic>Fusarium solani</italic> species complex
+ and a review of similarities in the spectrum of opportunistic infections
+ caused by these fungi. <source>Journal of Clinical
+ Microbiology</source> <volume>40</volume>:
+ <fpage>2866</fpage>&#x02013;2875.<pub-id pub-id-type="pmid">12149344</pub-id></mixed-citation></ref><ref id="ref59"><mixed-citation publication-type="other">Summerbell RC (<year>2003</year>). <italic>Aspergillus, Fusarium,
+ Sporothrix, Piedraia</italic> and their relatives. In: <source>Pathogenic Fungi
+ in Humans and Animals</source> (Howard DH, ed) Marcel Dekker Press, New
+ York: <fpage>237</fpage>&#x02013;498.</mixed-citation></ref><ref id="ref60"><mixed-citation publication-type="other">Swofford DL (<year>2003</year>). <source>PAUP*: phylogenetic
+ analysis using parsimony (*and other methods), version 4.0b10</source>.
+ Sunderland, Massachusetts: Sinauer Associates.</mixed-citation></ref><ref id="ref61"><mixed-citation publication-type="journal">Tamura K, Dudley J, Nei M, Kumar S (<year>2007</year>). MEGA4:
+ Molecular Evolutionary Genetics Analysis (MEGA) software version 4.0.
+ <source>Molecular Biology and Evolution</source>
+ <volume>24</volume>:
+ <fpage>1596</fpage>&#x02013;1599.<pub-id pub-id-type="pmid">17488738</pub-id></mixed-citation></ref><ref id="ref62"><mixed-citation publication-type="journal">Tanaka K, Hirayama K, Yonezawa H, Hatakeyama S, Harada Y, Sano T,
+ Shirouzu T, Hosoya T (<year>2009</year>) Molecular taxonomy of bambusicolous
+ fungi: <italic>Tetraplosphaeriaceae</italic>, a new pleosporalean family with
+ <italic>Tetraploa</italic>-like anamorphs. <source>Studies in Mycology</source>
+ <volume>64</volume>:
+ <fpage>175</fpage>&#x02013;209.<pub-id pub-id-type="pmid">20169030</pub-id></mixed-citation></ref><ref id="ref63"><mixed-citation publication-type="journal">Vasilyeva L, Chernyshev A, Stephenson S (<year>2010</year>).
+ Pyrenomycetes of the Russian far East 4: family <italic>Nitschkiaceae</italic>
+ (<italic>Coronophorales, Ascomycota</italic>). <source>Mycologia</source>
+ <volume>102</volume>:
+ <fpage>233</fpage>&#x02013;247.<pub-id pub-id-type="pmid">20120245</pub-id></mixed-citation></ref><ref id="ref64"><mixed-citation publication-type="journal">Wollenweber HW (<year>1926</year>). Pyrenomyceten-Studien. II.
+ <source>Angewandte Botanik</source> <volume>8</volume>:
+ <fpage>168</fpage>&#x02013;212.</mixed-citation></ref><ref id="ref65"><mixed-citation publication-type="other">Wollenweber HW, Reinking OA (<year>1935</year>). <source>Die
+ Fusarien, ihre Beschreibung, Schadwirkung und Bek&#x000e4;mpfung</source>.
+ Paul Parey, Berlin.</mixed-citation></ref></ref-list></back></article>
