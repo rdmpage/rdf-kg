@@ -2,6 +2,10 @@
 
 ## Simple triplestore based on arc2
 
+## Jena-Fuseki
+
+Run in docker container, locally http://192.168.99.100:32768
+
 
 ## Example queries
 
