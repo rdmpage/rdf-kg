@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baseURL</key>
+	<string>https://api.mendeley.com/annotations</string>
+	<key>followRedirect</key>
+	<true/>
+	<key>handleJSONPCallbacks</key>
+	<false/>
+	<key>headers</key>
+	<array>
+		<dict>
+			<key>header</key>
+			<string>Authorization</string>
+			<key>inUse</key>
+			<true/>
+			<key>value</key>
+			<string>Bearer MSwxNDc0MzcyOTc4MDE2LDIzMjY2MzMxLDEwMjgsYWxsLCwsYjUxLTQ4MDQ3Mjc0NzUxZDFjZDQ3MDctYWJmNGYzNzNkYzM1ZTE4Ny1Sb2QsN2UzMjQ3YjktYTQ1ZC0zZjFlLWI5M2MtODIyOTc2MTVlMWFiLDlEU25fUlIzQnh2cVdjRHBkWlBqNWxBQk1lRQ</string>
+		</dict>
+	</array>
+	<key>httpMethod</key>
+	<string>GET</string>
+	<key>jsonpScript</key>
+	<string></string>
+	<key>paramBodyUIChoice</key>
+	<integer>0</integer>
+	<key>parameters</key>
+	<array>
+		<dict>
+			<key>inUse</key>
+			<true/>
+			<key>parameter</key>
+			<string>document_id</string>
+			<key>value</key>
+			<string>77e3c3d9-c43b-3aef-8ed7-0d1c3efef469</string>
+		</dict>
+	</array>
+	<key>parametersType</key>
+	<integer>0</integer>
+	<key>presentBeforeChallenge</key>
+	<false/>
+	<key>stringEncoding</key>
+	<integer>4</integer>
+	<key>usingHTTPBody</key>
+	<false/>
+</dict>
+</plist>

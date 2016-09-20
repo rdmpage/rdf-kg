@@ -1,0 +1,59 @@
+[
+    {
+        "id": "5c804bd1-40cc-4e88-8ca4-eee376a1fa74",
+        "type": "sticky_note",
+        "color": {
+            "r": 255,
+            "g": 245,
+            "b": 173
+        },
+        "profile_id": "7e3247b9-a45d-3f1e-b93c-82297615e1ab",
+        "positions": [
+            {
+                "top_left": {
+                    "x": 13.95297,
+                    "y": 379.096
+                },
+                "bottom_right": {
+                    "x": 13.95297,
+                    "y": 379.096
+                },
+                "page": 4
+            }
+        ],
+        "text": "Indoxysticus minutus (Tikader, 1960)",
+        "created": "2016-09-20T10:25:52.449Z",
+        "last_modified": "2016-09-20T10:25:52.449Z",
+        "privacy_level": "private",
+        "filehash": "0d4647fb55dc4cb043c24de2176c55c5ece44743",
+        "document_id": "77e3c3d9-c43b-3aef-8ed7-0d1c3efef469"
+    },
+    {
+        "id": "6773b510-53b3-436c-9ca6-50469e681100",
+        "type": "highlight",
+        "color": {
+            "r": 255,
+            "g": 245,
+            "b": 173
+        },
+        "profile_id": "7e3247b9-a45d-3f1e-b93c-82297615e1ab",
+        "positions": [
+            {
+                "top_left": {
+                    "x": 29.95297,
+                    "y": 379.096
+                },
+                "bottom_right": {
+                    "x": 183.8672,
+                    "y": 386.8777
+                },
+                "page": 4
+            }
+        ],
+        "created": "2016-09-20T10:25:52.666Z",
+        "last_modified": "2016-09-20T10:25:52.666Z",
+        "privacy_level": "private",
+        "filehash": "0d4647fb55dc4cb043c24de2176c55c5ece44743",
+        "document_id": "77e3c3d9-c43b-3aef-8ed7-0d1c3efef469"
+    }
+]
