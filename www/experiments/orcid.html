@@ -4405,9 +4405,19 @@ function name_parse(namestring) {
 
   return person;
 }
+
+// http://stackoverflow.com/a/21445415
+function uniques(arr) {
+  var a = [];
+  for (var i = 0, l = arr.length; i < l; i++)
+    if (a.indexOf(arr[i]) === -1 && arr[i] !== '')
+      a.push(arr[i]);
+  return a;
+}
+
 		
 //----------------------------------------------------------------------------------------
-function orcid(doc) {
+function message(doc) {
   var triples = [];
 
   var fuzzy = FuzzySet();
@@ -4499,7 +4509,8 @@ function orcid(doc) {
     }
   } 
 
-  // person
+  // Ensure we remove duplicate names
+  person.alternateName = uniques(person.alternateName);
   
   var cluster_id = doc['orcid-profile']['orcid-identifier'].uri;
 
@@ -4925,7 +4936,7 @@ function orcid(doc) {
 				var doc = JSON.parse(jsonld);
 				
 				
-				orcid(doc);
+				message(doc);
 				
 			
 			}
