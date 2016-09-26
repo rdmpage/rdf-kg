@@ -1,0 +1,24 @@
+{
+    "id": "http://dx.doi.org/10.13039/501100002739",
+    "fundingBodyType": "pri",
+    "fundingBodySubType": "foundation",
+    "created": "2013-12-14T11:54:22.000000",
+    "prefLabel": {"Label": {
+        "about": "http://data.crossref.org/fundingdata/vocabulary/Label-428125",
+        "literalForm": {
+            "content": "Aarhus Universitets Forskningsfond",
+            "lang": "en"
+        }
+    }},
+    "inScheme": {"resource": "http://data.crossref.org/fundingdata/vocabulary"},
+    "affilWith": {"resource": "http://dx.doi.org/10.13039/100007605"},
+    "altLabel": {"Label": {
+        "about": "http://data.crossref.org/fundingdata/vocabulary/Label-80442",
+        "literalForm": {
+            "content": "Aarhus University Research Foundation",
+            "lang": "en"
+        }
+    }},
+    "country": {"resource": "http://sws.geonames.org/2623032/"},
+    "modified": "2016-04-18T13:01:43.000000"
+}
