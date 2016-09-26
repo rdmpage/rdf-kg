@@ -16,13 +16,13 @@
 			<key>inUse</key>
 			<true/>
 			<key>value</key>
-			<string>Bearer MSwxNDczMTYxODczMjI5LDU3MjQsMTAyOCxhbGwsLCwsNDA3MGQxMjItYjNhZC0zZWRlLTk3ZWEtZDIzMzc3MGMzNjZhLGRVNl9zaXQtZjA4bzlxeERnQzl4YkN0Z3czdw</string>
+			<string>Bearer MSwxNDc0Mzc0MTgzOTExLDU3MjQsMTAyOCxhbGwsLCwsNDA3MGQxMjItYjNhZC0zZWRlLTk3ZWEtZDIzMzc3MGMzNjZhLDZrMmRwUFYxdHFyRVR0Nk9Hemp4OXFKNW1ORQ</string>
 		</dict>
 		<dict>
 			<key>header</key>
 			<string>Accept</string>
 			<key>inUse</key>
-			<true/>
+			<false/>
 			<key>value</key>
 			<string>application/vnd.mendeley-document.1+json</string>
 		</dict>
