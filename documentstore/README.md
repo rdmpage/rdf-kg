@@ -13,9 +13,9 @@ Use mime-type as flag to determine JSON format, output simple n-triples for expo
 
 ### MIME types
 
-- Mendeley list of documents application/vnd.mendeley-document.1+json
-- ORCID application/vnd.orcid+json
-- CrossRef application/vnd.crossref-api-message+json
+- Mendeley list of documents **application/vnd.mendeley-document.1+json**
+- ORCID **application/vnd.orcid+json**
+- CrossRef **application/vnd.crossref-api-message+json**
 
 
 
