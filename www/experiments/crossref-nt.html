@@ -381,8 +381,115 @@
 -->
 		
 			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
-			{"id":"ITEM-1","title":"Notes on Gesneriaceae from Guangdong Province","multi":{"_key":{"title":{"en":"Notes on Gesneriaceae from Guangdong Province","zh":"\u5e7f\u4e1c\u82e6\u82e3\u82d4\u79d1\u690d\u7269\u65b0\u8d44\u6599"}}},"type":"article-journal","issued":{"date-parts":[["2002"]]},"author":[],"container-title":"Journal of Tropical and Subtropical Botany","volume":"10","issue":"1","page":"33-34","ISSN":["1005-3395"],"DOI":"10.3969\/j.issn.1005-3395.2002.1.006","URL":"http:\/\/jtsb.scib.ac.cn\/jtsb_en\/ch\/reader\/view_abstract.aspx?flag=1&file_no=200201006&journal_id=jtsb_cn"}
-			
+{
+   "_id": "http://dx.doi.org/10.1525/cond.2011.113.4.924",
+   "_rev": "1-5acbd828d271a9da9959ae00f0cd6e78",
+   "status": "ok",
+   "message-type": "work",
+   "message-version": "1.0.0",
+   "message": {
+       "indexed": {
+           "date-parts": [
+               [
+                   2015,
+                   12,
+                   28
+               ]
+           ],
+           "date-time": "2015-12-28T01:29:08Z",
+           "timestamp": 1451266148636
+       },
+       "reference-count": 0,
+       "publisher": "Cooper Ornithological Society",
+       "issue": "4",
+       "content-domain": {
+           "domain": [
+           ],
+           "crossmark-restriction": false
+       },
+       "short-container-title": [
+       ],
+       "published-print": {
+           "date-parts": [
+               [
+                   2011,
+                   11
+               ]
+           ]
+       },
+       "DOI": "10.1525/cond.2011.113.4.924",
+       "type": "journal-article",
+       "created": {
+           "date-parts": [
+               [
+                   2011,
+                   12,
+                   13
+               ]
+           ],
+           "date-time": "2011-12-13T00:19:41Z",
+           "timestamp": 1323735581000
+       },
+       "page": "924-924",
+       "source": "CrossRef",
+       "title": [
+           " Effects of Climate Change on Birds .— Anders Pape Møller , Wolfgang Fieldler , and Peter Berthold , editors. 2010. Oxford University Press, New York. 321 pp. + 9 color plates. ISBN-978-0-19-956975-5. $117.00 (hard cover). "
+       ],
+       "prefix": "http://id.crossref.org/prefix/10.1650",
+       "volume": "113",
+       "author": [
+           {
+               "affiliation": [
+               ],
+               "family": "Peterson",
+               "given": "A. Townsend"
+           }
+       ],
+       "member": "http://id.crossref.org/member/1225",
+       "container-title": [
+           "The Condor"
+       ],
+       "original-title": [
+       ],
+       "deposited": {
+           "date-parts": [
+               [
+                   2014,
+                   1,
+                   6
+               ]
+           ],
+           "date-time": "2014-01-06T17:09:03Z",
+           "timestamp": 1389028143000
+       },
+       "score": 1,
+       "subtitle": [
+       ],
+       "short-title": [
+       ],
+       "issued": {
+           "date-parts": [
+               [
+                   2011,
+                   11
+               ]
+           ]
+       },
+       "alternative-id": [
+           "10.1525/cond.2011.113.4.924"
+       ],
+       "URL": "http://dx.doi.org/10.1525/cond.2011.113.4.924",
+       "ISSN": [
+           "0010-5422",
+           "1938-5129"
+       ],
+       "subject": [
+           "Animal Science and Zoology",
+           "Ecology, Evolution, Behavior and Systematics"
+       ]
+   },
+   "message-format": "application/vnd.crossref-api-message+json"
+}			
 			</textarea>
 			<br />
 			<button onclick="convert()">Convert</button>
@@ -407,439 +514,433 @@
 		
 
 		
-function citeproc(doc) {
+function message(doc) {
   var triples = [];
 
   var cluster_id = '';
 
   var identifiers = [];
 
-  // CiteProc format data 
-  var citeproc = doc;
-
-  // If via CrossRef API then it's wrapped in a message
   if (doc.message) {
-    citeproc = doc.message;
-  }
 
-  // get identifiers
-  for (var i in citeproc) {
-    switch (i) {
+	  // get identifiers
+	  for (var i in doc.message) {
+		switch (i) {
 
-      case 'DOI':
-        cluster_id = 'http://identifiers.org/doi/' + citeproc[i];
+		  case 'DOI':
+			cluster_id = 'http://identifiers.org/doi/' + doc.message[i];
 
-        triples.push(triple(cluster_id,
-          'http://purl.org/dc/terms/identifier',
-          'http://identifiers.org/doi/' + citeproc[i]));
-        break;
+			triples.push(triple(cluster_id,
+			  'http://purl.org/dc/terms/identifier',
+			  'http://identifiers.org/doi/' + doc.message[i]));
+			break;
 
-      case 'URL':
-        if (cluster_id == '') {
-          cluster_id = citeproc[i];
-        }
+		  case 'URL':
+			if (cluster_id == '') {
+			  cluster_id = doc.message[i];
+			}
 
-         triples.push(triple(cluster_id,
-          'http://purl.org/dc/terms/identifier',
-          citeproc[i]));      
-        break;
-        
+			 triples.push(triple(cluster_id,
+			  'http://purl.org/dc/terms/identifier',
+			  doc.message[i]));      
+			break;
+		
 
-        // any alternative ids
-      case 'alternative-id':
-        for (var j in citeproc[i]) {
-          triples.push(triple(cluster_id,
-            'http://purl.org/dc/terms/identifier',
-            citeproc[i][j]));
-        }
-        break;
+			// any alternative ids
+		  case 'alternative-id':
+			for (var j in doc.message[i]) {
+			  triples.push(triple(cluster_id,
+				'http://purl.org/dc/terms/identifier',
+				doc.message[i][j]));
+			}
+			break;
 
-      default:
-        break;
-    }
-  }
+		  default:
+			break;
+		}
+	  }
 
 
-  // fields
-  for (var i in citeproc) {
-    switch (i) {
+	  // fields
+	  for (var i in doc.message) {
+		switch (i) {
 
-      case 'type':
-        switch (citeproc[i]) {
-          case 'article-journal':
-          case 'journal-article':
-            triples.push(triple(cluster_id,
-              'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-              'http://schema.org/ScholarlyArticle'));
-            break;
-          default:
-            break;
-        }
-        break;
+		  case 'type':
+			switch (doc.message[i]) {
+			  case 'article-journal':
+			  case 'journal-article':
+				triples.push(triple(cluster_id,
+				  'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				  'http://schema.org/ScholarlyArticle'));
+				break;
+			  default:
+				break;
+			}
+			break;
 
-        // title can be string or array
-      case 'title':
-        if (Array.isArray(citeproc[i])) {
-          for (var j in citeproc[i]) {
-            triples.push(triple(cluster_id,
-              'http://schema.org/name',
-              citeproc[i][j]));
-          }
-        } else {
-          triples.push(triple(cluster_id,
-            'http://schema.org/name',
-            citeproc[i]));
-        }
-         break;
-        
+			// title can be string or array
+		  case 'title':
+			if (Array.isArray(doc.message[i])) {
+			  for (var j in doc.message[i]) {
+				triples.push(triple(cluster_id,
+				  'http://schema.org/name',
+				  doc.message[i][j]));
+			  }
+			} else {
+			  triples.push(triple(cluster_id,
+				'http://schema.org/name',
+				doc.message[i]));
+			}
+			 break;
+		
 
-        // article metadata
-      case 'issue':
-        triples.push(triple(cluster_id,
-          'http://schema.org/issueNumber',
-          citeproc[i]));
-        break;
+			// article metadata
+		  case 'issue':
+			triples.push(triple(cluster_id,
+			  'http://schema.org/issueNumber',
+			  doc.message[i]));
+			break;
 
-      case 'pages':
-        triples.push(triple(cluster_id,
-          'http://schema.org/pagination',
-          citeproc[i]));
-        break;
+		  case 'pages':
+			triples.push(triple(cluster_id,
+			  'http://schema.org/pagination',
+			  doc.message[i]));
+			break;
 
-      case 'volume':
-        triples.push(triple(cluster_id,
-          'http://schema.org/volumeNumber',
-          citeproc[i]));
-        break;
-        
-      case 'page':
-        var parts = citeproc[i].match(/^(.*)\-(.*)$/);
-        if (parts) {
-          triples.push(triple(cluster_id,
-            'http://schema.org/pageStart',
-            parts[1]));
-          triples.push(triple(cluster_id,
-            'http://schema.org/pageEnd',
-            parts[2]));
-        } else {
-          triples.push(triple(cluster_id,
-            'http://schema.org/pagination',
-            citeproc[i]));
-        }
-        break;
+		  case 'volume':
+			triples.push(triple(cluster_id,
+			  'http://schema.org/volumeNumber',
+			  doc.message[i]));
+			break;
+		
+		  case 'page':
+			var parts = doc.message[i].match(/^(.*)\-(.*)$/);
+			if (parts) {
+			  triples.push(triple(cluster_id,
+				'http://schema.org/pageStart',
+				parts[1]));
+			  triples.push(triple(cluster_id,
+				'http://schema.org/pageEnd',
+				parts[2]));
+			} else {
+			  triples.push(triple(cluster_id,
+				'http://schema.org/pagination',
+				doc.message[i]));
+			}
+			break;
 
-        // journal
-      case 'ISSN':
-        // one journal, but can have 1-2 ISSNs
-        // pick one for cluster_id
-         var journal_id = 'http://www.worldcat.org/issn/' + citeproc[i][0];
-         
-          triples.push(triple(cluster_id,
-            'http://schema.org/isPartOf',
-            journal_id
-          ));
-         
-          // type
-          triples.push(triple(journal_id,
-            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-            'http://schema.org/Periodical'));
+			// journal
+		  case 'ISSN':
+			// one journal, but can have 1-2 ISSNs
+			// pick one for cluster_id
+			 var journal_id = 'http://www.worldcat.org/issn/' + doc.message[i][0];
+		 
+			  triples.push(triple(cluster_id,
+				'http://schema.org/isPartOf',
+				journal_id
+			  ));
+		 
+			  // type
+			  triples.push(triple(journal_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/Periodical'));
 
-          // journal name can be string or array
-          if (Array.isArray(citeproc['container-title'])) {
-            for (var j in citeproc['container-title']) {
-              triples.push(triple(journal_id,
-                'http://schema.org/name',
-                citeproc['container-title'][j]));
-            }
-          } else {
-            triples.push(triple(journal_id,
-              'http://schema.org/name',
-              citeproc['container-title']));
-          }
-          
-			// multi?
-			if (citeproc['multi']) {
-			  if (citeproc['multi']._key['container-title']) {
-				for (var j in citeproc['multi']._key['container-title']) {
+			  // journal name can be string or array
+			  if (Array.isArray(doc.message['container-title'])) {
+				for (var j in doc.message['container-title']) {
 				  triples.push(triple(journal_id,
 					'http://schema.org/name',
-					citeproc['multi']._key['container-title'][j], j));  
+					doc.message['container-title'][j]));
+				}
+			  } else {
+				triples.push(triple(journal_id,
+				  'http://schema.org/name',
+				  doc.message['container-title']));
+			  }
+		  
+				// multi?
+				if (doc.message['multi']) {
+				  if (doc.message['multi']._key['container-title']) {
+					for (var j in doc.message['multi']._key['container-title']) {
+					  triples.push(triple(journal_id,
+						'http://schema.org/name',
+						doc.message['multi']._key['container-title'][j], j));  
+					}
+				  }
+				} 
+		  
+		  
+			  // ISSNs
+			for (var j in doc.message[i]) {
+
+			  // issn
+			  triples.push(triple(journal_id,
+				'http://schema.org/issn',
+				doc.message[i][j]));
+			
+			  // identifiers
+			triples.push(triple(journal_id,
+			  'http://purl.org/dc/terms/identifier',
+			  'http://www.worldcat.org/issn/' + doc.message[i][j]));
+		  
+		  
+
+			}
+			break;
+
+			// authors (may include ORCIDs)
+			// if no ORCID then we have a bnode, so create an identifier to make this addressable
+		  case 'author':
+			var n = doc.message[i].length;
+			for (var j = 0; j < n; j++) {
+			  var author_id = '';
+
+			  // create identifier
+			  if (doc.message[i][j].ORCID) {
+				author_id = doc.message[i][j].ORCID;
+			  } else {
+				// #hash identifier 
+				author_id = cluster_id + '#author_' + (j + 1);
+			  }
+
+			  // type, need to handle organisations as authors
+			  triples.push(triple(author_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/Person'));
+
+			  triples.push(triple(cluster_id,
+				'http://schema.org/author',
+				author_id));
+
+			  // name
+			  var name = '';
+			  if (doc.message[i][j].given) {
+				triples.push(triple(author_id,
+				  'http://schema.org/givenName', // ?
+				  doc.message[i][j].given));
+
+				name += doc.message[i][j].given;
+			  }
+			  if (doc.message[i][j].family) {
+				triples.push(triple(author_id,
+				  'http://schema.org/familyName', // ?
+				  doc.message[i][j].family));
+
+				name += ' ' + doc.message[i][j].family;
+			  }
+
+			  if (name != '') {
+				triples.push(triple(author_id,
+				  'http://schema.org/name', // ?
+				  name));
+			  }
+		  
+			  // affiliation
+			  // make into a role
+			 if (doc.message[i][j].affiliation) {     
+				var affiliation_count = 1;       
+				for (var k in doc.message[i][j].affiliation) {
+				   if (doc.message[i][j].affiliation[k].name) {
+					 var affiliation_id = author_id + '/affiliation_' + affiliation_count;
+					 var affiliation_role_id = author_id + '/affiliation_' + affiliation_count + '/role';
+			   
+					 // author to role
+					 triples.push(triple(author_id,
+					  'http://schema.org/affiliation', 
+					  affiliation_role_id));
+				  
+					 triples.push(triple(affiliation_role_id,
+					   'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+						'http://schema.org/OrganizationRole'));
+					
+					 // role to affiliation
+					 triples.push(triple(affiliation_role_id,
+					  'http://schema.org/affiliation', 
+					  affiliation_id));
+				 
+					 triples.push(triple(affiliation_id,
+					  'http://schema.org/name', 
+					  doc.message[i][j].affiliation[k].name));
+ 
+					 triples.push(triple(affiliation_id,
+					   'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+					  'http://schema.org/Organisation'));
+ 
+				   }
+				   affiliation_count++;
+				 }
+			  }
+		 
+
+			}
+			break;
+
+			// publisher
+			// should this be linked to journal rather than article?
+		  case 'publisher':
+			triples.push(triple(cluster_id,
+			  'http://schema.org/publisher',
+			  doc.message[i]));
+			break;
+
+			// funding
+		  case 'funder':
+			var n = doc.message[i].length;
+			for (var j = 0; j < n; j++) {
+			  var funder_id = '';
+
+			  // create identifier for funder
+			  if (doc.message[i][j].DOI) {
+				funder_id = 'http://identifiers.org/doi/' + doc.message[i][j].DOI;
+			  } else {
+				// #hash identifier 
+				funder_id = cluster_id + '#funder_' + (j + 1);
+			  }
+
+			  // create funder 
+			  triples.push(triple(funder_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/Organisation'));
+
+			  triples.push(triple(funder_id,
+				'http://schema.org/name',
+				doc.message[i][j].name));
+
+			  // role
+			  var m = doc.message[i][j].award.length;
+
+			  if (m == 0) {
+				// funder but award not known
+				var award_id = funder_id + '/award';
+
+				triples.push(triple(award_id,
+				  'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				  'http://schema.org/Role'));
+
+				// link to funder 
+				triples.push(triple(award_id,
+				  'http://schema.org/funder',
+				  funder_id));
+
+				// link role to work         
+				triples.push(triple(cluster_id,
+				  'http://schema.org/funder',
+				  award_id));
+			  } else {
+				// we have one or more awards
+				for (var a = 0; a < m; a++) {
+				  var award_id = funder_id + '/award_' + (a+1);
+
+				  triples.push(triple(award_id,
+					'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+					'http://schema.org/Role'));
+
+				  triples.push(triple(award_id,
+					'http://schema.org/roleName',
+					doc.message[i][j].award[a]
+				  ));
+
+				  // link to funder 
+				  triples.push(triple(award_id,
+					'http://schema.org/funder',
+					funder_id));
+
+				  // link role to work         
+				  triples.push(triple(cluster_id,
+					'http://schema.org/funder',
+					award_id));
 				}
 			  }
-			} 
-          
-          
-          // ISSNs
-        for (var j in citeproc[i]) {
+			}
+			break;
 
-          // issn
-          triples.push(triple(journal_id,
-            'http://schema.org/issn',
-            citeproc[i][j]));
-            
-          // identifiers
-        triples.push(triple(journal_id,
-          'http://purl.org/dc/terms/identifier',
-          'http://www.worldcat.org/issn/' + citeproc[i][j]));
-          
-          
-
-        }
-        break;
-
-        // authors (may include ORCIDs)
-        // if no ORCID then we have a bnode, so create an identifier to make this addressable
-      case 'author':
-        var n = citeproc[i].length;
-        for (var j = 0; j < n; j++) {
-          var author_id = '';
-
-          // create identifier
-          if (citeproc[i][j].ORCID) {
-            author_id = citeproc[i][j].ORCID;
-          } else {
-            // #hash identifier 
-            author_id = cluster_id + '#author_' + (j + 1);
-          }
-
-          // type, need to handle organisations as authors
-          triples.push(triple(author_id,
-            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-            'http://schema.org/Person'));
-
-          triples.push(triple(cluster_id,
-            'http://schema.org/author',
-            author_id));
-
-          // name
-          var name = '';
-          if (citeproc[i][j].given) {
-            triples.push(triple(author_id,
-              'http://schema.org/givenName', // ?
-              citeproc[i][j].given));
-
-            name += citeproc[i][j].given;
-          }
-          if (citeproc[i][j].family) {
-            triples.push(triple(author_id,
-              'http://schema.org/familyName', // ?
-              citeproc[i][j].family));
-
-            name += ' ' + citeproc[i][j].family;
-          }
-
-          if (name != '') {
-            triples.push(triple(author_id,
-              'http://schema.org/name', // ?
-              name));
-          }
-          
-          // affiliation
-          // make into a role
-         if (citeproc[i][j].affiliation) {     
-            var affiliation_count = 1;       
-            for (var k in citeproc[i][j].affiliation) {
-               if (citeproc[i][j].affiliation[k].name) {
-                 var affiliation_id = author_id + '/affiliation_' + affiliation_count;
-                 var affiliation_role_id = author_id + '/affiliation_' + affiliation_count + '/role';
-               
-                 // author to role
-                 triples.push(triple(author_id,
-                  'http://schema.org/affiliation', 
-                  affiliation_role_id));
-                  
-                 triples.push(triple(affiliation_role_id,
-                   'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                    'http://schema.org/OrganizationRole'));
-                    
-                 // role to affiliation
-                 triples.push(triple(affiliation_role_id,
-                  'http://schema.org/affiliation', 
-                  affiliation_id));
-                 
-                 triples.push(triple(affiliation_id,
-                  'http://schema.org/name', 
-                  citeproc[i][j].affiliation[k].name));
- 
-                 triples.push(triple(affiliation_id,
-                   'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://schema.org/Organisation'));
- 
-               }
-               affiliation_count++;
-             }
-          }
-         
-
-        }
-        break;
-
-        // publisher
-        // should this be linked to journal rather than article?
-      case 'publisher':
-        triples.push(triple(cluster_id,
-          'http://schema.org/publisher',
-          citeproc[i]));
-        break;
-
-        // funding
-      case 'funder':
-        var n = citeproc[i].length;
-        for (var j = 0; j < n; j++) {
-          var funder_id = '';
-
-          // create identifier for funder
-          if (citeproc[i][j].DOI) {
-            funder_id = 'http://identifiers.org/doi/' + citeproc[i][j].DOI;
-          } else {
-            // #hash identifier 
-            funder_id = cluster_id + '#funder_' + (j + 1);
-          }
-
-          // create funder 
-          triples.push(triple(funder_id,
-            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-            'http://schema.org/Organisation'));
-
-          triples.push(triple(funder_id,
-            'http://schema.org/name',
-            citeproc[i][j].name));
-
-          // role
-          var m = citeproc[i][j].award.length;
-
-          if (m == 0) {
-            // funder but award not known
-            var award_id = funder_id + '/award';
-
-            triples.push(triple(award_id,
-              'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-              'http://schema.org/Role'));
-
-            // link to funder 
-            triples.push(triple(award_id,
-              'http://schema.org/funder',
-              funder_id));
-
-            // link role to work         
-            triples.push(triple(cluster_id,
-              'http://schema.org/funder',
-              award_id));
-          } else {
-            // we have one or more awards
-            for (var a = 0; a < m; a++) {
-              var award_id = funder_id + '/award_' + (a+1);
-
-              triples.push(triple(award_id,
-                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                'http://schema.org/Role'));
-
-              triples.push(triple(award_id,
-                'http://schema.org/roleName',
-                citeproc[i][j].award[a]
-              ));
-
-              // link to funder 
-              triples.push(triple(award_id,
-                'http://schema.org/funder',
-                funder_id));
-
-              // link role to work         
-              triples.push(triple(cluster_id,
-                'http://schema.org/funder',
-                award_id));
-            }
-          }
-        }
-        break;
-
-        // license
-      case 'license':
-        for (var j in citeproc[i]) {
-          if (citeproc[i][j].URL) {
-            triples.push(triple(cluster_id,
-              'http://schema.org/license',
-              citeproc[i][j].URL));
-          }
-        }
-        break;
-
-        // links to representions such as PDFs, XML, HTML, etc.
-        // may be links to text mining sources
-      case 'link':
-        var n = citeproc[i].length;
-        for (var j = 0; j < n; j++) {
-          var link_id = cluster_id + '#link_' + (j + 1);
-
-          // type
-          triples.push(triple(link_id,
-            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-            'http://schema.org/CreativeWork'));
-
-          if (citeproc[i][j].URL) {
-            triples.push(triple(link_id,
-              'http://schema.org/url',
-              citeproc[i][j].URL));
-
-            if (citeproc[i][j]['content-type']) {
-              triples.push(triple(link_id,
-                'http://schema.org/fileFormat',
-                citeproc[i][j]['content-type']));
-            }
-
-            // link to work
-            triples.push(triple(cluster_id,
-              'http://schema.org/workExample',
-              link_id));
-          }
-        }
-        break;
-
-        // tags
-      case 'subject':
-        for (var j in citeproc[i]) {
-          triples.push(triple(cluster_id,
-            'http://schema.org/about',
-            citeproc[i][j]));
-        }
-        break;
-        
-        // abstract
-      case 'abstract':
-        triples.push(triple(cluster_id,
-              'http://schema.org/description',
-              citeproc[i]));
-        break;
-        
-      // work level multi
-      // do this because there may be fields that only exist in multi keys
-      case 'multi':
-        for (var j in citeproc['multi']._key) {
-          for (var k in citeproc['multi']._key[j]) {
-            switch (j) {
-              case 'title':
+			// license
+		  case 'license':
+			for (var j in doc.message[i]) {
+			  if (doc.message[i][j].URL) {
 				triples.push(triple(cluster_id,
-          			'http://schema.org/name',
-          			citeproc['multi']._key[j][k], k));
-          		break;
-              case 'abstract':
-				triples.push(triple(cluster_id,
-          			'http://schema.org/description',
-          			citeproc['multi']._key[j][k], k));
-          		break;
-          	   default:
-          	     break;
-          	  }
-          	}
-        }               
-        break; 
-        
+				  'http://schema.org/license',
+				  doc.message[i][j].URL));
+			  }
+			}
+			break;
 
-      default:
-        break;
-    }
+			// links to representions such as PDFs, XML, HTML, etc.
+			// may be links to text mining sources
+		  case 'link':
+			var n = doc.message[i].length;
+			for (var j = 0; j < n; j++) {
+			  var link_id = cluster_id + '#link_' + (j + 1);
+
+			  // type
+			  triples.push(triple(link_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/CreativeWork'));
+
+			  if (doc.message[i][j].URL) {
+				triples.push(triple(link_id,
+				  'http://schema.org/url',
+				  doc.message[i][j].URL));
+
+				if (doc.message[i][j]['content-type']) {
+				  triples.push(triple(link_id,
+					'http://schema.org/fileFormat',
+					doc.message[i][j]['content-type']));
+				}
+
+				// link to work
+				triples.push(triple(cluster_id,
+				  'http://schema.org/workExample',
+				  link_id));
+			  }
+			}
+			break;
+
+			// tags
+		  case 'subject':
+			for (var j in doc.message[i]) {
+			  triples.push(triple(cluster_id,
+				'http://schema.org/about',
+				doc.message[i][j]));
+			}
+			break;
+		
+			// abstract
+		  case 'abstract':
+			triples.push(triple(cluster_id,
+				  'http://schema.org/description',
+				  doc.message[i]));
+			break;
+		
+		  // work level multi
+		  // do this because there may be fields that only exist in multi keys
+		  case 'multi':
+			for (var j in doc.message['multi']._key) {
+			  for (var k in doc.message['multi']._key[j]) {
+				switch (j) {
+				  case 'title':
+					triples.push(triple(cluster_id,
+						'http://schema.org/name',
+						doc.message['multi']._key[j][k], k));
+					break;
+				  case 'abstract':
+					triples.push(triple(cluster_id,
+						'http://schema.org/description',
+						doc.message['multi']._key[j][k], k));
+					break;
+				   default:
+					 break;
+				  }
+				}
+			}               
+			break; 
+		
+
+		  default:
+			break;
+		}
+	  }
   }
-
 
   // defaults
   triples.push(triple(cluster_id,
@@ -853,7 +954,7 @@ function citeproc(doc) {
 			function convert() {
 				var jsonld = $('#json').val();
 				var doc = JSON.parse(jsonld);
-				citeproc(doc);
+				message(doc);
 				
 			
 			}
