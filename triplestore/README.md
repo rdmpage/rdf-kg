@@ -6,6 +6,25 @@
 
 Run in docker container, locally http://192.168.99.100:32768
 
+## Loading data
+
+In ARC
+```
+LOAD <uri>
+```
+
+e.g load CrossRef triples from CouchDB view:
+
+```
+LOAD <http://127.0.0.1:5984/rdf_kg/_design/crossref/_list/n-triples/nt>
+```
+
+Load Mendeley group data 
+```
+LOAD <http://127.0.0.1:5984/rdf_kg/_design/mendeley_group/_list/n-triples/nt>
+```
+
+
 
 ## Example queries
 
@@ -18,6 +37,68 @@ SELECT * WHERE {
 } LIMIT 10
 ```
 
+### List funders and grants
+
+```
+SELECT DISTINCT ?name ?agency
+
+WHERE 
+{ 
+ ?award  <http://schema.org/roleName> ?name .
+ ?award <http://schema.org/funder> ?funder .
+ ?funder  <http://schema.org/name> ?agency .
+} order by (?agency)
+```
+
+### Funders of papers in GBIF Mendeley group that used GBIF
+
+Mendeley group has UUID dcb8ff61-dbc0-3519-af76-2072f22bc22f, tag “GBIF_used” flags papers that use GBIF data.
+
+```
+SELECT DISTINCT ?identifier ?title ?agency ?grant
+
+WHERE 
+{ 
+   <urn:uuid:dcb8ff61-dbc0-3519-af76-2072f22bc22f> <http://schema.org/itemListElement> ?work .
+   
+   ?work <http://purl.org/dc/terms/identifier> ?identifier .
+   ?work <http://schema.org/about> “GBIF_used” .
+   ?work <http://schema.org/name> ?title .
+
+   ?identifier <http://schema.org/funder> ?award .
+   ?award <http://schema.org/funder> ?funder .
+   ?funder  <http://schema.org/name> ?agency .
+
+
+   OPTIONAL
+  {
+   ?award <http://schema.org/roleName> ?grant .
+  }
+
+} ORDER BY ASC(?agency)
+```
+
+### Work foundered by named funder
+
+```
+SELECT ?funder ?work ?grant
+
+WHERE 
+{ 
+   ?funder  <http://schema.org/name> “NSF” .
+   ?award <http://schema.org/funder> ?funder .
+   ?work <http://schema.org/funder> ?award .
+   ?work <http://schema.org/name> ?name .
+
+
+OPTIONAL
+{
+   ?award <http://schema.org/roleName> ?grant .
+
+}
+
+}
+```
 
 ### Find funders of a GBIF dataset via publication linked to dataset by Plaza
 
