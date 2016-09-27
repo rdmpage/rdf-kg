@@ -16,6 +16,10 @@ $done = false;
 while (!$done)
 {
 	$url = 'http://127.0.0.1:5984/rdf_kg/_design/mendeley_group/_list/n-triples/nt';
+
+	// ORCID triples
+	$url = 'http://127.0.0.1:5984/rdf_kg/_design/orcid/_list/n-triples/nt';
+
 	
 	$url .= '?limit=' . $rows_per_page . '&skip=' . $skip;
 	

@@ -142,3 +142,116 @@ WHERE
 }
 ```
 
+### Get different names for same author
+
+The same author may appear in different datasets, such as CrossRef and ORCID. If work has same identifier, and author appears in same order in each source, then we can use a standard identifier work_id#author_n to group names, e.g.
+
+```
+SELECT DISTINCT ?author ?name
+WHERE 
+{ 
+   ?author  <http://purl.org/dc/terms/identifier> <http://identifiers.org/doi/10.1073/pnas.1013136108#author_1> .
+   ?author <http://schema.org/name> ?name .
+}
+```
+
+### ORCIDs for GBIF-related papers
+
+Use regexp to filter on ORCIDs
+
+```
+SELECT *
+
+WHERE 
+{ 
+   <urn:uuid:dcb8ff61-dbc0-3519-af76-2072f22bc22f> <http://schema.org/itemListElement> ?work .
+   
+   ?work <http://purl.org/dc/terms/identifier> ?identifier .
+   ?work <http://schema.org/about> “GBIF_used” .
+   ?work <http://schema.org/name> ?title .
+
+   ?identifier <http://schema.org/author> ?author .
+
+   FILTER regex( ?author, “orcid”, “i” ) .
+
+   OPTIONAL
+   {
+     ?author <http://schema.org/name> ?aname .
+   }
+}
+```
+
+### GBIF-related people with ORCIDs
+
+```
+SELECT DISTINCT ?author ?aname
+
+WHERE 
+{ 
+
+   <urn:uuid:dcb8ff61-dbc0-3519-af76-2072f22bc22f> <http://schema.org/itemListElement> ?work .
+   
+   ?work <http://purl.org/dc/terms/identifier> ?identifier .
+   ?work <http://schema.org/about> “GBIF_used” .
+   ?work <http://schema.org/name> ?title .
+
+   ?identifier <http://schema.org/author> ?author .
+
+   FILTER regex( ?author, “orcid”, “i” ) .
+
+   OPTIONAL
+   {
+     ?author <http://schema.org/name> ?aname .
+   }
+
+} ORDER BY ASC(?author)
+```
+
+### GBIF-related work by one person (identified by their ORCID)
+
+```
+SELECT DISTINCT *
+
+WHERE 
+{ 
+
+   <urn:uuid:dcb8ff61-dbc0-3519-af76-2072f22bc22f> <http://schema.org/itemListElement> ?work .
+   
+   ?work <http://purl.org/dc/terms/identifier> ?identifier .
+   ?work <http://schema.org/about> “GBIF_used” .
+   ?work <http://schema.org/name> ?title .
+
+   ?identifier <http://schema.org/author> <http://orcid.org/0000-0003-4197-0794> .
+
+
+OPTIONAL
+{
+   <http://orcid.org/0000-0003-4197-0794> <http://schema.org/name> ?aname .
+}
+
+} 
+```
+
+### IPNI LSID
+
+Find people that have IPNI LSIDs for authors
+
+```
+SELECT DISTINCT ?author  ?identifier ?aname
+
+WHERE 
+{ 
+   ?author <http://purl.org/dc/terms/identifier> ?identifier .
+   ?author <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+
+FILTER regex( ?identifier, “lsid”, “i” ) .
+
+ 
+   OPTIONAL
+   {
+     ?author <http://schema.org/name> ?aname .
+   }
+
+}  LIMIT 10
+```
+

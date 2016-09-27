@@ -4416,8 +4416,9 @@ function uniques(arr) {
 }
 
 		
-//----------------------------------------------------------------------------------------
 function message(doc) {
+ if (doc.message) {
+  
   var triples = [];
 
   var fuzzy = FuzzySet();
@@ -4425,7 +4426,7 @@ function message(doc) {
 
   // person
   var person = {};
-  var bio = doc['orcid-profile']['orcid-bio'];
+  var bio = doc.message['orcid-profile']['orcid-bio'];
 
   if (bio['personal-details']['given-names'].value) {
     person.givenName = bio['personal-details']['given-names'].value;
@@ -4436,9 +4437,9 @@ function message(doc) {
   }
 
   var locale = '';
-  if (doc['orcid-profile']['orcid-preferences']) {
-    if (doc['orcid-profile']['orcid-preferences'].locale) {
-      locale = doc['orcid-profile']['orcid-preferences'].locale;
+  if (doc.message['orcid-profile']['orcid-preferences']) {
+    if (doc.message['orcid-profile']['orcid-preferences'].locale) {
+      locale = doc.message['orcid-profile']['orcid-preferences'].locale;
     }
   }
 
@@ -4481,7 +4482,7 @@ function message(doc) {
       person.alternateName.push(bio['personal-details']['other-names']['other-name'][j].value);
     }
   }
-  
+
   person.identifier = [];
 
   // other identifiers
@@ -4512,7 +4513,7 @@ function message(doc) {
   // Ensure we remove duplicate names
   person.alternateName = uniques(person.alternateName);
   
-  var cluster_id = doc['orcid-profile']['orcid-identifier'].uri;
+  var cluster_id = doc.message['orcid-profile']['orcid-identifier'].uri;
 
   triples.push(triple(cluster_id,
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
@@ -4542,11 +4543,9 @@ function message(doc) {
             fuzzy.add(person[i][j]);
             
         }
-        
-        // use one name as "name"
         triples.push(triple(cluster_id,
-            'http://schema.org/name',
-            person[i][0]));
+          'http://schema.org/name',
+          person[i][0]));
         break;
       
       // identifiers
@@ -4569,7 +4568,7 @@ function message(doc) {
   // List each one, and link to author via ORCID. Because ORCID doesn't include author 
   // ORCIDs in list of works we need to do some fussing.
 
-  var works = doc['orcid-profile']['orcid-activities']['orcid-works']['orcid-work'];
+  var works = doc.message['orcid-profile']['orcid-activities']['orcid-works']['orcid-work'];
 
   for (var i in works) {
   
@@ -4615,7 +4614,7 @@ function message(doc) {
       if (works[i]['work-citation'].citation) {
         var bibtex = works[i]['work-citation'].citation;
 
-        if (!works[i]['work-citation']['journal-title']) {
+        if (!works[i]['journal-title']) {
           result = bibtex.match(/journal\s*=\s*\{([^\}]*)\}/);
           if (result) {
             work.journal = result[1];
@@ -4685,7 +4684,9 @@ function message(doc) {
             work.issn = list;
             break;
           default:
-            work.identifier.push(identifier['work-external-identifier-id'].value);
+            if (identifier['work-external-identifier-id']) {
+              work.identifier.push(identifier['work-external-identifier-id'].value);
+            }
             break;
         }
       }
@@ -4776,28 +4777,41 @@ function message(doc) {
          case 'author':
             var n = work[j].length;
             for (var k = 0; k < n; k++) {
-              var author_id = work.cluster_id + '/author_' + (k + 1);
+              var author_id = work.cluster_id + '#author_' + (k + 1);
                             
               var person = work[j][k];
               
               if (person.orcid) {
-                author_id = person.orcid;
                 
+                // ORCID identifiers author
 				triples.push(triple(work.cluster_id,
 				'http://schema.org/author',
-				author_id));
+				person.orcid));
+				
+				triples.push(triple(person.orcid,
+   					 'http://purl.org/dc/terms/identifier',
+   						person.orcid));
+ 				
+				// add author order identifier so we can match to other versions of this work,
+				// e.g. in another person's ORCID profile
+				triples.push(triple(person.orcid,
+   					 'http://purl.org/dc/terms/identifier',
+   						author_id));
                 
               } else {
               
               triples.push(triple(work.cluster_id,
 				'http://schema.org/author',
 				author_id));
-              
-
+            
 				triples.push(triple(author_id,
 				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
 				'http://schema.org/Person'));
-              
+				
+				triples.push(triple(author_id,
+   					 'http://purl.org/dc/terms/identifier',
+   						author_id));
+ 
               if (person.givenName) {
 				  triples.push(triple(author_id,
    				 'http://schema.org/givenName',
@@ -4913,27 +4927,17 @@ function message(doc) {
     }
 
   }
-  
-  
- 
-  /*
-  // defaults
-  triples.push(triple(cluster_id,
-    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-    'http://schema.org/ItemList'));
-
-  triples.push(triple(cluster_id,
-    'http://schema.org/itemListOrder',
-    'Unordered'));
-  */
  
   output(doc, triples);
+  
+  }
 
 }
 		
 			function convert() {
 				var jsonld = $('#json').val();
-				var doc = JSON.parse(jsonld);
+				var doc = {};
+				doc.message = JSON.parse(jsonld);
 				
 				
 				message(doc);

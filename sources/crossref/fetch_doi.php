@@ -2993,11 +2993,15 @@ $json = '{"total_rows":2966,"offset":0,"rows":[
 
 $dois=array();
 
+// Mendley
 $obj = json_decode($json);
 foreach ($obj->rows as $row)
 {
 	$dois[] = $row->value;
 }
+
+$dois=array('10.1073/pnas.1013136108'); // DOI with multiple ORCIDs
+
 
 $count = 0;
 

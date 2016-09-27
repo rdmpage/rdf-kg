@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>baseURL</key>
-	<string>http://pub.orcid.org/v1.2/0000-0001-8245-357X/orcid-profile</string>
+	<string>http://pub.orcid.org/v1.2/0000-0003-3941-5628/orcid-profile</string>
 	<key>followRedirect</key>
 	<true/>
 	<key>handleJSONPCallbacks</key>
