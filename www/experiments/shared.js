@@ -43,7 +43,7 @@ function wrap(s, html) {
       s = '<' + s + '>';
     }
   } else {
-    s = '"' + s.replace(/"/, '\"') + '"';
+    s = '"' + s.replace(/"/g, '\\"') + '"';
   }
   return s;
 }
@@ -113,6 +113,9 @@ jsonld.fromRDF(nquads, {format: 'application/nquads'}, function(err, j) {
   "volume" : "http://purl.org/ontology/bibo/volume",
   "issue" : "http://purl.org/ontology/bibo/issue",
   "pages" : "http://purl.org/ontology/bibo/pages",
+  
+  // Prism
+  "publicationName" : "http://prismstandard.org/namespaces/basic/2.1/publicationName",
   
   // Open Annotation
   "oa" : "http://www.w3.org/ns/oa#",  
