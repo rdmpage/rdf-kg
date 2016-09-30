@@ -13,7 +13,19 @@ if ($query)
 	
 	$r = $store->query($query);
 	
-	header("Content-type: text/html; charset=utf-8\n\n");	
+	header("Content-type: text/html; charset=utf-8\n\n");
+	
+	echo '<html>
+	<head>
+		<style>
+			body { font-family:sans-serif; padding:10px; };
+			tbody { font-size:12px; }
+			th { color:white;background-color:rgb(192,192,192); }
+			td { border:1px solid rgb(192,192,192); }
+			
+		</style>
+	</head>
+	<body>';	
 		
 	echo '<pre>' . htmlentities ($query) . '</pre>';
 	
@@ -30,7 +42,8 @@ if ($query)
 /*			echo '<pre>';
 			print_r($r['result']);
 			echo '</pre>';*/
-			echo "<table border=\"1\">";
+			echo "<table border=\"0\">";
+			echo '<tbody>';
 			echo '<tr><th>Predicate</th><th>Object</th></tr>';
 			foreach ($r['result'] as $rows)
 			{
@@ -63,6 +76,7 @@ if ($query)
 					echo '</tr>';
 				}
 			}
+			echo '</tbody>';
 			echo '</table>';
 			echo '<p>' . 'Query took ' . $r['query_time'] . ' seconds.' . '</p>';
 			break;
@@ -74,7 +88,8 @@ if ($query)
 			}
 			else
 			{
-				echo "<table border=\"1\">";
+				echo "<table border=\"0\">";
+				echo '<tbody>';
 				echo '<tr>';
 				foreach ($r['result']['rows'][0] as $k => $v)
 				{
@@ -90,6 +105,7 @@ if ($query)
 					}
 					echo '</tr>';
 				}
+				echo '</tbody>';
 				echo '</table>';
 			}
 			echo '<p>' . 'Query took ' . $r['query_time'] . ' seconds.' . '</p>';
@@ -102,6 +118,8 @@ if ($query)
 			echo '<p>' . 'Query took ' . $r['query_time'] . ' seconds.' . '</p>';	
 			break;
 	}
+	
+	echo '</body></html>';
 }
 else
 {
