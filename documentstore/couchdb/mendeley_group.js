@@ -1,34 +1,13 @@
-
-// Process a Mendeley document in a group list
-function mendeley_group(doc) {
-  for (var i in doc.message) {
-    if (doc.message[i].identifiers) {
-      for (var j in doc.message[i].identifiers) {
-        switch (j) {
-          case 'doi':
-            doi = doc.message[i].identifiers[j];
-            // clean
-            doi = doi.replace(/DOI:\s*/i, '');
-            doi = doi.replace(/\s+/g, '');
-            emit(doc.message[i].id, doi);
-            break;
-          default:
-            break;
-         }
-      }
-    }
-  }
-}
-
-
-function(doc) {
-  if (doc['message-format']) {
-    switch (doc['message-format']) {
-      case 'application/vnd.mendeley-document.1+json':
-        mendeley_group(doc);
-        break;
-      default:
-        break;
-    }
-  }
+{
+   "_id": "_design/mendeley_group",
+   "_rev": "4-de1c2cd0d9ca9ae820e50ccba91e5461",
+   "language": "javascript",
+   "lists": {
+       "n-triples": "function(head,req) { var headers = ''; var row; start({ 'headers': { 'Content-Type': 'text/plain' } }); while(row = getRow()) { send(row.value + '\\n'); } }"
+   },
+   "views": {
+       "nt": {
+           "map": "/*\n\nShared code\n\n\n*/\n//----------------------------------------------------------------------------------------\n// Store a triple with optional language code\nfunction triple(subject, predicate, object, language) {\n  var triple = [];\n  triple[0] = subject;\n  triple[1] = predicate;\n  triple[2] = object;\n\n  if (typeof language === 'undefined') {} else {\n    triple[3] = language;\n  }\n\n  return triple;\n}\n\n//----------------------------------------------------------------------------------------\n// Store a quad (not used at present)\nfunction quad(subject, predicate, object, context) {\n  var triple = [];\n  triple[0] = $subject;\n  triple[1] = $predicate;\n  triple[2] = $object;\n  triple[3] = $context;\n\n  return triple;\n}\n\n//----------------------------------------------------------------------------------------\n// Enclose triple in suitable wrapping for HTML display or triplet output\nfunction wrap(s, html) {\n  if (s.match(/^(http|urn|_:)/)) {\n    if (html) {\n      s = '&lt;' + s + '&gt;';\n    } else {\n      s = '<' + s + '>';\n    }\n  } else {\n    s = '\"' + s.replace(/\"/g, '\\\\\"') + '\"';\n  }\n  return s;\n}\n\n//----------------------------------------------------------------------------------------\n// https://css-tricks.com/snippets/javascript/htmlentities-for-javascript/\nfunction htmlEntities(str) {\n  return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\"/g, '&quot;');\n}\n\n//----------------------------------------------------------------------------------------\nfunction output(doc, triples) {\n    // CouchDB\n    for (var i in triples) {\n      var s = 0;\n      var p = 1;\n      var o = 2;\n      emit(doc._id, wrap(triples[i][s], false) + ' ' + wrap(triples[i][p], false) + ' ' + wrap(triples[i][o], false) + ' .');\n    }\n}\n\nfunction message(doc) {\n  var triples = [];\n\n  var cluster_id = '';\n  \n  if (doc.message) {\n    cluster_id = 'urn:uuid:' + doc.message[0].group_id;\n    \n    for (var i in doc.message) {\n      var id = 'urn:uuid:' + doc.message[i].id;\n      \n      triples.push(triple(cluster_id,\n      'http://schema.org/itemListElement',\n       id));\n      \n      triples.push(triple(id,\n        'http://purl.org/dc/terms/identifier',\n         id));\n       \n      \n      for (var j in doc.message[i]) {\n        switch (j) {\n          case 'title':\n           triples.push(triple(id,\n            'http://schema.org/name',\n            doc.message[i][j]));\n            break;\n            \n          case 'identifiers':\n\t\t\t  for (var k in doc.message[i][j]) {\n\t\t\t\tswitch (k) {\n\t\t\t\t  case 'doi':\n\t\t\t\t\tdoi = doc.message[i][j][k];\n\t\t\t\t\t// clean\n\t\t\t\t\tdoi = doi.replace(/DOI:\\s*/i, '');\n\t\t\t\t\tdoi = doi.replace(/\\s+/g, '');\n                                        doi = doi.replace(/<\\/p>/g, '');\n\t\t\t\t\t\n\t\t\t\t\tif (doi.match(/^10\\./)) {\n\t\t\t\t      triples.push(triple(id,\n\t\t\t\t\t    'http://purl.org/dc/terms/identifier',\n\t\t\t\t\t     'http://identifiers.org/doi/' + doi));\n\t\t\t\t\t}\n\t\t\t\t\tbreak;\n\t\t\t\t  default:\n\t\t\t\t\tbreak;\n\t\t\t\t }\n\t\t\t  }\n\t\t\t  break;\n\t\t\t  \n           case 'tags':\n             for (var k in doc.message[i][j]) {\n               triples.push(triple(id,\n               'http://schema.org/about',\n               doc.message[i][j][k]));\n            }\n            break;\n\t\t\t  \n            \n          default:\n            break;\n        }\n      }\n     }     \n    }\n\n  triples.push(triple(cluster_id,\n    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',\n    'http://schema.org/ItemList'));\n\n  triples.push(triple(cluster_id,\n    'http://schema.org/itemListOrder',\n    'Unordered'));\n\n  output(doc, triples);\n\n}\n\n\nfunction(doc) {\n  if (doc['message-format']) {\n    switch (doc['message-format']) {\n      case 'application/vnd.mendeley-document.1+json':\n        message(doc);\n        break;\n      default:\n        break;\n    }\n  }\n}"
+       }
+   }
 }
