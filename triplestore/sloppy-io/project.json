@@ -1,0 +1,33 @@
+{
+  "project": "new-project",
+  "services": [
+    {
+      "id": "web",
+      "apps": [
+        {
+          "env": {},
+          "domain": {
+            "uri": "rdmpage-jena-fuseki-v.sloppy.zone"
+          },
+          "mem": 512,
+          "image": "stain/jena-fuseki",
+          "instances": 1,
+          "id": "fuseki-v",
+          "health_checks": [],
+          "volumes": [
+            {
+              "container_path": "/fuseki",
+              "size": "8GB"
+            }
+          ],
+          "port_mappings": [
+            {
+              "container_port": 3030,
+              "protocol": "tcp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
