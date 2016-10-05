@@ -3,3 +3,4 @@
 junk
 
 triplestore/*.nt
+triplestore/data/*
