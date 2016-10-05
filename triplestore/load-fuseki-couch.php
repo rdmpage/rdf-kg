@@ -76,6 +76,17 @@ function upload_data($data)
 		curl_close($ch);
 		die($errorText);
 	}
+	
+	$info = curl_getinfo($ch);
+	$http_code = $info['http_code'];
+	
+	if ($http_code != 200)
+	{
+		echo $response;	
+		die ("Triple store returned $http_code\n");
+	}
+	
+	
 	curl_close($ch);
 
 	echo $response;
