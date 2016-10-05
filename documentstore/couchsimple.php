@@ -7,16 +7,43 @@ $couch = new CouchSimple($config['couchdb_options']);
 //--------------------------------------------------------------------------------------------------
 class CouchSimple
 {
-	//----------------------------------------------------------------------------------------------
+	//------------------------------------------------------------------------------------
      function CouchSimple($options)
      {
          foreach($options AS $key => $value) {
              $this->$key = $value;
          }
      }
+     
+     //-----------------------------------------------------------------------------------
+	// Do HTTP HEAD to see if a document exists
+	function exists($id)
+	{
+		$ch = curl_init(); 
+		
+		$url = $this->prefix . $this->host . ':' . $this->port . '/' . $this->database . '/' . urlencode($id);
 
-	//----------------------------------------------------------------------------------------------
-     function send($method, $url, $post_data = NULL)
+		curl_setopt ($ch, CURLOPT_URL, $url); 
+		curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1); 		
+		curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, false);
+		
+		if (isset($this->proxy))
+		{
+			curl_setopt($ch, CURLOPT_PROXY, $this->proxy);
+		}
+		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "HEAD");
+		
+		// http://stackoverflow.com/a/770200
+		curl_setopt($ch, CURLOPT_NOBODY, true);
+
+   		$response = curl_exec($ch);
+    	$http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    	
+   		return ($http_code == 200);
+	}
+
+     //-----------------------------------------------------------------------------------
+	function send($method, $url, $post_data = NULL)
      {
 		$ch = curl_init(); 
 		
@@ -65,6 +92,7 @@ class CouchSimple
     	$http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     	
     	//echo $response;
+    	//echo $http_code;
     	
 		if (curl_errno ($ch) != 0 )
 		{
@@ -74,6 +102,7 @@ class CouchSimple
    		return $response;
      }
      
+     //-----------------------------------------------------------------------------------
      // Add, update, or delete object. This method is handy if you are unsure of whether object
      // already exists. If it does, we get the revision number and then update the record using PUT 
      function add_update_or_delete_document($obj, $id, $operation = 'add')
