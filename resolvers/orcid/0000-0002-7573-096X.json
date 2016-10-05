@@ -1,0 +1,974 @@
+{
+    "message-version": "1.2",
+    "orcid-profile": {
+        "orcid": null,
+        "orcid-id": null,
+        "orcid-identifier": {
+            "value": null,
+            "uri": "http://orcid.org/0000-0002-7573-096X",
+            "path": "0000-0002-7573-096X",
+            "host": "orcid.org"
+        },
+        "orcid-deprecated": null,
+        "orcid-preferences": {
+            "locale": "EN"
+        },
+        "orcid-history": {
+            "creation-method": "WEBSITE",
+            "completion-date": {
+                "value": 1375716419475
+            },
+            "submission-date": {
+                "value": 1375716392014
+            },
+            "last-modified-date": {
+                "value": 1465945718508
+            },
+            "claimed": {
+                "value": true
+            },
+            "source": null,
+            "deactivation-date": null,
+            "verified-email": {
+                "value": true
+            },
+            "verified-primary-email": {
+                "value": true
+            },
+            "visibility": null
+        },
+        "orcid-bio": {
+            "personal-details": {
+                "given-names": {
+                    "value": "Cameron",
+                    "visibility": null
+                },
+                "family-name": {
+                    "value": "Siler",
+                    "visibility": null
+                },
+                "credit-name": {
+                    "value": "Cameron D. Siler",
+                    "visibility": "PUBLIC"
+                },
+                "other-names": null
+            },
+            "biography": null,
+            "researcher-urls": {
+                "researcher-url": [
+                    {
+                        "url-name": {
+                            "value": "Personal Website"
+                        },
+                        "url": {
+                            "value": "www.cameronsiler.com"
+                        }
+                    }
+                ],
+                "visibility": "PUBLIC"
+            },
+            "contact-details": {
+                "email": [],
+                "address": {
+                    "country": {
+                        "value": "US",
+                        "visibility": "PUBLIC"
+                    }
+                }
+            },
+            "keywords": {
+                "keyword": [
+                    {
+                        "value": " Biogeography"
+                    },
+                    {
+                        "value": " Conservation Genetics"
+                    },
+                    {
+                        "value": " Herpetology"
+                    },
+                    {
+                        "value": " Phylogenetics"
+                    },
+                    {
+                        "value": " Southeast Asia"
+                    },
+                    {
+                        "value": "Evolutionary Biology"
+                    }
+                ],
+                "visibility": "PUBLIC"
+            },
+            "external-identifiers": null,
+            "delegation": null,
+            "scope": null
+        },
+        "orcid-activities": {
+            "affiliations": null,
+            "orcid-works": {
+                "orcid-work": [
+                    {
+                        "put-code": "9556760",
+                        "work-title": {
+                            "title": {
+                                "value": "Multilocus phylogeny reveals unexpected diversification patterns in Asian wolf snakes (genusLycodon)"
+                            },
+                            "subtitle": {
+                                "value": "Zoologica Scripta"
+                            },
+                            "translated-title": null
+                        },
+                        "journal-title": null,
+                        "short-description": null,
+                        "work-citation": {
+                            "work-citation-type": "BIBTEX",
+                            "citation": "@article{r_Oliveros_Santanen_Brown_2013, title={              Multilocus phylogeny reveals unexpected diversification patterns in Asian wolf snakes (genus              Lycodon              )            }, volume={42}, url={http://dx.doi.org/10.1111/zsc.12007}, DOI={10.1111/zsc.12007}, number={3}, journal={Zoologica Scripta}, publisher={Wiley Blackwell (Blackwell Publishing)}, author={Siler, Cameron D. and Oliveros, Carl H. and Santanen, Anssi and Brown, Rafe M.}, year={2013}, month={May}, pages={262-277}}"
+                        },
+                        "work-type": "JOURNAL_ARTICLE",
+                        "publication-date": {
+                            "year": {
+                                "value": "2013"
+                            },
+                            "month": null,
+                            "day": null,
+                            "media-type": null
+                        },
+                        "work-external-identifiers": {
+                            "work-external-identifier": [
+                                {
+                                    "work-external-identifier-type": "ISSN",
+                                    "work-external-identifier-id": {
+                                        "value": "0300-3256"
+                                    }
+                                },
+                                {
+                                    "work-external-identifier-type": "DOI",
+                                    "work-external-identifier-id": {
+                                        "value": "10.1111/zsc.12007"
+                                    }
+                                }
+                            ],
+                            "scope": null
+                        },
+                        "url": null,
+                        "work-contributors": null,
+                        "work-source": null,
+                        "source": {
+                            "source-orcid": {
+                                "value": null,
+                                "uri": "http://orcid.org/0000-0002-3054-1567",
+                                "path": "0000-0002-3054-1567",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "CrossRef Metadata Search"
+                            },
+                            "source-date": {
+                                "value": 1375716609470
+                            }
+                        },
+                        "created-date": {
+                            "value": 1375716609470
+                        },
+                        "last-modified-date": {
+                            "value": 1437172088287
+                        },
+                        "language-code": null,
+                        "country": null,
+                        "visibility": "PUBLIC"
+                    },
+                    {
+                        "put-code": "9556759",
+                        "work-title": {
+                            "title": {
+                                "value": "Phylogeny and cryptic diversification in Southeast Asian flying geckos"
+                            },
+                            "subtitle": {
+                                "value": "Molecular Phylogenetics and Evolution"
+                            },
+                            "translated-title": null
+                        },
+                        "journal-title": null,
+                        "short-description": null,
+                        "work-citation": {
+                            "work-citation-type": "BIBTEX",
+                            "citation": "@article{r_Lee_Grismer_Das_McGuire_2012, title={Phylogeny and cryptic diversification in Southeast Asian flying geckos}, volume={65}, url={http://dx.doi.org/10.1016/j.ympev.2012.06.009}, DOI={10.1016/j.ympev.2012.06.009}, number={2}, journal={Molecular Phylogenetics and Evolution}, publisher={Elsevier}, author={Brown, Rafe M. and Siler, Cameron D. and Lee Grismer, L. and Das, Indraneil and McGuire, Jimmy A.}, year={2012}, month={Nov}, pages={351-361}}"
+                        },
+                        "work-type": "JOURNAL_ARTICLE",
+                        "publication-date": {
+                            "year": {
+                                "value": "2012"
+                            },
+                            "month": null,
+                            "day": null,
+                            "media-type": null
+                        },
+                        "work-external-identifiers": {
+                            "work-external-identifier": [
+                                {
+                                    "work-external-identifier-type": "DOI",
+                                    "work-external-identifier-id": {
+                                        "value": "10.1016/j.ympev.2012.06.009"
+                                    }
+                                },
+                                {
+                                    "work-external-identifier-type": "ISSN",
+                                    "work-external-identifier-id": {
+                                        "value": "1055-7903"
+                                    }
+                                }
+                            ],
+                            "scope": null
+                        },
+                        "url": null,
+                        "work-contributors": null,
+                        "work-source": null,
+                        "source": {
+                            "source-orcid": {
+                                "value": null,
+                                "uri": "http://orcid.org/0000-0002-3054-1567",
+                                "path": "0000-0002-3054-1567",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "CrossRef Metadata Search"
+                            },
+                            "source-date": {
+                                "value": 1375716600989
+                            }
+                        },
+                        "created-date": {
+                            "value": 1375716600989
+                        },
+                        "last-modified-date": {
+                            "value": 1437172088212
+                        },
+                        "language-code": null,
+                        "country": null,
+                        "visibility": "PUBLIC"
+                    },
+                    {
+                        "put-code": "9556762",
+                        "work-title": {
+                            "title": {
+                                "value": "A New Gekko from Sibuyan Island, Central Philippines"
+                            },
+                            "subtitle": {
+                                "value": "Herpetologica"
+                            },
+                            "translated-title": null
+                        },
+                        "journal-title": null,
+                        "short-description": null,
+                        "work-citation": {
+                            "work-citation-type": "BIBTEX",
+                            "citation": "@article{r_Oliveros_Diesmos_Alcala_2011, title={A New Gekko from Sibuyan Island, Central Philippines}, volume={67}, url={http://dx.doi.org/10.1655/HERPETOLOGICA-D-11-00025.1}, DOI={10.1655/HERPETOLOGICA-D-11-00025.1}, number={4}, journal={Herpetologica}, publisher={BioOne (Herpetologists League)}, author={Brown, Rafe M. and Siler, Cameron D. and Oliveros, Carl H. and Diesmos, Arvin C. and Alcala, Angel C.}, year={2011}, month={Dec}, pages={460-476}}"
+                        },
+                        "work-type": "JOURNAL_ARTICLE",
+                        "publication-date": {
+                            "year": {
+                                "value": "2011"
+                            },
+                            "month": null,
+                            "day": null,
+                            "media-type": null
+                        },
+                        "work-external-identifiers": {
+                            "work-external-identifier": [
+                                {
+                                    "work-external-identifier-type": "ISSN",
+                                    "work-external-identifier-id": {
+                                        "value": "0018-0831"
+                                    }
+                                },
+                                {
+                                    "work-external-identifier-type": "DOI",
+                                    "work-external-identifier-id": {
+                                        "value": "10.1655/herpetologica-d-11-00025.1"
+                                    }
+                                }
+                            ],
+                            "scope": null
+                        },
+                        "url": null,
+                        "work-contributors": null,
+                        "work-source": null,
+                        "source": {
+                            "source-orcid": {
+                                "value": null,
+                                "uri": "http://orcid.org/0000-0002-3054-1567",
+                                "path": "0000-0002-3054-1567",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "CrossRef Metadata Search"
+                            },
+                            "source-date": {
+                                "value": 1375716622940
+                            }
+                        },
+                        "created-date": {
+                            "value": 1375716622940
+                        },
+                        "last-modified-date": {
+                            "value": 1437172088447
+                        },
+                        "language-code": null,
+                        "country": null,
+                        "visibility": "PUBLIC"
+                    },
+                    {
+                        "put-code": "9556847",
+                        "work-title": {
+                            "title": {
+                                "value": "EVOLUTIONARY SIMPLIFICATION AND REACQUISITION OF COMPLEX BODY FORM IN SKINKS"
+                            },
+                            "subtitle": {
+                                "value": "Evolution"
+                            },
+                            "translated-title": null
+                        },
+                        "journal-title": null,
+                        "short-description": null,
+                        "work-citation": {
+                            "work-citation-type": "BIBTEX",
+                            "citation": "@article{Siler_Brown_2011, title={EVIDENCE FOR REPEATED ACQUISITION AND LOSS OF COMPLEX BODY-FORM CHARACTERS IN AN INSULAR CLADE OF SOUTHEAST ASIAN SEMI-FOSSORIAL SKINKS}, volume={65}, url={http://dx.doi.org/10.1111/j.1558-5646.2011.01315.x}, DOI={10.1111/j.1558-5646.2011.01315.x}, number={9}, journal={Evolution}, publisher={Wiley Blackwell (Blackwell Publishing)}, author={Siler, Cameron D. and Brown, Rafe M.}, year={2011}, month={Sep}, pages={2641-2663}}"
+                        },
+                        "work-type": "JOURNAL_ARTICLE",
+                        "publication-date": {
+                            "year": {
+                                "value": "2011"
+                            },
+                            "month": null,
+                            "day": null,
+                            "media-type": null
+                        },
+                        "work-external-identifiers": {
+                            "work-external-identifier": [
+                                {
+                                    "work-external-identifier-type": "ISSN",
+                                    "work-external-identifier-id": {
+                                        "value": "0014-3820"
+                                    }
+                                },
+                                {
+                                    "work-external-identifier-type": "DOI",
+                                    "work-external-identifier-id": {
+                                        "value": "10.1111/j.1558-5646.2011.01315.x"
+                                    }
+                                }
+                            ],
+                            "scope": null
+                        },
+                        "url": null,
+                        "work-contributors": null,
+                        "work-source": null,
+                        "source": {
+                            "source-orcid": {
+                                "value": null,
+                                "uri": "http://orcid.org/0000-0002-3054-1567",
+                                "path": "0000-0002-3054-1567",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "CrossRef Metadata Search"
+                            },
+                            "source-date": {
+                                "value": 1375716635439
+                            }
+                        },
+                        "created-date": {
+                            "value": 1375716635439
+                        },
+                        "last-modified-date": {
+                            "value": 1437172091056
+                        },
+                        "language-code": null,
+                        "country": null,
+                        "visibility": "PUBLIC"
+                    },
+                    {
+                        "put-code": "9556846",
+                        "work-title": {
+                            "title": {
+                                "value": "Phylogeography, geographic structure, genetic variation, and potential species boundaries in Philippine slender toads"
+                            },
+                            "subtitle": {
+                                "value": "Molecular Phylogenetics and Evolution"
+                            },
+                            "translated-title": null
+                        },
+                        "journal-title": null,
+                        "short-description": null,
+                        "work-citation": {
+                            "work-citation-type": "BIBTEX",
+                            "citation": "@article{iler_Diesmos_Nuneza_Brown_2011, title={Phylogeography, geographic structure, genetic variation, and potential species boundaries in Philippine slender toads}, volume={61}, url={http://dx.doi.org/10.1016/j.ympev.2011.06.019}, DOI={10.1016/j.ympev.2011.06.019}, number={2}, journal={Molecular Phylogenetics and Evolution}, publisher={Elsevier}, author={Sanguila, Marites Bonachita and Siler, Cameron D. and Diesmos, Arvin C. and NuÃ±eza, Olga and Brown, Rafe M.}, year={2011}, month={Nov}, pages={333-350}}"
+                        },
+                        "work-type": "JOURNAL_ARTICLE",
+                        "publication-date": {
+                            "year": {
+                                "value": "2011"
+                            },
+                            "month": null,
+                            "day": null,
+                            "media-type": null
+                        },
+                        "work-external-identifiers": {
+                            "work-external-identifier": [
+                                {
+                                    "work-external-identifier-type": "DOI",
+                                    "work-external-identifier-id": {
+                                        "value": "10.1016/j.ympev.2011.06.019"
+                                    }
+                                },
+                                {
+                                    "work-external-identifier-type": "ISSN",
+                                    "work-external-identifier-id": {
+                                        "value": "1055-7903"
+                                    }
+                                }
+                            ],
+                            "scope": null
+                        },
+                        "url": null,
+                        "work-contributors": null,
+                        "work-source": null,
+                        "source": {
+                            "source-orcid": {
+                                "value": null,
+                                "uri": "http://orcid.org/0000-0002-3054-1567",
+                                "path": "0000-0002-3054-1567",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "CrossRef Metadata Search"
+                            },
+                            "source-date": {
+                                "value": 1375716629488
+                            }
+                        },
+                        "created-date": {
+                            "value": 1375716629488
+                        },
+                        "last-modified-date": {
+                            "value": 1437172090986
+                        },
+                        "language-code": null,
+                        "country": null,
+                        "visibility": "PUBLIC"
+                    },
+                    {
+                        "put-code": "9556761",
+                        "work-title": {
+                            "title": {
+                                "value": "Redescription of Tetradactyl Philippine Slender Skinks (Genus Brachymeles)"
+                            },
+                            "subtitle": {
+                                "value": "Herpetologica"
+                            },
+                            "translated-title": null
+                        },
+                        "journal-title": null,
+                        "short-description": null,
+                        "work-citation": {
+                            "work-citation-type": "BIBTEX",
+                            "citation": "@article{Siler_Jones_Welton_Brown_2011, title={Redescription of Tetradactyl Philippine Slender Skinks (Genus Brachymeles)}, volume={67}, url={http://dx.doi.org/10.1655/HERPETOLOGICA-D-10-00071.1}, DOI={10.1655/HERPETOLOGICA-D-10-00071.1}, number={3}, journal={Herpetologica}, publisher={BioOne (Herpetologists League)}, author={Siler, Cameron D. and Jones, Robin M. and Welton, Luke J. and Brown, Rafe M.}, year={2011}, month={Sep}, pages={300-317}}"
+                        },
+                        "work-type": "JOURNAL_ARTICLE",
+                        "publication-date": {
+                            "year": {
+                                "value": "2011"
+                            },
+                            "month": null,
+                            "day": null,
+                            "media-type": null
+                        },
+                        "work-external-identifiers": {
+                            "work-external-identifier": [
+                                {
+                                    "work-external-identifier-type": "ISSN",
+                                    "work-external-identifier-id": {
+                                        "value": "0018-0831"
+                                    }
+                                },
+                                {
+                                    "work-external-identifier-type": "DOI",
+                                    "work-external-identifier-id": {
+                                        "value": "10.1655/herpetologica-d-10-00071.1"
+                                    }
+                                }
+                            ],
+                            "scope": null
+                        },
+                        "url": null,
+                        "work-contributors": null,
+                        "work-source": null,
+                        "source": {
+                            "source-orcid": {
+                                "value": null,
+                                "uri": "http://orcid.org/0000-0002-3054-1567",
+                                "path": "0000-0002-3054-1567",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "CrossRef Metadata Search"
+                            },
+                            "source-date": {
+                                "value": 1375716616283
+                            }
+                        },
+                        "created-date": {
+                            "value": 1375716616283
+                        },
+                        "last-modified-date": {
+                            "value": 1437172088367
+                        },
+                        "language-code": null,
+                        "country": null,
+                        "visibility": "PUBLIC"
+                    },
+                    {
+                        "put-code": "9556758",
+                        "work-title": {
+                            "title": {
+                                "value": "New Loam-Swimming Skink, Genus Brachymeles (Reptilia: Squamata: Scincidae) from Luzon and Catanduanes Islands, Philippines"
+                            },
+                            "subtitle": {
+                                "value": "Journal of Herpetology"
+                            },
+                            "translated-title": null
+                        },
+                        "journal-title": null,
+                        "short-description": null,
+                        "work-citation": {
+                            "work-citation-type": "BIBTEX",
+                            "citation": "@article{Siler_Diesmos_Brown_2010, title={New Loam-Swimming Skink, Genus Brachymeles (Reptilia: Squamata: Scincidae) from Luzon and Catanduanes Islands, Philippines}, volume={44}, url={http://dx.doi.org/10.1670/08-318.1}, DOI={10.1670/08-318.1}, number={1}, journal={Journal of Herpetology}, publisher={BioOne (Society for the Study of Amphibians & Reptiles)}, author={Siler, Cameron D. and Diesmos, Arvin C. and Brown, Rafe M.}, year={2010}, month={Mar}, pages={49-60}}"
+                        },
+                        "work-type": "JOURNAL_ARTICLE",
+                        "publication-date": {
+                            "year": {
+                                "value": "2010"
+                            },
+                            "month": null,
+                            "day": null,
+                            "media-type": null
+                        },
+                        "work-external-identifiers": {
+                            "work-external-identifier": [
+                                {
+                                    "work-external-identifier-type": "ISSN",
+                                    "work-external-identifier-id": {
+                                        "value": "0022-1511"
+                                    }
+                                },
+                                {
+                                    "work-external-identifier-type": "DOI",
+                                    "work-external-identifier-id": {
+                                        "value": "10.1670/08-318.1"
+                                    }
+                                }
+                            ],
+                            "scope": null
+                        },
+                        "url": null,
+                        "work-contributors": null,
+                        "work-source": null,
+                        "source": {
+                            "source-orcid": {
+                                "value": null,
+                                "uri": "http://orcid.org/0000-0002-3054-1567",
+                                "path": "0000-0002-3054-1567",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "CrossRef Metadata Search"
+                            },
+                            "source-date": {
+                                "value": 1375716579725
+                            }
+                        },
+                        "created-date": {
+                            "value": 1375716579725
+                        },
+                        "last-modified-date": {
+                            "value": 1437172088137
+                        },
+                        "language-code": null,
+                        "country": null,
+                        "visibility": "PUBLIC"
+                    },
+                    {
+                        "put-code": "9556755",
+                        "work-title": {
+                            "title": {
+                                "value": "A New Limb-Reduced, Loam-Swimming Skink (Squamata: Scincidae: Brachymeles) from Central Luzon Island, Philippines"
+                            },
+                            "subtitle": {
+                                "value": "Herpetologica"
+                            },
+                            "translated-title": null
+                        },
+                        "journal-title": null,
+                        "short-description": null,
+                        "work-citation": {
+                            "work-citation-type": "BIBTEX",
+                            "citation": "@article{Siler_Rico_Duya_Brown_2009, title={A New Limb-Reduced, Loam-Swimming Skink (Squamata: Scincidae: Brachymeles) from Central Luzon Island, Philippines}, volume={65}, url={http://dx.doi.org/10.1655/08-076.1}, DOI={10.1655/08-076.1}, number={4}, journal={Herpetologica}, publisher={BioOne (Herpetologists League)}, author={Siler, Cameron D. and Rico, Edmond L. and Duya, Mariano R. and Brown, Rafe M.}, year={2009}, month={Dec}, pages={449-459}}"
+                        },
+                        "work-type": "JOURNAL_ARTICLE",
+                        "publication-date": {
+                            "year": {
+                                "value": "2009"
+                            },
+                            "month": null,
+                            "day": null,
+                            "media-type": null
+                        },
+                        "work-external-identifiers": {
+                            "work-external-identifier": [
+                                {
+                                    "work-external-identifier-type": "ISSN",
+                                    "work-external-identifier-id": {
+                                        "value": "0018-0831"
+                                    }
+                                },
+                                {
+                                    "work-external-identifier-type": "DOI",
+                                    "work-external-identifier-id": {
+                                        "value": "10.1655/08-076.1"
+                                    }
+                                }
+                            ],
+                            "scope": null
+                        },
+                        "url": null,
+                        "work-contributors": null,
+                        "work-source": null,
+                        "source": {
+                            "source-orcid": {
+                                "value": null,
+                                "uri": "http://orcid.org/0000-0002-3054-1567",
+                                "path": "0000-0002-3054-1567",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "CrossRef Metadata Search"
+                            },
+                            "source-date": {
+                                "value": 1375716559423
+                            }
+                        },
+                        "created-date": {
+                            "value": 1375716559423
+                        },
+                        "last-modified-date": {
+                            "value": 1437172087930
+                        },
+                        "language-code": null,
+                        "country": null,
+                        "visibility": "PUBLIC"
+                    },
+                    {
+                        "put-code": "9556757",
+                        "work-title": {
+                            "title": {
+                                "value": "A New Species of Fanged Frog, Genus Limnonectes (Amphibia: Anura: Dicroglossidae) from Southeast Mindanao Island, Philippines"
+                            },
+                            "subtitle": {
+                                "value": "Herpetologica"
+                            },
+                            "translated-title": null
+                        },
+                        "journal-title": null,
+                        "short-description": null,
+                        "work-citation": {
+                            "work-citation-type": "BIBTEX",
+                            "citation": "@article{Siler_McVay_Diesmos_Brown_2009, title={A New Species of Fanged Frog, Genus Limnonectes (Amphibia: Anura: Dicroglossidae) from Southeast Mindanao Island, Philippines}, volume={65}, url={http://dx.doi.org/10.1655/08-041R1.1}, DOI={10.1655/08-041R1.1}, number={1}, journal={Herpetologica}, publisher={BioOne (Herpetologists League)}, author={Siler, Cameron D. and McVay, John D. and Diesmos, Arvin C. and Brown, Rafe M.}, editor={Burbrink, FrankEditor}, year={2009}, month={Mar}, pages={105-114}}"
+                        },
+                        "work-type": "JOURNAL_ARTICLE",
+                        "publication-date": {
+                            "year": {
+                                "value": "2009"
+                            },
+                            "month": null,
+                            "day": null,
+                            "media-type": null
+                        },
+                        "work-external-identifiers": {
+                            "work-external-identifier": [
+                                {
+                                    "work-external-identifier-type": "ISSN",
+                                    "work-external-identifier-id": {
+                                        "value": "0018-0831"
+                                    }
+                                },
+                                {
+                                    "work-external-identifier-type": "DOI",
+                                    "work-external-identifier-id": {
+                                        "value": "10.1655/08-041r1.1"
+                                    }
+                                }
+                            ],
+                            "scope": null
+                        },
+                        "url": null,
+                        "work-contributors": null,
+                        "work-source": null,
+                        "source": {
+                            "source-orcid": {
+                                "value": null,
+                                "uri": "http://orcid.org/0000-0002-3054-1567",
+                                "path": "0000-0002-3054-1567",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "CrossRef Metadata Search"
+                            },
+                            "source-date": {
+                                "value": 1375716574052
+                            }
+                        },
+                        "created-date": {
+                            "value": 1375716574052
+                        },
+                        "last-modified-date": {
+                            "value": 1437172088068
+                        },
+                        "language-code": null,
+                        "country": null,
+                        "visibility": "PUBLIC"
+                    },
+                    {
+                        "put-code": "9556848",
+                        "work-title": {
+                            "title": {
+                                "value": "A New Species of Limestone-Forest Frog, Genus Platymantis (Amphibia: Anura: Ceratobatrachidae) from Eastern Samar Island, Philippines"
+                            },
+                            "subtitle": {
+                                "value": "Herpetologica"
+                            },
+                            "translated-title": null
+                        },
+                        "journal-title": null,
+                        "short-description": null,
+                        "work-citation": {
+                            "work-citation-type": "BIBTEX",
+                            "citation": "@article{iler_Alcala_Diesmos_Brown_2009, title={A New Species of Limestone-Forest Frog, Genus Platymantis (Amphibia: Anura: Ceratobatrachidae) from Eastern Samar Island, Philippines}, volume={65}, url={http://dx.doi.org/10.1655/08-040R.1}, DOI={10.1655/08-040R.1}, number={1}, journal={Herpetologica}, publisher={BioOne (Herpetologists League)}, author={Siler, Cameron D. and Alcala, Angel C. and Diesmos, Arvin C. and Brown, Rafe M.}, editor={Harvey, MichaelEditor}, year={2009}, month={Mar}, pages={92-104}}"
+                        },
+                        "work-type": "JOURNAL_ARTICLE",
+                        "publication-date": {
+                            "year": {
+                                "value": "2009"
+                            },
+                            "month": null,
+                            "day": null,
+                            "media-type": null
+                        },
+                        "work-external-identifiers": {
+                            "work-external-identifier": [
+                                {
+                                    "work-external-identifier-type": "ISSN",
+                                    "work-external-identifier-id": {
+                                        "value": "0018-0831"
+                                    }
+                                },
+                                {
+                                    "work-external-identifier-type": "DOI",
+                                    "work-external-identifier-id": {
+                                        "value": "10.1655/08-040r.1"
+                                    }
+                                }
+                            ],
+                            "scope": null
+                        },
+                        "url": null,
+                        "work-contributors": null,
+                        "work-source": null,
+                        "source": {
+                            "source-orcid": {
+                                "value": null,
+                                "uri": "http://orcid.org/0000-0002-3054-1567",
+                                "path": "0000-0002-3054-1567",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "CrossRef Metadata Search"
+                            },
+                            "source-date": {
+                                "value": 1375716644111
+                            }
+                        },
+                        "created-date": {
+                            "value": 1375716644111
+                        },
+                        "last-modified-date": {
+                            "value": 1437172091131
+                        },
+                        "language-code": null,
+                        "country": null,
+                        "visibility": "PUBLIC"
+                    },
+                    {
+                        "put-code": "9556849",
+                        "work-title": {
+                            "title": {
+                                "value": "Phylogeny of Gekko from the Northern Philippines, and Description of a New Species from Calayan Island"
+                            },
+                            "subtitle": {
+                                "value": "Journal of Herpetology"
+                            },
+                            "translated-title": null
+                        },
+                        "journal-title": null,
+                        "short-description": null,
+                        "work-citation": {
+                            "work-citation-type": "BIBTEX",
+                            "citation": "@article{wn_Oliveros_Siler_Diesmos_2009, title={Phylogeny of Gekko from the Northern Philippines, and Description of a New Species from Calayan Island}, volume={43}, url={http://dx.doi.org/10.1670/08-207.1}, DOI={10.1670/08-207.1}, number={4}, journal={Journal of Herpetology}, publisher={BioOne (Society for the Study of Amphibians & Reptiles)}, author={Brown, Rafe M. and Oliveros, Carl and Siler, Cameron D. and Diesmos, Arvin C.}, year={2009}, month={Dec}, pages={620-635}}"
+                        },
+                        "work-type": "JOURNAL_ARTICLE",
+                        "publication-date": {
+                            "year": {
+                                "value": "2009"
+                            },
+                            "month": null,
+                            "day": null,
+                            "media-type": null
+                        },
+                        "work-external-identifiers": {
+                            "work-external-identifier": [
+                                {
+                                    "work-external-identifier-type": "ISSN",
+                                    "work-external-identifier-id": {
+                                        "value": "0022-1511"
+                                    }
+                                },
+                                {
+                                    "work-external-identifier-type": "DOI",
+                                    "work-external-identifier-id": {
+                                        "value": "10.1670/08-207.1"
+                                    }
+                                }
+                            ],
+                            "scope": null
+                        },
+                        "url": null,
+                        "work-contributors": null,
+                        "work-source": null,
+                        "source": {
+                            "source-orcid": {
+                                "value": null,
+                                "uri": "http://orcid.org/0000-0002-3054-1567",
+                                "path": "0000-0002-3054-1567",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "CrossRef Metadata Search"
+                            },
+                            "source-date": {
+                                "value": 1375716651420
+                            }
+                        },
+                        "created-date": {
+                            "value": 1375716651420
+                        },
+                        "last-modified-date": {
+                            "value": 1437172091201
+                        },
+                        "language-code": null,
+                        "country": null,
+                        "visibility": "PUBLIC"
+                    },
+                    {
+                        "put-code": "9556756",
+                        "work-title": {
+                            "title": {
+                                "value": "A New Gekko from the Babuyan Islands, Northern Philippines"
+                            },
+                            "subtitle": {
+                                "value": "Herpetologica"
+                            },
+                            "translated-title": null
+                        },
+                        "journal-title": null,
+                        "short-description": null,
+                        "work-citation": {
+                            "work-citation-type": "BIBTEX",
+                            "citation": "@article{wn_Oliveros_Siler_Diesmos_2008, title={A New Gekko from the Babuyan Islands, Northern Philippines}, volume={64}, url={http://dx.doi.org/10.1655/07-078.1}, DOI={10.1655/07-078.1}, number={3}, journal={Herpetologica}, publisher={BioOne (Herpetologists League)}, author={Brown, Rafe M. and Oliveros, Carl H. and Siler, Cameron D. and Diesmos, Arvin C.}, year={2008}, month={Sep}, pages={305-320}}"
+                        },
+                        "work-type": "JOURNAL_ARTICLE",
+                        "publication-date": {
+                            "year": {
+                                "value": "2008"
+                            },
+                            "month": null,
+                            "day": null,
+                            "media-type": null
+                        },
+                        "work-external-identifiers": {
+                            "work-external-identifier": [
+                                {
+                                    "work-external-identifier-type": "ISSN",
+                                    "work-external-identifier-id": {
+                                        "value": "0018-0831"
+                                    }
+                                },
+                                {
+                                    "work-external-identifier-type": "DOI",
+                                    "work-external-identifier-id": {
+                                        "value": "10.1655/07-078.1"
+                                    }
+                                }
+                            ],
+                            "scope": null
+                        },
+                        "url": null,
+                        "work-contributors": null,
+                        "work-source": null,
+                        "source": {
+                            "source-orcid": {
+                                "value": null,
+                                "uri": "http://orcid.org/0000-0002-3054-1567",
+                                "path": "0000-0002-3054-1567",
+                                "host": "orcid.org"
+                            },
+                            "source-client-id": null,
+                            "source-name": {
+                                "value": "CrossRef Metadata Search"
+                            },
+                            "source-date": {
+                                "value": 1375716567236
+                            }
+                        },
+                        "created-date": {
+                            "value": 1375716567236
+                        },
+                        "last-modified-date": {
+                            "value": 1437172087997
+                        },
+                        "language-code": null,
+                        "country": null,
+                        "visibility": "PUBLIC"
+                    }
+                ],
+                "scope": null
+            },
+            "funding-list": null
+        },
+        "orcid-internal": null,
+        "type": "USER",
+        "group-type": null,
+        "client-type": null
+    },
+    "orcid-search-results": null,
+    "error-desc": null
+}
