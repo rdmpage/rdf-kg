@@ -1,0 +1,156 @@
+<html>
+	<head>
+		<title>WorldCat to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<script src="shared.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>CrossRef to n-triples</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>WorldCat</h2>
+
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+{"links":[],"message":{"rawcoverage":"N\u00fam. 1 (abr. 1988)-","issnl":"0187-7151","issn":"0187-7151","publisher":"P\u00e1tzcuaro, Michoac\u00e1n : Instituto de Ecolog\u00eda A.C","form":"JB","title":"Acta bot\u00e1nica mexicana","oclcnum":["750612691","643696711","651181506","609936926","475049790","715796177","18182443","488547437","212423446"],"peerreview":"Y","preceding":[],"succeeding":[]}}		
+			</textarea>
+			<br />
+			<button onclick="convert()">Convert</button>
+		
+	
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;color:#222;"></div>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;"></div>
+		<div id="extra" style="width:100%;"></div>
+
+	
+	</div>
+
+</div>
+
+		<script>
+		
+		
+
+		
+function message(doc) {
+  var triples = [];
+
+
+	  var cluster_id = '';
+	   
+	  if (doc.message.issnl) {
+		 cluster_id = 'http://www.worldcat.org/issn/' + doc.message.issnl;
+	  } else {
+		 cluster_id = 'http://www.worldcat.org/issn/' + doc.message.issn;
+	 }          
+
+	   // defaults
+	  triples.push(triple(cluster_id,
+		 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+		 'http://schema.org/Periodical'));
+
+	  triples.push(triple(cluster_id,
+		 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+		 'http://schema.org/ProductModel'));
+
+ 
+ for (var i in doc.message) {
+    switch (i) {
+      case 'issn':
+          triples.push(triple(cluster_id,
+            'http://purl.org/dc/terms/identifier',
+             'http://www.worldcat.org/issn/' + doc.message[i]));
+             
+			triples.push(triple(cluster_id,
+             'http://schema.org/issn',
+             doc.message[i]));   
+        break;
+        
+      case 'title':          
+          triples.push(triple(cluster_id,
+             'http://schema.org/name',
+             doc.message[i]));
+         break;
+
+      case 'publisher':          
+          triples.push(triple(cluster_id,
+             'http://schema.org/publisher',
+             doc.message[i]));
+         break;
+ 
+      case 'rawcoverage':          
+          triples.push(triple(cluster_id,
+             'http://schema.org/temporalCoverage',
+             doc.message[i]));
+         break;
+
+      case 'rssurl':          
+          triples.push(triple(cluster_id,
+             'http://schema.org/supportingData',
+             doc.message[i]));
+             
+            triples.push(triple(doc.message[i],
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/DataFeed'));             
+         break;
+         
+       // From GoodRelations in schema
+       case 'preceding':
+          for (var j in doc.message[i]) {
+          
+            triples.push(triple(cluster_id,
+				'http://schema.org/successorOf',
+				'http://www.worldcat.org/issn/' + doc.message[i][j]
+				));             
+          }
+          break;
+          
+       case 'succeeding':
+          for (var j in doc.message[i]) {
+          
+            triples.push(triple(cluster_id,
+				'http://schema.org/predecessorOf',
+				'http://www.worldcat.org/issn/' + doc.message[i][j]
+				));
+				           
+          
+          }
+          break;
+          
+
+       default:
+         break; 
+     }
+  }
+
+ console.log(cluster_id);
+
+  output(doc, triples);
+
+}
+		
+			function convert() {
+				var jsonld = $('#json').val();
+				var doc = JSON.parse(jsonld);
+				//doc.message = doc.group;
+				
+				message(doc);
+				
+			
+			}
+		</script>
+
+
+</body>
+</html>

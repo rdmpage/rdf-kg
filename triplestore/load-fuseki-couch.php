@@ -176,7 +176,9 @@ $day = 60 * 60 * 24;
 $start_time = date("c", time() - $day);
 
 //add_modified('crossref', $start_time);
-add_modified('orcid');
+//add_modified('orcid');
+add_modified('crossref', $start_time);
+add_modified('worldcat');
 
 
 //upload_from_file(dirname(__FILE__) . '/data/mendeley_group.nt');

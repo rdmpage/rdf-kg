@@ -7,7 +7,7 @@ require_once (dirname(__FILE__) . '/crossref/fetch.php');
 //require_once (dirname(__FILE__) . '/resolvers/genbank/fetch.php');
 require_once (dirname(__FILE__) . '/orcid/fetch.php');
 //require_once (dirname(__FILE__) . '/resolvers/pubmed/fetch.php');
-//require_once (dirname(__FILE__) . '/resolvers/worldcat/fetch.php');
+require_once (dirname(__FILE__) . '/worldcat/fetch.php');
 
 //----------------------------------------------------------------------------------------
 // Classify URL link
@@ -23,8 +23,6 @@ function classify_url($url)
 		$identifier->id = $m['doi'];
 	}
 	
-	
-
 	// ORCID
 	if (preg_match('/http[s]?:\/\/orcid.org\/(?<orcid>([0-9]{4})(-[0-9A-Z]{4}){3})$/i', $url, $m))
 	{
@@ -33,8 +31,6 @@ function classify_url($url)
 		$identifier->id =  $m['orcid'];
 	}
 	
-	/*
-	
 	// ISSN (WorldCat)
 	if (preg_match('/http[s]?:\/\/www.worldcat.org\/issn\/(?<issn>[0-9]{4}-[0-9]{3}([0-9]|X))$/', $url, $m))
 	{
@@ -42,6 +38,8 @@ function classify_url($url)
 		$identifier->namespace = 'ISSN';
 		$identifier->id = $m['issn'];
 	}	
+
+	/*
 	
 	// NCBI GenBank gi
 	if (preg_match('/http[s]?:\/\/www.ncbi.nlm.nih.gov\/nucore\/(?<id>\d+)$/', $url, $m))
@@ -82,11 +80,12 @@ function resolve_url($url)
 			case 'GI':
 				$data = genbank_fetch($identifier->id);
 				break;
+*/
 				
 			case 'ISSN':
 				$data = worldcat_fetch($identifier->id);
 				break;
-*/
+
 			case 'ORCID':
 				$data = orcid_fetch($identifier->id);
 				break;
