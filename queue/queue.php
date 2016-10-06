@@ -76,12 +76,22 @@ function fetch($item)
 			// add any links in this object to the queue
 			if (isset($data->links))
 			{
-				foreach ($data->links as $link)
+				$add_links = true;
+				
+				if (preg_match('/worldcat.org/', $item->value))
 				{
-					// log
-					echo "Adding " . $link . " to queue\n";
+					$add_links = false;
+				}
+				
+				if ($add_links)
+				{
+					foreach ($data->links as $link)
+					{
+						// log
+						echo "Adding " . $link . " to queue\n";
 
-					enqueue($link);
+						enqueue($link);
+					}
 				}
 			}			
 			
@@ -157,6 +167,14 @@ function load_url($url)
 	fetch($item);
 }
 
+
+//enqueue('http://dx.doi.org/10.7554/eLife.08347');
+//dequeue(20, true);
+
+//enqueue('http://dx.doi.org/10.7554/eLife.08347');
+dequeue(10);
+
+
 /*
 enqueue('http://dx.doi.org/10.11646/phytotaxa.208.1.1');
 // ORCID but not in CrossRef metadata
@@ -167,7 +185,7 @@ enqueue('http://dx.doi.org/10.7554/eLife.08347');
 
 //enqueue('http://orcid.org/0000-0002-7573-096X');
 
-dequeue(10, true);
+//dequeue(10, true);
 
 // eLife article
 //enqueue('http://dx.doi.org/10.7554/eLife.08347');
