@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:con="http://www.w3.org/2000/10/swap/pim/contact#" xmlns:cinii="http://ci.nii.ac.jp/ns/1.0/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://ci.nii.ac.jp/naid/120000914108#article">
+<rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+<foaf:isPrimaryTopicOf rdf:resource="http://ci.nii.ac.jp/naid/120000914108.rdf" />
+<dc:title>台湾産蚊族の新種(双翅目:蚊科)-4-Mattinglyia catesi,新属,新種とHeizmannia属の四新種〔英文〕</dc:title>
+<dc:creator>連 日清</dc:creator>
+<dc:publisher>長崎大学熱帯医学研究所</dc:publisher>
+<prism:publicationName>熱帯医学</prism:publicationName>
+<prism:issn>03855643</prism:issn>
+<prism:volume>10</prism:volume>
+<prism:number>3</prism:number>
+<prism:startingPage>127</prism:startingPage>
+<prism:endingPage>153</prism:endingPage>
+<prism:publicationDate>1968-11</prism:publicationDate>
+<dc:description>The present paper describes the larvae, pupae, and male and female adults of five new species of mosquitoes. A new genus Mattinglyia is erected for one of the five, the remaining four are members of the genus Heizmannia s. str. The species described are named Mattinglyia catesi, n. gen., n. sp., Heizmannia cheni, n. sp., Heizmannia chengi, n. sp., Heizmannia nivirostris, n. sp., and Heizmannia taiwanensis, n. sp. All of these mosquitoes were found in forested hilly areas on Taiwan Proper. The morphological descriptions, the distribution, biology and systematics of the species are discussed.本編では蚊族の五新種の成熟幼虫,蛹及び雌雄成虫に就て記載を行なった.其の中の一新種の為に一新属Mattinglyiaを設けた.他の四新種はいずれもHeizmannia属に属するものである.これ等はそれぞれMattinglyia catesi, n. gen., n. sp., Heizmannia cheni, n. sp., Heizmannia chengi, n. sp., Heizmannia nivirostris, n. sp.,及びHeizmannia taiwanensis, n. sp.と命名された.これ等は悉く台湾本島山岳の森林中で採集された.新属Mattinglyiaは雌成虫の前,中跗節の爪がstrongly toothedである点,成虫後楯板に剛毛がない点とlower mesepimeral剛毛がない点等でHeizmanniaと異なる.Alulaに幅広い鱗片のpatchがある点と気門後剛毛が1～2本,sternopleural剛毛が1～2本ある点等でHaemagogusと異なる.前胸前背板が甚だ接近している点,paratergiteが異常に大きい点とsternopleural剛毛が1～2本ある点等でAedesと異なる.Mattinglyia catesi, n. gen., n. sp.の雌成虫はMattinglyia achaetaeのそれとは以下の諸点で異なる.吻の長さは前脚腿節の約1.3倍(後者では前脚腿節とほぼ同長).ppnには鱗片がないか或るいはその中央部に10枚以下の白鱗があるのみ(後者ではppnの上方部を除いては一面に金属光沢を有する銀白鱗にて被われる),翅の鱗片は幅狭く(後者では幅広く或るいはやや広く),後脚腿節背面の暗色線斑は基部1/6に限られる(後者では全長に渡る).Heizmannia cheni, n. sp.はH. reidiに近似するが,触角第一節の鱗片は黒色(後者では白色),雄の第九節腹板基部の袋状物は一様に平滑(後者ではしわがある),雄のclaspette stemは先端に向かい次第に細くなる(後者では先端が膨大する),及び雄のclaspette filamentが小さく,先端尖り,内側に彎曲する等の点で異なる.Heizmannia chengi, n. sp.は既知種とは甚だしく異なる.雄の外部生殖器のsubapical lobeに2本の棘がある点で,H. communis, H. greeni, H. kanhsienensis, H. lii, H. macdonaldi, H. nivirostris, n. sp.とH. taiwanensis, n, sp.とに近似を示す.Ppnに白鱗がある点でH. communis, H.greeni,H. lii及びH. kanhsienensis.と異なる.前胸前背板の前縁にある白鱗の帯斑は甚だ幅狭い点で更にH. lii及びH. kanhsienensisと異なる.吻の下面部は全く黒色である点でH. macdonaldi, H. nivirostris　n. sp.及びH. taiwanensis, n. sp.と異なる.雄のclasperと幼虫のcomb teethの形状は甚だ独特である.H. nivirostris, n. sp.は吻の腹面基部に白線斑がある点でH. macdonaldiに近似するが,雄のclaspette filamentが三葉,雄のproctiger先端は尖り,幼虫のcomb teethは先端が尖った8-15枚及び一様に縁飾がある8-15枚の側鱗よりなる,蛹の腹部第II節の3号毛の長さは2号毛の約二倍である.尚,蛹の腹部第III,IV節の1号毛は多数に分枝する等の点で後者と異なる.H. taiwanensis, n. sp.は雄の外部生殖器のsubapical lobeに2本の棘がある点でH. greeni, H. lii, H. kanhsienensis, H. communis. H. macdonaldi, H. nivirostris, n. sp.とH. chengi, n. sp.とに近似を示し,成虫の後楯板の剛毛は0-2枚の幅広い白鱗を伴なう点でH. stoneiに近似を示す.吻の腹面基部に白斑がある点でH. macdonaldiとH. nivirostris　n. sp.とを除くその他の種と異なる.尚,ppnの鱗片が白色である点と幼虫頭部5号毛の分枝数が少ない点でH. greeniと異なる(前者では4-6に,後者では12-15に分枝する)。</dc:description>
+<dc:date>1968-11</dc:date>
+<cinii:naid>120000914108</cinii:naid>
+<cinii:ncid>AN00199644</cinii:ncid>
+<cinii:ndljpi>8409461</cinii:ndljpi>
+<dc:language>ENG</dc:language>
+<dc:source>CJPref</dc:source>
+<dc:source>NDL</dc:source>
+<dc:source>IR</dc:source>
+<cinii:fulltext>0</cinii:fulltext>
+<cinii:citedBy>1</cinii:citedBy>
+<dcterms:isPartOf rdf:resource="http://ci.nii.ac.jp/ncid/AN00199644#entity" dc:title="熱帯医学" />
+<rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/8409461" dc:title="NDL-OPAC" />
+<rdfs:seeAlso rdf:resource="http://hdl.handle.net/10069/4036" dc:title="機関リポジトリ" />
+</rdf:Description>
+<rdf:Description rdf:about="http://ci.nii.ac.jp/naid/120000914108#article" xml:lang="en">
+<rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+<dc:title>New Species of Mosquitoes from Taiwan (Diptera: Culicidae) : Part IV. Mattinglyia catesi, n. gen., n. sp. and Four New Species of Genus Heizmannia Ludlow</dc:title>
+<dc:creator>Lien Jih Ching</dc:creator>
+<prism:publicationName>Tropical medicine</prism:publicationName>
+</rdf:Description>
+<rdf:Description rdf:about="http://ci.nii.ac.jp/naid/120000914108#article">
+<rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+<foaf:maker>
+<foaf:Person rdf:about="http://ci.nii.ac.jp/nrid/9000288153710#me">
+<foaf:name>連 日清</foaf:name>
+<foaf:name xml:lang="en">Lien Jih Ching</foaf:name>
+</foaf:Person>
+</foaf:maker>
+</rdf:Description>
+</rdf:RDF>
