@@ -26,185 +26,189 @@ function orcid_works($obj)
 	if (isset($obj->{'orcid-profile'}->{'orcid-activities'}))
 	{
 		$works = $obj->{'orcid-profile'}->{'orcid-activities'}->{'orcid-works'}->{'orcid-work'};
-
-		foreach ($works as $work)
+		
+		if ($works)
 		{
-			$reference = new stdclass;
-	
-			// Use put-code as bnode identifier
-			$reference->id = $work->{'put-code'};
-		
-			$reference->title = $work->{'work-title'}->{'title'}->value;
-	
-			// Journal?
-			if (isset($work->{'journal-title'}->value))
+			foreach ($works as $work)
 			{
-				$reference->journal = $work->{'journal-title'}->value;
-			}		
+				$reference = new stdclass;
+	
+				// Use put-code as bnode identifier
+				$reference->id = $work->{'put-code'};
 		
-			// date
-			$date = '';
-			if (isset($work->{'publication-date'}))
-			{
-				if (isset($work->{'publication-date'}->{'year'}->value))
+				$reference->title = $work->{'work-title'}->{'title'}->value;
+	
+				// Journal?
+				if (isset($work->{'journal-title'}->value))
 				{
-					$date = $work->{'publication-date'}->{'year'}->value;
+					$reference->journal = $work->{'journal-title'}->value;
+				}		
+		
+				// date
+				$date = '';
+				if (isset($work->{'publication-date'}))
+				{
+					if (isset($work->{'publication-date'}->{'year'}->value))
+					{
+						$date = $work->{'publication-date'}->{'year'}->value;
+					}
+					$reference->date = $date;
 				}
-				$reference->date = $date;
-			}
 		
 
-			// Parse BibTex-------------------------------------------------------------------
-			if (isset($work->{'work-citation'}->citation))
-			{
-				$bibtext = $work->{'work-citation'}->citation;
+				// Parse BibTex-------------------------------------------------------------------
+				if (isset($work->{'work-citation'}->citation))
+				{
+					$bibtext = $work->{'work-citation'}->citation;
 		
-				if (!isset($work->{'journal-title'}->value))
-				{
-					if (preg_match('/journal = \{(?<journal>.*)\}/Uu', $bibtext, $m))
+					if (!isset($work->{'journal-title'}->value))
 					{
-						$reference->journal = $m['journal'];
+						if (preg_match('/journal = \{(?<journal>.*)\}/Uu', $bibtext, $m))
+						{
+							$reference->journal = $m['journal'];
+						}
 					}
-				}
 	
-				if ($date == '')
-				{
-					if (preg_match('/year = \{(?<year>[0-9]{4})\}/', $bibtext, $m))
+					if ($date == '')
 					{
-						$reference->date = $m['year'];
+						if (preg_match('/year = \{(?<year>[0-9]{4})\}/', $bibtext, $m))
+						{
+							$reference->date = $m['year'];
+						}
 					}
-				}
 			
-				if (preg_match('/volume = \{(?<volume>.*)\}/Uu', $bibtext, $m))
-				{
-					$reference->volume = $m['volume'];
-				}
-
-				if (preg_match('/number = \{(?<issue>.*)\}/Uu', $bibtext, $m))
-				{
-					$reference->issue = $m['issue'];
-				}
-
-				// pages = {41-68}
-				if (preg_match('/pages = \{(?<pages>.*)\}/Uu', $bibtext, $m))
-				{
-					$pages = $m['pages'];
-					if (preg_match('/(?<spage>\d+)-[-]?(?<epage>\d+)/', $pages, $mm))
+					if (preg_match('/volume = \{(?<volume>.*)\}/Uu', $bibtext, $m))
 					{
-						$reference->pageStart = $mm['spage'];
-						$reference->pageEnd = $mm['epage'];
+						$reference->volume = $m['volume'];
 					}
-					else
-					{	
-						$reference->pages = $pages;
+
+					if (preg_match('/number = \{(?<issue>.*)\}/Uu', $bibtext, $m))
+					{
+						$reference->issue = $m['issue'];
+					}
+
+					// pages = {41-68}
+					if (preg_match('/pages = \{(?<pages>.*)\}/Uu', $bibtext, $m))
+					{
+						$pages = $m['pages'];
+						if (preg_match('/(?<spage>\d+)-[-]?(?<epage>\d+)/', $pages, $mm))
+						{
+							$reference->pageStart = $mm['spage'];
+							$reference->pageEnd = $mm['epage'];
+						}
+						else
+						{	
+							$reference->pages = $pages;
+						}
 					}
 				}
-			}
 		
-			// Identifiers
-			if (isset($work->{'work-external-identifiers'}))
-			{
-				foreach ($work->{'work-external-identifiers'}->{'work-external-identifier'} as $identifier)
+				// Identifiers
+				if (isset($work->{'work-external-identifiers'}))
 				{
-					switch ($identifier->{'work-external-identifier-type'})
+					foreach ($work->{'work-external-identifiers'}->{'work-external-identifier'} as $identifier)
 					{
-						case 'DOI':
-							$value = $identifier->{'work-external-identifier-id'}->value;
-							// clean
-							$value = preg_replace('/^doi:/', '', $value);
-							$value = preg_replace('/\.$/', '', $value);
+						switch ($identifier->{'work-external-identifier-type'})
+						{
+							case 'DOI':
+								$value = $identifier->{'work-external-identifier-id'}->value;
+								// clean
+								$value = preg_replace('/^doi:/', '', $value);
+								$value = preg_replace('/\.$/', '', $value);
+								$value = preg_replace('/\s+/', '', $value);
 					
-							// DOI
-							$reference->doi = $value;
-							break;
+								// DOI
+								$reference->doi = $value;
+								break;
 						
-						case 'ISBN':
-							$value = $identifier->{'work-external-identifier-id'}->value;
+							case 'ISBN':
+								$value = $identifier->{'work-external-identifier-id'}->value;
 						
-							if ($work_type == 'BOOK')
-							{
-								$reference->isbn = $value;
-							}												
-							break;
+								if ($work_type == 'BOOK')
+								{
+									$reference->isbn = $value;
+								}												
+								break;
 
-						case 'ISSN':
-							$value = $identifier->{'work-external-identifier-id'}->value;
-							$parts = explode(";", $value);
+							case 'ISSN':
+								$value = $identifier->{'work-external-identifier-id'}->value;
+								$parts = explode(";", $value);
 						
-							$reference->issn = $parts;
-							break;
+								$reference->issn = $parts;
+								break;
 
-						case 'PMC':
-							$value = $identifier->{'work-external-identifier-id'}->value;
-							$reference->pmc = $value;
-							break;
+							case 'PMC':
+								$value = $identifier->{'work-external-identifier-id'}->value;
+								$reference->pmc = $value;
+								break;
 
-						case 'PMID':
-							$value = $identifier->{'work-external-identifier-id'}->value;
-							$reference->pmid = $value;
-							break;
+							case 'PMID':
+								$value = $identifier->{'work-external-identifier-id'}->value;
+								$reference->pmid = $value;
+								break;
 					
-						default:
-							break;
+							default:
+								break;
+						}
 					}
 				}
-			}
 	
-			// URL
-			if (isset($work->{'url'}))
-			{
-				if (isset($work->{'url'}->{'value'}))
+				// URL
+				if (isset($work->{'url'}))
 				{
-					$urls = explode(",", $work->{'url'}->{'value'});
-					$reference->url = $urls[0];
-				}
-			}
-
-			// keep track of these for now
-			$works[] = $reference;
-		
-			// links for this work
-			$link = '';
-			if ($link == '')
-			{
-				if (isset($reference->doi))
-				{
-					$link = 'http://dx.doi.org/' . $reference->doi;
-				}
-			}
-			if ($link == '')
-			{
-				if (isset($reference->pmid))
-				{
-					$link = 'http://www.ncbi.nlm.nih.gov/pubmed/' . $reference->pmid;
-				}		
-			}
-			if ($link == '')
-			{
-				if (isset($reference->pmc))
-				{
-					$link = 'http://www.ncbi.nlm.nih.gov/pmc/articles/' . $reference->pmc;
-				}		
-			}
-
-			if ($link != '')
-			{
-				$links[] = $link;
-			}
-		
-			// links for container
-			if (isset($reference->issn))
-			{
-				foreach ($reference->issn as $issn)
-				{				
-					$link = 'http://www.worldcat.org/issn/' . $issn;
-					if (!in_array($link, $links))
+					if (isset($work->{'url'}->{'value'}))
 					{
-						$links[] = $link;
+						$urls = explode(",", $work->{'url'}->{'value'});
+						$reference->url = $urls[0];
 					}
 				}
-			}		
+
+				// keep track of these for now
+				$works[] = $reference;
+		
+				// links for this work
+				$link = '';
+				if ($link == '')
+				{
+					if (isset($reference->doi))
+					{
+						$link = 'http://dx.doi.org/' . $reference->doi;
+					}
+				}
+				if ($link == '')
+				{
+					if (isset($reference->pmid))
+					{
+						$link = 'http://www.ncbi.nlm.nih.gov/pubmed/' . $reference->pmid;
+					}		
+				}
+				if ($link == '')
+				{
+					if (isset($reference->pmc))
+					{
+						$link = 'http://www.ncbi.nlm.nih.gov/pmc/articles/' . $reference->pmc;
+					}		
+				}
+
+				if ($link != '')
+				{
+					$links[] = $link;
+				}
+		
+				// links for container
+				if (isset($reference->issn))
+				{
+					foreach ($reference->issn as $issn)
+					{				
+						$link = 'http://www.worldcat.org/issn/' . $issn;
+						if (!in_array($link, $links))
+						{
+							$links[] = $link;
+						}
+					}
+				}		
 	
+			}
 		}
 	}	
 	print_r($links);

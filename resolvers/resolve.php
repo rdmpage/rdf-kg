@@ -6,7 +6,7 @@ require_once(dirname(dirname(__FILE__)) . '/documentstore/couchsimple.php');
 require_once (dirname(__FILE__) . '/crossref/fetch.php');
 //require_once (dirname(__FILE__) . '/resolvers/genbank/fetch.php');
 require_once (dirname(__FILE__) . '/orcid/fetch.php');
-//require_once (dirname(__FILE__) . '/resolvers/pubmed/fetch.php');
+require_once (dirname(__FILE__) . '/pubmed/fetch.php');
 require_once (dirname(__FILE__) . '/worldcat/fetch.php');
 
 //----------------------------------------------------------------------------------------
@@ -48,6 +48,7 @@ function classify_url($url)
 		$identifier->namespace = 'GI';
 		$identifier->id = $m['id'];
 	}
+	*/
 	
 	// PubMed PMID
 	if (preg_match('/http[s]?:\/\/www.ncbi.nlm.nih.gov\/pubmed\/(?<pmid>\d+)$/', $url, $m))
@@ -57,7 +58,6 @@ function classify_url($url)
 		$identifier->id = $m['pmid'];
 	}
 	
-	*/
 	return $identifier;
 }
 	
@@ -89,11 +89,11 @@ function resolve_url($url)
 			case 'ORCID':
 				$data = orcid_fetch($identifier->id);
 				break;
-/*		
+		
 			case 'PMID':
 				$data = pubmed_fetch($identifier->id);
 				break;
-*/			
+			
 			default:
 				break;
 		}

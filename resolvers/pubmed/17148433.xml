@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2016//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_160101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">17148433</PMID>
+        <DateCreated>
+            <Year>2006</Year>
+            <Month>12</Month>
+            <Day>06</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2007</Year>
+            <Month>01</Month>
+            <Day>12</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2014</Year>
+            <Month>09</Month>
+            <Day>07</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1744-9561</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>2</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2006</Year>
+                        <Month>Sep</Month>
+                        <Day>22</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Biology letters</Title>
+                <ISOAbbreviation>Biol. Lett.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>High level of cryptic species diversity revealed by sympatric lineages of Southeast Asian forest frogs.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>470-4</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Amphibians tend to exhibit conservative morphological evolution, and the application of molecular and bioacoustic tools in systematic studies have been effective at revealing morphologically 'cryptic' species within taxa that were previously considered to be a single species. We report molecular genetic findings on two forest-dwelling ranid frogs from localities across Southeast Asia, and show that sympatric evolutionary lineages of morphologically cryptic frogs are a common pattern. These findings imply that species diversity of Southeast Asian frogs remains significantly underestimated, and taken in concert with other molecular investigations, suggest there may not be any geographically widespread, forest-dwelling frog species in the region. Accurate assessments of diversity and distributions are needed to mitigate extinctions of evolutionary lineages in these threatened vertebrates.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Stuart</LastName>
+                    <ForeName>Bryan L</ForeName>
+                    <Initials>BL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Zoology, The Field Museum, Chicago, IL 60605-2496, USA. bsturart@fieldmuseum.org</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Inger</LastName>
+                    <ForeName>Robert F</ForeName>
+                    <Initials>RF</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Voris</LastName>
+                    <ForeName>Harold K</ForeName>
+                    <Initials>HK</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Biol Lett</MedlineTA>
+            <NlmUniqueID>101247722</NlmUniqueID>
+            <ISSNLinking>1744-9561</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D004272">DNA, Mitochondrial</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Phylogenet Evol. 2000 Jul;16(1):131-42</RefSource>
+                <PMID Version="1">10877946</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2002 Oct 11;298(5592):379</RefSource>
+                <PMID Version="1">12376694</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Syst Biol. 2003 Dec;52(6):794-819</RefSource>
+                <PMID Version="1">14668118</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Phylogenet Evol. 2006 May;39(2):392-403</RefSource>
+                <PMID Version="1">16446105</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1978 Apr 14;200(4338):209-11</RefSource>
+                <PMID Version="1">635583</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2004 Dec 3;306(5702):1783-6</RefSource>
+                <PMID Version="1">15486254</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Zoolog Sci. 2005 Apr;22(4):489-95</RefSource>
+                <PMID Version="1">15846058</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1976 Jul 23;193(4250):334-5</RefSource>
+                <PMID Version="1">935871</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000663">Amphibians</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000502">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" Type="Geographic" UI="D001210">Asia, Southeastern</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001499">Bayes Theorem</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D044822">Biodiversity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D005075">Biological Evolution</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004272">DNA, Mitochondrial</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D014644">Genetic Variation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D010802">Phylogeny</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D013045">Species Specificity</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC1686201</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2007</Year>
+                <Month>1</Month>
+                <Day>16</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>7</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">32046426314G7702</ArticleId>
+            <ArticleId IdType="doi">10.1098/rsbl.2006.0505</ArticleId>
+            <ArticleId IdType="pubmed">17148433</ArticleId>
+            <ArticleId IdType="pmc">PMC1686201</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
