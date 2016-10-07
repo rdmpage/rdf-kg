@@ -628,6 +628,38 @@ function message(doc) {
 				doc.message[i]));
 			}
 			break;
+			
+        /*
+        "issued": {
+			"date-parts": [
+				[2016, 7]
+			]
+		},
+		*/
+		
+	  case 'issued':
+	     var date = '';
+	     var dateparts = doc.message[i]['date-parts'][0];
+	     
+	     switch (dateparts.length) {
+	        case 1:
+	           date = dateparts[0];
+	           break;
+	        case 2:
+	           date = dateparts[0] + '-' + ("00" + dateparts[1]).slice(-2) + '-00';
+	           break;
+	        case 3:
+	           date = dateparts[0] + '-' + ("00" + dateparts[1]).slice(-2) + '-' + ("00" + dateparts[2]).slice(-2);	           
+	           break;
+	        default:
+	        	break;
+	    }
+	    triples.push(triple(cluster_id,
+          'http://schema.org/datePublished',
+          date));
+	    
+	    break;
+			
 
 			// journal
 		  case 'ISSN':
