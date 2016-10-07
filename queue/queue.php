@@ -148,6 +148,15 @@ function dequeue($n = 5, $descending = false)
 	foreach ($response_obj->rows as $row)
 	{
 		fetch($row);	
+		
+		// Give source a rest
+		if (($count++ % 10) == 0)
+		{
+			$rand = rand(1000000, 3000000);
+			echo '...sleeping for ' . round(($rand / 1000000),2) . ' seconds' . "\n";
+			usleep($rand);
+		}
+		
 	}
 		
 }
@@ -168,11 +177,22 @@ function load_url($url)
 }
 
 
+dequeue(100);
+
+//enqueue('http://dx.doi.org/10.1371/journal.pone.0133602');
+//dequeue(5, true);
+
+//load_url('http://www.ncbi.nlm.nih.gov/pubmed/17148433');
+
+//enqueue('http://dx.doi.org/10.1371/journal.pone.0133602');
+//dequeue(5, true);
+
+
 //enqueue('http://dx.doi.org/10.7554/eLife.08347');
 //dequeue(20, true);
 
 //enqueue('http://dx.doi.org/10.7554/eLife.08347');
-dequeue(10);
+//dequeue(100);
 
 
 /*
