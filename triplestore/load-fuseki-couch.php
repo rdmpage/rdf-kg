@@ -9,7 +9,10 @@ require_once(dirname(dirname(__FILE__)) . '/documentstore/couchsimple.php');
 $config['fuseki-url'] 		= 'http://rdmpage-jena-fuseki-v.sloppy.zone/';
 $config['fuseki-dataset'] 	= 'data';
 $config['fuseki-user'] 		= 'admin';
-$config['fuseki-password'] 	= '5eD9digriOtft2J';
+$config['fuseki-password'] 	= '0LEople75CaPVx4';
+
+// If password lost in logs get from comamnd line
+// sloppy logs -n 10000 new-project | grep "admin="
 
 
 //----------------------------------------------------------------------------------------
@@ -171,14 +174,18 @@ function add_modified($view, $from = null)
 
 //add_one("http://dx.doi.org/10.1655/08-040r.1", "crossref");
 
+//add_one("http://www.ncbi.nlm.nih.gov/pubmed/17148433", "crossref");
+
+
 $day = 60 * 60 * 24;
 
 $start_time = date("c", time() - $day);
 
-//add_modified('crossref', $start_time);
-//add_modified('orcid');
 add_modified('crossref', $start_time);
-add_modified('worldcat');
+
+//add_modified('orcid');
+//add_modified('crossref', $start_time);
+//add_modified('worldcat');
 
 
 //upload_from_file(dirname(__FILE__) . '/data/mendeley_group.nt');
