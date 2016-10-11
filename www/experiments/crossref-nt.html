@@ -511,7 +511,40 @@
 
 		<script>
 		
-		
+
+function  detect_language(s) {
+  var language = null;
+  var matched = 0;
+  var parts =[];
+  
+  var regexp = [];
+  
+  // https://gist.github.com/ryanmcgrath/982242
+  regexp['ja'] = /[\u3000-\u303F]|[\u3040-\u309F]|[\u30A0-\u30FF]|[\uFF00-\uFFEF]|[\u4E00-\u9FAF]|[\u2605-\u2606]|[\u2190-\u2195]|\u203B/g; 
+  // http://hjzhao.blogspot.co.uk/2015/09/javascript-detect-chinese-character.html
+  regexp['zh'] = /[\u4E00-\uFA29]/g; 
+  // http://stackoverflow.com/questions/32709687/js-check-if-string-contains-only-cyrillic-symbols-and-spaces
+  regexp['ru'] = /[\u0400-\u04FF]/g; 
+  
+  for (var i in regexp) {
+    parts = s.match(regexp[i]);
+    
+	  if (parts != null) {
+		if (parts.length > matched) {
+		  language = i;
+		  matched = parts.length;
+		}
+	  }
+  }
+  
+  // require a minimum matching
+  if (matched < 10) {
+    language = null;
+  }
+  
+  return language;
+  
+}
 
 		
 function message(doc) {
@@ -535,6 +568,7 @@ function message(doc) {
 			  'http://identifiers.org/doi/' + doc.message[i]));
 			break;
 
+/*
 		  case 'URL':
 			if (cluster_id == '') {
 			  cluster_id = doc.message[i];
@@ -544,8 +578,8 @@ function message(doc) {
 			  'http://purl.org/dc/terms/identifier',
 			  doc.message[i]));      
 			break;
-		
-
+		*/
+/*
 			// any alternative ids
 		  case 'alternative-id':
 			for (var j in doc.message[i]) {
@@ -553,12 +587,14 @@ function message(doc) {
 				'http://purl.org/dc/terms/identifier',
 				doc.message[i][j]));
 			}
-			break;
+			break;*/
 
 		  default:
 			break;
 		}
 	  }
+	  
+	  //alert(cluster_id);
 
 
 	  // fields
@@ -582,9 +618,15 @@ function message(doc) {
 		  case 'title':
 			if (Array.isArray(doc.message[i])) {
 			  for (var j in doc.message[i]) {
+			  
+			    var lang = detect_language(doc.message[i][j]);
+			    
+			  
+			 // alert(detect_language(doc.message[i][j]));
+			  
 				triples.push(triple(cluster_id,
 				  'http://schema.org/name',
-				  doc.message[i][j]));
+				  doc.message[i][j], lang));
 			  }
 			} else {
 			  triples.push(triple(cluster_id,
@@ -656,7 +698,7 @@ function message(doc) {
 	    }
 	    triples.push(triple(cluster_id,
           'http://schema.org/datePublished',
-          date));
+          date.toString()));
 	    
 	    break;
 			
@@ -978,6 +1020,9 @@ function message(doc) {
   triples.push(triple(cluster_id,
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
     'http://schema.org/CreativeWork'));
+
+
+//console.log(JSON.stringify(triples, null, -2));
 
   output(doc, triples);
 

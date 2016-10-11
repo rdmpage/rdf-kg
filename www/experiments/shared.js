@@ -36,6 +36,7 @@ function quad(subject, predicate, object, context) {
 //----------------------------------------------------------------------------------------
 // Enclose triple in suitable wrapping for HTML display or triplet output
 function wrap(s, html) {
+if (s) {
   if (s.match(/^(http|urn|_:)/)) {
     if (html) {
       s = '&lt;' + s + '&gt;';
@@ -44,7 +45,7 @@ function wrap(s, html) {
     }
   } else {
     s = '"' + s.replace(/"/g, '\\"') + '"';
-  }
+  }}
   return s;
 }
 
