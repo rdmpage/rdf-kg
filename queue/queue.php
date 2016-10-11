@@ -45,11 +45,28 @@ function enqueue($url)
 //----------------------------------------------------------------------------------------
 function queue_is_empty()
 {
+	global $config;
+	global $couch;
+	
+	$empty = false;
+	
+	$url = '_design/queue/_view/todo?limit=1';
+		
+	$resp = $couch->send("GET", "/" . $config['couchdb_options']['database'] . "/" . $url);
+	$response_obj = json_decode($resp);
+
+	if (!isset($response_obj->error))
+	{
+		$empty = ($response_obj->total_rows == 0);
+	}
+	
+	return $empty;
+
 }
 
 //----------------------------------------------------------------------------------------
 // Item is a single row from a CouchDB query
-function fetch($item)
+function fetch($item, $add_links = false)
 {
 	global $config;
 	global $couch;
@@ -63,7 +80,34 @@ function fetch($item)
 	
 	print_r($data);
 	
-	if ($data)
+	if (!$data)
+	{
+		// No data means we failed to resolve this,
+		// keep track of attempts to resolve so we can ignore them
+		
+		// update document store item with message content
+		$resp = $couch->send("GET", "/" . $config['couchdb_options']['database'] . "/" . urlencode($item->value));
+		var_dump($resp);
+		if ($resp)
+		{
+			$doc = json_decode($resp);
+			if (!isset($doc->error))
+			{
+				if (isset($doc->{'message-attempts'}))
+				{
+					$doc->{'message-attempts'}++;
+				}
+				else
+				{
+					$doc->{'message-attempts'} = 1;
+				}
+				
+				$resp = $couch->send("PUT", "/" . $config['couchdb_options']['database'] . "/" . urlencode($doc->_id), json_encode($doc));
+				var_dump($resp);
+			}
+		}	
+	}
+	else
 	{
 		// if we have message content, update object with that message, which will remove it from the queue
 		// Assuming we have set {'message-format'} to one of the MIME types recognised by the CouchDB
@@ -76,12 +120,19 @@ function fetch($item)
 			// add any links in this object to the queue
 			if (isset($data->links))
 			{
-				$add_links = true;
-				
+				/*
 				if (preg_match('/worldcat.org/', $item->value))
 				{
 					$add_links = false;
 				}
+				*/
+				
+				// Add links for DOIs (e.g., ORCIDs and ISSNs)
+				if (preg_match('/dx.doi.org/', $item->value))
+				{
+					$add_links = true;
+				}
+				
 				
 				if ($add_links)
 				{
@@ -177,10 +228,10 @@ function load_url($url)
 }
 
 
-dequeue(100);
+//dequeue(100);
 
-//enqueue('http://dx.doi.org/10.1371/journal.pone.0133602');
-//dequeue(5, true);
+//enqueue('http://dx.doi.org/10.7601/mez.56.275');
+//dequeue(1, true);
 
 //load_url('http://www.ncbi.nlm.nih.gov/pubmed/17148433');
 
