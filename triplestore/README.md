@@ -172,7 +172,7 @@ WHERE
 
    ?identifier <http://schema.org/author> ?author .
 
-   FILTER regex( ?author, “orcid”, “i” ) .
+   FILTER regex(str(?author), “orcid”, “i” ) .
 
    OPTIONAL
    {
@@ -197,7 +197,7 @@ WHERE
 
    ?identifier <http://schema.org/author> ?author .
 
-   FILTER regex( ?author, “orcid”, “i” ) .
+   FILTER regex( str(?author), “orcid”, “i” ) .
 
    OPTIONAL
    {

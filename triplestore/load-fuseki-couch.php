@@ -7,7 +7,7 @@ require_once(dirname(dirname(__FILE__)) . '/sources/lib.php');
 require_once(dirname(dirname(__FILE__)) . '/documentstore/couchsimple.php');
 
 $config['fuseki-url'] 		= 'http://rdmpage-jena-fuseki-v.sloppy.zone/';
-$config['fuseki-dataset'] 	= 'data';
+$config['fuseki-dataset'] 	= 'dataone';
 $config['fuseki-user'] 		= 'admin';
 $config['fuseki-password'] 	= '0LEople75CaPVx4';
 
@@ -170,18 +170,111 @@ function add_modified($view, $from = null)
 
 }
 
+//----------------------------------------------------------------------------------------
+// Get all triples in a view
+function add_view($view, $rows_per_page=1000, $skip=0)
+{
+	global $config;
+	global $couch;
+	
+	$done = false;
+	while (!$done)
+	{
+		$url = '_design/' . $view . '/_view/nt';
+		
+		$url .= '?limit=' . $rows_per_page . '&skip=' . $skip;
+		
+		echo $url . "\n";
+	
+		$resp = $couch->send("GET", "/" . $config['couchdb_options']['database'] . "/" . $url);
+
+		if ($resp)
+		{
+			$response_obj = json_decode($resp);
+			if (!isset($response_obj->error))
+			{
+				$n = count($response_obj->rows);
+				
+				$nt = '';
+				foreach ($response_obj->rows as $row)
+				{
+					$nt .=  $row->value . "\n";
+				}	
+			
+				// POST
+				upload_data($nt);
+			}
+		}
+		
+		$skip += $rows_per_page;
+		$done = ($n < $rows_per_page);			
+	}
+}
+
+//----------------------------------------------------------------------------------------
+// Get all triples in a view
+function debug_view($view, $rows_per_page, $skip)
+{
+	global $config;
+	global $couch;
+	
+	$url = '_design/' . $view . '/_view/nt';
+	
+	$url .= '?limit=' . $rows_per_page . '&skip=' . $skip;
+	
+	echo $url . "\n";
+
+	$resp = $couch->send("GET", "/" . $config['couchdb_options']['database'] . "/" . $url);
+
+	if ($resp)
+	{
+		$response_obj = json_decode($resp);
+		if (!isset($response_obj->error))
+		{
+			$n = count($response_obj->rows);
+			
+			$nt = '';
+			foreach ($response_obj->rows as $row)
+			{
+				$nt .=  $row->value . "\n";
+			}	
+		
+			echo $nt;
+		}
+	}
+}
+
 
 
 //add_one("http://dx.doi.org/10.1655/08-040r.1", "crossref");
 
-//add_one("http://www.ncbi.nlm.nih.gov/pubmed/17148433", "crossref");
+//add_one("http://dx.doi.org/10.7601/mez.56.275", "crossref");
 
-
+/*
 $day = 60 * 60 * 24;
 
 $start_time = date("c", time() - $day);
 
+$start_time = date("c", time() - (60 * 60));
+
 add_modified('crossref', $start_time);
+*/
+
+//add_view('mendeley_group');
+
+if (1)
+{
+	//add_view('orcid');
+	add_view('orcid', 1000, 1646000);
+}
+else
+{
+	debug_view('orcid', 1000, 1424000);
+}
+
+
+
+
 
 //add_modified('orcid');
 //add_modified('crossref', $start_time);
