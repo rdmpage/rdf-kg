@@ -5,6 +5,9 @@
 
 http://bionames.org/~rpage/orcid-php/index.php
 
+## Data lakes
+
+The document store can be regarded as a [data lake](https://en.wikipedia.org/wiki/Data_lake), i.e. a repository of data in different formats, ideally the original source format.
 
 ## Ideas
 
