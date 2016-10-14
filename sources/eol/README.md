@@ -1,4 +1,4 @@
-# EOL colelctions and taxa
+# EOL collections and taxa
 
 ## Birds, Sangster and Luksenburg
 
