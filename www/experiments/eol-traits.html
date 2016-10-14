@@ -16,10 +16,7 @@
 <div>
 	<div style="width:100%;height:auto;">
 		<h2>JSON</h2>
-
-		
-			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
-{
+<!-- {
   "@context": {
     "@vocab": "http://schema.org/",
     "dwc:taxonID": {
@@ -304,7 +301,257 @@
       }
     ]
   }
-}	
+}	-->
+		
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+			{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "dwc:taxonID": {
+      "@type": "@id"
+    },
+    "dwc:resourceID": {
+      "@type": "@id"
+    },
+    "dwc:relatedResourceID": {
+      "@type": "@id"
+    },
+    "dwc:relationshipOfResource": {
+      "@type": "@id"
+    },
+    "dwc:vernacularName": {
+      "@container": "@language"
+    },
+    "eol:associationType": {
+      "@type": "@id"
+    },
+    "rdfs:label": {
+      "@container": "@language"
+    },
+    "dc": "http://purl.org/dc/terms/",
+    "dwc": "http://rs.tdwg.org/dwc/terms/",
+    "eolterms": "http://eol.org/schema/terms/",
+    "eol": "http://eol.org/schema/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "gbif": "http://rs.gbif.org/terms/1.0/",
+    "foaf": "http://xmlns.com/foaf/0.1/"
+  },
+  "@type": "DataFeedItem",
+  "dateModified": "2016-10-12",
+  "item": {
+    "@id": 10644995,
+    "@type": "dwc:Taxon",
+    "scientificName": "Stachyris nonggangensis Fang & Aiwu, 2008",
+    "dwc:taxonRank": "species",
+    "dwc:parentNameUsageID": "http://eol.org/pages/104748",
+    "potentialAction": {
+      "@type": "EntryPoint",
+      "target": {
+        "@type": "Related",
+        "url": "http://eol.org/pages/10644995",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/IOSPlatform",
+          "http://schema.org/AndroidPlatform"
+        ]
+      }
+    },
+    "sameAs": [
+      "http://www.biolib.cz/en/taxon/id520505/",
+      "http://www.birdlife.org/datazone/speciesfactsheet.php?id=32547",
+      "http://lod.taxonconcept.org/ses/zkvqA.html",
+      "http://coldata.ioz.ac.cn/showTaxa.asp?cid={FBF1FB18-25D6-435A-B61B-8A183AD1E483}&cpid={565E14F6-00D8-8A07-B69B-6CE69150C7A9}&crid={2F5B0D6A-1133-4681-A1C0-C3FAA42CF5CA}",
+      "http://data.sp2000.cn/2012_cnnode_e/show_species_details.php?name_code=292d70b9-0b7a-4b20-95de-c60e64ba1e8c",
+      "http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=916055",
+      "http://www.iucnredlist.org/apps/redlist/details/22735635",
+      "http://www.iucnredlist.org/apps/redlist/details/22735635",
+      "http://en.wikipedia.org/w/index.php?title=Nonggang_Babbler"
+    ],
+    "vernacularNames": [
+      {
+        "@language": "en",
+        "@value": "Nonggang Babbler",
+        "gbif:isPreferredName": true
+      },
+      {
+        "@language": "zh",
+        "@value": "弄岗穗鹛",
+        "gbif:isPreferredName": true
+      },
+      {
+        "@language": "zh-Hans",
+        "@value": "弄岗穗鹛",
+        "gbif:isPreferredName": true
+      }
+    ],
+    "traits": [
+      {
+        "@id": "http://eol.org/pages/10644995/data#data_point_39824534",
+        "eol:traitUri": "http://eol.org/resources/527/measurements/b821c3e6e50078b47ebb32b3498ab205",
+        "@type": "dwc:MeasurementOrFact",
+        "predicate": "extinction status",
+        "dwc:measurementType": "http://eol.org/schema/terms/ExtinctionStatus",
+        "value": "extant",
+        "eol:dataPointId": 39824534,
+        "dwc:measurementValue": "http://eol.org/schema/terms/extant",
+        "dwc:scientificName": "Stachyris nonggangensis",
+        "dc:contributor": "The Cornell Lab of Ornithology: Clements Checklist",
+        "source": "http://eol.org/resources/527"
+      },
+      {
+        "@id": "http://eol.org/pages/10644995/data#data_point_46218479",
+        "eol:traitUri": "http://eol.org/resources/737/measurements/6ff38d7e0660432447a3cc46f87f665a",
+        "@type": "dwc:MeasurementOrFact",
+        "predicate": "population trend",
+        "dwc:measurementType": "http://iucn.org/population_trend",
+        "value": "Decreasing",
+        "eol:dataPointId": 46218479,
+        "dc:source": "http://eol.org/resources/737",
+        "dwc:measurementValue": "Decreasing",
+        "dwc:scientificName": "Stachyris nonggangensis Zhou & Jiang, 2008",
+        "eolterms:resource": "http://eol.org/resources/737"
+      },
+      {
+        "@id": "http://eol.org/pages/10644995/data#data_point_46218478",
+        "eol:traitUri": "http://eol.org/resources/737/measurements/017343df5faf2f56f2aff6cfcfe42652",
+        "@type": "dwc:MeasurementOrFact",
+        "predicate": "habitat",
+        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
+        "value": "terrestrial habitat",
+        "eol:dataPointId": 46218478,
+        "dc:source": "http://eol.org/resources/737",
+        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00002009",
+        "dwc:scientificName": "Stachyris nonggangensis Zhou & Jiang, 2008",
+        "eolterms:resource": "http://eol.org/resources/737"
+      },
+      {
+        "@id": "http://eol.org/pages/10644995/data#data_point_46218471",
+        "eol:traitUri": "http://eol.org/resources/737/measurements/2fadf808e492e80775e0eb5e81e30a31",
+        "@type": "dwc:MeasurementOrFact",
+        "predicate": "conservation status",
+        "dwc:measurementType": "http://rs.tdwg.org/ontology/voc/SPMInfoItems#ConservationStatus",
+        "value": "vulnerable",
+        "eol:dataPointId": 46218471,
+        "dc:source": "http://eol.org/resources/737",
+        "dwc:measurementValue": "http://eol.org/schema/terms/vulnerable",
+        "dwc:scientificName": "Stachyris nonggangensis Zhou & Jiang, 2008",
+        "eolterms:Reviewer": "Butchart, S.",
+        "eolterms:Assessor": "BirdLife International",
+        "eolterms:Version": "3.1",
+        "eolterms:RedListCriteria": "C2a(ii)",
+        "dc:contributor": "Jiang, A. & Zhou, F.",
+        "dwc:measurementDeterminedDate": "2015",
+        "eolterms:resource": "http://eol.org/resources/737"
+      },
+      {
+        "@id": "http://eol.org/pages/10644995/data#data_point_11906443",
+        "eol:traitUri": "http://eol.org/resources/708/measurements/7f2eb8aa73491ab21e4ac1cc9c34df3f",
+        "@type": "dwc:MeasurementOrFact",
+        "predicate": "habitat",
+        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
+        "value": "terrestrial biome",
+        "eol:dataPointId": 11906443,
+        "dc:source": "http://eol.org/pages/10644995/details#habitat",
+        "dwc:measurementMethod": "text mining",
+        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000446",
+        "dwc:scientificName": "Stachyris nonggangensis Fang & Aiwu, 2008",
+        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
+        "dwc:measurementRemarks": "source text: \"terrestrial\""
+      },
+      {
+        "@id": "http://eol.org/pages/10644995/data#data_point_11906444",
+        "eol:traitUri": "http://eol.org/resources/708/measurements/c8d130939b74537fd329688efcf886f1",
+        "@type": "dwc:MeasurementOrFact",
+        "predicate": "habitat",
+        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
+        "value": "mount",
+        "eol:dataPointId": 11906444,
+        "dc:source": "http://eol.org/pages/10644995/details#habitat",
+        "dwc:measurementMethod": "text mining",
+        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000264",
+        "dwc:scientificName": "Stachyris nonggangensis Fang & Aiwu, 2008",
+        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
+        "dwc:measurementRemarks": "source text: \"mountains\""
+      },
+      {
+        "@id": "http://eol.org/pages/10644995/data#data_point_11906445",
+        "eol:traitUri": "http://eol.org/resources/708/measurements/b318d50a4c71c8bb7f6acbc59f296328",
+        "@type": "dwc:MeasurementOrFact",
+        "predicate": "habitat",
+        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
+        "value": "forest",
+        "eol:dataPointId": 11906445,
+        "dc:source": "http://eol.org/pages/10644995/details#habitat",
+        "dwc:measurementMethod": "text mining",
+        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000111",
+        "dwc:scientificName": "Stachyris nonggangensis Fang & Aiwu, 2008",
+        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
+        "dwc:measurementRemarks": "source text: \"forest\""
+      },
+      {
+        "@id": "http://eol.org/pages/10644995/data#data_point_11906448",
+        "eol:traitUri": "http://eol.org/resources/708/measurements/c4dd5eb35f8e6b103dcb2bb59fb6c60b",
+        "@type": "dwc:MeasurementOrFact",
+        "predicate": "habitat",
+        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
+        "value": "limestone",
+        "eol:dataPointId": 11906448,
+        "dc:source": "http://eol.org/pages/10644995/details#habitat",
+        "dwc:measurementMethod": "text mining",
+        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00002053",
+        "dwc:scientificName": "Stachyris nonggangensis Fang & Aiwu, 2008",
+        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
+        "dwc:measurementRemarks": "source text: \"limestone\""
+      },
+      {
+        "@id": "http://eol.org/pages/10644995/data#data_point_21173840",
+        "eol:traitUri": "http://eol.org/resources/708/measurements/e799a35f2df5ab265c28f2ced29c15d3",
+        "@type": "dwc:MeasurementOrFact",
+        "predicate": "habitat",
+        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
+        "value": "woodland",
+        "eol:dataPointId": 21173840,
+        "dc:source": "http://eol.org/pages/10644995/details#wikipedia",
+        "dwc:measurementMethod": "text mining",
+        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000109",
+        "dwc:scientificName": "Stachyris nonggangensis Fang & Aiwu, 2008",
+        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
+        "dwc:measurementRemarks": "source text: \"rainforest\""
+      },
+      {
+        "@id": "http://eol.org/pages/10644995/data#data_point_21173841",
+        "eol:traitUri": "http://eol.org/resources/708/measurements/8399ee1a83fbba8879dde688cf33fb07",
+        "@type": "dwc:MeasurementOrFact",
+        "predicate": "habitat",
+        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
+        "value": "karst",
+        "eol:dataPointId": 21173841,
+        "dc:source": "http://eol.org/pages/10644995/details#wikipedia",
+        "dwc:measurementMethod": "text mining",
+        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000175",
+        "dwc:scientificName": "Stachyris nonggangensis Fang & Aiwu, 2008",
+        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
+        "dwc:measurementRemarks": "source text: \"karst\""
+      },
+      {
+        "@id": "http://eol.org/pages/10644995/data#data_point_21173842",
+        "eol:traitUri": "http://eol.org/resources/708/measurements/ea0dd6a12b3a7917e6b66286189a1118",
+        "@type": "dwc:MeasurementOrFact",
+        "predicate": "habitat",
+        "dwc:measurementType": "http://rs.tdwg.org/dwc/terms/habitat",
+        "value": "nature reserve",
+        "eol:dataPointId": 21173842,
+        "dc:source": "http://eol.org/pages/10644995/details#wikipedia",
+        "dwc:measurementMethod": "text mining",
+        "dwc:measurementValue": "http://purl.obolibrary.org/obo/ENVO_00000363",
+        "dwc:scientificName": "Stachyris nonggangensis Fang & Aiwu, 2008",
+        "dc:contributor": "<a href=\"http://environments-eol.blogspot.com/2013/03/welcome-to-environments-eol-few-words.html\">Environments-EOL</a>",
+        "dwc:measurementRemarks": "source text: \"natural reserve\""
+      }
+    ]
+  }
+}
+
 			
 			</textarea>
 			<br />
@@ -332,26 +579,56 @@ function eol(doc) {
 
  var triples = [];
  
+ var cluster_id = doc.item['@id'];
+ if (isNaN(cluster_id)) {
+ } else {
+   cluster_id = 'http://eol.org/pages/' + cluster_id;
+}
+ 
+ 
+ 
  for (var i in doc.item) {
  
    switch (i) {
-     case '@id':
-       console.log(i);
-       break;
-       
+
       case 'scientificName':
-        console.log(i);
+       triples.push(triple(cluster_id,
+    'http://rs.tdwg.org/dwc/terms/scientificName',
+    doc.item[i]));
         break;
+        
+    case 'dwc:taxonRank': 
+      if (doc.item[i] != null) {
+       triples.push(triple(cluster_id,
+    'http://rs.tdwg.org/dwc/terms/taxonRank',
+    doc.item[i]));
+    }
+      break;
+      
+      
+    case 'dwc:parentNameUsageID': 
+        triples.push(triple(cluster_id,
+    'http://rs.tdwg.org/dwc/terms/parentNameUsageID',
+    doc.item[i]));
+      break;
+   
 
       case 'sameAs':
         for (var j in doc.item[i]) {
-          console.log(doc.item[i][j]);
+       triples.push(triple(cluster_id,
+    'http://schema.org/sameAs',
+    doc.item[i][j]));
         }
         break;
 
       case 'vernacularNames':
         for (var j in doc.item[i]) {
-          console.log(doc.item[i][j]['@value']);
+         if (doc.item[i][j]['@language'].length == 2) {
+       triples.push(triple(cluster_id,
+    'http://rs.tdwg.org/dwc/terms/vernacularName',
+    doc.item[i][j]['@value'], doc.item[i][j]['@language'])
+    );
+    }
         }
         break;
 
@@ -364,14 +641,15 @@ function eol(doc) {
  
  }
 
-/*
+
   // defaults
-  triples.push(triple(cluster_id,
+       triples.push(triple(cluster_id,
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-    'http://www.w3.org/ns/oa#Annotation'));
+    'http://rs.tdwg.org/dwc/terms/Taxon'));
+  
 
   output(doc, triples);
-*/
+
 }
 		
 			function convert() {
