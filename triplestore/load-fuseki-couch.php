@@ -250,18 +250,21 @@ function debug_view($view, $rows_per_page, $skip)
 
 //add_one("http://dx.doi.org/10.7601/mez.56.275", "crossref");
 
-/*
+
 $day = 60 * 60 * 24;
 
 $start_time = date("c", time() - $day);
 
-$start_time = date("c", time() - (60 * 60));
+$start_time = date("c", time() - (60 * 60)); // hour
+
+//$start_time = date("c", time() - (60 * 10)); // last ten minutes
 
 add_modified('crossref', $start_time);
-*/
+
 
 //add_view('mendeley_group');
 
+/*
 if (1)
 {
 	//add_view('orcid');
@@ -271,7 +274,7 @@ else
 {
 	debug_view('orcid', 1000, 1424000);
 }
-
+*/
 
 
 
