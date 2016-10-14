@@ -10,17 +10,33 @@ require_once(dirname(dirname(__FILE__)) . '/resolvers/resolve.php');
 
 
 //----------------------------------------------------------------------------------------
-// Put an item in the queue 
-function enqueue($url)
+// Put an item in the queue , optionally force if already exists by deleting item
+// and putting it back in the queue.
+function enqueue($url, $force = false)
 {
 	global $config;
 	global $couch;
 	
+	$go = true;
+	
 	// Check whether this URL already exists (have we done this object already?)
 	// to do: what about having multiple URLs for same thing, check this
 	$exists = $couch->exists($url);
+	
+	if ($exists)
+	{
+		echo "Exists\n";
+		$go = false;
+		
+		if ($force)
+		{
+			echo "[forcing]\n";
+			$couch->add_update_or_delete_document(null, $url, 'delete');
+			$go = true;		
+		}
+	}
 
-	if (!$exists)
+	if ($go)
 	{
 		$doc = new stdclass;
 		
@@ -36,10 +52,7 @@ function enqueue($url)
 		$resp = $couch->send("PUT", "/" . $config['couchdb_options']['database'] . "/" . urlencode($doc->_id), json_encode($doc));
 		var_dump($resp);
 	}
-	else
-	{
-		echo "Exists\n";
-	}
+
 }
 
 //----------------------------------------------------------------------------------------
@@ -131,6 +144,14 @@ function fetch($item, $add_links = false)
 				if (preg_match('/dx.doi.org/', $item->value))
 				{
 					$add_links = true;
+				}
+				if (preg_match('/www.ncbi.nlm.nih.gov\/pubmed/', $item->value))
+				{
+					$add_links = false;
+				}
+				if (preg_match('/www.ncbi.nlm.nih.gov\/pmc/', $item->value))
+				{
+					$add_links = false;
 				}
 				
 				
