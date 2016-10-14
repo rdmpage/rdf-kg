@@ -254,4 +254,14 @@ FILTER regex( ?identifier, “lsid”, “i” ) .
 
 }  LIMIT 10
 ```
+### Citation counts for a paper
+
+```
+SELECT (COUNT(?cited_by) as ?count)
+WHERE {
+  ?work <http://purl.org/dc/terms/identifier> <http://identifiers.org/pubmed/11524383> .
+  ?work <http://schema.org/name> ?name .
+  ?cited_by <http://schema.org/citation> ?work . 
+}
+```
 
