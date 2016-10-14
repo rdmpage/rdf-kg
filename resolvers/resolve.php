@@ -110,6 +110,8 @@ if (0)
 	
 	//$url = 'http://www.worldcat.org/issn/1313-2970';
 	
+	$url = 'http://www.ncbi.nlm.nih.gov/pubmed/27058864';
+	
 	$data = resolve_url($url);
 	print_r($data);
 

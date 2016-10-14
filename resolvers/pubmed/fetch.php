@@ -2,8 +2,7 @@
 
 // Fetch reference from PubMed
 require_once(dirname(dirname(__FILE__)) . '/lib.php');
-
-//require_once (dirname(dirname(__FILE__)) . '/ncbi/fetch.php');
+require_once (dirname(dirname(__FILE__)) . '/shared/ncbi.php');
 
 
 //----------------------------------------------------------------------------------------
@@ -14,6 +13,8 @@ function pubmed_parse_xml($xml)
 	$xpath = new DOMXPath($dom);
 	
 	$reference = new stdclass;
+	$reference->links = array();
+	
 	
 	$reference->{'message-format'} = 'application/vnd.crossref-api-message+json';
 	
@@ -57,8 +58,7 @@ function pubmed_parse_xml($xml)
 				$pageEnd = substr($m['spage'], 0, ($length_spage - $length_epage)) . $m['epage'];
 				$reference->message->page = $pageStart . '-' . $pageEnd;
 			}
-		}
-		
+		}	
 	}
 
 	$nodeCollection = $xpath->query ('//Journal');
@@ -162,6 +162,15 @@ function pubmed_parse_xml($xml)
 			$author->affiliation[] = $n->firstChild->nodeValue;
 		}
 		
+		// PubMed supports ORCIDs
+		$nc = $xpath->query ('Identifier[@Source="ORCID"]', $node);
+		foreach ($nc as $n)
+		{	
+			$author->ORCID = $n->firstChild->nodeValue;
+			
+			$reference->links[] = $author->ORCID;
+		}
+		
 		
 		$reference->message->author[] = $author;		
 	}		
@@ -178,16 +187,33 @@ function pubmed_parse_xml($xml)
 		$reference->message->pmc = $node->firstChild->nodeValue;
 	}
 	
-	/*
-	// citations
-	$reference->message->cited_by = pmid_cite($reference->message->pmid);
 	
+	// citations
 	if (isset($reference->message->pmc))
 	{
-		$reference->message->cites = pmc_cites_in_pubmed($reference->message->pmc);	
-		$reference->message->cited_by = pmc_cited_by_pmc($reference->message->pmc);
+		$reference->message->cited_by 	= pmc_cited_by_pmc($reference->message->pmc);
+		$reference->message->cites 		= pmc_cites_in_pubmed($reference->message->pmc);
 	}
-	*/
+	
+	$reference->message->cited_by 	= pmid_cited_by_pubmed($reference->message->pmid);
+	$reference->message->cites 		= pmid_cites_in_pubmed($reference->message->pmid);
+
+
+	$reference->message->cited_by = array_unique($reference->message->cited_by );
+	$reference->message->cites = array_unique($reference->message->cites );
+
+	$reference->links = array_merge($reference->links, $reference->message->cited_by);
+	$reference->links = array_merge($reference->links, $reference->message->cites);
+	
+	
+	// data sets
+	$list = pmid_data($reference->message->pmid);
+	if (count($list) > 0)
+	{
+		$reference->message->dataset = $list;
+		$reference->links = array_merge($reference->links, $reference->message->dataset);
+	}
+	
 	
 	/*
 	// mesh	
@@ -197,20 +223,11 @@ function pubmed_parse_xml($xml)
 		$reference->message->mesh[] = $node->firstChild->nodeValue;
 	}
 	*/
+
 	
-	/*
-	if (isset($reference->message->pmc))
-	{
-		cites_in_pubmed($reference->message->pmc, $reference);
-		cited_by_in_pmc($reference->message->pmc, $reference);
-	}
-	*/
+	$reference->message->sequences = pubmed_to_nucleotides($reference->message->pmid);
+	$reference->links = array_merge($reference->links, $reference->message->sequences);
 	
-	//$reference->message->sequences = pubmed_to_nucleotides($reference->message->pmid);
-	//print_r($reference);
-	
-	
-	//echo json_format(json_encode($reference));
 	
 	return $reference;
 
@@ -255,6 +272,17 @@ if (0)
 	$pmid = 21605690;
 	$pmid = 21653447;
 	$pmid = 24315868;
+	
+	$pmid = 27058864; // Comparative Analysis of Begonia Plastid Genomes and Their Utility for Species-Level Phylogenetics
+	
+//	$pmid = 21653447; // Phylogenetic position and biogeography of Hillebrandia sandwicensis (Begoniaceae): a rare Hawaiian relict.
+
+	//$pmid = 15062787; // Pleistocene and pre-Pleistocene Begonia speciation in Africa
+	
+	//$pmid = 24161152; // Multilocus phylogeny and cryptic diversity in Asian shrew-like moles (Uropsilus, Talpidae): implications for taxonomy and conservation
+	
+	//$pmid = 23572126; // The ancient tropical rainforest tree Symphonia globulifera L. f. (Clusiaceae) was not restricted to postulated Pleistocene refugia in Atlantic Equatorial Africa.
+	
 	$data = pubmed_fetch($pmid);
 	print_r($data);
 }
