@@ -37,6 +37,9 @@ function quad(subject, predicate, object, context) {
 // Enclose triple in suitable wrapping for HTML display or triplet output
 function wrap(s, html) {
 if (s) {
+
+console.log(s);
+
   if (s.match(/^(http|urn|_:)/)) {
     if (html) {
       s = '&lt;' + s + '&gt;';
@@ -120,6 +123,12 @@ jsonld.fromRDF(nquads, {format: 'application/nquads'}, function(err, j) {
   
   // Open Annotation
   "oa" : "http://www.w3.org/ns/oa#",  
+  
+  // Darwin Core
+ "dwc": "http://rs.tdwg.org/dwc/terms/",  
+ 
+ // LOCN
+ "locn":"http://www.w3.org/ns/locn#",
   
   // Identifiers
   "DOI" : "http://identifiers.org/doi/",

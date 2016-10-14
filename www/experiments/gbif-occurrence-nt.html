@@ -1,0 +1,1018 @@
+<html>
+	<head>
+		<title>GBIF dataset to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<script src="shared.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>GBIF dataset  to n-triples</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>JSON</h2>
+<!--
+Palm with images, holotype
+described in Phytotaxa 10.11646/phytotaxa.28.1.2
+{"key":912550916,"datasetKey":"cd6e21c8-9e8a-493a-8a76-fbf7862069e5","publishingOrgKey":"061b4f20-f241-11da-a328-b8a03c50a862","publishingCountry":"GB","protocol":"DWC_ARCHIVE","lastCrawled":"2016-09-13T07:33:54.352+0000","lastParsed":"2016-09-13T07:33:54.596+0000","crawlId":57,"extensions":{},"basisOfRecord":"PRESERVED_SPECIMEN","taxonKey":7375421,"kingdomKey":6,"phylumKey":7707728,"classKey":196,"orderKey":552,"familyKey":7681,"genusKey":2736518,"speciesKey":7375421,"scientificName":"Areca dransfieldii Heatubun","kingdom":"Plantae","phylum":"Tracheophyta","order":"Arecales","family":"Arecaceae","genus":"Areca","species":"Areca dransfieldii","genericName":"Areca","specificEpithet":"dransfieldii","taxonRank":"SPECIES","dateIdentified":"2011-06-06T00:00:00.000+0000","decimalLongitude":114.03,"decimalLatitude":4.2,"coordinateUncertaintyInMeters":0.2,"elevation":147.0,"year":2008,"month":4,"day":1,"eventDate":"2008-04-01T00:00:00.000+0000","typeStatus":"HOLOTYPE","issues":["GEODETIC_DATUM_ASSUMED_WGS84"],"lastInterpreted":"2016-09-13T07:43:49.157+0000","license":"http://creativecommons.org/licenses/by/4.0/legalcode","identifiers":[],"media":[{"type":"StillImage","format":"image/jpeg","identifier":"http://www.kew.org/herbcatimg/367322.jpg","license":"© The Board of Trustees of the Royal Botanic Gardens, Kew."}],"facts":[],"relations":[],"geodeticDatum":"WGS84","class":"Liliopsida","countryCode":"MY","country":"Malaysia","recordNumber":"CH901","identifier":"K000707028","higherGeography":"Sarawak","georeferenceProtocol":"label","locality":"Sarawak, Miri, Lambir National Park, patch from waterfall.","eventRemarks":"Clustering, small palm with stiltroots and aerial branching, tall to 2 - 3 m high, stem 2.5 cm in diam., internodes 3 - 4 cm long; 7 leaves in the crown, crown shaft 35 cm long, leaf sheath 20 cm long. leaf 158 -165 cm long, petiole 70 - 81 cm long, leafl","collectionCode":"Herbarium","gbifID":"912550916","occurrenceID":"http://specimens.kew.org/herbarium/K000707028","catalogNumber":"K000707028","recordedBy":"Rebi, S.; Heatubun, C.D.","institutionCode":"K","higherClassification":"ARECACEAE,ARECACEAE","identifiedBy":"Heatubun, C.D."}
+-->		
+
+<!-- JSON for data object goes below -->
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+{"key":888965011,"datasetKey":"5df38344-b821-49c2-8174-cf0f29f4df0d",
+"publishingOrgKey":"bc092ff0-02e4-11dc-991f-b8a03c50a862",
+"publishingCountry":"US",
+"protocol":"DWC_ARCHIVE",
+"lastCrawled":"2016-04-27T20:17:04.792+0000",
+"lastParsed":"2016-02-09T16:20:55.970+0000",
+"crawlId":44,"extensions":{},"basisOfRecord":"PRESERVED_SPECIMEN",
+"individualCount":1,"taxonKey":5853584,"kingdomKey":1,"phylumKey":44,"classKey":204,"orderKey":587,"familyKey":4280,"genusKey":2389527,"speciesKey":5853584,"scientificName":"Starksia sangreyae Castillo & Baldwin, 2011",
+"kingdom":"Animalia",
+"phylum":"Chordata",
+"order":"Perciformes",
+"family":"Labrisomidae",
+"genus":"Starksia",
+"species":"Starksia sangreyae",
+"genericName":"Starksia",
+"specificEpithet":"sangreyae",
+"taxonRank":"SPECIES",
+"depth":1.5,"depthAccuracy":0.5,"waterBody":"Atlantic, Caribbean Sea",
+"year":2005,"month":4,"day":25,"eventDate":"2005-04-25T00:00:00.000+0000",
+"typeStatus":"HOLOTYPE",
+"issues":[],"lastInterpreted":"2016-08-03T23:45:43.646+0000",
+"license":"http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+"identifiers":[],"facts":[],"relations":[],"class":"Actinopterygii",
+"countryCode":"BZ",
+"country":"Belize",
+"recordNumber":"BLZ 5111",
+"identifier":"http://n2t.net/ark:/65665/36d41460d-e31b-4172-a6d1-f5e12f42f098",
+"higherGeography":"Atlantic, Caribbean Sea, Belize, Carrie Bow Cay",
+"island":"Carrie Bow Cay",
+"http://unknown.org/organismID":"398932",
+"endDayOfYear":"115",
+"locality":"Belize, Carrie Bow Cay, south side of island.",
+"fieldNumber":"CB 05-09",
+"collectionCode":"Fishes",
+"gbifID":"888965011",
+"occurrenceID":"http://n2t.net/ark:/65665/36d41460d-e31b-4172-a6d1-f5e12f42f098",
+"type":"PhysicalObject",
+"catalogNumber":"398932.7605651",
+"recordedBy":"C. Baldwin",
+"institutionCode":"USNM",
+"rights":"https://creativecommons.org/publicdomain/zero/1.0/",
+"startDayOfYear":"115",
+"associatedSequences":"Genbank: HQ600872",
+"higherClassification":"Animalia, Chordata, Vertebrata, Osteichthyes, Actinopterygii, Neopterygii, Acanthopterygii, Perciformes, Blennioidei, Labrisomidae"}		
+			</textarea>
+			<br />
+			<button onclick="convert()">Convert</button>
+		
+	
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;color:#222;"></div>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;"></div>
+	</div>
+
+</div>
+
+		<script>
+		
+
+// geohash.js
+// Geohash library for Javascript
+// (c) 2008 David Troy
+// Distributed under the MIT License
+
+BITS = [16, 8, 4, 2, 1];
+
+BASE32 = 											   "0123456789bcdefghjkmnpqrstuvwxyz";
+NEIGHBORS = { right  : { even :  "bc01fg45238967deuvhjyznpkmstqrwx" },
+							left   : { even :  "238967debc01fg45kmstqrwxuvhjyznp" },
+							top    : { even :  "p0r21436x8zb9dcf5h7kjnmqesgutwvy" },
+							bottom : { even :  "14365h7k9dcfesgujnmqp0r2twvyx8zb" } };
+BORDERS   = { right  : { even : "bcfguvyz" },
+							left   : { even : "0145hjnp" },
+							top    : { even : "prxz" },
+							bottom : { even : "028b" } };
+
+NEIGHBORS.bottom.odd = NEIGHBORS.left.even;
+NEIGHBORS.top.odd = NEIGHBORS.right.even;
+NEIGHBORS.left.odd = NEIGHBORS.bottom.even;
+NEIGHBORS.right.odd = NEIGHBORS.top.even;
+
+BORDERS.bottom.odd = BORDERS.left.even;
+BORDERS.top.odd = BORDERS.right.even;
+BORDERS.left.odd = BORDERS.bottom.even;
+BORDERS.right.odd = BORDERS.top.even;
+
+function refine_interval(interval, cd, mask) {
+	if (cd&mask)
+		interval[0] = (interval[0] + interval[1])/2;
+  else
+		interval[1] = (interval[0] + interval[1])/2;
+}
+
+function calculateAdjacent(srcHash, dir) {
+	srcHash = srcHash.toLowerCase();
+	var lastChr = srcHash.charAt(srcHash.length-1);
+	var type = (srcHash.length % 2) ? 'odd' : 'even';
+	var base = srcHash.substring(0,srcHash.length-1);
+	if (BORDERS[dir][type].indexOf(lastChr)!=-1)
+		base = calculateAdjacent(base, dir);
+	return base + BASE32[NEIGHBORS[dir][type].indexOf(lastChr)];
+}
+
+function decodeGeoHash(geohash) {
+	var is_even = 1;
+	var lat = []; var lon = [];
+	lat[0] = -90.0;  lat[1] = 90.0;
+	lon[0] = -180.0; lon[1] = 180.0;
+	lat_err = 90.0;  lon_err = 180.0;
+	
+	for (i=0; i<geohash.length; i++) {
+		c = geohash[i];
+		cd = BASE32.indexOf(c);
+		for (j=0; j<5; j++) {
+			mask = BITS[j];
+			if (is_even) {
+				lon_err /= 2;
+				refine_interval(lon, cd, mask);
+			} else {
+				lat_err /= 2;
+				refine_interval(lat, cd, mask);
+			}
+			is_even = !is_even;
+		}
+	}
+	lat[2] = (lat[0] + lat[1])/2;
+	lon[2] = (lon[0] + lon[1])/2;
+
+	return { latitude: lat, longitude: lon};
+}
+
+function encodeGeoHash(latitude, longitude) {
+	var is_even=1;
+	var i=0;
+	var lat = []; var lon = [];
+	var bit=0;
+	var ch=0;
+	var precision = 12;
+	geohash = "";
+
+	lat[0] = -90.0;  lat[1] = 90.0;
+	lon[0] = -180.0; lon[1] = 180.0;
+	
+	while (geohash.length < precision) {
+	  if (is_even) {
+			mid = (lon[0] + lon[1]) / 2;
+	    if (longitude > mid) {
+				ch |= BITS[bit];
+				lon[0] = mid;
+	    } else
+				lon[1] = mid;
+	  } else {
+			mid = (lat[0] + lat[1]) / 2;
+	    if (latitude > mid) {
+				ch |= BITS[bit];
+				lat[0] = mid;
+	    } else
+				lat[1] = mid;
+	  }
+
+		is_even = !is_even;
+	  if (bit < 4)
+			bit++;
+	  else {
+			geohash += BASE32[ch];
+			bit = 0;
+			ch = 0;
+	  }
+	}
+	return geohash;
+}
+
+//----------------------
+function specimen_codes(doc) {
+ var codes = [];
+
+  // By default we simply output institutionCode and catalogNumber,
+  // but for some we need special processing. Setting output_default to false
+  // means that the simple institutionCode + catalogNumber
+  // doesn't apply.
+  var output_default = true;
+
+  // Here we do any special processing do create codes seen in the wild
+  switch (doc.datasetKey) {
+
+    // AMNH
+    // Birds
+    case '96c93a1e-f762-11e1-a439-00145eb45e9a':
+      var catalogNumber = doc.catalogNumber;
+      catalogNumber = catalogNumber.replace(/DOT-/i, '');
+      catalogNumber = catalogNumber.replace(/SKIN-/i, '');
+      codes.push(doc.institutionCode + ' ' + catalogNumber);
+      break;
+
+    // AM
+    case 'dce8feb0-6c89-11de-8225-b8a03c50a862':
+      var catalogNumber = doc.catalogNumber;
+      catalogNumber = catalogNumber.replace(/\./, '');
+      codes.push(doc.institutionCode + ' ' + catalogNumber);
+      if (catalogNumber.match(/^R/)) {
+        codes.push(doc.institutionCode + catalogNumber);
+      }
+      codes.push('Australian Museum ' + catalogNumber);
+      output_default = false;
+      break;
+
+    // ANWC
+    case '0debafd0-6c8a-11de-8225-b8a03c50a862':
+      if (doc.catalogNumber.match(/^[A-Z]/)) {
+        codes.push(doc.institutionCode + ':' + doc.catalogNumber.replace(/^[A-Z][0]*/, ''));
+      }
+      break;
+
+    // CASIZ
+    case '44bcde48-ac71-46f2-bf73-24fc3c008b6c':
+      var catalogNumber = doc.catalogNumber.replace(/\.0/, '');
+      codes.push(doc.institutionCode + ' ' + catalogNumber);
+      // CAS:CASIZ 175448 
+      codes.push(doc.institutionCode + ':CASIZ ' + catalogNumber);
+      output_default = false;
+      break;
+ 
+    // CAS herps
+    case 'cece4fc2-1fec-4bb5-a335-7252548e3f0b':
+       codes.push(doc.institutionCode + doc.catalogNumber);
+       codes.push(doc.institutionCode + ':Herp:' + doc.catalogNumber);
+       break;
+    // CAS Ichs
+    case '5d6c10bd-ea31-4363-8b79-58c96d859f5b':
+       codes.push(doc.institutionCode + doc.catalogNumber);
+       codes.push(doc.institutionCode + ':Ich:' + doc.catalogNumber);
+       break;
+
+    // CSIRO
+    // CSIRO Ichthyology provider for OZCAM
+    case '18c93d12-34fb-4d3f-903c-b77215a1dcc9':
+      if (doc.catalogNumber.match(/^H/)) {
+        // BOLD cites them like this
+        codes.push(doc.institutionCode + ' H ' + doc.catalogNumber.replace(/^H/, ''));
+        }
+      break;
+
+    // FMNH
+    case 'e48d6c49-34a3-4df6-8206-121c061f190d':
+      codes.push(doc.institutionCode + ':HERP:' + doc.catalogNumber);
+      break;
+      
+    // Kew
+    case 'cd6e21c8-9e8a-493a-8a76-fbf7862069e5':
+      codes.push(doc.catalogNumber);
+      output_default = false;
+      break;
+
+    // MHNG
+    case '5a659248-1f70-11e3-b2c5-00145eb45e9a':
+      if (doc.catalogNumber.match(/^MHNG-MAM-/)) {
+        var catalogNumber = doc.catalogNumber;
+        catalogNumber = catalogNumber.replace(/MHNG-MAM-/, '');
+       codes.push(doc.institutionCode + ' ' + catalogNumber);
+ 
+        // for BOLD
+        catalogNumber = catalogNumber.replace(/\./, '');
+        codes.push(doc.institutionCode + '-' + catalogNumber);
+        output_default = false;
+      }
+      break;
+ 
+    // MNHN
+    case '1b2af425-9f6f-4b28-a008-af9757317c4c':
+      if (doc.catalogNumber.match(/^ENSIF/)) {
+        var catalogNumber = doc.catalogNumber;
+        catalogNumber = catalogNumber.replace(/ENSIF/, '');
+        codes.push(doc.institutionCode + ':ENSIF ' + catalogNumber);
+      }
+      break;
+    // MHNH birds
+    case 'ba0c03ab-fa61-4a3c-8db7-35c8c3454168':
+       if (doc.catalogNumber.match(/^MO/)) {
+        var catalogNumber = doc.catalogNumber;
+        catalogNumber = catalogNumber.replace(/MO-/, '');
+        codes.push(doc.institutionCode + ' ' + catalogNumber);
+      }
+      break;
+
+    // MCZ
+    case '4bfac3ea-8763-4f4b-a71a-76a6f5f243d3':
+      if (doc.catalogNumber.match(/^[R]-/)) {
+        codes.push(doc.institutionCode + ' ' + doc.catalogNumber.replace(/^[R]-/, ''));
+      }
+      break;
+
+    // MVZ
+    case '09c4287e-e6d5-4552-a07f-bff8a00833d8':
+      codes.push(doc.institutionCode + ':Herp:' + doc.catalogNumber);
+      break;
+
+    // NMV D
+    case '39905320-6c8a-11de-8226-b8a03c50a862':
+      codes.push(doc.institutionCode + doc.catalogNumber.replace(/ /,''));
+      codes.push('NMV<AUS>:' + doc.institutionCode + doc.catalogNumber.replace(/ /,''));
+      break;
+
+    // OMNH Osaka Museum of Natural History fish
+    case '849f0a76-f762-11e1-a439-00145eb45e9a':
+      if (doc.collectionCode == 'P') {
+        codes.push(doc.institutionCode + '-' + doc.collectionCode + ' ' + doc.catalogNumber.replace(/\.\d+/, ''));
+        output_default = false;
+      }
+      break;
+
+    // OSUC
+    // C.A. Triplehorn Insect Collection, Ohio State University, Columbus, OH (OSUC)
+    case '84ab7b76-f762-11e1-a439-00145eb45e9a':
+      codes.push(doc.catalogNumber);
+      output_default = false;
+      break;
+
+    // TTU
+    // mammals
+    case '854f70cc-55e3-4af2-9417-0f47d6c7902d':
+      // output field numbers as tissue numbers
+      if (doc.fieldNumber) {
+        codes.push('TK' + doc.fieldNumber);
+        codes.push('TK ' + doc.fieldNumber);
+      }
+      break;
+
+    // UAM
+    // mammals
+    case '377be098-626f-4cc2-b4b5-35700050669a':
+      codes.push(doc.institutionCode + ':Mamm:' + doc.catalogNumber.replace(/\.\d+/, ''));
+      break;
+
+    // UF (FLMNH)
+    // Ichthyology
+    case 'eccf4b09-f0c8-462d-a48c-41a7ce36815a':
+      codes.push('FLMNH ' + doc.catalogNumber);
+      break;
+    // Inverts (e.g., moolluscs)
+    case '85b1cfb6-f762-11e1-a439-00145eb45e9a':
+      codes.push('UF ' + doc.catalogNumber.replace(/\-\w+$/, ''));
+      break;
+
+    // USNM
+    case '5df38344-b821-49c2-8174-cf0f29f4df0d':
+      codes.push(doc.institutionCode + ' ' + doc.catalogNumber.replace(/\.\d+/, ''));
+
+      switch (doc.collectionCode) {
+        case 'Amphibians & Reptiles':
+          codes.push(doc.institutionCode + ':Herp:' + doc.catalogNumber.replace(/\.\d+/, ''));
+          break;
+        case 'Birds':
+          codes.push(doc.institutionCode + ':Birds:' + doc.catalogNumber.replace(/\.\d+/, ''));
+          break;
+        case 'Fishes':
+          codes.push(doc.institutionCode + ':Fish:' + doc.catalogNumber.replace(/\.\d+/, ''));
+          break;
+        case 'Mammals':
+          codes.push(doc.institutionCode + ':MAMM:' + doc.catalogNumber.replace(/\.\d+/, ''));
+          break;
+        default:
+          break;
+      }   
+      output_default = true;
+      break;
+
+    // UTA
+    // Herpetology
+    case '8d88898d-a2c4-4616-a1fe-431b9c06b671':
+      switch (doc.collectionCode) {
+        case 'UTA-A':
+          codes.push(doc.institutionCode + ' A' + doc.catalogNumber.replace(/\.\d+/, ''));
+          codes.push(doc.institutionCode + ' A-' + doc.catalogNumber.replace(/\.\d+/, ''));  
+          break;
+        case 'UTA-R':
+          codes.push(doc.institutionCode + ' R' + doc.catalogNumber.replace(/\.\d+/, ''));
+          codes.push(doc.institutionCode + ' R-' + doc.catalogNumber.replace(/\.\d+/, ''));  
+          break;
+        default:
+          break;
+      }
+      break;
+
+    // UWBM 
+    // birds
+    case '830fd460-f762-11e1-a439-00145eb45e9a':
+      break;
+
+    // UZA
+    case '96c25708-f762-11e1-a439-00145eb45e9a':
+      codes.push(doc.catalogNumber);
+      output_default = false; 
+      break;
+
+    // WAM
+    case '7c93d290-6c8b-11de-8226-b8a03c50a862':
+     codes.push(doc.institutionCode + doc.catalogNumber);
+     codes.push(doc.institutionCode + ' ' + doc.catalogNumber.replace(/^R/, ''));
+
+     if (doc.collectionCode == "REPT") {
+       // Number-only codes need R prefix
+       if (doc.catalogNumber.match(/^\d+/)) {
+         codes.push(doc.institutionCode + 'R' + doc.catalogNumber);
+         codes.push(doc.institutionCode + ' R' + doc.catalogNumber);
+       }
+     }
+     break;
+    
+    // YPM Inverts
+    case '854e35e6-f762-11e1-a439-00145eb45e9a':
+    // YPM entomology
+    case '96404cc2-f762-11e1-a439-00145eb45e9a':
+    // YPM fish
+    case '96419bea-f762-11e1-a439-00145eb45e9a':
+    // YPM Herps
+    case '861d3d64-f762-11e1-a439-00145eb45e9a':
+    // YPM birds
+    case '854cf79e-f762-11e1-a439-00145eb45e9a':
+     // YPM mammals
+    case '854f602e-f762-11e1-a439-00145eb45e9a':
+       var parts = doc.catalogNumber.match(/(YPM)\s+([A-Z]+)\s+(0+)?(\d+)/);
+       if (parts) {
+         var collection = parts[2];
+         var catalogNumber = parts[4];
+ 
+         // YPM \d+
+         codes.push(doc.institutionCode + ' ' + catalogNumber);
+         // YPM as is
+         codes.push(doc.catalogNumber);
+         // DwC triple
+         collection = collection.substr(0, Math.min(3, collection.length));
+         codes.push(doc.institutionCode + ':' + collection + ':' + catalogNumber);
+       }
+       output_default = false;
+       break;
+
+   // ZMUC
+    case 'cb643105-2e6b-403d-a23b-2c8128d1f97c':
+      codes.push(doc.catalogNumber.replace(/-/, ' '));
+      output_default = false;
+      break;
+ 
+    // ZMUC birds
+    case 'af3bce08-0599-45a6-9bfc-08188bcd868e':
+      var catalogNumber = doc.catalogNumber.replace(/AVES-0?/, '');
+      codes.push(doc.institutionCode + ' ' + catalogNumber);
+      // see doi:10.1007/s10336-006-0082-4
+      if (catalogNumber.length == 5) {
+        codes.push(doc.institutionCode + ' ' + catalogNumber.substr(0,2) + '.' + catalogNumber.substr(2,3));
+      }
+      output_default = false;
+      break;
+
+    // Zoologische Staatssammlung Muenchen
+    // International Barcode of Life (iBOL) - Barcode of Life Project Specimen Data
+    case 'f29ab192-5964-40ae-a397-fa48ffdf0661':
+      codes.push(doc.catalogNumber);
+      output_default = false;
+      break;
+   
+    default:
+       output_default = true; // for now while we debug, make true when all done
+       break;  
+  }
+  
+  
+  // add any other useful records
+  if (doc.otherCatalogNumbers) {
+    codes.push(doc.otherCatalogNumbers);
+  }
+  
+  if (doc.recordNumber) {
+    codes.push(doc.recordNumber);
+  }
+
+  if (output_default) {
+     codes.push(doc.institutionCode + ' ' + doc.catalogNumber);
+  }
+
+  // Make unique
+  var unique = [];
+  for (var i = 0; i < codes.length; i++) {
+    if (unique.indexOf(codes[i]) == -1) {
+      unique.push(codes[i]);
+    }
+  }
+  
+  return unique;
+}
+		
+function gbif_data(doc) {
+  var triples = [];
+
+  var cluster_id = 'http://api.gbif.org/v1/occurrence/' + doc.key;
+  
+  var locality_id = '';
+  var event_id = '';
+  var identification_id = '';
+  
+  // Occurrence ID may be supplied by data provider, use that where possible,
+  // otherwise default to GBIF occurrence number
+  var occurrence_id = '';
+  if (doc.occurrenceID) {
+  
+    if (occurrence_id == '') {
+    	// NHM
+   	 if (doc.datasetKey == '7e380070-f762-11e1-a439-00145eb45e9a') {
+    	occurrence_id = 'http://data.nhm.ac.uk/object/' + doc.occurrenceID;
+    	
+ 		// store identifier in original form 
+		triples.push(triple(occurrence_id,
+			'http://purl.org/dc/terms/identifier',
+			doc.occurrenceID));          	
+    	}
+    }
+    
+     if (occurrence_id == '') {
+    	// URL
+    	if (doc.occurrenceID.match(/^http[s]?:/)) {
+    		occurrence_id = doc.occurrenceID;
+    	}
+    }
+    
+     if (occurrence_id == '') {
+    	// UUID
+    	// http://stackoverflow.com/a/13653180/9684
+    	if (doc.occurrenceID.match(/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i)) {
+    		occurrence_id = 'urn:uuid:' + doc.occurrenceID;
+    	
+ 			// store identifier in original form 
+			triples.push(triple(occurrence_id,
+				'http://purl.org/dc/terms/identifier',
+				doc.occurrenceID));  
+		}        	
+    }
+    
+   
+ }
+ if (occurrence_id == '') {
+  occurrence_id = cluster_id + '#occurrence';
+ }
+ triples.push(triple(occurrence_id,
+				'http://purl.org/dc/terms/identifier',
+				occurrence_id)); 
+triples.push(triple(occurrence_id,
+			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://rs.tdwg.org/dwc/terms/Occurrence'));				
+  
+  var item_id = 'http://www.gbif.org/occurrence/' + doc.key;
+  triples.push(triple(cluster_id,
+				'http://schema.org/item',
+				item_id));  
+triples.push(triple(item_id,
+				'http://rs.tdwg.org/dwc/terms/occurrenceID',
+				occurrence_id)); 			
+				
+  // for searchability we keep track of/create alternative specimen codes 
+  var codes = [];
+
+  // fields
+  for (var i in doc) {
+    if (doc[i] != null) {
+    switch (i) {
+
+		// Occurrence (usually a specimen)
+				// Darwin Core occurrence---------------------------------------------------------
+				case 'catalogNumber':
+				case 'collectionCode':
+				case 'collectionID':
+				case 'institutionCode':
+				case 'institutionID':
+				case 'recordedBy':
+				case 'individualCount':
+				case 'organismQuantity':
+				case 'sex':
+				case 'lifeStage':
+				case 'reproductiveCondition':
+				case 'behavior':
+				case 'establishmentMeans':
+				case 'occurrenceStatus':
+				case 'preparations':
+				case 'disposition':
+				case 'otherCatalogNumbers':
+				case 'recordNumber':
+				case 'occurrenceRemarks':
+				
+					triples.push(triple(occurrence_id,
+						  'http://rs.tdwg.org/dwc/terms/' + i,
+						  String(doc[i]) ));				
+					break;
+					
+				// needs more thought
+				case 'type':					
+					triples.push(triple(locality_id,
+			      'http://purl.org/dc/terms/type',
+                  String(doc[i]) ));
+                  break;
+		
+
+       
+		// Darwin Core locality-----------------------------------------------------------
+		case 'continent':
+		case 'coordinateUncertaintyInM':
+		case 'coordinatePrecision':
+		case 'country':
+		case 'county':
+		case 'countryCode':
+		case 'decimalLatitude':
+		case 'decimalLongitude':
+		case 'depth':
+		case 'depthAccuracy':
+		case 'elevation':
+		case 'footprintWKT':
+		case 'footprintSRS':
+		case 'footprintSpatialFit':
+		case 'geodeticDatum':
+		case 'georeferencedBy':
+		case 'georeferencedDate':
+		case 'georeferenceSources':
+		case 'georeferenceProtocol':
+		case 'georeferenceVerification':
+		case 'georeferenceRemarks':
+		case 'higherGeography':
+		case 'higherGeographyID':
+		case 'island':
+		case 'islandGroup':
+		case 'locality':
+		case 'locationAccordingTo':
+		case 'locationID':
+		case 'locationRemarks':
+		case 'maximumElevationInMeters':
+		case 'minimumElevationInMeters':
+		case 'maximumDepthInMeters':
+		case 'minimumDepthInMeters':
+		case 'minimumDistanceAboveSurf':
+		case 'maximumDistanceAboveSurf':
+		case 'municipality':
+		case 'pointRadiusSpatialFit':
+		case 'stateProvince':
+		case 'verbatimCoordinates':
+		case 'verbatimLatitude':
+		case 'verbatimLongitude':
+		case 'verbatimCoordinateSystem':
+		case 'verbatimSRS':
+		case 'verbatimDepth':
+		case 'verbatimElevation':
+		case 'verbatimLocality':
+		case 'waterBody':
+		
+		// b-node (maybe with global identifer)
+		if (locality_id == '') {
+		   var geohash = '';
+		   
+			  locality_id = item_id + '#locality';
+			  if (doc.decimalLatitude && doc.decimalLongitude) {
+			    geohash = encodeGeoHash(doc.decimalLatitude , doc.decimalLongitude);
+				locality_id = 'http://geohash.org/' + geohash;
+			  }		
+			  
+			  if (doc.locationID) {
+                 if (doc.locationID.match(/^(http[s]?|urn)/)) {
+                  locality_id = doc.locationID;
+                 }
+              }
+			  
+			 // types
+			triples.push(triple(locality_id,
+			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://purl.org/dc/terms/Location'));
+
+			triples.push(triple(locality_id,
+			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://schema.org/Place'));
+                  
+            // link to cluster
+		triples.push(triple(item_id,
+		  'http://rs.tdwg.org/dwc/terms/locationID',
+		  locality_id ));
+            
+                  
+            // Store the geohash
+            if (geohash != '') {
+			   triples.push(triple(locality_id,
+			      'http://www.w3.org/ns/locn#geometry',
+                  'http://geohash.org/' + geohash));
+            }
+            
+			  if (doc.decimalLatitude && doc.decimalLongitude) {
+			  
+			    // map
+			    var mapUrl = 'http://www.openstreetmap.org/'
+			     + '?mlat=' + doc.decimalLatitude 
+			     + '&mlon=' + doc.decimalLongitude
+			     + '&zoom=8';
+			     
+			  triples.push(triple(locality_id,
+			      'http://schema.org/hasMap',
+                  mapUrl));
+ 			     
+			     			  
+			    // geo
+			    var geo_id = locality_id + '/geo';
+			    
+			  triples.push(triple(locality_id,
+			      'http://schema.org/geo',
+                  geo_id));
+ 
+ 			  triples.push(triple(geo_id,
+			       'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://schema.org/GeoCoordinates'));
+ 			  triples.push(triple(geo_id,
+			       'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://schema.org/GeoCoordinates'));
+ 			  triples.push(triple(geo_id,
+			       'http://schema.org/latitude',
+                  String(doc.decimalLatitude)));
+ 			  triples.push(triple(geo_id,
+			       'http://schema.org/longitude',
+                  String(doc.decimalLongitude)));
+            
+            }      
+                  		  
+		 }
+		triples.push(triple(locality_id,
+		  'http://rs.tdwg.org/dwc/terms/' + i,
+		  String(doc[i]) ));
+		break;  
+		
+		// Darwin Core Event----------------------------------------------------------
+		case 'fieldNumber':
+		case 'eventDate':
+		case 'year':
+		case 'month':
+		case 'day':
+		case 'verbatimEventDate':
+		case 'fieldNotes':
+		case 'eventRemarks':
+		  // b-node
+		  // any examples of identifiers?
+		  if (event_id == '') {
+				// b-node
+			  event_id = item_id + '#event';
+			  
+			  if (doc.eventID) {
+                 if (doc.eventID.match(/^(http[s]?|urn)/)) {
+                  event_id = doc.eventID;
+                 }
+              }			
+			  
+			triples.push(triple(event_id,
+			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://rs.tdwg.org/dwc/terms/Event'));	
+                  
+            // link to cluster
+			triples.push(triple(item_id,
+		  	'http://rs.tdwg.org/dwc/terms/eventID',
+		  	event_id ));
+                   	  
+		  }
+          triples.push(triple(event_id,
+		  'http://rs.tdwg.org/dwc/terms/' + i,
+		  String(doc[i]) ));		  
+		  break;
+		      
+		      // Darwin Core taxon (to do)
+		      
+		      
+		// Darwin Core Identification----------------------------------------------------------
+			case 'scientificName': // convenience
+			case 'typeStatus':
+			 case 'identificationQualifier':
+			 case 'typeStatus':
+			 case 'identifiedBy':
+			 case 'dateIdentified':
+			 case 'identificationReferences':
+			 case 'identificationVerificationStatus':
+			 case 'identificationRemarks':
+		  // b-node
+		  // any examples of identifiers?
+		  if (identification_id == '') {
+				// b-node
+			  identification_id = item_id + '#identification';
+			  
+			  
+			triples.push(triple(identification_id,
+			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://rs.tdwg.org/dwc/terms/Identification'));	
+                  
+            // link to taxon
+            if (doc.taxonKey) {
+ 			triples.push(triple(identification_id,
+		  	'http://rs.tdwg.org/dwc/terms/taxonID',
+		  	'http://www.gbif.org/species/' + doc.taxonKey));
+           
+            }
+                  
+            // link to cluster
+			triples.push(triple(item_id,
+		  	'http://rs.tdwg.org/dwc/terms/identificationID',
+		  	identification_id ));
+                   	  
+		  }
+          triples.push(triple(identification_id,
+		  'http://rs.tdwg.org/dwc/terms/' + i,
+		  String(doc[i]) ));		  
+		  break;
+		      
+		      // references
+             case 'associatedReferences':
+                   triples.push(triple(item_id,
+		  			'http://rs.tdwg.org/dwc/terms/associatedReferences',
+		  			String(doc[i])));
+		  		break;
+
+				// associated taxa (e.g., hosts)
+             case 'associatedTaxa':
+                   triples.push(triple(item_id,
+		  			'http://rs.tdwg.org/dwc/terms/associatedTaxa',
+		  			String(doc[i])));
+		  		break;
+		      
+		      // sequences
+             case 'associatedSequences':
+               var genbank = doc[i];
+               genbank = genbank.replace(/Genbank:/i, '');
+               genbank = genbank.replace(/\s+/, '');
+               genbank = genbank.replace(/http:\/\/www.ncbi.nlm.nih.gov\/nuccore/, '');
+               genbank = genbank.replace(/\s*;\s*/, '|');
+               
+               if (genbank != '') {
+                 var sequences = genbank.split('|');
+                 for (var j in sequences) {
+                   triples.push(triple(item_id,
+		  			'http://rs.tdwg.org/dwc/terms/associatedSequences',
+		  			'http://identifiers.org/insdc/' + sequences[j]));
+		  			}
+		  		}
+		  		break;
+		  		
+       
+        // media
+      case 'media':
+        for (var j in doc[i]) {
+          if (doc[i][j].type == 'StillImage') {
+            var media_id = doc[i][j].identifier;
+            
+            // link to data
+			triples.push(triple(media_id,
+				'http://schema.org/about',
+				item_id));	
+            
+            
+ 			triples.push(triple(media_id,
+			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://schema.org/ImageObject'));	
+            
+            for (var k in doc[i][j]) {
+                switch(k) {
+            	case 'format':
+ 					triples.push(triple(media_id,
+			      		'http://schema.org/fileFormat',
+                  		doc[i][j][k]));	
+                  	break;
+
+            	case 'title':
+ 					triples.push(triple(media_id,
+			      		'http://schema.org/caption',
+                  		doc[i][j][k]));	
+                  	break;
+
+            	case 'description':
+ 					triples.push(triple(media_id,
+			      		'http://schema.org/caption',
+                  		doc[i][j][k]));	
+                  	break;
+
+            	case 'references':
+ 					triples.push(triple(media_id,
+			      		'http://schema.org/about',
+                  		doc[i][j][k]));	
+                  	break;
+
+            	case 'identifier':
+ 					triples.push(triple(media_id,
+			      		'http://purl.org/dc/terms/identifier',
+                  		doc[i][j][k]));	
+ 					triples.push(triple(media_id,
+			      		'http://schema.org/contentUrl',
+                  		doc[i][j][k]));	
+                  	break;
+                  	
+                default:
+                	break;
+                	}
+            		}
+            	}
+            }
+            break;
+            	
+      
+       
+        
+        // identifiers
+      case 'identifiers':
+        for (var j in doc[i]) {
+          switch (doc[i][j].type) {
+          
+            case 'DOI':
+             var doi = doc[i][j].identifier;
+             doi = doi.replace(/DOI:\s*/i, '');
+        	
+             triples.push(triple(item_id,
+              'http://purl.org/dc/terms/identifier',
+              'http://identifiers.org/doi/' + doi));
+              break;
+              
+            case 'UUID':
+              var uuid = doc[i][j].identifier;
+              
+              // Fomrat nicely (Plazi doesn't)
+              if (uuid.match(/-/)) {
+              } else {
+                // bfee38ac-d1ef-47d5-b4a3-ffa07cc53f18
+                uuid = uuid.substring(0, 8) + '-' + uuid.substring(8, 12) + '-' + uuid.substring(12, 16) + '-' + uuid.substring(16, 22) + '-' + uuid.substring(22);
+              }
+              
+              uuid = 'urn:uuid:' + uuid.toLowerCase();
+              
+              triples.push(triple(item_id,
+              'http://purl.org/dc/terms/identifier',
+               uuid));
+             
+              break;
+            
+            default:
+              break;
+          }
+        }
+        break;
+
+        // license
+      case 'license':
+		triples.push(triple(item_id,
+		  'http://schema.org/license',
+		  doc[i]));
+        break;
+
+ 
+
+      default:
+        break;
+    }
+    }
+  }
+  
+  // post processing
+  
+  // alternative specimen codes
+  var codes = specimen_codes(doc);
+  for (var i in codes) {
+	triples.push(triple(occurrence_id,
+   	 'http://schema.org/alternateName',
+   	 String(codes[i])));
+  }
+  
+
+
+  // defaults
+  triples.push(triple(cluster_id,
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+    'http://schema.org/DataFeedItem'));
+
+  output(doc, triples);
+
+}
+		
+			function convert() {
+				var jsonld = $('#json').val();
+				var doc = JSON.parse(jsonld);
+				gbif_data(doc);
+				
+			
+			}
+		</script>
+
+
+</body>
+</html>
