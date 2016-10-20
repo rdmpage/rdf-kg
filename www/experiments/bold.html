@@ -261,327 +261,327 @@ function encodeGeoHash(latitude, longitude) {
 		
 function bold_data(doc) {
 
- var bold_dwc_map = [];
- 
- // location
- bold_dwc_map['country'] 	= 'country';
- bold_dwc_map['region'] 	= 'stateProvince';
- bold_dwc_map['province'] 	= 'stateProvince';
- bold_dwc_map['exactsite'] 	= 'locality';
- bold_dwc_map['lat'] 		= 'decimalLatitude';
- bold_dwc_map['lon'] 		= 'decimalLongitude';
- 
- // event
- bold_dwc_map['collectiondate'] = 'verbatimEventDate';
-bold_dwc_map['fieldnum'] 		= 'fieldNumber';
+  var bold_dwc_map = [];
 
- 
- // identification
-bold_dwc_map["species_name"]				= 'scientificName';
-bold_dwc_map["identification_provided_by"]	= 'identifiedBy';		
+  // location
+  bold_dwc_map['country'] = 'country';
+  bold_dwc_map['region'] = 'stateProvince';
+  bold_dwc_map['province'] = 'stateProvince';
+  bold_dwc_map['exactsite'] = 'locality';
+  bold_dwc_map['lat'] = 'decimalLatitude';
+  bold_dwc_map['lon'] = 'decimalLongitude';
 
- 
- // occurrence
-bold_dwc_map['processid'] 	= 'otherCatalogNumbers';
-bold_dwc_map['sampleid'] 	= 'otherCatalogNumbers';
-bold_dwc_map['catalognum'] 	= 'catalogNumber';
-bold_dwc_map['recordID'] 	= 'recordNumber';
-bold_dwc_map['collectors'] 	= 'recordedBy';
-bold_dwc_map['lifestage'] 	= 'lifestage';
-bold_dwc_map['notes'] 		= 'occurrenceRemarks';
-
-bold_dwc_map['institution_storing'] 	= 'institutionCode';
+  // event
+  bold_dwc_map['collectiondate'] = 'verbatimEventDate';
+  bold_dwc_map['fieldnum'] = 'fieldNumber';
 
 
- 
- // media
- 
+  // identification
+  bold_dwc_map["species_name"] = 'scientificName';
+  bold_dwc_map["identification_provided_by"] = 'identifiedBy';
+
+
+  // occurrence
+  bold_dwc_map['processid'] = 'otherCatalogNumbers';
+  bold_dwc_map['sampleid'] = 'otherCatalogNumbers';
+  bold_dwc_map['catalognum'] = 'catalogNumber';
+  bold_dwc_map['recordID'] = 'recordNumber';
+  bold_dwc_map['collectors'] = 'recordedBy';
+  bold_dwc_map['lifestage'] = 'lifestage';
+  bold_dwc_map['notes'] = 'occurrenceRemarks';
+
+  bold_dwc_map['institution_storing'] = 'institutionCode';
+
+
+
+  // media
+
 
 
   var triples = [];
-  
+
   //var cluster_id = 'http://bins.boldsystems.org/index.php/Public_RecordView?processid=' + doc.message.processid;
   var cluster_id = 'http://www.boldsystems.org/index.php/API_Public/combined?ids=' + doc.message.processid + '&format=tsv';
-  
+
   var item_id = 'http://bins.boldsystems.org/index.php/Public_RecordView?processid=' + doc.message.processid;
-  
-  
+  var occurrence_id = item_id; // item is an occurrence
+
   var locality_id = '';
   var event_id = '';
   var identification_id = '';
-  var occurrence_id = item_id + '#occurrence';
   
-	triples.push(triple(occurrence_id,
-				'http://purl.org/dc/terms/identifier',
-				occurrence_id)); 
-	triples.push(triple(occurrence_id,
-			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://rs.tdwg.org/dwc/terms/Occurrence'));				
+  triples.push(triple(occurrence_id,
+    'http://schema.org/name',
+    doc.message.processid));
+
   
+  triples.push(triple(occurrence_id,
+    'http://purl.org/dc/terms/identifier',
+    occurrence_id));
+  triples.push(triple(occurrence_id,
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+    'http://rs.tdwg.org/dwc/terms/Occurrence'));
+
   triples.push(triple(cluster_id,
-				'http://schema.org/item',
-				item_id));  
-triples.push(triple(item_id,
-				'http://rs.tdwg.org/dwc/terms/occurrenceID',
-				occurrence_id)); 			  
-  
+    'http://schema.org/item',
+    item_id));
+
   for (var i in doc.message) {
-   
-  switch(i) {
-  
-  
-  		// Darwin Core Identification----------------------------------------------------------
-			case "species_name":
-			case "identification_provided_by":			
-		  // b-node
-		  // any examples of identifiers?
-		  if (identification_id == '') {
-				// b-node
-			  identification_id = item_id + '#identification';
-			  
-			  
-			triples.push(triple(identification_id,
-			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://rs.tdwg.org/dwc/terms/Identification'));	
-                  
-            // link to taxon
-            if (doc.message.bin_uri) {
- 			triples.push(triple(identification_id,
-		  	'http://rs.tdwg.org/dwc/terms/taxonID',
-		  	'http://bins.boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=' + doc.message.bin_uri));
-           
-            }
-                  
-            // link to cluster
-			triples.push(triple(item_id,
-		  	'http://rs.tdwg.org/dwc/terms/identificationID',
-		  	identification_id ));
-                   	  
-		  }
+
+    switch (i) {
+
+
+      // Darwin Core Identification----------------------------------------------------------
+      case "species_name":
+      case "identification_provided_by":
+        // b-node
+        // any examples of identifiers?
+        if (identification_id == '') {
+          // b-node
+          identification_id = item_id + '#identification';
+
+
           triples.push(triple(identification_id,
-		  'http://rs.tdwg.org/dwc/terms/' + bold_dwc_map[i],
-		  String(doc.message[i]) ));		  
-		  break;
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+            'http://rs.tdwg.org/dwc/terms/Identification'));
 
-  
- 
-		// Occurrence (usually a specimen)
-				// Darwin Core occurrence---------------------------------------------------------
-				case 'processid':
-				case 'sampleid':
-				case 'recordID':
-				case 'catalognum':
-				case 'institution_storing':
-				case 'lifestage':
-				case 'notes':
-				
-					triples.push(triple(occurrence_id,
-						  'http://rs.tdwg.org/dwc/terms/' + bold_dwc_map[i],
-		  String(doc.message[i]) ));			
-					break;
+          // link to taxon
+          if (doc.message.bin_uri) {
+            triples.push(triple(identification_id,
+              'http://rs.tdwg.org/dwc/terms/taxonID',
+              'http://bins.boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=' + doc.message.bin_uri));
 
-  
-  
-		// Darwin Core Event----------------------------------------------------------
-		case 'collectiondate':
-		case 'fieldnum':
-		  // b-node
-		  // any examples of identifiers?
-		  if (event_id == '') {
-				// b-node
-			event_id = item_id + '#event';
-			  
-			triples.push(triple(event_id,
-			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://rs.tdwg.org/dwc/terms/Event'));	
-                  
-            // link to cluster
-			triples.push(triple(item_id,
-		  	'http://rs.tdwg.org/dwc/terms/eventID',
-		  	event_id ));
-                   	  
-		  }
+          }
+
+          // link to cluster
+          triples.push(triple(item_id,
+            'http://rs.tdwg.org/dwc/terms/identificationID',
+            identification_id));
+
+        }
+        triples.push(triple(identification_id,
+          'http://rs.tdwg.org/dwc/terms/' + bold_dwc_map[i],
+          String(doc.message[i])));
+        break;
+
+
+
+        // Occurrence (usually a specimen)
+        // Darwin Core occurrence---------------------------------------------------------
+      case 'processid':
+      case 'sampleid':
+      case 'recordID':
+      case 'catalognum':
+      case 'institution_storing':
+      case 'lifestage':
+      case 'notes':
+
+        triples.push(triple(occurrence_id,
+          'http://rs.tdwg.org/dwc/terms/' + bold_dwc_map[i],
+          String(doc.message[i])));
+        break;
+
+
+
+        // Darwin Core Event----------------------------------------------------------
+      case 'collectiondate':
+      case 'fieldnum':
+        // b-node
+        // any examples of identifiers?
+        if (event_id == '') {
+          // b-node
+          event_id = item_id + '#event';
+
           triples.push(triple(event_id,
-		  'http://rs.tdwg.org/dwc/terms/' + bold_dwc_map[i],
-		  String(doc.message[i]) ));	  
-		  break;
-	  
-  
-		// Darwin Core locality-----------------------------------------------------------
-  	case 'country':
-  	//case 'region':
-  	case 'province':
-  	case 'lat':
-  	case 'lon':
-  
-		// b-node (maybe with global identifer)
-		if (locality_id == '') {
-		   var geohash = '';
-		   
-			  locality_id = item_id + '#locality';
-			  if (doc.message.lat && doc.message.lon) {
-			    geohash = encodeGeoHash(doc.message.lat , doc.message.lon);
-				locality_id = 'http://geohash.org/' + geohash;
-			  }		
-			  
-			 // types
-			triples.push(triple(locality_id,
-			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://purl.org/dc/terms/Location'));
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+            'http://rs.tdwg.org/dwc/terms/Event'));
 
-			triples.push(triple(locality_id,
-			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://schema.org/Place'));
-                  
-            // link to cluster
-		triples.push(triple(item_id,
-		  'http://rs.tdwg.org/dwc/terms/locationID',
-		  locality_id ));
-            
-                  
-            // Store the geohash
-            if (geohash != '') {
-			   triples.push(triple(locality_id,
-			      'http://www.w3.org/ns/locn#geometry',
-                  'http://geohash.org/' + geohash));
-            }
-            
-			  if (doc.message.lat && doc.message.lon) {
-			  
-			    // map
-			    var mapUrl = 'http://www.openstreetmap.org/'
-			     + '?mlat=' + doc.message.lat
-			     + '&mlon=' + doc.message.lon
-			     + '&zoom=8';
-			     
-			  triples.push(triple(locality_id,
-			      'http://schema.org/hasMap',
-                  mapUrl));
- 			     
-			     			  
-			    // geo
-			    var geo_id = locality_id + '/geo';
-			    
-			  triples.push(triple(locality_id,
-			      'http://schema.org/geo',
-                  geo_id));
- 
- 			  triples.push(triple(geo_id,
-			       'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://schema.org/GeoCoordinates'));
- 			  triples.push(triple(geo_id,
-			       'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://schema.org/GeoCoordinates'));
- 			  triples.push(triple(geo_id,
-			       'http://schema.org/latitude',
-                  String(doc.message.lat)));
- 			  triples.push(triple(geo_id,
-			       'http://schema.org/longitude',
-                  String(doc.message.lon)));
-            
-            }      
-                  		  
-		 }
-		triples.push(triple(locality_id,
-		  'http://rs.tdwg.org/dwc/terms/' + bold_dwc_map[i],
-		  String(doc.message[i]) ));
-		break; 
-		
-		      // sequences
-             case 'genbank_accession':
-                   triples.push(triple(item_id,
-		  			'http://rs.tdwg.org/dwc/terms/associatedSequences',
-		  			'http://identifiers.org/insdc/' + doc.message[i]));
-		  		break;
-		
-		
-		default:
-		  break;
-		  
-		} 
-	  
- 
+          // link to cluster
+          triples.push(triple(item_id,
+            'http://rs.tdwg.org/dwc/terms/eventID',
+            event_id));
+
+        }
+        triples.push(triple(event_id,
+          'http://rs.tdwg.org/dwc/terms/' + bold_dwc_map[i],
+          String(doc.message[i])));
+        break;
+
+
+        // Darwin Core locality-----------------------------------------------------------
+      case 'country':
+        //case 'region':
+      case 'province':
+      case 'lat':
+      case 'lon':
+
+        // b-node (maybe with global identifer)
+        if (locality_id == '') {
+          var geohash = '';
+
+          locality_id = item_id + '#locality';
+          if (doc.message.lat && doc.message.lon) {
+            geohash = encodeGeoHash(doc.message.lat, doc.message.lon);
+            locality_id = 'http://geohash.org/' + geohash;
+          }
+
+          // types
+          triples.push(triple(locality_id,
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+            'http://purl.org/dc/terms/Location'));
+
+          triples.push(triple(locality_id,
+            'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+            'http://schema.org/Place'));
+
+          // link to cluster
+          triples.push(triple(item_id,
+            'http://rs.tdwg.org/dwc/terms/locationID',
+            locality_id));
+
+
+          // Store the geohash
+          if (geohash != '') {
+            triples.push(triple(locality_id,
+              'http://www.w3.org/ns/locn#geometry',
+              'http://geohash.org/' + geohash));
+          }
+
+          if (doc.message.lat && doc.message.lon) {
+
+            // map
+            var mapUrl = 'http://www.openstreetmap.org/' +
+              '?mlat=' + doc.message.lat +
+              '&mlon=' + doc.message.lon +
+              '&zoom=8';
+
+            triples.push(triple(locality_id,
+              'http://schema.org/hasMap',
+              mapUrl));
+
+
+            // geo
+            var geo_id = locality_id + '/geo';
+
+            triples.push(triple(locality_id,
+              'http://schema.org/geo',
+              geo_id));
+
+            triples.push(triple(geo_id,
+              'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+              'http://schema.org/GeoCoordinates'));
+            triples.push(triple(geo_id,
+              'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+              'http://schema.org/GeoCoordinates'));
+            triples.push(triple(geo_id,
+              'http://schema.org/latitude',
+              String(doc.message.lat)));
+            triples.push(triple(geo_id,
+              'http://schema.org/longitude',
+              String(doc.message.lon)));
+
+          }
+
+        }
+        triples.push(triple(locality_id,
+          'http://rs.tdwg.org/dwc/terms/' + bold_dwc_map[i],
+          String(doc.message[i])));
+        break;
+
+        // sequences
+      case 'genbank_accession':
+        triples.push(triple(item_id,
+          'http://rs.tdwg.org/dwc/terms/associatedSequences',
+          'http://identifiers.org/insdc/' + doc.message[i]));
+        break;
+
+
+      default:
+        break;
+
+    }
+
+
   }
-  
+
   // images
   if (doc.message.image_urls) {
     var image_urls = doc.message.image_urls.split('|');
     if (image_urls) {
-    
+
       var image_ids = doc.message.image_ids.split('|');
       var copyright_licenses = doc.message.copyright_licenses.split('|');
-    
+
       var n = image_urls.length;
       for (var i = 0; i < n; i++) {
-         
-            var media_id = item_id + '#' + image_ids[i];
-            
-            // link to data
-			triples.push(triple(media_id,
-				'http://schema.org/about',
-				item_id));	
-            
-            // type
- 			triples.push(triple(media_id,
-			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://schema.org/ImageObject'));	
-         
-         	// url
-			triples.push(triple(media_id,
-			      	'http://schema.org/contentUrl',
-                  	 image_urls[i]  ));	  
-                  	 
-            if (image_urls[i].match(/.jpg/)) {
-				triples.push(triple(media_id,
-			      		'http://schema.org/fileFormat',
-                  		 'image/jpeg'));	 
-                }      
-                  	        
- 
- 			// license
- 			if (doc.message.copyright_licenses) {
-	 			triples.push(triple(media_id,
-			      	'http://schema.org/license',
-                  	 copyright_licenses[i]  ));
-            }	         
-         
-         
-      
+
+        var media_id = item_id + '#' + image_ids[i];
+
+        // link to data
+        triples.push(triple(media_id,
+          'http://schema.org/about',
+          item_id));
+
+        // type
+        triples.push(triple(media_id,
+          'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+          'http://schema.org/ImageObject'));
+
+        // url
+        triples.push(triple(media_id,
+          'http://schema.org/contentUrl',
+          image_urls[i]));
+
+        if (image_urls[i].match(/.jpg/)) {
+          triples.push(triple(media_id,
+            'http://schema.org/fileFormat',
+            'image/jpeg'));
+        }
+
+
+        // license
+        if (doc.message.copyright_licenses) {
+          triples.push(triple(media_id,
+            'http://schema.org/license',
+            copyright_licenses[i]));
+        }
+
+
+
       }
     }
   }
-  
-  
+
+
   // alternative specimen codes
- for (var i in doc.message) {
-   
-  switch(i) {
-		case "processid": 
-		case "sampleid": 
-		case "recordID": 
-		case "catalognum": 
-		case "fieldnum": 
-	triples.push(triple(occurrence_id,
-   	 'http://schema.org/alternateName',
-   	 String(doc.message[i])));	
-   	    break;
-   	    
-   	    default:
-   	      break;
-   	 }
+  for (var i in doc.message) {
+
+    switch (i) {
+      case "processid":
+      case "sampleid":
+      case "recordID":
+      case "catalognum":
+      case "fieldnum":
+        triples.push(triple(occurrence_id,
+          'http://schema.org/alternateName',
+          String(doc.message[i])));
+        break;
+
+      default:
+        break;
+    }
   }
-  
+
 
   // defaults
   triples.push(triple(cluster_id,
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
     'http://schema.org/DataFeedItem'));
-     
+
 
   output(doc, triples);
 
-}
-		
+}	
 			function convert() {
 				var jsonld = $('#json').val();
 				var doc = JSON.parse(jsonld);

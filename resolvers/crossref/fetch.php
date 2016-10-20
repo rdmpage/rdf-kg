@@ -85,7 +85,7 @@ function crossref_fetch($doi)
 
 // test cases
 
-if (1)
+if (0)
 {
 	$doi = '10.1371/journal.pone.0139421'; // no links to XML
 	

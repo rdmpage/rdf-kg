@@ -6,8 +6,7 @@ require_once(dirname(dirname(__FILE__)) . '/documentstore/couchsimple.php');
 require_once (dirname(__FILE__) . '/bold/fetch.php');
 require_once (dirname(__FILE__) . '/crossref/fetch.php');
 require_once (dirname(__FILE__) . '/gbif/fetch.php');
-
-//require_once (dirname(__FILE__) . '/resolvers/genbank/fetch.php');
+require_once (dirname(__FILE__) . '/genbank/fetch.php');
 require_once (dirname(__FILE__) . '/orcid/fetch.php');
 require_once (dirname(__FILE__) . '/pubmed/fetch.php');
 require_once (dirname(__FILE__) . '/worldcat/fetch.php');
@@ -58,16 +57,13 @@ function classify_url($url)
 		$identifier->id = $m['issn'];
 	}	
 
-	/*
-	
-	// NCBI GenBank gi
-	if (preg_match('/http[s]?:\/\/www.ncbi.nlm.nih.gov\/nucore\/(?<id>\d+)$/', $url, $m))
+	// NCBI GenBank
+	if (preg_match('/http[s]?:\/\/www.ncbi.nlm.nih.gov\/nuccore\/(?<id>.*)$/', $url, $m))
 	{
 		$identifier = new stdclass;
-		$identifier->namespace = 'GI';
+		$identifier->namespace = 'GENBANK';
 		$identifier->id = $m['id'];
 	}
-	*/
 	
 	// PubMed PMID
 	if (preg_match('/http[s]?:\/\/www.ncbi.nlm.nih.gov\/pubmed\/(?<pmid>\d+)$/', $url, $m))
@@ -104,12 +100,9 @@ function resolve_url($url)
 				$data = gbif_fetch_occurrence($identifier->id);
 				break;
 
-				
-/*
-			case 'GI':
+			case 'GENBANK':
 				$data = genbank_fetch($identifier->id);
 				break;
-*/
 				
 			case 'ISSN':
 				$data = worldcat_fetch($identifier->id);
@@ -142,6 +135,8 @@ if (0)
 	$url = 'http://www.ncbi.nlm.nih.gov/pubmed/27058864';
 	
 	$url = 'http://bins.boldsystems.org/index.php/Public_RecordView?processid=ASANQ054-09';
+	
+	$url = 'http://www.ncbi.nlm.nih.gov/nuccore/146428523';
 	
 	$data = resolve_url($url);
 	print_r($data);

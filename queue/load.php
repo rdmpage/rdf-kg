@@ -37,6 +37,14 @@ $urls = array(
 'http://www.gbif.org/occurrence/624171316'
 );
 
+// Piranha, GBIF museum, GBIF EMBL, GenBank
+$urls = array(
+'http://www.gbif.org/occurrence/999838402',
+'http://www.gbif.org/occurrence/624171312',
+'http://www.ncbi.nlm.nih.gov/nuccore/146428523'
+);
+
+
 $force = false;
 $force = true;
 

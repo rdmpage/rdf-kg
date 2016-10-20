@@ -240,7 +240,7 @@ function encodeGeoHash(latitude, longitude) {
 //----------------------
 function specimen_codes(record) {
  var codes = [];
-
+ 
   // By default we simply output institutionCode and catalogNumber,
   // but for some we need special processing. Setting output_default to false
   // means that the simple institutionCode + catalogNumber
@@ -541,7 +541,9 @@ function specimen_codes(record) {
   }
 
   if (output_default) {
-     codes.push(record.institutionCode + ' ' + record.catalogNumber);
+     if (record.institutionCode && record.catalogNumber) {
+       codes.push(record.institutionCode + ' ' + record.catalogNumber);
+    }
   }
 
   // Make unique
@@ -573,6 +575,28 @@ function gbif_data(doc) {
   triples.push(triple(cluster_id,
     'http://schema.org/item',
     item_id));
+    
+  var name = [];
+  if (doc.message.institutionCode) {
+    name.push(doc.message.institutionCode);
+  }
+  if (doc.message.collectionCode) {
+    name.push(doc.message.collectionCode);
+  }
+  if (doc.message.catalogNumber) {
+    name.push(doc.message.catalogNumber);
+  }
+  
+  // Cases where there is not a Darwin Core triple
+  if (name.length == 0) {
+    if (doc.message.occurrenceID) {
+      name.push(doc.message.occurrenceID);
+    }
+  }
+  
+  triples.push(triple(item_id,
+    'http://schema.org/name',
+    String(name.join(' ')) ));
     
   triples.push(triple(item_id,
     'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',

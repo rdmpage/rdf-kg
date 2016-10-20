@@ -998,6 +998,7 @@ function genbank_xml_to_json($xml)
 		}
 		
 		$data = new stdclass;
+		$data->{'message-format'} ='genbank';
 		$data->message = $obj;
 		
 	}
@@ -1032,7 +1033,7 @@ function genbank_fetch($id)
 	
 	$xml = get($url);
 	
-	echo "$xml\n";
+	//echo "$xml\n";
 	
 	if ($xml != '')
 	{
@@ -1045,7 +1046,7 @@ function genbank_fetch($id)
 	
 //----------------------------------------------------------------------------------------
 
-if (1)
+if (0)
 {
 	//genbank_fetch('DQ381473');
 	
@@ -1091,6 +1092,9 @@ if (1)
 	//$accession = 'HQ600867';
 	
 //	$accession = 'EU139271'; // barcode
+
+	$accession = 'EF543742'; // same as http://www.gbif.org/occurrence/999838402
+	//$accession = 'GQ260888'; // barcode crustacean
 	
 	$data = genbank_fetch($accession);
 	print_r($data);

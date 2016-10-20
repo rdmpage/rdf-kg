@@ -170,7 +170,7 @@ function genbank_data(doc) {
   var triples = [];
 
 
-
+ // id for DataItem
   var cluster_id = 'http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?' 
   	+ 'db=nucleotide'
   	+ 'id=' + doc.message.sequence.accession
@@ -180,29 +180,21 @@ function genbank_data(doc) {
   var locality_id = '';
   var event_id = '';
   var identification_id = '';
-  var sequence_id = 'http://identifiers.org/insdc/' + doc.message.sequence.accession;    var sequence_id = 'http://identifiers.org/insdc/' + doc.message.sequence.accession;
-  var item_id = 'http://www.ncbi.nlm.nih.gov/nuccore/' + doc.message.sequence.accession;
+  var sequence_id = 'http://identifiers.org/insdc/' + doc.message.sequence.accession; 
+     
+  // item = occurrence
+  var item_id = 'https://www.ncbi.nlm.nih.gov/nuccore/' + doc.message.sequence.accession_version;
   var identification_id = item_id + '#identification';  
-  
-  // Occurrence ID may be supplied by data provider, use that where possible,
-  // otherwise default to GBIF occurrence number
-  var occurrence_id = '';
+  var occurrence_id = item_id; 
+
  
-  if (occurrence_id == '') {
-    occurrence_id = item_id + '#occurrence';
-  }
- 
-  triples.push(triple(occurrence_id,
+  triples.push(triple(item_id,
 			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
                   'http://rs.tdwg.org/dwc/terms/Occurrence'));				
   
   triples.push(triple(cluster_id,
 				'http://schema.org/item',
 				item_id));  
-				
-  triples.push(triple(item_id,
-				'http://rs.tdwg.org/dwc/terms/occurrenceID',
-				occurrence_id)); 
 				
 				
   // record level
@@ -227,11 +219,22 @@ function genbank_data(doc) {
 				'http://schema.org/description',
 				doc.message.definition));    
   }			
-  if (doc.message.definition) {
+  if (doc.message.version) {
   triples.push(triple(item_id,
 				'http://schema.org/version',
 				doc.message.sequence.accession_version));    
-  }			
+  }		
+  
+  // Use accession to name occurrence, and add to otherCatalogNumbers
+  triples.push(triple(item_id,
+		  		'http://schema.org/name',
+		  		doc.message.sequence.accession ));  	
+  triples.push(triple(item_id,
+		  		'http://rs.tdwg.org/dwc/terms/otherCatalogNumbers',
+		  		doc.message.sequence.accession ));  
+  triples.push(triple(item_id,
+		  		'http://rs.tdwg.org/dwc/terms/otherCatalogNumbers',
+		  		doc.message.sequence.accession_version ));  
   
   if (doc.message.keywords) {
 	  for (var i in doc.message.keywords) {
@@ -240,6 +243,19 @@ function genbank_data(doc) {
 			String(doc.message.keywords[i]) ));
 		}
 	}  
+	
+	// links
+  if (doc.message.links) {
+	  for (var i in doc.message.links) {
+	    if (doc.message.links[i].match(/http:\/\/bins.boldsystems.org\/index.php\/Public_RecordView/)) {
+		  triples.push(triple(item_id,
+			  'http://schema.org/sameAs',
+			  doc.message.links[i] ));
+			}
+		}
+	}  
+	
+	
 
   // identification
 			triples.push(triple(item_id,
@@ -351,6 +367,7 @@ function genbank_data(doc) {
 				reference_id = 'http://identifiers.org/doi/' + doc.message.references[i].doi;
 			}
 			
+			
 			// We have a GUID
 			if (reference_id != '') {
 				triples.push(triple(item_id,
@@ -381,8 +398,8 @@ function genbank_data(doc) {
 		  		
 		  		if (doc.message.references[i].author) {
 		  			
-					var n = doc.message.references[i].author.length;
-					for (var j = 0; j < n; j++) {
+					var num_authors = doc.message.references[i].author.length;
+					for (var j = 0; j < num_authors; j++) {
 			 			 var author_id = reference_id + '/author_' + (j + 1);
 			 			 
 							triples.push(triple(reference_id,
