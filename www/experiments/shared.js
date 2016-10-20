@@ -110,6 +110,9 @@ jsonld.fromRDF(nquads, {format: 'application/nquads'}, function(err, j) {
   
   
   // Dublin Core
+  "dc" : "http://purl.org/dc/terms/",
+  
+  
   "identifier" :"http://purl.org/dc/terms/identifier",
 //  "title" : "http://purl.org/dc/terms/title",
 
