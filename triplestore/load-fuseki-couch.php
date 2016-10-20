@@ -259,7 +259,9 @@ $start_time = date("c", time() - (60 * 60)); // hour
 
 //$start_time = date("c", time() - (60 * 10)); // last ten minutes
 
-add_modified('crossref', $start_time);
+//add_modified('crossref', $start_time);
+add_modified('gbif-occurrence', $start_time);
+add_modified('bold', $start_time);
 
 
 //add_view('mendeley_group');

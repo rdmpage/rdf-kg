@@ -265,3 +265,41 @@ WHERE {
 }
 ```
 
+### Find specimens with same codes
+
+```
+SELECT *
+WHERE {
+  ?x <http://schema.org/alternateName> ?name . 
+  ?y <http://schema.org/alternateName> ?name . 
+  ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rs.tdwg.org/dwc/terms/Occurrence> .
+
+  FILTER (?x != ?y)  
+  
+} LIMIT 10
+
+```
+
+## Examples of data to play with
+
+### GBIF dataset BDJ DOI linked to funder
+
+A taxonomic monograph of the assassin bug genus Zelus Fabricius (Hemiptera: Reduviidae): 71 species based on 10,000 specimens
+
+GBIF with paper http://www.gbif.org/dataset/a739f783-08c1-4d47-a8cc-2e9e6e874202
+
+Paper with funder https://api.crossref.org/v1/works/http://dx.doi.org/10.3897/bdj.4.e8150
+
+Need to parse the GBIF database metadata to get this
+
+### PANGEA linked to publication
+
+10.1038/ngeo1209
+
+http://www.gbif.org/dataset/0db1837b-0125-4242-a018-9913da96e68b
+
+
+
+
+
+
