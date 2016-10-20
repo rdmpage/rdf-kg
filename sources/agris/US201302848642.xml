@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/dc/terms/"
+    xmlns:j.1="http://purl.org/net/provenance/ns#"
+    xmlns:j.2="http://purl.org/ontology/bibo/"
+    xmlns:j.3="http://spinrdf.org/sp#"
+    xmlns:j.4="http://purl.org/net/provenance/types#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.5="http://www.w3.org/2004/03/trix/rdfg-1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <j.2:Article rdf:about="http://agris.fao.org/aos/records/US201302848642">
+    <j.0:title>Bioecologie comparee d'Aedes (Stegomyia) opok Corbet et Van Someren et A. (S.) africanus (Theobald) dans une galerie forestiere du sud de l'Empire Centrafricain. II. Cycles saisonniers d'abondance</j.0:title>
+    <j.2:issue>3</j.2:issue>
+    <j.0:medium>text</j.0:medium>
+    <j.0:type>Journal Article</j.0:type>
+    <j.0:isPartOf rdf:resource="http://aims.fao.org/serials/c_aba4b4bc"/>
+    <j.0:source rdf:resource="http://ring.ciard.net/node/10972"/>
+    <j.0:identifier>US201302848642</j.0:identifier>
+    <j.0:extent>p. 271-281. ill.</j.0:extent>
+    <j.2:volume> 15 </j.2:volume>
+    <j.0:creator>
+      <foaf:Person>
+        <rdfs:seeAlso rdf:parseType="Resource">
+        </rdfs:seeAlso>
+        <foaf:name>Herve, J.P.</foaf:name>
+      </foaf:Person>
+    </j.0:creator>
+    <j.0:title>Comparative bioecology of Aedes (Stegomyia) opok Corbet and Van Someren and Aedes (Stegomyia) africanus (Theobald) in a forest gallery in the southern Central African Republic. II. Seasonal abundance cycles</j.0:title>
+    <j.0:dateSubmitted>2013</j.0:dateSubmitted>
+    <j.0:issued>1977</j.0:issued>
+    <j.0:creator>
+      <foaf:Person>
+        <rdfs:seeAlso rdf:parseType="Resource">
+        </rdfs:seeAlso>
+        <foaf:name>Geoffroy, B.</foaf:name>
+      </foaf:Person>
+    </j.0:creator>
+    <j.0:language>fre</j.0:language>
+    <j.0:creator>
+      <foaf:Person>
+        <rdfs:seeAlso rdf:parseType="Resource">
+        </rdfs:seeAlso>
+        <foaf:name>Germain, M.</foaf:name>
+      </foaf:Person>
+    </j.0:creator>
+    <j.2:authorList>
+      <rdf:Seq>
+        <rdfs:seeAlso rdf:parseType="Resource">
+        </rdfs:seeAlso>
+        <j.0:title>Herve, J.P.</j.0:title>
+        <rdf:_3>Geoffroy, B.</rdf:_3>
+        <rdf:_2>Germain, M.</rdf:_2>
+      </rdf:Seq>
+    </j.2:authorList>
+    <j.0:description>21 ref. Summary in English.</j.0:description>
+  </j.2:Article>
+  <rdf:Description rdf:about="http://agris.fao.org/aos/data/US201302848642?output=xml">
+    <rdfs:label>RDF description of US201302848642</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://agris.fao.org/aos/records/US201302848642"/>
+  </rdf:Description>
+  <j.5:Graph rdf:nodeID="A0">
+    <j.1:createdBy>
+      <j.1:DataCreation>
+        <j.1:usedData>
+          <j.5:Graph>
+            <j.1:createdBy>
+              <j.4:QueryExecution>
+                <j.1:usedGuideline>
+                  <j.3:Describe>
+                    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >DESCRIBE &lt;http://agris.fao.org/aos/records/US201302848642&gt;</rdfs:label>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#SPARQLQuery"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/ns#DataItem"/>
+                  </j.3:Describe>
+                </j.1:usedGuideline>
+                <j.1:usedData rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/agris"/>
+                <j.1:performedBy>
+                  <j.4:DataCreatingService rdf:nodeID="A1">
+                    <rdfs:seeAlso rdf:resource="http://202.45.139.84:10035/catalogs/fao/repositories/agris"/>
+                  </j.4:DataCreatingService>
+                </j.1:performedBy>
+              </j.4:QueryExecution>
+            </j.1:createdBy>
+            <j.1:retrievedBy>
+              <j.1:DataAccess>
+                <j.1:accessedService rdf:nodeID="A1"/>
+                <j.1:performedBy>
+                  <j.1:DataProvidingService rdf:nodeID="A2">
+                    <rdfs:seeAlso rdf:resource="http://agris.fao.org/aos/"/>
+                    <rdf:type rdf:resource="http://purl.org/net/provenance/types#DataCreatingService"/>
+                  </j.1:DataProvidingService>
+                </j.1:performedBy>
+                <j.1:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2016-10-19T07:24:11.149Z</j.1:performedAt>
+              </j.1:DataAccess>
+            </j.1:retrievedBy>
+            <rdf:type rdf:resource="http://purl.org/net/provenance/types#QueryResult"/>
+          </j.5:Graph>
+        </j.1:usedData>
+        <j.1:performedBy rdf:nodeID="A2"/>
+        <j.1:performedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2016-10-19T07:24:11.149Z</j.1:performedAt>
+      </j.1:DataCreation>
+    </j.1:createdBy>
+    <foaf:topic rdf:nodeID="A0"/>
+    <foaf:primaryTopic rdf:resource="http://agris.fao.org/aos/records/US201302848642"/>
+  </j.5:Graph>
+</rdf:RDF>
