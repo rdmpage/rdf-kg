@@ -1,6 +1,13 @@
 # Knowledge Graph (again)
 
 
+## Basic steps
+
+1. Enqueue data in CouchDB
+2. Dequeue to harvest
+3. Load into Fuseki-Jena instance
+4. Query in SPARQL
+
 ### ORCID login
 
 http://bionames.org/~rpage/orcid-php/index.php
@@ -22,4 +29,7 @@ Recode multiple identifiers as dc:identifier, use indirection (“object that ha
 b-nodes always encoded as full, if arbitrary, URIs, means we can refer to them later when mapping to actual identifiers. For example, if we have [’s’, dc:identifier, ‘doi’] and [‘q’, dc:identifier, ‘doi’] then s==q and we can access both sets of triples by [‘x’, dc:identifier, ‘doi’] .
 
 Treat data as messages, if message body is empty we need to fetch data, so we have a message queue which we continually poll and add missing data.
+
+May have CouchDB views that are used to investigate/clean/merge data, but always have a vew that lists modified date and lists all derived triples.
+
 
