@@ -1,0 +1,596 @@
+<html>
+	<head>
+		<title>BOLD to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<script src="shared.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>BOLD to n-triples</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>JSON</h2>
+
+<!--
+
+{
+	"message-format": "text\/tab-separated-values",
+	"message": {
+		"processid": "BZLWB111-06",
+		"sampleid": "BZLW5111",
+		"recordID": "338408",
+		"catalognum": "USNM",
+		"fieldnum": "BZLW5111",
+		"institution_storing": "National Museum of Natural History, Smithsonian Institution",
+		"bin_uri": "BOLD:AAB6264",
+		"phylum_taxID": "18",
+		"phylum_name": "Chordata",
+		"class_taxID": "77",
+		"class_name": "Actinopterygii",
+		"order_taxID": "747033",
+		"order_name": "Blenniiformes",
+		"family_taxID": "590",
+		"family_name": "Labrisomidae",
+		"genus_taxID": "100782",
+		"genus_name": "Starksia",
+		"species_taxID": "374830",
+		"species_name": "Starksia sangreyae",
+		"identification_provided_by": "Carole C. Baldwin",
+		"collectors": "C. Baldwin, D. Smith, J. Mounts, L. Weigt",
+		"collectiondate": "2005-04-25",
+		"lifestage": "A",
+		"extrainfo": "FAO-31",
+		"notes": "16mm; photo number 128; CBC, s. side of island, 3-5ft;",
+		"lat": "16.802",
+		"lon": "-88.082",
+		"country": "Belize",
+		"region": "Stann Creek District",
+		"exactsite": "Carrie Bow Cay",
+		"sequenceID": "2811748",
+		"markercode": "COI-5P",
+		"genbank_accession": "HQ600872",
+		"nucleotides": "CACCCTCTACCTAATCTTTGGTGCTTGAGCTGGAATAGTAGGCACTGCTTTAAGCCTTCTTATTCGAGCTGAACTAAGCCAACCCGGGGCACTTCTGGGCGACGATCAAATTTATAATGTAATCGTCACAGCACATGCCTTCGTAATGATTTTCTTTATAGTAATGCCAATTTTAATTGGCGGTTTCGGTAATTGACTGGTGCCGCTGATAATTGGGGCCCCCGATATAGCATTTCCCCGAATAAATAACATAAGCTTCTGACTTTTACCCCCCTCTTTTCTTCTTCTACTAGCCTCATCAGGGGTAGAAGCTGGGGCAGGGACAGGTTGAACTGTTTACCCCCCACTATCTGGCAATTTGGCCCACGCAGGAGCCTCTGTAGATTTAACCATTTTTTCTCTCCACTTAGCTGGTATCTCATCCATTCTGGGGGCAATTAATTTTATTACCACAATTATTAATATGAAACCACCCGCAATCTCCCAATATCAAACACCATTATTTGTTTGGTCCGTTTTAATTACCGCCGTTCTTCTACTCCTATCTTTACCCGTGCTTGCTGCCGGCATCACAATACTTCTCACGGATCGTAATTTAAACACCACCTTTTTTGATCCCGCCGGCGGAGGGGACCCCATCCTTTATCAACACTTA",
+		"trace_ids": "2479858|2479859",
+		"trace_links": "http:\/\/trace.boldsystems.org\/traceIO\/bold.org\/2170631|http:\/\/trace.boldsystems.org\/traceIO\/bold.org\/2170632",
+		"run_dates": "2006-01-24 17:06:05|2006-01-24 23:12:09",
+		"sequencing_centers": "Smithsonian Institution, Laboratories of Analytical Biology|Smithsonian Institution, Laboratories of Analytical Biology",
+		"directions": "F|R",
+		"seq_primers": "Fish-BCL|Fish-BCH",
+		"marker_codes": "COI-5P|COI-5P"
+	},
+	"links": ["http:\/\/bins.boldsystems.org\/index.php\/Public_BarcodeCluster?clusteruri=BOLD:AAB6264", "http:\/\/www.ncbi.nlm.nih.gov\/nucleotide\/HQ600872"]
+	}
+
+
+			-->
+
+<!-- JSON for data object goes below -->
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+			
+			
+{
+	"message-format": "text\/tab-separated-values",
+	"message": {
+		"processid": "MHMYC1083-09",
+		"sampleid": "09-SRNP-20113",
+		"recordID": "1206444",
+		"catalognum": "09-SRNP-20113",
+		"fieldnum": "09-SRNP-20113",
+		"institution_storing": "Research Collection of D. H. Janzen & W. Hallwachs",
+		"bin_uri": "BOLD:AAB9297",
+		"phylum_taxID": "20",
+		"phylum_name": "Arthropoda",
+		"class_taxID": "82",
+		"class_name": "Insecta",
+		"order_taxID": "113",
+		"order_name": "Lepidoptera",
+		"family_taxID": "521",
+		"family_name": "Notodontidae",
+		"subfamily_taxID": "33500",
+		"subfamily_name": "Heterocampinae",
+		"genus_taxID": "4024",
+		"genus_name": "Phastia",
+		"species_taxID": "19575",
+		"species_name": "Phastia duronia",
+		"identification_provided_by": "Daniel H. Janzen",
+		"collectors": "Elieth Cantillano",
+		"collectiondate": "2009-01-31",
+		"lat": "11.014",
+		"lon": "-85.425",
+		"country": "Costa Rica",
+		"province": "Guanacaste",
+		"region": "Area de Conservacion Guanacaste",
+		"exactsite": "Monte Cristo",
+		"sequenceID": "3368499",
+		"markercode": "COI-5P",
+		"genbank_accession": "GU651291",
+		"nucleotides": "AACTTTATATTTTATTTTTGGAATTTGGGCAGGAATAGTTGGAACTTCTCTTAGTTTACTTATTCGAGCAGAATTAGGAACTCCAGGATCTCTTATTGGAGATGATCAAATTTATAATACTATTGTAACAGCCCATGCTTTTATTATAATTTTTTTTATAGTCATACCTATTATAATTGGAGGATTTGGAAATTGATTAGTCCCATTAATATTAGGAGCCCCAGATATAGCTTTCCCCCGAATAAATAATATAAGTTTTTGATTATTACCCCCCTCTTTAACACTATTAATTTCTAGTAGTATCGTAGAAAATGGAGCAGGTACTGGATGAACAGTCTATCCCCCACTTTCATCTAACATTGCTCATAGAGGAAGATCTGTAGATTTAGCTATTTTTTCTTTACATTTAGCTGGTATTTCCTCCATCTTAGGTGCTATTAATTTTATTACAACAATCATTAATATACGTCTTAATAATATATCTTTTGATCAAATACCATTATTTGTATGAGCTGTAGGAATTACAGCATTTTTATTATTATTATCTTTACCTGTCTTAGCTGGAGCAATTACAATACTTTTAACTGATCGTAATTTAAATACTTCTTTTTTTGACCCTGCTGGAGGAGGTGATCCTATTTTATATCAACATTTATTT",
+		"image_ids": "1983366|1983368",
+		"image_urls": "http:\/\/www.boldsystems.org\/pics\/MHMYC\/09-SRNP-20113-DHJ506908+1365547108.jpg|http:\/\/www.boldsystems.org\/pics\/MHMYC\/09-SRNP-20113-DHJ506909+1365547108.jpg",
+		"copyright_licenses": "CreativeCommons - Attribution Non-Commercial Share-Alike|CreativeCommons - Attribution Non-Commercial Share-Alike",
+		"trace_ids": "1624195|1624290",
+		"trace_links": "http:\/\/trace.boldsystems.org\/traceIO\/bold.org\/1352413|http:\/\/trace.boldsystems.org\/traceIO\/bold.org\/1352508",
+		"run_dates": "2009-09-29 00:28:53|2009-09-29 01:55:00",
+		"sequencing_centers": "Biodiversity Institute of Ontario|Biodiversity Institute of Ontario",
+		"directions": "F|R",
+		"seq_primers": "LepF1|LepR1",
+		"marker_codes": "COI-5P|COI-5P"
+	},
+	"links": ["http:\/\/bins.boldsystems.org\/index.php\/Public_BarcodeCluster?clusteruri=BOLD:AAB9297", "http:\/\/www.ncbi.nlm.nih.gov\/nucleotide\/GU651291"]
+}			
+			
+			</textarea>
+			<br />
+			<button onclick="convert()">Convert</button>
+		
+	
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;color:#222;"></div>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;"></div>
+	</div>
+
+</div>
+
+		<script>
+		
+
+// geohash.js
+// Geohash library for Javascript
+// (c) 2008 David Troy
+// Distributed under the MIT License
+
+BITS = [16, 8, 4, 2, 1];
+
+BASE32 = 											   "0123456789bcdefghjkmnpqrstuvwxyz";
+NEIGHBORS = { right  : { even :  "bc01fg45238967deuvhjyznpkmstqrwx" },
+							left   : { even :  "238967debc01fg45kmstqrwxuvhjyznp" },
+							top    : { even :  "p0r21436x8zb9dcf5h7kjnmqesgutwvy" },
+							bottom : { even :  "14365h7k9dcfesgujnmqp0r2twvyx8zb" } };
+BORDERS   = { right  : { even : "bcfguvyz" },
+							left   : { even : "0145hjnp" },
+							top    : { even : "prxz" },
+							bottom : { even : "028b" } };
+
+NEIGHBORS.bottom.odd = NEIGHBORS.left.even;
+NEIGHBORS.top.odd = NEIGHBORS.right.even;
+NEIGHBORS.left.odd = NEIGHBORS.bottom.even;
+NEIGHBORS.right.odd = NEIGHBORS.top.even;
+
+BORDERS.bottom.odd = BORDERS.left.even;
+BORDERS.top.odd = BORDERS.right.even;
+BORDERS.left.odd = BORDERS.bottom.even;
+BORDERS.right.odd = BORDERS.top.even;
+
+function refine_interval(interval, cd, mask) {
+	if (cd&mask)
+		interval[0] = (interval[0] + interval[1])/2;
+  else
+		interval[1] = (interval[0] + interval[1])/2;
+}
+
+function calculateAdjacent(srcHash, dir) {
+	srcHash = srcHash.toLowerCase();
+	var lastChr = srcHash.charAt(srcHash.length-1);
+	var type = (srcHash.length % 2) ? 'odd' : 'even';
+	var base = srcHash.substring(0,srcHash.length-1);
+	if (BORDERS[dir][type].indexOf(lastChr)!=-1)
+		base = calculateAdjacent(base, dir);
+	return base + BASE32[NEIGHBORS[dir][type].indexOf(lastChr)];
+}
+
+function decodeGeoHash(geohash) {
+	var is_even = 1;
+	var lat = []; var lon = [];
+	lat[0] = -90.0;  lat[1] = 90.0;
+	lon[0] = -180.0; lon[1] = 180.0;
+	lat_err = 90.0;  lon_err = 180.0;
+	
+	for (i=0; i<geohash.length; i++) {
+		c = geohash[i];
+		cd = BASE32.indexOf(c);
+		for (j=0; j<5; j++) {
+			mask = BITS[j];
+			if (is_even) {
+				lon_err /= 2;
+				refine_interval(lon, cd, mask);
+			} else {
+				lat_err /= 2;
+				refine_interval(lat, cd, mask);
+			}
+			is_even = !is_even;
+		}
+	}
+	lat[2] = (lat[0] + lat[1])/2;
+	lon[2] = (lon[0] + lon[1])/2;
+
+	return { latitude: lat, longitude: lon};
+}
+
+function encodeGeoHash(latitude, longitude) {
+	var is_even=1;
+	var i=0;
+	var lat = []; var lon = [];
+	var bit=0;
+	var ch=0;
+	var precision = 12;
+	geohash = "";
+
+	lat[0] = -90.0;  lat[1] = 90.0;
+	lon[0] = -180.0; lon[1] = 180.0;
+	
+	while (geohash.length < precision) {
+	  if (is_even) {
+			mid = (lon[0] + lon[1]) / 2;
+	    if (longitude > mid) {
+				ch |= BITS[bit];
+				lon[0] = mid;
+	    } else
+				lon[1] = mid;
+	  } else {
+			mid = (lat[0] + lat[1]) / 2;
+	    if (latitude > mid) {
+				ch |= BITS[bit];
+				lat[0] = mid;
+	    } else
+				lat[1] = mid;
+	  }
+
+		is_even = !is_even;
+	  if (bit < 4)
+			bit++;
+	  else {
+			geohash += BASE32[ch];
+			bit = 0;
+			ch = 0;
+	  }
+	}
+	return geohash;
+}
+
+
+		
+function bold_data(doc) {
+
+ var bold_dwc_map = [];
+ 
+ // location
+ bold_dwc_map['country'] 	= 'country';
+ bold_dwc_map['region'] 	= 'stateProvince';
+ bold_dwc_map['province'] 	= 'stateProvince';
+ bold_dwc_map['exactsite'] 	= 'locality';
+ bold_dwc_map['lat'] 		= 'decimalLatitude';
+ bold_dwc_map['lon'] 		= 'decimalLongitude';
+ 
+ // event
+ bold_dwc_map['collectiondate'] = 'verbatimEventDate';
+bold_dwc_map['fieldnum'] 		= 'fieldNumber';
+
+ 
+ // identification
+bold_dwc_map["species_name"]				= 'scientificName';
+bold_dwc_map["identification_provided_by"]	= 'identifiedBy';		
+
+ 
+ // occurrence
+bold_dwc_map['processid'] 	= 'otherCatalogNumbers';
+bold_dwc_map['sampleid'] 	= 'otherCatalogNumbers';
+bold_dwc_map['catalognum'] 	= 'catalogNumber';
+bold_dwc_map['recordID'] 	= 'recordNumber';
+bold_dwc_map['collectors'] 	= 'recordedBy';
+bold_dwc_map['lifestage'] 	= 'lifestage';
+bold_dwc_map['notes'] 		= 'occurrenceRemarks';
+
+bold_dwc_map['institution_storing'] 	= 'institutionCode';
+
+
+ 
+ // media
+ 
+
+
+  var triples = [];
+  
+  //var cluster_id = 'http://bins.boldsystems.org/index.php/Public_RecordView?processid=' + doc.message.processid;
+  var cluster_id = 'http://www.boldsystems.org/index.php/API_Public/combined?ids=' + doc.message.processid + '&format=tsv';
+  
+  var item_id = 'http://bins.boldsystems.org/index.php/Public_RecordView?processid=' + doc.message.processid;
+  
+  
+  var locality_id = '';
+  var event_id = '';
+  var identification_id = '';
+  var occurrence_id = item_id + '#occurrence';
+  
+	triples.push(triple(occurrence_id,
+				'http://purl.org/dc/terms/identifier',
+				occurrence_id)); 
+	triples.push(triple(occurrence_id,
+			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://rs.tdwg.org/dwc/terms/Occurrence'));				
+  
+  triples.push(triple(cluster_id,
+				'http://schema.org/item',
+				item_id));  
+triples.push(triple(item_id,
+				'http://rs.tdwg.org/dwc/terms/occurrenceID',
+				occurrence_id)); 			  
+  
+  for (var i in doc.message) {
+   
+  switch(i) {
+  
+  
+  		// Darwin Core Identification----------------------------------------------------------
+			case "species_name":
+			case "identification_provided_by":			
+		  // b-node
+		  // any examples of identifiers?
+		  if (identification_id == '') {
+				// b-node
+			  identification_id = item_id + '#identification';
+			  
+			  
+			triples.push(triple(identification_id,
+			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://rs.tdwg.org/dwc/terms/Identification'));	
+                  
+            // link to taxon
+            if (doc.message.bin_uri) {
+ 			triples.push(triple(identification_id,
+		  	'http://rs.tdwg.org/dwc/terms/taxonID',
+		  	'http://bins.boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=' + doc.message.bin_uri));
+           
+            }
+                  
+            // link to cluster
+			triples.push(triple(item_id,
+		  	'http://rs.tdwg.org/dwc/terms/identificationID',
+		  	identification_id ));
+                   	  
+		  }
+          triples.push(triple(identification_id,
+		  'http://rs.tdwg.org/dwc/terms/' + bold_dwc_map[i],
+		  String(doc.message[i]) ));		  
+		  break;
+
+  
+ 
+		// Occurrence (usually a specimen)
+				// Darwin Core occurrence---------------------------------------------------------
+				case 'processid':
+				case 'sampleid':
+				case 'recordID':
+				case 'catalognum':
+				case 'institution_storing':
+				case 'lifestage':
+				case 'notes':
+				
+					triples.push(triple(occurrence_id,
+						  'http://rs.tdwg.org/dwc/terms/' + bold_dwc_map[i],
+		  String(doc.message[i]) ));			
+					break;
+
+  
+  
+		// Darwin Core Event----------------------------------------------------------
+		case 'collectiondate':
+		case 'fieldnum':
+		  // b-node
+		  // any examples of identifiers?
+		  if (event_id == '') {
+				// b-node
+			event_id = item_id + '#event';
+			  
+			triples.push(triple(event_id,
+			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://rs.tdwg.org/dwc/terms/Event'));	
+                  
+            // link to cluster
+			triples.push(triple(item_id,
+		  	'http://rs.tdwg.org/dwc/terms/eventID',
+		  	event_id ));
+                   	  
+		  }
+          triples.push(triple(event_id,
+		  'http://rs.tdwg.org/dwc/terms/' + bold_dwc_map[i],
+		  String(doc.message[i]) ));	  
+		  break;
+	  
+  
+		// Darwin Core locality-----------------------------------------------------------
+  	case 'country':
+  	//case 'region':
+  	case 'province':
+  	case 'lat':
+  	case 'lon':
+  
+		// b-node (maybe with global identifer)
+		if (locality_id == '') {
+		   var geohash = '';
+		   
+			  locality_id = item_id + '#locality';
+			  if (doc.message.lat && doc.message.lon) {
+			    geohash = encodeGeoHash(doc.message.lat , doc.message.lon);
+				locality_id = 'http://geohash.org/' + geohash;
+			  }		
+			  
+			 // types
+			triples.push(triple(locality_id,
+			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://purl.org/dc/terms/Location'));
+
+			triples.push(triple(locality_id,
+			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://schema.org/Place'));
+                  
+            // link to cluster
+		triples.push(triple(item_id,
+		  'http://rs.tdwg.org/dwc/terms/locationID',
+		  locality_id ));
+            
+                  
+            // Store the geohash
+            if (geohash != '') {
+			   triples.push(triple(locality_id,
+			      'http://www.w3.org/ns/locn#geometry',
+                  'http://geohash.org/' + geohash));
+            }
+            
+			  if (doc.message.lat && doc.message.lon) {
+			  
+			    // map
+			    var mapUrl = 'http://www.openstreetmap.org/'
+			     + '?mlat=' + doc.message.lat
+			     + '&mlon=' + doc.message.lon
+			     + '&zoom=8';
+			     
+			  triples.push(triple(locality_id,
+			      'http://schema.org/hasMap',
+                  mapUrl));
+ 			     
+			     			  
+			    // geo
+			    var geo_id = locality_id + '/geo';
+			    
+			  triples.push(triple(locality_id,
+			      'http://schema.org/geo',
+                  geo_id));
+ 
+ 			  triples.push(triple(geo_id,
+			       'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://schema.org/GeoCoordinates'));
+ 			  triples.push(triple(geo_id,
+			       'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://schema.org/GeoCoordinates'));
+ 			  triples.push(triple(geo_id,
+			       'http://schema.org/latitude',
+                  String(doc.message.lat)));
+ 			  triples.push(triple(geo_id,
+			       'http://schema.org/longitude',
+                  String(doc.message.lon)));
+            
+            }      
+                  		  
+		 }
+		triples.push(triple(locality_id,
+		  'http://rs.tdwg.org/dwc/terms/' + bold_dwc_map[i],
+		  String(doc.message[i]) ));
+		break; 
+		
+		      // sequences
+             case 'genbank_accession':
+                   triples.push(triple(item_id,
+		  			'http://rs.tdwg.org/dwc/terms/associatedSequences',
+		  			'http://identifiers.org/insdc/' + doc.message[i]));
+		  		break;
+		
+		
+		default:
+		  break;
+		  
+		} 
+	  
+ 
+  }
+  
+  // images
+  if (doc.message.image_urls) {
+    var image_urls = doc.message.image_urls.split('|');
+    if (image_urls) {
+    
+      var image_ids = doc.message.image_ids.split('|');
+      var copyright_licenses = doc.message.copyright_licenses.split('|');
+    
+      var n = image_urls.length;
+      for (var i = 0; i < n; i++) {
+         
+            var media_id = item_id + '#' + image_ids[i];
+            
+            // link to data
+			triples.push(triple(media_id,
+				'http://schema.org/about',
+				item_id));	
+            
+            // type
+ 			triples.push(triple(media_id,
+			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://schema.org/ImageObject'));	
+         
+         	// url
+			triples.push(triple(media_id,
+			      	'http://schema.org/contentUrl',
+                  	 image_urls[i]  ));	  
+                  	 
+            if (image_urls[i].match(/.jpg/)) {
+				triples.push(triple(media_id,
+			      		'http://schema.org/fileFormat',
+                  		 'image/jpeg'));	 
+                }      
+                  	        
+ 
+ 			// license
+ 			if (doc.message.copyright_licenses) {
+	 			triples.push(triple(media_id,
+			      	'http://schema.org/license',
+                  	 copyright_licenses[i]  ));
+            }	         
+         
+         
+      
+      }
+    }
+  }
+  
+  
+  // alternative specimen codes
+ for (var i in doc.message) {
+   
+  switch(i) {
+		case "processid": 
+		case "sampleid": 
+		case "recordID": 
+		case "catalognum": 
+		case "fieldnum": 
+	triples.push(triple(occurrence_id,
+   	 'http://schema.org/alternateName',
+   	 String(doc.message[i])));	
+   	    break;
+   	    
+   	    default:
+   	      break;
+   	 }
+  }
+  
+
+  // defaults
+  triples.push(triple(cluster_id,
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+    'http://schema.org/DataFeedItem'));
+     
+
+  output(doc, triples);
+
+}
+		
+			function convert() {
+				var jsonld = $('#json').val();
+				var doc = JSON.parse(jsonld);
+				bold_data(doc);
+				
+			
+			}
+		</script>
+
+
+</body>
+</html>
