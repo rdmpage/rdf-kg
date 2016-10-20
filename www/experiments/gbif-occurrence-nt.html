@@ -557,532 +557,544 @@ function specimen_codes(record) {
 
 		
 function gbif_data(doc) {
+
   var triples = [];
 
-  var cluster_id = doc._id;
-  
+  var cluster_id = doc._id; // DataFeedItem
+
   var locality_id = '';
   var event_id = '';
   var identification_id = '';
   
-  // Occurrence ID may be supplied by data provider, use that where possible,
-  // otherwise default to GBIF occurrence number
-  var occurrence_id = '';
-  if (doc.message.occurrenceID) {
-  
-    if (occurrence_id == '') {
-    	// NHM
-   	 if (doc.message.datasetKey == '7e380070-f762-11e1-a439-00145eb45e9a') {
-    	occurrence_id = 'http://data.nhm.ac.uk/object/' + doc.message.occurrenceID;
-    	
- 		// store identifier in original form 
-		triples.push(triple(occurrence_id,
-			'http://purl.org/dc/terms/identifier',
-			doc.message.occurrenceID));          	
-    	}
-    }
-    
-     if (occurrence_id == '') {
-    	// URL
-    	if (doc.message.occurrenceID.match(/^http[s]?:/)) {
-    		occurrence_id = doc.message.occurrenceID;
-    	}
-    }
-    
-     if (occurrence_id == '') {
-    	// UUID
-    	// http://stackoverflow.com/a/13653180/9684
-    	if (doc.message.occurrenceID.match(/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i)) {
-    		occurrence_id = 'urn:uuid:' + doc.message.occurrenceID;
-    	
- 			// store identifier in original form 
-			triples.push(triple(occurrence_id,
-				'http://purl.org/dc/terms/identifier',
-				doc.message.occurrenceID));  
-		}        	
-    }
-    
-   
- }
- if (occurrence_id == '') {
-  occurrence_id = cluster_id + '#occurrence';
- }
- triples.push(triple(occurrence_id,
-				'http://purl.org/dc/terms/identifier',
-				occurrence_id)); 
-triples.push(triple(occurrence_id,
-			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://rs.tdwg.org/dwc/terms/Occurrence'));				
-  
+  // item is the occurrence
   var item_id = 'http://www.gbif.org/occurrence/' + doc.message.key;
+  var occurrence_id = item_id;
+  
   triples.push(triple(cluster_id,
-				'http://schema.org/item',
-				item_id));  
-triples.push(triple(item_id,
-				'http://rs.tdwg.org/dwc/terms/occurrenceID',
-				occurrence_id)); 			
-				
+    'http://schema.org/item',
+    item_id));
+    
+  triples.push(triple(item_id,
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+    'http://rs.tdwg.org/dwc/terms/Occurrence'));
+    
+  triples.push(triple(item_id,
+    'http://purl.org/dc/terms/identifier',
+    item_id));
+  
+  // Data provider may have an occurrence ID 
+  var occurrenceID = '';
+  if (doc.message.occurrenceID) {
+
+    if (occurrenceID == '') {
+      // NHM
+      if (doc.message.datasetKey == '7e380070-f762-11e1-a439-00145eb45e9a') {
+        occurrenceID = 'http://data.nhm.ac.uk/object/' + doc.message.occurrenceID;
+        
+        triples.push(triple(occurrence_id,
+          'http://schema.org/sameAs',
+          occurrenceID));        
+
+        // store identifier in original form 
+        triples.push(triple(item_id,
+          'http://purl.org/dc/terms/identifier',
+          doc.message.occurrenceID));
+       }
+    }
+
+    if (occurrenceID == '') {
+      // URL
+      if (doc.message.occurrenceID.match(/^http[s]?:/)) {
+        occurrenceID = doc.message.occurrenceID;
+        
+        triples.push(triple(occurrence_id,
+          'http://schema.org/sameAs',
+          occurrenceID));                
+      }
+    }
+
+    if (occurrenceID == '') {
+      // UUID
+      // http://stackoverflow.com/a/13653180/9684
+      if (doc.message.occurrenceID.match(/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i)) {
+        occurrenceID = 'urn:uuid:' + doc.message.occurrenceID.toLowerCase();
+
+        // store identifier in original form 
+        triples.push(triple(occurrence_id,
+          'http://purl.org/dc/terms/identifier',
+          doc.message.occurrenceID.toLowerCase()));
+      }
+    }
+    
+    if (occurrenceID != '') {
+      triples.push(triple(occurrence_id,
+        'http://purl.org/dc/terms/identifier',
+        occurrenceID));
+    }
+    
+  }
+
   // for searchability we keep track of/create alternative specimen codes 
   var codes = [];
 
   // fields
   for (var i in doc.message) {
     if (doc.message[i] != null) {
-    switch (i) {
-    
-    	// record-level
-    	
-    	case 'datasetKey':
-			triples.push(triple(item_id,
-				'http://rs.tdwg.org/dwc/terms/datasetID',
-				'http://www.gbif.org/dataset/' + doc.message[i])); 	
-			break;    	
+      switch (i) {
 
-    	case 'basisOfRecord':
-			triples.push(triple(item_id,
-				'http://rs.tdwg.org/dwc/terms/basisOfRecord',
-				doc.message[i])); 	
-			break;    	
-    		
-    	
-    	'http://rs.tdwg.org/dwc/terms/datasetID'
-
-		// Occurrence (usually a specimen)
-				// Darwin Core occurrence---------------------------------------------------------
-				case 'catalogNumber':
-				case 'collectionCode':
-				case 'collectionID':
-				case 'institutionCode':
-				case 'institutionID':
-				case 'recordedBy':
-				case 'individualCount':
-				case 'organismQuantity':
-				case 'sex':
-				case 'lifeStage':
-				case 'reproductiveCondition':
-				case 'behavior':
-				case 'establishmentMeans':
-				case 'occurrenceStatus':
-				case 'preparations':
-				case 'disposition':
-				case 'otherCatalogNumbers':
-				case 'recordNumber':
-				case 'occurrenceRemarks':
-				
-					triples.push(triple(occurrence_id,
-						  'http://rs.tdwg.org/dwc/terms/' + i,
-						  String(doc.message[i]) ));				
-					break;
-					
-				// needs more thought
-				
-				case 'type':	
-				  // These are supposed to be from the Dublin Core dcmitype vocabulary
-				  switch (doc.message[i]) {
-				    case 'PhysicalObject':
-				      triples.push(triple(occurrence_id,
-						'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                        'http://purl.org/dc/dcmitype/' + doc.message[i] ));
-				      break;
-				      
-				    default:
-				      break;
-				  }
-                  break;
-                  
-		
-
-       
-		// Darwin Core locality-----------------------------------------------------------
-		case 'continent':
-		case 'coordinateUncertaintyInM':
-		case 'coordinatePrecision':
-		case 'country':
-		case 'county':
-		case 'countryCode':
-		case 'decimalLatitude':
-		case 'decimalLongitude':
-		case 'depth':
-		case 'depthAccuracy':
-		case 'elevation':
-		case 'footprintWKT':
-		case 'footprintSRS':
-		case 'footprintSpatialFit':
-		case 'geodeticDatum':
-		case 'georeferencedBy':
-		case 'georeferencedDate':
-		case 'georeferenceSources':
-		case 'georeferenceProtocol':
-		case 'georeferenceVerification':
-		case 'georeferenceRemarks':
-		case 'higherGeography':
-		case 'higherGeographyID':
-		case 'island':
-		case 'islandGroup':
-		case 'locality':
-		case 'locationAccordingTo':
-		case 'locationID':
-		case 'locationRemarks':
-		case 'maximumElevationInMeters':
-		case 'minimumElevationInMeters':
-		case 'maximumDepthInMeters':
-		case 'minimumDepthInMeters':
-		case 'minimumDistanceAboveSurf':
-		case 'maximumDistanceAboveSurf':
-		case 'municipality':
-		case 'pointRadiusSpatialFit':
-		case 'stateProvince':
-		case 'verbatimCoordinates':
-		case 'verbatimLatitude':
-		case 'verbatimLongitude':
-		case 'verbatimCoordinateSystem':
-		case 'verbatimSRS':
-		case 'verbatimDepth':
-		case 'verbatimElevation':
-		case 'verbatimLocality':
-		case 'waterBody':
-		
-		// b-node (maybe with global identifer)
-		if (locality_id == '') {
-		   var geohash = '';
-		   
-			  locality_id = item_id + '#locality';
-			  if (doc.message.decimalLatitude && doc.message.decimalLongitude) {
-			    geohash = encodeGeoHash(doc.message.decimalLatitude , doc.message.decimalLongitude);
-				locality_id = 'http://geohash.org/' + geohash;
-			  }		
-			  
-			  if (doc.message.locationID) {
-                 if (doc.message.locationID.match(/^(http[s]?|urn)/)) {
-                  locality_id = doc.message.locationID;
-                 }
-              }
-			  
-			 // types
-			triples.push(triple(locality_id,
-			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://purl.org/dc/terms/Location'));
-
-			triples.push(triple(locality_id,
-			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://schema.org/Place'));
-                  
-            // link to cluster
-		triples.push(triple(item_id,
-		  'http://rs.tdwg.org/dwc/terms/locationID',
-		  locality_id ));
-            
-                  
-            // Store the geohash
-            if (geohash != '') {
-			   triples.push(triple(locality_id,
-			      'http://www.w3.org/ns/locn#geometry',
-                  'http://geohash.org/' + geohash));
-            }
-            
-			  if (doc.message.decimalLatitude && doc.message.decimalLongitude) {
-			  
-			    // map
-			    var mapUrl = 'http://www.openstreetmap.org/'
-			     + '?mlat=' + doc.message.decimalLatitude 
-			     + '&mlon=' + doc.message.decimalLongitude
-			     + '&zoom=8';
-			     
-			  triples.push(triple(locality_id,
-			      'http://schema.org/hasMap',
-                  mapUrl));
- 			     
-			     			  
-			    // geo
-			    var geo_id = locality_id + '/geo';
-			    
-			  triples.push(triple(locality_id,
-			      'http://schema.org/geo',
-                  geo_id));
- 
- 			  triples.push(triple(geo_id,
-			       'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://schema.org/GeoCoordinates'));
- 			  triples.push(triple(geo_id,
-			       'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://schema.org/GeoCoordinates'));
- 			  triples.push(triple(geo_id,
-			       'http://schema.org/latitude',
-                  String(doc.message.decimalLatitude)));
- 			  triples.push(triple(geo_id,
-			       'http://schema.org/longitude',
-                  String(doc.message.decimalLongitude)));
-            
-            }      
-                  		  
-		 }
-		triples.push(triple(locality_id,
-		  'http://rs.tdwg.org/dwc/terms/' + i,
-		  String(doc.message[i]) ));
-		break;  
-		
-		// Darwin Core Event----------------------------------------------------------
-		case 'fieldNumber':
-		case 'eventDate':
-		case 'year':
-		case 'month':
-		case 'day':
-		case 'verbatimEventDate':
-		case 'fieldNotes':
-		case 'eventRemarks':
-		  // b-node
-		  // any examples of identifiers?
-		  if (event_id == '') {
-				// b-node
-			  event_id = item_id + '#event';
-			  
-			  if (doc.message.eventID) {
-                 if (doc.message.eventID.match(/^(http[s]?|urn)/)) {
-                  event_id = doc.message.eventID;
-                 }
-              }			
-			  
-			triples.push(triple(event_id,
-			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://rs.tdwg.org/dwc/terms/Event'));	
-                  
-            // link to cluster
-			triples.push(triple(item_id,
-		  	'http://rs.tdwg.org/dwc/terms/eventID',
-		  	event_id ));
-                   	  
-		  }
-          triples.push(triple(event_id,
-		  'http://rs.tdwg.org/dwc/terms/' + i,
-		  String(doc.message[i]) ));		  
-		  break;
-		      
-		      // Darwin Core taxon (to do)
-		      
-		      
-		// Darwin Core Identification----------------------------------------------------------
-		
-		   // these are properties of the taxon, but include them here for the moment, may speed up searches...
-       case "kingdom": 
-       case "phylum": 
-       case "order": 
-	   case "class": 
-       case "family": 
-       case "genus": 
-       case "species": 
-			case 'scientificName': // convenience
-
-			case 'typeStatus':
-			 case 'identificationQualifier':
-			 case 'typeStatus':
-			 case 'identifiedBy':
-			 case 'dateIdentified':
-			 case 'identificationReferences':
-			 case 'identificationVerificationStatus':
-			 case 'identificationRemarks':
-		  // b-node
-		  // any examples of identifiers?
-		  if (identification_id == '') {
-				// b-node
-			  identification_id = item_id + '#identification';
-			  
-			  
-			triples.push(triple(identification_id,
-			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://rs.tdwg.org/dwc/terms/Identification'));	
-                  
-            // link to taxon
-            if (doc.message.taxonKey) {
- 			triples.push(triple(identification_id,
-		  	'http://rs.tdwg.org/dwc/terms/taxonID',
-		  	'http://www.gbif.org/species/' + doc.message.taxonKey));
-           
-            }
-                  
-            // link to cluster
-			triples.push(triple(item_id,
-		  	'http://rs.tdwg.org/dwc/terms/identificationID',
-		  	identification_id ));
-		  	
-		  	
-                   	  
-		  }
-          triples.push(triple(identification_id,
-		  'http://rs.tdwg.org/dwc/terms/' + i,
-		  String(doc.message[i]) ));		  
-		  break;
-		      
-		      // references
-             case 'associatedReferences':
-                   triples.push(triple(item_id,
-		  			'http://rs.tdwg.org/dwc/terms/associatedReferences',
-		  			String(doc.message[i])));
-		  		break;
-
-				// associated taxa (e.g., hosts)
-             case 'associatedTaxa':
-                   triples.push(triple(item_id,
-		  			'http://rs.tdwg.org/dwc/terms/associatedTaxa',
-		  			String(doc.message[i])));
-		  		break;
-		      
-		      // sequences
-             case 'associatedSequences':
-               var genbank = doc.message[i];
-               genbank = genbank.replace(/Genbank:/i, '');
-               genbank = genbank.replace(/\s+/, '');
-               genbank = genbank.replace(/http:\/\/www.ncbi.nlm.nih.gov\/nuccore/, '');
-               genbank = genbank.replace(/\s*;\s*/, '|');
-               
-               if (genbank != '') {
-                 var sequences = genbank.split('|');
-                 for (var j in sequences) {
-                   triples.push(triple(item_id,
-		  			'http://rs.tdwg.org/dwc/terms/associatedSequences',
-		  			'http://identifiers.org/insdc/' + sequences[j]));
-		  			}
-		  		}
-		  		break;
-		  		
-       
-        // media
-      case 'media':
-        for (var j in doc.message[i]) {
-          if (doc.message[i][j].type == 'StillImage') {
-            var media_id = doc.message[i][j].identifier;
-            
-            // link to data
-			triples.push(triple(media_id,
-				'http://schema.org/about',
-				item_id));	
-            
-            
- 			triples.push(triple(media_id,
-			      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
-                  'http://schema.org/ImageObject'));	
-            
-            for (var k in doc.message[i][j]) {
-                switch(k) {
-            	case 'format':
- 					triples.push(triple(media_id,
-			      		'http://schema.org/fileFormat',
-                  		doc.message[i][j][k]));	
-                  	break;
-
-            	case 'title':
- 					triples.push(triple(media_id,
-			      		'http://schema.org/caption',
-                  		doc.message[i][j][k]));	
-                  	break;
-
-            	case 'description':
- 					triples.push(triple(media_id,
-			      		'http://schema.org/caption',
-                  		doc.message[i][j][k]));	
-                  	break;
-
-            	case 'references':
- 					triples.push(triple(media_id,
-			      		'http://schema.org/about',
-                  		doc.message[i][j][k]));	
-                  	break;
-
-            	case 'identifier':
- 					triples.push(triple(media_id,
-			      		'http://purl.org/dc/terms/identifier',
-                  		doc.message[i][j][k]));	
- 					triples.push(triple(media_id,
-			      		'http://schema.org/contentUrl',
-                  		doc.message[i][j][k]));	
-                  	break;
-                  	
-            	case 'creator':
- 					triples.push(triple(media_id,
-			      		'http://schema.org/creator',
-                  		doc.message[i][j][k]));	
-                  	break;
-
-            	case 'license':
- 					triples.push(triple(media_id,
-			      		'http://schema.org/license',
-                  		doc.message[i][j][k]));	
-                  	break;
-                  	
-                  	
-                default:
-                	break;
-                	}
-            		}
-            	}
-            }
-            break;
-            	
-      
-       
+        // record-level
         
-        // identifiers
-      case 'identifiers':
-        for (var j in doc.message[i]) {
-          switch (doc.message[i][j].type) {
-          
-            case 'DOI':
-             var doi = doc.message[i][j].identifier;
-             doi = doi.replace(/DOI:\s*/i, '');
-        	
-             triples.push(triple(item_id,
-              'http://purl.org/dc/terms/identifier',
-              'http://identifiers.org/doi/' + doi));
+          // license
+        case 'license':
+          triples.push(triple(cluster_id,
+            'http://schema.org/license',
+            doc.message[i]));
+          break;
+
+          // created
+        case 'lastParsed':
+          triples.push(triple(cluster_id,
+            'http://schema.org/dateCreated',
+            doc.message[i]));
+          break;
+        
+        case 'datasetKey':
+          triples.push(triple(item_id,
+            'http://rs.tdwg.org/dwc/terms/datasetID',
+            'http://www.gbif.org/dataset/' + doc.message[i]));
+          break;
+
+        case 'basisOfRecord':
+          triples.push(triple(item_id,
+            'http://rs.tdwg.org/dwc/terms/basisOfRecord',
+            doc.message[i]));
+          break;
+
+          // Occurrence (usually a specimen)
+          // Darwin Core occurrence---------------------------------------------------------
+        case 'catalogNumber':
+        case 'collectionCode':
+        case 'collectionID':
+        case 'institutionCode':
+        case 'institutionID':
+        case 'recordedBy':
+        case 'individualCount':
+        case 'organismQuantity':
+        case 'sex':
+        case 'lifeStage':
+        case 'reproductiveCondition':
+        case 'behavior':
+        case 'establishmentMeans':
+        case 'occurrenceStatus':
+        case 'preparations':
+        case 'disposition':
+        case 'otherCatalogNumbers':
+        case 'recordNumber':
+        case 'occurrenceRemarks':
+
+          triples.push(triple(occurrence_id,
+            'http://rs.tdwg.org/dwc/terms/' + i,
+            String(doc.message[i])));
+          break;
+
+          // needs more thought
+        /*
+        case 'type':
+          // These are supposed to be from the Dublin Core dcmitype vocabulary,
+          // and apply at record level
+          switch (doc.message[i]) {
+            case 'PhysicalObject':
+              triples.push(triple(occurrence_id,
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                'http://purl.org/dc/dcmitype/' + doc.message[i]));
               break;
-              
-            case 'UUID':
-              var uuid = doc.message[i][j].identifier;
-              
-              // Fomrat nicely (Plazi doesn't)
-              if (uuid.match(/-/)) {
-              } else {
-                // bfee38ac-d1ef-47d5-b4a3-ffa07cc53f18
-                uuid = uuid.substring(0, 8) + '-' + uuid.substring(8, 12) + '-' + uuid.substring(12, 16) + '-' + uuid.substring(16, 22) + '-' + uuid.substring(22);
-              }
-              
-              uuid = 'urn:uuid:' + uuid.toLowerCase();
-              
-              triples.push(triple(item_id,
-              'http://purl.org/dc/terms/identifier',
-               uuid));
-             
-              break;
-            
+
             default:
               break;
           }
-        }
-        break;
+          break;
+          */
 
-        // license
-      case 'license':
-		triples.push(triple(item_id,
-		  'http://schema.org/license',
-		  doc.message[i]));
-        break;
 
- 
 
-      default:
-        break;
-    }
+
+          // Darwin Core locality-----------------------------------------------------------
+        case 'continent':
+        case 'coordinateUncertaintyInM':
+        case 'coordinatePrecision':
+        case 'country':
+        case 'county':
+        case 'countryCode':
+        case 'decimalLatitude':
+        case 'decimalLongitude':
+        case 'depth':
+        case 'depthAccuracy':
+        case 'elevation':
+        case 'footprintWKT':
+        case 'footprintSRS':
+        case 'footprintSpatialFit':
+        case 'geodeticDatum':
+        case 'georeferencedBy':
+        case 'georeferencedDate':
+        case 'georeferenceSources':
+        case 'georeferenceProtocol':
+        case 'georeferenceVerification':
+        case 'georeferenceRemarks':
+        case 'higherGeography':
+        case 'higherGeographyID':
+        case 'island':
+        case 'islandGroup':
+        case 'locality':
+        case 'locationAccordingTo':
+        case 'locationID':
+        case 'locationRemarks':
+        case 'maximumElevationInMeters':
+        case 'minimumElevationInMeters':
+        case 'maximumDepthInMeters':
+        case 'minimumDepthInMeters':
+        case 'minimumDistanceAboveSurf':
+        case 'maximumDistanceAboveSurf':
+        case 'municipality':
+        case 'pointRadiusSpatialFit':
+        case 'stateProvince':
+        case 'verbatimCoordinates':
+        case 'verbatimLatitude':
+        case 'verbatimLongitude':
+        case 'verbatimCoordinateSystem':
+        case 'verbatimSRS':
+        case 'verbatimDepth':
+        case 'verbatimElevation':
+        case 'verbatimLocality':
+        case 'waterBody':
+
+          // b-node (maybe with global identifer)
+          if (locality_id == '') {
+            var geohash = '';
+
+            locality_id = item_id + '#locality';
+            if (doc.message.decimalLatitude && doc.message.decimalLongitude) {
+              geohash = encodeGeoHash(doc.message.decimalLatitude, doc.message.decimalLongitude);
+              locality_id = 'http://geohash.org/' + geohash;
+            }
+
+            if (doc.message.locationID) {
+              if (doc.message.locationID.match(/^(http[s]?|urn)/)) {
+                locality_id = doc.message.locationID;
+              }
+            }
+
+            // types
+            triples.push(triple(locality_id,
+              'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+              'http://purl.org/dc/terms/Location'));
+
+            triples.push(triple(locality_id,
+              'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+              'http://schema.org/Place'));
+
+            // link to cluster
+            triples.push(triple(item_id,
+              'http://rs.tdwg.org/dwc/terms/locationID',
+              locality_id));
+
+
+            // Store the geohash
+            if (geohash != '') {
+              triples.push(triple(locality_id,
+                'http://www.w3.org/ns/locn#geometry',
+                'http://geohash.org/' + geohash));
+            }
+
+            if (doc.message.decimalLatitude && doc.message.decimalLongitude) {
+
+              // map
+              var mapUrl = 'http://www.openstreetmap.org/' +
+                '?mlat=' + doc.message.decimalLatitude +
+                '&mlon=' + doc.message.decimalLongitude +
+                '&zoom=8';
+
+              triples.push(triple(locality_id,
+                'http://schema.org/hasMap',
+                mapUrl));
+
+
+              // geo
+              var geo_id = locality_id + '/geo';
+
+              triples.push(triple(locality_id,
+                'http://schema.org/geo',
+                geo_id));
+
+              triples.push(triple(geo_id,
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                'http://schema.org/GeoCoordinates'));
+              triples.push(triple(geo_id,
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                'http://schema.org/GeoCoordinates'));
+              triples.push(triple(geo_id,
+                'http://schema.org/latitude',
+                String(doc.message.decimalLatitude)));
+              triples.push(triple(geo_id,
+                'http://schema.org/longitude',
+                String(doc.message.decimalLongitude)));
+
+            }
+
+          }
+          triples.push(triple(locality_id,
+            'http://rs.tdwg.org/dwc/terms/' + i,
+            String(doc.message[i])));
+          break;
+
+          // Darwin Core Event----------------------------------------------------------
+        case 'fieldNumber':
+        case 'eventDate':
+        case 'year':
+        case 'month':
+        case 'day':
+        case 'verbatimEventDate':
+        case 'fieldNotes':
+        case 'eventRemarks':
+          // b-node
+          // any examples of identifiers?
+          if (event_id == '') {
+            // b-node
+            event_id = item_id + '#event';
+
+            if (doc.message.eventID) {
+              if (doc.message.eventID.match(/^(http[s]?|urn)/)) {
+                event_id = doc.message.eventID;
+              }
+            }
+
+            triples.push(triple(event_id,
+              'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+              'http://rs.tdwg.org/dwc/terms/Event'));
+
+            // link to cluster
+            triples.push(triple(item_id,
+              'http://rs.tdwg.org/dwc/terms/eventID',
+              event_id));
+
+          }
+          triples.push(triple(event_id,
+            'http://rs.tdwg.org/dwc/terms/' + i,
+            String(doc.message[i])));
+          break;
+
+          // Darwin Core taxon (to do)
+
+
+          // Darwin Core Identification----------------------------------------------------------
+        case "kingdom":
+        case "phylum":
+        case "order":
+        case "class":
+        case "family":
+        case "genus":
+        case "species":
+        case 'scientificName': // convenience
+        case 'typeStatus':
+        case 'identificationQualifier':
+        case 'typeStatus':
+        case 'identifiedBy':
+        case 'dateIdentified':
+        case 'identificationReferences':
+        case 'identificationVerificationStatus':
+        case 'identificationRemarks':
+          // b-node
+          // any examples of identifiers?
+          if (identification_id == '') {
+            // b-node
+            identification_id = item_id + '#identification';
+
+
+            triples.push(triple(identification_id,
+              'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+              'http://rs.tdwg.org/dwc/terms/Identification'));
+
+            // link to taxon
+            if (doc.message.taxonKey) {
+              triples.push(triple(identification_id,
+                'http://rs.tdwg.org/dwc/terms/taxonID',
+                'http://www.gbif.org/species/' + doc.message.taxonKey));
+
+            }
+
+            // link to cluster
+            triples.push(triple(item_id,
+              'http://rs.tdwg.org/dwc/terms/identificationID',
+              identification_id));
+
+
+
+          }
+          triples.push(triple(identification_id,
+            'http://rs.tdwg.org/dwc/terms/' + i,
+            String(doc.message[i])));
+          break;
+
+          // references
+        case 'associatedReferences':
+          triples.push(triple(item_id,
+            'http://rs.tdwg.org/dwc/terms/associatedReferences',
+            String(doc.message[i])));
+          break;
+
+          // associated taxa (e.g., hosts)
+        case 'associatedTaxa':
+          triples.push(triple(item_id,
+            'http://rs.tdwg.org/dwc/terms/associatedTaxa',
+            String(doc.message[i])));
+          break;
+
+          // sequences
+        case 'associatedSequences':
+          var genbank = doc.message[i];
+          genbank = genbank.replace(/Genbank:/i, '');
+          genbank = genbank.replace(/\s+/, '');
+          genbank = genbank.replace(/http:\/\/www.ncbi.nlm.nih.gov\/nuccore/, '');
+          genbank = genbank.replace(/\s*;\s*/, '|');
+
+          if (genbank != '') {
+            var sequences = genbank.split('|');
+            for (var j in sequences) {
+              triples.push(triple(item_id,
+                'http://rs.tdwg.org/dwc/terms/associatedSequences',
+                'http://identifiers.org/insdc/' + sequences[j]));
+            }
+          }
+          break;
+
+
+          // media
+        case 'media':
+          for (var j in doc.message[i]) {
+            if (doc.message[i][j].type == 'StillImage') {
+              var media_id = doc.message[i][j].identifier;
+
+              // link to data
+              triples.push(triple(media_id,
+                'http://schema.org/about',
+                item_id));
+
+
+              triples.push(triple(media_id,
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                'http://schema.org/ImageObject'));
+
+              for (var k in doc.message[i][j]) {
+                switch (k) {
+                  case 'format':
+                    triples.push(triple(media_id,
+                      'http://schema.org/fileFormat',
+                      doc.message[i][j][k]));
+                    break;
+
+                  case 'title':
+                    triples.push(triple(media_id,
+                      'http://schema.org/caption',
+                      doc.message[i][j][k]));
+                    break;
+
+                  case 'description':
+                    triples.push(triple(media_id,
+                      'http://schema.org/caption',
+                      doc.message[i][j][k]));
+                    break;
+
+                  case 'references':
+                    triples.push(triple(media_id,
+                      'http://schema.org/about',
+                      doc.message[i][j][k]));
+                    break;
+
+                  case 'identifier':
+                    triples.push(triple(media_id,
+                      'http://purl.org/dc/terms/identifier',
+                      doc.message[i][j][k]));
+                    triples.push(triple(media_id,
+                      'http://schema.org/contentUrl',
+                      doc.message[i][j][k]));
+                    break;
+
+                  case 'creator':
+                    triples.push(triple(media_id,
+                      'http://schema.org/creator',
+                      doc.message[i][j][k]));
+                    break;
+
+                  case 'license':
+                    triples.push(triple(media_id,
+                      'http://schema.org/license',
+                      doc.message[i][j][k]));
+                    break;
+
+
+                  default:
+                    break;
+                }
+              }
+            }
+          }
+          break;
+
+
+
+
+          // identifiers
+        case 'identifiers':
+          for (var j in doc.message[i]) {
+            switch (doc.message[i][j].type) {
+
+              case 'DOI':
+                var doi = doc.message[i][j].identifier;
+                doi = doi.replace(/DOI:\s*/i, '');
+
+                triples.push(triple(item_id,
+                  'http://purl.org/dc/terms/identifier',
+                  'http://identifiers.org/doi/' + doi));
+                break;
+
+              case 'UUID':
+                var uuid = doc.message[i][j].identifier;
+
+                // Fomrat nicely (Plazi doesn't)
+                if (uuid.match(/-/)) {} else {
+                  // bfee38ac-d1ef-47d5-b4a3-ffa07cc53f18
+                  uuid = uuid.substring(0, 8) + '-' + uuid.substring(8, 12) + '-' + uuid.substring(12, 16) + '-' + uuid.substring(16, 22) + '-' + uuid.substring(22);
+                }
+
+                uuid = 'urn:uuid:' + uuid.toLowerCase();
+
+                triples.push(triple(item_id,
+                  'http://purl.org/dc/terms/identifier',
+                  uuid));
+
+                break;
+
+              default:
+                break;
+            }
+          }
+          break;
+
+        default:
+          break;
+      }
     }
   }
-  
+
   // post processing
-  
+
   // alternative specimen codes
   var codes = specimen_codes(doc.message);
   for (var i in codes) {
-	triples.push(triple(occurrence_id,
-   	 'http://schema.org/alternateName',
-   	 String(codes[i])));
+    triples.push(triple(occurrence_id,
+      'http://schema.org/alternateName',
+      String(codes[i])));
   }
-  
+
 
 
   // defaults
@@ -1091,6 +1103,8 @@ triples.push(triple(item_id,
     'http://schema.org/DataFeedItem'));
 
   output(doc, triples);
+
+
 
 }
 		
