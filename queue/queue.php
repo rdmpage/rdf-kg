@@ -154,6 +154,12 @@ function fetch($item, $add_links = false)
 					$add_links = false;
 				}
 				
+				// GBIF occurrence
+				if (preg_match('/(www\.)?gbif.org\/occurrence/', $item->value))
+				{
+					$add_links = true;
+				}
+				
 				
 				if ($add_links)
 				{

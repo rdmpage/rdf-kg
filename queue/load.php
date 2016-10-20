@@ -13,6 +13,30 @@ $urls = array(
 'http://www.ncbi.nlm.nih.gov/pubmed/27103877'
 );
 
+// GBIF examples
+$urls = array(
+'http://www.gbif.org/occurrence/317834729'
+
+);
+
+// Piranha
+$urls = array(
+'http://www.gbif.org/occurrence/999838402',
+'http://www.gbif.org/occurrence/624171312'
+
+);
+
+// BOLD
+// BOLD, direct from BOLD and equivalent GBIF record
+$urls = array(
+'http://bins.boldsystems.org/index.php/Public_RecordView?processid=ASANQ054-09',
+'http://www.gbif.org/occurrence/1291693678'
+);
+
+$urls = array(
+'http://www.gbif.org/occurrence/624171316'
+);
+
 $force = false;
 $force = true;
 
