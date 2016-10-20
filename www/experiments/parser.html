@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Taxon name parser</title>
+</head>
+<body>
+
+
+<script>
+
+function capitalize(s){
+console.log(s);
+    return s.toLowerCase().replace( /(?:^|\\s)\S/g, function(a){ return a.toUpperCase(); } );
+};
+
+function Parser()
+{
+	this.NAME_LETTERS = "A-ZÏËÖÜÄÉÈČÁÀÆŒ";
+	this.name_letters = "a-zïëöüäåéèčáàæœ";
+	this.EPHITHET_PREFIXES = "van|novae";
+	
+	this.MONOMIAL = "";
+	this.INFRAGENERIC = "";
+	this.EPHITHET = "";
+	
+	this.AUTHOR_LETTERS = "";
+	this.author_letters = "";
+	this.all_letters_numbers = "";
+	this.AUTHOR_PREFIXES = "";
+	this.AUTHOR = "";
+	this.AUTHOR_TEAM = "";
+	this.YEAR = "[12][0-9][0-9][0-9?][abcdh?]?(?:[\-][0-9]{1,4})?";
+	
+	this.COMMA_BEFORE_YEAR = "(,+|[^0-9\\(\\[\"])\\s*(\\d{3})";
+	
+	this.NORM_QUOTES = "([\"'`´]+)";
+	this.NORM_UPPERCASE_WORDS = "(?:^|\\s)([" + this.NAME_LETTERS + "]{2,})";
+//	this.NORM_UPPERCASE_WORDS = "(?:^|\\s)\\S";
+//	this.NORM_UPPERCASE_WORDS = "(?:^|\\s)(\\p{Lu})(\\p{Lu}{2,})";
+	this.NORM_WHITESPACE = "\\s+";
+	this.NORM_NO_SQUARE_BRACKETS = "\\[(.*?)\\]";
+	this.NORM_BRACKETS_OPEN = "([{(\\[])\\s*,?";
+	this.NORM_BRACKETS_CLOSE = ",?\\s*([})\\]])";
+	this.NORM_BRACKETS_OPEN_STRONG = "( ?[{(\\[] ?)+";
+	this.NORM_BRACKETS_CLOSE_STRONG = "( ?[})\\]] ?)+";
+	this.NORM_AND = " (and|et|und|&amp;) ";
+	this.NORM_ET_AL = "& al\\.?";
+	this.NORM_AMPERSAND_WS = "&";
+  	this.NORM_HYPHENS = "\\s*-\\s*";
+  	this.NORM_COMMAS = "\\s*,+";	
+  	
+  	
+  	this.NORM_HYBRIDS_FORM = " [×xX] ";
+  	this.NORM_HYBRIDS_GENUS = "^\\s*[+×xX]\\s*([" + this.NAME_LETTERS + "])";
+  	this.NORM_HYBRIDS_EPITH = "^\\s*(×?" + this.MONOMIAL + ")\\s+(?:×|[xX]\\s)\\s*(" + this.EPHITHET + ")";
+  	
+ 	this.NORM_INDET = "((^| )(undet|indet|aff|cf)[#!?\\.]?)+(?![a-z])";
+  	
+	
+
+
+	this.MONOMIAL = "[" + this.NAME_LETTERS 
+			+ "](?:\\.|[" + this.name_letters 
+			+ "]+)(?:-[" + this.NAME_LETTERS
+			+ "]?[" + this.name_letters + "]+)?";  
+
+	this.RANK_MARKER_MAP_INFRAGENERIC = ["subgenus","subgen","subg","section","sect",
+		"subsection","subsect","series","ser","subseries","subser","agg","species","spec", "spp","sp"];
+		
+	this.RANK_MARKER_SPECIES = "(?:notho)?(?:" + ["subsp","ssp","var","v","subvar","subv","sv",
+		"forma","form","fo","f","subform","subf","sf","cv","hort","m","morph","nat","ab","aberration"].join('|')
+		+ "|agg)\\.?";
+		
+	this.INFRAGENERIC = "(?:"+"\\( ?([" + this.NAME_LETTERS + "][" + this.name_letters + "-]+) ?\\)"
+		+ "|" + "(" + this.RANK_MARKER_MAP_INFRAGENERIC.join('|') + ")\\.? ?([" + this.NAME_LETTERS
+		+ "][" + this.name_letters+"-]+)" + ")";
+		
+	this.EPHITHET = "(?:[0-9]+-)?"
+			  + "(?:(?:" + this.EPHITHET_PREFIXES + ") [a-z])?"
+			 // + "[" + this.name_letters + "+-]{1,}(?<! d)[" + this.name_letters + "](?<!\\bex)";
+			  + "[" + this.name_letters + "+-]{1,}[" + this.name_letters + "]";
+			 //;
+			   
+	this.NORM_HYBRIDS_GENUS = "^\\s*[+×xX]\\s*([" + this.NAME_LETTERS + "])";
+	this.NORM_HYBRIDS_EPITH = "^\\s*(×?" + this.MONOMIAL + ")\\s+(?:×|[xX]\\s)\\s*("
+		+ this.EPHITHET + ")";
+	
+	this.AUTHOR_LETTERS = this.NAME_LETTERS + "\\p{Lu}"; // upper case unicode letter, not numerical
+	// (\W is alphanum)
+	this.author_letters = this.name_letters + "\\p{Ll}"; // lower case unicode letter, not numerical
+	// (\W is alphanum)
+	this.all_letters_numbers = this.name_letters + this.NAME_LETTERS + "0-9";
+	this.AUTHOR_PREFIXES = "(?:[vV](?:an)(?:[ -](?:den|der) )? ?|von[ -](?:den |der |dem )?|(?:del|Des|De|de|di|Di|da|N)[`' _]|le |d'|D'|de la|Mac|Mc|Le|St\\.? ?|Ou|O')";
+	this.AUTHOR = "(?:" +
+	  // author initials
+		  "(?:"+"(?:[" + this.AUTHOR_LETTERS + "]{1,3}\\.?[ -]?){0,3}" +
+	  // or full first name
+		  "|[" + this.AUTHOR_LETTERS + "][" + this.author_letters + "?]{3,}" + " )?" +
+		  // common prefixes
+		  this.AUTHOR_PREFIXES + "?" +
+		  // only allow v. in front of Capital Authornames - if included in AUTHOR_PREFIXES parseIgnoreAuthors fails
+		  "(?:v\\. )?" +
+		  // regular author name
+		  "[" + this.AUTHOR_LETTERS + "]+[" + this.author_letters + "?]*\\.?" +
+		  // potential double names, e.g. Solms-Laub.
+		  "(?:(?:[- ](?:de|da|du)?[- ]?)[" + this.AUTHOR_LETTERS + "]+[" + this.author_letters + "?]*\\.?)?" +
+		  // common name suffices (ms=manuscript, not yet published)
+		  "(?: ?(?:f|fil|j|jr|jun|junior|sr|sen|senior|ms)\\.?)?" + ")";
+		  
+	this.AUTHOR_TEAM = this.AUTHOR + "?(?:(?: ?ex\\.? | & | et | in |, ?|; ?|\\.)(?:" + this.AUTHOR
+  + "|al\\.?))*";			  
+
+
+
+}
+
+//--------------------------------------------------------------------------------------------------
+Parser.prototype.normalise = function(string) 
+{
+	console.log('Start = ' + string);
+
+        if (string == '')
+    	{
+    		return string;
+    	}
+    
+    	// emdash
+    	string = string.replace(/—/, '');
+ 		// semicolon
+    	string = string.replace(/:/, '');
+    	
+    	
+ 
+    	// use commas before years
+    	// ICZN §22A.2 http://www.iczn.org/iczn/includes/page.jsp?article=22&nfv=
+    	
+    	
+    	console.log(string);
+    	
+    	
+    	var pattern = '';
+    	pattern = this.COMMA_BEFORE_YEAR;
+    	if (string.match(RegExp(pattern)))
+    	{	
+    		console.log('x');
+    		string = string.replace(RegExp(pattern, 'g'), '$1, $2');
+    	}
+    	console.log('COMMA_BEFORE_YEAR ' + string);
+    	
+    	// no whitespace around hyphens
+    	pattern = this.NORM_HYPHENS;
+    	if (string.match(RegExp(pattern)))
+    	{
+    		string = string.replace(RegExp(pattern), '-');
+    	}
+    	
+		// use whitespace with &
+    	pattern = this.NORM_AMPERSAND_WS;
+    	if (string.match(RegExp(pattern)))
+    	{
+    		string = string.replace(RegExp(pattern), ' & ');
+    	}
+		
+ 		// whitespace before and after brackets, keeping the bracket style
+    	pattern = this.NORM_BRACKETS_OPEN;
+    	if (string.match(RegExp(pattern)))
+    	{
+    		string = string.replace(RegExp(pattern), ' $1');
+    	}
+    	pattern = this.NORM_BRACKETS_CLOSE;
+    	if (string.match(RegExp(pattern)))
+    	{
+    		string = string.replace(RegExp(pattern), '$1 ');
+    	}
+		
+		// remove whitespace before commas and replace double commas with one
+		//console.log(string);
+    	pattern = this.NORM_COMMAS;
+    	console.log(this.NORM_COMMAS);
+    	if (string.match(RegExp(pattern)))
+    	{
+    		string = string.replace(RegExp(pattern), ', ');
+    	}
+		//console.log(string);
+      	
+      	// normalize hybrid markers
+    	pattern = this.NORM_HYBRIDS_GENUS;
+    	if (string.match(RegExp(pattern)))
+    	{
+    		string = string.replace(RegExp(pattern), '×$1');
+    	}
+    	
+    	
+    	pattern = this.NORM_HYBRIDS_EPITH;    	
+    	//console.log(pattern);
+    	
+    	/*
+    	if (string.match(RegExp(pattern)))
+    	{
+    		string = string.replace(RegExp(pattern), '$1 ×$2');
+    	}
+    	*/
+    	pattern = this.NORM_HYBRIDS_FORM;
+    	if (string.match(RegExp(pattern)))
+    	{
+    		string = string.replace(RegExp(pattern), ' × ');
+    	}
+ 
+ 		// capitalize all entire upper case words
+    	pattern = this.NORM_UPPERCASE_WORDS;
+    	
+    	var m = string.match(RegExp(pattern, "g"));
+    	if (m)
+    	{
+    		for (var i in m) {
+    		  var source = m[i];
+    		  source = source.replace(/^\s+/, '');
+    		  var target = source;
+    		      		  
+    		  pattern = "([" + this.NAME_LETTERS + "])([" + this.NAME_LETTERS + "]+)$";
+    		  
+    		  target.replace(RegExp(pattern), function(p0, p1, p2) {  target = p1 + p2.toLowerCase();});
+    		   
+    		  string = string.replace(source, target);
+    		}
+    	}
+ 		 
+		string = string.replace(/\s\s+/g, ' ');
+		string = string.replace(/^\s/, '');
+		string = string.replace(/\s$/, '');
+		
+		console.log('Finish = ' + string);
+		
+		
+    	return string;	
+}
+
+
+
+//--------------------------------------------------------------------------------------------------
+Parser.prototype.parse = function(string) 
+{
+		var pattern = "^" + 
+		//"#1 genus\/monomial\n" .
+		"(" + this.MONOMIAL + ")"
+		
+ 		// #2 or #4 subgenus/section with #3 infrageneric rank marker
+      	//+ "(?:(?<!ceae) (" + this.INFRAGENERIC + "))?"
+     	//+ "(?:(?<!ceae) (" + this.INFRAGENERIC + "))?"
+     	+ "( (" + this.INFRAGENERIC + "))?"
+			 
+		//"#5 species\n" .
+		+ "(\\s(" + this.EPHITHET + "))?"
+		
+		/*
+				
+		 + "(("
+		  // #6 strip out intermediate, irrelevant authors or infraspecific ranks in case of quadnomials
+		  + "( .*?)?" 
+		 
+		  // #7 infraspecies rank
+		+ "( (" + this.RANK_MARKER_SPECIES + "))?" 
+		
+		  // #8 infraspecies epitheton
+		 + "( ((×?\"?" + this.EPHITHET + "\"?))"  + ")"
+		 
+		 + "))?" 
+		 */
+	  
+		
+     	//"#9 entire authorship incl basionyms and year\n" .
+      	+ "(,?" + "(?: ?\\(" 
+      	
+      	//" #10 basionym authors \n" .
+      	+ "(" + this.AUTHOR_TEAM + ")?"
+      	
+      	 //"#11 basionym year\n" + 
+      	+ ",?( ?(" + this.YEAR + "))?" + "\\))?"
+      	
+      	 // #12 authors
+      	+ "( (" + this.AUTHOR_TEAM + "))?"
+
+      	//"#13 year with or without brackets\n" + 
+      	+ "(?: ?\\(?,? ?(" + this.YEAR + ")\\)?)?"
+      	 
+      	 
+      	+ ")";
+      	console.log(pattern);
+      	
+      	
+      	//var m = string.match(RegExp(pattern, "g"));
+      	var m = RegExp(pattern).exec(string);
+    	if (m)
+    	{
+    		console.log(JSON.stringify(m, null, 2));
+    		
+    		var result ={};
+    		result.parsed = false;
+    		result.verbatim = string;
+    		result.hybrid = false;
+
+
+			result.details = [];
+			
+			var details = {};
+			
+			// genus
+			if (m[1]) {
+				details.genus = {};
+				details.genus.epitheton = m[1];
+				
+				/*
+				if (m[17] && !m[3] &&!m[8]) {
+				  details.genus.epitheton = m[17];
+				*/
+				
+			}
+			
+			// infragenus
+			if (m[4]) {
+				details.infragenus = {};
+				details.infragenus.epitheton = m[4];
+				
+				/*
+				if (m[17] && !m[3] &&!m[8]) {
+				  details.genus.epitheton = m[17];
+				*/
+				
+			}
+			
+			
+			result.details.push(details);
+
+
+			console.log(JSON.stringify(result, null, 2));
+    	
+    	}
+      	
+
+
+
+
+}
+
+
+var p = new Parser();
+var n = 'Myopterus daubentonii subsp. albatus Thomas, 1915';
+
+n = 'Scepomycter rubehoensis  Bowie - Fjeldsa &Kiure SKÖAR 2009';
+
+n = 'ARTHOPYRENIA hyalospora X Hydnellum scrobiculatum ÖSKAR 1999';
+n = 'Uromastyx alfredschmidti WILMS & BÖHME, 2001';
+n = 'Xiphocolaptes carajaensis (Silva, Novaes & Oren 2002 )';
+n = 'Ficedula beijingnica Guangmei, Zhang, Yaniun et Dongsheng, 2000';
+n = 'Helicobacter pylori (Marshall et al. 1985) Goodwin et al. 1989';
+
+n = 'Aedes (Stegomyia) opok Corbet & van Someren 1962';
+
+//n = 'Gonocephalus borneensis — MANTHEY & GROSSMANN 1997: 179';
+//n = 'Dennyus (Collodennyus) distinctus timjonesi Clayton, Price & Page, 1996';
+
+//n = 'Myopterus daubentonii subsp. albatus Thomas, 1915';
+//n = 'Myopterus daubentonii Thomas, 1915';
+
+
+
+
+
+//p.normalise(n);
+p.parse(n);
+
+
+
+</script>
+</body>
+</html>
