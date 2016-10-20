@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+ <!DOCTYPE GBSet PUBLIC "-//NCBI//NCBI GBSeq/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_GBSeq.dtd">
+ <GBSet>
+<GBSeq>
+  <GBSeq_locus>JN270496</GBSeq_locus>
+  <GBSeq_length>658</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>INV</GBSeq_division>
+  <GBSeq_update-date>26-OCT-2011</GBSeq_update-date>
+  <GBSeq_create-date>09-AUG-2011</GBSeq_create-date>
+  <GBSeq_definition>Hymenoptera sp. BOLD:AAB5150 voucher CASENT0191695-D01 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</GBSeq_definition>
+  <GBSeq_primary-accession>JN270496</GBSeq_primary-accession>
+  <GBSeq_accession-version>JN270496.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gnl|uoguelph|ASANH1000-10.COI-5P</GBSeqid>
+    <GBSeqid>gb|JN270496.1|</GBSeqid>
+    <GBSeqid>gi|342755423</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_project>37833</GBSeq_project>
+  <GBSeq_source>mitochondrion Hymenoptera sp. BOLD:AAB5150</GBSeq_source>
+  <GBSeq_organism>Hymenoptera sp. BOLD:AAB5150</GBSeq_organism>
+  <GBSeq_taxonomy>Eukaryota; Metazoa; Arthropoda; Hexapoda; Insecta; Pterygota; Neoptera; Endopterygota; Hymenoptera</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..658</GBReference_position>
+      <GBReference_consortium>International Barcode of Life (iBOL)</GBReference_consortium>
+      <GBReference_title>iBOL Data Release</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..658</GBReference_position>
+      <GBReference_consortium>International Barcode of Life (iBOL)</GBReference_consortium>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (15-JUL-2011) Biodiversity Institute of Ontario, University of Guelph, 50 Stone Rd West, Guelph, Ontario N1G2W1, Canada</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>##International Barcode of Life (iBOL)Data-START## Barcode Index Number BOLD:AAB5150 Order Assignment Hymenoptera iBOL Working Group iBOL:WG1.9 iBOL Release Status Phase 0 Tentative Name not provided ##International Barcode of Life (iBOL)Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..658</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>658</GBInterval_to>
+          <GBInterval_accession>JN270496.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hymenoptera sp. BOLD:AAB5150</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>organelle</GBQualifier_name>
+          <GBQualifier_value>mitochondrion</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>specimen_voucher</GBQualifier_name>
+          <GBQualifier_value>CASENT0191695-D01</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>BOLD:ASANH1000-10.COI-5P</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:824510</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Madagascar</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>lat_lon</GBQualifier_name>
+          <GBQualifier_value>19.35 S 47.317 E</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>17-Sep-1994</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collected_by</GBQualifier_name>
+          <GBQualifier_value>Mark Pigeon</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>PCR_primers</GBQualifier_name>
+          <GBQualifier_value>fwd_seq: attcaaccaatcataaagatattgg, rev_seq: taaacttctggatgtccaaaaaatca</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;658</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>658</GBInterval_to>
+          <GBInterval_accession>JN270496.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>COI</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;658</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>658</GBInterval_to>
+          <GBInterval_accession>JN270496.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>COI</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>cytochrome oxidase subunit 1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AEL39939.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:342755424</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MLYFIFAIWSGLIGSSMSMIIRLELGSPNSLILNDQTFNSIVTSHAFIMIFFMVMPFMIGGFGNFLIPLMIGSPDMAYPRMNNMSFWLLPPSISLLILSNFINEGSGTGWTIYPPLASNSFHGGPSVDLTIFSLHIAGMSSILGAINFISTILNMHNPNITLDKIPLLVWSILITAILLLLSLPVLAGAITMLLTDRNLNTSFFDPSGGGDPILYQHLF</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>aatattatattttatttttgcaatttgatcaggtctaattggatcttcaataagaataattattcgacttgagctaggatctcccaactctttaattttaaatgatcaaacttttaattctatcgtaactagtcatgcttttatcataattttttttatagttataccttttataattggaggatttggtaacttcttaattccattaataatcggatctcctgatatagcatatcctcggataaataatataagattttgacttttgcccccttcaatttctttactaatcttaagtaattttatcaatgaaggatctggaactggctgaactatttatccccctttagcctctaactcttttcatggaggcccttccgttgacttaactattttttcccttcatattgcaggtatgtcctcaattcttggggccattaattttatttcaactatcttaaacatacataaccctaatattaccttagacaaaattcctttattagtctggtccattcttattacagcaattcttttattattatctctccctgttttagctggagcaattacaatattattaaccgatcgaaacctaaatacttcattctttgatccctcaggaggcggggatccaattttataccaacatttattt</GBSeq_sequence>
+</GBSeq>
+
+</GBSet>
+

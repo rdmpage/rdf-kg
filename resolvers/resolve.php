@@ -3,7 +3,10 @@
 // Resolve one object
 require_once(dirname(dirname(__FILE__)) . '/documentstore/couchsimple.php');
 
+require_once (dirname(__FILE__) . '/bold/fetch.php');
 require_once (dirname(__FILE__) . '/crossref/fetch.php');
+require_once (dirname(__FILE__) . '/gbif/fetch.php');
+
 //require_once (dirname(__FILE__) . '/resolvers/genbank/fetch.php');
 require_once (dirname(__FILE__) . '/orcid/fetch.php');
 require_once (dirname(__FILE__) . '/pubmed/fetch.php');
@@ -15,12 +18,28 @@ function classify_url($url)
 {
 	$identifier = null;
 	
+	// BOLD
+	if (preg_match('/http[s]?:\/\/bins.boldsystems.org\/index.php\/Public_RecordView\?processid=(?<id>.*)$/', $url, $m))
+	{
+		$identifier = new stdclass;
+		$identifier->namespace = 'BOLD';
+		$identifier->id = $m['id'];
+	}
+		
 	// DOI
 	if (preg_match('/http[s]?:\/\/(dx.)?doi.org\/(?<doi>.*)$/', $url, $m))
 	{
 		$identifier = new stdclass;
 		$identifier->namespace = 'DOI';
 		$identifier->id = $m['doi'];
+	}
+
+	// GBIF Occurrence
+	if (preg_match('/http[s]?:\/\/(www\.)?gbif.org\/occurrence\/(?<id>\d+)$/', $url, $m))
+	{
+		$identifier = new stdclass;
+		$identifier->namespace = 'GBIF_OCCURRENCE';
+		$identifier->id = $m['id'];
 	}
 	
 	// ORCID
@@ -73,9 +92,19 @@ function resolve_url($url)
 	{	
 		switch ($identifier->namespace)
 		{	
+			case 'BOLD':
+				$data = barcode_fetch($identifier->id);
+				break;
+		
 			case 'DOI':
 				$data = crossref_fetch($identifier->id);
 				break;
+				
+			case 'GBIF_OCCURRENCE':
+				$data = gbif_fetch_occurrence($identifier->id);
+				break;
+
+				
 /*
 			case 'GI':
 				$data = genbank_fetch($identifier->id);
@@ -111,6 +140,8 @@ if (0)
 	//$url = 'http://www.worldcat.org/issn/1313-2970';
 	
 	$url = 'http://www.ncbi.nlm.nih.gov/pubmed/27058864';
+	
+	$url = 'http://bins.boldsystems.org/index.php/Public_RecordView?processid=ASANQ054-09';
 	
 	$data = resolve_url($url);
 	print_r($data);

@@ -1,6 +1,7 @@
 <?php
 
 require_once(dirname(dirname(__FILE__)) . '/lib.php');
+require_once(dirname(dirname(__FILE__)) . '/shared/ncbi.php');
 
 
 //----------------------------------------------------------------------------------------
@@ -42,17 +43,17 @@ function get_work($doi)
 			
 			
 			// augment
-			/*
 			$pmid = doi_to_pmid($doi);
 			if ($pmid != 0)
 			{
-				$data->content->pmid = $pmid;
+				$data->message->pmid = $pmid;
 				
 				// add to link to PMID so we augment this reference
 				// need to think this through regarding authors and other info which may be replicated
-				$data->alternative_identifiers[] = 'http://www.ncbi.nlm.nih.gov/pubmed/' . $data->content->pmid;
+				$data->links[] = 'http://www.ncbi.nlm.nih.gov/pubmed/' . $data->message->pmid;
 			}
 			
+			/*
 			$pmc = doi_to_pmc($doi);
 			if ($pmc != 0)
 			{
@@ -84,7 +85,7 @@ function crossref_fetch($doi)
 
 // test cases
 
-if (0)
+if (1)
 {
 	$doi = '10.1371/journal.pone.0139421'; // no links to XML
 	

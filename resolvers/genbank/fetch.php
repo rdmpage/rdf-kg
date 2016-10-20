@@ -5,13 +5,12 @@
 require_once(dirname(dirname(__FILE__)) . '/lib.php');
 require_once(dirname(dirname(__FILE__)) . '/nameparse.php');
 
+require_once (dirname(dirname(__FILE__)) . '/shared/crossref.php');
 require_once (dirname(dirname(__FILE__)) . '/shared/ncbi.php');
 
 
 // https://github.com/asonge/php-geohash
 //require_once (dirname(dirname(dirname(__FILE__))) . '/vendor/geohash.php');
-
-//require_once (dirname(dirname(__FILE__)) . '/crossref/fetch.php');
 
 
 //----------------------------------------------------------------------------------------
@@ -482,8 +481,8 @@ function process_locality(&$locality)
 //----------------------------------------------------------------------------------------
 function genbank_xml_to_json($xml)
 {		
-	$objects = array();
-	
+	$data = null;
+		
 	// delete some things which may cause problems for JSON
 	$xml = str_replace('<GBFeature_partial5 value="true"/>', '', $xml);
 	$xml = str_replace('<GBFeature_partial3 value="true"/>', '', $xml);
@@ -510,7 +509,7 @@ function genbank_xml_to_json($xml)
 
 		$json = str_replace('"GBSeq_update-date"', 			'"GBSeq_update_date"', $json);
 		$json = str_replace('"GBSeq_create-date"', 			'"GBSeq_create_date"', $json);
-		$json = str_replace('"GBSeq_accession-version"', 	'"GBSeq_accession_g"', $json);
+		$json = str_replace('"GBSeq_accession-version"', 	'"GBSeq_accession_version"', $json);
 		
 		// idiosyncratic fixes
 		// JF279882
@@ -535,7 +534,7 @@ function genbank_xml_to_json($xml)
 			
 			$obj->sequence->accession = $GBSet->GBSeq_primary_accession;
 			$obj->sequence->accession_version = $GBSet->GBSeq_accession_version;
-			$obj->version = str_replace($obj->sequence->accession, '', $obj->sequence->accession_version);
+			//$obj->version = str_replace($obj->sequence->accession, '', $obj->sequence->accession_version);
 			//$obj->version = str_replace('.', '', $obj->version);
 			
 			$obj->identification = new stdclass;
@@ -583,7 +582,19 @@ function genbank_xml_to_json($xml)
 			{
 				$obj->project = $GBSet->GBSeq_project;
 			}
-		
+			
+			// taxonomy
+			if (isset($GBSet->GBSeq_taxonomy))
+			{
+				 $obj->identification->taxonomy = preg_split('/;\s*/', $GBSet->GBSeq_taxonomy);
+			}
+			
+			
+			if (isset($GBSet->GBSeq_definition))
+			{
+				 $obj->definition = $GBSet->GBSeq_definition;
+			}
+			
 			// get links
 			
 			// sequence links to NCBI taxon, publications, and specimens
@@ -614,6 +625,9 @@ function genbank_xml_to_json($xml)
 										$bold = str_replace('.COI-5P', '', $bold);
 										
 										$obj->links[] = 'http://bins.boldsystems.org/index.php/Public_RecordView?processid=' . $bold;			
+										
+										// Store BOLD to help matching
+										$obj->sample->otherCatalogNumbers[] = $bold;
 									}
 									break;
 									
@@ -644,6 +658,7 @@ function genbank_xml_to_json($xml)
 								case 'organism':
 									$obj->identification->organism = $feature_quals->GBQualifier_value;
 									break;
+
 									
 								// Event -------------------------------------------------
 								case 'collection_date':
@@ -692,6 +707,10 @@ function genbank_xml_to_json($xml)
 								case 'clone':
 									$obj->sample->clone = $feature_quals->GBQualifier_value;
 									break;
+
+								case 'host':
+									$obj->sample->host = $feature_quals->GBQualifier_value;
+									break;
 									
 								case 'isolate':
 									$obj->sample->recordNumber = $feature_quals->GBQualifier_value;
@@ -716,7 +735,7 @@ function genbank_xml_to_json($xml)
 								case 'specimen_voucher':
 									//echo $feature_quals->GBQualifier_value . "\n";
 									$obj->sample->otherCatalogNumbers[] = $feature_quals->GBQualifier_value;
-								
+									
 									// Try to interpret them
 									$matched = false;
 									
@@ -738,6 +757,9 @@ function genbank_xml_to_json($xml)
 											$obj->sample->institutionCode 	= $m['institutionCode'];
 											$obj->sample->collectionCode 	= $m['collectionCode'];
 											$obj->sample->catalogNumber 	= $m['catalogNumber'];
+											
+											$obj->sample->otherCatalogNumbers[] = $obj->sample->institutionCode . ' ' . $obj->sample->catalogNumber ;
+											
 											$matched = true;
 										}
 									}
@@ -819,7 +841,12 @@ function genbank_xml_to_json($xml)
 					$obj->locality->geohash = $geohash->getHash();		
 				}
 				*/
-			}			
+			}
+			
+			
+			// Specimen links?
+			//nucleotide_links($obj->sequence->gi)
+					
 			
 			// references
 			$obj->references = array();
@@ -849,6 +876,8 @@ function genbank_xml_to_json($xml)
 				else
 				{
 					// Reference without identifier
+					
+					
 					// title
 					$reference->title = $GBReference->GBReference_title;
 					
@@ -868,7 +897,18 @@ function genbank_xml_to_json($xml)
 						}
 						
 						if (!$skip)
-						{							
+						{		
+							// Look for identifier
+							$citation = $GBReference->GBReference_title . '. ' . $GBReference->GBReference_journal;
+							
+				
+							$result = crossref_search($citation);
+							if (isset($result->doi))
+							{
+								$reference->doi = $result->doi;
+							}
+						
+											
 							// Parse citation string into component parts							
 							if (preg_match('/(?<journal>.*)\s+(?<volume>\d+)(\s+\((?<issue>.*)\))?,\s+(?<spage>\d+)-(?<epage>\d+)\s+\((?<year>[0-9]{4})\)/', $GBReference->GBReference_journal, $m))
 							{
@@ -914,7 +954,7 @@ function genbank_xml_to_json($xml)
 							
 							// How do we handle "unpublished"?
 							
-							/*
+							
 							// Can we augment with a DOI?
 							$result = crossref_search($reference->title . ' ' . $reference->bibliographicCitation);
 							if ($result)
@@ -924,7 +964,7 @@ function genbank_xml_to_json($xml)
 									$reference->doi = $result->doi;		
 								}
 							}
-							*/
+							
 							
 							
 						}
@@ -953,24 +993,26 @@ function genbank_xml_to_json($xml)
 				}
 			
 			}
-			
-			
-			$objects[] = $obj;
 
 	
 		}
 		
+		$data = new stdclass;
+		$data->message = $obj;
+		
 	}
 	
-	return $objects;
+	
+	
+	return $data;
 
 }
 
 
 //----------------------------------------------------------------------------------------
 function genbank_fetch($id)
-{
-	$objects = array();
+{	
+	$data = null;
 	
 	// API call
 	$parameters = array(
@@ -994,16 +1036,9 @@ function genbank_fetch($id)
 	
 	if ($xml != '')
 	{
-		$objects = genbank_xml_to_json($xml);
+		$data = genbank_xml_to_json($xml);
 	}
-	
-	//print_r($objects);
-	
-	$data = new stdclass;
-	if (count($objects) > 0)
-	{
-		$data->content = $objects[0];
-	}
+
 	return $data;
 
 }
@@ -1017,10 +1052,10 @@ if (1)
 	$accession = 'AP008239'; // unpublished
 	
 	$accession = 'KC860804';
-	$accession = 'GU224788';
-	$accession = 'DQ650615';
-	$accession = 'HQ733947';
-	$accession = 'KF185038';
+	//$accession = 'GU224788';
+	//$accession = 'DQ650615';
+	//$accession = 'HQ733947';
+	//$accession = 'KF185038';
 	
 	//$accession = 'FR686779'; // georeferenced, citation needs DOI
 	//$accession = 'AM779676';
@@ -1029,12 +1064,12 @@ if (1)
 	
 	//$accession = 'EU139271.1';
 	
-	$accession = 'AB332438'; // plankton sample
+	//$accession = 'AB332438'; // plankton sample
 	
-	$accession = 'KP420745'; //Little Barrier next gen
-	$accession = 'AB333773';
+	//$accession = 'KP420745'; //Little Barrier next gen
+	//$accession = 'AB333773';
 	
-	$accession = 'GQ260888'; // barcode crustacean
+	//$accession = 'GQ260888'; // barcode crustacean
 	
 	//$accession = 'AJ556909'; // in press, actually published in BioStor http://biostor.org/reference/144878
 	
@@ -1042,10 +1077,25 @@ if (1)
 	
 	//$accession = 'FJ769122';
 	
-	$accession = 'HQ600867';
+	//$accession = 'HQ600867';
+	
+	//$accession = 'JN107891'; // host
+	//$accession = 'JF434865';
+	
+	$accession = 'KF268949'; // Zika virus with mosquito host Aedes opok
+	
+	//$accession = 'EF543742';
+	
+	//$accession = 'HM067338'; //Limnonectes cf. kuhlii 'lineage 9', CAS 235132, georeferenced in GBIF
+	
+	//$accession = 'HQ600867';
+	
+//	$accession = 'EU139271'; // barcode
 	
 	$data = genbank_fetch($accession);
-	print_r($data->content);
+	print_r($data);
+	
+	echo json_encode($data);
 	
 }
 
@@ -1053,16 +1103,11 @@ if (0)
 {
 	// JN270496
 	$xml = file_get_contents('JQ173912.xml');
-	$xml = file_get_contents('JN270496.xml');
+	//$xml = file_get_contents('JN270496.xml');
 	
 	//echo $xml;
-	$objects = genbank_xml_to_json($xml);
-	$data = new stdclass;
-	if (count($objects) > 0)
-	{
-		$data->content = $objects[0];
-	}
-	print_r($data->content);
+	$data = genbank_xml_to_json($xml);
+	print_r($data);
 	
 }
 
