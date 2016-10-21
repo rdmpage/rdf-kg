@@ -44,6 +44,14 @@ $urls = array(
 'http://www.ncbi.nlm.nih.gov/nuccore/146428523'
 );
 
+// DNA barcode paper
+$urls = array(
+'http://www.gbif.org/occurrence/883514761',
+'http://www.gbif.org/occurrence/1080492017',
+'http://www.ncbi.nlm.nih.gov/nuccore/GU655831',
+'http://bins.boldsystems.org/index.php/Public_RecordView?processid=GWORH520-09'
+);
+
 
 $force = false;
 $force = true;

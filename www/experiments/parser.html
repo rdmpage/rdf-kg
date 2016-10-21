@@ -5,7 +5,7 @@
 	<title>Taxon name parser</title>
 </head>
 <body>
-
+<p id="name"></p>
 
 <script>
 
@@ -357,6 +357,9 @@ n = 'Helicobacter pylori (Marshall et al. 1985) Goodwin et al. 1989';
 
 n = 'Aedes (Stegomyia) opok Corbet & van Someren 1962';
 
+
+document.getElementById("name").innerHTML = n;
+
 //n = 'Gonocephalus borneensis — MANTHEY & GROSSMANN 1997: 179';
 //n = 'Dennyus (Collodennyus) distinctus timjonesi Clayton, Price & Page, 1996';
 
@@ -373,5 +376,9 @@ p.parse(n);
 
 
 </script>
+
+
+
+
 </body>
 </html>
