@@ -6,6 +6,7 @@
 </head>
 <body>
 <p id="name"></p>
+<p id="result"></p>
 
 <script>
 
@@ -254,6 +255,11 @@ Parser.prototype.parse = function(string)
 		+ "(\\s(" + this.EPHITHET + "))?"
 		
 		/*
+		+ "( (" + this.RANK_MARKER_SPECIES + "))?" 
+		+ "(.*)"
+		*/
+		
+		/*
 				
 		 + "(("
 		  // #6 strip out intermediate, irrelevant authors or infraspecific ranks in case of quadnomials
@@ -328,12 +334,54 @@ Parser.prototype.parse = function(string)
 				*/
 				
 			}
+
+			// species
+			if (m[8]) {
+				details.species = {};
+				details.species.epitheton = m[8];
+				
+				/*
+				if (m[17] && !m[3] &&!m[8]) {
+				  details.genus.epitheton = m[17];
+				*/
+				
+			}
 			
+			// basionymAuthorTeam
+			if (m[10]) {
+				details.basionymAuthorTeam = {};
+				details.basionymAuthorTeam.authorTeam = m[10];
+				
+				if (m[12]) {
+					details.basionymAuthorTeam.year = m[12];
+				}
+				
+				
+				/*
+				if (m[17] && !m[3] &&!m[8]) {
+				  details.genus.epitheton = m[17];
+				*/
+				
+			}
+			
+
+			if (m[14]) {
+				details.authorTeam = {};
+				details.authorTeam.authorTeam = m[14];
+				
+				if (m[15]) {
+					details.authorTeam.year = m[15];
+				}
+			}
+
 			
 			result.details.push(details);
 
 
-			console.log(JSON.stringify(result, null, 2));
+			//console.log(JSON.stringify(result, null, 2));
+			
+			document.getElementById("result").innerHTML = '<pre>' + JSON.stringify(result, null, 2) + '</pre>';
+
     	
     	}
       	
@@ -347,18 +395,17 @@ Parser.prototype.parse = function(string)
 var p = new Parser();
 var n = 'Myopterus daubentonii subsp. albatus Thomas, 1915';
 
-n = 'Scepomycter rubehoensis  Bowie - Fjeldsa &Kiure SKÖAR 2009';
+//n = 'Scepomycter rubehoensis Bowie-Fjeldsa & Kiure SKÖAR 2009';
 
 n = 'ARTHOPYRENIA hyalospora X Hydnellum scrobiculatum ÖSKAR 1999';
 n = 'Uromastyx alfredschmidti WILMS & BÖHME, 2001';
-n = 'Xiphocolaptes carajaensis (Silva, Novaes & Oren 2002 )';
-n = 'Ficedula beijingnica Guangmei, Zhang, Yaniun et Dongsheng, 2000';
-n = 'Helicobacter pylori (Marshall et al. 1985) Goodwin et al. 1989';
+//n = 'Xiphocolaptes carajaensis (Silva, Novaes & Oren 2002)';
+//n = 'Ficedula beijingnica Guangmei, Zhang, Yaniun et Dongsheng, 2000';
+//n = 'Helicobacter pylori (Marshall et al. 1985) Goodwin et al. 1989';
 
-n = 'Aedes (Stegomyia) opok Corbet & van Someren 1962';
+//n = 'Aedes (Stegomyia) opok Corbet & van Someren 1962';
 
 
-document.getElementById("name").innerHTML = n;
 
 //n = 'Gonocephalus borneensis — MANTHEY & GROSSMANN 1997: 179';
 //n = 'Dennyus (Collodennyus) distinctus timjonesi Clayton, Price & Page, 1996';
@@ -367,10 +414,11 @@ document.getElementById("name").innerHTML = n;
 //n = 'Myopterus daubentonii Thomas, 1915';
 
 
+document.getElementById("name").innerHTML = n;
 
 
 
-//p.normalise(n);
+n = p.normalise(n);
 p.parse(n);
 
 
