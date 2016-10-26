@@ -119,19 +119,7 @@
       "id": "figures",
       "type": "view",
       "nodes": [
-        "figure_1",
-        "video_1",
-        "figure_2",
-        "figure_3",
-        "figure_4",
-        "figure_5",
-        "figure_6",
-        "video_2",
-        "video_3",
-        "figure_7",
-        "figure_8",
-        "figure_9",
-        "figure_10"
+        "figure_1"
       ]
     },
     "citations": {
@@ -3110,7 +3098,7 @@
       "id": "caption_1",
       "source_id": null,
       "type": "caption",
-      "title": "paragraph_45",
+      
       "children": [
         "paragraph_46",
         "paragraph_47"

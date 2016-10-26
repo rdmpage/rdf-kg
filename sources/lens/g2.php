@@ -662,10 +662,42 @@ foreach ($nodeCollection as $node)
 		$caption->id = 'caption_' . $caption_count;
 		$caption->type = "caption";
 		$caption->source_id = null;
-		$caption->title = null;
+		//$caption->title = null;
 		$caption->children = array();
 		
 		// to do
+		$nc2 = $xpath->query ('p', $n);
+		foreach ($nc2 as $n2)
+		{
+		
+			$text_count++;
+			$text = new stdclass;
+			$text->id = "text_" . $text_count;
+			$text->type = "text";
+			$text->content = '';
+
+			$paragraph_count++;
+			$paragraph = new stdclass;
+			$paragraph->id = "paragraph_" . $paragraph_count;
+			$paragraph->type = "paragraph";
+			$paragraph->children = array();
+			$paragraph->children[] = $text->id;
+			$paragraph->source_id = null;
+	
+			$text->content = $n2->nodeValue;
+		
+			$document->nodes->{$text->id} 		= $text;
+			$document->nodes->{$paragraph->id}	= $paragraph;
+	
+			$caption->children[] 	= $paragraph->id;
+		
+		
+		
+		
+		}
+		
+		
+		
 		
 		
 		$figure->caption = $caption->id;
