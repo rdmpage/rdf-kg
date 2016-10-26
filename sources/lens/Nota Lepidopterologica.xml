@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">Nota Lepidopterologica</journal-id>
+            <journal-title-group>
+                <journal-title xml:lang="en">Nota Lepidopterologica</journal-title>
+                <abbrev-journal-title xml:lang="en">Nota lepi.</abbrev-journal-title>
+            </journal-title-group>
+            <issn pub-type="ppub">0342-7536</issn>
+            <issn pub-type="epub">2367-5365</issn>
+            <publisher>
+                <publisher-name>Pensoft Publishers</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.3897/nl.37.7954</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Research article</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kurmanjiana</tp:taxon-name-part></tp:taxon-name></italic>, a new species from the Kopet-Dagh Mountains (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geometridae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Larentiinae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Rajaei Sh.</surname>
+                        <given-names>Hossein</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="A1">1</xref>
+                    <uri content-type="zoobank" xlink:type="simple">http://zoobank.org/285EFEE6-031E-4F9E-9A05-6762B368E8AA</uri>
+                </contrib>
+                <contrib contrib-type="author" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>László</surname>
+                        <given-names>Gyula M.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="A2">2</xref>
+                    <uri content-type="zoobank" xlink:type="simple">http://zoobank.org/50CAA370-A89A-488E-A635-1B2D6FD71001</uri>
+                </contrib>
+            </contrib-group>
+            <aff id="A1">
+                <label>1</label>Biocentre Grindel and Zoological Museum, University of Hamburg, Martin-Luther-King-Platz 3, 20146 Hamburg, Germany; Stuttgart State Museum of Natural History, Rosenstein 1, 70191 Stuttgart; hossein.rajaei.shoorcheh@uni-hamburg.de
+            </aff>
+            <aff id="A2">
+                <label>2</label>Fadrusz u. 25, H-1114 Budapest, Hungary
+            </aff>
+            <author-notes>
+                <fn fn-type="edited-by">
+                    <p>Subject Editor: Sven Erlacher</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="collection">
+                <year>2014</year>
+            </pub-date>
+            <pub-date pub-type="epub">
+                <day>15</day>
+                <month>6</month>
+                <year>2014</year>
+            </pub-date>
+            <volume>37</volume>
+            <issue>1</issue>
+            <fpage>37</fpage>
+            <lpage>42</lpage>
+            <history>
+                <date date-type="received">
+                    <day>19</day>
+                    <month>11</month>
+                    <year>2013</year>
+                </date>
+                <date date-type="accepted">
+                    <day>10</day>
+                    <month>3</month>
+                    <year>2014</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>Hossein Rajaei Sh., Gyula M. László</copyright-statement>
+                <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+                    <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="zoobank" xlink:type="simple">http://zoobank.org/E9C4F2AA-0CA7-4147-B8E2-B748A38F2154</self-uri>
+            <abstract>
+                <label>Abstract</label>
+                <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kurmanjiana</tp:taxon-name-part></tp:taxon-name></italic> sp. n. is described from the Kopet-Dagh Mountains in Northeast Iran and South Turkmenistan. The new species is considered to be closely related to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic> (Wardikian, 1957) described from Armenia. Detailed description of the external morphology and the genitalia characters of the male with six colour photographs and two illustrations of genitalia are provided.</p>
+            </abstract>
+        </article-meta>
+    </front>
+    <body>
+        <sec sec-type="Introduction">
+            <title>Introduction</title>
+            <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part></tp:taxon-name></italic> Hübner, 1825, is a widely distributed genus occurring from North Africa throughout Europe to the Pacific East Asia, South Africa and Southern America (<xref ref-type="bibr" rid="B2">Parsons et al. 1999</xref>; <xref ref-type="bibr" rid="B7">Scoble and Hausmann 2007</xref>). Traditionally it belongs to the tribe <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Xanthorhoini</tp:taxon-name-part></tp:taxon-name> of the subfamily <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Larentiinae</tp:taxon-name-part></tp:taxon-name> (Pierce, 1914), but recently it was placed again into the tribe <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Scotopterygini</tp:taxon-name-part></tp:taxon-name> Warren, 1895 (<xref ref-type="bibr" rid="B8">Viidalepp 2011</xref>; <xref ref-type="bibr" rid="B6">Schmidt 2013</xref>). The genus is one of the species-richest larentiine clades, as more than 70 species are known worldwide (<xref ref-type="bibr" rid="B7">Scoble and Hausmann 2007</xref>).</p>
+            <p>In the course of a recent taxonomic revision of the subfamily <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Larentiinae</tp:taxon-name-part></tp:taxon-name> (<xref ref-type="bibr" rid="B4">Rajaei Sh. 2012</xref>) and after re-describing and publishing the new records of the poorly known <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic> (Wardikian, 1957) (<xref ref-type="bibr" rid="B3">Rajaei Sh. and Stüning 2012</xref>), two peculiar <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>-like specimens have been discovered in the Zoological State Collection of Bavarian State and the private collection of Gyula M. László, collected in the Iranian and Turkmenian sides of the Kopet-Dagh Mountains. Although these two specimens are undeniably closely related to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>, their wing pattern and the genitalic characters show remarkable differences in comparison to those of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>. In addition, the Kopet-Dagh, where the two specimens were collected, is about 1000 km from the known range of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>, which is distributed in South Armenia, West Iran and East Turkey, supporting the taxonomic separation of the examined specimens. These observations led the authors to a description of a new species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kurmanjiana</tp:taxon-name-part></tp:taxon-name></italic> sp. n. from the specimens from the Kopet-Dagh Mts as a potential sister species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+            <!--PageBreak-->
+        </sec>
+        <sec sec-type="methods">
+            <title>Methods</title>
+            <p>Genitalia of the examined specimens were dissected following standard procedures (<xref ref-type="bibr" rid="B5">Robinson 1976</xref>). Permanent genitalia slides were studied and photographed with a digital stereo-microscope (ZEISS-SteREO: Discovery.V20) in ZFMK. The specimens examined in this study are deposited in the following collections (acronyms after <xref ref-type="bibr" rid="B1">Evenhuis and Samuelson 2007</xref>): ZFMK – Zoologisches Forschungsmuseum Alexander Koenig, Bonn, Germany; ZSM – Zoologische Staatssammlung München, Germany; HMIM – Hayk Mirzayans Insect Museum, Tehran, Iran; LG – number of genitalia slide made by Gy. M. László.</p>
+         </sec>
+        <tp:taxon-treatment>
+            <tp:treatment-meta>
+                <kwd-group>
+                    <label>Taxon classification</label>
+                    <kwd><named-content content-type="kingdom" xlink:type="simple">Animalia</named-content></kwd>
+                    <kwd><named-content content-type="order" xlink:type="simple">Lepidoptera</named-content></kwd>
+                    <kwd><named-content content-type="family" xlink:type="simple">Geometridae</named-content></kwd>
+                </kwd-group>
+            </tp:treatment-meta>
+            <tp:nomenclature>
+                <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part>
+                </tp:taxon-name>
+                <tp:taxon-authority>(Wardikian, 1957)</tp:taxon-authority>
+                <xref ref-type="fig" rid="F1">Figs 3</xref><xref ref-type="fig" rid="F1">, 4</xref><xref ref-type="fig" rid="F2">, 6</xref>
+            </tp:nomenclature>
+            <tp:treatment-sec sec-type="Material">
+                <title>Material.</title>
+                <p><bold>Iran:</bold> 2 ♂: Basmendj [NW Iran, SE Tabriz], 15.x. [19]74, [leg.] Damanabi, gen. preps slide Nos: 1063 &amp; 1064/2010 H. Rajaei (coll. HMIM). 3 ♂, Prov. Azerbayejan, E-Garbi, 11 km S of Shoet, 1350m, 31.x-01.xi.2003, leg. P. Gyulai &amp; A. Garai, slide No.: LG 2834; 1 ♂, Prov. Esfahan, 2750m, C-Zagros, Golestan Khuh, 10 km S of Khansar, 10-11.x.2001, leg. P. Gyulai &amp; A. Garai, slide No.: LG 2339; 10 ♂, same data, but collected at 27-28.x.2003; 1 ♂, Prov. Esfahan, 7 km NW of Natanz, (to Kashan), Kuh-e-Karkas, 1500m, 18-19.x.2003, leg. P. Gyulai &amp; A. Garai; 5 ♂, Prov. Esfahan, C-Zagros, 2600m, 2 km NE of Semirom, 20-21.x.2003, leg. P. Gyulai &amp; A. Garai, slide Nos: LG 2832, 2833 (coll. Gy. M. László). <bold>Turkey:</bold> 2 ♂, Ost Türkei, Van, 2700 m, Güzeldere Pass, 28.ix.1981, leg. P. Kuhna, gen. prep. slide No.: 3074, P. Kuhna; 1 ♂: Prov. Bitlis, Van Gölü, 19 km E of Ahlat, 1700 m, <named-content content-type="dwc:verbatimCoordinates">42°34‘ E, 38°46‘ N</named-content>, 18.x.1993, leg. Gy. Fábián, B. Herczig, Gy. László and K. Szeőke, (coll. ZFMK). 4 ♂, Prov. Bitlis, Van Gölü, 19 km E of Ahlat, 1700 m, <named-content content-type="dwc:verbatimCoordinates">42°34’ E, 38°46’ N</named-content>, 18.x.1993, leg. Gy. Fábián, B. Herczig, Gy. László and K. Szeőke, slide No. 394 Gy. M. László; 1 ♂, Prov. Dogubayazit, Ishak Pasha Serayi near Dogubayazit, 14–15.x.2003, leg. P. Gyulai &amp; A. Garai (coll. Gy. M. László).</p>
+            </tp:treatment-sec>
+            <tp:treatment-sec sec-type="Remarks">
+                <title>Remarks.</title>
+                <p>A large series of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic> specimens was examined in order to determine the individual variability of morphological characters within this species. As a supplementary result of this survey, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic> has been recorded from several new localities, extending our knowledge of its distribution.</p>
+            </tp:treatment-sec>
+        </tp:taxon-treatment>
+        <tp:taxon-treatment>
+            <tp:treatment-meta>
+                <kwd-group>
+                    <label>Taxon classification</label>
+                    <kwd><named-content content-type="kingdom" xlink:type="simple">Animalia</named-content></kwd>
+                    <kwd><named-content content-type="order" xlink:type="simple">Lepidoptera</named-content></kwd>
+                    <kwd><named-content content-type="family" xlink:type="simple">Geometridae</named-content></kwd>
+                </kwd-group>
+            </tp:treatment-meta>
+            <tp:nomenclature>
+                <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species">kurmanjiana</tp:taxon-name-part>
+                    <object-id content-type="zoobank" xlink:type="simple">http://zoobank.org/ACDC8372-F2A6-445A-BCFF-B555558076E1</object-id>
+                </tp:taxon-name>
+                <tp:taxon-status>sp. n.</tp:taxon-status>
+                <xref ref-type="fig" rid="F1">Figs 1</xref><xref ref-type="fig" rid="F1">, 2</xref><xref ref-type="fig" rid="F2">, 5</xref>
+            </tp:nomenclature>
+            <tp:treatment-sec sec-type="Material">
+                <title>Material.</title>
+                <p>Holotype ♂, <bold>Turkmenistan</bold>, SW Kopetdagh, Garrygala env. 1994.xi.15-30, Leg. Miatleuski J., slide No.: LG 1747 (ZSM). Paratype: 1 ♂, <bold>Iran</bold>, Prov. Khorasan, Kopet-Dagh Mts, 80 km NE of Qucan [Quchan], 1900 m, <named-content content-type="dwc:verbatimCoordinates">37°28‘ N, 58°34‘ E</named-content>, 30.x.2000, leg. B. Benedek &amp; Gy. Fábián, slide No. LG 1746 (coll. Gy. M. László).</p>
+            </tp:treatment-sec>
+            <tp:treatment-sec sec-type="Description">
+                <title>Description.</title>
+                <p><bold>(<xref ref-type="fig" rid="F1">Figs 1</xref>, <xref ref-type="fig" rid="F1">2</xref>).</bold> Male: Wingspan 28–33 mm (Length of forewing: 16–18 mm). Antenna bipectinate from base to tip, except 2–3 distal segments, rami moderately long, black, dorsally unscaled, arising ventrally from the proximal end of the flagellum segments. Head, thorax and abdomen covered with mixed brown-white scales. Frons broad, slightly protruding, lower part smoothly covered with very small dark brown scales, upper margin covered with mix of whitish and pale brown scales; vertex with large white and pale brown scales. Chaeto<!--PageBreak-->semata transversally extended. Palpi short and narrow, acute at tip, just reaching beyond the clypeus. Haustellum almost completely reduced. Index of spurs: 0-2-4. Forewings elongated, apex and tornus rounded; apical patch absent; ground colour pale greyish-brown; basal area and medial band slightly darker, edged with dark brown. Basal line indented. Antemedial line roundly curved in the middle, with two moderately acute incisions. Medial line shadow-like, poorly visible, median area uniformly pale greyish-brown, discal spot small, blackish, sharply defined. Postmedial line wavy, roundly curved outwards in the middle. Submarginal line blurred, poorly visible. Hindwings oval, elongated, cream-brown, crossline absent, discal spot very small, poorly visible. Fringes in both wings unicolorous and consisting of a row of shorter and darker basal scales and a row of longer and lighter terminal scales. Underside pale greyish <!--PageBreak-->brown, generally paler than upperside, basal area and middle band darker, patterns of upper side partly visible. Underside of the hindwing even paler than that of the forewing. Abdomen long, narrow, light grey. Coremata absent.</p>
+                <fig id="F1" position="float" orientation="portrait">
+                    <label>Figures 1–4.</label>
+                    <caption><p>Wing pattern of adults (males). 1-2: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kurmanjiana</tp:taxon-name-part></tp:taxon-name></italic> sp. n. 1. Holotype; NE Quchan, Iran; 2. Paratype; Garrygala, S Turkmenistan; 3-4: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>. 3. Guzeldere Pass, E. Turkey; 4. Basmendj, NW Iran; a: dorsal view, b: ventral view.</p></caption>
+                    <graphic xlink:href="nota_lepi_-037-037-g001.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_8153.jpg"/>
+                </fig>
+                <p><bold>Male genitalia (<xref ref-type="fig" rid="F2">Fig. 5</xref>).</bold> Vinculum rather short and broad, gently rounded. Valva short, broad at the base, sacculus well sclerotized, slightly arched, having conspicuous, trapezoidal apical lobe. Distal margin of valva broadly rounded, setose; costal margin strongly sclerotized, slightly arcuate, with an apically rounded, finger-like apical process surpassing the distal edge of valva. Transtilla present, curved, band-like. Uncus broad at base, triangular with narrow, acute tip, curved ventrad. Anellus lobes conically elongated, distally rounded, setose. Juxta X-shaped. <!--PageBreak-->Phallus tubular, slightly longer than valva, gently curved, distal half covered with the densely spined part of manica, apically with a well-developed finger-like process of carina; vesica bears a bunch (over 10) of broad-based, strongly sclerotized cornuti.</p>
+                <fig id="F2" position="float" orientation="portrait">
+                    <label>Figures 5–6.</label>
+                    <caption><p>Male genitalia. 5. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kurmanjiana</tp:taxon-name-part></tp:taxon-name></italic> sp. n., Holotype (Slide No.: LG 1747 M; S Turkmenistan); 6. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic> (Slide No.: 1063 H. Rajaei; NW Iran); a: genital armature, b: phallus. Abbreviations: an.lob. Anellus lobe; cos. Costa; tr. Transtilla; unc. Uncus; v. Valva.</p></caption>
+                    <graphic xlink:href="nota_lepi_-037-037-g002.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_8154.jpg"/>
+                </fig>
+                <p><bold>Female.</bold> Unknown.</p>
+            </tp:treatment-sec>
+            <tp:treatment-sec sec-type="Diagnosis">
+                <title>Diagnosis</title>
+                <p>(<xref ref-type="fig" rid="F1">Figs 1</xref>–<xref ref-type="fig" rid="F2">6</xref>). According to its morphological and genital features, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kurmanjiana</tp:taxon-name-part></tp:taxon-name></italic> appears to be closely related to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic> but is nevertheless easily distinguishable by several characters (for the distinctive features between <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic> and other related <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part></tp:taxon-name></italic> species see <xref ref-type="bibr" rid="B3">Rajaei Sh. and Stüning 2012</xref>). External features: the new species has less protruded frons in comparison with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic> and in general less shiny wing surface; the transverse lines are much less sharply defined, lacking the white highlight, which is very characteristic in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>; the median area is much paler, less contrasting in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kurmanjiana</tp:taxon-name-part></tp:taxon-name></italic>; the submarginal line is inconspicuous, more or less shadow-like, whereas it is sharply defined with whitish scales in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>; the discal spots are present in both wings while these are absent in the hindwings of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>. The apical patch of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kurmanjiana</tp:taxon-name-part></tp:taxon-name></italic> is indistinct while a whitish triangular patch is present in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>; the fringes are uniformly whitish-grey, while they are chequered with dark brown in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>. Finally, the hindwing of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kurmanjiana</tp:taxon-name-part></tp:taxon-name></italic> is unicolorous, without transverse line or band, while a well-defined dark-grey medial band is present in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+                <p>The specific differences between the two species are well expressed in genitalia (see the <xref ref-type="fig" rid="F2">Figs 5a</xref> and <xref ref-type="fig" rid="F2">6a</xref>): the new species has shorter and smaller apical lobe of sacculus, more sclerotized, much thinner costal margin of valva with conspicuously shorter and apically more tapering costal process, broader base of uncus, somewhat more strongly sclerotized and differently shaped juxta. The distal half of the phallus of the new species is covered with densely spined part of manica, while the spinose part of manica is only one third of the length of the phallus in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>. Finally, the vesica of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kurmanjiana</tp:taxon-name-part></tp:taxon-name></italic> is armed by more than 10 well-sclerotized cornuti, while the number of cornuti in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic> is fewer than five.</p>
+            </tp:treatment-sec>
+            <tp:treatment-sec sec-type="Bionomy">
+                <title>Bionomy.</title>
+                <p>The known specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kurmanjiana</tp:taxon-name-part></tp:taxon-name></italic> were collected in the late autumn, similarly to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic>. The foodplant and the early stages are unknown.</p>
+            </tp:treatment-sec>
+            <tp:treatment-sec sec-type="Distribution">
+                <title>Distribution.</title>
+                <p>The species is known to occur on both sides of Kopet-Dagh Mountains in NE Iran and S Turkmenistan.</p>
+            </tp:treatment-sec>
+            <tp:treatment-sec sec-type="Etymology">
+                <title>Etymology.</title>
+                <p>The name of the species is dedicated to the Kurmanj people in northeastern Iran. This Kurdish tribe migrated from Kurdistan and settled in Khorasan-e Shomali, mainly in Quchan, Shirvan and Bojnurd.</p>
+            </tp:treatment-sec>
+        </tp:taxon-treatment>
+    </body>
+    <back>
+        <ack>
+            <title>Acknowledgements</title>
+            <p>The authors are indebted to Dr. Axel Hausmann (Munich), Dr. Dieter Stüning (Bonn) and Dr. Helen Alipanah (Tehran) for their kind loan of material. We are also grateful to Dr. László Ronkay for his useful advices during the preparation of the manuscript.</p>
+        </ack>
+        <ref-list>
+            <title>References</title>
+            <ref id="B1"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Evenhuis</surname> <given-names>NL</given-names></name><name name-style="western"><surname>Samuelson</surname> <given-names>A</given-names></name></person-group> (<year>2007</year>) <source>The Insect and Spider Collections of the World website of the Bishop Museum, Honolulu, Hawaii</source>. <ext-link ext-link-type="uri" xlink:href="http://hbs.bishopmuseum.org/codens/codens-r-us.html">http://hbs.bishopmuseum.org/codens/codens-r-us.html</ext-link> <date-in-citation content-type="access-date">[accessed on Oct. 7, 2013]</date-in-citation></mixed-citation></ref>
+            <!--PageBreak-->
+            <ref id="B2"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Parsons</surname> <given-names>MS</given-names></name><name name-style="western"><surname>Scoble</surname> <given-names>MJ</given-names></name><name name-style="western"><surname>Honey</surname> <given-names>HR</given-names></name><name name-style="western"><surname>Pitkin</surname> <given-names>LM</given-names></name><name name-style="western"><surname>Pitkin</surname> <given-names>RB</given-names></name></person-group> (<year>1999</year>) <chapter-title>The Catalogue</chapter-title>. In: <person-group><name name-style="western"><surname>Scoble</surname> <given-names>MJ</given-names></name></person-group> (<role>Ed</role>) <source>Geometrid Moths of the World: A catalogue (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geometridae</tp:taxon-name-part></tp:taxon-name>).</source> <publisher-name>CSIRO Publishing</publisher-name>, <publisher-loc>Collingwood</publisher-loc>, <size units="page">1046 pp</size>.</mixed-citation></ref>
+            <ref id="B3"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Rajaei Sh.</surname> <given-names>H</given-names></name><name name-style="western"><surname>Stüning</surname> <given-names>D</given-names></name></person-group> (<year>2012</year>) <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scotopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kuznetzovi</tp:taxon-name-part></tp:taxon-name></italic> (Wardikian, 1957) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geometridae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Larentiinae</tp:taxon-name-part></tp:taxon-name>), a new species for the fauna of Iran and Turkey.</article-title> <source>Bonn zoological Bulletin</source> <volume>61</volume>(<issue>1</issue>): <fpage>135</fpage>–<lpage>139</lpage>.</mixed-citation></ref>
+            <ref id="B4"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Rajaei Sh.</surname> <given-names>H</given-names></name></person-group> (<year>2012</year>) <source>Modules to the Biodiversity of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geometridae</tp:taxon-name-part></tp:taxon-name> of Iran (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>), using classical methods and DNA techniques (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Larentiinae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Ennominae</tp:taxon-name-part></tp:taxon-name> partim)</source>. <comment>PhD thesis</comment>, <publisher-name>Bonn university-Germany</publisher-name>.</mixed-citation></ref>
+            <ref id="B5"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Robinson</surname> <given-names>GS</given-names></name></person-group> (<year>1976</year>) <article-title>The preparation of slides of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name> genitalia with special reference to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Microlepidoptera</tp:taxon-name-part></tp:taxon-name>.</article-title> <source>Entomologist’s Gazette</source> <volume>27</volume>: <fpage>127</fpage>–<lpage>132</lpage>.</mixed-citation></ref>
+            <ref id="B6"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Schmidt</surname> <given-names>O</given-names></name></person-group> (<year>2013</year>) <article-title>The structure and musculature of male terminalia in the tribe <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Xanthorhoini</tp:taxon-name-part></tp:taxon-name> Pierce and related tribes (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geometridae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Larentiinae</tp:taxon-name-part></tp:taxon-name>), with particular reference to the Palaearctic and Australian regions.</article-title> <source>Zootaxa</source> <volume>3721</volume>(<issue>6</issue>): <fpage>552</fpage>–<lpage>572</lpage>.</mixed-citation></ref>
+            <ref id="B7"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Scoble</surname> <given-names>MJ</given-names></name><name name-style="western"><surname>Hausmann</surname> <given-names>A</given-names></name></person-group> [updated <year>2007</year>] <source>Online list of valid and available names of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geometridae</tp:taxon-name-part></tp:taxon-name> of the World</source>. <ext-link ext-link-type="uri" xlink:href="http://lepbarcoding.org/geometridae/species_checklists.php">http://lepbarcoding.org/geometridae/species_checklists.php</ext-link> <date-in-citation content-type="access-date">[accessed on March 5, 2012]</date-in-citation></mixed-citation></ref>
+            <ref id="B8"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Viidalepp</surname> <given-names>J</given-names></name></person-group> (<year>2011</year>) <article-title>A morphological review of tribes in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Larentiinae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geometridae</tp:taxon-name-part></tp:taxon-name>).</article-title> <source>Zootaxa</source> <volume>3136</volume>: <fpage>1</fpage>–<lpage>44</lpage>.</mixed-citation></ref>
+            <ref id="B9"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Wardikian</surname> <given-names>CA</given-names></name></person-group> (<year>1957</year>) <article-title>Novyj vid pjadenitsy iz roda <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ortholitha</tp:taxon-name-part></tp:taxon-name></italic> Hb. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geometridae</tp:taxon-name-part></tp:taxon-name>) iz Armjanskoj SSR</article-title> [<trans-title xml:lang="en">A new geometrid moth species of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ortholitha</tp:taxon-name-part></tp:taxon-name></italic> Hb. of the Armenian SSR</trans-title>]. <source>Doklady Akademii Nauk Armjanskoj SSR</source> [<trans-source xml:lang="en">Berichte der Akademie der Wissenschaften der Armenischen SSR</trans-source>] <volume>25</volume>: <fpage>281</fpage>–<lpage>283</lpage>. <comment>[in Russian]</comment></mixed-citation></ref>
+        </ref-list>
+    </back>
+</article>
