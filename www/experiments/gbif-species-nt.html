@@ -1,0 +1,138 @@
+<html>
+	<head>
+		<title>GBIF species to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<script src="shared.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>GBIF species  to n-triples</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>JSON</h2>
+
+<!-- JSON for data object goes below -->
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+			{"key":3257628,"nubKey":3257628,"nameKey":4500634,"taxonID":"gbif:3257628","sourceTaxonKey":107405659,"kingdom":"Animalia","phylum":"Arthropoda","order":"Lepidoptera","family":"Nymphalidae","genus":"Forsterinaria","kingdomKey":1,"phylumKey":54,"classKey":216,"orderKey":797,"familyKey":7017,"genusKey":3257628,"datasetKey":"d7dddbf4-2cf0-4f39-9b2a-bb099caae36c","constituentKey":"0938172b-2086-439c-a1dd-c21cb0109ed5","parentKey":7017,"parent":"Nymphalidae","scientificName":"Forsterinaria Gray, 1973","canonicalName":"Forsterinaria","authorship":"Gray, 1973","nameType":"SCIENTIFIC","rank":"GENUS","origin":"SOURCE","taxonomicStatus":"ACCEPTED","nomenclaturalStatus":[],"remarks":"","numDescendants":8,"lastCrawled":"2016-07-25T16:54:25.896+0000","lastInterpreted":"2016-07-25T15:48:45.258+0000","issues":[],"synonym":false,"class":"Insecta"}
+			</textarea>
+			<br />
+			<button onclick="convert()">Convert</button>
+		
+	
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;color:#222;"></div>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;"></div>
+	</div>
+
+</div>
+
+		<script>
+		
+
+
+		
+function gbif_data(doc) {
+  var triples = [];
+
+  var cluster_id = 'http://www.gbif.org/species/' + doc.key;
+
+	triples.push(triple(cluster_id,
+              'http://purl.org/dc/terms/identifier',
+              cluster_id));
+           
+
+
+  // fields
+  for (var i in doc) {
+    switch (i) {
+
+	// issues as tags
+      case 'issues':
+        for (var j in doc[i]) {
+            triples.push(triple(cluster_id,
+              'http://schema.org/about',
+              doc[i][j]));
+        }
+        break;
+	
+
+        // title can be string or array
+      case 'canonicalName':
+            triples.push(triple(cluster_id,
+              'http://schema.org/name',
+              doc[i]));
+        break;
+        
+        
+      case 'authorship':
+			triples.push(triple(cluster_id,
+              'http://rs.tdwg.org/dwc/terms/scientificNameAuthorship',
+              doc[i]));      
+      	break;
+      	
+      case 'rank':
+            triples.push(triple(cluster_id,
+              'http://rs.tdwg.org/dwc/terms/taxonRank',
+              doc[i]));
+        break;
+      	
+      	
+      // same in GBIF and DwC
+      case 'scientificName':
+      case 'taxonomicStatus':
+      case 'vernacularName':
+        if (doc[i] != '') {
+			triples.push(triple(cluster_id,
+              'http://rs.tdwg.org/dwc/terms/' + i,
+              doc[i]));      
+        }
+      	break;
+      	
+      case 'parentKey':
+		triples.push(triple(cluster_id,
+              'http://rs.tdwg.org/dwc/terms/parentNameUsageID',
+              'http://www.gbif.org/species/' + doc[i]));       
+        break;
+      	
+      // TDWG LSID vocabulary?
+      
+      // How do we handle names?
+
+
+      default:
+        break;
+    }
+  }
+
+
+  // defaults
+  triples.push(triple(cluster_id,
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+    'http://rs.tdwg.org/dwc/terms/Taxon'));
+
+  output(doc, triples);
+
+}
+		
+			function convert() {
+				var jsonld = $('#json').val();
+				var doc = JSON.parse(jsonld);
+				gbif_data(doc);
+				
+			
+			}
+		</script>
+
+
+</body>
+</html>
