@@ -96,6 +96,12 @@ $filename = 'elife00778.xml';
 
 //$filename = 'ZooKeys-169-001.xml';
 
+$filename = '561352.xml'; // no
+
+$filename = 'pone.0024047.nxml'; // problem with citation clicking
+$filename = '1756-3305-6-221.nxml';
+
+
 $xml = file_get_contents($filename);
 
 $dom= new DOMDocument;
@@ -524,42 +530,7 @@ foreach ($nodeCollection as $node)
 								
 							
 							}
-							
-							/*
-							echo '<pre>';
-							print_r($xref);							
-							echo '</pre>';
-							*/
-							
-							
 						}			
-					
-					// <xref ref-type="bibr" rid="bib19">
-					
-						/*
-					
-						$citation_reference_count++;
-						
-						$citation_reference = new stdclass;
-						$citation_reference->id = $citation_reference_count;
-						$citation_reference->type = "citation_reference";
-						
-						
-"type": "citation_reference",
-      "path": [
-        "text_29",
-        "content"
-      ],
-      "range": [
-        204,
-        222
-      ],
-      "target": "article_citation_9",
-      "id": "citation_reference_62"
-    },						
-				*/	
-					
-					
 						break;
 						
 					default:
@@ -578,13 +549,6 @@ foreach ($nodeCollection as $node)
 			$document->nodes->content->nodes[] 	= $paragraph->id;
 					
 		}
-		
-		// <xref ref-type="bibr" rid="bib19">
-
-		
-			
-
-		
 				
 	}
 	
@@ -798,10 +762,13 @@ foreach ($nodeCollection as $node)
 			$article_citation->title = trim($n2->nodeValue);
 		}
 		
-		// person-group>
+		// person-group
+		$have_people = false;
 		$nc2 = $xpath->query ('person-group/name', $n);
 		foreach ($nc2 as $n2)
 		{
+			$have_people = true;
+			
 			$name = array();
 			$nc3 = $xpath->query ('given-names', $n2);
 			foreach ($nc3 as $n3)
@@ -814,6 +781,27 @@ foreach ($nodeCollection as $node)
 				$name[] = trim($n3->nodeValue);
 			}
 			$article_citation->authors[] = join(' ', $name);
+		}
+		
+		// Not everybody use 'person-group'
+		if (!$have_people)
+		{
+			$nc2 = $xpath->query ('name', $n);
+			foreach ($nc2 as $n2)
+			{
+				$name = array();
+				$nc3 = $xpath->query ('given-names', $n2);
+				foreach ($nc3 as $n3)
+				{
+					$name[] = trim($n3->nodeValue);
+				}
+				$nc3 = $xpath->query ('surname', $n2);
+				foreach ($nc3 as $n3)
+				{
+					$name[] = trim($n3->nodeValue);
+				}
+				$article_citation->authors[] = join(' ', $name);
+			}
 		}
 		
 
