@@ -96,10 +96,12 @@ $filename = 'elife00778.xml';
 
 //$filename = 'ZooKeys-169-001.xml';
 
-$filename = '561352.xml'; // no
+//$filename = '561352.xml'; // no
 
 $filename = 'pone.0024047.nxml'; // problem with citation clicking
-$filename = '1756-3305-6-221.nxml';
+//$filename = '1756-3305-6-221.nxml';
+
+$filename = 'J_Insect_Sci_2015_Apr_15_15(1)_47/iev028.nxml';
 
 
 $xml = file_get_contents($filename);
@@ -116,7 +118,13 @@ $paragraph_count = 0;
 $figure_count = 0;
 $caption_count = 0;
 
+$html_table_count = 0;
+
+$emphasis_count = 0;
+$strong_count = 0;
+
 $citation_reference_count = 0;
+$figure_reference_count = 0;
 
 
 
@@ -172,7 +180,7 @@ $document->nodes->info->nodes = array();
 $nc = $xpath->query ('//article-meta/title-group/article-title', $node);
 foreach ($nc as $n)
 {
-	$document->nodes->document->title = $n->firstChild->nodeValue;
+	$document->nodes->document->title = $n->nodeValue;
 }
 
 
@@ -478,8 +486,11 @@ foreach ($nodeCollection as $node)
 				
 				switch ($children->nodeName)
 				{
-					case 'xref':
-					
+					// eat tables ? does not work...
+					case 'table-wrap':
+						break;
+				
+					case 'xref':					
 						if ($children->hasAttributes()) 
 						{ 
 							$attributes = $children->attributes; 
@@ -504,33 +515,102 @@ foreach ($nodeCollection as $node)
 								}
 							}
 							
-							if ($xref['ref-type'] == 'bibr')
+							switch ($xref['ref-type'])
 							{
-								$citation_reference_count++;
+								case 'bibr':
+									$citation_reference_count++;
 						
-								$citation_reference = new stdclass;
-								$citation_reference->id = 'citation_reference_' . $citation_reference_count;
-								$citation_reference->type = "citation_reference";	
+									$citation_reference = new stdclass;
+									$citation_reference->id = 'citation_reference_' . $citation_reference_count;
+									$citation_reference->type = "citation_reference";	
 								
 														
-								$citation_reference->target = 'article_citation_' . str_replace('bib', '', $xref['rid']);
+									$citation_reference->target = 'article_citation_' . str_replace('bib', '', $xref['rid']);
 								
-								$citation_reference->path = array();
-								$citation_reference->path[] = $text->id;
-								$citation_reference->path[] = "content";
+									$citation_reference->path = array();
+									$citation_reference->path[] = $text->id;
+									$citation_reference->path[] = "content";
 								
-								$citation_reference->range = array();
-								$citation_reference->range[] = $pos;
-								$citation_reference->range[] = $pos + mb_strlen($children->nodeValue, mb_detect_encoding($children->nodeValue));
+									$citation_reference->range = array();
+									$citation_reference->range[] = $pos;
+									$citation_reference->range[] = $pos + mb_strlen($children->nodeValue, mb_detect_encoding($children->nodeValue));
 								
+									$document->nodes->{$citation_reference->id} 		= $citation_reference;
+									break;
+
+								// figures and tables
+								case 'fig':
+								case 'table':
+									$figure_reference_count++;
+						
+									$figure_reference = new stdclass;
+									$figure_reference->id = 'figure_reference_' . $figure_reference_count;
+									$figure_reference->type = "figure_reference";	
 								
+									$id = $xref['rid'];
+									$id = preg_replace('/.*[T|F](\d+)$/', '$1', $id);
+									if ($xref['ref-type'] == 'fig')
+									{
+										$figure_reference->target = 'figure_' . $id;
+									}
+									else
+									{
+										$figure_reference->target = 'html_table_' . $id;									
+									}
 								
-								$document->nodes->{$citation_reference->id} 		= $citation_reference;
+									$figure_reference->path = array();
+									$figure_reference->path[] = $text->id;
+									$figure_reference->path[] = "content";
 								
+									$figure_reference->range = array();
+									$figure_reference->range[] = $pos;
+									$figure_reference->range[] = $pos + mb_strlen($children->nodeValue, mb_detect_encoding($children->nodeValue));
 								
-							
+									$document->nodes->{$figure_reference->id} 		= $figure_reference;
+									break;
+
+									
+								default:
+									break;
 							}
 						}			
+						break;
+						
+					case 'bold':
+						$strong_count++;
+				
+						$strong = new stdclass;
+						$strong->id = 'strong' . $strong_count;
+						$strong->type = "strong";	
+						
+						$strong->path = array();
+						$strong->path[] = $text->id;
+						$strong->path[] = "content";
+						
+						$strong->range = array();
+						$strong->range[] = $pos;
+						$strong->range[] = $pos + mb_strlen($children->nodeValue, mb_detect_encoding($children->nodeValue));
+						
+						$document->nodes->{$strong->id} 		= $strong;					
+						break;
+						
+						
+					case 'italic':
+						$emphasis_count++;
+				
+						$emphasis = new stdclass;
+						$emphasis->id = 'emphasis_' . $emphasis_count;
+						$emphasis->type = "emphasis";	
+						
+						$emphasis->path = array();
+						$emphasis->path[] = $text->id;
+						$emphasis->path[] = "content";
+						
+						$emphasis->range = array();
+						$emphasis->range[] = $pos;
+						$emphasis->range[] = $pos + mb_strlen($children->nodeValue, mb_detect_encoding($children->nodeValue));
+						
+						$document->nodes->{$emphasis->id} 		= $emphasis;					
 						break;
 						
 					default:
@@ -654,70 +734,128 @@ foreach ($nodeCollection as $node)
 			$document->nodes->{$paragraph->id}	= $paragraph;
 	
 			$caption->children[] 	= $paragraph->id;
-		
-		
-		
-		
 		}
-		
-		
-		
-		
-		
 		$figure->caption = $caption->id;
 		
 		$document->nodes->{$caption->id} 	= $caption;
 	}
 	
-	
-	/*
-	
-	 "caption_10": {
-      "id": "caption_10",
-      "source_id": null,
-      "type": "caption",
-      "title": "paragraph_72",
-      "children": [
-        "paragraph_73",
-        "paragraph_74"
-      ]
-    },
-    */
-	
-	//$figure->caption = $figure->label;
-	
-/*
-	$caption_count++;
-	$caption = new stdclass;
-	$caption->id = "caption" . $caption_count;
-	$caption->type = "caption";
-	$text->content = '';
 
-	$paragraph_count++;
-	$paragraph = new stdclass;
-	$paragraph->id = "paragraph_" . $paragraph_count;
-	$paragraph->type = "paragraph";
-	$paragraph->children = array();
-	$paragraph->children[] = $text->id;
-	$paragraph->source_id = null;
-	
-	$nc = $xpath->query ('p', $node);
-	foreach ($nc as $n)
-	{
-		$text->content .= $n->nodeValue;
-	}
-		
-	$document->nodes->{$heading->id} 	= $heading;
-	$document->nodes->{$text->id} 		= $text;
-	$document->nodes->{$paragraph->id}	= $paragraph;
-	
-	$document->nodes->content->nodes[] 	= $heading->id;
-	$document->nodes->content->nodes[] 	= $paragraph->id;
-	
-	*/
 	
 	$document->nodes->{$figure->id} 	= $figure;
 	$document->nodes->figures->nodes[] 	= $figure->id;
+
+}
+}
+
+//----------------------------------------------------------------------------------------
+if (1)
+{
+// tables
+/*
+    "figure_1": {
+      "type": "figure",
+      "id": "figure_1",
+      "source_id": "fig1",
+      "label": "Figure 1.",
+      "url": "http://cdn.elifesciences.org/elife-articles/00778/jpg/elife00778f001.jpg",
+      "caption": "caption_1",
+      "position": "float"
+    },
+    
+<table-wrap id="iev028-T1" position="float"><label>Table 1.</label>
+<caption><p>Details of the study localities</p></caption>
+<table frame="hsides" rules="groups">...                    
+*/
+$nodeCollection = $xpath->query ('//table-wrap');
+foreach ($nodeCollection as $node)
+{
+	$html_table_count++;
+	$html_table = new stdclass;
+	$html_table->id = "html_table_" . $html_table_count;
+	$html_table->type = "html_table";
+	$html_table->source_id = "";
+	$html_table->label = "";
+	$html_table->title = "";
+	$html_table->content = "";
+	$html_table->caption = null;
+	$html_table->position = "";
+	$html_table->footers = array();
+	
+	$nc = $xpath->query ('@id', $node);
+	foreach ($nc as $n)
+	{
+		$html_table->source_id = $n->firstChild->nodeValue;
+	}
+
+	$nc = $xpath->query ('@position', $node);
+	foreach ($nc as $n)
+	{
+		$html_table->position = $n->firstChild->nodeValue;
+	}
+
+	$nc = $xpath->query ('label', $node);
+	foreach ($nc as $n)
+	{
+		$html_table->label = $n->firstChild->nodeValue;
+	}
+	
+	// table as HTML
+	$nc = $xpath->query ('table', $node);
+	foreach ($nc as $n)
+	{
+		$html_table->content = $n->ownerDocument->saveXML($n); // where $node is your DOMNode	
+	}
+	
+	
+	$nc = $xpath->query ('caption', $node);
+	foreach ($nc as $n)
+	{
+		
+		$caption_count++;
+		
+		$caption = new stdclass;
+		$caption->id = 'caption_' . $caption_count;
+		$caption->type = "caption";
+		$caption->source_id = null;
+		//$caption->title = null;
+		$caption->children = array();
+		
+		// to do
+		$nc2 = $xpath->query ('p', $n);
+		foreach ($nc2 as $n2)
+		{
+		
+			$text_count++;
+			$text = new stdclass;
+			$text->id = "text_" . $text_count;
+			$text->type = "text";
+			$text->content = '';
+
+			$paragraph_count++;
+			$paragraph = new stdclass;
+			$paragraph->id = "paragraph_" . $paragraph_count;
+			$paragraph->type = "paragraph";
+			$paragraph->children = array();
+			$paragraph->children[] = $text->id;
+			$paragraph->source_id = null;
+	
+			$text->content = $n2->nodeValue;
+		
+			$document->nodes->{$text->id} 		= $text;
+			$document->nodes->{$paragraph->id}	= $paragraph;
+	
+			$caption->children[] 	= $paragraph->id;
+		}
+		$html_table->caption = $caption->id;
+		
+		$document->nodes->{$caption->id} 	= $caption;
+	}
+	
+
+	
+	$document->nodes->{$html_table->id} 	= $html_table;
+	$document->nodes->figures->nodes[] 	= $html_table->id;
 
 }
 }
@@ -752,9 +890,29 @@ foreach ($nodeCollection as $node)
 		$article_citation->id = 'article_citation_' . str_replace('bib', '', $article_citation->source_id);
 	}
 	
+	// publication-type="book"
+	
 	$nc = $xpath->query ('mixed-citation|element-citation', $node);
 	foreach ($nc as $n)
 	{
+		$type = 'article';
+		
+		$nc2 = $xpath->query ('@publication-type', $n);
+		foreach ($nc2 as $n2)
+		{
+			switch ($n2->nodeValue)
+			{
+				case 'book':
+					$type = 'book';
+					break;
+					
+				default:
+					$type = 'article';
+					break;
+			}
+		}
+	
+	
 		$nc2 = $xpath->query ('article-title', $n);
 		foreach ($nc2 as $n2)
 		{
@@ -783,7 +941,7 @@ foreach ($nodeCollection as $node)
 			$article_citation->authors[] = join(' ', $name);
 		}
 		
-		// Not everybody use 'person-group'
+		// Not everybody uses 'person-group'
 		if (!$have_people)
 		{
 			$nc2 = $xpath->query ('name', $n);
@@ -808,7 +966,17 @@ foreach ($nodeCollection as $node)
 		$nc2 = $xpath->query ('source', $n);
 		foreach ($nc2 as $n2)
 		{
-			$article_citation->source = trim($n2->firstChild->nodeValue);
+			switch ($type)
+			{
+				case 'book':
+					$article_citation->title = trim($n2->firstChild->nodeValue);
+					break;
+
+				case 'article':
+				default:
+					$article_citation->source = trim($n2->firstChild->nodeValue);
+					break;
+			}
 		}
 
 		$nc2 = $xpath->query ('volume', $n);
@@ -833,6 +1001,18 @@ foreach ($nodeCollection as $node)
 		foreach ($nc2 as $n2)
 		{
 			$article_citation->year = trim($n2->firstChild->nodeValue);
+		}
+
+		$nc2 = $xpath->query ('publisher-name', $n);
+		foreach ($nc2 as $n2)
+		{
+			$article_citation->publisher_name = trim($n2->firstChild->nodeValue);
+		}
+
+		$nc2 = $xpath->query ('publisher-loc', $n);		
+		foreach ($nc2 as $n2)
+		{
+			$article_citation->publisher_location = trim($n2->firstChild->nodeValue);
 		}
 	
 		$article_citation->citation_urls = array();	
@@ -859,6 +1039,14 @@ foreach ($nodeCollection as $node)
 		{
 			$article_citation->doi = trim($n2->firstChild->nodeValue);
 		}
+		
+		$nc2 = $xpath->query ('pub-id[@pub-id-type="pmid"]', $n);
+		foreach ($nc2 as $n2)
+		{
+			$article_citation->pmid = trim($n2->firstChild->nodeValue);
+			$article_citation->citation_urls["PubMed"] = 'http://www.ncbi.nlm.nih.gov/pubmed/' . $article_citation->pmid;
+		}
+		
 		
 	}
 
