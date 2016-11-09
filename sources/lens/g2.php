@@ -99,10 +99,19 @@ $filename = 'elife00778.xml';
 //$filename = '561352.xml'; // no
 
 $filename = 'pone.0024047.nxml'; // problem with citation clicking
-//$filename = '1756-3305-6-221.nxml';
+$filename = '1756-3305-6-221.nxml';
 
+/*
 $filename = 'J_Insect_Sci_2015_Apr_15_15(1)_47/iev028.nxml';
+*/
+$basedir = 'Zookeys_2014_Mar_25_(393)_1-107';
+$filename = $basedir . '/' . 'zookeys-393-001.nxml';
 
+/*
+$basedir = 'J_Insect_Sci_2015_Apr_15_15(1)_47';
+$filename = $basedir . '/' . 'iev028.nxml';
+
+*/
 
 $xml = file_get_contents($filename);
 
@@ -484,9 +493,11 @@ foreach ($nodeCollection as $node)
 					
 				}
 				
+				//echo __LINE__ . " " . $children->nodeName . "\n";
+				
 				switch ($children->nodeName)
 				{
-					// eat tables ? does not work...
+					// eat tables 
 					case 'table-wrap':
 						break;
 				
@@ -693,7 +704,10 @@ foreach ($nodeCollection as $node)
 	$nc = $xpath->query ('graphic/@xlink:href', $node);
 	foreach ($nc as $n)
 	{
-		$figure->url = $n->firstChild->nodeValue;
+		//$figure->url = $n->firstChild->nodeValue;
+
+		$figure->url = '../../sources/lens/' . $basedir . '/' . $n->firstChild->nodeValue . '.jpg';
+		
 	}
 	
 	$nc = $xpath->query ('caption', $node);
@@ -1022,7 +1036,7 @@ foreach ($nodeCollection as $node)
 		{
 			//echo $n2->firstChild->nodeValue . "\n";
 			
-			if (preg_match('/dx.doi.org/', $n2->firstChild->nodeValue))
+			if (preg_match('/(dx.doi.org\/)?10\./', $n2->firstChild->nodeValue))
 			{
 				$article_citation->doi = trim($n2->firstChild->nodeValue);
 			}
