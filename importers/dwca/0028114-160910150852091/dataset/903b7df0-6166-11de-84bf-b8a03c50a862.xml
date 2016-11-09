@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="903b7df0-6166-11de-84bf-b8a03c50a862"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>doi:10.15468/ygch9c</alternateIdentifier>
+        <alternateIdentifier>8421</alternateIdentifier>
+    <title>Zoological Museum Amsterdam, University of Amsterdam (NL) - Pisces_Types</title>
+    <associatedParty>
+<positionName>data administrator</positionName><electronicMailAddress>c.h.j.hof@uva.nl</electronicMailAddress>    </associatedParty>
+    <associatedParty>
+<positionName>data administrator</positionName><phone>+31.20.5256284/5256615</phone><electronicMailAddress>r.vonk@uva.nl</electronicMailAddress>    </associatedParty>
+    <associatedParty>
+<positionName>data administrator</positionName><phone>+31.20.5256286/5256615</phone><electronicMailAddress>h.praagman@uva.nl</electronicMailAddress>    </associatedParty>
+    <associatedParty>
+<positionName>system administrator</positionName><phone>+31.20.5257191</phone><electronicMailAddress>yjong@uva.nl</electronicMailAddress>    </associatedParty>
+    <associatedParty>
+<positionName>system administrator</positionName><phone>+31.20.5255440</phone><electronicMailAddress>creuwels@uva.nl</electronicMailAddress>    </associatedParty>
+    <language>en</language>
+    <abstract>
+        <para>The fish collection of the Zoological Museum of Amsterdam accommodates a broad collection of specimens, both fresh and marine. Collection dates of the material go back to 1850.  The collection contains approximately 40.000 items and probably more than 500.000 specimens, mainly preserved in alcohol. About 900 types are present. Almost all recent orders are represented, with taxonomical strengths in the Cypriniformes, Characiformes, Siluriformes, Cyprinodontiformes, Perciformes, and Tetraodontiformes. Biogeographical focus is on the Indo-Australian Archipelago (marine and fresh), and on brackish and freshwater species of South America and the Caribbean.  Part of the collection lacks exact geographical data, but the biggest part is provided with quite detailed information on finding locations. Western European fishes have mainly been selected for their reference value. Nowadays roughly 40% of the collection is digitized.
+
+
+The most important contributions to the collection have been made by:
+*  The Siboga Expedition (1899-1900); M. Weber et al.
+*  Biogeography of the Indonesian Archipelago; L.F. de Beaufort
+*  Biogeography of South American catfishes; H. Nijssen, I. Isbruecker
+*  Netherlands Institute of Sea Research (NIOZ)
+*  Rijksinstituut voor Visserijonderzoek (RIVO)</para>
+    </abstract>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://db01.nlbif.sara.nl/tapir/tapir.php/zma_pisces</url>
+          </online>
+      </distribution>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2016-11-08T11:30:31Z</dateStamp>
+      <citation>Naturalis Biodiversity Center: Zoological Museum Amsterdam, University of Amsterdam (NL) - Pisces_Types</citation>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>
