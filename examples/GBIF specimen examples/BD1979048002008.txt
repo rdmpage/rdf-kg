@@ -1,0 +1,2570 @@
+13
+Three new South American mailed catfishes of the genera
+Rineloricaria and Loricariichthys
+(Pisces, Siluriformes, Loricariide)
+by
+I.J.H. Isbrücker & H.
+Nijssen
+Institute of Taxonomic Zoology, University of Amsterdam, The Netherlands
+Abstract
+Three new
+species belonging to two different genera of South
+American mailed catfishes of the subfamily Loricariinae are
+described and figured. A discussion of and comparative notes
+on related species are added.
+Rineloricaria formosa n. sp. is described from the Río
+Inírida/Río Orinoco drainage in Colombia, from the Río
+Atabapo (Río Orinoco drainage) in Venezuela, and from the
+Rio Tiquié and Rio Uaupés (Rio Amazonas drainage) in
+Brazil. It is compared with Rineloricaria morrowi Fowler,
+1940, with Rineloricaria melini (Schindler, 1959), and with
+Rineloricaria fallax (Steindachner, 1915). The lectotype of
+the latter species is herein designated, and a discussion on
+the
+misidentification of R. fallax with Loricariichthys brunneus
+(Hancock, 1828) is added.
+Rineloricaria hasemani n.
+sp.
+is based on three specimens,
+two of which are paralectotypes
+of Rineloricaria fallax from
+Maguarý. The specimens were collected from streams around
+Belém, Est. Pará, Brazil. This new species seems more closely
+related to Rineloricaria stewarti (C. H. Eigenmann, 1909)
+than to R. fallax.
+Loricariichthys platymetopon n. sp. is based
+upon
+several
+specimens found in the Río Paraná/Río Paraguay system and
+in the Rio Uruguay, and
+upon one specimen collected from
+near the Rio Solimões. This species has hitherto erroneously
+been recorded as Loricaria maculata by Valenciennes (1840,
+1847) and by Boulenger (1896), as Loricariichthys maculatus
+by Lüling (1975), and as Loricaria typus (in subgenus Lori-
+cariichthys) by Regan (1904) and by A. de Miranda Ribeiro
+(1918). It seems likely that previous records of these nominal
+species (particularly from the Paraná/Paraguay basin) actually
+concern, at least in
+part, L. platymetopon. This is confirmed
+for two specimens from the Rio Uruguay. L. platymetopon
+is compared with Loricariichthys maculatus (Bloch, 1794) --
+of which Parahemiodon typus Bleeker, 1862, provisionally is
+considered a junior synonym -- and with Loricariichthys
+ucayalensis Regan, 1913, the lectotype of which is herein
+designated from the two syntypes.
+ABBREVIATIONS USED
+ANSP Academy of Natural Sciences of Philadelphia,
+Philadelphia, Pa.
+BMNH British Museum (Natural History), London.
+CM Carnegie Museum (specimens in FMNH).
+FMNH Field Museum of Natural History, Chicago, 111.
+IRScNB Institut Royal des Sciences Naturelles de Bel-
+gique, Brussels.
+MACN Museo Argentino de Ciencias Naturales "Ber-
+nardino Rivadavia", Buenos Aires.
+MCZ Museum of
+Comparative Zoology, Cambridge,
+Mass.
+MNHN Museum National d'Histoire Naturelle, Paris.
+MZUSP Museu de Zoologia da Universidade de Sao
+Paulo, Sao Paulo.
+NIU Northern Illinois University, DeKalb, 111. (spec-
+imens in FMNH).
+NMW Naturhistorisches
+Museum, Vienna.
+NRS Naturhistoriska Riksmuseet, Stockholm.
+RMNH Rijksmuseum van Natuurlijke Historie, Leiden.
+USNM National Museum of Natural History, formerly
+United States National Museum, Washington
+D.C.
+ZFMK Zoologisches Forschungsinstitut und Museum
+"Alexander
+Koenig", Bonn.
+ZMA Instituut voor Taxonomische Zoologie (Zoolo-
+gisch Museum), Amsterdam.
+ZMB Museum fur Naturkunde der Humboldt-Uni-
+versitat, Berlin.
+ZSM Zoologische Sammlung des
+Bayerischen Staates,
+Munich.
+hi head length.
+si standard length.
+INTRODUCTION AND ACKNOWLEDGE-
+MENTS
+The present publication forms
+part of a series of
+studies of the taxa within the subfamily Lori-
+cariinae. The methods
+employed to
+prepare
+the
+descriptions are the same as in our 1978 publica-
+tion, except
+for the term "odontode", which sub-
+stitutes the term "dermal denticle" as
+previously
+used
+(see 0rvig, 1977).
+Several colleagues have been helpful in sending specimens
+in their care on loan, as an exchange, or as a gift. We would
+like to express our
+great appreciation for this cooperation to
+the following persons:
+Mrs.
+J. Abel (MNHN), Mr. E.
+Ahlander (NRS), Mrs. Dr. M. L. Bauchot (MNHN), Dr. M.
+Boeseman (RMNH), Dr. J. E. Bohlke (ANSP), Dr. H. A.
+Britski (MZUSP), Dr. H. P. Castello (MACN), Mrs. Ph.
+Choanier (MNHN), Dr. W. L. Fink
+(MCZ), Dr. E. J.
+I.
+J. H. ISBRUCKER & H.
+NIJSSEN
+-
+NEW MAILED CATFISHES192
+Mr. L. A. van der Laan (ZMA) made the photographic
+illustrations and Mr. J. Zaagman (ZMA) made the drawings
+for the
+present publication.
+We are much obliged to Mr. G. J. Howes (BMNH) who
+kindly commented
+upon
+the typescript of this
+paper.
+FIN RAY COUNTS
+Except for a few aberrant individuals, all the
+specimens recorded in this
+paper
+have the usual
+fin ray counts for
+species of Rineloricaria and
+Loricariichthys, which
+they share with
+species of
+the
+genera Loricaria, Ricola, Pseudohemiodon,
+Rhadinoloricaria. Planiloricaria. Spatuloricaria,
+Pseudoloricaria, Hemiodontichthys, and
+Reganella:
+dorsal fin 1,6,i; anal fin
+1,4,i; pectoral fin 1,6;
+pelvic fin 1,5; and caudal fin 1,10,1.
+The
+largest paratype of Rineloricaria formosa
+(FMNH 83714, si 151.1 mm) has the caudal fin
+with
+1,9,1 rays.
+Three
+specimens of Rineloricaria
+fallax were
+found with
+deviating fin
+ray
+counts:
+NMW 44868
+("si" 138.5 mm) has 1,8 or 9,1
+caudal fin
+rays; ZMA 114.349 (si 104.5 mm) has
+one of the pelvic fins with 1,4 rays,
+last two
+rays
+fused to
+one;
+and ZMA 110.662
+(nontype,
+Dem-
+erara River, si 109.4 mm) has the caudal fin
+with 1,9,1 rays. Finally, the
+largest paratype of
+Loricariichthys platymetopon in BMNH 1928.1.6:
+1-5
+(si 86.1
+mm) has one of the pectoral
+fins with
+1,5 rays.
+Rineloricaria formosa n.
+sp.
+(Figs. 1-3, 6; tables Ia, IIIa-e)
+Material examined. --
+Holotype: FMNH 83713, si 126.8 mm, Colombia,
+lagoon about 1 km upriver from Puerto Inirida, Rio Inirida/
+Rio Orinoco drainage, coll. Thomerson, Hicks, Baskin, Rofen
+& Blanco, 28-111-1974.
+Paratypes: FMNH 83714 (twenty-two), ZMA 114.922
+(five), si 65.5 to 151.5
+mm,
+same data as holotype; FMNH
+83715 (eight), ZMA 114.923 (two), si 55.8 to 83.8 mm,
+Colombia, sandbar in Rio Inirida, "about 45 minutes
+upstream
+from Puerto Inirida", same collectors as for holotype, 29-
+III-1974.
+ZSM 25281 (two), ZMA 115.182 (one), si 79.6 to 127.5
+mm, Venezuela, Prov. Amazonas, Rio Atabapo near San Fer-
+nando de Atabapo, 04°03'N 67°45'W, along Colombian/
+Venezuelan border, coll. H. J. Kopke & M. Jeschke, 5-II-1973.
+IRScNB 608 (five), ZMA 115.196 (one), si 70.3 to 140 mm,
+Brazil, Est. Amazonas, Rio Amazonas drainage, Igarape
+Acaraposo, tributary at the right bank of Rio Tiquie, coll.
+J. P.
+Gosse, 7-XII-1967; IRScNB 609 (twelve), ZMA 115.197
+(one), si 54.7 to 74.3 mm, Brazil, Est. Amazonas, Rio
+Amazonas drainage, tributary at the right bank of Rio
+Uaupes
+at Trovao, about 20 km upstream from its mouth, coll. J. P.
+Gosse, 9-XII-1967.
+Description. --
+Morphometric and meristic data of the Colombian
+specimens are
+presented in tables la and Illa-e, and
+are not repeated here.
+The paratopes from Venezuela and Brazil were received
+after the completion of the tables, and we may present their
+morphometric and meristic variation here. Data of the
+specimens from Venezuela (ZSM 25281, ZMA 115.182, si
+79.6, 113.7, and 127.5 mm, respectively) are given first,
+followed in parentheses by those of three specimens from
+Brazil (IRScNB 608, ZMA 115.196, si 116.8, 136.5, and 140
+mm, respectively): si 79.6 to 127.5 (116.8 to 140) mm, axial
+length 88 to 139.2 (127.3 of the smallest specimen) mm,
+total length of the two smaller specimens 109.4 and 143.7
+(135.2 and 157.6, of the smallest and of the largest specimen,
+respectively) mm, hi 5.5 to 5.7 (5.4 to 5.6), predorsal length
+3.8 to 3.9 (3.6 to 3.8), postdorsal length 1.5 (1.5 to 1.6),
+postanal length 1.6 to 1.7 (1.7), dorsal spine length 4.5 to
+4.8 (4.6 to 4.8), first dorsal ray 4.5 to 5.0 (4.8 to 5.0), anal
+spine length 5.5 to 6.0 (5.6 to 6.0), pectoral spine length
+of two larger specimens 5.5 and 5.8 (5.9 to 6.0), pelvic spine
+length 6.3 to 6.9 (5.7 to 6.0), upper caudal spine of the two
+smaller specimens 2.7 and 3.8 (of the smallest and the largest
+specimen 6.3 and
+9.9, respectively), lower caudal spine of
+the smallest and the largest specimen 7.7 and 8.0, respectively
+(of the smallest and the largest specimen 8.1 and 8.0,
+respectively).
+Snout length 2.2 (2.1 to 2.2), Lower lip 6.7 to 8.6 (7.2 to
+9.0), thoracic length 1.4 to 1.5 (1.4 to 1.5), abdominal
+length 1.3 to 1.4 (1.3 to 1.4), maximum orbital diameter 4.0
+to 4.2 (4.1), interorbital width 5.6 in the juvenile and 6.0
+to 6.5 in the two larger specimens (5.7 in the two smaller
+specimens, 6.1 in the largest specimen), cleithral width 1.3
+(1.3), supra-cleithral width 1.8 to 1.9 (1.9 to 2.0), head
+width 1.3 (1.3 to 1.4), head depth 2.9 to 3.0 (2.5 to 2.7),
+body depth at dorsal 2.2 to 2.5 (2.0 to 2.1), body width at
+dorsal 1.5 to 1.6 (1.4 to 1.5), body width at anal 1.7 to 1.8
+(1.6 to 1.7), depth caudal peduncle 16.7 to 18.3 (14.0 to
+15.7), width caudal peduncle 6.9 to 8.5 (6.6 to 7.0), rictal
+barbel 3.0 to 3.3 (3.1 to 3.5).
+Lateral scutes 32-33/32-33 (32/32), coalescing scutes 15/15
+(14-15/14-15), thoracic scutes 6-8/5-7 (7-8/7), teeth
+upper
+jaws 7-9/7-8 (7-8/7-8), teeth lower
+jaws 8-9/8-11 (5-8/8-9).
+Abdomen completely covered with scutes (also
+fully developed in the smallest
+paratype) in three
+complexes, as
+follows:
+(1) A
+posterior complex, consisting of a well-
+Fittkau (ZSM), Mr. G. S. Glodek
+(FMNH), Dr. J. P. Gosse
+(IRScNB), Mrs. T. A. Greenfield (NIU/FMNH), Dr. P. H.
+Greenwood (BMNH), Mr. G. J. Howes (BMNH), Dr. R. K.
+Johnson (FMNH), Mrs. S. Karnella (USNM), Mrs. Dr. C.
+Karrer (ZMB), Dr. P. Kahsbauer (NMW), Dr. E. A. Lach-
+ner (USNM), Dr. K. H. Liiling (ZFMK), Mr. F. Schari
+(ZSM), Dr. F. Terofal (ZSM), Mr. E. Walschaerts and Mr.
+L. Walschaerts (IRScNB), and Dr. P. J. P. Whitehead
+(BMNH).
+BIJDRAGEN TOT DE DIERKUNDE, 48
+(2) -
+1979 193
+developed preanal plate, preceded by three com-
+paratively large polygonal scutes. Anterior to these
+scutes are five to six smaller polygonal scutes in a
+curved transverse series, reaching the
+posterior
+thoracic scute. All these elements
+may together
+form an inflexible plate, although in some of the
+specimens the scutes in transverse series allow some
+movement. This
+posterior complex is
+preceded by:
+(2) A flexible median
+complex, consisting of
+small polygonal scutes
+reaching the ventral edges
+of the thoracic scutes. There are three median series
+of four to six scutes in
+longitudinal rows.
+(3) An anterior inflexible complex of still smaller,
+polygonal scutelets in front of the median complex.
+This immovable plate is more or
+less rounded
+anteriorly and reaches to the height of a ventral
+extension of the dermal ossification of the head
+margin, at its broadest
+part.
+The head has ventrally an almost uninterrupted
+marginal dermal ossification with a more or less
+triangular extension anterior to the branchiostegal
+membrane. The tip of the snout has a short, narrow
+naked horizontal area. All dermal ossifications --
+including scutes, fin spines, and
+rays --
+are covered
+with minute, acute dermal denticles, the odontodes.
+Ridges covered with somewhat more prominent
+odontodes are -- as usual throughout the members
+of the genus Rineloricaria --
+present in two
+longi-
+tudinal rows along the coalescing and parallel
+lateral body scutes. In addition, a longitudinal
+series of very low ridges is visible on six scutes
+situated between the lateral and the dorsal scutes,
+the first of which is at the
+height of the origin of
+the dorsal fin
+spine. Two
+quite prominent, pos-
+teriorly strongly diverging ridges are
+present on
+the supraoccipital process,
+and a
+pair of
+ridges is
+Rineloricaria formosaFig. 1. n.
+sp., holotype in dorsal, lateral, and ventral view.
+I. I. H. ISBRUCKER & H. NIJSSEN
+-
+NEW MAILED CATFISHES194
+present on the predorsal scutes between the
+supra-
+occipital process
+and the large median predorsal
+plate. Dorsal snout
+margin and supraorbital edges
+slightly raised; anterior region of predorsal scutes
+and
+posterior region of supraoccipital process some-
+what
+depressed. Tip of supraoccipital process
+round.
+A
+conspicuous posterior orbital notch is
+present
+A
+pectoral pore
+is not found. There are simple
+pores
+of the sensory canal system on the dorsum of
+head and snout, and bifurcated
+pores
+between the
+ridges along the
+coalescing and parallel lateral
+body scutes and in a naked area dorsal to the first
+two
+coalescing scutes.
+The shape and structure of the lips are the same
+as
+in the related species of Rineloricaria: Upper lip
+very narrow, naked dorsally, the edge with short,
+rounded papillae. Lower
+lip ventrally with numer-
+ous distinct, isolated papillae, largest and most
+numerous towards buccal cavity; surface between
+these
+larger papillae covered with minute papillae.
+Lower lip slightly to distinctly notched medially.
+A short rictal barbel is present between
+upper
+and
+lower
+lips, covered with papillae. No
+fleshy flaps
+or
+prominent papillae are found in the buccal
+cavity.
+Teeth in
+upper jaws somewhat smaller than
+teeth in lower jaws. The shape of the teeth is the
+same in both
+upper
+and lower jaws, with a smaller,
+acute outer lobe and a
+larger inner lobe. The inner
+lobe
+may
+have an acute or slightly roundish tip:
+mostly these are the larger teeth near the medial
+side of the
+jaw; more
+usually the inner tip has a
+rather narrow base, broadening anteriorly, with a
+frontally oblique edge (fig. 3).
+n.
+sp., paratype (FMNH 83715, sl 83.3 mm) in dorsal view, showing the more prominent
+colour pattern
+of a
+young specimen.
+Fig. 2. Rineloricaria formosa
+BIJDRAGEN TOT DE DIERKUNDE, 48
+(2) -
+1979 195
+Colour in alcohol
+(figs. 1-2). -- Ground colour
+of ossified parts yellowish tan and of naked parts
+whitish.
+Dorsum of body posterior to the dorsal fin base
+with five to six
+regularly distributed transverse
+brown stripes, the anterior
+stripe is the broadest,
+the three stripes posterior to it
+gradually narrower,
+whereas the two (or one) posterior to these may
+be rather obsolete. Dorsum of body and head from
+tip of snout to base of caudal fin with numerous
+minute and small brown spots of irregular shape,
+mostly roundish. These
+spots are visible as darker
+brown
+markings on the transverse
+stripes.
+The
+spots beyond the first transverse stripe tend to be
+larger than those in front of this
+stripe. Base of
+second dorsal fin ray with a rather dark brown,
+small roundish
+spot.
+Even brown pigmentation is
+visible between the
+ridges on the supraoccipital
+process.
+This dark pigmentation is often sur-
+rounded
+by a narrow unpigmented ring (fig. 2),
+particularly in
+specimens smaller than 125 mm
+(besides the
+specimens represented in table III, the
+largest topotype has a
+si of only 88.3 mm). Some
+specimens show a faint
+spot
+in front of the dorsal
+fin
+spine, the same as the characteristic predorsal
+spot of Rineloricaria fallax.
+Pores on
+dorsum of snout and head black.
+Dorsal fin
+spine and rays, and dorsum of pec-
+toral fin with faint, irregular greyish brown small
+dots.
+Tips of first two branched dorsal fin
+rays
+usually with diffuse tan
+pigmentation. The anal
+fin
+spine and the outer half of the
+rays may show
+some small brownish
+spots.
+Pelvic fin
+spine
+with
+brownish
+pigmentation, sometimes forming small
+spots.
+Caudal fin base with dark brown
+pigmentation
+on and
+just about the triangular scutelet, and on the
+small dorsal and ventral caudal scutelets. Caudal
+fin membrane dark brown pigmented. The rays
+are
+alternately spotted with brown and
+tan,
+forming either a chess-board pattern, or
+irregular
+vertical lines.
+Upper caudal fin
+spine usually with
+brown and
+yellowish spots.
+The ten
+paratypes
+in FMNH 83715 and in
+ZMA 114.923 are
+generally darker than the 28
+other Colombian
+specimens. They tend to have
+an additional, rather faint
+stripe on the dorsum of
+the
+body (not unlike the, much
+stronger developed,
+stripe present in the holotype of Rineloricaria mor-
+rowi, see
+discussion
+below), commencing at the
+spot at the base of the second dorsal fin
+ray,
+obliquely running forward to the dorsal ridge
+along the coalescing scutes.
+Etymology. --
+The
+specific name formosa (Latin)
+means beautiful and alludes to the whole fish.
+Discussion. -- Rineloricaria formosa appears on
+the one hand most closely related to Rineloricaria
+morrowi Fowler, 1940 and Rineloricaria melini
+(Schindler, 1959) on
+the basis of their very similar
+morphology, especially that of the rounded snout
+with slightly raised dorsal margin, and the distri-
+bution and
+development of the odontodes, and on
+the other hand to Rineloricaria fallax (Steindach-
+ner, 1915) because of the
+presence
+of a predorsal
+spot.
+Rineloricaria morrowi was
+originally described
+from the holotype (and still
+only known specimen,
+ANSP 68663), collected at Contamana (07°19'S
+75°04'W), Ucayali River basin, Peru (fig. 6).
+The morphometric and meristic data of this speci-
+men are
+given in tables lb and Illf, showing the
+differences with R. formosa
+in relative dimensions
+of predorsal length, postdorsal length, postanal
+Fig. 3. Rineloricaria formosa n. sp., dentition of the holotype.
+I.
+J. H. ISBRUCKER & H.
+NIJSSEN
+-
+NEW MAILED CATFISHES
+196
+length, anal spine length, pelvic spine length, snout
+length, head
+depth, and depth and width of caudal
+peduncle.
+Although the hoiotype of Rineloricaria morrowi
+has a somewhat faded pigmentation, the differen-
+ces in colour pattern between this
+species and R.
+Formosa are still evident. In R. morrowi there are
+minute, obscure brownish
+spots on the dorsum of
+head and body, less
+prominent than in R.
+formosa.
+Posterior to the dorsal fin base five conspicuous,
+transverse, rather broad, solid dark brown
+stripes
+are
+present;
+in addition, a
+sixth transverse stripe
+(far less conspicuous than the other stripes) is
+present on
+the dorsum of the body, running ob-
+liquely forward from the first to the third branched
+dorsal fin
+ray;
+at the base of these rays a dark
+brown
+spot is visible. The
+spots on
+dorsal and anal
+fins are similar to those in R. Formosa, whereas
+the dorsum of the pectoral fin
+hardly has any
+spots.
+The caudal fin has a colour pattern re-
+sembling that of R. Formosa, but has a more plain
+central
+portion with small, light and indeterminate
+spots, the distal ends of the branched
+rays being
+provided with dark brown
+pigment forming a
+vertical stripe along the
+margin. The base of the
+fin, including the caudal scutes, is dark brown just
+like the anterior third of the
+upper
+and lower
+branched rays.
+Pelvic fin
+plain. Ventral part of the
+body devoid of pigmentation, except
+for some
+small dark brown
+marginal concentrations posterior
+to the 19th lateral body scute. The tip of the
+supraoccipital process
+is somewhat darker than the
+surrounding predorsal region. We should add that
+this is not
+clearly visible: a concentration of dark
+brown
+pigment has not been noted
+by Fowler
+(1940: 244-246, figs. 39-41). Fowler (loc. cit.)
+originally used the variant (erroneous) spelling
+of Rhineloricaria, which he
+subsequently corrected
+(Fowler, 1954: 118-119, references).
+Rineloricaria melini was originally described as
+Loricariichthys melini
+by Schindler (1959: 387-
+389). It is known only from the
+holotype (NRS
+10830), collected near Manacapuru (03°l6'S
+60°37'W), Rio Solimoes
+(= Rio Amazonas),
+Est. Amazonas, Brazil (fig. 6). Isbriicker &
+Nijs-
+sen
+(1976a: 112) listed this species as Rineloricaria
+melini. We have examined the
+holotype, of which
+the morphometric and meristic data are given in
+tables Ic and
+Illg, showing the differences with
+R.
+formosa in relative dimensions of predorsal
+length, postdorsal length, postanal length, snout
+length, abdominal length, interorbital width, head
+depth, body depth at dorsal, body width at dorsal
+and anal, and
+depth of caudal peduncle. R. melini
+has in
+longitudinal lateral series one scute less than
+R. formosa.
+The colour
+pattern
+of Rineloricaria melini re-
+sembles that of R. formosa. R. melini has some
+transverse dark brown stripes on the dorsum of the
+body, but these are
+quite irregular and hard to
+distinguish from the large, irregular dark brown
+blotches also
+present on
+the dorsum of the
+body.
+There is a
+very narrow, incomplete transverse stripe
+on the 18th, one stripe on
+the 19th, one on the
+Table I
+Measurements in mm to the nearest tenth of: (a) Rinelori-
+caria formosa n. sp., holotype, (b) Rineloricaria morrowi
+Fowler, 1940, holotype, (c) Rineloricaria melini (Schindler,
+1959), holotype, (d) Rineloricaria fallax (Steindachner,
+1915), lectotype, (e) Rineloricaria platyura (Müller &
+Troschel, in Schomburgk, 1848), holotype, and (f) Rine-
+loricaria platyura, holotype of Loricaria submarginatus C. H.
+Eigenmann, 1909.
+specimen a b c
+d
+e
+f
+standard length 126.8 144.2 129.5 144. 7 108.4 85.1
+axial length 139.2 158.3 143.4 158.0 115.2 91 .6
+total length 150.4
+- - -
+>124.5
+"
+head length
+21.8 26.8 22.8 26.4 20.2 16.3
+predorsal length 31.9 41.5 34.9 41.3 32.3 24.2
+postdorsal length 84.5 89.4 83.0 92.6 67.3 54.2
+postanal length 77.2 78.8 73.3 81.1 59.8 48.5
+dorsal spine length
+27.7 >26.8 26.5 >26.5 27.3 20.3
+first dorsal ray 26.6 >25.6 25.6 27.0 23. 8 18.9
+anal spine length 22.0 25.9 22.4 23.3 20.8 16.5
+pectoral spine length 21.3 24.4 21 .5 23.1 18.9 14.6
+pelvic spine length 20.0 24.9 20.3 21.5 18.9 14.7
+upper caudal spine 23.6 " " " >17.1
+"
+lower caudal spine
+16.3 21.6 - - >16.5 -
+snout length 9.7 13.1 10.8 12.4 10.3 8.8
+lower lip
+3. 1 - - 2.4 - 2.2
+thoracic length 16.1 19.3 17.6 21.5 16.4 1Q.9
+abdominal length 16.3 21.4 18.5 21 .5 15.3 11.3
+max.
+orbital diameter 5.2 6.6 5.5 6.2 5.0 3.9
+interorbital width 3.5 4.7 4.4 5.0 5.2 4.3
+cleithral width 17.4 21.2 18.3 22.9 16.2 12.4
+supra-cleithral width 12.1 14.9 12.1 14.9 12.0 9.1
+head width 17.4 20.2 16.7 22.9 15.1 11.9
+head depth 7.3 10.4 9.7 14.3 9.2 6.4
+body depth at dorsal 9.3 13.1 12.2 16.0 10.7 7.5
+body width at dorsal 14.4 18.7 17.0 22.4 15.9 10.3
+body width at anal 12.6 17.1 15.3 19.2 13.7 9.6
+depth caudal peduncle 1.4 2.1 1.7 2.4 1.3 1.1
+width caudal peduncle 3.1 4.4 3.5 4.6 2.8 2.0
+rictal barbel 6.7 - 7.0 6.9 " 4.7
+BIJDRAGEN TOT DE DIERKUNDE, 48
+(2) -
+1979 197
+22nd, and one on
+the 28th lateral body scute.
+The spots and blotches on the dorsum of head and
+body are much more prominent than in both R.
+Formosa and R. morrowi, those on the head
+forming at least four transverse, narrow, rather
+irregularly defined stripes. A conspicuous though
+small, dark brown
+spot
+is
+present at the base of
+the first branched dorsal fin
+ray.
+Caudal fin dam-
+aged, but
+showing traces of a colour
+pattern
+resembling that of R. morrowi rather than that of
+R. formosa. Colour
+pattern
+of pectoral and dorsal
+fins as
+in R. Formosa, pelvic and anal fins without
+pigmentation.
+The small but often conspicuous dark
+spot
+between the
+ridges on
+the
+supraoccipital process
+in
+R. formosa, R. morrowi and R. melini --
+which is
+almost
+always surrounded
+by a narrow unpig-
+mented
+ring in the freshly preserved specimens of
+R. formosa --
+is reminiscent of a characteristic
+pattern found in Rineloricaria fallax (Steindach-
+ner, 1915). In this
+species, there is a conspicuous
+dark brown
+spot
+in front of the dorsal fin. This
+spot is surrounded
+by a narrow, unpigmented
+ring, which is
+laterally bordered with a dark
+brown, partly roundish line extending sometimes
+anteriorly as far as the
+tip of the
+supraoccipital
+process.
+In few specimens this colour mark is rather
+faint.
+In a subsequent paper we
+will redescribe and
+illustrate Rineloricaria fallax. We take the
+oppor-
+tunity to discuss here some
+taxonomic
+problems
+concerning this species and Loricariichthys brun-
+neus
+(Hancock, 1828),
+with which Rineloricaria
+fallax has been often confused.
+Rineloricaria fallax
+(Steindachner, 1915)
+(Fig. 6; tables Id, IIIh)
+[Loricaria] brunnea
+(non Hancock, 1828); C. H. Eigenmann,
+1909: 10 & 11 (in original descriptions of Loricaria stewarti
+and Loricaria submarginatus; comparison).
+Loricariichthys brunneus (non Hancock, 1828); C. H. Eigen-
+mann, 1912; 247-248, pi. XXX fig. 3, pi. XXXI fig. 4
+(description; 75 specimens, up
+to 183 mm; British Guiana:
+Lama stop-off, Maduni Creek, Botanic Garden, Demerara
+River bdow Wismar, Christianburg Canal, Wismar, Ku-
+maka, Demerara, Malali, Gluck Island, Rockstone, Tuma-
+tumari, Rupununi; in key on p. 245, in subgenus Rinelori-
+caria; also recorded on
+pp. 15, 67, 77,
+88 & 96).
+Loricaria brunnea (non Hancock, 1828); C. H. Eigenmann &
+Allen, 1942: 203-204 (Guianas and Peru; 2 specimens, up
+to 109 mm; Peru: Yarinacocha, description; 3 specimens,
+up
+to 123 mm; Peru: Rio Pacaya and Iquitos, description;
+comparative note on "types" taken in British Guiana [ =
+Loricariichthys brunneus sensu C. H. Eigenmann, 1912]);
+Fowler, 1945: 104 (listed; Peru, Yarinacocha, Rio Pacaya,
+Iquitos; Rio Orinoco); Gosline, 1945: 105 (listed; in
+subgenus Loricariichthys ; Guiana Inglesa); Van der Stig-
+chel, 1946 & 1947: 179-180 (description; 2 specimens
+recorded by C. H. Eigenmann, 1912); Tovar Serpa, 1967:
+221 (listed; after Fowler, 1945; also listed on
+p. 222).
+Loricariichthys brunnea (non Hancock, 1828); Schindler,
+1959: 389 (in original description of Loricariichthys melini;
+comparison).
+Loricaria (Loricariichthys) brunnea (non Hancock, 1828);
+Boeseman, 1976: 165-167, pis. V & VII, table 3 (references
+to Hancock, 1828, C. H. Eigenmann, 1912, and Van der
+Stigchel, 1946 & 1947; 23 specimens, up to 127 mm si from
+Surinam: Corantijn River basin, Winanna Creek, Avanavero
+Falls, tributaries of Kabalebo River, Morali Creek, right
+tributary of Kaboeri Creek; southwestern Surinam: Sipali-
+wini River; southern Surinam or northern Brazil: jungle
+creek near Apisike; discussion; in key on
+p. 156; pis. V Si
+Table II
+Measurements in mm to the nearest tenth of: (a) Rineloricaria
+hasemani n. sp., holotype, (b) Rineloricaria stewarti (C. H.
+Eigenmann, 1909), holotype, (c) Loricariichthys platyme-
+topon n. sp., holotype, (d) Loricariichthys maculatus (Bloch,
+1794), lectotype, (e) Loricariichthys maculatus
+,
+holotype of
+Parahemiodon
+typus Bleeker, 1862, and (f) Loricariichthys
+ucayalensis Regan, 1913, lectotype.
+specimen a b c d e f
+standard length 136.9 57. 3 222.3 212.5 177.0 198.0
+axial length 150.5 63.3 246.1 - - 217.0
+total length 200.9 - - - - 230.9
+head length 26.1 12.0 51.2 43.7 37.2 47.0
+predorsal length 39.5 17.2 74.2 65.4 55.4 68.6
+postdorsal length 84.8 35.5 125. 5 129.1 105.8 108. 5
+postanal length 74.2 30.9 108.8 112.5 91 .4 94.0
+dorsal spine length 31.7 11.2 49.8 43.8 - 42.0
+first dorsal ray 31.0 10.9 48.7 42.8 - 40.6
+anal spine length 25.5 9.6 39.5 36. 1 - 37.1
+pectoral spine length 23.6 9.4 35.7 31.6 " 32.5
+pelvic spine length 22.3 8.7 33.4 36.0 +29.6 31.7
+upper caudal spine 64.0 " - "
+"
+>33.8
+lower caudal spine 19.2 8.5 - - - 29.3
+snout length 12.4 5.6 25.0 21.9 19.3 25.6
+lower lip 4.2 1.6 25.3 20.6 20.1 31.6
+thoracic length 20.1 8.8 35.2 31 .6 26.6 30.6
+abdominal length 21.5 7.6 32.6 28.9 25.0 27.5
+max. orbital diameter 6.4 2.5 11.9 10.1 9.3 10.9
+interorbital width 4.7 2.7 15.5 9.8 9.1 11.4
+cleithral width 21.6 8.7 41 . 2 32.0 28.6 36.7
+supra-cleithral width 14.8 6.1 34.8 26.1 22.7 28. 7
+head width 21.6 8.7 41.2 32.0 28.6 36. 8
+head depth 11.5 4.3 23.3 18.3 16.2 17.9
+body depth at dorsal 14.0 4.9 28.6 22. 3 20.1 19.6
+body width at dorsal 18.1 7.6 36.0 29. 2 25.4 32.1
+body width at anal 16.9 5.9 30.7 26.7 23.8 25.3
+depth caudal peduncle 2.0 1.0 6.7 3.7 3.8 4.3
+width caudal peduncle 3.7 1.6 8.5 7.4 6.1 7.7
+rictal barbel 8.9 " 24.7 25.4 24.0
+I. J. H. ISBRUCKER & H. NIJSSEN
+-
+NEW MAILED CATFISHES198
+YII with caption Loricaria (Loricariichthys?) brunnea;
+recorded as
+Loricaria brunnea on
+pp. 166, 167 & 168;
+affinity with Rineloricaria suggested on p. 167).
+Loricaria (Loricariichthys) fallax Steindachner, 1915: 101-
+103, pi. XIII figs. 1-4 (original description; pro parte;
+new name followed by a question mark; syntype localities:
+"Rio
+Rupununi, dem Rio Parime bei Serra do
+Banco, aus
+einem
+Igarape bei Capivary, dem Rio branco bei Bern
+Querer und Confeicao sowie aus einem Flusse bei
+Maguary
+an der Braganzabahn bei Para"; doubtful synonymy of and
+comparison with Loricariichthys brunneus sensu C. H.
+Eigenmann, 1912 and Loricaria or Loricariichthys stewarti;
+Steindachner
+agrees
+with C. H. Eigenmann's description,
+but not with his illustration in 1912, pi. XXX fig. 3, of
+Loricariichthys brunneus ); Schindler, 1959: 389 (in orig-
+inal description of Loricariichthys melini; discussion).
+Loricaria fallax; Steindachner, 1915, pi. XIII (caption of
+plate); Gosline, 1945: 105 (listed; in subgenus Loricariich-
+thys; Rupununi, Rio Parime, Capivari, Rio Branco, Para;
+date of publication given as 1917).
+Loricariichthys fallax; Fowler, 1954: 102-103, fig. 705 (ref-
+erences; figures
+after
+Fleischmann, in Steindachner, 1915;
+Para, Rio
+Branco, Guianas).
+Rineloricaria fallax; Isbriicker & Nijssen, 1976a: 112 (listed)
+Type-material examined. ---
+Rineloricaria fallax (Steindachner, 1915):
+Lectotype (by present designation): NMW 44864, si
+144.7 mm, male, Brazil, Est. Roraima, Igarape de Carauna
+(= Sa. Grande, 02°35'N 60°45'W) near B6a Vista (02°51'N
+60 O/
+f3'W), altitude 200 m above sea level, Rio Branco
+drainage, Rio Amazonas basin, coll. J. D. Haseman, about
+4-XII-1912.
+Paralectotypes: Except for the specimens from Ru-
+pununi River, all paralectotypes conspecific with the lectotype
+originate
+from
+Brazil, Est. Roralma, upper
+Rio Branco drain-
+age;
+all were
+collected by J. D. Haseman, 1912/1913: ZMA
+114.349 (ex NMW 46158, two), si 104.5 mm, Igarape de
+Capivary [locality not traced], probably between Rio Parime
+and Rio Surumu, III/IV-1913; NMW 46159 (one), si 79-1
+mm, Rio Branco near Bern Querer [locality not traced, but
+it is near Caracarai, 01°47'N 61°H'W}, 1912; NMW 44868,
+posterior caudal peduncle somewhat malformed, "si" 138.5
+mm, male, Rio Branco near 02°10'N 60°55'W,
+XII-1912; NMW 44867 (one), si 133.2 mm, ZSM 4869
+(ex NMW), si 140.8 mm, male, NMW 45046, si 157.2 mm,
+male, Rio Branco near Boa Vista, 02°51'N 60°43'W, 1912/
+1913.
+NMW 46157 (one), si 134.1 mm, male, and NMW 44866,
+si 80.1
+mm, southern Guyana near Brazilian frontier (Rio
+Branco territory), Rupununi River, 11-1913.
+Rineloricaria platyura (Miiller & Troschel, in Schomburgk,
+1848):
+NMW 44869 (paralectotype of Loricaria (Loricariichthys)
+fallax), si 112 mm, Brazil, Est. Para, Maguary [locality not
+traced] along the Bragan?a railroad [Braganga, 01°02'S
+46°46'W], in forest streams which
+empty into Rio Guama
+[Guama, 01°35'S 47°29'W], 29-VII-1913 (see table IVc).
+We have also examined the holotype of this species (ZMB
+3166, si 108.4 mm, from Guyana, Rupununi River (fig. 6),
+coll. R.
+Schomburgk; see tables Ie and IHi), as well as the
+holotype of Loricaria submarginatus C. H. Eigenmann, 1909
+(FMNH 53080, ex CM
+1570, si 85.1 mm, Guyana, creek
+below Potaro Landing, Essequibo River system (fig. 6), coll. E.
+Shideler; see tables If and Illj). L. submarginatus was rightly
+considered a junior synonym
+of R. platyura by C. H. Eigen-
+mann (1912: 248-249, in key on
+p. 245, as Loricariichthys
+(Rineloricaria) platyurus, pi. XXX fig. 4, pil. XXXI fig.
+3). The three specimens agree perfectly in colour pattern.
+The specimen in NMW 44869 differs from the holotypes
+mentioned in the following morphometric characters: si, axial
+length, hi, predorsal length, postdorsal length, postanal length,
+dorsal spine length, first dorsal ray, anal spine length, pelvic
+spine length, maximum orbital diameter, interorbital width,
+head depth, depth caudal peduncle, and rictal barbel. More
+specimens are needed to assess the taxonomic significance of
+these apparently slight differences.
+Rineloricaria hasemani n.
+sp.:
+NMW 44865 and ZSM 19732 are paralectotypes of Loricaria
+(Loricariichthys) fallax. See description below.
+The references to Rineloricaria fallax may prove
+to concern a polyspecific group
+after all specimens
+mentioned have been re-examined and compared
+(particularly some of the Peruvian material re-
+corded
+by C. H.
+Eigenmann & Allen, 1942). None
+of these records, however, seems to include
+speci-
+mens belonging to the
+genus Loricariichthys, but
+rather to the
+genus
+Rineloricaria sensu lato (in-
+cluding Hemiloricaria Bleeker, 1862). This was
+already suggested by C. H.
+Eigenmann (1912: 245,
+in
+key), who
+regarded Rineloricaria a
+subgenus of
+Loricariichthys.
+Steindachner (1915: 101) included Loricaria
+stewarti
+(or Loricariichthys stewarti, also a Rine-
+loricaria sensu lato) and an illustration of Lori-
+cariichthys brunneus sensu C. H.
+Eigenmann, 1912,
+as doubtful synonyms
+of his new
+species. It is in-
+teresting to note that two of the numerous
+syntypes
+of Loricaria
+( Loricariichthys) fallax, although
+greatly resembling Rineloricaria stewarti, in fact
+represent a new species, described below as Rine-
+loricaria hasemani, whereas another syntype
+is
+closely related to
+(and perhaps identical with)
+Rineloricaria platyura (Miiller & Troschel, in
+Schomburgk, 1848). These three
+syntypes are in-
+dicated to be from Maguary near Para, a locality
+remote from the type-localities of both R. platyura
+and R. stewarti (Rupununi River, Essequibo River
+system, Guyana, and Chipoo Creek, a tributary of
+the Rio
+Ireng, upper
+Rio Branco drainage, Rio
+Amazonas system, Guyana/Brazil, Est. Roraima,
+respectively; see fig. 6).
+Steindachner (1915) unfortunately did not state
+BIJDRAGEN TOT DE DIERKUNDE, 48
+(2) -
+1979 199
+the number of specimens he had available for his
+original description, and omitted at least some
+locality records
+(e.g. from the lectotype; we suspect
+that this
+specimen was with the artist who illus-
+trated it while Steindachner made his
+description).
+Dr. P. Kahsbauer
+kindly put at our disposal an
+unpublished, typewritten report entitled: "The
+general account of a fishing expedition to north-
+eastern South America, 1912-1913" by J. D. Hase-
+man (24 pages,
+of which
+p.
+3 is missing). Hase-
+man collected most of the
+specimens described
+by Steindachner (1915), including all his Loricaria
+fallax. Haseman (op. cit.: 19) wrote: "I
+planned
+to leave Serra do Mel early April 14
+[1913], but
+the pack animals could not be found until quite
+late; however we travelled to the end of Serra do
+Banco before night. We
+slept there and started at
+sunrise of the
+following day so that we would
+get
+out of the hot basin between Serra do Banco and
+Serra de Panelao before noon. Along the
+way we
+caught a queer bearded Loricaria, which was
+prob-
+ably a male of L. brunneus, in a puddle of a
+dried
+up
+stream
+flowing to Rio Parime." Un-
+fortunately, we did not succeed in finding this
+specimen among
+the rich NMW material
+during
+visits to the collections of the Naturhistorisches
+Museum, Vienna. We have examined the syntypes
+listed above (and designated the lectotype; second
+Table III
+Morphometric and meristic data of: (a) Rineloricaria formosa n.
+sp., holotype, (b-e) Rineloricaria formosa n. sp.,
+four
+para-
+types in FMNH 83714 and ZMA 114.922, (f) Rineloricaria morrowi Fowler, 1940, holotype, (g) Rineloricaria melini
+(Schindler, 1959), holotype, (h) Rineloricaria fallax (Steindachner, 1915), lectotype, (i) Rineloricaria platyura (Müller
+& Troschel, in Schomburgk, 1848), holotype, (j) Rineloricaria platyura, holotype of Loricaria submarginatus C. H. Eigenmann,
+1909, (k) Rineloricaria platyura, NMW 44869, (1) Rineloricaria hasemani n. sp., holotype, (m-n) Rineloricaria hasemani,
+the 2 paratypes, and (o) Rineloricaria stewarti (C. H. Eigenmann, 1909), holotype.
+specimen a b c d e f g h i j k 1 m n
+o
+standard length
+126.8 151.5 125.8 125.4 66.8 144. 2 129.5 144.7 108.4 85.1 112.0 136.9 116.4 103. 2 57.3
+axial length
+139.2 165.9 138.5 137.6
+-
+158.3 143.4 158.0 115.2 91.6 120.9 1 50. 5 128.1 113.2 63.3
+total length 150.4 177.2
+- - - - - " >124.5 - "
+200.9
+- 144.7 "
+head length 5.8 5.6 5.7 5.7 5.3 5.4 5.7 5.5 5.4 5.2 5.0 5.2 5.2 5.2 4.8
+predorsal length 4.0 3.8 3.9 4.0 3.8 3.5 3.7 3.5 3.4 3.5 3.3 3.5 3.4 3.5 3.3
+postdorsal length
+1.5 1.5 1.5 1.5 1.5 1.6 1.6 1.6 1.6 1.6 1.7 1.6 1.6 1.6 1.6
+postanal length 1.6 1.7 1.7 1.7 1.6 1 .8 1.8 1.8 1.8 1.8 1.9 1.8 1.8 1. 8 1 .9
+dorsal spine length 4.6 5.1 4.8 4.6 4.8 <5.4 + 4.9 <5.5 4.0 4.2 4.5 4.3 4.4 4.4 5. 1
+first dorsal ray 4.8 5.2 4.8 4.7 4.9 <5.6 5.1 5.4 4.6 4.5 4.7 4.4 4.6 4.5 5.3
+anal
+spine length 5.8 6. 1 5.7 5.8 6.1 5.6 5.8 6.2 5.2 5.2 5.3 5.4 5.5 5.2 6.0
+pectoral spine length 6.0 6.1 5.9 5.8 6.7 5.9 6.0 6.3 5.7 5.8 5.8 5.8 6.0 6.0 6.1
+pelvic spine length 6.3 6.2 6.3 6.2 7.6 5.8 6.4 6.7 5.7 5.8 6.1 6.1 5.9 6.0 6.6
+upper caudal
+spine 5.4 5.9
+" " " - " <6.3 " " 2.1
+- 2.5 "
+lower caudal spine 7.8
+- 7.4 7.8 8.2 6.7 -
+"
+<6.6
+"
+6.9 7. 1 6.8 6.8 6.7
+snout
+length 2.2 2.2 2.2 2.2 2.3 2. 1 2.1 2.1 2.0 1.9 1.9 2.1 2.1 2.1 2.1
+lower lip
+7.0 7.3 6.9 7.6 8.4
+- -
+11.0 - 7.4 5.8 6.2 5.0 5.7 7.5
+thoracic length 1.4 1.4 1 . 2 1.3 1.5 1.4 1.3 1.2 1.2 1.5 1 .4 1.3 1.4 1.6 1 . 4
+abdominal length 1.3 1.3 1.3 1.3 1.6 1 .3 1.2 1.2 1.3 1.4 1.4 1.2 1.3 1.4 1.6
+max. orbital diameter 4.2 4.2 3.7 4.0 4.2 4.1 4.2 4.3 4.0 4.2 4.4 4. 1 4.2 4.2 4.8
+interorbital width 6.4 5.6 5.9 5.6 5.5 5.7 5.2 5.3 3.9 3.8 4.0 5.6 5.4 5.0 4.4
+cleithral width 1.3 1.3 1.2 1.3 1.4 1.3 1.3 1.2 1.2 1.3 1.3 1 . 2 1.2 1 . 3 1.4
+supra-cleithral width 1.8 1.9 1 . 8 1.8 1.9 1.8 1 .9 1 . 8 1.7 1 . 8 1.8 1.8 1.7 1 .8 2.0
+head width 1.3 1.3 1.2 1.3 1.4 1.3 1.4 1.2 1 .
+3 1 .4 1 . 3 1.2 1.2 1.3 1.4
+head depth 3.0 2.7 3.0 2.8 2.8 2.6 2.4 1.8 2.2 2.6 2.1 2.3 2.2 2.2 2.8
+body depth at dorsal 2.3 2.1 2.2 2.2 2.7 2.1 1.9 1.7 1.9 2.2 1.9 1.9 1.8 2.0 2.5
+body
+width at dorsal 1.5 1.4 1.5 1.5 1.9 1.4 1.3 1.2 1.3 1.6 1.4 1.4 1.4 1 .6 1.6
+body width at anal 1.7 1.6 1.7 1.7 2.2 1.6 1 .
+5 1.4 1 . 5 1.7 1 .6 1.5 1.5 1.8 2.0
+depth caudal peduncle 15.6 14.3 14.7 15.7 18.0 12.8 13.4 1 1.0 15.5 14.8 17.1 13. 1 13. 1 15.3 12.0
+width caudal peduncle 7.0 6.6 6.5 7.1 8.4 6. 1 6.5 5.7 7.2 8.2 7.9 7.1 6.7 8.0 7.5
+rictal barbel 3.3 3.2 3.1 3.3 3.3
+- 3.3 3.8 " 3.5 3.0 2.9 3.2 3.0 "
+lateral scutes 32/32 32/32 33/32 32/32 32/32 32/32 31/31 32/31 30/30 30/30 30/30 33/32 32/32 32/32 31/31
+coalescing scutes 15/15 15/15 16/16 15/14 15/15 16/16 15/15 15/15 13/13 T 3/14 13/13 17/15 16/16 16/16 15/15
+thoracic scutes 9/8 6/8 8/8 8/8 6/6 7/6 7/7 8/7 8/8 7/8 8/7 9/8 8/7 10/9 7/7
+teeth upper
+jaws 7/8 9/9 7/8 7/8 6/5 8/9 >4/> 3 7/8 6/9 9/9 8/8 8/9 7/6 7/7 7/7
+teeth lower jaws 10/9 9/8 8/7 9/9 7/7 5/9 8/9 9/10 10/12 6/8 8/8 8/8 7/8 8/7 10/9
+I. J. H. ISBRUCKER & H. NIJSSEN
+-
+NEW MAILED CATFISHES200
+specimen in Steindachner's table on pp. 102-103,
+illustrated in Steindachner, 1915, pi. XIII figs.
+1-3; note partly erroneous sex indications in
+caption
+to this plate; locality not mentioned
+by Steindach-
+ner, but no other specimen can
+represent the one
+figured; see tables Id and Illh in the present paper
+for its
+morphometric and meristic data); notes
+additional to the localities published by Stein-
+dachner are
+derived from Haseman's
+unpublished
+report
+and from locality labels.
+Rineloricaria fallax is a rather common
+species.
+In most museum collections, specimens have been
+misidentified as
+Loricaria brunnea or as Loricariich-
+thys brunneus. In the list of paralectotypes above,
+numbers in
+parentheses following the
+register
+numbers refer to additional specimens of the same
+sample retained in NMW, which were not ex-
+amined in detail. The other
+paralectotypes have
+been examined together at one
+time. The
+specimens
+from Boa Vista are
+considered as paralectotypes.
+Notwithstanding the fact that Boa Vista was not
+included in Steindachner's series of syntype-locali-
+ties, these specimens were collected
+by J. D. Hase-
+man
+along with several others in the Rio Branco
+drainage. All were initially identified -- either by
+Haseman or by Steindachner -- as Loricaria.
+(Lori-
+cariichthys) brunnea
+prior to the establishment of
+Rineloricaria fallax. Parts of the material that evi-
+dently represent syntypes were still labeled as L.
+brunnea in the Vienna collection. However, no
+specimens from "...dem Rio Parime bei Serra do
+Banco...," were found with a label accordingly
+written.
+Loricariichthys brunneus
+(Hancock, 1828)
+Loricaria brunnea Hancock, 1828: 247 (original description,
+based on holotype only; type-locality: Venezuela, "...the
+branches and lakes of the Orinoko"; length 10 or
+12
+inches; comparison with Loricaria cataphracta and Loricaria
+maculata, both sensu Bloch, 1794; holotype lost); Valen-
+ciennes, in Cuvier & Valenciennes, 1840: 479 (: 353-354
+in the Strasbourg edition) (description, after Hancock,
+1828; "l'Orenoque"); Kner, 1854: 76 (listed); Giinther,
+1864: 260 (description, after Hancock, 1828; Orinoco);
+C. H. Eigenmann & R. S. Eigenmann, 1889: 37 (listed; in
+subgenus: "?"); C. H. Eigenmann & R. S. Eigenmann,
+1890: 370 (listed; in key on p. 362, after Hancock, 1828;
+in subgenus Rineloricaria, but probably placed there in-
+advertently, cf. the same authors, 1899); C. H. Eigenmann
+& R. S. Eigenmann, 1891: 39 (listed; in subgenus Rine-
+loricaria;, erroneously recorded from Demerara); Regan,
+1904: 270 (listed as an insufficiently described species,
+"...allied to L. maculata Bl."); C. H. Eigenmann, 1910:
+415 (listed; in subgenus Loricaria; erroneously recorded
+from British Guiana); Schultz, 1944: 322 (footnote; ref-
+erence to Cuvier & Valenciennes's and Giinther's (1864)
+record of the species from the Orinoco; discussion).
+Loricaria brunea; Bleeker, 1858: 331 (listed; Americ. merid.).
+L[oricariichthys] brunneus; Isbriicker & Nijssen, 1976b: 110
+(listed; type-locality; original type-material no longer
+exists).
+Hancock's Loricaria brunnea is a poorly described species.
+Subsequent material attributed to this species does not
+possess
+any of the few characters described, and so is referred to
+Rineloricaria fallax (see above). The holotype of Loricaria
+brunnea is apparently lost: an extensive search has been made
+in the collections of BMNH. Hancock (1828: 240) sent his
+collection of Demerara animals to the Zoological Society,
+London, from where they were subsequently transferred to
+BMNH. Possibly the holotype of Loricaria brunnea (from the
+Orinoco River) was not amongst this material, and the
+original description may well have been based on a specimen
+that was not preserved. On the basis of certain characters
+mentioned in the original description, we ascribe Loricaria
+brunnea to the
+genus Loricariichthys, as it might well prove
+to be
+closely related to (or even
+identical with) Loricariichthys
+acutus (Valenciennes, in Cuvier & Valenciennes, 1840), over
+which it has priority. It should be added that the holotype
+of Loricariichthys acutus is also lost. Only if brown Lori-
+cariichthys specimens from the Orinoco River, reaching a
+(total or standard) length of 10 to 12 inches (254 to 304.8
+mm) and with a single row of abdominal scutes will become
+available, the problem of the identity of Loricaria brunnea
+can
+be solved.
+C. H. Eigenmann & E. S. Eigenmann (1889: 37) were
+unable to identify Loricaria brunnea with any
+of the sub-
+genera they recognized within Loricaria. In their key of 1890
+(: 362) L. brunnea is placed into the subgenus Rineloricaria,
+but evidently this was done inadvertently, as is clear from the
+separation of the couplets e and ee.
+Rineloricaria fallax, with which Loricariichthys brunneus
+has been often confused, is not known to occur in the Orinoco
+River drainage.
+Rineloricaria hasemani n.
+sp.
+(Figs. 4, 5a, 6; tables IIa, IIIl-n)
+Loricaria (Loricariichthys) fallax; Steindachner, 1915: 101-
+102 (in original description; pro parte; "...einem Flusse bei
+Maguary an der Braganzabahn bei Para..." [NMW 44865,
+ZSM 19732]).
+Material examined. --
+Holotype: NMW 44865 (paralectotype of Loricaria
+(Loricariichthys) fallax), si 136.9 mm, Brazil, Est. Para,
+Maguary [locality not traced] near Belem, along the Bragan?a
+railroad [Braganja,
+01°02'S 46°46'W], in forest streams
+which
+empty
+into Rio Guama [Guama, 01°35'S 47°29'W],
+coll. J. D. Haseman, 31-VII-1913.
+Paratypes: ZSM 19732 (one, ex NMW 44865, para-
+lectotype of Loricaria (Loricariichthys) fallax), si 116.6 mm,
+same data as holotype; NMW 45133 (one), si 103.2 mm,
+Brazil, Est. Para, Lema [locality not traced; according to
+Haseman's unpublished travel diary (p. 24), this is "...nothing
+201
+BIJDRAGEN TOT DE DIERKUNDE,
+48
+(2) -
+1979
+more than a sawmill and rum factory combined in one large
+building."] near Belem, in a stream flowing into Rio Bern
+Fica [not traced] which enters the Amazon near Pinheiro
+[not Pinheiro at 02°31'S 45°05'W], coll. J. D. Haseman,
+l-VIII-1913.
+Description. --
+Morphometric and meristic data are
+presented in
+tables Ha and Illl-n, and are not repeated here.
+In
+many
+of its morphological characters, Rine-
+loricaria hasemani is similar to R.
+Formosa de-
+scribed above, although it seems more closely
+related to R. stewarti. It differs from R. Formosa
+in the
+following characters:
+Ridges on supra-
+occipital process diverge less strongly. Tip of
+supra-
+occipital process
+broad and flat. Odontodes some-
+what more prominent, especially on
+the dorsum
+of the head and anterior part of the body, where
+they are arranged into fine wavy lines. Teeth
+almost exactly as in R. Formosa, except
+for the
+shape of the
+tips, having an acute or slightly
+roundish lanceolate form
+(fig. sa).
+Colour in alcohol (fig. 4). --
+Ground colour of
+ossified parts brownish tan, dorsal
+part
+of head and
+body darker than ventral
+part; unossified
+parts
+whitish.
+Dorsum of body with five rather ill-defined,
+transverse brown
+stripes, each with several minute
+dark brown
+spots. The first
+stripe originates at the
+base of the first to second or
+third branched dorsal
+fin
+ray
+and extends oblique anteriorly, reaching
+to the dorsal edge of the thoracic scutes. The second
+stripe is
+quite broad
+(extending over two trans-
+verse dorsal
+scutes) and is situated somewhat
+Rineloricaria hasemani n. sp., holotype in dorsal, lateral, and ventral view.
+Fig. 4.
+I.
+J. H. ISBRUCKER & H.
+NIJSSEN
+-
+NEW MAILED CATFISHES202
+beyond the origin of the last dorsal fin ray.
+Pores
+on dorsum of head almost black, dark brown.
+Ventral
+part
+of the body with a dark, tan to brown-
+ish, longitudinal streak, originating posterior to the
+end of the inner
+pectoral fin ray, extending to the
+base of the caudal fin.
+Ridges on
+coalescing and
+lateral
+body scutes mostly unpigmented.
+Dorsal fin
+spine and
+rays
+with some small,
+irregularly arranged brownish
+spots, especially
+near the
+tip of the rays.
+A more
+prominent spot
+occurs at and near the
+tip of the first or the first
+and second
+fay
+and
+adjacent membrane. Dorsum
+of pectoral and
+pelvic fins rather dark, sometimes
+with some
+inconspicuous brownish spots. Anal fin
+hyaline with or almost without small brownish
+stains.
+Base of caudal fin brown; upper
+and lower
+"spine" with regular small dark brown
+spots; tips
+of caudal fin
+rays
+and
+adjacent membrane pig-
+mented with dark brown, forming a solid stripe
+along the outer
+margin.
+Etymology. -- Rineloricaria hasemani is named
+after J. D. Haseman, who assembled perfectly pre-
+served collections of South American freshwater
+fishes in the
+early 1900's, including the specimens
+on which this species is based.
+Discussion. --- Rineloricaria hasemani
+appears
+to
+have close affinities with Rineloricaria stewarti
+(C. H.
+Eigenmann, 1909). We have examined the
+holotype of this
+species (FMNH 53330, ex
+CM
+1508, si 57.3 mm, from Guyana, Chipoo Creek
+(fig. 6), a
+tributary of the Rio Ireng between
+Karakara
+[not traced] and the
+Rupununi River
+[cf. C. H.
+Eigenmann, 1912:
+3], coll. W.
+Grant),
+the morphometric and meristic data of which are
+given in tables lib and IIIo.
+Rineloricaria hasemani and R. stewarti have al-
+most identical colour
+patterns. R. stewarti has no
+longitudinal ventral streaks, and fewer
+spots on
+the dorsal fin
+rays
+than R. hasemani. R. stewarti
+has very distinct strigilae (in the present case this
+does not
+appear
+to be a
+juvenile character) on
+dorsal and dorsolateral scutes, lacking in the much
+smoother R. hasemani. Since R. stewarti is known
+from small specimens only, we are not sure
+whether
+it is a "dwarf"
+species or not. Boeseman (1976:
+167-168, pis. VI & VII, table 4, fig. 2, in
+key on
+p. 156) records 57 specimens as Loricaria (Lori-
+cariichthys) cf. stewarti from 16 Surinam samples.
+His
+largest specimen, indicated in
+pi. VI as a
+female, is
+only 104 mm in si. In his key he notes:
+"...males with
+enlarged spines on interorbital and
+occipital areas." Our
+specimens of Rineloricaria
+hasemani do not show these secondary sexually
+dimorphic characters.
+The holotype of Rineloricaria stewarti has teeth
+(fig. 5 b) which are reminiscent of those in R.
+formosa in
+shape, but not of those in R. hasemani.
+If the holotype of R. stewarti only represents some
+juvenile stage,
+several morphometric differences
+found between this
+species and R. hasemani (see
+table III) are
+likely to
+disappear when larger speci-
+mens of the former become known. There are
+many
+differences to be noted: in standard length (and
+Fig. 5. Dentition of the holotypes of: (a) Rineloricaria
+hasemani n.
+sp., and (b) Rineloricaria steward (C. H.
+Eigenmann, 1909).
+BIJDRAGEN TOT DE DIERKUNDE, 48
+(2) -
+1979 203
+axial length), in head length, predorsal length,
+postanal length, dorsal
+spine length, first dorsal
+ray,
+anal spine length, pectoral spine length, pelvic
+spine length, lower caudal
+spine, lower
+lip, ab-
+dominal length, maximum orbital diameter, inter-
+orbital width, head width, head
+depth, body depth
+at dorsal, body width at anal, depth caudal
+pe-
+duncle, lateral
+scutes,
+and in lower jaw teeth.
+Loricariichthys platymetopon n.
+sp.
+(Figs. 6, 7-9; tables IIe, IV, Va-k)
+Loricaria maculata (non Bloch, 1794); Valenciennes, in
+Cuvier & Va!lenciennes, 1840: 473-476 (: 350-351 in the
+Strasbourg edition) (description; one specimen [MNHN
+A.9559] from "...Missions
+pres
+de l'lbera-Tingay, dans un
+marais forme Iors des crues
+par les eaux du Parana";
+discussion); Valenciennes, in d'Orbigny, 1847:
+8, pi. VI
+fig. 3 (same specimen as
+described in 1840); Boulenger,
+1896: 33 (listed; Paraguay [BMNH 1895.5.17:102]).
+Loricaria
+typus (non Bleeker, 1862); Regan, 1904: 286-287
+(pro parte; description [partly based on BMNH 1895.5.17:
+102]); A. de Miranda Ribeiro, 1918: 719 (listed, as no.
+75).
+Loricariichthys maculatus (non Bloch, 1794); Liiling, 1975:
+175, 179, figs. 3-4 (only part of the material examined
+[ZMA 110.929, ZMA 110.934]; biotope; Argentina, Isla
+los Sapos).
+Material examined. --
+Hole
+type: USNM 181580, Si 222.3 mm, male, Paraguay,
+Lago Ypacarai, San Bernardino, 25°16'S 57°16'W, Rio Para-
+guay system, coll. C.
+J. D. Brown, I6-VIH-1956.
+Paratypes: USNM 181768 (one), si 286.8 mm, Para-
+guay, Asuncion Bay, Rio Paraguay near Asuncion, 25°15'S
+57°40'W, coll. C. J. D. Brown, 20-XII-1956; USNM
+181755 (two), ZMA 114.326 (one), si 276.5 to 299 mm,
+Paraguay, Rio Paraguay, Asuncion Bay near Asuncidn,
+coll. C. J. D. Brown, 8-1-1957; BMNH 1895.5.17:102
+si 141.5 mm, Paraguay, Rio Paraguay near Asuncion Bay,
+coll. C. J. D. Brown, 8-1-1957; BMNH 1895.5.17:102
+(one), si 266.5 mm, Rio Paraguay, coll. C. Ternetz;
+BMNH 1927.11.23:38-40 (three), si 83.3 to 216 mm, &
+BMNH 1928.1.6:1-5 (five), si 73.5 to 87.5 mm, Paraguayan
+Chaco, coll. G. S. Carter; NMW 45126 (one), s'l 297.8 mm,
+Paraguay, Asunci6n; ZSM 4830 (one), si 270 mm, Paraguay,
+Asuncion, don. F. Steindachner, collected in 1909; NMW
+45128 & NMW 45073 (two), si 229 and 257 mm, Paraguay,
+Hapitapunta or Itapitapunta [locality not traced], coll. C.
+Ternetz.
+MNHN A.9559 (one), si 235.4 mm, Argentina, Rio Parana,
+coll. A. d'Orbigny; MACN no register
+number (one), si
+249.3 mm, Argentina, Prov. Santa Fe, Rio Colastine, coll.
+Lopez, Castello & Ehrlich, 26/30-VII-1975; ZMA 110.929
+(six), si 112.6 to 186 mm, Argentina, tributary of Isla de Jos
+Sapos, middle course of Rio Parana, coll. K. H. Liiling, 3-XII-
+1970; ZMA 110.934 (one), si 275
+mm, Argentina, Laguna
+la Quinta, middle course
+of Rio Parana, coll. K. H.
+Liiling,
+10-XII-1970.
+MZUSP 970 (two) (register
+number
+pro parte), si 165.5 and
+196 mm, males, Brazil, Est. Grande do Sul, Rio Uruguay at
+Itaqui, coll. E. Garbe, 1914.
+MZUSP 14100 (one), si 262 mm, male, Brazil, Est. Ama-
+zonas, channel between Lago Janauaca and Rio Solimoes,
+approximately 03°25'S 61°21'W, coll. R. V. "Alpha Helix",
+early XII-1976.
+Nontypes: ZFMK 1/70-71/3354 through 3359, ZFMK
+1/70-71/3386 through 3398 (nineteen), si 108.8 to 180.2 mm,
+Argentina, Isla de los Sapos, coll. K. H. Liiling, 2/3-XII-1970
+(material may
+be found to be polyspecific); ZMA 114.350
+(two), si 250 and 288 mm, Argentina, aquarium specimens
+without locality data, gift from BMNH.
+Description. --
+Morphometric and meristic data are
+presented
+in
+tables lie, IV and Va-k, and are not
+repeated here.
+A posterior, a middle, and an
+anterior
+complex
+of abdominal scutes can
+be
+distinguished:
+Fig. 6. Collecting localities of Rineloricaria formosa n.
+sp.,
+R. morrowi Fowler, 1940, R. melini (Schindler, 1959),
+R. fallax (Steindachner, 1915), R. platyura (Müller & Tro-
+schel, in Schomburgk, 1848), R. hasemani n. sp.,
+R. stewarti
+(C. H. Eigenmann, 1909), Loricariichthys platymetopon
+n.
+sp., L. maculatus (Bloch, 1794) (type-locality only), and
+of L. ucayalensis Regan, 1913; except for L. maculatus, the
+symbols used are based on the specimens examined for the
+present publication. The type-localities are indicated by T;
+t indicates the type-locality of Loricaria submarginatus ( =
+Rineloricaria platyura) arrows indicate localities we could
+not trace more precisely.
+I. J. H. ISBRUCKER & H. NIJSSEN
+-
+NEW MAILED CATFISHES204
+(1) The posterior complex consists of a well-
+developed anal
+plate, anteriorly bordered by a
+small number of rather
+large, polygonal scutes
+which, together with the posterior thoracic scute,
+form a large, inflexible preanal plate. The anal and
+preanal plates are a fused continuation of the
+laterally movable ventral scutes of the caudal
+pe-
+duncle.
+(2) The middle complex has, together with the
+well-developed adjoining thoracic scutes, a func-
+tion in
+allowing up
+and down movements of the
+head; these movements are
+possible only because
+of the
+presence
+of this
+complex and the movable
+scutes anterior to the origin of the dorsal fin spine
+and
+posterior to the
+supraoccipital process.
+Principally three midventral transverse "series"
+of scutes are
+present
+anterior to the preanal plate.
+Usually the
+posterior scute is
+single, whereas the
+two series anterior to this scute consist of two or
+three
+parts irregularly fused somewhere in the
+middle.
+(3) The anterior complex of scutes reaches to
+about the height of the
+origin of the last pectoral
+fin
+ray.
+It is a quite firm, inflexible, anteriorly
+rounded
+plate, consisting
+of smaller polygonal
+scutes, decreasing in size
+anteriorly.
+A
+comparatively large, triangular plate is
+present
+anterior to the branchiostegal membrane. It is an
+isolated extension of the ventrally ossified head
+margin. All dermal ossifications including scutes,
+fin
+spines, and rays are covered with numerous
+minute odontodes
+giving a quite smooth
+appear-
+ance.
+Contrary to the condition found in Rine-
+loricaria heteroptera Isbriicker &
+Nijssen, 1976,
+these odontodes are not sexually dimorphic. The
+odontodes are prominently larger in two rows
+along the coalescing and
+parallel lateral body
+scutes.
+A
+conspicuous orbital notch is
+present, its dorsal
+margin is rounded posteriorly.
+Anteriorly the head has a rather broad, naked
+margin which narrows towards the
+opercular
+region, reaching to about the height of the posterior
+point of the orbital notch.
+A minute pectoral pore
+is
+present just ventral
+to the posteroventral tip of the cleithrum. There
+are
+simple pores
+of the
+sensory canal system on the
+dorsum of the head and snout, and on the ventrally
+ossified snout
+margin, and bifurcate pores
+between
+the two rows of prominent odontodes along the
+lateral body scutes. Those pores between the
+coalescing scutes are situated just below the
+pos-
+terior
+edges of the dorsal row.
+Secondary sexually dimorphic characters are
+found as differences in structure and
+pigmentation
+of the lips (compare fig. 7, a male, with fig. 8,
+a female), and in
+shape of the teeth.
+In the female, the dorsal side of the upper lip
+consists of smooth skin
+extending from the ventral
+tip of the snout to just anterior of the
+upper jaws,
+then running laterally along part
+of the rictal bar-
+bels, its
+edge becoming papillate with about ten
+to
+eighteen subbarbels. The ventral side of the
+upper lip is covered with numerous weakly de-
+veloped soft striae, and
+ridges of papillae; larger
+papillae are situated near the subbarbels just men-
+tioned. The
+edges on either side of the
+upper jaw
+are almost separated from each other by a small,
+triangular flap of skin
+originating just anterior to
+the symphysis of the
+upper jaws. On the ventral
+surface of this flap there is a medial ridge of skin,
+running to a point between the right and left
+upper jaws.
+The
+upper
+and lower lips are connected with
+each other by rictal barbels, together forming a
+sort of sucking device. The lower lip consists of
+two thick, cushion-like
+parts --
+thickest towards
+the buccal
+cavity -- with a median separation
+bridged by thin skin. This surface is covered
+anteriorly with rather inconspicuous soft striae
+and ridges of weak papillae, increasing in size
+towards its
+edge. A more or less prominent median
+notch
+may
+be
+present. The edge of the lower
+lip
+has small
+triangular papillae and minute
+flaps.
+In mature males the lower lip and posterior
+part of the
+upper lip become gradually longer and
+broader, to form a huge labial velum. During this
+process
+the two cushion-like structures
+present in
+females and
+juveniles disappear completely. This
+labial velum has an
+important function in the
+protection of
+eggs (and possibly of larval stages).
+A male in ZMA 110.929 with a
+si of 186 mm
+has
+a lower lip length of 36.3 mm and, measured
+between the points where the rictal barbels project
+from the lips, a width of about 53 mm.
+In the buccal
+cavity, posterior to the
+upper jaws
+BIJDRAGEN TOT DE DIERKUNDE, 48
+(2) -
+1979 205
+are two narrow transverse
+flaps of skin with
+roundish outer
+edges, connected in the middle.
+The outer surface of these flaps is
+provided with a
+number of
+elongate axial ridges and flat
+papillae.
+Inconspicuous bilobed teeth (inner lobe
+larger
+than outer lobe) are
+present
+in both
+upper
+and
+lower jaws; they are about equal in length in both
+jaws; however, the outer teeth are somewhat smal-
+ler than the inner ones.
+In females and
+juveniles
+the tips of the teeth are slender and acute, in
+nuptial males the
+tips become much broader and
+rounded.
+Tip of
+supraoccipital process
+rather acute.
+Eye with a narrow dorsal covering of blackish
+and
+silvery pigmented skin, the iris
+partly covered
+by a small, rounded or triangular dorsal flap.
+Colour in alcohol (figs. 7-8). --
+Ground colour of
+dorsum of the fish
+(up to ventral row of prominent
+lateral odontodes) uneven tan and greyish tan. In
+some specimens, including the holotype, there is a
+more or less faint concentration of dark brown
+pigment on
+the dorsum of the head, forming small,
+irregular blotches. In the
+paratype in MACN these
+blotches tend to form small, more or less vermic-
+Loricariichthys platymetopon n. sp., holotype (male) in dorsal, lateral, and ventral view.Fig. 7.
+206 I.
+J. H. ISBRUCKER & H. NIJSSEN
+-
+NEW MAILED CATFISHES
+ular lines; some ill-defined, widely spread darker
+markings occur on the dorsum of the body and
+between the coalescing lateral odontode ridges.
+Ventral part
+of the body light tan, without
+pigmentation.
+All fins
+generally with dark brown
+spots.
+Dorsal
+fin
+spine, rays and membrane with an irregular
+number of distinct roundish or
+square spots
+and
+blotches which tend to be arranged into oblique
+series.
+Caudal fin with numerous small
+spots
+which
+seem to be arranged into
+irregular vertical series.
+In some specimens the lower caudal fin lobe has
+concentrated dark brown
+pigment forming a faint
+blotch about the posterior end of the two ventral
+branched rays.
+Anal fin in some specimens with a few small,
+widely scattered
+spots. In other
+specimens the anal
+fin is
+provided with numerous small, well-defined
+spots which
+may
+tend to form
+up
+to about seven
+oblique or roundish series.
+Dorsum of pectoral and pelvic fins usually with
+conspicuous irregular blotches, forming oblique or
+roundish series. In some specimens the dorsum of
+these two pairs of fins is
+provided with
+irregular,
+heavy concentrations of blackish pigment giving
+the appearance of marble.
+Laterodorsal side of the lips often with some
+n.
+sp.,
+detail of a
+paratype (female, USNM 181755, sl 276.5 mm), anterior
+part in
+ventral view, showing shape and structure of the lips.
+Loricariichthys platymetoponFig. 8.
+BIJDRAGEN TOT DE DIERKUNDE, 48
+(2) -
+1979 207
+14
+uneven dark
+greyish-brown pigment, especially
+in
+nuptial males. In these males the pectoral fin also
+often has a somewhat darker dorsal part.
+Juveniles. Seven of the
+paratypes (two
+in BMNH
+1927.11.23:38-40, five in BMNH
+1928.1.6:1-5)
+range from 73.5 to 90.3 mm si. Even the smallest
+specimen has the abdominal scutes completely
+developed. Because of some morphometric dif-
+ferences (e.g., their narrower interorbital, clearly
+an allometric feature in this
+species), these small
+specimens are
+termed
+juveniles, also because of the
+following peculiarities. The posterior orbital notch
+is
+distinctly weaker developed and lacks the
+characteristic
+shape which gradually develops with
+age. Sensory pores
+show
+up more clearly, especially
+along the dorsal snout
+margin and the
+ventrally
+ossified snout
+margin, causing a more coarse
+ap-
+pearance
+of these parts than found in
+larger speci-
+mens. The colour pattern in these small
+specimens
+is not
+pronounced, at least in preserved state.
+Etymology. --
+The specific name
+platymetopon
+is from the Greek rcAa-rui; meaning broad, and
+from the Greek
+[XSTWTCOV meaning forehead, an
+allusion to the broad interorbital area, which is
+diagnostic for this
+species.
+Discussion. --
+Loricariichthys platymetopon has
+been described under various names,
+at least since
+1840: Valenciennes's
+description of Loricaria ma-
+culata was based on a
+specimen we
+designate as a
+paratype
+of Loricariichthys platymetopon, just like
+the
+specimen recorded as Loricaria maculata from
+Paraguay by Boulenger (1896). The latter
+speci-
+T able IV
+Morphometric and meristic data of 16 specimens of Loricariichthys platymetopon n. sp.
+from
+Paraguay: (a) holotype, (b-p),
+paratypes, as follows: (b) USNM
+181755, (c) NMW 45126, (d) ZMA 114.326, (e) USNM 181768, (f) USNM 181755,
+(g) BMNH 1895.5.17:102, (h) NMW 45073, (i) NMW 45128, (j, l, and o) BMNH 1927.11.23:38-40, (k) USNM
+181437, (m, n, and p) BMNH 1928.1.6:1-5.
+specimen a b c d e f 8 h i j k 1 m n 0 P
+standard length 222.3 299.0 297.8 288.8 286.8 276. 5 266.5 257.0 229.0 216.0 141.5 90.3 87.5 86.1 83. 3 80. 1
+axial length 246.1 328. 2
+-
+316.7 317.7 303.5
+-
+286.0 251 .7 240.9 155.1
+-
+96.8 96. 8 92.8 90. 1
+total length
+-
+- - - - - >309.6 -
+- - -
+>109.9
+-
++117.8
+-
+>101.4
+head length 4.3 4.4 4.3 4.4 4.4 4.4 4.4 4.5 4.4 4.1 4.4 4.5 4.3 4.2 4.4 4.0
+predorsal length 3.0 2.9 2.9 3.0 3.0 2.9 2.9 3.0 3.1 2.8 3.1 3.1 3.0 3.0 3.1 3. 1
+postdorsal length 1.8 1.8 1.8 1 . 8 1 .8 1 . 8 1.8 1.8 1.9 1 .9 1.7 1.7 1.8 1.8 1.8
+-
+postanal length 2.0 2.1 2.2 2.1 2.1 2.1 .2.1 2.1 2.2 2.2 2.0 2.0 2.1 2.0 2.0
+-
+dorsal spine length 4.5 - 4.4 - <5.9 <5.4 4.1 - 4.4 - - 4.1 4.1 3.8 4.0 -
+first dorsal ray 4.6
+-
+4.8
+-
+<5.4 <5.4 4.4 <4.8 5.0 4.4 5.0 4.3 4.2 3.9 4.2 -
+anal spine length 5.6 6.2 5.9 6.5 5.8 6.0 6.0 5.5 6.3 5.1 5.7 5.4 5.5 5.3 5.3
+-
+pectoral spine length 6.2 6.8 6.4 7.0 6.3 6.4 6.9 6. 5 7.1 6.1 7.2 6.6 6.4 5.5 6.5
+-
+pelvic spine length 6.7 7.4 6.9 7.8 6.9 7.1 7.4 6.2 6.9 6.0 6.7 6.1 5.8 5.6 6.3 -
+upper caudal spine - - - - - <6.5 <6. 1 - - - - <4.5 -
+ 2.7 - <3.8
+lower caudal spine - - 8.5 - - -
+7.7 6.4 8.2 - 7.3 6.5 6.1 5.7
+-
+5.8
+snout length 2.0 2.0 2.0 2.1 2.1 2.0 2.1 2.0 2.1 2.1 2.1 2.3 2.2 2.2 2.3 2.3
+lower lip 2.0 3.2 4.6 3.4 3.4 3.6 3.8 4.1 1.9 3.0 3.7 4.1 3.6 3.2 3.8 -
+thoracic length 1.5 1.6 1.5 1.5 1.3 1.5 1. 5 1.5 1.6 1.4 1.4 1.4 1.5 1.5 1 .4 -
+abdominal length 1.6 1.5 1.5 1 .4 1.4 1.5 1.5 1.4 1.6 1.6 1 .6 1.6 1.5 1.6 1.6
+-
+max. orbital diameter 4.3 4.0 4.6 4.6 4.3 4.2 4.3 4.3 4.0 4.2 4.0 3.7 3.9 3.9 3.9 4.0
+interorbital width 3.3 3.2 3.2 3.4 3.3 3.3 3.5 3. 1 3.5 3.4 3.9 3.9 4.0 4. 1 4.1 4.5
+cleithral width 1.2 1.2 1.2 1.3 1.2 1.3 1.3 1.1 1.3 1.2 1.3 1.2 1.3 1.3 1 . 3 -
+supra-cleithral width 1.5 1.5 1.5 1 .6 1.5 1.6 1.7 1.5 1.7 1.6 1.7 1.7 1.6 1.7 1.7 -
+head width 1.2 1.2 1.2 1.3 1.2 1.3 1.3 1 . 1 1.3 1.2 1.3 1.2 1.3 1.3 1.3 -
+head depth 2.2 2.1 2.3 2.1 2.1 2.2 2.3 2.2 2.5 2.0 2.5 2.3 2.4 2.5 2.4 -
+body depth at dorsal 1.8 1.9 2.0 2.0 1.8 2.0 2.0 1 .9 2.2 1.7 2.1 2.0 2.0 2.2 2.0 -
+body width at dorsal 1.4 1.4 1.3 1.5 1.3 1.4 1.5 1.4 1.6 1.3 1.6 1.5 1.6 1.6 1.6 1.6
+body width at
+anal 1.7 1.7 1.6 1.8 1.6 1.7 1.7 1.6 1.9 1.6 1.8 1.7 1.8 1.9 1.8 1.9
+depth caudal peduncle 7.6 7.7 8.9 7.6 7.3 7.0 7.3 9.2 10.7 6.6 8.6 11.1 11.9 12.8 11.2 13. 2
+width caudal peduncle 6.0 5.9 5.4 6.3 6.0 5.7 5.6 5.3 6.3 5.6 6.9 6.2 6.2 6.2 6.2 -
+rictal barbel 2.1 3. 2 2.6 2.9 2.9 2.7 3.1 2.5 - 2.4 2.6 2.5 2.4 2.3 2.8 -
+lateral scutes 32/32 32/32 32/32 32/32 32/32 32/32 32/32 31/32 32/32 32/32 33/32 32/32 32/32 30/31 32/32 32/32
+coalescing scutes 21/21 20/21 21/21 20/20 21/21 21/21 21/20 20/20 21/21 20/20 21/21 20/20 20/21 20/20 20/20 21/20
+thoracic scutes 7/7 7/7 6/6 7/7 7/7 7/7 7/6 6/6 5/6 7/8 7/5 7/7 7/7 5/6 7/7 6/7
+teeth upper jaws 12/10 11/17 15/13 12/15 10/10 10/12 16/14 14/13 12/10 11/12 8/10 7/7 7/7 6/6 5/7 10/9
+teeth lower jaws 15/14 18/19 14/16 25/20 11/11 15/11 25/24 21/19 19/17 20/18 8/- 8/8 9/9 8/8 8/8 12/15
+I.
+J. H. ISBRUCKER & H. NIJSSEN -
+NEW MAILED CATFISHES208
+men was subsequently identified as Loricaria
+typus
+(within the
+subgenus Loricariichthys) by Regan
+(1904). Only some of the
+specimens recorded er-
+roneously as Loricariichthys maculatus by Luling
+(1975) are identified with
+certainty as Loricariich-
+thys platymetopon, being the
+only specimens of
+his numerous samples we were able to examine.
+Recently, the
+holotype of Parahemiodon typus
+Bleeker, 1862
+(RMNH 3121; type-species of the
+genus Parahemiodon Bleeker, 1862) was received
+on loan (cf. Isbriicker & Nijssen, 1976b: 110).
+It has been compared directly with the
+lectotype
+of Loricaria maculata Bloch, 1794 (ZMB 3163;
+type-species of the
+genus Loricariichthys Bleeker,
+1862). Most of the few differences between these
+two specimens (see tables Ild-e, and
+Vl-n) seem
+to lie within the range of phenotypic variation, and
+indicate that Parahemiodon
+typus
+should be con-
+sidered a junior synonym
+of Loricariichthys macu-
+latus. This would confirm the
+opinion expressed
+by Van der
+Stigchel (1946 & 1947: 172-174) on
+this part
+of his
+synonymy
+of Loricaria maculata,
+supported by Boeseman's recent
+(1976: 160-165)
+account on Loricaria (Loricariichthys) maculata,
+in which he includes a re-examination of the holo-
+type of Parahemiodon typus. However, there is one
+character in which this holotype differs from other,
+comparable, Surinam
+specimens: its wide inter-
+orbital (according to column S in table 2 of
+Boeseman, 1976: 162, it is 4.15 in hi
+against 4.30
+to 5.25 in 30 other specimens). It is not
+surprising
+that
+Loricariichthys platymetopon has sometimes
+been identified as Parahemiodon typus. Most
+rep-
+resentatives of the genus Loricariichthys have a
+much narrower interorbital. Bleeker (1864, pi.
+XIII fig. 1) published an illustration of the
+pre-
+dorsal region of the
+holotype of Parahemiodon
+typus, showing the interorbital area slightly broad-
+er (about 3-8 in head length, agreeing with some
+of the paratypes
+of L. platymetopon with a com-
+parable si) than is actually the case (4.1 in hi, same
+as in the
+lectotype of Loricariichthys ucayalensis
+Regan, 1913).
+Loricariichthys maculatus has been recorded
+from several localities, including specimens origi-
+nating from localities where L. platymetopon
+were found; the same holds true for records of
+Parahemiodon typus. At least some of these sped-
+mens
+might prove to be conspecific with our new
+species. We
+suspect
+that most records of Para-
+hemiodon typus from at least the Rio Parana
+system actually represent Loricariichthys platy-
+metopon. For
+example, in
+Ringuelet et al. the
+species keying out (1967: 405) as Loricaria (Lori-
+cariichthys) typus is
+probably identical with L.
+platymetopon. However, several different species
+of
+Loricariichthys occur in the Rio Parana and
+Rio Paraguay system, and we prefer to examine
+all this material before assigning the various and
+numerous references to
+any synonymy.
+The occurrence of Loricariichthys platymetopon
+in Venezuela seems likely because of records of
+L.
+typus (e.g., Machado Allison &
+Lopez Rojas,
+1975: 93-119). These authors published an excel-
+lent account on
+developmental stages of a
+Lori-
+cariichthys they identified as L.
+typus, originating
+from "...cerca de Camaguan [08°09'N 67°37'W],
+puerto
+sobre el rio Portuguesa, Estado Guarico,
+Venezuela.", Orinoco River
+drainage. It would
+be
+necessary
+to
+compare all their material (as well
+as specimens previously identified from Venezuela
+as
+typus
+and maculatus, e.g., by Pellegrin, 1899:
+158, Rio
+Apure; Schultz, 1949: 77, Caripito; Fow-
+ler, 1954: 104-105; and by Mago Leccia, 1970:
+85) before it can be satisfactorily assigned to
+any
+species.
+Loricariichthys platymetopon appears
+to be
+closely related to Loricariichthys ucayalensis Regan,
+1913, which itself is closely related to Loricariich-
+thys maculatus (Bloch, 1794) (including Para-
+hemiodon typus). L.
+ucayalensis was
+originally
+described from two
+syntypes, both nuptial males.
+We herewith designate the larger as the lectotype
+(BMNH 1913.7.30:36, si 198 mm). The only
+paralectotype (BMNH 1913.7.30:37) is 171 mm
+in si (tables Ilf, Vo-p). L.
+ucayalensis and L.
+maculatus
+eventually might prove
+to deserve dis-
+tinction at subspecific rather than at specific level,
+or even may have to be regarded not distinct at
+all. L. platymetopon differs from both L.
+ucaya-
+lensis and L. maculatus mainly in three characters:
+it attains a larger standard length (up to 299 mm
+against 198 and 212.5 mm for L.
+ucayalensis and
+L. maculatus, respectively), it has a more
+strikingly
+spotted colour pattern than both L.
+ucayalensis and
+L. maculatus, and it is characterized by a broader
+BIJDRAGEN TOT DE DIERKUNDE, 48 (2) -
+1979 209
+interorbital than found in
+any
+other Loricariichthys
+species, including L.
+ucayalensis and L. maculatus.
+To avoid a
+lengthy technical discussion, the re-
+lation of standard
+length and interorbital width as
+a ratio of head length is shown in
+fig. 9- As can
+be seen in this
+figure, the interorbital of smaller
+specimens is
+usually narrower than that of adults.
+Amongst all
+Loricariichthys specimens we have
+measured thus far, only four specimens have a
+rather broad interorbital, approaching that of L.
+platymetopon: one is the lectotype of L. ucayalen-
+sis, another is the holotype of Parahemiodon typus,
+whereas the last two are
+syntypes of Loricariichthys
+anus (Valenciennes, in Cuvier & Valenciennes,
+1840).
+Several specimens, including primary type-
+material of 14 of the 17 species described in the
+genus Loricariichthys (cf. Isbriicker &
+Nijssen,
+1976b: 110), were available for comparison with
+L. platymetopon. This material will form the basis
+for a revision of the
+genus and in this revision
+this material will be fully indicated.
+Vaillant (1880: 157 &
+158) refers Loricaria
+maculata (non Bloch, 1794) sensu Valenciennes
+(in d'Orbigny, 1847, pi. VI fig. 3 "...et les deux
+figures au trait non numerotees.") to the
+synonymy
+of his Loricaria valenciennesii. Obviously, Vaillant
+did not re-examine Valenciennes's
+specimen, which
+undoubtedly is a Loricariichthys platymetopon,
+whereas Loricaria valenciennesii is a junior syn-
+onym
+of Rineloricaria teffeana (Steindachner,
+1878).
+Table V
+Morphometric and meristic data of (a-k) 11
+paratypes of Loricariichthys platymetopon n.
+sp.,
+from Paraguay (a-b) and from
+Argentina (c-k), as follows: (a-b) BMNH 1928.1.6:1-5, (c) ZMA 110.934, (d) MACN no register number, (e) MNHN
+A.9559, (f-k) ZMA
+110.929, (1) Loricariichthys maculatus (Bloch, 1794), lectotype, (m) Loricariichthys maculatus, para-
+lectotype, (n) Loricariichthys maculntus, holotype of Parahemiodon
+typus Bleeker, 1862, (o) Loricariichthys ucayalensis
+Regan, 1913, lectotype, and (p) Loricariichthys ucayalensis, paralectotype. An asterisk indicates correction of previously
+published data (Isbrücker, 1971: 12-13) of these two specimens, which were re-examined for the present study.
+specimen a b c d e f g h i j k 1 m n 0 P
+standard length 75.0 73.5 275.0 249.3 235.4 186.0 1 58.0 152.0 134.9 133.1 112.3 212.5* 109.0 177.0 198.0 171.0
+axial length 83.9 81.9 305.7
+-
+261 .4 206.7 175. 8 177.8 151.2 148.2 123.9 - 119.5 - 217.0 185.0
+total length 95.3 92.8 - - - - - - - 171.1 145.6 - - - 230.9 197.0
+head length 4.3 4.4 4.2 4.2 4.3 3.9 4.4 4.5 4.2 4.3 4.4 4.9* 4.9 4.8 4.2 4.2
+predorsal length 3.1 3.2 2.9 2.9 2.9 2.7 3.0 3.0 2.9 3.0 3.1 3.2 3.4* 3.2 2.9 2.9
+postdorsal length -
+1.7 1.9 1.9 2.2 1.9 1.8 1.8 1.8 1.8 1.7 1.6 1.6 1.7 1.8 1.8
+postanal length - 2.0 2.2 2. 1 2.1 2.2 2.1 2.0 2.2 2.0 2.0 1.9 1.8* 1.9 2.1 2.1
+dorsal spine length - 4.0 4.3 4.8 - <4.0 <4.1 <4.5 3.7 3.9 4.3 4.9 4.3* - 4.7 4.6
+first dorsal ray
+- 4.2 4.4 4.7
+-
+4.1 4.1 4.8 3.8 4.0 4.4 5.0 4.4
+- 4.9 4.9
+anal spine length - 5.5 5.3 5.5 - 5.2 5.2 5.5 4.9 4.9 5.3 5.9* 5.9* - 5.3 5.6
+pectoral spine length - 6.4 6.0 6.9 6.4 5.7 6.0 6.5 6. 1 6.0 6.7 6.7* 7.3* - 6.1 6.8
+pelvic spine length - 6.3 6.2 6.4 6.2 5.8 5.7 6.2 5.9 6.1 6.3 5.9* 6.6*
++
+6.0 6.2 9.4
+upper caudal spine <3.7 3.8
+- - - - - -
+- 3.5 3.3 - - - <5.9
+-
+lower caudal spine 6.0 6.2 - 7.6 - 5.9 5.8 6.0 - 5.7 6.1 - 7.0* - 6.8 6.8
+snout
+length 2.2 2.3 2.0 2.1 2.0 2.1 2.2 2.2 2.2 2.2 2.3 2.0 2.2 1.9 1.8 2.0
+lower lip - 3.6 1.8 3.6  1.9 1 .3 2.6 4.1 3.8 3.0 4.6 2.1* 4.1* 1.9 1.5 1.8
+thoracic length -
+1.4 1.4 1.6 1.5 1.6 1.3 1.4 1.4 1.5 1.5 1.4* 1.5* 1.4 1.5 1.5
+abdominal length
+-
+1.6 1.5 1.4 1.6 1.6 1.6 1.6 1.5 1.5 1.6 1.5* 1.5 1.5 1.7 1.8
+max. orbital diameter 3.7 3.8 4.1 4.4 4.0 4.2 4.0 3.9 4.0 3.9 3.9 4.3* 3.8* 4.0 4.3 4.7
+interorbital width 4.2 4.4 3.3 3.5 3.3 3.8 3.5 3.6 3.8 3.9 3.9 4.5 4.8 4.1 4.1 4.5
+cleithra 1 width
+-
+1.3 1.2 1.2 1.3 1.3 1.2 1.2 1.2 1.2 1.2 1.4 1.3 1.3 1.3 1.4
+supra-cleithral width - 1 . 7 1.5 1.6 1 .6 1 .
+7 1 .6 1.6 1 .6 1.7 1.6 1.7 1.7 1 .6 1.6 1.8
+head width - 1.3 1 .2 1.2 1.3 1.3 1.2 1 . 2 1.2 1.3 1.3 1.4* 1.3* 1.3 1.3 1.4
+head depth -
+2.6 2.3 2.3 2.3 2.5 2.3 2.1 2.3 2.3 2.2 2.4 2.7* 2.3 2.6 2.7
+body depth at dorsal
+-
+2.2 1.8 1.9 1.9 2.1 1 .9 1.9 2.1 2.0 2.0 2.0 2.4 1.9 2.4 2.4
+body width at dorsal 1.6 1.7 1.4 1.4 1.5 1.5 1.4 1.4 1.5 1.5 1.5 1.5 1.7 1.5 1.5 1.6
+body width at anal 1.9 1.9 1.8 1.6 1.8 1.8 1.8 1 . 7 1.8 1.8 1.8 1.6 1.9 1.6 1.9 1.9
+depth caudal peduncle 12.5 11.9 7.9 9.1 7.7 11.0 10.2 10.0 10.7 10.3 11.6 11.8 14.8* 9.8 10.9 12.8
+width caudal peduncle
+-
+6.1 5.2 5.8 5.7 5.4 5.8 5.2 5.9 5.7 5.8 5.9* 6.0* 6.1 6.1 6.0
+rictal barbel - 2.4 1.9 2.3 + 2.1 1.8 2.0 2.1 2.3 2.3 2.4 1.7* 2.4* - 2.0 2.2
+lateral scutes 33/32 32/32 32/32 32/32 32/32 32/32 32/32 32/32 32/32 32/32 32/32 34/34* 33/33* 33/33 33/33 33/33
+coalescing scutes 22/21 20/21 20/21 22/21 21/20 21/20 20/20 20/20 22/21 20/20 20/20 19/19* 18/19 18/18 22/22 20/20
+thoracic scutes
+7/7 6/6 6/8 8/5 7/7 6/6 6/7 6/8 6/6 6/6 7/6 6/6* 6/6* 6/6 6/6 6/6
+teeth upper jaws 5/5 5/3 14/14 9/11 >5/> 5 6/7 7/9 9/10 9/9 6/6 6/7 ?8/?8 ?4/- -/> 2 11/12 10/10
+teeth lower jaws ?
+8/8 17/16 11/11 "
+12/14 11/10 ii/i, 10/11 11/- -/10 6/9 9/5 9/6 13/14 10/12
+I.
+J. H. ISBRUCKER & H.
+NIJSSEN
+-
+NEW MAILED CATFISHES210
+REFERENCES
+BLEEKER, P., 1858. Ichthyologiae archipelagi Indici prodro-
+mus I. Siluri: v-viii, 1-370 (Lange & Co., Batavia).
+, 1862. Atlas ichthyologique des Indes Orientales Neer-
+landaises, pub! ic sous Ies auspices du Gouvernement
+colonial neerlandais: Siluro'ides, Chacoldes et Hetero-
+brancho'ides, 2: 1-112, pis. IL-CI (Fr. Muller, Amster-
+dam).
+, 1864. Description des
+especes
+de Silures de Suriname,
+conservees aux musees de Leide et d'Amsterdam. Na-
+tuurk. Verh. holland. Maatsch. Wet. Haarlem, (2) 20:
+1-104, pis. I-XVI.
+BLOCH, M. E., 1794. Allgemeine Naturgeschichte der auslan-
+dischen Fische, 8: 1-174, pis. CCCLXI-CCCLXXXXVI
+(= Allgemeine Naturgeschichte der Fische, 11) (J.
+Morino & Comp., Berlin).
+BOESEMAN, M., 1976. A short review of the Surinam Lori-
+cariinae; with additional information on Surinam Hart-
+tiinae, including the description of a new species (Lori-
+cariidae, Siluriformes). Zool. Meded. Leiden, 50 (11):
+153-177, pis. I-VIII.
+BOULENGER, G. A., 1896. On a collection of fishes from
+the Rio Paraguay. Trans, zool. Soc. Lond., 14, II (1):
+25-39, pis. Ill-VIII.
+EIGENMANN, C. H., 1909. Reports on the Expedition to
+British Guiana of the Indiana University and the Car-
+negie Museum, 1908. Report No. 1. Some new
+genera
+and species of fishes from British Guiana. Ann. Carneg.
+Mus., 6 (1): 4-54.
+,
+1910. Catalogue and bibliography of the fresh water
+fishes of the Americas south of the tropic
+of Cancer.
+Catalogue of the fresh-water fishes of tropical and
+South
+temperate America. Rep. Princeton Univ. Exped.
+Patagonia, 1896-1899, 3 (Zool. 4): 375-511.
+, 1912. The freshwater fishes of British Guiana, in-
+cluding a study of the ecological grouping of
+species
+and the relation of the fauna of the plateau to that of
+the lowlands. Mem. Carneg. Mus., 5: i-xix, 1-578, pis.
+I-CIII.
+EIGENMANN, C. H. & W. R. ALLEN, 1942. Fishes of western
+South America: 1-494, pis. I-XXII, 1 map (Univ.
+Kentucky, Lexington).
+EIGENMANN, C. H. & R. S. EIGENMANN, 1889. Preliminary
+notes on South American Nematognathi, II. Proc. Calif.
+Acad. Sci., (2) 2: 28-56.
+Fig. 9. Relation of the ratio head length/interorbital width and standard length in 112 specimens of several species of
+Loricariichthys , showing the wide interorbital area
+of Loricariichthys platymetopon n. sp. The values shown as open circular
+symbols are taken from Boeseman (1976: 162, table 2), the other values are based on own observations.
+BIJDRAGEN TOT DE DIERKUNDE, 48
+(2) -
+1979 211
+& ,
+1890. A revision of the South American Ne-
+matognathi, or cat-fishes. Occ. Pap. Calif. Acad. Sci., 1:
+1-508, 1
+map [also reprinted in facsimile in 1971 by
+Johnson Reprint Corporation, New York/London].
+& , 1891. A catalogue of the fresh-water fishes of
+South America. Proc. U.S. natn. Mus., 14: 1-81.
+FOWLER, H. W., 1940. A collection of fishes obtained by
+Mr. William C. Morrow in the Ucayali River Basin,
+Peru. Proc. Acad. nat. Sci. Philad., 91: 219-289.
+,
+1945. Los peces del Peru. Catalogo sistematico de los
+peces que habitan en
+aguas peruanas: 1-298 (Mus. Hist,
+nat. "Javier Prado", Univ. San Marcos, Lima).
+,
+1954. Os peixes de agua doce do Brasil, 4. Arq. zool.
+S. Paulo, 9: i-ix, 1-400.
+GOSLINE, W. A., 1945. Catalogo dos nematognathos de
+agua-doce da America do Sul e Central. Bolm. Mus. nac.
+Rio de J. (n.s., Zool.), 33: 1-138.
+GUNTHER, A. [C. L. G.], 1864. Catalogue of the Physostomi,
+containing the families Siluridae, Characinidae, Haplo-
+chitonidae, Sternoptychidae, Scopdidae, Stomiatidae, in
+the collection of the British Museum. In: Catalogue
+of
+the fishes in the British Museum, London, 5: i-xxii,
+1-455 (Trustees British Museum, London).
+HANCOCK, J., 1828. Notes on some species of fishes and
+reptiles, from Demerara, presented to the Zoological
+Society by John Hancock, Esq., Corr. Memb. Zool. Soc.
+In a letter addressed to the Secretary of the Society.
+Zool. J. Lond., 4: 240-247.
+ISBRUCKER, I. J. H., 1971. A redescription of the South
+American catfish Loricariichthys maculatus (Bloch,
+1794), with designation of the lectotype and restriction
+of its type locality (Pisces, Siluriformes, Loricariidae).
+Bijdr. Dierk., 41 (1): 10-18.
+ISBRUCKER, I.
+J. H. & H. NIJSSEN, 1976a. Rineloricaria
+heteroptera, a new species of mailed catfish from Rio
+Amazon as near
+Manaus, Brazil (Pisces, Siluriformes,
+Loricariidae). Zool. Anz., 196 (1-2): 109-124.
+&
+,
+1976b. The South American mailed catfishes of
+the
+genus
+Pseudoloricaria Bleeker, 1862 (Pisces, Siluri-
+formes, Loricariidae). Beaufortia, 25 (325): 107-129.
+& ----, 1978. Two new species and a new
+genus
+of
+neotropical
+mailed catfishes of the subfamily Loricarii-
+nae Swainson, 1838 (Pisces, Siluriformes, loricariidae).
+Beaufortia, 27 (339): 177-206.
+KNER, R., 1854. Die Panzerwelse des k. k. Hof-Naturalien-
+Cabinetes zu Wien. I. Abtheilung: Loricarinae. Denk-
+schr. Akad. Wiss. Wien, mathem.-naturwiss. CI., 6:
+65-98, pis. I-VIII.
+LULING, K. H., 1975. Wissenschaftliche Ergebnisse der Ar-
+gentinien-Siidbrasilien-Expedition Dr. K. H. Luling
+1970/1971 [etc.]: Zool. Anz. Jena, 195 (3-4): 171-185.
+MACHADO ALLISON, A. & H. LOPEZ ROJAS, 1975. Etapas
+del desarrotlo de Loricariichthys typus (Bleeker) 1864
+(Osteichthyes, Siluriformes, Loricariidae). Acta biol.
+venez., 9 (1): 93-119.
+MAGO LECCIA, F., 1970. Lista de los
+peces
+de Venezuela,
+incluyendo un estudio preliminar
+sobre la ictiogeografia
+del
+pals: 1-275, 31 unnumbered photographs (Oficina
+nacional de Pesca, Caracas).
+MIRANDA RIBEIRO, A.
+DE, 1918. Lista dos
+peixes brasileiros
+do Museu Paulista, I. Revta. Mus. paul., 10: 707-736.
+MULLER, J. & F. H. TROSCHEL, 1848. Fische: 618-644. In:
+R. SCHOMBURGK, ed. Reisen in Britisch-Guiana in den
+Jahren 1840-1844, [etc.], 3: i-viii, 533-1260 (J. J.
+Weber, Leipzig).
+0RVIG, T., 1977. A
+survey
+of odontodes ('dermal teeth')
+from developmental, structural, functional, and phyiletic
+points of view. In: MAHALA ANDREWS, S., R. S. MILES &
+A. D. WALKER eds., Problems in vertebrate evolution.
+Linn. Soc. Symp. Ser., 4: 53-75, pis. I-III (published for
+the Linnean Society of London by Academic Press,
+London).
+PELLEGRIN, J., 1899. Note sur les poissons recueillis
+par
+M. F. Geay dans l'Apure et ses
+affluents. Bull. Mus.
+Hist. nat. Paris, 5 (4): 156-159.
+REGAN, C. T., 1904. A monograph of the fishes of the family
+Loricariidae. Trans, zool. Soc. Lond., 17 (3): 191-350,
+pis. IX-XXI.
+,
+1913. Fishes from the River Ucayali, Peru, collected
+by Mr. Mounsey. Ann. Mag. nat. Hist., (8) 12: 281-283.
+RINGUELET, R. A., R. H. ARAMBURU & A. ALONSO DE
+ARAMBURU, 1967. Los peces argentinos de
+agua
+dulce:
+1-602, pis. I-X (Provincia Buenos Aires, Gobernacion,
+Comision de Investigacion Cientifica, La Plata).
+SCHINDLER, O., 1959. Loricariichthys melini nov.
+sp.
+Ark.
+Zool., (2) 12
+(26): 387-389.
+SCHULTZ, L. P., 1944. The catfishes of Venezuela, with
+descriptions of thirty-eight new forms. Proc. U.S. natn.
+Mus., 94: 173-338, pis. I-XIV.
+, 1949. A further contribution to the ichthyology of
+Venezuela. Proc. U.S. natn. Mus., 99: 1-211, pis. I-III.
+STEXNDACHNER, F., 1878. Zur Fisch-Fauna des Magdalenen-
+Stromes. Denkschr. Akad. Wiss. Wien, mathem.-natur-
+wiss. CL, 39: 19-78, pis. I-XV.
+,
+1915. Beitrage zur Kenntnis der Flussfische Siid-
+amerikas, Y. Denkschr. Akad. Wiss. Wien, mathem.-
+naturwiss. KL, 93: 15-106, pis. I-XIII.
+STIGCHEL, J. W. B. VAN DER, 1946. South American Nema-
+tognathi: 1-204, 3 tabs. (Thesis, State University of
+Leiden) (E. J. Brill, Leiden).
+,
+1947. The South American Nematognathi of the mu-
+seums at Leiden and Amsterdam. Zool. Meded. Leiden,
+27 (1-2): 1-204, 3 tabs.
+TOVAR SERPA, A., 1967. Peces del oriente
+peruano. Algunas
+especies de Loricariidae con
+referencia especial de la
+"carachama" Pteyrgoplichthys multiradiatus (Hancock),
+ecologia y utilidad. Biota, Lima, 6 (50): 201-255.
+VAILLANT, L., 1880. Synopsis des especes de Siluridae re-
+cueillis
+par
+M. le Dr. Jobert, a Calderon (Haute-
+Amazone). Bull. Soc. philomath. Paris, (7) 4: 150-159.
+VALENCIENNES, A., 1840. In: G. [L. C. F. D.] CUVIER &
+A. VALENCIENNES, Histoire naturelle des
+poissons, 15
+(Paris edition): i-xxxi, 1-540 (Strasbourg edition: i-xxiv,
+1-397, ii), pis. CCCCXXI-CCCCLV (Ch. Pitois, Paris &
+V. Levrault, Strasbourg).
+,
+1847. Poissons. In: A. D'ORBIGNY ed., Voyage dans
+lAmerique meridional e (Le Bresil, la Republique orien-
+tale de l'Uruguay, la Republique Argentine, la Patagonie,
+la Republique du
+Chili, la Republique de Bolivia, la
+Republique du Perou), 5 (2): 1-11, pfls. I-XVI (P.
+Bertrand, Paris & Y. Levrault, Strasbourg).
+Received: 26 July 1978
+
