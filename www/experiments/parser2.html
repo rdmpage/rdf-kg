@@ -17,6 +17,7 @@ console.log(s);
 
 function Parser()
 {
+/*
 	this.NAME_LETTERS = "A-ZÏËÖÜÄÉÈČÁÀÆŒ";
 	this.name_letters = "a-zïëöüäåéèčáàæœ";
 	this.EPHITHET_PREFIXES = "van|novae";
@@ -106,115 +107,16 @@ function Parser()
 		  "(?: ?(?:f|fil|j|jr|jun|junior|sr|sen|senior|ms)\\.?)?" + ")";
 		  
 	this.AUTHOR_TEAM = this.AUTHOR + "?(?:(?: ?ex\\.? | & | et | in |, ?|; ?|\\.)(?:" + this.AUTHOR
-  + "|al\\.?))*";			  
+  + "|al\\.?))*";	
+*/		  
 
 }
 
 //--------------------------------------------------------------------------------------------------
 Parser.prototype.normalise = function(string) 
 {
-	if (string == '')
-	{
-		return string;
-	}
+	return string;
 
-	// emdash
-	string = string.replace(/—/, '');
-	// semicolon
-	string = string.replace(/:/, '');
-	
-	// use commas before years
-	// ICZN §22A.2 http://www.iczn.org/iczn/includes/page.jsp?article=22&nfv=
-	var pattern = '';
-	pattern = this.COMMA_BEFORE_YEAR;
-	if (string.match(RegExp(pattern)))
-	{	
-		console.log('x');
-		string = string.replace(RegExp(pattern, 'g'), '$1, $2');
-	}
-	
-	// no whitespace around hyphens
-	pattern = this.NORM_HYPHENS;
-	if (string.match(RegExp(pattern)))
-	{
-		string = string.replace(RegExp(pattern), '-');
-	}
-	
-	// use whitespace with &
-	pattern = this.NORM_AMPERSAND_WS;
-	if (string.match(RegExp(pattern)))
-	{
-		string = string.replace(RegExp(pattern), ' & ');
-	}
-	
-	// whitespace before and after brackets, keeping the bracket style
-	pattern = this.NORM_BRACKETS_OPEN;
-	if (string.match(RegExp(pattern)))
-	{
-		string = string.replace(RegExp(pattern), ' $1');
-	}
-	pattern = this.NORM_BRACKETS_CLOSE;
-	if (string.match(RegExp(pattern)))
-	{
-		string = string.replace(RegExp(pattern), '$1 ');
-	}
-	
-	// remove whitespace before commas and replace double commas with one
-	//console.log(string);
-	pattern = this.NORM_COMMAS;
-	console.log(this.NORM_COMMAS);
-	if (string.match(RegExp(pattern)))
-	{
-		string = string.replace(RegExp(pattern), ', ');
-	}
-	//console.log(string);
-	
-	// normalize hybrid markers
-	pattern = this.NORM_HYBRIDS_GENUS;
-	if (string.match(RegExp(pattern)))
-	{
-		string = string.replace(RegExp(pattern), '×$1');
-	}
-	
-	
-	pattern = this.NORM_HYBRIDS_EPITH;    	
-	//console.log(pattern);
-	
-	/*
-	if (string.match(RegExp(pattern)))
-	{
-		string = string.replace(RegExp(pattern), '$1 ×$2');
-	}
-	*/
-	pattern = this.NORM_HYBRIDS_FORM;
-	if (string.match(RegExp(pattern)))
-	{
-		string = string.replace(RegExp(pattern), ' × ');
-	}
-
-	// capitalize all entire upper case words
-	pattern = this.NORM_UPPERCASE_WORDS;
-	
-	var m = string.match(RegExp(pattern, "g"));
-	if (m)
-	{
-		for (var i in m) {
-		  var source = m[i];
-		  source = source.replace(/^\s+/, '');
-		  var target = source;
-					  
-		  pattern = "([" + this.NAME_LETTERS + "])([" + this.NAME_LETTERS + "]+)$";
-		  
-		  target.replace(RegExp(pattern), function(p0, p1, p2) {  target = p1 + p2.toLowerCase();});
-		   
-		  string = string.replace(source, target);
-		}
-	}
-	 
-	string = string.replace(/\s\s+/g, ' ');
-	string = string.replace(/^\s/, '');
-	string = string.replace(/\s$/, '');
-	return string;	
 }
 
 
@@ -222,6 +124,36 @@ Parser.prototype.normalise = function(string)
 //--------------------------------------------------------------------------------------------------
 Parser.prototype.parse = function(string) 
 {
+	this.MONOMIAL = "[A-Z][a-z]+";
+	this.INFRAGENERIC = "\\(([A-Z][a-z]+)\\)";
+	this.EPHITHET = "[a-z]+";
+	
+	this.RANK_MARKER_SPECIES = "(?:notho)?(?:" + ["subsp","ssp","var","v","subvar","subv","sv",
+		"forma","form","fo","f","subform","subf","sf","cv","hort","m","morph","nat","ab","aberration"].join('|')
+		+ "|agg)\\.?";
+	
+	this.AUTHOR_TEAM = "[A-Z][a-z]+";
+	
+	this.NAME_LETTERS = "A-ZÏËÖÜÄÉÈČÁÀÆŒ";
+	this.name_letters = "a-zïëöüäåéèčáàæœ";
+	
+	this.AUTHOR = "[" + this.NAME_LETTERS + "][" + this.name_letters + "]+";
+	this.AUTHOR = "[A-Z][a-z]+";
+	
+this.AUTHOR_TEAM = this.AUTHOR + "?(?:(?: ?ex\\.? | & | et | in |, ?|; ?|\\.)(?:" + this.AUTHOR
+  + "|al\\.?))*";		
+  
+ 	 this.AUTHOR_TEAM = "[A-Z][a-z]+";
+ 	 
+ 	 //this.AUTHOR_TEAM = this.AUTHOR + "?((, | & | )" + this.AUTHOR + ")*";
+
+	//this.AUTHOR_TEAM = "[" + this.NAME_LETTERS + "][" + this.name_letters + "]+";
+	
+	this.YEAR = "[0-9]{4}";
+	
+	
+
+
 		var pattern = "^" + 
 		//"#1 genus\/monomial\n" .
 		"(" + this.MONOMIAL + ")"
@@ -239,7 +171,7 @@ Parser.prototype.parse = function(string)
 		+ "(.*)"
 		*/
 		
-		/*
+		
 				
 		 + "(("
 		  // #6 strip out intermediate, irrelevant authors or infraspecific ranks in case of quadnomials
@@ -252,7 +184,7 @@ Parser.prototype.parse = function(string)
 		 + "( ((×?\"?" + this.EPHITHET + "\"?))"  + ")"
 		 
 		 + "))?" 
-		 */
+		 
 	  
 		
      	//"#9 entire authorship incl basionyms and year\n" .
@@ -272,7 +204,13 @@ Parser.prototype.parse = function(string)
       	 
       	 
       	+ ")";
+      	
+      	
+      	var regexGroups = { genus: 1, infragenus: 4 , species: 6, infraspecies: 13, authorteam: 20, year: 21};
+      	
+      	
       	console.log(pattern);
+      	console.log(string);
       	
       	
       	//var m = string.match(RegExp(pattern, "g"));
@@ -281,81 +219,19 @@ Parser.prototype.parse = function(string)
     	{
     		console.log(JSON.stringify(m, null, 2));
     		
-    		var result ={};
-    		result.parsed = false;
-    		result.verbatim = string;
-    		result.hybrid = false;
+    		var result = {};
+    		
+    		for (var i in regexGroups) {
+    		   if (m[regexGroups[i]]) {
+    		   
+    		     result[i] = m[regexGroups[i]];
+    		   
+    		   }
+    		
+    		
+    		}
+    		
 
-
-			result.details = [];
-			
-			var details = {};
-			
-			// genus
-			if (m[1]) {
-				details.genus = {};
-				details.genus.epitheton = m[1];
-				
-				/*
-				if (m[17] && !m[3] &&!m[8]) {
-				  details.genus.epitheton = m[17];
-				*/
-				
-			}
-			
-			// infragenus
-			if (m[4]) {
-				details.infragenus = {};
-				details.infragenus.epitheton = m[4];
-				
-				/*
-				if (m[17] && !m[3] &&!m[8]) {
-				  details.genus.epitheton = m[17];
-				*/
-				
-			}
-
-			// species
-			if (m[8]) {
-				details.species = {};
-				details.species.epitheton = m[8];
-				
-				/*
-				if (m[17] && !m[3] &&!m[8]) {
-				  details.genus.epitheton = m[17];
-				*/
-				
-			}
-			
-			// basionymAuthorTeam
-			if (m[10]) {
-				details.basionymAuthorTeam = {};
-				details.basionymAuthorTeam.authorTeam = m[10];
-				
-				if (m[12]) {
-					details.basionymAuthorTeam.year = m[12];
-				}
-				
-				
-				/*
-				if (m[17] && !m[3] &&!m[8]) {
-				  details.genus.epitheton = m[17];
-				*/
-				
-			}
-			
-
-			if (m[14]) {
-				details.authorTeam = {};
-				details.authorTeam.authorTeam = m[14];
-				
-				if (m[15]) {
-					details.authorTeam.year = m[15];
-				}
-			}
-
-			
-			result.details.push(details);
 
 
 			//console.log(JSON.stringify(result, null, 2));
@@ -392,7 +268,17 @@ n = 'Aedes (Stegomyia) opok Corbet & van Someren 1962';
 n = 'Dennyus (Collodennyus) distinctus timjonesi Clayton, Price & Page, 1996';
 
 //n = 'Myopterus daubentonii subsp. albatus Thomas, 1915';
-//n = 'Myopterus daubentonii Thomas, 1915';
+n = 'Myopterus daubentonii Thomas, 1915';
+
+//n = 'Aedes (Stegomyia) opok';
+//n = 'Aedes (Stegomyia) opok Corbet & van Someren 1962';
+//n = 'Myopterus daubentonii subsp. albatus Thomas, 1915';
+//n = 'Myopterus daubentonii albatus Thomas, 1915';
+
+//n = 'Axelrodia riesei Géry, 1966';
+//n = 'Stalix versluysi (Weber, 1913)';
+
+//n = 'Rivulus torrenticola Vermeulen & Isbrücker, 2000';
 
 
 document.getElementById("name").innerHTML = n;

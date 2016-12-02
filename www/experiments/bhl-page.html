@@ -1,0 +1,487 @@
+<html>
+	<head>
+		<title>JSON to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<script src="shared.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>JSON to n-triples</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>JSON</h2>
+
+<!-- JSON for data object goes below -->
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">{
+   "_id": "http://www.biodiversitylibrary.org/page/15775524",
+   "_rev": "2-e411d1382e401e1e3caa7ff9233dfbd6",
+   "message-timestamp": "2016-11-18T17:19:42+00:00",
+   "message-modified": "2016-11-18T17:19:43+00:00",
+   "message-format": "bhl-page",
+   "message": {
+       "PageID": 15775524,
+       "ItemID": 53706,
+       "Volume": "43",
+       "Issue": null,
+       "Year": "1984",
+       "PageUrl": "http://www.biodiversitylibrary.org/page/15775524",
+       "ThumbnailUrl": "http://www.biodiversitylibrary.org/pagethumb/15775524",
+       "FullSizeImageUrl": "http://www.biodiversitylibrary.org/pageimage/15775524",
+       "OcrUrl": "http://www.biodiversitylibrary.org/pageocr/15775524",
+       "OcrText": "206 \n\n\n\nPROCEEDINGS OF THE CALIFORNIA ACADEMY OF SCIENCES. Vol. 43, No. 13 \n\n\n\n(present in all other salangoids). Pectoral fin-rays \n\n 7-1 1 (20-32 in all other Salangidae). Pectoral \n\n girdle with a single postcleithrum (absent in all \n\n other salangoids). Body extremely elongate, more \n\n so than in any other salmoniforms. Basal portion \n\n of neural and hemal arches expanded, frequently \n\n covering centrum laterally and fusing with each \n\n other. Distal portion of neural arches with an- \n\n terior and posterior projections, those of succes- \n\n sive vertebrae articulating with each other. Ver- \n\n tebrae 68-79 (37-70 in all other salangoids). \n\n\n\nThe enlarged symphyseal teeth of the dentary \n\n and the membrane in the roof of the mouth \n\n through which they project presumably form a \n\n puncturing device to kill prey. Similar devices, \n\n with foramina in the roof of the mouth through \n\n which fanglike lower jaw teeth pass, occur in \n\n other piscivorous or predatory teleosts, including \n\n the characoids Hepsetus, Hop lias, and Acestro- \n\n rhync hus (Rohens 1969). \n\n\n\nIn many respects Salanginae appear to be the \n\n most highly specialized members of the family. \n\n Even the low pectoral fin-ray count, which might \n\n be considered primitive, may be secondarily \n\n evolved, since primary pectoral radials 2-4 of \n\n Salanginae exhibit the distally fimbriate or dig- \n\n itate condition that is probably associated with \n\n the retention of pedunculate pectoral fins (prob- \n\n ably a neotenic character) and evolution of large \n\n numbers of pectoral fin-rays (a specialization \n\n shared by all other Salangidae). \n\n\n\nSalanxOken, 1817 \n\n\n\n\"Les Salanx\" Cuvier, 1817:185 (French vernacular; not avail- \n\n able for zoological nomenclature). \n\n\n\nSalanx Oken, 1817:1183 (Latinization of Cuvier's \"Les Sa- \n\n lanx,\" and the earliest name available for zoological no- \n\n menclature; see ICZN Declaration 87, paragraph 12. Type- \n\n species, by monotypy, Salanx cuvieri Valenciennes, 1849). \n\n\n\nLeucosoma Gray, 1831:4 (type-species, by monotypy, Leu- \n\n coso ma reeves i Gray. 1831). \n\n\n\nHemisalanx Regan, 1908b:444 (type-species, by monotypy, \n\n Hemisalanx prognalhus Regan, 1908b). \n\n\n\nParasalanx Regan, 1908b:444 (type-species, by subsequent \n\n designation of Fang, 1934a:259, Parasalanx gracillimus \n\n Regan, 1908b = ?5'a/a«.v cwv/m Valenciennes, 1849). \n\n\n\nReganisalanx Fang, 1934b:509 (type-species, by monotypy, \n\n Reganisalanx normani Fang, 1934b = Sa/a«.\\- ariakensis \n\n Kjshinouye, 1901). \n\n\n\nMetasalanx Wakjya and Takahasi, 1937:293 (type-species, \n\n by monotypy, Metasalanx coreanus Wakjya and Takahasi, \n\n 1937, a nomen nudum). \n\n\n\nThe four species herein recognized as consti- \n\n tuting the genus Salanx have been placed by \n\n other authors in three genera, Salanx, Hemisa- \n\n\n\nlanx, and Leucosoma. Wakiya and Takahasi \n\n (1937) even placed Hemisalanx in a subfamily \n\n of its own, Hemisalanginae, regarded by them as \n\n intermediate between Protosalanginae and Sa- \n\n langinae. Because these four species differ strik- \n\n ingly from all other salangids in several features \n\n of skeletal anatomy but agree closely with each \n\n other in conformation of the cranium and jaws, \n\n distribution and size of jaw teeth, number of \n\n pectoral fin-rays, and the peculiar modification \n\n of their neural and hemal arches and high ver- \n\n tebral counts, I prefer to recognize them as be- \n\n longing to three subgenera in the sole genus of \n\n the subfamily Salanginae. \n\n\n\nSalanx (Salanx) ariakensis \n\n (Kishinouye, 1901) \n\n\n\nSalanx ariakensis Kishinouye, 1 90 1 :359 (type-locality Ariake \n\n\n\nBay, Kiushiu). \n\n Salanx acuticeps Regan, 1908a:360 (type-locality Lake Can- \n\n\n\ndidius, Formosa). \n\n Parasalanx acuticeps Regan, 1908b:446. \n\n Parasalanx longianalis Regan, 1 908b:446 (type-locality Liao- \n\n\n\nho, northern China). \n\n Parasalanx annitae van Dam, 1926:342 (type-locality Pei- \n\n\n\ntaiho, China). \n\n Reganisalanx normani Fang, 1 934b:509 (type-locality Ichang. \n\n\n\nas herein restricted). \n\n\n\nMaterial Examined. -AMNH 10327, 7:125-147 mm, \n\n Hunan; BMNH 1 888.5. 1 5. 1 1-12, 2: 141-143 mm, Ichang (lec- \n\n totypeandparalectotypeof/?. normani): BMNH 1898.2.8.20- \n\n 23, 4:1 14-123 mm, Liao-ho, northern China (syntypes of P. \n\n longianalis): BMNH 1904.4.2835-36, 2:116-118 mm, Uke \n\n Candidius, Formosa (syntypes of S. acuticeps): BMNH \n\n 1927.3.26.3, 125 mm, Nanking; BMNH 1928.6.22.6, 1 15 mm. \n\n Wenchow; CAS-SU 8574, 2:99.1-104 mm, Ariake Sea (iden- \n\n tified by Kishinouye); CAS-SU 23103, 107 mm. Maruyama, \n\n Taihoku, Formosa; ZMA 1 12.587, 128 mm, Peitaiho, China \n\n (holotype of P. annitae). \n\n\n\nIn vertebral counts and in all other respects so \n\n far as known the four syntypes of P. longianalis \n\n agree well with other material herein referred to \n\n as Salanx ariakensis, except for their consis- \n\n tently high anal fin-ray counts of 30-32 (reported \n\n by Regan 1908b:446). Most samples of 5. ari- \n\n akensis examined have only 26-29 anal fin-rays, \n\n but two specimens from Ariake Bay have 27 and \n\n 31. \n\n\n\nReganisalanx normani is based primarily on \n\n the description by Regan (1908b) and supple- \n\n mentary notes by Fang (1934b: 509) of two spec- \n\n imens from Ichang (BMNH 1888.5.15, 11-12), \n\n identified by Regan (ibid.) as Salanx cuvieri. Fang \n\n declared that the specimens represented a dis- \n\n tinct genus but did not provide a proper generic \n\n\n\n",
+       "PageTypes": [
+           {
+               "PageTypeName": "Text"
+           }
+       ],
+       "PageNumbers": [
+           {
+               "Prefix": "Page",
+               "Number": "206"
+           }
+       ],
+       "Names": [
+           {
+               "NameBankID": "",
+               "EOLID": "",
+               "NameFound": "Candidius",
+               "NameConfirmed": "",
+               "Titles": null
+           },
+           {
+               "NameBankID": "3520470",
+               "EOLID": "97210",
+               "NameFound": "Formosa",
+               "NameConfirmed": "Formosa",
+               "Titles": null
+           },
+           {
+               "NameBankID": "",
+               "EOLID": "21105119",
+               "NameFound": "Formosa (syntypes",
+               "NameConfirmed": "Formosa sp. con26",
+               "Titles": null
+           },
+           {
+               "NameBankID": "",
+               "EOLID": "",
+               "NameFound": "Hemisalanginae",
+               "NameConfirmed": "",
+               "Titles": null
+           },
+           {
+               "NameBankID": "2535344",
+               "EOLID": "26302",
+               "NameFound": "Hemisalanx",
+               "NameConfirmed": "Hemisalanx",
+               "Titles": null
+           },
+           {
+               "NameBankID": "116100",
+               "EOLID": "27603",
+               "NameFound": "Hepsetus",
+               "NameConfirmed": "Hepsetus",
+               "Titles": null
+           },
+           {
+               "NameBankID": "3403368",
+               "EOLID": "1381341",
+               "NameFound": "Leucosoma",
+               "NameConfirmed": "Leucosoma",
+               "Titles": null
+           },
+           {
+               "NameBankID": "",
+               "EOLID": "20531001",
+               "NameFound": "Metasalanx",
+               "NameConfirmed": "Metasalanx",
+               "Titles": null
+           },
+           {
+               "NameBankID": "3510399",
+               "EOLID": "20531002",
+               "NameFound": "Metasalanx coreanus",
+               "NameConfirmed": "Metasalanx coreanus",
+               "Titles": null
+           },
+           {
+               "NameBankID": "4282442",
+               "EOLID": "4609673",
+               "NameFound": "Parasalanx",
+               "NameConfirmed": "Parasalanx",
+               "Titles": null
+           },
+           {
+               "NameBankID": "",
+               "EOLID": "",
+               "NameFound": "Parasalanx acuticeps",
+               "NameConfirmed": "",
+               "Titles": null
+           },
+           {
+               "NameBankID": "3512376",
+               "EOLID": "11072939",
+               "NameFound": "Parasalanx annitae",
+               "NameConfirmed": "Parasalanx annitae",
+               "Titles": null
+           },
+           {
+               "NameBankID": "3510394",
+               "EOLID": "20537746",
+               "NameFound": "Parasalanx gracillimus",
+               "NameConfirmed": "Parasalanx gracillimus",
+               "Titles": null
+           },
+           {
+               "NameBankID": "3510293",
+               "EOLID": "11072940",
+               "NameFound": "Parasalanx longianalis",
+               "NameConfirmed": "Parasalanx longianalis",
+               "Titles": null
+           },
+           {
+               "NameBankID": "",
+               "EOLID": "",
+               "NameFound": "Protosalanginae",
+               "NameConfirmed": "",
+               "Titles": null
+           },
+           {
+               "NameBankID": "4327426",
+               "EOLID": "4609671",
+               "NameFound": "Reganisalanx",
+               "NameConfirmed": "Reganisalanx",
+               "Titles": null
+           },
+           {
+               "NameBankID": "3510397",
+               "EOLID": "11072938",
+               "NameFound": "Reganisalanx normani",
+               "NameConfirmed": "Reganisalanx normani",
+               "Titles": null
+           },
+           {
+               "NameBankID": "114354",
+               "EOLID": "10460009",
+               "NameFound": "Salangidae",
+               "NameConfirmed": "Salangidae",
+               "Titles": null
+           },
+           {
+               "NameBankID": "6261520",
+               "EOLID": "",
+               "NameFound": "Salanginae",
+               "NameConfirmed": "Salanginae",
+               "Titles": null
+           },
+           {
+               "NameBankID": "2485593",
+               "EOLID": "25145",
+               "NameFound": "Salanx",
+               "NameConfirmed": "Salanx",
+               "Titles": null
+           },
+           {
+               "NameBankID": "3858678",
+               "EOLID": "224569",
+               "NameFound": "Salanx (Salanx) ariakensis",
+               "NameConfirmed": "Salanx ariakensis",
+               "Titles": null
+           },
+           {
+               "NameBankID": "2529490",
+               "EOLID": "2778298",
+               "NameFound": "Salanx acuticeps",
+               "NameConfirmed": "Salanx acuticeps",
+               "Titles": null
+           },
+           {
+               "NameBankID": "3858678",
+               "EOLID": "224569",
+               "NameFound": "Salanx ariakensis",
+               "NameConfirmed": "Salanx ariakensis",
+               "Titles": null
+           },
+           {
+               "NameBankID": "3858679",
+               "EOLID": "214409",
+               "NameFound": "Salanx cuvieri",
+               "NameConfirmed": "Salanx cuvieri",
+               "Titles": null
+           }
+       ]
+   }
+}</textarea>
+			<br />
+			<button onclick="convert()">Convert</button>
+		
+	
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;color:#222;"></div>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;"></div>
+	</div>
+
+</div>
+
+		<script>
+
+		
+function bhl_page(doc) {
+  var triples = [];
+
+  var cluster_id = doc.message.PageUrl;
+  
+  triples.push(triple(cluster_id,
+          'http://purl.org/dc/terms/identifier',
+          cluster_id));  
+
+
+  // fields
+  for (var i in doc.message) {
+    switch (i) {
+     // OCR text
+		case 'OcrUrl':
+			  var link_id = doc.message.OcrUrl;
+
+			  // type
+			  triples.push(triple(link_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/MediaObject'));
+
+				triples.push(triple(link_id,
+				  'http://schema.org/contentUrl',
+				  doc.message.OcrUrl));
+
+				  triples.push(triple(link_id,
+					'http://schema.org/fileFormat',
+					'text/plain'));
+
+				// link to work
+				triples.push(triple(cluster_id,
+				  'http://schema.org/associatedMedia',
+				  link_id));
+			break;
+
+     // page image 
+		case 'FullSizeImageUrl':
+			  var link_id = doc.message.FullSizeImageUrl;
+
+			  // type
+			  triples.push(triple(link_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/ImageObject'));
+
+				triples.push(triple(link_id,
+				  'http://schema.org/contentUrl',
+				  doc.message.FullSizeImageUrl));
+
+				  triples.push(triple(link_id,
+					'http://schema.org/fileFormat',
+					'image/jpeg'));
+
+				// link to work
+				triples.push(triple(cluster_id,
+				  'http://schema.org/associatedMedia',
+				  link_id));
+				
+			break;
+
+		case 'ThumbnailUrl':
+			  var link_id = doc.message.ThumbnailUrl;
+
+			  // type
+			  triples.push(triple(link_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/ImageObject'));
+
+				triples.push(triple(link_id,
+				  'http://schema.org/contentUrl',
+				  doc.message.ThumbnailUrl));
+
+				  triples.push(triple(link_id,
+					'http://schema.org/fileFormat',
+					'image/jpeg'));
+
+				// link to main image
+				triples.push(triple(doc.message.FullSizeImageUrl,
+				  'http://schema.org/thumbnail',
+				  link_id));
+				  
+				triples.push(triple(cluster_id,
+				  'http://schema.org/associatedMedia',
+				  link_id));
+			break;
+			
+		// page type and Name
+		// "PageNumbers":[{"Prefix":"Page","Number":"206"}]
+		
+		  case 'PageNumbers':
+		     var name = '';
+		     if (doc.message.PageNumbers[0].Prefix) {
+		       name = doc.message.PageNumbers[0].Prefix;
+		     }
+		     if (doc.message.PageNumbers[0].Number) {
+		       name += ' ' + doc.message.PageNumbers[0].Number;
+		     }
+		     if (name == '') {
+		       name = doc.message.PageID;
+		     }
+		     
+				triples.push(triple(cluster_id,
+				  'http://schema.org/name',
+				  name));
+		     
+             break;
+             			
+		// names as annotations....
+		case 'Names':
+		    var n = doc.message.Names.length;
+		    for (var i = 0; i < n; i++) {
+
+			var annotation_id = cluster_id + '#name_' + i;
+			
+			triples.push(triple(annotation_id,
+				 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				  'http://www.w3.org/ns/oa#Annotation'));
+				  
+			// target 
+			var target_id = annotation_id + '/target';
+			
+			triples.push(triple(annotation_id,
+				 'http://www.w3.org/ns/oa#hasTarget',
+				  target_id));
+			
+			
+			triples.push(triple(target_id,
+				 'http://www.w3.org/ns/oa#hasSource',
+				  doc.message.OcrUrl));
+
+			triples.push(triple(target_id,
+				 'http://www.w3.org/ns/oa#hasScope',
+				  cluster_id));
+
+
+
+			// body of annotation 
+			var body_id = annotation_id + '/body';
+			triples.push(triple(annotation_id,
+				 'http://www.w3.org/ns/oa#hasBody',
+				  body_id));
+
+			triples.push(triple(body_id,
+				 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				  'http://www.w3.org/ns/oa#TextualBody'));
+
+			triples.push(triple(body_id,
+				 'http://www.w3.org/1999/02/22-rdf-syntax-ns#value',
+				  doc.message.Names[i].NameFound));
+				  
+		    if (doc.message.Names[i].EOLID) {
+		    
+			triples.push(triple(body_id,
+				 'http://www.w3.org/2000/01/rdf-schema#seeAlso',
+				  'http://eol.org/pages/' + doc.message.Names[i].EOLID));
+			}
+		    
+		    
+				  
+			// purpose of annotation
+			triples.push(triple(body_id,
+				 'http://www.w3.org/ns/oa#hasPurpose',
+				  'http://www.w3.org/ns/oa#tagging'));
+			
+			}
+			
+			
+		
+		/*
+		 [NameBankID] => 3510394
+                            [EOLID] => 20537746
+                            [NameFound] => Parasalanx gracillimus
+                            [NameConfirmed] => Parasalanx gracillimus
+                            [Titles] => */
+		
+			break;
+
+
+		
+/*
+
+
+      case 'description':
+          triples.push(triple(cluster_id,
+            'http://schema.org/name',
+            doc[i]));
+        break;
+
+      
+      case 'name':
+          triples.push(triple(cluster_id,
+            'http://schema.org/name',
+            doc[i]));
+        break;
+      
+      case 'collection_items':
+        // Create list of EOL taxa in this collection 
+      
+        for (var j in doc[i]) {
+          var item_id = 'http://eol.org/pages/' + doc[i][j].object_id;
+          
+          triples.push(triple(cluster_id,
+            'http://schema.org/itemListElement',
+            item_id));
+          
+          triples.push(triple(item_id,
+            'http://schema.org/name',
+            doc[i][j].name));
+        }
+        break;
+*/
+ 
+
+      default:
+        break;
+    }
+  }
+
+
+/*
+
+  // defaults
+  triples.push(triple(cluster_id,
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+    'http://schema.org/ItemList'));
+
+  triples.push(triple(cluster_id,
+    'http://schema.org/itemListOrder',
+    'Unordered'));
+*/
+ 
+  output(doc, triples);
+
+}
+		
+			function convert() {
+				var jsonld = $('#json').val();
+				var doc = JSON.parse(jsonld);
+				
+				
+				bhl_page(doc);
+				
+			
+			}
+		</script>
+
+
+</body>
+</html>

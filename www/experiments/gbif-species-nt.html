@@ -64,12 +64,21 @@ function gbif_data(doc) {
               doc[i][j]));
         }
         break;
-	
-
+        
+      case 'datasetKey':
+			triples.push(triple(cluster_id,
+              'http://rs.tdwg.org/dwc/terms/datasetID',
+              'http://www.gbif.org/dataset/' + doc[i]));      
+      	break;
+ 
         // title can be string or array
       case 'canonicalName':
             triples.push(triple(cluster_id,
               'http://schema.org/name',
+              doc[i]));
+              
+            triples.push(triple(cluster_id,
+              'http://rs.tdwg.org/dwc/terms/canonicalName',
               doc[i]));
         break;
         
