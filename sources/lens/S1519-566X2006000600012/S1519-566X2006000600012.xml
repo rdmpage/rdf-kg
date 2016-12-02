@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<front>
+<journal-meta>
+<journal-id>1519-566X</journal-id>
+<journal-title><![CDATA[Neotropical Entomology]]></journal-title>
+<abbrev-journal-title><![CDATA[Neotrop. Entomol.]]></abbrev-journal-title>
+<issn>1519-566X</issn>
+<publisher>
+<publisher-name><![CDATA[Sociedade Entomológica do Brasil]]></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id>S1519-566X2006000600012</article-id>
+<article-id pub-id-type="doi">10.1590/S1519-566X2006000600012</article-id>
+<title-group>
+<article-title xml:lang="es"><![CDATA[El subgénero Megachile (Dasymegachile) Mitchell con especial referencia a las especies argentinas (Hymenoptera: Megachilidae)]]></article-title>
+<article-title xml:lang="en"><![CDATA[The subgenus Megachile (Dasymegachile) Mitchell with special reference to the Argentine species (Hymenoptera: Megachilidae)]]></article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname><![CDATA[Durante]]></surname>
+<given-names><![CDATA[Silvana]]></given-names>
+</name>
+<xref ref-type="aff" rid="A01"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname><![CDATA[Abrahamovich]]></surname>
+<given-names><![CDATA[Alberto H.]]></given-names>
+</name>
+<xref ref-type="aff" rid="A01"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname><![CDATA[Lucia]]></surname>
+<given-names><![CDATA[Mariano]]></given-names>
+</name>
+<xref ref-type="aff" rid="A01"/>
+</contrib>
+</contrib-group>
+<aff id="A01">
+<institution><![CDATA[,Univ. Nac. de La Plata Museo de La Plata División Entomología]]></institution>
+<addr-line><![CDATA[ ]]></addr-line>
+<country>Argentina</country>
+</aff>
+<pub-date pub-type="pub">
+<day>00</day>
+<month>12</month>
+<year>2006</year>
+</pub-date>
+<pub-date pub-type="epub">
+<day>00</day>
+<month>12</month>
+<year>2006</year>
+</pub-date>
+<volume>35</volume>
+<numero>6</numero>
+<fpage>791</fpage>
+<lpage>802</lpage>
+<copyright-statement/>
+<copyright-year/>
+<self-uri xlink:href="http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S1519-566X2006000600012&amp;lng=en&amp;nrm=iso"></self-uri><self-uri xlink:href="http://www.scielo.br/scielo.php?script=sci_abstract&amp;pid=S1519-566X2006000600012&amp;lng=en&amp;nrm=iso"></self-uri><self-uri xlink:href="http://www.scielo.br/scielo.php?script=sci_pdf&amp;pid=S1519-566X2006000600012&amp;lng=en&amp;nrm=iso"></self-uri><abstract abstract-type="short" xml:lang="es"><p><![CDATA[Se reconocen 17 especies para el subgénero Megachile (Dasymegachile), de las cuales 12 se distribuyen en Chile, nueve en Argentina, tres en Perú y una en Bolivia. Se brindan descripciones, ilustraciones y claves para la identificación de las especies argentinas. Se revisan las distribuciones geográficas; M. cinerea y M. melanotricha, son citadas por primera vez para Argentina. Dos nuevas especies son citadas para Chile.]]></p></abstract>
+<abstract abstract-type="short" xml:lang="en"><p><![CDATA[Seventeen species of Megachile (Dasymegachile) are recognized, twelve species from Chile, nine species from Argentina, three from Peru and one from Bolivia. Descriptions, illustrations, and keys for the identification for the Argentinean species are provided. The geographical distributions in Argentina are revised; M. cinerea and M. melanotricha are recorded for the first time from Argentina. Two species are also newly recorded from Chile.]]></p></abstract>
+<kwd-group>
+<kwd lng="es"><![CDATA[Apoidea]]></kwd>
+<kwd lng="es"><![CDATA[abeja cortadora de hojas]]></kwd>
+<kwd lng="es"><![CDATA[sistemática]]></kwd>
+<kwd lng="en"><![CDATA[Apoidea]]></kwd>
+<kwd lng="en"><![CDATA[leafcutting bee]]></kwd>
+<kwd lng="en"><![CDATA[systematics]]></kwd>
+</kwd-group>
+</article-meta>
+</front><body><![CDATA[ <p align="right"><b><font size="2" face="Verdana">SYSTEMATICS, MORPHOLOGY AND    PHYSIOLOGY</font></b></p>     <p>&nbsp;</p>     <p><font size="4" face="verdana"> <b>El subg&eacute;nero <I>Megachile</I> (<I>Dasymegachile</I>)    Mitchell con especial referencia a las especies argentinas (Hymenoptera: Megachilidae)</b></font></p>     <p>&nbsp;</p>     <p><font size="3" face="verdana"><b>The subgenus <I>Megachile</I> (<I>Dasymegachile</I>)    Mitchell with special reference to the Argentine species (Hymenoptera: Megachilidae)</b></font></p>     <p>&nbsp;</p>     <p>&nbsp;</p>     <p><font size="2" face="Verdana"><b>Silvana Durante; Alberto H. Abrahamovich;    Mariano Lucia</b></font></p>     <p><font size="2" face="Verdana">Divisi&oacute;n Entomolog&iacute;a, Museo de    La Plata, Univ. Nac. de La Plata, Paseo    del Bosque, 1900 La Plata, Argentina, <a href="mailto:sdurante@museo.fcnym.unlp.edu.ar">sdurante@museo.fcnym.unlp.edu.ar</a></font></p>     <p>&nbsp;</p>     ]]></body>
+<body><![CDATA[<p>&nbsp;</p> <hr size="1" noshade>     <p><font size="2" face="Verdana"><b>RESUMEN</b></font></p>     <p><font size="2" face="Verdana"> Se reconocen 17 especies para el subg&eacute;nero    <I>Megachile </I>(<I>Dasymegachile</I>), de las cuales 12 se distribuyen en    Chile, nueve en Argentina, tres en Per&uacute; y una en Bolivia. Se brindan    descripciones, ilustraciones y claves para la identificaci&oacute;n de las especies    argentinas. Se revisan las distribuciones geogr&aacute;ficas; <I>M. cinerea    </I>y<I> M. melanotricha</I>, son citadas por primera vez para Argentina. Dos    nuevas especies son citadas para Chile.</font></p>     <p><font size="2" face="Verdana"><b>Palabras clave:</b> Apoidea, abeja cortadora    de hojas, sistem&aacute;tica</font></p> <hr size="1" noshade>     <p><font size="2" face="Verdana"><b>ABSTRACT</b></font></p>     <p><font size="2" face="Verdana"> Seventeen species of <I>Megachile</I> (<I>Dasymegachile</I>)    are recognized, twelve species from Chile, nine species from Argentina, three    from Peru and one from Bolivia. Descriptions, illustrations, and keys for the    identification for the Argentinean species are provided. The geographical distributions    in Argentina are revised; <I>M. cinerea </I>and<I> M. melanotricha </I>are recorded    for the first time from Argentina. Two species are also newly recorded from    Chile.</font></p>     <p><font size="2" face="Verdana"><b>Key words:</b> Apoidea, leafcutting bee, systematics    </font></p> <hr size="1" noshade>     <p>&nbsp;</p>     <p>&nbsp;</p>     <p><font size="2" face="Verdana">El g&eacute;nero <I>Megachile</I> Latreille constituye    un grupo de abejas solitarias, muy rico en especies, distribuidas en todo el    mundo. Se distinguen por la cabeza grande, la escopa bien desarrollada situada    en la parte ventral del metasoma, y las mand&iacute;bulas con bordes cortantes    que les permiten recortar hojas y p&eacute;talos para recubrir las celdas de    sus nidos, por lo que se las denomina vulgarmente como abejas cortadoras de    hojas. Son colectoras de polen y para nidificar utilizan galer&iacute;as o huecos    preexistentes, por lo que muchas de sus especies aceptan nidos artificiales,    y pueden ser empleadas como polinizadores de plantas cultivadas (O’Toole &amp;    Raw 1991, Michener 2000). </font></p>     ]]></body>
+<body><![CDATA[<p><font size="2" face="Verdana">Los principales estudios sobre    las especies americanas de este g&eacute;nero fueron realizados por Mitchell    (1930, 1934 y 1943), quien propone una clasificaci&oacute;n subgen&eacute;rica,    en la que incluye casi todos los subg&eacute;neros conocidos hasta la actualidad,    entre ellos <I>M. </I>(<I>Dasymegachile</I>). Posteriormente, este autor (1980)    divide a <I>Megachile</I> en siete g&eacute;neros con <I>Dasymegachile</I> incluida    en el g&eacute;nero <I>Cressoniella</I> Mitchell. Esta clasificaci&oacute;n    no fue muy aceptada, y recientemente Michener (2000) reconoce un &uacute;nico    g&eacute;nero <I>Megachile</I> con tres grupos, e incluye a <I>M. </I>(<I>Dasymegachile</I>)    como un subg&eacute;nero v&aacute;lido. Silveira <I>et al</I>. (2002)    estudia las especies brasileras, y mantiene gran parte de los subg&eacute;neros    reconocidos por Mitchell (1943), adem&aacute;s de sugerir la necesidad de una    propuesta filogen&eacute;tica del g&eacute;nero para revalidar cualquier modificaci&oacute;n.    Raw (2002) realiz&oacute; un listado con nuevas combinaciones y sinonimias de    las especies americanas.</font></p>     <p><font size="2" face="Verdana"> El subg&eacute;nero <I>Dasymegachile</I>    re&uacute;ne especies robustas, pilosas, distribuidas en la regi&oacute;n Andina    de Argentina, Bolivia, Chile y Per&uacute;. Originalmente Mitchell (1943) incluye    en este subg&eacute;nero cuatro especies, mientras que Toro (1986) adiciona    10 especies de la fauna chilena, posteriormente Durante &amp; Abrahamovich (2002)    describen una especie nueva para Argentina y Raw (2002) adiciona tres especies    m&aacute;s. Michener (2000) sugiere que este subg&eacute;nero reunir&iacute;a    al menos 20 especies en total. Entre los aportes al conocimiento de las especies    de este subg&eacute;nero se destacan los trabajos de Friese (1905, 1908), Gazulla    &amp; Ruiz (1928), Ruiz &amp; Stuardo (1935) y Ruiz (1936, 1940) para las especies    chilenas y Friese (<I>op. cit.</I>), Vachal (1908) y Durante &amp; Abrahamovich    (2002, 2003) para las especies argentinas.</font></p>     <p><font size="2" face="Verdana"> El objetivo del presente trabajo    es caracterizar al subg&eacute;nero <I>Dasymegachile</I>, listar las especies    en &eacute;l incluidas, determinar y describir las especies presentes en la    entomofauna argentina, elaborar una clave para su reconocimiento y ajustar,    en base al material disponible, su distribuci&oacute;n geogr&aacute;fica.</font></p>     <p>&nbsp;</p>     <p><font size="3" face="Verdana"><b>Material y M&eacute;todos</b></font></p>     <p><font size="2" face="Verdana">Se estudi&oacute; material perteneciente    a las siguientes instituciones: Instituto Argentino de Investigaciones de las    Zonas &Aacute;ridas, Mendoza, Argentina (IADIZA); Museum National D’Histoire    Naturelle, Paris, France (MNHN), Museo Argentino de Cs. Naturales "Bernardino    Rivadavia", Buenos Aires (MACN), Museo de La Plata, Argentina (MLP), and    Snow Entomological Museum, University of Kansas, USA (SEMC), Zoologisches Museum,    Museum f&uuml;r Naturkinde der Humbolt, Universit&auml;t, Berlin, Alemania (ZMB).</font></p>     <p><font size="2" face="Verdana">Para el tratamiento sistem&aacute;tico    se sigue la clasificaci&oacute;n tradicional propuesta por Michener (2000),    conservando la divisi&oacute;n subgen&eacute;rica propuesta por Mitchell (1943).    </font></p>     <p><font size="2" face="Verdana">Las abreviaturas usadas en las descripciones    son: F, flagel&oacute;meros; P, pedicelo antenal; S, esterno metasomal; T, tergo    metasomal. Todas las medidas est&aacute;n indicadas en mil&iacute;metros y fueron    tomadas con un ocular microm&eacute;trico adosado a un microscopio estereosc&oacute;pico.    Los mapas de distribuci&oacute;n geogr&aacute;fica incluyen, adem&aacute;s de    los lugares de procedencia del material estudiado, los previamente citados por    otros autores. </font></p>     <p>&nbsp;</p>     <p><font size="3" face="Verdana"><b><I>Megachile </i>(<I>Dasymegachile</I>) Mitchell</b></font></p>     ]]></body>
+<body><![CDATA[<p align="center"><font size="2" face="Verdana">(<a href="#fig01">Figs. 1-18</a>)</font></p>     <p><a name="fig01"></a></p>     <p>&nbsp;</p>     <p align="center"><img src="/img/revistas/ne/v35n6/a12fig01.gif">    <br>   <img src="/img/revistas/ne/v35n6/a12fig03.gif">    <br>   <a name="fig05"></a><img src="/img/revistas/ne/v35n6/a12fig05.gif"></p>     <p>&nbsp;</p>     <p>&nbsp;</p>     <p align="center"><img src="/img/revistas/ne/v35n6/a12fig07.gif">    <br>   <img src="/img/revistas/ne/v35n6/a12fig09.gif"></p>     ]]></body>
+<body><![CDATA[<p>&nbsp;</p>     <p>&nbsp;</p>     <p align="center"><img src="/img/revistas/ne/v35n6/a12fig11.gif">    <br>   <img src="/img/revistas/ne/v35n6/a12fig13.gif"></p>     <p>&nbsp;</p>     <p>&nbsp;</p>     <p align="center"><img src="/img/revistas/ne/v35n6/a12fig15.gif">    <br>   <img src="/img/revistas/ne/v35n6/a12fig17.gif"></p>     <p>&nbsp;</p>     <p><font size="2" face="Verdana"><I>Megachile</i> (<I>Dasymegachile</I>) Mitchell,    1943: 669. Especie tipo <I>Megachile saulcyi</I> Gu&eacute;rin-M&eacute;neville,    1844, por designaci&oacute;n original.    ]]></body>
+<body><![CDATA[<br>   <I>Cressoniella</i> (<I>Dasymegachile</I>)    Mitchell, 1980: 63.    <br>   <I>Cressoniella </i>(C<I>haetochile</I>)    Mitchell, 1980: 63. Especie tipo <I>Cressoniella golbachi </I>Schwimmer en Mitchell,    1980, por designaci&oacute;n original; Michener, 2000: 555 &#91;como sin&oacute;nimo    de <I>M.</I> (<I>Dasymegachile</I>)&#93;.    <br>   <I>Megachile </i>(<I>Dasymegachile</I>);    Michener, 2000: 555; Raw, 2002: 14; Silveira <I>et al</I>., 2002: 212.</font></p>     <p> <font size="2" face="Verdana"><B>Diagnosis.</b> Pilosas y robustas,    tama&ntilde;o entre 9-15 mm. Tegumento oscuro, de aspecto cori&aacute;ceo y    punteado; alas casta&ntilde;o amarillentas, nervaduras oscuras. Pubescencia    negra, blanca y/o ferruginosa, com&uacute;nmente larga y densa; tergo metasomal    con o sin bandas apicales completas. Antenas con F1 semejante a F2 y normalmente    m&aacute;s largo que P. Metasoma cordiforme u ovoide, tergos achatados    transversalmente. </font></p>     <p><font size="2" face="Verdana"><B>Hembra </b>(<a href="#fig01">Figs. 1-4</a>).    Mand&iacute;bula tetradentada, cuarto diente romo o hendido, borde cortante    incompleto en el segundo interespacio y completo en el tercero. Ojos divergentes    por arriba o subparalelos; carena paraocular desarrollada y completa. Clipeo    y &aacute;rea supraclipeal levemente convexos, com&uacute;nmente m&aacute;s    elevados que las &aacute;reas paraoculares; porci&oacute;n transversal del surco    epistomal usualmente redondeada; margen distal del clipeo subrecto a escotado,    liso o irregular, generalmente con puntuaci&oacute;n densa, con o sin &aacute;rea    media lisa. Margen occipital leve o fuertemente c&oacute;ncavo. Escutelo redondeado,    con o sin elevaci&oacute;n media (giba). T6, en vista dorsal, redondeado o truncado;    en vista lateral, c&oacute;ncavo o recto. Escopa negra, con E6 cubierto de pelos    escopales.</font></p>     <p><font size="2" face="Verdana"><B>Macho </b>(<a href="#fig05">Figs. 5-18</a>).    Mand&iacute;bula tridentada, sin proceso mandibular, diente mediano agudo, equidistante    entre los dientes 1 y 3. &Aacute;rea hipostomal plana, sin proyecciones. Antenas    con F11 simple o modificado. Escutelo redondeado sin elevaci&oacute;n media    (giba). Procoxa frecuentemente pilosa, sin espina o con tub&eacute;rculo reducido,    setas ferruginosas ausentes; cara posterior del prof&eacute;mur con pilosidad    clara; protarso no modificado, l&oacute;bulo basitarsal ausente; mesotibia con    esp&uacute;rea apical bien desarrollada. T6 con dos espinas laterales a cada    lado del margen distal; carena subapical emarginada, m&aacute;rgenes interno    y externo lisos o irregulares, usualmente sin depresi&oacute;n anterior. Cuatro    esternos metasomales visibles. S5, &aacute;rea pregradular tan ancha como larga    con el margen apical piloso; gradulus ensanchado medialmente; &aacute;rea postgradular    completamente cubierta por pelos simples; borde apical ligeramente arqueado.    S6, &aacute;rea pregadular bien separada y frecuentemente subtriangular; borde    apical con l&oacute;bulos laterales poco o apenas desarrollados. S7, ausente.    S8, l&oacute;bulo apical con el margen distal ligeramente redondeado, margen    lateral recto, usualmente glabro. Gonobase claramente m&aacute;s ancha que larga,    gonoforceps ligeramente subcilindricos o aplanados, &aacute;pice simple, com&uacute;nmente    truncado, con un mech&oacute;n de setas subterminal.</font></p>     <p><font size="2" face="Verdana"><B>Distribuci&oacute;n </b>(<a href="#fig19">Figs.    19-24</a>). Las especies del subg&eacute;nero se distribuyen principalmente    en la regi&oacute;n Andina de Argentina y Chile, llegando hasta Bolivia y Per&uacute;.    En Argentina se registran nueve especies de las cuales tres son exclusivas de    este pa&iacute;s. </font></p>     <p><a name="fig19"></a></p>     <p>&nbsp;</p>     <p align="center"><img src="/img/revistas/ne/v35n6/a12fig19.gif">    ]]></body>
+<body><![CDATA[<br>   <a name="fig22"></a><img src="/img/revistas/ne/v35n6/a12fig22.gif"></p>     <p>&nbsp;</p>     <p><font size="2" face="Verdana"><B>Comentarios.</b> Hasta el presente y seg&uacute;n    Michener (2000) los subg&eacute;neros <I>Dasymegachile</I> y <I>Chaetochile</I>    son considerados sin&oacute;nimos; Silveira <I>et al</I>. (2002) contin&uacute;an    con esta sinonimia, sin embargo no fue citado de esta manera por Viana &amp;    Alves Dos Santos (2002). Recientemente, Durante &amp; Abrahamovich (2006) se&ntilde;alan    que estos subg&eacute;neros son m&aacute;s apropiados tratarlos independientemente.</font></p>     <p>&nbsp;</p>     <p><font size="3" face="Verdana"><b>Especies Incluidas en el Subg&eacute;nero    <I>Dasymegachile</i></b></font></p>     <blockquote>       <p><font size="2" face="Verdana">1. <I>Megachile cinerea</I> Friese. Argentina      y Chile    <br>     2. <I>M. coquimbensis</I> Ru&iacute;z.      Chile    <br>     3. <I>M. distinguenda</I> Ru&iacute;z.      Chile    <br>     4. <I>M. fasciatella</I> Friese. Chile    ]]></body>
+<body><![CDATA[<br>     5. <I>M. garleppi </I>Friese. Chile y      Per&uacute;    <br>     6. <I>M. joergenseni</I> Friese. Argentina    <br>     7. <I>M. kuscheli </I>Moure. Bolivia    <br>     8. <I>M. melanotricha</I> Spinola. Argentina      y Chile    <br>     9. <I>M. mendocensis</I> Durante. Argentina    <br>     10. <I>M. patagonica</I> Vachal. Argentina    <br>     11. <I>M. piurensis</I> Cockerell. Per&uacute;    <br>     12. <I>M. santacrucensis </I>Durante.      Argentina y Chile    <br>     13. <I>M. saulcyi </I>Gu&eacute;rin.      Argentina, Chile y Per&uacute;    <br>     14. <I>M. semirufa </I>Sichel. Argentina      y Chile    ]]></body>
+<body><![CDATA[<br>     15. <I>M. tucumana </I>Vachal. Argentina      y Chile    <br>     16. <I>M. variabilis</I> Friese. Chile    <br>     17. <I>M. wagenknechti</I> Ruiz. Chile</font></p> </blockquote>     <p>&nbsp;</p>     <p><font size="3" face="Verdana"><b>Clave de las Especies de <I>Megachile </I>(<I>Dasymegachile</I>)    Presentes en Argentina</b></font></p> <table width="580" border="0" align="center" cellpadding="5" cellspacing="5">   <tr>     <td>    <p><font size="2" face="Verdana">HEMBRA</font></p>           <p><font size="2" face="Verdana">1. Metasoma con bandas tergales completas..................................................2</font></p>           <p><font size="2" face="Verdana">- Metasoma sin bandas tergales...................................................................3</font></p>           <p><font size="2" face="Verdana">2. Bandas tergales negras en T1-5. Pilosidad          general completamente negra .......... ..........................................................................................<I>          M. joergenseni</i></font></p>           <p><font size="2" face="Verdana">- Bandas tergales blancas en T1-3. Pilosidad          general blanca y negra .................. ........................................................................................<I>          M. mendocensis</i></font></p>           ]]></body>
+<body><![CDATA[<p><font size="2" face="Verdana">3. Pilosidad del metasoma dorsal completamente          negra .................................... ........................................................................................          <I>M. melanotricha</i></font></p>           <p><font size="2" face="Verdana">- Pilosidad del metasoma dorsal parcialmente          negra, en T1-2 siempre blanca, amarilla o ferruginosa ..............................................................................          4</font></p>           <p><font size="2" face="Verdana">4. Pubescencia de los tergos basales del          metasoma amarilla o ferruginosa .......... 5</font></p>           <p><font size="2" face="Verdana">- Pubescencia de los tergos basales del          metasoma blanca o blanco gris&aacute;cea ...... 6</font></p>           <p><font size="2" face="Verdana">5. T1-3 con pilosidad generalmente amarillenta.          Escutelo con elevaci&oacute;n media (giba) ......................................................................................<I>          M. santacrucensis</i></font></p>           <p><font size="2" face="Verdana">- T1-4 con pilosidad ferruginosa. Escutelo          sin elevaci&oacute;n media ...........<I> M. semirufa</i></font></p>           <p><font size="2" face="Verdana">6. Escutelo con elevaci&oacute;n media          (giba) ...........................................<I> M. cinerea </i></font></p>           <p><font size="2" face="Verdana">- Escutelo sin elevaci&oacute;n Media ..................................................................          7</font></p>           <p><font size="2" face="Verdana">7. &Aacute;rea media del clipeo lisa. Ojos          fuertemente divergentes por arriba. Borde occipital profundamente c&oacute;ncavo,          v&eacute;rtice angosto ............................<I> M. saulcyi</i></font></p>           <p><font size="2" face="Verdana">- Clipeo completamente punteado. Ojos subparalelos          o levemente divergentes por arriba. Borde occipital levemente c&oacute;ncavo,          v&eacute;rtice amplio .............................. 8</font></p>           ]]></body>
+<body><![CDATA[<p><font size="2" face="Verdana">8. Pisolidad de T1-2 blanca o blanco gris&aacute;cea          ..............................<I> M. patagonica</i></font></p>           <p><font size="2" face="Verdana">- Pilosidad de T1-3 blanca o blanco gris&aacute;cea          ................................<I> M. tucumana</i></font></p>   </td>   </tr> </table> <table width="580" border="0" align="center" cellpadding="5" cellspacing="5">   <tr>     <td>    <p><font size="2" face="Verdana">MACHO</font></p>           <p><font size="2" face="Verdana">1. Pilosidad del metasoma dorsal completamente          negra ............... <I>M. melanotricha</i></font></p>           <p><font size="2" face="Verdana">- Pilosidad del metasoma dorsal parcialmente          negra, en T1 siempre blanca, amarilla o ferruginosa .........................................................................................          2</font></p>           <p><font size="2" face="Verdana">2. Bandas tergales en T1-3 blancas ........................................<I>          M. mendocensis</i></font></p>           <p><font size="2" face="Verdana">-Sin bandas tergales ...............................................................................          3</font></p>           <p><font size="2" face="Verdana">3. F11 dilatado ........................................................................<I>          M. semirufa</i></font></p>           <p><font size="2" face="Verdana">- F11 simple ..........................................................................................          4</font></p>           <p><font size="2" face="Verdana">4. Promediotarsos amarillos, con m&aacute;culas          internas ........................................ 5</font></p>           ]]></body>
+<body><![CDATA[<p><font size="2" face="Verdana">- Promediotarsos casta&ntilde;os, sin m&aacute;culas          ...................................................... 6</font></p>           <p><font size="2" face="Verdana">5. Pilosidad general blanca y negra. Espina          coxal reducida. Margen interno de la carena tergal transversal en el fondo          .............................................<I> M. cinerea</i></font></p>           <p><font size="2" face="Verdana">- Pilosidad general amarilla y negra. Sin          espina coxal. Margen interno de la carena tergal en forma de V .........................................................          <I>M. santacrucensis</i></font></p>           <p><font size="2" face="Verdana">6. T3 con pilosidad negra. Sin espina coxal          .................................<I> M. patagonica</i></font></p>           <p><font size="2" face="Verdana">- T3 con pilosidad blanca o blanco gris&aacute;cea.          Con espina coxal ......................... 7</font></p>           <p><font size="2" face="Verdana">7. Pilosidad genal inferior blanca. Pubescencia          en T1-4 blanco gris&aacute;ceo ..<I>.M. saulcyi</i></font></p>           <p><font size="2" face="Verdana">- Pilosidad genal enteramente negra. Pubescencia          en T1-3 blanca .....<I> M. tucumana</i></font></p>   </td>   </tr> </table>     <p>&nbsp;</p>    <p><font size="3" face="Verdana"><B><I>Megachile</i> (<I>Dasymegachile</I>)<I>    cinerea</I> Friese </b></font></p>     <p><font size="2" face="Verdana"><I>Megachile cinerea </i>Friese, 1905: 137    ]]></body>
+<body><![CDATA[<br>   <I>M. </i>(<I>Dasymegachile</I>) <I>cinerea</I>;    Raw, 2002:14.</font></p>     <p><font size="2" face="Verdana"><B>Hembra.</b> Longitud 11,05-13,57    mm. Tegumento negro. Alas casta&ntilde;o amarillentas. Pubescencia blanco gris&aacute;cea    y negra; pelos blanco gris&aacute;ceos en el dorso mesosomal, l&oacute;bulo    pronotal, porci&oacute;n superior del episterno, metanoto, propodeo y T1-3,    resto negro; metasoma sin bandas tergales. Escopa negra. Ojos subparalelos.    Clipeo levemente convexo, margen apical apenas escotado e irregular; punteado    denso, en toda la superficie. &Aacute;rea supraclipeal plana. Margen occipital    levemente c&oacute;ncavo. Escutelo con giba. T6, en vista dorsal, redondeado;    en vista lateral, recto.</font></p>     <p><font size="2" face="Verdana"><B>Macho.</b> Longitud 10,25-11,46    mm. Similar a la hembra de la que se diferencia por los siguientes caracteres.    Probasitarso casta&ntilde;o, distalmente amarillo; promediotarsos amarillo ferruginosos;    prodistitarso casta&ntilde;o; promediotarso I y II con m&aacute;cula negra interna.    Pilosidad de la cabeza blanco amarillenta, v&eacute;rtice y gran parte de las    genas negra; pelos del mesosoma y patas I y II, muy abundantes blanco amarillentos,    patas III con escasos pelos claros. F11 simple, estrecho, con el margen apical    redondeado. Procoxa pilosa, con tub&eacute;rculos reducidos. Probasitarso no    modificado. T6 con carena subapical emarginada, en forma de U poco profunda,    margen externo irregularmente serrulado, margen interno liso, sin depresi&oacute;n    anterior. </font></p>     <p><font size="2" face="Verdana"><B>Distribuci&oacute;n</b> (<a href="#fig22">Fig.    22</a>).  Esta especie s&oacute;lo fue citada para Chile. Se cita por    primera vez para Argentina, en las provincias de Chubut, Mendoza, Neuqu&eacute;n    y R&iacute;o Negro.</font></p>     <p><font size="2" face="Verdana"><B>Comentarios.</b> Esta especie    presenta pilosidad blanca en el tergo mesosomal y T1-3 como en <I>M. tucumana</I>,    de la cual se diferencia por la presencia de una giba en la hembra y por la    coloraci&oacute;n del protarso en los machos. </font></p>     <p><font size="2" face="Verdana"><B>Material tipo examinado.</b>    Tipo macho, Chile, Concepci&oacute;n, 5/11/1908 Herbst col. (ZMB). </font></p>     <p><font size="2" face="Verdana"><B>Otro material examinado.</b> ARGENTINA. <I>Chubut,</I>    macho, Pto. Limondo Los Alerces, II-1959, (MLP). <I>Mendoza</I>, hembra, Leg.    Reed, (MLP). <I>Neuqu&eacute;n</I>, macho, Confluencia, 20-XII-1964, Leg. Schajovskoi,    (MLP); hembra, Coll&oacute;n-Cur&aacute;, 24-XII-1953, Leg. Schajovskoi, (MLP);    macho y hembra, Chacayal, 26-XII-1957, Leg. Schajovskoi, (MLP); macho, Chapelco,    15-III-1964, (MACN); cinco hembras, Isla Victoria (Nahuel Huapi), 1943, Leg.    Marrilemko, (MLP); hembra, Isla Victoria Nahuel Huapi, (MLP); macho, La Lipela,    24-XI-1964, Leg. Giai, (SEMC); macho y hembra, Laguna Blanca, XII-1965, Leg.    Giai, (MACN); macho, Neuqu&eacute;n (capital), 20-XI-1955, Leg. Giai, (MLP);    hembra, Pucar&aacute;, (P.N. Lan&iacute;n), I-1954, Leg. Schajovskoi, (MLP);    hembra y macho, Pucar&aacute;, 23-XI-1957, Leg. Schajovskoi, (MLP); macho, Pucar&aacute;,    (P.N. Lan&iacute;n), XII-1952, Leg. Schajovskoi, (MLP); macho, Pucar&aacute;,    (P.N. Lan&iacute;n), XII-1953, Leg. Schajovskoi, (MLP); macho, Pucar&aacute;,    (P.N. Lan&iacute;n), I-1951, Leg. Schajovskoi, (MLP); macho, Alumin&eacute;,    27-II-1964, (MACN); dos machos, R&iacute;o Alumin&eacute;, I-1956, Leg. Biefeld,    (MLP); hembra, San Martin de los Andes, 15-XI-1955, Leg. Schajovskoi, (MLP);    hembra, San Martin de los Andes, Leg. Schajovskoi, (MLP); macho, San Martin    de los Andes, (P.N. Lan&iacute;n), XI-1952, Leg. Schajovskoi, ( MLP); hembra,    San Martin de los Andes, I-1941, Leg. Bridarolli, (MLP); macho, San Martin de    los Andes, (P.N. Lan&iacute;n), XII-1952, Leg. Schajovskoi, (MLP). <I>R&iacute;o    Negro,</I> hembra, El Bols&oacute;n, II-1955, leg. Foerster (SEMC); hembra,    Paso Flores, 9-XII-1955, (MLP); macho, Est. El Condor (30 km. E.S.C. de Bariloche),    16-XI-1964, Leg. Giai, (SEMC); hembra, Dto. Pilcaniyeu Est. El Condor, I-1969,    Leg Giai, (SEMC); hembra, El Bols&oacute;n, XI-1955, (SEMC). CHILE. <I>Area    metropolitana</I>, macho, Videla, NOS, XI-1909, (MACN).</font></p>     <p>&nbsp;</p>     <p><font size="3" face="Verdana"><b><I>Megachile </i>(<I>Dasymegachile</I>) <I>joergenseni    </I>Friese</b></font></p>     <p><font size="2" face="Verdana"><I>Megachile j&ouml;rgenseni </i>Friese, 1908:    66.    ]]></body>
+<body><![CDATA[<br>   <I>M. joergenseni</i>; Schrottky, 1913:    251 (<I>Enmienda</I>).    <br>   <I>M. </i>(<I>Pseudocentron</I>) <I>joergenseni</I>;    Raw, 2002: 29.</font></p>     <p><font size="2" face="Verdana"><B>Hembra.</b> Longitud 10,25-13,27 mm. Tegumento    negro. Alas casta&ntilde;as. Pubescencia enteramente negra; metasoma con bandas    tergales completas, del mismo color en T1-5; mechones ferruginosos entre los    dientes mandibulares. Escopa negra. Ojos divergentes por arriba. Clipeo convexo,    margen apical levemente escotado e irregular; punteado denso, con l&iacute;nea    media usualmente lisa. &Aacute;rea supraclipeal convexa con el &aacute;rea media    sin puntos. Margen occipital levemente c&oacute;ncavo. Escutelo sin giba. T6,    en vista dorsal, redondeado; en vista lateral, recto.</font></p>     <p><font size="2" face="Verdana"><B>Macho. </b>Desconocido.</font></p>     <p><font size="2" face="Verdana"><B>Distribuci&oacute;n </b>(<a href="#fig19">Fig.    19</a>). Esta especie fue citada s&oacute;lo para la provincia de Mendoza.    Se amplia su distribuci&oacute;n geogr&aacute;fica a las provincias argentinas    de Buenos Aires, Catamarca, C&oacute;rdoba, La Rioja, R&iacute;o Negro y Santiago    del Estero.</font></p>     <p><font size="2" face="Verdana"><B>Comentarios.</b> Esta    especie se caracteriza por presentar la pilosidad general completamente negra    como <I>M. melanotricha</I> de la que se diferencia por las bandas tergales    metasomales negras y la ausencia de giba mesosomal.</font></p>     <p><font size="2" face="Verdana"><B>Relaciones florales. </b>Sobre    <I>Medicago sativa </I>(alfalfa, Leguminosae), <I>Wedelia glauca</I> (sunchillo,    Compositae); <I>Opuntia</I> sp. (Cactaceae).</font></p>     <p><font size="2" face="Verdana"><B>Material tipo examinado.</b> Tipo hembra, Mendoza, Argentina (ZMB).</font></p>     <p><font size="2" face="Verdana"><B>Otro material examinado.</b> ARGENTINA. <I>Buenos    Aires</I>, cuatro hembras, Felipe Sol&aacute;, XI-1942, leg. Mart&iacute;nez,    (MLP); hembra, Hilario Ascasubi, -IV-1979, leg. Mart&iacute;nez, (MLP); hembra,    Puan, leg. Mart&iacute;nez, (MLP); hembra, Puan, II-1952, leg. Mart&iacute;nez,    (SEMC); hembra, Villa Col&oacute;n, 23-XI-1941, leg. S.J., (MLP). <I>Catamarca</I>,    hembra, leg. Reed, (MLP); hembra, 25-XI-1907, leg. Joergensen, (MLP); hembra,    III-1942, leg. Schaeffer, (MLP); hembra, Andalgal&aacute;, -II-1945, leg. Daguerre,    (MLP); hembra, Copacabana, 17-XI-1944, (MLP); cinco hembras, Recreo, 8-V-1955,    leg. Ogloblin, (MLP). <I>C&oacute;rdoba</I>, hembra, Agua de Oro, I-1940, leg.    De Carlo, (SEMC); hembra, Alta Gracia, 1-XI-1941, (MLP); hembra, Bajo Grande,    14-VIII-1939, leg. Maldonado, (MLP); hembra, El Sauce, XII-1938, leg. Viana,    (SEMC). <I>La Rioja</I>, dos hembras, 11-V-1949, leg. Daguerre, (MLP). <I>Mendoza</I>,    tres hembras, leg. Reed, (MLP); hembra, 12-XI-1906, leg. Joergensen, (MLP);    dos hembras, 20-X-1907, leg. Joergensen, (MLP); tres hembras, sin datos, (MLP);    hembra, 20-XI.1941, leg. Ogloblin, (MLP); hembra, Borboll&oacute;n, 22-XI-1941,    (MLP). <I>R&iacute;o Negro</I>, hembra, Coronel Gomez, -II-1946, (MLP); dos    hembras, R&iacute;o Colorado, II-1943, leg. Bosg (MLP); dos hembras, Rio Colorado,    III-1958, leg. Ogloblin, (MLP); hembra, Valcheta, I-1943, (MLP). <I>Santiago    del Estero</I>, hembra, La Banda, 22-IX-1966, leg. Ochoa, (MLP); hembra, Los    Nu&ntilde;ez, c. Guasay&aacute;n, IV-1945, (MLP); dos hembras, Mapap&eacute;,    24-X-1928, leg. Gomez, (SEMC).</font></p>     <p>&nbsp;</p>     ]]></body>
+<body><![CDATA[<p><font size="3" face="Verdana"><B><I>Megachile </i>(<I>Dasymegachile</I>)<I>    melanotricha</I> Spinola </b></font></p>     <p><font size="2" face="Verdana"><I>Megachile melatronicha </i>Spinola, 1851:    179    <br>   <I>M. melanotricha</i>; Dalla Torre, 1896:    439 (<I>Enmienda</I>).    <br>   <I>M. </i>(<I>Dasymegachile</I>) <I>melanotricha</I>    Toro, 1986: 127; Raw, 2002: 14. </font></p>     <p><font size="2" face="Verdana"><B>Hembra.</b> Longitud 12,21 mm. Tegumento negro,    patas m&aacute;s claras. Alas ligeramente ahumadas. Pubescencia enteramente    negra; metasoma sin bandas tergales. Escopa negra. Ojos subparalelos. Clipeo    convexo, m&aacute;s elevado en la base, margen apical apenas escotado; punteado    denso en toda la superficie. &Aacute;rea supraclipeal convexa. Margen occipital    levemente c&oacute;ncavo. Escutelo con giba. T6, en vista dorsal, redondeado;    en vista lateral, recto.</font></p>     <p><font size="2" face="Verdana"><B>Macho.</b> De acuerdo a la    descripci&oacute;n original es muy semejante a la hembra; la pubescencia negra    con pelos blancos en el clipeo; carena en T6 en forma de U, margen interno rectangular,    externo dentado (Spinola 1851: 179). </font></p>     <p><font size="2" face="Verdana"><B>Distribuci&oacute;n </b>(<a href="#fig19">Fig.    19</a>).  Esta especie s&oacute;lo fue citada para Chile. Se la cita por    primera vez para Argentina en la provincia de Neuqu&eacute;n.</font></p>     <p><font size="2" face="Verdana"><B>Comentarios.</b> Esta    especie con pilosidad enteramente negra, es semejante a <I>M. joergenseni</I>,    de la que se diferencia por carecer de bandas tergales y presentar una giba    mesosomal.</font></p>     <p><font size="2" face="Verdana"><B>Material examinado.</b> ARGENTINA. <I>Neuqu&eacute;n,</I> hembra, Neuqu&eacute;n (Capital),    20-XI-1955, Leg. Giai, (MLP).</font></p>     <p><font size="2" face="Verdana"><B>Observaciones.</b> Originalmente Spinola (1851)    describe a esta especie como <I>Megachile melatronicha</I>; Dalla Torre (1896)    corrigi&oacute; su nombre como <I>M. melanotricha</I>, argumentando un error    tipogr&aacute;fico para esta especie negra. Posteriormente, Toro (1986) y Raw    (2002) lo citan como <I>M. melanotricha </I>Spinola 1851. En este caso, esta    enmienda injustificada es v&aacute;lida debido a su uso predominante (art&iacute;culo    33.2.3.1 del ICZN, 1999).</font></p>     ]]></body>
+<body><![CDATA[<p>&nbsp;</p>     <p><font size="3" face="Verdana"><b><I>Megachile </i>(<I>Dasymegachile</I>)<I>    mendocensis </I>nom. nov. </b></font></p>     <p><font size="2" face="Verdana"><I>Megachile tricincta </i>Friese,    1908: 66 (<I>non </I>Bingham, 1897, de India).</font></p>     <p><font size="2" face="Verdana"><B>Hembra.</b> Longitud 11,31-13 mm. Tegumento    negro. Alas hialinas. Pubescencia blanca y negra; l&oacute;bulo pronotal, porci&oacute;n    anterior del escudo, y metanoto formando un corona de pelos blancos; metasoma    con bandas tergales blancas y completas en T1-3. Escopa negra. Ojos divergentes    por arriba. Cl&iacute;peo levemente convexo, margen apical levemente escotado;    punteado denso, &aacute;rea media frecuentemente lisa. &Aacute;rea supraclipeal    convexa. Margen occipital levemente c&oacute;ncavo. Escutelo sin giba. T6, en    vista dorsal, truncado; en vista lateral, c&oacute;ncavo.</font></p>     <p><font size="2" face="Verdana"><B>Macho. </b>Longitud 10,55-13    mm. Similar a la hembra de la que se diferencia por los siguientes caracteres. Protarso casta&ntilde;o; sin m&aacute;cula interna en promediotarso I y    II. Frente, v&eacute;rtice, clipeo, &aacute;rea supraclipeal, &aacute;reas paraoculares,    parte inferior de las genas, dorso mesosomal y episternos con pilosidad muy    abundante y blanca. F11 simple, estrecho, con el margen apical redondeado. Procoxa    pilosa, sin espina. Probasitarso no modificado. T6 con carena subapical emarginada,    en forma de U profunda, margen externo irregular, sin depresi&oacute;n anterior.</font></p>     <p><font size="2" face="Verdana"><B>Etimolog&iacute;a.</b> El    nombre propuesto alude a la provincia de donde procede el material tipo.</font></p>     <p><font size="2" face="Verdana"><B>Distribuci&oacute;n </b>(<a href="#fig19">Fig.    20</a>).  Esta especie est&aacute; citada para la provincia de Mendoza.    Se amplia su distribuci&oacute;n geogr&aacute;fica a la provincia de Neuqu&eacute;n.</font></p>     <p><font size="2" face="Verdana"><B>Comentarios.</b> <I>M. mendocensis</I>    se distingue f&aacute;cilmente del resto de las especies argentinas por la presencia    de tres bandas tergales blancas en T1-3. </font></p>     <p><font size="2" face="Verdana"><B>Material tipo examinado. </b>Tipo    macho, Mendoza, Argentina (ZMB).</font></p>     <p><font size="2" face="Verdana"><B>Otro material examinado.</b>    ARGENTINA. <I> Neuqu&eacute;n</I>, cuatro machos, Cerro Lotena, 18-XII-65,    Leg. Schajovskoi (MLP); dos hembras, R&iacute;o Alumin&eacute;, 29-I-63, Leg.    Schajovskoi, (MLP); un macho, Plaza Huincul, XI-1941, (MLP); <I>Mendoza</I>,    un macho, 21-XI- 1906, Leg. Joergensen, (MLP); un macho, Vega del loro, (MLP);    hembra, no date, Leg. Reed, (MLP); hembra, Lavalle, Reserva Telteca, 15-XII-2002,    leg. Debandi, (IADIZA); hembra, Lavalle, Reserva Telteca, 5-XI-2002, leg. Debandi,    (IADIZA); macho, Reserva Telteca, 17-VIII/24-IX-1996, leg. Flores-Roig (IADIZA);    hembra, Malarg&uuml;e, 7-I-2003, leg. Debandi, (IADIZA); macho, Uspallata, 16-XII-1954,    leg. Ogloblin, (MLP); macho, no date, (MACN).</font></p>     ]]></body>
+<body><![CDATA[<p>&nbsp;</p>     <p><font size="3" face="Verdana"><b><I>Megachile </i>(<I>Dasymegachile</I>)<I>    patagonica</I> Vachal</b></font></p>     <p><font size="2" face="Verdana"><I>Megachile patagonica</I> Vachal, 1904: 11.    <br>   <I>M. </i>(<I>Dasymegachile</I>) <I>patagonica</I>;    Toro, 1986: 127</font></p>     <p><font size="2" face="Verdana"><B>Hembra. </b>Longitud 13,27 mm. Tegumento    negro. Alas casta&ntilde;o amarillentas. Pubescencia blanco amarillenta y negra;    pelos claros en el margen occipital, escudo, escutelo, l&oacute;bulo pronotal,    t&eacute;gula, metanoto y T1-2, resto negro; metasoma sin bandas tergales. Escopa    negra. Ojos divergentes por arriba. Clipeo convexo, margen apical subrecto,    almenado; punteado denso, en toda la superficie. &Aacute;rea supraclipeal convexa.    Margen occipital levemente c&oacute;ncavo. Escutelo sin giba. T6, en vista dorsal,    truncado; en vista lateral, c&oacute;ncavo.</font></p>     <p><font size="2" face="Verdana"><B>Macho. </b>Similar a la hembra    de la que se diferencia por los siguientes caracteres. Protarso casta&ntilde;o    oscuro; sin m&aacute;cula interna en promediotarso I y II. V&eacute;rtice con    pelos blancos y negros intercalados; clipeo, &aacute;rea supraclipeal y &aacute;reas    paraoculares con pilosidad muy abundante y blanca. F11 simple, estrecho, con    el margen apical redondeado. Procoxa pilosa sin espina. Probasitarso no modificado.    T6 con carena subapical emarginada, en forma de U poco profunda, margen externo    e interno levemente irregulares, sin depresi&oacute;n anterior. </font></p>     <p><font size="2" face="Verdana"><B>Distribuci&oacute;n </b>(<a href="#fig19">Fig.    19</a>).  Esta especie fue originalmente citada para Santa Cruz, Argentina.    Se amplia su distribuci&oacute;n geogr&aacute;fica a la provincia de Neuqu&eacute;n.    </font></p>     <p><font size="2" face="Verdana"><B>Comentarios. </b><I>M. patagonica    </I>se caracteriza por presentar pilosidad metasomal blanca s&oacute;lo en T1-2,    distingui&eacute;ndose f&aacute;cilmente del resto de las especies argentinas.    </font></p>     <p><font size="2" face="Verdana"><B>Material tipo examinado.</b> Holotipo macho, Santa Cruz, Patagonia (MNHN).</font></p>     <p><font size="2" face="Verdana"><B>Otro material examinado.</b> ARGENTINA. <I>Neuqu&eacute;n,</I> hembra, Confluencia, 15-XI-64,    Leg. Schajovskoi, (MLP).</font></p>     ]]></body>
+<body><![CDATA[<p>&nbsp;</p>     <p><font size="3" face="Verdana"><b><I>Megachile </i>(<I>Dasymegachile</I>)<I>    santacrucensis </I>nom. nov. </b></font></p>     <p><font size="2" face="Verdana">Megachile <I>(</I>Dasymegachile<I>)    </I>australis <I>Durante &amp; Abrahamovich, 2002: 361. (</I>non<I> Lucas, 1876,    de Nueva Caledonia). </i></font></p>     <p><font size="2" face="Verdana"><B>Hembra.</b> Longitud 13,27-13,57 mm. Tegumento    casta&ntilde;o oscuro a negro. Alas casta&ntilde;o amarillentas. Pubescencia    ferruginosa y negra; pelos entremezclados en el v&eacute;rtice y margen occipital;    ferruginosos en el dorso mesosomal, porci&oacute;n superior del l&oacute;bulo    pronotal, y del episterno, t&eacute;gula y T1-3, resto negro; metasoma sin bandas    tergales. Escopa negra. Ojos subparalelos. Clipeo levemente convexo, margen    apical apenas escotado e irregular; punteado denso, m&aacute;s esparcido en    el &aacute;rea media. &Aacute;rea supraclipeal plana. Margen occipital levemente    c&oacute;ncavo. Escutelo con giba. T6, en vista dorsal, redondeado; en vista    lateral, recto.</font></p>     <p><font size="2" face="Verdana"><B>Macho. </b>Longitud 11,31-12,80    mm. Similar a la hembra de la que se diferencia por los siguientes caracteres. Probasitarso casta&ntilde;o, distalmente amarillo; promediotarsos amarillos;    prodistitarso amarillo, distalmente casta&ntilde;o; promediotarso I y II con    m&aacute;cula negra interna. Frente, v&eacute;rtice, clipeo, &aacute;rea supraclipeal    y &aacute;reas paraoculares con pilosidad muy abundante y ferruginosa. F11 simple,    estrecho, con el margen apical redondeado. Procoxa pilosa, sin espina. Probasitarso    no modificado. T6 con carena subapical emarginada, en forma de V, margen externo    e interno subserrulados e irregulares, sin depresi&oacute;n anterior. </font></p>     <p><font size="2" face="Verdana"><B>Etimolog&iacute;a.</b> El nombre propuesto alude a la provincia de donde procede el material tipo.</font></p>     <p><font size="2" face="Verdana"><B>Distribuci&oacute;n </b>(<a href="#fig19">Fig.    21</a>).  Esta especie est&aacute; citada para una sola localidad de la    provincia de Santa Cruz, Argentina. Se amplia su distribuci&oacute;n geogr&aacute;fica    a las provincias de La Rioja y Neuqu&eacute;n. Se cita por primera vez para    Chile.</font></p>     <p><font size="2" face="Verdana"><B>Comentarios.</b> Esta especie    presenta abundante pilosidad amarilla a ferruginosa. Es semejante a <I>M. semirufa    </I>de la cual se distingue por la pubescencia de T1-3; adem&aacute;s en la    hembra la presencia de una giba mesosomal, y en el macho la coloraci&oacute;n    del protarso, la forma de F11 y de la carena de T6. </font></p>     <p><font size="2" face="Verdana"><B>Relaciones florales.</b> Esta citada sobre <I>Buddleja globosa </I>(Matico, Loganiaceae). De acuerdo    a la determinaci&oacute;n pol&iacute;nica, est&aacute; relacionada a <I>Reseda    </I>sp.  (Resedaceae), <I>Phacelia</I> sp, (Hydrophyllaceae), <I>Senecio</I>    sp. (Compositae) y el tipo Liliaceae-Iridaceae.</font></p>     <p><font size="2" face="Verdana"><B>Material tipo examinado.</b> Holotipo hembra, alotipo macho y 10 paratipos de Valle T&uacute;nel, Santa    Cruz, Argentina (MLP).</font></p>     ]]></body>
+<body><![CDATA[<p><font size="2" face="Verdana"><B>Otro material examinado.</b> ARGENTINA. <I>La Rioja,</I> macho, Patqu&iacute;a, 3-X-1954, Leg. Pastrana,    (MLP). <I>Neuqu&eacute;n,</I> hembra, Chapelco, 15-III-1964, (MLP); hembra,    Chapelco, 15-III-1964, Leg. Giai, (SEMC); hembra, Isla Victoria (Nahuel Huap&iacute;),    1949, Leg. Harrilenku, (MLP); macho y dos hembras, Lago Tromen (996 m), 13-I-2003,    leg. Debandi (IADIZA); macho, Lago Tromen cabecera Este, 10-XII-1998, Leg. Roitman,    Montaldo &amp; Devoto, (MACN); hembra, Quila-Quina, 18-I-1968, Leg. Molinari,    (MLP); macho, San Martin de los Andes, I-41, Leg Bridarolli, (MLP). <I>Santa    Cruz</I>, hembra, Valle T&uacute;nel, (MLP). CHILE. dos machos, Malleco Cabreria,    Cord. Nahuelbuta, 1200 m, 22-XII-1985, Leg. Roig, (MACN). </font></p>     <p>&nbsp;</p>     <p><font size="3" face="Verdana"><B><I>Megachile </i>(<I>Dasymegachile</I>)<I>    saulcyi</I> Gu&eacute;rin-M&eacute;neville</b></font></p>     <p><font size="2" face="Verdana"><I>Megachile saulcyi </i>Gu&eacute;rin-M&eacute;neville,    1844: 450; Smith, 1853: 184; Dalla Torre, 1896: 448; P&eacute;rez, 1899: 109;    Alfken, 1904: 141; Vachal, 1909: 8; Friese, 1911: 273; Herbst, 1917: 267; Herbst,    1921: 103; Ruiz, 1923: 105; Claude, 1926: 250; Jaffuel &amp; Pirion, 1926: 372;    Gazulla &amp; Ruiz, 1928: 302; Mitchell, 1930: 293; Ruiz, 1940: 373.    <br>   <I>M. chilensis</i> Spinola, 1851: 178;    Reed, 1892: 227; Gribodo, 1894: 203; Schrottky, 1903: 80; Vachal, 1904: 11;    Cockerell, 1905: 338; Friese, 1910: 644; Herbst, 1917: 267; Herbst, 1921: 103;    Ruiz, 1940: 373 (sin.)    <br>   <I>M. praefica</i> Gribodo, 1894: 204;    Herbst, 1921: 103; Mitchell, 1930: 293; Ruiz, 1940: 373 (sin.).    <br>   <I>M. proefica</i> &#91;sic&#93; Ruiz, 1940: 374.    <br>   <I>M. </i>(<I>Dasymegachile</I>) <I>saulcyi</I>;    Mitchell, 1943: 669.    <br>   <I>Cressoniella </i>(<I>Dasymegachile</I>)    <I>saulcyi</I>; Mitchell, 1980: 63.    <br>   <I>M. </i>(<I>Dasymegachile</I>) <I>saulcyi</I>;    Michener, 2000: 559.</font></p>     ]]></body>
+<body><![CDATA[<p><font size="2" face="Verdana"><B>Hembra.</b> Longitud 10,25-12,37 mm. Tegumento    negro. Alas hialinas. Pubescencia blanco gris&aacute;cea y negra; pelos blancos    gris&aacute;ceos y negros entremezclados en el v&eacute;rtice y margen occipital;    pelos blanco gris&aacute;ceos en mesosoma dorsal, lobulo pronotal, porci&oacute;n    superior del episterno, tegula, metanoto, propodeo y T1-4, resto negro; metasoma    sin bandas tergales. Escopa negra. Ojos divergentes por arriba. Clipeo levemente    convexo, margen apical subrecto a levemente escotado e irregular; punteado denso,    con una franja media longitudinal lisa. &Aacute;rea supraclipeal apenas convexa.    Margen occipital fuertemente c&oacute;ncavo. Escutelo sin giba. T6, en vista    dorsal, redondeado; en vista lateral, c&oacute;ncavo.</font></p>     <p><font size="2" face="Verdana"><B>Macho. </b>Longitud 8,84-11,03    mm. Similar a la hembra de la que se diferencia por los siguientes caracteres.    Protarso casta&ntilde;o; sin m&aacute;cula interna en promediotarso I y II.    &Aacute;rea supraclipeal, clipeo, protroc&aacute;nter y prof&eacute;mur con    pilosidad abundante y blanca; v&eacute;rtice con pelos blancos y negros intercalados.    F11 simple, estrecho, margen apical redondeado. Procoxa con tub&eacute;rculos    reducidos. Probasitarso no modificado. T6 con carena subapical emarginada, en    forma de U profunda, margen externo ligeramente serrulado e irregular, margen    interno liso, sin depresi&oacute;n anterior.</font></p>     <p><font size="2" face="Verdana"><B>Distribuci&oacute;n </b>(<a href="#fig22">Fig.    23</a>).  Esta especie fue citada para Chile, Per&uacute; y Argentina    (Tucum&aacute;n). Se amplia su distribuci&oacute;n geogr&aacute;fica a las provincias    de Neuqu&eacute;n, R&iacute;o Negro y Santa Cruz.</font></p>     <p><font size="2" face="Verdana"><B>Comentarios.</b> Entre las    especies argentinas que presentan combinaci&oacute;n de pilosidad blanca y negra,    <I>M. saulcyi</I> se distingue f&aacute;cilmente por la pubescencia blanco gris&aacute;cea    que cubre hasta T1-4. </font></p>     <p><font size="2" face="Verdana"><B>Relaciones florales.</b> Esta    citado para <I>Senecio adenotrichus, S. glabra, S. hualtata, Encelia    canescens</I> (Compositae); <I>Alstroemeria ligia, A. versicolor </I>(Alstroemeriaceae);    <I>Mesembryanthemum </I>sp.(Aizoaceae), <I>Stachys </I>sp., <I>Teucrium bicolor</I>.    (Lamiaceae), tambi&eacute;n para Umbeliferaceae, Onagrariaceae y Papilionaceae.</font></p>     <p><font size="2" face="Verdana"><B>Material examinado.</b> ARGENTINA. <I>Neuqu&eacute;n</I>, macho, Cat&aacute;n-lil, 24-II-1958, Leg.    A. G. Giai, (MLP); hembra, Cat&aacute;n-lil, 24-II-1958, Leg. Schajovskoi, (MLP);    macho y hembra, Cat&aacute;n-lil, 24-II-1958, Leg. Schajovskoi, ( MLP); hembra    y cuatro machos, Coll&oacute;n-Cur&aacute;, 8-XII-1955, (SEMC); macho y hembra,    Coll&oacute;n-Cur&aacute;, 8-XII-1955, Leg. Schajovskoi, (MLP); macho, hembra,    Est. Alicura (120 km de S. C. de Bariloche), 9-II-1972, Leg. D.J. Brothers &amp;    D. C. Lloyd, (SEMC); macho, Laguna Blanca, XII-1965, Leg. Giai, (MACN); hembra,    Pampa Pilmatuz, 25-XI-1964, Leg. Schajovskoi, (MLP); hembra y dos machos, R&iacute;o    Alumin&eacute;, 7-XII-1964, Leg. Schajovskoi,(MLP); macho, R&iacute;o Alumin&eacute;,    29-II-1964, Leg. Schajovskoi, (MLP); macho, R&iacute;o Alumin&eacute;, 29-I-1963,    Leg. Schajovskoi, (MLP); macho, R&iacute;o Alumin&eacute;, 27-XII-1963, Leg.    Schajovskoi, (MLP); macho y hembra, R&iacute;o Alumin&eacute;, 24-XI-1964, Leg.    Schajovskoi, (MLP); dos machos, Alumin&eacute;, 27-II-1964, (MACN). <I>R&iacute;o    Negro,</I> tres hembras, Paso Flores, III-1963, (MACN). <I>Santa Cruz,</I>    macho, Patagonia Sta Cruz, (MACN). CHILE. <I>&Aacute;rea del Biob&iacute;o,</I>    hembra, Concepci&oacute;n, (MLP). <I>Regi&oacute;n Coquimbo,</I> hembra, Coquimbo    (51 km Los Vilos), 8-I-1984, Leg. Roig, (MACN). <I>&Aacute;rea Metropolitana</I>,    macho, Cunelo Pcia (Santiago), 2-III-1958, (MLP); dos machos, La Aguirre, Santiago    21-XI-1945, Leg. Rodriguez, (MLP); macho, Cuesta Lo Prado, Santiago, 22-XI-45,    Leg. Rodrigez, (MLP) hembra, Pudahuel, 4-II-1945, Leg. Rodriguez (MLP); dos    hembras, Pudahuel, Santiago, 25-I-45, Leg. Rodriguez, (MLP); hembra, San Crist&oacute;bal,    16-VIII-1942, Leg. Gutierrez, (MLP); dos hembras, Santiago, 5-IV-44, Leg. Cort&eacute;s,    (MLP); dos hembras, Santiago, 1-1946, Leg. Rodriguez (MLP); hembra, Santiago,    29-I-1945, Leg. Rodriguez, (MLP); macho, &Ntilde;u&ntilde;oa, Leg. F. Claude,    (MACN). <I>Valparaiso</I>, macho, Rio Blanco, 14-I-1939, Leg. Gutierrez, (MLP).</font></p>     <p>&nbsp;</p>     <p><font size="3" face="Verdana"><b><I>Megachile </i>(<I>Dasymegachile</I>)<I>    semirufa </I>Sichel</b></font></p>     <p><font size="2" face="Verdana"><I>Megachile semirufa </i>Sichel, 1867: 150;    Reed, 1892: 237; Dalla Torre, 1896:248; Cockerell, 1905: 338; Vachal, 1909:    7; Friese, 1911: 273; Herbst, 1917: 294; Jaffuel &amp; Pirion, 1926: 372; Gazulla    &amp; Ruiz, 1928: 302; Ruiz &amp; Stuardo, 1935: 322; Ruiz, 1940: 375; Toro,    1986:1927; Perez D’Angelo &amp; Petersen, 1989:259.    <br>   <I>M. porteri </i>P&eacute;rez, 1899: 108;    Ruiz, 1940: 375 (sin.).    ]]></body>
+<body><![CDATA[<br>   <I>M. </i>(<I>Dasymegachile</I>) <I>semirufa</I>;    Mitchell, 1943: 670; Durante &amp; Abrahamovich, 2003: 310. </font></p>     <p><font size="2" face="Verdana"><B>Hembra.</b> Longitud 12,08-15,24 mm. Tegumento    negro. Alas casta&ntilde;o amarillentas. Pubescencia. ferruginosa y negra, pelos    entremezclados en el v&eacute;rtice; ferruginosos en el margen occipital, dorso    mesosomal, l&oacute;bulo pronotal, porci&oacute;n superior del episterno, t&eacute;gula,    metanoto y T1-4, resto negro; metasoma sin bandas tergales. Escopa negra. Ojos    divergentes por arriba. Clipeo levemente convexo, margen apical recto e irregular;    punteado denso, m&aacute;s esparcido en el &aacute;rea media. &Aacute;rea supraclipeal    apenas convexa. Margen occipital c&oacute;ncavo. Escutelo sin giba. T6, en vista    dorsal, redondeado; en vista lateral, c&oacute;ncavo.</font></p>     <p><font size="2" face="Verdana"><B>Macho. </b>10,86-11,91 mm.    Similar a la hembra de la que se diferencia por los siguientes caracteres. Protarso    casta&ntilde;o; sin m&aacute;cula interna en promediotarso I y II. Frente, v&eacute;rtice,    clipeo, &aacute;rea supraclipeal, &aacute;rea paraocular y parte de las genas    con abundantes pelos amarillos a ferruginosos. F11 modificado, dilatado, lanceolado,    margen apical aguzado. Procoxa pilosa con tub&eacute;rculo reducido. Probasitarso    no modificado. T6 con carena subapical emarginada, en forma de U profunda, margen    externo ligeramente serrulado e irregular, con depresi&oacute;n anterior. </font></p>     <p><font size="2" face="Verdana"><B>Distribuci&oacute;n</b> (<a href="#fig22">Fig.    24</a>).  Esta especie fue citada para Chile y Argentina (Neuqu&eacute;n    y Santa Cruz). Se amplia su distribuci&oacute;n geogr&aacute;fica a las provincias    de Chubut y R&iacute;o Negro.</font></p>     <p><font size="2" face="Verdana"><B>Comentarios.</b> La    pilosidad ferruginosa es caracter&iacute;stica de esta especie. Se puede confundir    con <I>M. santacrucensis</I> de la que se diferencia por la pilosidad de T1-4;    adem&aacute;s en la hembra la ausencia de la giba mesosomal, y en el macho la    coloraci&oacute;n del protarso, F11 dilatado y la forma de la carena de T6.</font></p>     <p><font size="2" face="Verdana"><B>Relaciones florales.</b> Sobre    <I>Loasa</I> sp. (Loasaceae). La determinaci&oacute;n pol&iacute;nica relaciona    a esta especie con <I>Hyalis argentea, Cirsium</I> sp. (Compositae).    </font></p>     <p><font size="2" face="Verdana"><B>Material tipo examinado.</b>    Lectotipo hembra, Chile (MNHN); Paralectotipos, seis hembras y tres machos,    Chile, (MNHN).</font></p>     <p><font size="2" face="Verdana"><B>Otro material examinado.</b> ARGENTINA. <I>Chubut</I>, hembra, Los Repollos, XI-1965, Leg. Giai, (MACN).    <I>Neuqu&eacute;n</I>, dos machos, Epu Lauqu&eacute;n (1450 M), 9-I-2003, leg.    Debandi (IADIZA); cuatro hembras, Isla Victoria (Nahuel Huapi), 1943, Leg. Harrilenku,    (MLP); hembra, Isla Victoria, (MLP); hembra, Lago Hermoso (P.N. Lan&iacute;n),    XI-1949, Leg. Schajovskoi, (MLP); La Lipela, 24-XI-1964, Leg. Giai, (SEMC);    hembra, Pucar&aacute; (P.N. Lan&iacute;n), XII-1950, Leg. Schajovskoi, (MLP);    hembra, Pucar&aacute; (P.N. Lan&iacute;n), XII-1952, Leg. Schajovskoi, (MLP);    macho, Pucar&aacute; (P.N. Lan&iacute;n), 15-XII-1956, Leg. Schajovskoi,(MLP);    hembra, Pucar&aacute; (Lacar), II-1953, Leg. Ogloblin, (MLP); hembra y cuatro    machos, San Mart&iacute;n de Los Andes, I-1941, Leg. Bridarolli, (MLP); hembra,    Trolope, 26-XI-1964, (MACN). <I>R&iacute;o Negro</I>, hembra, Cholila, 1-1965,    Leg. Giai, (MACN); dos hembras, Nahuel Huap&iacute;, (MACN). <I>Santa Cruz,</I>    hembra, R&iacute;o Pintura, Cueva Las Manos, 28-I-1994, Leg. Roig, (MACN); dos    machos, Valle T&uacute;nel, (MLP). dos machos, dos hembras, San Jorge (Patagonia),    (MACN). CHILE. <I>&Aacute;rea Metropolitana,</I> 10 hembras, dos machos, NOS,    1911, Leg. Porter, (MNHN); macho, Santiago, I-1930, Leg. Mortera, (MLP); hembra    y macho, Videla, NOS, XI-1909, (MACN). <I>Biob&iacute;o,</I> macho, Concepci&oacute;n,    15-I-1905, Herbst (MNHN). <I>Los Lagos,</I> macho, Chilo&eacute;, 1915, Leg.    P&eacute;rez, (MNHN); hembra, Valdivia, 1919, Leg. De Gaull&eacute;, (MNHN).    <I>Valpara&iacute;so,</I> un macho, Los Andes, Aconcagua, 9-XII-1944, Leg. Ramirez,    (MLP); hembra, Valpara&iacute;so, 1915, Leg. P&eacute;rez, (MNHN); dos machos,    Valparaiso, Leg. Reed, (MACN).</font></p>     <p>&nbsp;</p>     <p><font size="3" face="Verdana"><b><I>Megachile </i>(<I>Dasymegachile</I>)<I>    tucumana </I>Vachal</b></font></p>     ]]></body>
+<body><![CDATA[<p><font size="2" face="Verdana"><I>Megachile tucumana </i>Vachal, 1908: 241.    <br>   <I>M. </i>(<I>Dasymegachile</I>) <I>tucumana</I>;    Raw, 2002: 15.</font></p>     <p><font size="2" face="Verdana"><B>Hembra.</b> Longitud 11,5-14,47 mm Tegumento    negro. Alas hialinas. Pubescencia blanca y negra; l&oacute;bulo pronotal, escudo,    metanoto, porci&oacute;n superior del episterno, t&eacute;gula y T1-3 blancos,    resto negro; metasoma sin bandas tergales. Escopa negra. Ojos levemente divergentes    por arriba. Cl&iacute;peo levemente convexo, margen apical apenas escotado y    crenulado; punteado denso, m&aacute;s esparcidos en el &aacute;rea media. &Aacute;rea    supraclipeal convexa. Margen occipital levemente c&oacute;ncavo. Escutelo sin    giba. T6, en vista dorsal, truncado; en vista lateral, c&oacute;ncavo.</font></p>     <p><font size="2" face="Verdana"><B>Macho. </b>De acuerdo a la descripci&oacute;n    original la longitud es de 13 mm; cara con pelos blancos por encima de las antenas,    resto de la cabeza negro; una banda de largos pelos blancos sobre la base de    los f&eacute;mures I. T1-3 blancos, T4-6 negros; espinas de las procoxas generalmente    muy cortas, carena en T6 en forma de semic&iacute;rculo, el borde de T6 con    dos dientes cortos a cada lado (Vachal 1908: 241).</font></p>     <p><font size="2" face="Verdana"><B>Distribuci&oacute;n </b>(<a href="#fig19">Fig.    20</a>).  Esta especie est&aacute; citada para la provincia de Tucum&aacute;n.    Se amplia su distribuci&oacute;n geogr&aacute;fica a la provincia de Salta.    Se cita por primera vez para Chile.</font></p>     <p><font size="2" face="Verdana"><B>Comentarios. </b>Esta especie    presenta, como <I>M. cinerea, </I>pilosidad blanca en el tergo mesosomal y T1-3.    Se diferencia de &eacute;sta especie por la ausencia en las hembras de giba    mesosomal y la coloraci&oacute;n del protarso en los machos.</font></p>     <p><font size="2" face="Verdana"><B>Material examinado.</b> ARGENTINA,    <I>Salta</I>, hembra, San Antonio de Los Cobres, 22-II-1961, leg. Torres-Ferreyra,    (MLP); hembra, sin datos (MACN); CHILE, hembra, <I>Valpara&iacute;so</I>, leg.    Reed, (MACN).</font></p>     <p>&nbsp;</p>     <p><font size="3" face="Verdana"><b>Agradecimientos</b></font></p>     <p><font size="2" face="Verdana">Agradecemos a P. Hartmann de la Universidad de    Bayreuth, Alemania y a A. Raw de la UESC, Departamento de Ciencias Biol&oacute;gicas,    Ilh&eacute;us, BA, Brasil, por los datos referidos a las homonimias de dos especies    incluidas en este trabajo; a A. Lanteri Facultad de Ciencias Naturales y Museo,    UNLP por la sugerencias nomenclatural y a C. Telleria por el an&aacute;lisis    pol&iacute;nico de dos especies aqu&iacute; tratadas. Por el pr&eacute;stamo    de parte del material estudiado agradecemos a: G. Debandi (IADIZA, Mendoza,    Argentina), C. Villemant (MNHN, Paris, France), A. Roig- Alsina (MACN, Buenos    Aires, Argentina), R. Brooks y C. D. Michener (SEMC, Kansas, USA), F. Koch (ZMB,    Berlin, Alemania). Y especialmente a los revisores por la lectura cr&iacute;tica    y sugerencias al manuscrito.</font></p>     ]]></body>
+<body><![CDATA[<p>&nbsp;</p>     <p><font size="3" face="Verdana"><b> Referencias</b></font></p>     <!-- ref --><p><font size="2" face="Verdana">Alfken, J.D. 1904. Beitrag zur    Insectenfauna der hawaiischen und neu-seeldischen Inseln. (Ergebnisse einer    Reise nach dem Pacific.) Schauinsland 1896-97. Zool. Jahrb. Abt. Syst. Oekol.    Geogr. Tiere 19: 561-628.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000225&pid=S1519-566X200600060001200001&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Bingham, C.T. 1897. The fauna    of British India, including Ceylon and Burma. Hymenoptera. Vol. I. Wasps and    bees. 4 pls. Taylor &amp; Francis, London, xxix + 579p. </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000226&pid=S1519-566X200600060001200002&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Claude, J.F. 1926. Recherches    biologiques sur les Hym&eacute;nopt&egrave;res du Chile (Melliferes). Annls.    Sci. Nat. Zool. 9: 114-268. </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000227&pid=S1519-566X200600060001200003&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Cockerell, T.D.A. 1905. Descriptions    and records of bees. IV. Ann. Mag. Nat. Hist. (7)16: 392-403.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000228&pid=S1519-566X200600060001200004&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Dalla Torre, C.G. 1896. Catalogus    hymenopterorum hucusque descriptorum systematicus et synonymicus, X, Apidae    (Anthophila), 643 pp., Lipsiae. Engelmann, Leipzig.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000229&pid=S1519-566X200600060001200005&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Durante, S.P. &amp; A.H. Abrahamovich.    2002. New leafcutting bee species of the subgenus <I>Megachile</I> (<I>Dasymegachile</I>)    (Hymenoptera, Megachilidae) from Magellanic Forest province, in Patagonia Argentina.    Trans. Am. Entomol. Soc. (Phila)128: 361-366. </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000230&pid=S1519-566X200600060001200006&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Durante, S.P. &amp; A.H. Abrahamovich.    2003. <I>Megachile</I> (<I>D.</I>) <I>semirufa</I> Sichel (Hymenoptera, Megachilidae):    Redescription and first Argentinean records. Trans. Am. Entomol. Soc. (Phila)    129: 309-314.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000231&pid=S1519-566X200600060001200007&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Durante, S.P. &amp; A.H. Abrahamovich.    2006. Redescription of <I>Chaetochile</I> as subgenus of <I>Megachile</I> (Hymenoptera,    Megachilidae). Trans. Am. Entomol. Soc. (Phila) 132: 103-109.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000232&pid=S1519-566X200600060001200008&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Friese, H. 1905. Neue bienenarten    aus Chile. Zeitschr. Syst. Hymenopt. Dipterol. 5: 137-141.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000233&pid=S1519-566X200600060001200009&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Friese, H. 1908. Die apidae (blumenwespen)    von Argentina nach den reisennergebnissen der Herren A.C. Jense-Haarup und P.    J&ouml;rgensen in den Jahren 1904-1907. Flora Fauna 10: 331-425; reprint 1-94.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000234&pid=S1519-566X200600060001200010&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Friese, H. 1910. Zur bienenfauna    des s&uuml;dlichen Argentinien (Hym.). Zool. Jahrb. Abt. Syst. Oekol. Geogr.    Tiere 29: 641-660.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000235&pid=S1519-566X200600060001200011&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Friese, H. 1911. Apidae I, Megachilinae.    Das Tierreich.&nbsp;Friedl&auml;nder, Berlin, 440p.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000236&pid=S1519-566X200600060001200012&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Gazulla, P. &amp; F. Ruiz. 1928.    Los insectos de la Hacienda de "Las Mercedes". Rev. Chil. Hist. Nat.    32: 288-305.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000237&pid=S1519-566X200600060001200013&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Gribodo, G. 1894. Note Imenotterologiche,    Nota II. Nuovi generi e nuove specie di Imenotteri antofili ed osservazioni    sobra alcune specie gia conosciute. Boll. Soc. Entomol. Ital. 26: 76-135, 262-314.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000238&pid=S1519-566X200600060001200014&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Gu&eacute;rin-M&eacute;neville,    F.&Eacute;. 1844. Iconographie du r&egrave;gne animal de G. Cuvier. Vol. 7.    Insects. Bailli&egrave;re, Paris, 576p.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000239&pid=S1519-566X200600060001200015&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Herbst, P. 1917. Durchschit der    von Spinola in der von Claude Gay 1851 herausgegebenen Historia f&iacute;sica    y Pol&iacute;tica de Chile, Zoolog&iacute;a, vol. VI beschriebenen Apidae, nebst    einigen einleitenden Bemerkungen. Dt. Ent. Z., Hfn. 3-4: 257-292.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000240&pid=S1519-566X200600060001200016&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Herbst, P. 1921. Ubre einige    Chilenische Hymenopteren, wlche Gribodo Erw&auml;hnt. Stett. Ent. Zeit. 82:    102-107. </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000241&pid=S1519-566X200600060001200017&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Internacional Comisi&oacute;n    on Zoological Nomenclature. 1999. Internacional Codeo f Zoological Nomenclatura,    (ICZN) Fourth edition adopted by the Internacional Union of Biological Sciences    (IUBS). The International Trust for Zoological Nomenclature c/o The Natural    History Museum, London.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000242&pid=S1519-566X200600060001200018&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Jaffuel, F. &amp; A. Pirion 1926.    Himen&oacute;pteros del valle de Marga-Marga. Rev. Chil. Hist. Nat. 30: 362-383.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000243&pid=S1519-566X200600060001200019&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Lucas, H. 1876. &Eacute;tudes    pour servir &agrave; l’histoire de l’<I>Eumenes germaini</I>, du <I>Megachile australis</I> et observations sur les nids dans lesquels ont &eacute;t&eacute;    rencontr&eacute;s ces Hym&eacute;nopt&egrave;res. Ann. Soc. Entomol. Fr. 6:    291-308.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000244&pid=S1519-566X200600060001200020&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Michener, C.D. 2000. The bees    of the world. Johns Hopkins University Press, Baltimore, Maryland, 912p.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000245&pid=S1519-566X200600060001200021&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Mitchell, T.B. 1930. A contribution    to the knowledgeof Neotropical <I>Megachile</I> with descriptions of new species.    Trans. Am. Entomol. Soc. (Phila) 56: 155-305.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000246&pid=S1519-566X200600060001200022&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Mitchell, T.B. 1934. A revision    of the genus <I>Megachile</I> in the Nearctic Region, Part. I. Trans. Am. Entomol.    Soc. (Phila) 59: 295-361.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000247&pid=S1519-566X200600060001200023&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Mitchell, T.B. 1943. On the classification    of the Neotropical <I>Megachile</I> (Hym.: Megachilidae). Ann. Entomol. Soc.    Am. 34: 656- 671.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000248&pid=S1519-566X200600060001200024&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Mitchell, T.B. 1980. A generic    revision of the Megachilinae bees of the Western hemisphere. Contribution from    the Department of Entomology North Carolina State University, 95p. </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000249&pid=S1519-566X200600060001200025&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">O’Toole, C. &amp; A. Raw. 1991.    Bees of the world. Blandford, London, 192p.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000250&pid=S1519-566X200600060001200026&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">P&eacute;rez, J. 1899. Trois    Megachiles nouvelles du Chili. Rev. Chil. Hist. Nat. 3: 105-109.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000251&pid=S1519-566X200600060001200027&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">P&eacute;rez D’Angelo, V. &amp;    J. Petersen. 1989. Notas sobre abejas de la Regi&oacute;n Magall&aacute;nica,    Chile (Hymenoptera: Apoidea). Acta Ent. Chil. 15: 257-260.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000252&pid=S1519-566X200600060001200028&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Raw, A. 2002. New combinations    and synonymics of leafcutter and mason bees of the Americas (<I>Megachile</I>,    Hymenoptera, Megachilidae) Zootaxa 71: 1-43.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000253&pid=S1519-566X200600060001200029&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Reed, E.C. 1892. Revisi&oacute;n    de las abejas chilenas descriptas en la obra de Gay. Actas Soc. Cient. Chile    2: 223-240.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000254&pid=S1519-566X200600060001200030&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Ruiz, F.P. 1923. Los himen&oacute;pteros    del Cerro San Crist&oacute;bal. Rev. Chil. Hist. Nat. 27: 99.106.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000255&pid=S1519-566X200600060001200031&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Ruiz, F.P. 1936. Himen&oacute;pteros    de la Provincia de Coquimbo. Rev. Chil. Hist. Nat. 40:169.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000256&pid=S1519-566X200600060001200032&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Ruiz, F.P. 1940. Apidologia chilena.    Parte I. Rev. Chil. Hist. Nat. 44: 282-377. </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000257&pid=S1519-566X200600060001200033&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Ruiz, F.P. &amp; C. Stuardo.    1935. Insectos colectados en las Termas de Chill&aacute;n. Rev. Chil. Hist.    Nat. 39: 313-322. </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000258&pid=S1519-566X200600060001200034&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Schrottky, C. 1903. &Eacute;num&eacute;ration    des hym&eacute;nopteres connus jusqu’ici de la R&eacute;publique Argentine,    de L’Uruguay et du Paraguay. An. Soc. Cient. Argent. 55: 80-91, 118-124, 176-186.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000259&pid=S1519-566X200600060001200035&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Schrottky, C. 1913. La distribuci&oacute;n    geogr&aacute;fica de los himen&oacute;pteros argentinos. An. Soc. Cient. Argent.    75: 115-144, 180-286.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000260&pid=S1519-566X200600060001200036&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Sichel, J. 1867. Hymenoptera    mellifera, p.143-156. In H. Saussure (ed.), Hymenoptera, in Reise der &Ouml;sterreichischen    Fregatte Novara um die Erde in den Jahren, 1857, 1858, 1859. Zoologischer Theil    2, Wien, Gerold. </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000261&pid=S1519-566X200600060001200037&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Silveira, F.G., E. Melo &amp;    E. Almeida. 2002. Abelhas brasileiras. Sistem&aacute;tica e identificac&atilde;o.    Belo Horizonte, Fernando A. Silveira, 253p.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000262&pid=S1519-566X200600060001200038&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Smith, F. 1853. Catalogue of    Hymenopterous insects in the collection of the British Museum, Part 1: 1-198.    London, British Museum.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000263&pid=S1519-566X200600060001200039&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Spinola, M. 1851. Him&eacute;nopteros,    p.153-569. In Gay, Historia f&iacute;sica y pol&iacute;tica de Chile. Zoolog&iacute;a.    Volumen 6, Maulde &amp; Renou, Paris, 572p.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000264&pid=S1519-566X200600060001200040&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Toro, H. 1986. Lista preliminar    de los &aacute;pidos chilenos (Hymenoptera: Apoidea). Acta Entomol. Chilena    13: 121-132.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000265&pid=S1519-566X200600060001200041&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Vachal, J. 1904. Voyage de M.G.A.    Baer au tucuman (Argentine) Hymenoptera mellifera (familia &uacute;nica: Apidae).    Rev. Ent. Caen 23: 9-26.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000266&pid=S1519-566X200600060001200042&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Vachal, J. 1908. Especes nouvelles    ou litigieuses d’Apidae du Aut. bassin du Parana. Rev. Ent. Caen 26: 221-244.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000267&pid=S1519-566X200600060001200043&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Vachal, J. 1909. Tableu sinoptiques    du males. Rev. Ent. Caen 28: 7-17.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000268&pid=S1519-566X200600060001200044&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><!-- ref --><p><font size="2" face="Verdana">Viana B.F. &amp; I.A. dos Santos.    2002. Bee diversity of the Coastal Sand Dunes of Brazil, 135-153. In P. Kevan    &amp; V.L.I. Fonseca (eds.), Pollinating bees - The conservation link between    agriculture and nature - Ministry of Environment / Bras&iacute;lia. 313p.</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&#160;<a href="javascript:void(0);" onclick="javascript: window.open('/scielo.php?script=sci_nlinks&ref=000269&pid=S1519-566X200600060001200045&lng=','','width=640,height=500,resizable=yes,scrollbars=1,menubar=yes,');">Links</a>&#160;]<!-- end-ref --><p>&nbsp;</p>     <p>&nbsp;</p>     <p><font size="2" face="Verdana">Received 20/X/05.    ]]></body>
+<body><![CDATA[<br>   Accepted 24/V/06.</font></p>      ]]></body><back>
+<ref-list>
+<ref id="B1">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Alfken]]></surname>
+<given-names><![CDATA[J.D.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="de"><![CDATA[Beitrag zur Insectenfauna der hawaiischen und neu-seeldischen Inseln: (Ergebnisse einer Reise nach dem Pacific.) Schauinsland 1896-97]]></article-title>
+<source><![CDATA[Zool. Jahrb. Abt. Syst. Oekol. Geogr. Tiere]]></source>
+<year>1904</year>
+<volume>19</volume>
+<page-range>561-628</page-range></nlm-citation>
+</ref>
+<ref id="B2">
+<nlm-citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Bingham]]></surname>
+<given-names><![CDATA[C.T.]]></given-names>
+</name>
+</person-group>
+<source><![CDATA[The fauna of British India, including Ceylon and Burma: Hymenoptera. Vol. I. Wasps and bees]]></source>
+<year>1897</year>
+<publisher-loc><![CDATA[London ]]></publisher-loc>
+<publisher-name><![CDATA[Taylor & Francis]]></publisher-name>
+</nlm-citation>
+</ref>
+<ref id="B3">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Claude]]></surname>
+<given-names><![CDATA[J.F.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="fr"><![CDATA[Recherches biologiques sur les Hyménoptères du Chile (Melliferes)]]></article-title>
+<source><![CDATA[Annls. Sci. Nat. Zool.]]></source>
+<year>1926</year>
+<volume>9</volume>
+<page-range>114-268</page-range></nlm-citation>
+</ref>
+<ref id="B4">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Cockerell]]></surname>
+<given-names><![CDATA[T.D.A.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="en"><![CDATA[Descriptions and records of bees: IV]]></article-title>
+<source><![CDATA[Ann. Mag. Nat. Hist.]]></source>
+<year>1905</year>
+<volume>16</volume>
+<numero>7</numero>
+<issue>7</issue>
+<page-range>392-403</page-range></nlm-citation>
+</ref>
+<ref id="B5">
+<nlm-citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Dalla Torre]]></surname>
+<given-names><![CDATA[C.G.]]></given-names>
+</name>
+</person-group>
+<source><![CDATA[Catalogus hymenopterorum hucusque descriptorum systematicus et synonymicus: X, Apidae (Anthophila)]]></source>
+<year>1896</year>
+<publisher-loc><![CDATA[EngelmannLeipzig ]]></publisher-loc>
+<publisher-name><![CDATA[Lipsiae]]></publisher-name>
+</nlm-citation>
+</ref>
+<ref id="B6">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Durante]]></surname>
+<given-names><![CDATA[S.P.]]></given-names>
+</name>
+<name>
+<surname><![CDATA[Abrahamovich]]></surname>
+<given-names><![CDATA[A.H.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="en"><![CDATA[New leafcutting bee species of the subgenus Megachile (Dasymegachile) (Hymenoptera, Megachilidae) from Magellanic Forest province, in Patagonia Argentina]]></article-title>
+<source><![CDATA[Trans. Am. Entomol. Soc.]]></source>
+<year>2002</year>
+<volume>128</volume>
+<page-range>361-366</page-range></nlm-citation>
+</ref>
+<ref id="B7">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Durante]]></surname>
+<given-names><![CDATA[S.P.]]></given-names>
+</name>
+<name>
+<surname><![CDATA[Abrahamovich]]></surname>
+<given-names><![CDATA[A.H.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="en"><![CDATA[Megachile (D.) semirufa Sichel (Hymenoptera, Megachilidae): Redescription and first Argentinean records]]></article-title>
+<source><![CDATA[Trans. Am. Entomol. Soc.]]></source>
+<year>2003</year>
+<volume>129</volume>
+<page-range>309-314</page-range></nlm-citation>
+</ref>
+<ref id="B8">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Durante]]></surname>
+<given-names><![CDATA[S.P.]]></given-names>
+</name>
+<name>
+<surname><![CDATA[Abrahamovich]]></surname>
+<given-names><![CDATA[A.H.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="en"><![CDATA[Redescription of Chaetochile as subgenus of Megachile (Hymenoptera, Megachilidae)]]></article-title>
+<source><![CDATA[Trans. Am. Entomol. Soc.]]></source>
+<year>2006</year>
+<volume>132</volume>
+<page-range>103-109</page-range></nlm-citation>
+</ref>
+<ref id="B9">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Friese]]></surname>
+<given-names><![CDATA[H.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="de"><![CDATA[Neue bienenarten aus Chile]]></article-title>
+<source><![CDATA[Zeitschr. Syst. Hymenopt. Dipterol.]]></source>
+<year>1905</year>
+<volume>5</volume>
+<page-range>137-141</page-range></nlm-citation>
+</ref>
+<ref id="B10">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Friese]]></surname>
+<given-names><![CDATA[H.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="de"><![CDATA[Die apidae (blumenwespen) von Argentina nach den reisennergebnissen der Herren A.C. Jense-Haarup und P. Jörgensen in den Jahren 1904-1907]]></article-title>
+<source><![CDATA[Flora Fauna]]></source>
+<year>1908</year>
+<volume>10</volume>
+<page-range>331-425</page-range></nlm-citation>
+</ref>
+<ref id="B11">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Friese]]></surname>
+<given-names><![CDATA[H.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="de"><![CDATA[Zur bienenfauna des südlichen Argentinien (Hym.)]]></article-title>
+<source><![CDATA[Zool. Jahrb. Abt. Syst. Oekol. Geogr. Tiere]]></source>
+<year>1910</year>
+<volume>29</volume>
+<page-range>641-660</page-range></nlm-citation>
+</ref>
+<ref id="B12">
+<nlm-citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Friese]]></surname>
+<given-names><![CDATA[H.]]></given-names>
+</name>
+</person-group>
+<source><![CDATA[Apidae I, Megachilinae: Das Tierreich]]></source>
+<year>1911</year>
+<publisher-loc><![CDATA[Berlin ]]></publisher-loc>
+<publisher-name><![CDATA[Friedländer]]></publisher-name>
+</nlm-citation>
+</ref>
+<ref id="B13">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Gazulla]]></surname>
+<given-names><![CDATA[P.]]></given-names>
+</name>
+<name>
+<surname><![CDATA[Ruiz]]></surname>
+<given-names><![CDATA[F.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="es"><![CDATA[Los insectos de la Hacienda de "Las Mercedes"]]></article-title>
+<source><![CDATA[Rev. Chil. Hist. Nat.]]></source>
+<year>1928</year>
+<volume>32</volume>
+<page-range>288-305</page-range></nlm-citation>
+</ref>
+<ref id="B14">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Gribodo]]></surname>
+<given-names><![CDATA[G.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="it"><![CDATA[Note Imenotterologiche, Nota II: Nuovi generi e nuove specie di Imenotteri antofili ed osservazioni sobra alcune specie gia conosciute]]></article-title>
+<source><![CDATA[Boll. Soc. Entomol. Ital.]]></source>
+<year>1894</year>
+<volume>26</volume>
+<page-range>76-135</page-range><page-range>262-314</page-range></nlm-citation>
+</ref>
+<ref id="B15">
+<nlm-citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Guérin-Méneville]]></surname>
+<given-names><![CDATA[F.É.]]></given-names>
+</name>
+</person-group>
+<source><![CDATA[Iconographie du règne animal de G. Cuvier: Vol. 7. Insects]]></source>
+<year>1844</year>
+<publisher-loc><![CDATA[Paris ]]></publisher-loc>
+<publisher-name><![CDATA[Baillière]]></publisher-name>
+</nlm-citation>
+</ref>
+<ref id="B16">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Herbst]]></surname>
+<given-names><![CDATA[P.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="de"><![CDATA[Durchschit der von Spinola in der von Claude Gay 1851 herausgegebenen Historia física y Política de Chile, Zoología, vol. VI beschriebenen Apidae, nebst einigen einleitenden Bemerkungen]]></article-title>
+<source><![CDATA[Dt. Ent. Z.]]></source>
+<year>1917</year>
+<page-range>3-4</page-range><page-range>257-292</page-range></nlm-citation>
+</ref>
+<ref id="B17">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Herbst]]></surname>
+<given-names><![CDATA[P.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="de"><![CDATA[Ubre einige Chilenische Hymenopteren, wlche Gribodo Erwähnt]]></article-title>
+<source><![CDATA[Stett. Ent. Zeit.]]></source>
+<year>1921</year>
+<volume>82</volume>
+<page-range>102-107</page-range></nlm-citation>
+</ref>
+<ref id="B18">
+<nlm-citation citation-type="">
+<collab>Internacional Comisión on Zoological Nomenclature. 1999. Internacional Codeo f Zoological Nomenclatura</collab>
+<source><![CDATA[Fourth edition adopted by the Internacional Union of Biological Sciences (IUBS): The International Trust for Zoological Nomenclature c/o The Natural History Museum]]></source>
+<year></year>
+<publisher-loc><![CDATA[London ]]></publisher-loc>
+</nlm-citation>
+</ref>
+<ref id="B19">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Jaffuel]]></surname>
+<given-names><![CDATA[F.]]></given-names>
+</name>
+<name>
+<surname><![CDATA[Pirion]]></surname>
+<given-names><![CDATA[A.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="es"><![CDATA[Himenópteros del valle de Marga-Marga]]></article-title>
+<source><![CDATA[Rev. Chil. Hist. Nat.]]></source>
+<year>1926</year>
+<volume>30</volume>
+<page-range>362-383</page-range></nlm-citation>
+</ref>
+<ref id="B20">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Lucas]]></surname>
+<given-names><![CDATA[H.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="fr"><![CDATA[Études pour servir à l’histoire de l’Eumenes germaini, du Megachile australis et observations sur les nids dans lesquels ont été rencontrés ces Hyménoptères]]></article-title>
+<source><![CDATA[Ann. Soc. Entomol. Fr.]]></source>
+<year>1876</year>
+<volume>6</volume>
+<page-range>291-308</page-range></nlm-citation>
+</ref>
+<ref id="B21">
+<nlm-citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Michener]]></surname>
+<given-names><![CDATA[C.D.]]></given-names>
+</name>
+</person-group>
+<source><![CDATA[The bees of the world]]></source>
+<year>2000</year>
+<publisher-loc><![CDATA[BaltimoreMaryland ]]></publisher-loc>
+<publisher-name><![CDATA[Johns Hopkins University Press]]></publisher-name>
+</nlm-citation>
+</ref>
+<ref id="B22">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Mitchell]]></surname>
+<given-names><![CDATA[T.B.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="en"><![CDATA[A contribution to the knowledgeof Neotropical Megachile with descriptions of new species]]></article-title>
+<source><![CDATA[Trans. Am. Entomol. Soc.]]></source>
+<year>1930</year>
+<volume>56</volume>
+<page-range>155-305</page-range></nlm-citation>
+</ref>
+<ref id="B23">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Mitchell]]></surname>
+<given-names><![CDATA[T.B.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="en"><![CDATA[A revision of the genus Megachile in the Nearctic Region, Part. I]]></article-title>
+<source><![CDATA[Trans. Am. Entomol. Soc.]]></source>
+<year>1934</year>
+<volume>59</volume>
+<page-range>295-361</page-range></nlm-citation>
+</ref>
+<ref id="B24">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Mitchell]]></surname>
+<given-names><![CDATA[T.B.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="en"><![CDATA[On the classification of the Neotropical Megachile (Hym.: Megachilidae)]]></article-title>
+<source><![CDATA[Ann. Entomol. Soc. Am.]]></source>
+<year>1943</year>
+<volume>34</volume>
+<page-range>656- 671</page-range></nlm-citation>
+</ref>
+<ref id="B25">
+<nlm-citation citation-type="confpro">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Mitchell]]></surname>
+<given-names><![CDATA[T.B.]]></given-names>
+</name>
+</person-group>
+<source><![CDATA[A generic revision of the Megachilinae bees of the Western hemisphere]]></source>
+<year>1980</year>
+<conf-name><![CDATA[ Contribution from the Department of Entomology North Carolina State University]]></conf-name>
+<conf-loc> </conf-loc>
+</nlm-citation>
+</ref>
+<ref id="B26">
+<nlm-citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[O’Toole]]></surname>
+<given-names><![CDATA[C.]]></given-names>
+</name>
+<name>
+<surname><![CDATA[Raw]]></surname>
+<given-names><![CDATA[A.]]></given-names>
+</name>
+</person-group>
+<source><![CDATA[Bees of the world]]></source>
+<year>1991</year>
+<publisher-loc><![CDATA[London ]]></publisher-loc>
+<publisher-name><![CDATA[Blandford]]></publisher-name>
+</nlm-citation>
+</ref>
+<ref id="B27">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Pérez]]></surname>
+<given-names><![CDATA[J.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="fr"><![CDATA[Trois Megachiles nouvelles du Chili]]></article-title>
+<source><![CDATA[Rev. Chil. Hist. Nat.]]></source>
+<year>1899</year>
+<volume>3</volume>
+<page-range>105-109</page-range></nlm-citation>
+</ref>
+<ref id="B28">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Pérez D’Angelo]]></surname>
+<given-names><![CDATA[V.]]></given-names>
+</name>
+<name>
+<surname><![CDATA[Petersen]]></surname>
+<given-names><![CDATA[J.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="es"><![CDATA[Notas sobre abejas de la Región Magallánica, Chile (Hymenoptera: Apoidea)]]></article-title>
+<source><![CDATA[Acta Ent. Chil.]]></source>
+<year>1989</year>
+<volume>15</volume>
+<page-range>257-260</page-range></nlm-citation>
+</ref>
+<ref id="B29">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Raw]]></surname>
+<given-names><![CDATA[A.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="en"><![CDATA[New combinations and synonymics of leafcutter and mason bees of the Americas (Megachile, Hymenoptera, Megachilidae)]]></article-title>
+<source><![CDATA[Zootaxa]]></source>
+<year>2002</year>
+<volume>71</volume>
+<page-range>1-43</page-range></nlm-citation>
+</ref>
+<ref id="B30">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Reed]]></surname>
+<given-names><![CDATA[E.C.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="es"><![CDATA[Revisión de las abejas chilenas descriptas en la obra de Gay]]></article-title>
+<source><![CDATA[Actas Soc. Cient. Chile]]></source>
+<year>1892</year>
+<volume>2</volume>
+<page-range>223-240</page-range></nlm-citation>
+</ref>
+<ref id="B31">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Ruiz]]></surname>
+<given-names><![CDATA[F.P.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="es"><![CDATA[Los himenópteros del Cerro San Cristóbal]]></article-title>
+<source><![CDATA[Rev. Chil. Hist. Nat.]]></source>
+<year>1923</year>
+<volume>27</volume>
+<page-range>99.106</page-range></nlm-citation>
+</ref>
+<ref id="B32">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Ruiz]]></surname>
+<given-names><![CDATA[F.P.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="es"><![CDATA[Himenópteros de la Provincia de Coquimbo]]></article-title>
+<source><![CDATA[Rev. Chil. Hist. Nat.]]></source>
+<year>1936</year>
+<volume>40</volume>
+<page-range>169</page-range></nlm-citation>
+</ref>
+<ref id="B33">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Ruiz]]></surname>
+<given-names><![CDATA[F.P.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="es"><![CDATA[Apidologia chilena: Parte I]]></article-title>
+<source><![CDATA[Rev. Chil. Hist. Nat.]]></source>
+<year>1940</year>
+<volume>44</volume>
+<page-range>282-377</page-range></nlm-citation>
+</ref>
+<ref id="B34">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Ruiz]]></surname>
+<given-names><![CDATA[F.P.]]></given-names>
+</name>
+<name>
+<surname><![CDATA[Stuardo]]></surname>
+<given-names><![CDATA[C.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="es"><![CDATA[Insectos colectados en las Termas de Chillán]]></article-title>
+<source><![CDATA[Rev. Chil. Hist. Nat.]]></source>
+<year>1935</year>
+<volume>39</volume>
+<page-range>313-322</page-range></nlm-citation>
+</ref>
+<ref id="B35">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Schrottky]]></surname>
+<given-names><![CDATA[C.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="fr"><![CDATA[Énumération des hyménopteres connus jusqu’ici de la République Argentine, de L’Uruguay et du Paraguay]]></article-title>
+<source><![CDATA[An. Soc. Cient. Argent.]]></source>
+<year>1903</year>
+<volume>55</volume>
+<page-range>80-91</page-range><page-range>118-124</page-range><page-range>176-186</page-range></nlm-citation>
+</ref>
+<ref id="B36">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Schrottky]]></surname>
+<given-names><![CDATA[C.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="es"><![CDATA[La distribución geográfica de los himenópteros argentinos]]></article-title>
+<source><![CDATA[An. Soc. Cient. Argent.]]></source>
+<year>1913</year>
+<volume>75</volume>
+<page-range>115-144</page-range><page-range>180-286</page-range></nlm-citation>
+</ref>
+<ref id="B37">
+<nlm-citation citation-type="">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Sichel]]></surname>
+<given-names><![CDATA[J.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="de"><![CDATA[Hymenoptera mellifera]]></article-title>
+<person-group person-group-type="editor">
+<name>
+<surname><![CDATA[Saussure]]></surname>
+<given-names><![CDATA[H.]]></given-names>
+</name>
+</person-group>
+<source><![CDATA[Hymenoptera, in Reise der Österreichischen Fregatte Novara um die Erde in den Jahren, 1857, 1858, 1859: Zoologischer Theil 2]]></source>
+<year>1867</year>
+<page-range>143-156</page-range><publisher-loc><![CDATA[WienGerold ]]></publisher-loc>
+</nlm-citation>
+</ref>
+<ref id="B38">
+<nlm-citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Silveira]]></surname>
+<given-names><![CDATA[F.G.]]></given-names>
+</name>
+<name>
+<surname><![CDATA[Melo]]></surname>
+<given-names><![CDATA[E.]]></given-names>
+</name>
+<name>
+<surname><![CDATA[Almeida]]></surname>
+<given-names><![CDATA[E.]]></given-names>
+</name>
+</person-group>
+<source><![CDATA[Abelhas brasileiras: Sistemática e identificacão]]></source>
+<year>2002</year>
+<publisher-loc><![CDATA[Belo Horizonte ]]></publisher-loc>
+<publisher-name><![CDATA[Fernando A. Silveira]]></publisher-name>
+</nlm-citation>
+</ref>
+<ref id="B39">
+<nlm-citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Smith]]></surname>
+<given-names><![CDATA[F.]]></given-names>
+</name>
+</person-group>
+<source><![CDATA[Catalogue of Hymenopterous insects in the collection of the British Museum, Part 1: 1-198]]></source>
+<year>1853</year>
+<publisher-loc><![CDATA[London ]]></publisher-loc>
+<publisher-name><![CDATA[British Museum]]></publisher-name>
+</nlm-citation>
+</ref>
+<ref id="B40">
+<nlm-citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Spinola]]></surname>
+<given-names><![CDATA[M.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="es"><![CDATA[Himénopteros]]></article-title>
+<person-group person-group-type="editor">
+<name>
+<surname><![CDATA[Gay]]></surname>
+</name>
+</person-group>
+<source><![CDATA[Historia física y política de Chile: Zoología]]></source>
+<year>1851</year>
+<volume>6</volume>
+<page-range>153-569</page-range><publisher-name><![CDATA[Maulde & Renou]]></publisher-name>
+</nlm-citation>
+</ref>
+<ref id="B41">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Toro]]></surname>
+<given-names><![CDATA[H.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="es"><![CDATA[Lista preliminar de los ápidos chilenos (Hymenoptera: Apoidea)]]></article-title>
+<source><![CDATA[Acta Entomol. Chilena]]></source>
+<year>1986</year>
+<volume>13</volume>
+<page-range>121-132</page-range></nlm-citation>
+</ref>
+<ref id="B42">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Vachal]]></surname>
+<given-names><![CDATA[J.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="fr"><![CDATA[Voyage de M.G.A. Baer au tucuman (Argentine) Hymenoptera mellifera (familia única: Apidae)]]></article-title>
+<source><![CDATA[Rev. Ent. Caen]]></source>
+<year>1904</year>
+<volume>23</volume>
+<page-range>9-26</page-range></nlm-citation>
+</ref>
+<ref id="B43">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Vachal]]></surname>
+<given-names><![CDATA[J.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="fr"><![CDATA[Especes nouvelles ou litigieuses d’Apidae du Aut. bassin du Parana]]></article-title>
+<source><![CDATA[Rev. Ent. Caen]]></source>
+<year>1908</year>
+<volume>26</volume>
+<page-range>221-244</page-range></nlm-citation>
+</ref>
+<ref id="B44">
+<nlm-citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Vachal]]></surname>
+<given-names><![CDATA[J.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="fr"><![CDATA[Tableu sinoptiques du males]]></article-title>
+<source><![CDATA[Rev. Ent. Caen]]></source>
+<year>1909</year>
+<volume>28</volume>
+<page-range>7-17</page-range></nlm-citation>
+</ref>
+<ref id="B45">
+<nlm-citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname><![CDATA[Viana]]></surname>
+<given-names><![CDATA[B.F.]]></given-names>
+</name>
+<name>
+<surname><![CDATA[dos Santos]]></surname>
+<given-names><![CDATA[I.A.]]></given-names>
+</name>
+</person-group>
+<article-title xml:lang="en"><![CDATA[Bee diversity of the Coastal Sand Dunes of Brazil]]></article-title>
+<person-group person-group-type="editor">
+<name>
+<surname><![CDATA[Kevan]]></surname>
+<given-names><![CDATA[P.]]></given-names>
+</name>
+<name>
+<surname><![CDATA[Fonseca]]></surname>
+<given-names><![CDATA[V.L.I.]]></given-names>
+</name>
+</person-group>
+<source><![CDATA[Pollinating bees: The conservation link between agriculture and nature]]></source>
+<year>2002</year>
+<page-range>135-153</page-range><publisher-loc><![CDATA[Brasília ]]></publisher-loc>
+<publisher-name><![CDATA[Ministry of Environment]]></publisher-name>
+</nlm-citation>
+</ref>
+</ref-list>
+</back>
+</article>
