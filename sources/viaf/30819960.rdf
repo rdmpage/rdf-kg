@@ -1,0 +1,120 @@
+<rdf:RDF xmlns:pto="http://www.productontology.org/id/" xmlns:schema="http://schema.org/" xmlns:genont="http://www.w3.org/2006/gen/ont#" xmlns:re="http://oclcsrw.google.code/redirect" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bgn="http://bibliograph.net/" xmlns:umbel="http://umbel.org/umbel#">
+    <rdf:Description rdf:about="http://viaf.org/viaf/30819960/">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document" />
+        <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource" />
+        <void:inDataset xmlns:void="http://rdfs.org/ns/void#" rdf:resource="http://viaf.org/viaf/data" />
+        <foaf:primaryTopic xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/30819960" />
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/30819960">
+        <dcterms:identifier xmlns:dcterms="http://purl.org/dc/terms/">30819960</dcterms:identifier>
+        <rdf:type rdf:resource="http://schema.org/Person" />
+        <rdf:type rdf:resource="http://schema.org/Person" />
+        <rdf:type rdf:resource="http://schema.org/Person" />
+        <rdf:type rdf:resource="http://schema.org/Person" />
+        <rdf:type rdf:resource="http://schema.org/Person" />
+        <rdf:type rdf:resource="http://schema.org/Person" />
+        <rdf:type rdf:resource="http://schema.org/Person" />
+        <rdf:type rdf:resource="http://schema.org/Person" />
+        <schema:birthDate>1918-10-21</schema:birthDate>
+        <schema:deathDate>1995-08-10</schema:deathDate>
+        <schema:name xml:lang="hr-HR">Thomas E. Bowman</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr-HR">Thomas E. Bowman</skos:prefLabel>
+        <schema:name xml:lang="hr-HR">Thomas E. Bowman</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr-HR">Thomas E. Bowman</skos:prefLabel>
+        <schema:name xml:lang="en-US">Thomas E. Bowman</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-US">Thomas E. Bowman</skos:prefLabel>
+        <schema:name xml:lang="en-US">Thomas E. Bowman</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-US">Thomas E. Bowman</skos:prefLabel>
+        <schema:name xml:lang="fr-FR">Thomas E. Bowman</schema:name>
+        <schema:name xml:lang="fr-FR">Thomas E. Bowman</schema:name>
+        <schema:name xml:lang="pl-PL">Thomas E. Bowman</schema:name>
+        <schema:name xml:lang="pl-PL">Thomas E. Bowman</schema:name>
+        <schema:name xml:lang="cs-CZ">Thomas E. Bowman</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs-CZ">Thomas E. Bowman</skos:prefLabel>
+        <schema:name xml:lang="cs-CZ">Thomas E. Bowman</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs-CZ">Thomas E. Bowman</skos:prefLabel>
+        <schema:name xml:lang="nl-NL">Thomas Elliot Bowman</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl-NL">Thomas Elliot Bowman</skos:prefLabel>
+        <schema:name xml:lang="nl-NL">Thomas Elliot Bowman</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl-NL">Thomas Elliot Bowman</skos:prefLabel>
+        <schema:name xml:lang="en">Thomas Elliot Bowman III</schema:name>
+        <schema:name xml:lang="en">Thomas Elliot Bowman III</schema:name>
+        <schema:name xml:lang="en">Thomas Elliot Bowman III</schema:name>
+        <schema:name xml:lang="en">Thomas Elliot Bowman III</schema:name>
+        <schema:alternateName>Thomas Elliot Bowman</schema:alternateName>
+        <schema:givenName>Thomas Elliot</schema:givenName>
+        <schema:familyName>Bowman</schema:familyName>
+        <schema:alternateName>Thomas Elliot Bowman</schema:alternateName>
+        <schema:givenName>Thomas Elliot</schema:givenName>
+        <schema:familyName>Bowman</schema:familyName>
+        <schema:alternateName>Thomas Elliot Bowman III</schema:alternateName>
+        <schema:alternateName>Thomas Elliot Bowman III</schema:alternateName>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://id.loc.gov/authorities/names/n79100501" />
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://www.idref.fr/074132768/id" />
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://isni.org/isni/0000000082148527" />
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://www.wikidata.org/entity/Q7789322" />
+        </schema:sameAs>
+        <schema:sameAs rdf:resource="http://dbpedia.org/resource/Thomas_Elliot_Bowman_III" />
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NSK%7C000036368#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NSK" />
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bowman, Thomas E.</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/30819960" />
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++79100501#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/LC" />
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bowman, Thomas E.</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/30819960" />
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C074132768#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/SUDOC" />
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bowman, Thomas E. III, 1918-1995</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/30819960" />
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn+2012166842#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NUKAT" />
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bowman, Thomas E. (1918-1995).</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bowman, Thomas Elliot.</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/30819960" />
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cjx20050629008#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NKC" />
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bowman, Thomas E. (Thomas Elliot), 1918-1995</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/30819960" />
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NTA%7C06903303X#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NTA" />
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bowman, Thomas Elliot, 1918-1995</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/30819960" />
+        <schema:url>http://opc4.kb.nl/PPN?PPN=06903303X</schema:url>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/ISNI%7C0000000082148527#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/ISNI" />
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Thomas Elliot Bowman III</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bowman, Thomas Elliot</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Thomas Elliot Bowman III American carcinologist</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/30819960" />
+    </rdf:Description>
+</rdf:RDF>

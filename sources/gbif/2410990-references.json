@@ -1,0 +1,41 @@
+{
+	"offset": 0,
+	"limit": 20,
+	"endOfRecords": true,
+	"results": [{
+		"citation": "Chinese Academy of Fishery Sciences (2003) Chinese aquatic germplasm resources database.: http://zzzy.fishinfo.cn",
+		"type": "vernacular",
+		"source": "Catalogue of Life",
+		"sourceTaxonKey": 119793843
+	}, {
+		"citation": "Froese, R. & D. Pauly (Editors). (2016). FishBase. World Wide Web electronic publication.",
+		"type": "additional source",
+		"source": "World Register of Marine Species",
+		"sourceTaxonKey": 105990126
+	}, {
+		"citation": "Kim, I.S., Y. Choi, C.L. Lee, Y.J. Lee, B.J. Kim and J.H. Kim (2005) Illustrated book of Korean fishes.: Kyo-Hak Pub Co. Seoul. 615p. (in Korean).",
+		"type": "vernacular",
+		"source": "Catalogue of Life",
+		"sourceTaxonKey": 119793843
+	}, {
+		"citation": "Liu J.Y. [Ruiyu] (ed.). (2008). Checklist of marine biota of China seas. <em>China Science Press.</em> 1267 pp.",
+		"type": "additional source",
+		"source": "World Register of Marine Species",
+		"sourceTaxonKey": 105990126
+	}, {
+		"citation": "Masuda, H., K. Amaoka, C. Araga, T. Uyeno and T. Yoshino (1984) The fishes of the Japanese Archipelago. Vol. 1.: Tokai University Press, Tokyo, Japan. 437 p. (text).",
+		"type": "vernacular",
+		"source": "Catalogue of Life",
+		"sourceTaxonKey": 119793843
+	}, {
+		"citation": "Roberts, T.R. (1984) Skeletal anatomy and classification of the neotenic Asian salmoniform superfamily Salangoidea (icefishes or noodlefishes).: Proc. Calif. Acad. Sci. 43(13):179-220.",
+		"type": "taxon",
+		"source": "Catalogue of Life",
+		"sourceTaxonKey": 119793843
+	}, {
+		"citation": "Wu, H.L., K.-T. Shao and C.F. Lai (eds.) (1999) Latin-Chinese dictionary of fishes names.: The Sueichan Press, Taiwan. 1028 p.",
+		"type": "vernacular",
+		"source": "Catalogue of Life",
+		"sourceTaxonKey": 119793843
+	}]
+}
