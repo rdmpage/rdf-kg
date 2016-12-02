@@ -83,6 +83,34 @@ function get_occurrence($id)
 	return $data;
 }
 
+//----------------------------------------------------------------------------------------
+// GBIF API
+function get_gbif_species($id)
+{
+	$data = null;
+	
+	$url = 'http://api.gbif.org/v1/species/' . $id;
+
+	$json = get($url);
+	
+	if ($json != '')
+	{
+		$obj = json_decode($json);
+		if ($obj)
+		{
+			$data = new stdclass;
+			$data->{'message-format'} = 'gbif-species';
+			$data->message = $obj;
+			
+			$data->links = array();
+			
+			// synonyms, references, types, taxon names, etc.?			
+									
+		}
+	}
+	
+	return $data;
+}
 
 //----------------------------------------------------------------------------------------
 function gbif_fetch_occurrence($id)
@@ -91,8 +119,28 @@ function gbif_fetch_occurrence($id)
 	return $data;
 }
 
+//----------------------------------------------------------------------------------------
+function gbif_fetch_species($id)
+{
+	$data = get_gbif_species($id);
+	return $data;
+}
+
 
 // test cases
+
+if (0)
+{
+	$id = 3257628;
+	
+	$data = gbif_fetch_species($id);
+	
+	print_r($data);
+	
+	echo json_encode($data);
+	
+	
+}
 
 if (0)
 {

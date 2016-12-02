@@ -3,6 +3,7 @@
 // Resolve one object
 require_once(dirname(dirname(__FILE__)) . '/documentstore/couchsimple.php');
 
+require_once (dirname(__FILE__) . '/bhl/fetch.php');
 require_once (dirname(__FILE__) . '/bold/fetch.php');
 require_once (dirname(__FILE__) . '/crossref/fetch.php');
 require_once (dirname(__FILE__) . '/gbif/fetch.php');
@@ -16,6 +17,14 @@ require_once (dirname(__FILE__) . '/worldcat/fetch.php');
 function classify_url($url)
 {
 	$identifier = null;
+	
+	// BHL
+	if (preg_match('/http[s]?:\/\/(www\.)?biodiversitylibrary.org\/page\/(?<id>.*)$/', $url, $m))
+	{
+		$identifier = new stdclass;
+		$identifier->namespace = 'BHL_PAGE';
+		$identifier->id = $m['id'];	
+	}
 	
 	// BOLD
 	if (preg_match('/http[s]?:\/\/bins.boldsystems.org\/index.php\/Public_RecordView\?processid=(?<id>.*)$/', $url, $m))
@@ -38,6 +47,13 @@ function classify_url($url)
 	{
 		$identifier = new stdclass;
 		$identifier->namespace = 'GBIF_OCCURRENCE';
+		$identifier->id = $m['id'];
+	}
+
+	if (preg_match('/http[s]?:\/\/(www\.)?gbif.org\/species\/(?<id>\d+)$/', $url, $m))
+	{
+		$identifier = new stdclass;
+		$identifier->namespace = 'GBIF_SPECIES';
 		$identifier->id = $m['id'];
 	}
 	
@@ -88,6 +104,10 @@ function resolve_url($url)
 	{	
 		switch ($identifier->namespace)
 		{	
+			case 'BHL_PAGE':
+				$data = bhl_page_fetch($identifier->id);
+				break;
+		
 			case 'BOLD':
 				$data = barcode_fetch($identifier->id);
 				break;
@@ -98,6 +118,10 @@ function resolve_url($url)
 				
 			case 'GBIF_OCCURRENCE':
 				$data = gbif_fetch_occurrence($identifier->id);
+				break;
+
+			case 'GBIF_SPECIES':
+				$data = gbif_fetch_species($identifier->id);
 				break;
 
 			case 'GENBANK':

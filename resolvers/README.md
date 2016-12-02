@@ -1,5 +1,13 @@
 # Resolvers
 
+## MIME types
+
+endnote - application/x-endnote-refer
+Mendeley documents - application/vnd.mendeley-document.1+json
+RIS - application/x-research-info-systems
+CiteProc -application/vnd.citationstyles.csl+json
+ 
+
 
 ## PubMed
 
