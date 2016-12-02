@@ -260,9 +260,16 @@ $start_time = date("c", time() - (60 * 60)); // hour
 //$start_time = date("c", time() - (60 * 10)); // last ten minutes
 
 //add_modified('crossref', $start_time);
-add_modified('gbif-occurrence', $start_time);
+// add_modified('gbif-occurrence', $start_time);
 //add_modified('bold', $start_time);
 //add_modified('genbank', $start_time);
+
+//add_modified('bhl', $start_time);
+
+//add_modified('gbif-species', $start_time);
+
+// IPNI example
+add_modified('orcid', $start_time);
 
 
 //add_view('mendeley_group');

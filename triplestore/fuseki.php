@@ -52,13 +52,21 @@ function upload_from_file($triples_filename)
 
 //----------------------------------------------------------------------------------------
 // $data is a string of triples
-function upload_data($data)
+function upload_data($data, $graph = '')
 {
 	global $config;
 	
 	$url = $config['fuseki-url'] . $config['fuseki-dataset'];
 	
-	echo $url . "\n";
+	if ($graph == '')
+	{
+	}
+	else
+	{
+		$url .= '?graph=' . $graph;
+	}
+	
+	echo "\n" . __LINE__ . " URL = $url\n";
 
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $url);
@@ -184,7 +192,7 @@ if (0)
 
 }
 
-if (1)
+if (0)
 {
 	$sparql = 'SELECT *
 WHERE {

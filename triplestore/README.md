@@ -280,6 +280,41 @@ WHERE {
 
 ```
 
+
+### Find BHL page that has a name
+
+```
+
+```
+
+### Find BHL pages that have a pair of names (potential synonyms)
+
+```
+SELECT ?page
+WHERE {
+?body1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> “Salanx ariakensis” . 
+?annotation1  <http://www.w3.org/ns/oa#hasBody> ?body1 .
+?annotation1 <http://www.w3.org/ns/oa#hasTarget> ?target1 .
+?target1 <http://www.w3.org/ns/oa#hasScope> ?page . 
+
+?body2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> “Parasalanx annitae” . 
+?annotation2  <http://www.w3.org/ns/oa#hasBody> ?body2 .
+?annotation2 <http://www.w3.org/ns/oa#hasTarget> ?target2 .
+?target2 <http://www.w3.org/ns/oa#hasScope> ?page . 
+}
+```
+
+### How many objects of each type do we have?
+
+```
+SELECT ?type (COUNT(?type) as ?typeCount)
+WHERE {
+  ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .
+}
+GROUP BY ?type
+```
+
+
 ## Examples of data to play with
 
 ### GBIF dataset BDJ DOI linked to funder
@@ -297,6 +332,7 @@ Need to parse the GBIF database metadata to get this
 10.1038/ngeo1209
 
 http://www.gbif.org/dataset/0db1837b-0125-4242-a018-9913da96e68b
+
 
 
 
