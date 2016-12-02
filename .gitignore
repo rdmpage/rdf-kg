@@ -2,5 +2,7 @@
 
 junk
 
+resolvers/orcid/cookie.txt
+
 triplestore/*.nt
 triplestore/data/*

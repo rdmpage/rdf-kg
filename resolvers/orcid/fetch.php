@@ -3,6 +3,8 @@
 // ORCID API
 
 require_once (dirname(dirname(__FILE__)) . '/lib.php');
+require_once (dirname(dirname(__FILE__)) . '/shared/crossref.php');
+
 
 /*
   Problems with ORCID:
@@ -162,6 +164,32 @@ function orcid_works($obj)
 						$reference->url = $urls[0];
 					}
 				}
+				
+				// look for DOI if not present
+				if (!isset($reference->doi))
+				{
+					$citation = '';
+					if (isset($reference->title))
+					{
+						$citation = $reference->title;
+					}
+					if (isset($reference->journal))
+					{
+						$citation .= ' ' . $reference->journal;
+					}
+
+					if ($citation != '')
+					{		
+						echo "Looking up \"$citation\"... ";
+						$result = crossref_search($citation);
+						if (isset($result->doi))
+						{
+							echo $result->doi;
+							$reference->doi = $result->doi;
+						}
+						echo "\n";
+					}
+				}
 
 				// keep track of these for now
 				$works[] = $reference;
@@ -253,11 +281,17 @@ function orcid_fetch($orcid)
 	return $data;
 }
 
-//orcid_fetch('0000-0002-7573-096X');
 
-//orcid_fetch('0000-0002-7941-346X');
+if (0)
+{
+	//orcid_fetch('0000-0002-7573-096X');
 
-//orcid_fetch('0000-0001-8916-5570');
+	//orcid_fetch('0000-0002-7941-346X');
+
+	//orcid_fetch('0000-0001-8916-5570');
+
+	orcid_fetch('0000-0003-0566-372X');
+}
 
 
 ?>
