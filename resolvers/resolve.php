@@ -50,6 +50,7 @@ function classify_url($url)
 		$identifier->id = $m['id'];
 	}
 
+	// GBIF species
 	if (preg_match('/http[s]?:\/\/(www\.)?gbif.org\/species\/(?<id>\d+)$/', $url, $m))
 	{
 		$identifier = new stdclass;

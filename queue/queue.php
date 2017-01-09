@@ -159,7 +159,12 @@ function fetch($item, $add_links = false)
 				{
 					$add_links = true;
 				}
-				
+
+				// GBIF species
+				if (preg_match('/(www\.)?gbif.org\/species/', $item->value))
+				{
+					$add_links = true;
+				}
 				
 				if ($add_links)
 				{

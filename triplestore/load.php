@@ -20,16 +20,30 @@ while (!$done)
 	// ORCID triples
 	$url = 'http://127.0.0.1:5984/rdf_kg/_design/orcid/_list/n-triples/nt';
 
+	// IPNI triples
+	$url = 'http://localhost/~rpage/ipni-names/ipni.nt';
+
+	// ORCID example
+	$url = 'http://127.0.0.1:5984/rdf_kg/_design/orcid/_list/n-triples/nt';
+	$url .= '?key=' . urlencode("\"http://orcid.org/0000-0001-7436-0939\"");
 	
+	// CrossRef triples
+	$url = 'http://127.0.0.1:5984/rdf_kg/_design/crossref/_list/n-triples/nt';
+
 	$url .= '?limit=' . $rows_per_page . '&skip=' . $skip;
 	
 	$data = get($url);
+	
+	//echo $url
+	//echo $data;
 	
 	$rows = explode("\n", $data);
 	$n = count($rows);
 	
 	$skip += $rows_per_page;
 	$done = ($n < $rows_per_page);
+	
+	//$done = true;
 	
 		
 	//echo $data;

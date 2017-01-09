@@ -67,3 +67,15 @@ WHERE
 }
 ```
 
+```
+
+SELECT *
+WHERE
+{  
+  
+  { ?s <http://purl.uniprot.org/core/scientificName> ?o } 
+  UNION { GRAPH ?g { ?s <http://purl.uniprot.org/core/scientificName> ?o } }
+}
+
+```
+

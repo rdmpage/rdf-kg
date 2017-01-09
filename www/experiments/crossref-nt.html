@@ -766,6 +766,12 @@ function message(doc) {
 			// if no ORCID then we have a bnode, so create an identifier to make this addressable
 		  case 'author':
 			var n = doc.message[i].length;
+			
+			// store an ordered list of authors as well
+			
+			//http://purl.org/ontology/bibo/contributorList
+			
+			
 			for (var j = 0; j < n; j++) {
 			  var author_id = '';
 

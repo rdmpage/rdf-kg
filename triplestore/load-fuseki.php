@@ -5,6 +5,7 @@
 
 
 $dataset = 'data';
+$dataset = 'dataone';
 
 //$url = 'http://rdmpage-jena-fuseki.sloppy.zone/' . $dataset;
 $url = 'http://rdmpage-jena-fuseki-v.sloppy.zone/' . $dataset;
@@ -15,6 +16,12 @@ $password = '5eD9digriOtft2J';
 
 $triples_filename = dirname(__FILE__) . '/mendeley_group.nt';
 $triples_filename = dirname(__FILE__) . '/crossref.nt';
+
+$triples_filename = '/Users/rpage/Sites/ipni-names/ipni.nt';
+
+
+
+
 $filename = basename($triples_filename);
 
 $data = array(

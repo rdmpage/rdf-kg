@@ -104,12 +104,44 @@ function get_gbif_species($id)
 			
 			$data->links = array();
 			
-			// synonyms, references, types, taxon names, etc.?			
+			// synonyms, references, types, taxon names, etc.?	
+			
+			// type specimens
+			$data->message->types = get_gbif_species_types($id);	
+			$data->links = array_merge($data->message->types);
 									
 		}
 	}
 	
 	return $data;
+}
+
+//----------------------------------------------------------------------------------------
+// GBIF API get type specimens for species
+function get_gbif_species_types($id)
+{
+	$types = array();
+	
+	$url = 'http://api.gbif.org/v1/occurrence/search?taxonKey=' . $id . '&typeStatus=*';
+
+	$json = get($url);
+	
+	if ($json != '')
+	{
+		$obj = json_decode($json);
+		if ($obj)
+		{
+			if (isset($obj->results))
+			{
+				foreach ($obj->results as $occurrence)
+				{
+					$types[] = 'http://www.gbif.org/occurrence/' . $occurrence->key;
+				}
+			}
+		}
+	}
+	
+	return $types;
 }
 
 //----------------------------------------------------------------------------------------
@@ -132,6 +164,9 @@ function gbif_fetch_species($id)
 if (0)
 {
 	$id = 3257628;
+	
+	$id = 7454391; // Eugenia guajavoides
+	$id = 7358471; // Stylosanthes falconensis
 	
 	$data = gbif_fetch_species($id);
 	
