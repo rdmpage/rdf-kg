@@ -98,20 +98,45 @@ $filename = 'elife00778.xml';
 
 //$filename = '561352.xml'; // no
 
-$filename = 'pone.0024047.nxml'; // problem with citation clicking
-$filename = '1756-3305-6-221.nxml';
+if (1)
+{
+	$basedir = dirname(__FILE__);
+	$filename = $basedir . '/' . 'pone.0024047.nxml'; // problem with citation clicking
+}
+
+if (1)
+{
+	$basedir = dirname(__FILE__);
+	$filename = $basedir . '/' . 'Nota Lepidopterologica.xml'; 
+}
+
+if (1)
+{
+	$basedir = dirname(__FILE__);
+	$filename = $basedir . '/' . 'phytokeys-1426.xml'; 
+}
+
+
+//$filename = '1756-3305-6-221.nxml';
 
 /*
 $filename = 'J_Insect_Sci_2015_Apr_15_15(1)_47/iev028.nxml';
 */
-$basedir = 'Zookeys_2014_Mar_25_(393)_1-107';
-$filename = $basedir . '/' . 'zookeys-393-001.nxml';
 
-/*
-$basedir = 'J_Insect_Sci_2015_Apr_15_15(1)_47';
-$filename = $basedir . '/' . 'iev028.nxml';
+if (1)
+{
+	$basedir = 'Zookeys_2014_Mar_25_(393)_1-107';
+	$filename = $basedir . '/' . 'zookeys-393-001.nxml';
+}
 
-*/
+
+if (0)
+{
+	$basedir = 'J_Insect_Sci_2015_Apr_15_15(1)_47';
+	$filename = $basedir . '/' . 'iev028.nxml';
+}
+
+
 
 $xml = file_get_contents($filename);
 
