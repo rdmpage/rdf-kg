@@ -1,0 +1,121 @@
+{
+  "@context": {
+    "ark": "http://ark.bnf.fr/ark:/12148/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "bio": "http://vocab.org/bio/0.1/",
+    "bnf-onto": "http://data.bnf.fr/ontology/bnf-onto/",
+    "bnfroles": "http://data.bnf.fr/vocabulary/roles/",
+    "dbpedia": "http://dbpedia.org/",
+    "dbpediaowl": "http://dbpedia.org/ontology/",
+    "dbprop": "http://dbpedia.org/property/",
+    "dcdoc": "http://dublincore.org/documents/",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "frbr": "http://rdvocab.info/uri/schema/FRBRentitiesRDA/",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "gn": "http://www.geonames.org/ontology/ontology_v3.1.rdf/",
+    "ign": "http://data.ign.fr/ontology/topo.owl/",
+    "insee": "http://rdf.insee.fr/geo/",
+    "isni": "http://isni.org/ontology#",
+    "marcrel": "http://id.loc.gov/vocabulary/relators/",
+    "mo": "http://musicontology.com/",
+    "og": "http://ogp.me/ns#",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdagroup1elements": "http://rdvocab.info/Elements/",
+    "rdagroup2elements": "http://rdvocab.info/ElementsGr2/",
+    "rdarelationships": "http://rdvocab.info/RDARelationshipsWEMI/",
+    "rdarole": "http://rdvocab.info/roles/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "time": "http://www.w3.org/TR/owl-time/",
+    "xfoaf": "http://www.foafrealm.org/xfoaf/0.1/"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.bnf.fr/ark:/12148/cb327304446",
+      "@type": "skos:Concept",
+      "bnf-onto:FRBNF": 32730444,
+      "dcterms:created": "1997-07-01",
+      "dcterms:modified": "2013-06-07",
+      "foaf:focus": {
+        "@id": "http://data.bnf.fr/ark:/12148/cb327304446#frbr:Work"
+      },
+      "rdfs:seeAlso": {
+        "@id": "http://catalogue.bnf.fr/ark:/12148/cb327304446"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "fr",
+          "@value": "Bull. mens. Soc. linn. Paris"
+        },
+        {
+          "@language": "fr",
+          "@value": "Bulletin mensuel de la Société linnéenne de Paris"
+        }
+      ],
+      "skos:prefLabel": {
+        "@language": "fr",
+        "@value": "Bulletin mensuel de la Société linnéenne de Paris"
+      }
+    },
+    {
+      "@id": "http://data.bnf.fr/ark:/12148/cb327304446#frbr:Work",
+      "@type": [
+        "frbr:Work",
+        "bibo:Periodical"
+      ],
+      "bibo:issn": "1954-6483",
+      "bnf-onto:firstYear": 1874,
+      "bnf-onto:lastYear": 1899,
+      "bnfroles:r330": {
+        "@id": "http://data.bnf.fr/ark:/12148/cb123008721#foaf:Person"
+      },
+      "bnfroles:r70": {
+        "@id": "http://data.bnf.fr/ark:/12148/cb155153259#foaf:Organization"
+      },
+      "dcterms:contributor": [
+        {
+          "@id": "http://data.bnf.fr/ark:/12148/cb155153259#foaf:Organization"
+        },
+        {
+          "@id": "http://data.bnf.fr/ark:/12148/cb123008721#foaf:Person"
+        }
+      ],
+      "dcterms:created": "1874",
+      "dcterms:description": "3 vol. (1328-81, 128 p.) : 23 cm puis 25 cm",
+      "dcterms:language": {
+        "@id": "http://id.loc.gov/vocabulary/iso639-2/fre"
+      },
+      "dcterms:publisher": "Paris : Impr. E. Duruy , 1874-1899",
+      "dcterms:replaces": {
+        "@id": "http://data.bnf.fr/ark:/12148/cb326826710#frbr:Work"
+      },
+      "dcterms:title": {
+        "@language": "fr",
+        "@value": "Bulletin mensuel de la Société linnéenne de Paris"
+      },
+      "marcrel:aut": {
+        "@id": "http://data.bnf.fr/ark:/12148/cb155153259#foaf:Organization"
+      },
+      "marcrel:pbd": {
+        "@id": "http://data.bnf.fr/ark:/12148/cb123008721#foaf:Person"
+      },
+      "owl:sameAs": {
+        "@id": "http://data.bnf.fr/ark:/12148/cb327304446#about"
+      },
+      "rdagroup1elements:note": {
+        "@language": "fr",
+        "@value": "Les procès-verbaux des séances et les travaux antérieurs (1866 à 1873) ont paru dans : \"Adansonia\". - Le 1er numéro a donné lieu à une réimpression s.d. [1896]"
+      },
+      "rdagroup1elements:numberingOfIssue": "[N° 1 (mars/avril 1874)] - n° 167 (15 octobre 1897). nouvelle série, n° 1 (janvier 1898) - n° 15 (30 novembre 1899)",
+      "rdagroup1elements:placeOfPublication": "Paris",
+      "rdagroup1elements:publishersName": "Impr. E. Duruy",
+      "rdfs:label": "Bulletin mensuel de la Société linnéenne de Paris"
+    }
+  ]
+}
