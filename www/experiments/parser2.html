@@ -154,7 +154,8 @@ this.AUTHOR_TEAM = this.AUTHOR + "?(?:(?: ?ex\\.? | & | et | in |, ?|; ?|\\.)(?:
 	
 
 
-		var pattern = "^" + 
+		//var pattern = "^" + 
+		var pattern = 
 		//"#1 genus\/monomial\n" .
 		"(" + this.MONOMIAL + ")"
 		
@@ -214,7 +215,7 @@ this.AUTHOR_TEAM = this.AUTHOR + "?(?:(?: ?ex\\.? | & | et | in |, ?|; ?|\\.)(?:
       	
       	
       	//var m = string.match(RegExp(pattern, "g"));
-      	var m = RegExp(pattern).exec(string);
+      	var m = RegExp(pattern, "g").exec(string);
     	if (m)
     	{
     		console.log(JSON.stringify(m, null, 2));
@@ -279,6 +280,9 @@ n = 'Myopterus daubentonii Thomas, 1915';
 //n = 'Stalix versluysi (Weber, 1913)';
 
 //n = 'Rivulus torrenticola Vermeulen & Isbrücker, 2000';
+
+//n = "A new genus, Indoxysticus gen. nov., type species Xysticus minutus Tikader, 1960, is proposed and diagnosed.";
+//n = "Xysticus minutus Tikader, 1960";
 
 
 document.getElementById("name").innerHTML = n;

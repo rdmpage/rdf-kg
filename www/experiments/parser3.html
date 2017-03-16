@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Taxon name parser</title>
+</head>
+<body>
+<p id="name"></p>
+<p id="result"></p>
+
+<script>
+
+function capitalize(s){
+	console.log(s);
+    return s.toLowerCase().replace( /(?:^|\\s)\S/g, function(a){ return a.toUpperCase(); } );
+};
+
+function Parser()
+{
+  
+
+}
+
+//--------------------------------------------------------------------------------------------------
+Parser.prototype.normalise = function(string) 
+{
+	return string;
+
+}
+
+
+
+//--------------------------------------------------------------------------------------------------
+Parser.prototype.parse = function(string) 
+{
+	var pattern = "([A-Z][a-z]+)( gen\. nov\.)?"
+      	
+      	var regexGroups = { name: 1};
+      	
+      	
+      	console.log(pattern);
+      	console.log(string);
+      	
+      	
+      	//var m = string.match(RegExp(pattern, "g"));
+      	
+      	var p = RegExp(pattern, "g")
+      	var m;
+      	var result = [];
+      	while (m = p.exec(string)) {
+    		console.log(JSON.stringify(m, null, 2));
+    		
+    		
+    		
+    		for (var i in regexGroups) {
+    		console.log(i);
+    		   if (m[regexGroups[i]]) {
+    		   
+    		     result.push(m[regexGroups[i]]);
+    		   
+    		   }
+    		
+    		
+    		}
+    		
+
+
+
+			//console.log(JSON.stringify(result, null, 2));
+			
+			
+
+    	
+    	}
+      	document.getElementById("result").innerHTML = '<pre>' + JSON.stringify(result, null, 2) + '</pre>';
+
+
+
+
+}
+
+
+var p = new Parser();
+var n = 'Myopterus daubentonii subsp. albatus Thomas, 1915';
+
+//n = 'Scepomycter rubehoensis Bowie-Fjeldsa & Kiure SKÖAR 2009';
+
+n = 'ARTHOPYRENIA hyalospora X Hydnellum scrobiculatum ÖSKAR 1999';
+//n = 'Uromastyx alfredschmidti WILMS & BÖHME, 2001';
+//n = 'Xiphocolaptes carajaensis (Silva, Novaes & Oren 2002)';
+n = 'Ficedula beijingnica Guangmei, Zhang, Yaniun et Dongsheng, 2000';
+//n = 'Helicobacter pylori (Marshall et al. 1985) Goodwin et al. 1989';
+
+n = 'Aedes (Stegomyia) opok Corbet & van Someren 1962';
+//n= 'Hylochoerus meinertzhageni Thomas, 1904';
+
+
+
+//n = 'Gonocephalus borneensis — MANTHEY & GROSSMANN 1997: 179';
+n = 'Dennyus (Collodennyus) distinctus timjonesi Clayton, Price & Page, 1996';
+
+//n = 'Myopterus daubentonii subsp. albatus Thomas, 1915';
+n = 'Myopterus daubentonii Thomas, 1915';
+
+//n = 'Aedes (Stegomyia) opok';
+//n = 'Aedes (Stegomyia) opok Corbet & van Someren 1962';
+//n = 'Myopterus daubentonii subsp. albatus Thomas, 1915';
+//n = 'Myopterus daubentonii albatus Thomas, 1915';
+
+//n = 'Axelrodia riesei Géry, 1966';
+//n = 'Stalix versluysi (Weber, 1913)';
+
+//n = 'Rivulus torrenticola Vermeulen & Isbrücker, 2000';
+
+n = "A new genus, Indoxysticus gen. nov., type species Xysticus minutus Tikader, 1960, is proposed and diagnosed.";
+//n = "Xysticus minutus Tikader, 1960";
+
+
+document.getElementById("name").innerHTML = n;
+
+
+
+n = p.normalise(n);
+p.parse(n);
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
